@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>D3 Histogram</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="svgContainer">
+    <div class="container">
+      <div class="graph" id="pageSection">
+        <h2 class="graph__title">Books Read by Page Count</h2>
+        <p class="graph__data" id="avgPages">Average Pages: 0 & Total Pages: 0</p>
+      </div>
+      <svg id="pages"></svg>
+    </div>
+    <div class="container">
+      <div class="graph" id="myRatingSection">
+        <h2 class="graph__title">Books Read by My Rating</h2>
+        <p class="graph__data" id="avgMyRating">My Average Rating: 0</p>
+      </div>
+      <svg id="myRating"></svg>
+    </div>
+    <div class="container">
+      <div class="graph" id="avgRatingSection">
+        <h2 class="graph__title">Books Read by Average Rating</h2>
+        <p class="graph__data" id="avgTotalRating">Goodreads Average Rating: 0</p>
+      </div>   
+      <svg id="avgRating"></svg>
+    </div>
+    <div class="container">
+      <div class="graph" id="pageRatingSection">
+        <h2 class="graph__title">Pages vs Ratings</h2>
+        <p>Color scale: Darker = higher personal rating</p>
+      </div>   
+      <svg id="pageRating"></svg>
+    </div> 
+    
+    
+  </div>
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="bookData.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
