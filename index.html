@@ -6,7 +6,39 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="svgContainer">
+  <div id="buttons">
+    <label for="dataSelection">Select an option</label>
+    <select name="dataSelection" id="dataSelection" class="dataDrop">            
+        <option value="graphBtn"  selected>Graphs</option>
+        <option value="fiveStarBtn"  >5 Star Books</option>
+        <option value="highGRBtn"  >4.5+ GR Rating</option>
+        <option value="years" >2000</option>
+        <option value="years" >2001</option>
+        <option value="years" >2002</option>
+        <option value="years" >2003</option>
+        <option value="years" >2004</option>
+        <option value="years" >2005</option>
+        <option value="years" >2006</option>
+        <option value="years" >2007</option>
+        <option value="years" >2008</option>
+        <option value="years" >2009</option>
+        <option value="years" >2010</option>
+        <option value="years" >2011</option>
+        <option value="years" >2012</option>
+        <option value="years" >2013</option>
+        <option value="years" >2014</option>
+        <option value="years" >2015</option>
+        <option value="years" >2016</option>
+        <option value="years" >2017</option>
+        <option value="years" >2018</option>
+        <option value="years" >2019</option>
+        <option value="years" >2020</option>
+    </select>
+  </div>
+  <div class="fiveStarBox hidden"> </div> 
+  <div class="highGRBox hidden">  </div>
+  <div class="yearBox hidden"></div>
+  <div class="svgContainer hidden">
     <div class="container">
       <div class="graph" id="pageSection">
         <h2 class="graph__title">Books Read by Page Count</h2>
@@ -59,5 +91,6 @@
   <script src="https://d3js.org/d3.v4.js"></script>
   <script src="bookData.js"></script>
   <script src="app.js"></script>
+  <script src="app2.js"></script>
 </body>
 </html>
