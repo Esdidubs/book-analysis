@@ -18,10 +18,7 @@ function histograms() {
 	let barPadding = 1;
 	let padding = 30;
 
-	let xScale = d3
-		.scaleLinear()
-		.domain([ 0, d3.max(bookData, (d) => Math.ceil(d.pages / 100) * 100 - 1) ])
-		.rangeRound([ padding, width - padding ]);
+	let xScale = d3.scaleLinear().domain([ 0, d3.max(bookData, (d) => Math.ceil(d.pages / 100) * 100 - 1) ]).rangeRound([ padding, width - padding ]);
 	let histogram = d3.histogram().domain(xScale.domain()).thresholds(xScale.ticks()).value((d) => d.pages);
 	let bins = histogram(bookData);
 	let barWidth = width / bins.length - barPadding;
@@ -52,15 +49,7 @@ function histograms() {
 	d3.select('#avgRating').append('g').attr('transform', 'translate(0, ' + (height - padding) + ')').call(xAxis3);
 	d3.select('#avgRating').append('g').attr('transform', 'translate(' + padding + ', 0)').call(yAxis3);
 
-	let bars = d3
-		.select('#pages')
-		.attr('width', width)
-		.attr('height', height)
-		.selectAll('.bar')
-		.data(bins)
-		.enter()
-		.append('g')
-		.classed('bar', true);
+	let bars = d3.select('#pages').attr('width', width).attr('height', height).selectAll('.bar').data(bins).enter().append('g').classed('bar', true);
 
 	bars
 		.append('rect')
@@ -70,32 +59,11 @@ function histograms() {
 		.attr('width', (d) => xScale(d.x1) - xScale(d.x0) - barPadding)
 		.attr('fill', '#9c27b0');
 
-	bars
-		.append('text')
-		.attr('x', width / 2)
-		.attr('y', height - padding)
-		.attr('dy', '1.5em')
-		.style('text-anchor', 'middle')
-		.text('Page Count');
+	bars.append('text').attr('x', width / 2).attr('y', height - padding).attr('dy', '1.5em').style('text-anchor', 'middle').text('Page Count');
 
-	bars
-		.append('text')
-		.attr('transform', 'rotate(-90)')
-		.attr('x', -height / 2)
-		.attr('y', padding)
-		.attr('dy', '-1.1em')
-		.style('text-anchor', 'middle')
-		.text('Number of Books');
+	bars.append('text').attr('transform', 'rotate(-90)').attr('x', -height / 2).attr('y', padding).attr('dy', '-1.1em').style('text-anchor', 'middle').text('Number of Books');
 
-	let bars2 = d3
-		.select('#myRating')
-		.attr('width', width)
-		.attr('height', height)
-		.selectAll('.bar')
-		.data(bins2)
-		.enter()
-		.append('g')
-		.classed('bar', true);
+	let bars2 = d3.select('#myRating').attr('width', width).attr('height', height).selectAll('.bar').data(bins2).enter().append('g').classed('bar', true);
 
 	bars2
 		.append('rect')
@@ -105,13 +73,7 @@ function histograms() {
 		.attr('width', (d) => xScale2(d.x1) - xScale2(d.x0) - barPadding)
 		.attr('fill', '#EE5939');
 
-	bars2
-		.append('text')
-		.attr('x', width / 2)
-		.attr('y', height - padding)
-		.attr('dy', '1.5em')
-		.style('text-anchor', 'middle')
-		.text('My Rating');
+	bars2.append('text').attr('x', width / 2).attr('y', height - padding).attr('dy', '1.5em').style('text-anchor', 'middle').text('My Rating');
 
 	bars2
 		.append('text')
@@ -122,15 +84,7 @@ function histograms() {
 		.style('text-anchor', 'middle')
 		.text('Number of Books');
 
-	let bars3 = d3
-		.select('#avgRating')
-		.attr('width', width)
-		.attr('height', height)
-		.selectAll('.bar')
-		.data(bins3)
-		.enter()
-		.append('g')
-		.classed('bar', true);
+	let bars3 = d3.select('#avgRating').attr('width', width).attr('height', height).selectAll('.bar').data(bins3).enter().append('g').classed('bar', true);
 
 	bars3
 		.append('rect')
@@ -140,13 +94,7 @@ function histograms() {
 		.attr('width', (d) => xScale3(d.x1) - xScale3(d.x0) - barPadding)
 		.attr('fill', '#00A572');
 
-	bars3
-		.append('text')
-		.attr('x', width / 2)
-		.attr('y', height - padding)
-		.attr('dy', '1.5em')
-		.style('text-anchor', 'middle')
-		.text('Average Goodreads Rating');
+	bars3.append('text').attr('x', width / 2).attr('y', height - padding).attr('dy', '1.5em').style('text-anchor', 'middle').text('Average Goodreads Rating');
 
 	bars3
 		.append('text')
@@ -195,14 +143,7 @@ function histograms() {
 			tooltip.style('opacity', 0);
 		}); */
 
-	d3
-		.select('#pageRating')
-		.append('text')
-		.attr('x', width / 2)
-		.attr('y', height - padding)
-		.attr('dy', '1.5em')
-		.style('text-anchor', 'middle')
-		.text('Pages');
+	d3.select('#pageRating').append('text').attr('x', width / 2).attr('y', height - padding).attr('dy', '1.5em').style('text-anchor', 'middle').text('Pages');
 
 	/*
 
@@ -228,10 +169,7 @@ function histograms() {
 		.text('Goodreads Rating');
 
 	let xScale5 = d3.scaleLinear().domain(d3.extent(outlierData, (d) => d.pubDate)).range([ padding, width - padding ]);
-	let yScale5 = d3
-		.scaleLinear()
-		.domain(d3.extent(outlierData, (d) => d.avgRating))
-		.range([ height - padding, padding ]);
+	let yScale5 = d3.scaleLinear().domain(d3.extent(outlierData, (d) => d.avgRating)).range([ height - padding, padding ]);
 	let colorScale2 = d3.scaleLinear().domain(d3.extent(outlierData, (d) => d.myRating)).range([ 'pink', 'maroon' ]);
 	let xAxis5 = d3.axisBottom(xScale5).tickSize(-width + 2 * padding).tickSizeOuter(0);
 	let yAxis5 = d3.axisLeft(yScale5).tickSize(-height + 2 * padding).tickSizeOuter(0);
@@ -268,14 +206,7 @@ function histograms() {
 			tooltip2.style('opacity', 0);
 		});*/
 
-	d3
-		.select('#yearRating')
-		.append('text')
-		.attr('x', width / 2)
-		.attr('y', height - padding)
-		.attr('dy', '1.5em')
-		.style('text-anchor', 'middle')
-		.text('Pages');
+	d3.select('#yearRating').append('text').attr('x', width / 2).attr('y', height - padding).attr('dy', '1.5em').style('text-anchor', 'middle').text('Pages');
 
 	/*
 
@@ -310,17 +241,7 @@ function histograms() {
 	d3.select('#myYearRating').append('g').attr('transform', 'translate(0, ' + (height - padding) + ')').call(xAxis6);
 	d3.select('#myYearRating').append('g').attr('transform', 'translate(' + padding + ', 0)').call(yAxis6);
 
-	console.log(bins6);
-
-	let bars6 = d3
-		.select('#myYearRating')
-		.attr('width', width)
-		.attr('height', height)
-		.selectAll('.bar')
-		.data(bins6)
-		.enter()
-		.append('g')
-		.classed('bar', true);
+	let bars6 = d3.select('#myYearRating').attr('width', width).attr('height', height).selectAll('.bar').data(bins6).enter().append('g').classed('bar', true);
 
 	bars6
 		.append('rect')
@@ -330,13 +251,7 @@ function histograms() {
 		.attr('width', (d) => xScale6(d.x1) - xScale6(d.x0) - barPadding)
 		.attr('fill', '#9c27b0');
 
-	bars6
-		.append('text')
-		.attr('x', width / 2)
-		.attr('y', height - padding)
-		.attr('dy', '1.5em')
-		.style('text-anchor', 'middle')
-		.text('Publication Year');
+	bars6.append('text').attr('x', width / 2).attr('y', height - padding).attr('dy', '1.5em').style('text-anchor', 'middle').text('Publication Year');
 
 	bars6
 		.append('text')
