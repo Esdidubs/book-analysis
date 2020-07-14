@@ -304,7 +304,7 @@ let bookData = [
 		pages     : 393,
 		pubDate   : 2017,
 		yearRead  : [ 2017 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/high-performance.jpg'
 	},
 	{
 		title     : 'The Rising',
@@ -314,7 +314,7 @@ let bookData = [
 		pages     : 321,
 		pubDate   : 2003,
 		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/rising.jpg'
 	},
 	{
 		title     : 'Guardians of the Galaxy, Volume 1',
@@ -324,7 +324,7 @@ let bookData = [
 		pages     : 136,
 		pubDate   : 2013,
 		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/guardians1.jpg'
 	},
 	{
 		title     : 'Guardians of the Galaxy, Volume 2',
@@ -334,7 +334,7 @@ let bookData = [
 		pages     : 168,
 		pubDate   : 2014,
 		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/guardians2.jpg'
 	},
 	{
 		title     : 'Guardians of the Galaxy/All-New X-Men',
@@ -344,7 +344,7 @@ let bookData = [
 		pages     : 144,
 		pubDate   : 2014,
 		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/guardians-xmen.jpg'
 	},
 	{
 		title     : 'Eat That Frog!',
@@ -2277,6 +2277,36 @@ let bookData = [
 		thumb     : './images/.jpg'
 	},
 	{
+		title     : 'The Wide Window',
+		author    : 'Lemony Snicket',
+		myRating  : 4,
+		avgRating : 3.94,
+		pages     : 214,
+		pubDate   : 2000,
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'The Miserable Mill',
+		author    : 'Lemony Snicket',
+		myRating  : 4,
+		avgRating : 3.86,
+		pages     : 194,
+		pubDate   : 2000,
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'The Austere Academy',
+		author    : 'Lemony Snicket',
+		myRating  : 4,
+		avgRating : 3.99,
+		pages     : 221,
+		pubDate   : 2000,
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
+	},
+	{
 		title     : 'The Ersatz Elevator',
 		author    : 'Lemony Snicket',
 		myRating  : 3,
@@ -2287,20 +2317,20 @@ let bookData = [
 		thumb     : './images/.jpg'
 	},
 	{
-		title     : 'The Hostile Hospital',
+		title     : 'The Vile Village',
 		author    : 'Lemony Snicket',
 		myRating  : 3,
-		avgRating : 3.97,
+		avgRating : 3.96,
 		pages     : 272,
 		pubDate   : 2001,
 		yearRead  : [ 2016 ],
 		thumb     : './images/.jpg'
 	},
 	{
-		title     : 'The Vile Village',
+		title     : 'The Hostile Hospital',
 		author    : 'Lemony Snicket',
 		myRating  : 3,
-		avgRating : 3.96,
+		avgRating : 3.97,
 		pages     : 272,
 		pubDate   : 2001,
 		yearRead  : [ 2016 ],
@@ -2317,16 +2347,6 @@ let bookData = [
 		thumb     : './images/.jpg'
 	},
 	{
-		title     : 'The Grim Grotto',
-		author    : 'Lemony Snicket',
-		myRating  : 3,
-		avgRating : 4.01,
-		pages     : 323,
-		pubDate   : 2004,
-		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
-	},
-	{
 		title     : 'The Slippery Slope',
 		author    : 'Lemony Snicket',
 		myRating  : 3,
@@ -2337,42 +2357,12 @@ let bookData = [
 		thumb     : './images/.jpg'
 	},
 	{
-		title     : 'The Miserable Mill',
+		title     : 'The Grim Grotto',
 		author    : 'Lemony Snicket',
-		myRating  : 4,
-		avgRating : 3.86,
-		pages     : 194,
-		pubDate   : 2000,
-		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
-	},
-	{
-		title     : 'The Wide Window',
-		author    : 'Lemony Snicket',
-		myRating  : 4,
-		avgRating : 3.94,
-		pages     : 214,
-		pubDate   : 2000,
-		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
-	},
-	{
-		title     : 'The Austere Academy',
-		author    : 'Lemony Snicket',
-		myRating  : 4,
-		avgRating : 3.99,
-		pages     : 221,
-		pubDate   : 2000,
-		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
-	},
-	{
-		title     : 'The End',
-		author    : 'Lemony Snicket',
-		myRating  : 4,
+		myRating  : 3,
 		avgRating : 4.01,
-		pages     : 337,
-		pubDate   : 2006,
+		pages     : 323,
+		pubDate   : 2004,
 		yearRead  : [ 2016 ],
 		thumb     : './images/.jpg'
 	},
@@ -2383,6 +2373,16 @@ let bookData = [
 		avgRating : 4.05,
 		pages     : 353,
 		pubDate   : 2005,
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'The End',
+		author    : 'Lemony Snicket',
+		myRating  : 4,
+		avgRating : 4.01,
+		pages     : 337,
+		pubDate   : 2006,
 		yearRead  : [ 2016 ],
 		thumb     : './images/.jpg'
 	},
@@ -2417,13 +2417,13 @@ let bookData = [
 		thumb     : './images/.jpg'
 	},
 	{
-		title     : 'Messenger',
+		title     : 'The Giver',
 		author    : 'Lois Lowry',
-		myRating  : 3,
-		avgRating : 3.91,
-		pages     : 169,
-		pubDate   : 2004,
-		yearRead  : [ 2016 ],
+		myRating  : 4,
+		avgRating : 4.13,
+		pages     : 208,
+		pubDate   : 1993,
+		yearRead  : [ 2015 ],
 		thumb     : './images/.jpg'
 	},
 	{
@@ -2437,13 +2437,13 @@ let bookData = [
 		thumb     : './images/.jpg'
 	},
 	{
-		title     : 'The Giver',
+		title     : 'Messenger',
 		author    : 'Lois Lowry',
-		myRating  : 4,
-		avgRating : 4.13,
-		pages     : 208,
-		pubDate   : 1993,
-		yearRead  : [ 2015 ],
+		myRating  : 3,
+		avgRating : 3.91,
+		pages     : 169,
+		pubDate   : 2004,
+		yearRead  : [ 2016 ],
 		thumb     : './images/.jpg'
 	},
 	{
@@ -3227,16 +3227,6 @@ let bookData = [
 		thumb     : './images/.jpg'
 	},
 	{
-		title     : 'Wayward Son',
-		author    : 'Rainbow Rowell',
-		myRating  : 5,
-		avgRating : 4.07,
-		pages     : 356,
-		pubDate   : 2019,
-		yearRead  : [ 2019 ],
-		thumb     : './images/.jpg'
-	},
-	{
 		title     : 'Fangirl',
 		author    : 'Rainbow Rowell',
 		myRating  : 5,
@@ -3254,6 +3244,16 @@ let bookData = [
 		pages     : 522,
 		pubDate   : 2015,
 		yearRead  : [ 2016, 2018 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'Wayward Son',
+		author    : 'Rainbow Rowell',
+		myRating  : 5,
+		avgRating : 4.07,
+		pages     : 356,
+		pubDate   : 2019,
+		yearRead  : [ 2019 ],
 		thumb     : './images/.jpg'
 	},
 	{
@@ -3367,22 +3367,22 @@ let bookData = [
 		thumb     : './images/.jpg'
 	},
 	{
-		title     : 'Frostbite',
-		author    : 'Richelle Mead',
-		myRating  : 5,
-		avgRating : 4.28,
-		pages     : 327,
-		pubDate   : 2008,
-		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
-	},
-	{
 		title     : 'Vampire Academy',
 		author    : 'Richelle Mead',
 		myRating  : 5,
 		avgRating : 4.13,
 		pages     : 332,
 		pubDate   : 2007,
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'Frostbite',
+		author    : 'Richelle Mead',
+		myRating  : 5,
+		avgRating : 4.28,
+		pages     : 327,
+		pubDate   : 2008,
 		yearRead  : [ 2016 ],
 		thumb     : './images/.jpg'
 	},
@@ -3397,22 +3397,22 @@ let bookData = [
 		thumb     : './images/.jpg'
 	},
 	{
-		title     : 'Spirit Bound',
-		author    : 'Richelle Mead',
-		myRating  : 5,
-		avgRating : 4.36,
-		pages     : 489,
-		pubDate   : 2010,
-		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
-	},
-	{
 		title     : 'Blood Promise',
 		author    : 'Richelle Mead',
 		myRating  : 5,
 		avgRating : 4.34,
 		pages     : 503,
 		pubDate   : 2009,
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'Spirit Bound',
+		author    : 'Richelle Mead',
+		myRating  : 5,
+		avgRating : 4.36,
+		pages     : 489,
+		pubDate   : 2010,
 		yearRead  : [ 2016 ],
 		thumb     : './images/.jpg'
 	},
@@ -3528,11 +3528,31 @@ let bookData = [
 	},
 	{
 		title     : 'Scene but Not Heard',
-		author    : 'Sam  Henderson',
+		author    : 'Sam Henderson',
 		myRating  : 3,
 		avgRating : 3.7,
 		pages     : 119,
 		pubDate   : 2013,
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'Pretty Little Liars',
+		author    : 'Sara Shepard',
+		myRating  : 5,
+		avgRating : 3.88,
+		pages     : 286,
+		pubDate   : 2006,
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'Flawless',
+		author    : 'Sara Shepard',
+		myRating  : 4,
+		avgRating : 3.94,
+		pages     : 330,
+		pubDate   : 2007,
 		yearRead  : [ 2018 ],
 		thumb     : './images/.jpg'
 	},
@@ -3547,6 +3567,16 @@ let bookData = [
 		thumb     : './images/.jpg'
 	},
 	{
+		title     : 'Unbelievable',
+		author    : 'Sara Shepard',
+		myRating  : 5,
+		avgRating : 4.04,
+		pages     : 335,
+		pubDate   : 2008,
+		yearRead  : [ 2020 ],
+		thumb     : './images/.jpg'
+	},
+	{
 		title     : 'Wicked',
 		author    : 'Sara Shepard',
 		myRating  : 4,
@@ -3557,22 +3587,12 @@ let bookData = [
 		thumb     : './images/.jpg'
 	},
 	{
-		title     : 'Flawless',
-		author    : 'Sara Shepard',
-		myRating  : 4,
-		avgRating : 3.94,
-		pages     : 330,
-		pubDate   : 2007,
-		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
-	},
-	{
-		title     : 'Wanted',
+		title     : 'Killer',
 		author    : 'Sara Shepard',
 		myRating  : 5,
-		avgRating : 4.13,
-		pages     : 261,
-		pubDate   : 2010,
+		avgRating : 4.05,
+		pages     : 320,
+		pubDate   : 2009,
 		yearRead  : [ 2020 ],
 		thumb     : './images/.jpg'
 	},
@@ -3587,32 +3607,12 @@ let bookData = [
 		thumb     : './images/.jpg'
 	},
 	{
-		title     : 'Pretty Little Liars',
+		title     : 'Wanted',
 		author    : 'Sara Shepard',
 		myRating  : 5,
-		avgRating : 3.88,
-		pages     : 286,
-		pubDate   : 2006,
-		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
-	},
-	{
-		title     : 'Killer',
-		author    : 'Sara Shepard',
-		myRating  : 5,
-		avgRating : 4.05,
-		pages     : 320,
-		pubDate   : 2009,
-		yearRead  : [ 2020 ],
-		thumb     : './images/.jpg'
-	},
-	{
-		title     : 'Unbelievable',
-		author    : 'Sara Shepard',
-		myRating  : 5,
-		avgRating : 4.04,
-		pages     : 335,
-		pubDate   : 2008,
+		avgRating : 4.13,
+		pages     : 261,
+		pubDate   : 2010,
 		yearRead  : [ 2020 ],
 		thumb     : './images/.jpg'
 	},
@@ -3637,23 +3637,13 @@ let bookData = [
 		thumb     : './images/.jpg'
 	},
 	{
-		title     : 'Uglies: Cutters',
+		title     : 'Uglies',
 		author    : 'Scott Westerfeld',
-		myRating  : 3,
-		avgRating : 3.61,
-		pages     : 176,
-		pubDate   : 2012,
-		yearRead  : [ 2017 ],
-		thumb     : './images/.jpg'
-	},
-	{
-		title     : 'Specials',
-		author    : 'Scott Westerfeld',
-		myRating  : 3,
-		avgRating : 3.77,
-		pages     : 372,
-		pubDate   : 2006,
-		yearRead  : [ 2015 ],
+		myRating  : 4,
+		avgRating : 3.86,
+		pages     : 425,
+		pubDate   : 2005,
+		yearRead  : [ 2015, 2018 ],
 		thumb     : './images/.jpg'
 	},
 	{
@@ -3663,6 +3653,16 @@ let bookData = [
 		avgRating : 3.85,
 		pages     : 370,
 		pubDate   : 2005,
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'Specials',
+		author    : 'Scott Westerfeld',
+		myRating  : 3,
+		avgRating : 3.77,
+		pages     : 372,
+		pubDate   : 2006,
 		yearRead  : [ 2015 ],
 		thumb     : './images/.jpg'
 	},
@@ -3677,13 +3677,13 @@ let bookData = [
 		thumb     : './images/.jpg'
 	},
 	{
-		title     : 'Uglies',
+		title     : 'Uglies: Cutters',
 		author    : 'Scott Westerfeld',
-		myRating  : 4,
-		avgRating : 3.86,
-		pages     : 425,
-		pubDate   : 2005,
-		yearRead  : [ 2015, 2018 ],
+		myRating  : 3,
+		avgRating : 3.61,
+		pages     : 176,
+		pubDate   : 2012,
+		yearRead  : [ 2017 ],
 		thumb     : './images/.jpg'
 	},
 	{
@@ -3847,6 +3847,16 @@ let bookData = [
 		thumb     : './images/.jpg'
 	},
 	{
+		title     : 'The Shining',
+		author    : 'Stephen King',
+		myRating  : 5,
+		avgRating : 4.22,
+		pages     : 659,
+		pubDate   : 1977,
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
+	},
+	{
 		title     : 'Doctor Sleep',
 		author    : 'Stephen King',
 		myRating  : 4,
@@ -3887,16 +3897,6 @@ let bookData = [
 		thumb     : './images/.jpg'
 	},
 	{
-		title     : 'The Shining',
-		author    : 'Stephen King',
-		myRating  : 5,
-		avgRating : 4.22,
-		pages     : 659,
-		pubDate   : 1977,
-		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
-	},
-	{
 		title     : 'It',
 		author    : 'Stephen King',
 		myRating  : 5,
@@ -3904,6 +3904,16 @@ let bookData = [
 		pages     : 1116,
 		pubDate   : 1986,
 		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'Twilight',
+		author    : 'Stephenie Meyer',
+		myRating  : 4,
+		avgRating : 3.59,
+		pages     : 501,
+		pubDate   : 2005,
+		yearRead  : [ 2009, 2012 ],
 		thumb     : './images/.jpg'
 	},
 	{
@@ -3937,16 +3947,6 @@ let bookData = [
 		thumb     : './images/.jpg'
 	},
 	{
-		title     : 'Twilight',
-		author    : 'Stephenie Meyer',
-		myRating  : 4,
-		avgRating : 3.59,
-		pages     : 501,
-		pubDate   : 2005,
-		yearRead  : [ 2009, 2012 ],
-		thumb     : './images/.jpg'
-	},
-	{
 		title     : 'Twilight / Life and Death',
 		author    : 'Stephenie Meyer',
 		myRating  : 4,
@@ -3954,16 +3954,6 @@ let bookData = [
 		pages     : 738,
 		pubDate   : 2015,
 		yearRead  : [ 2015 ],
-		thumb     : './images/.jpg'
-	},
-	{
-		title     : '30 Days of Night, Vol. 4',
-		author    : 'Steve Niles',
-		myRating  : 4,
-		avgRating : 3.84,
-		pages     : 144,
-		pubDate   : 2004,
-		yearRead  : [ 2018 ],
 		thumb     : './images/.jpg'
 	},
 	{
@@ -3987,6 +3977,16 @@ let bookData = [
 		thumb     : './images/.jpg'
 	},
 	{
+		title     : '30 Days of Night, Vol. 4',
+		author    : 'Steve Niles',
+		myRating  : 4,
+		avgRating : 3.84,
+		pages     : 144,
+		pubDate   : 2004,
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
+	},
+	{
 		title     : 'The Ultimate History of Video Games',
 		author    : 'Steven L. Kent',
 		myRating  : 5,
@@ -3994,16 +3994,6 @@ let bookData = [
 		pages     : 608,
 		pubDate   : 2001,
 		yearRead  : [ 2011, 2013 ],
-		thumb     : './images/.jpg'
-	},
-	{
-		title     : 'Mockingjay',
-		author    : 'Suzanne Collins',
-		myRating  : 4,
-		avgRating : 4.04,
-		pages     : 390,
-		pubDate   : 2010,
-		yearRead  : [ 2015 ],
 		thumb     : './images/.jpg'
 	},
 	{
@@ -4027,13 +4017,13 @@ let bookData = [
 		thumb     : './images/.jpg'
 	},
 	{
-		title     : 'Waking Gods',
-		author    : 'Sylvain Neuvel',
+		title     : 'Mockingjay',
+		author    : 'Suzanne Collins',
 		myRating  : 4,
 		avgRating : 4.04,
-		pages     : 336,
-		pubDate   : 2017,
-		yearRead  : [ 2018 ],
+		pages     : 390,
+		pubDate   : 2010,
+		yearRead  : [ 2015 ],
 		thumb     : './images/.jpg'
 	},
 	{
@@ -4043,6 +4033,16 @@ let bookData = [
 		avgRating : 3.84,
 		pages     : 320,
 		pubDate   : 2016,
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'Waking Gods',
+		author    : 'Sylvain Neuvel',
+		myRating  : 4,
+		avgRating : 4.04,
+		pages     : 336,
+		pubDate   : 2017,
 		yearRead  : [ 2018 ],
 		thumb     : './images/.jpg'
 	},
@@ -4117,16 +4117,6 @@ let bookData = [
 		thumb     : './images/.jpg'
 	},
 	{
-		title     : 'Allegiant',
-		author    : 'Veronica Roth',
-		myRating  : 4,
-		avgRating : 3.63,
-		pages     : 526,
-		pubDate   : 2013,
-		yearRead  : [ 2015 ],
-		thumb     : './images/.jpg'
-	},
-	{
 		title     : 'Divergent',
 		author    : 'Veronica Roth',
 		myRating  : 5,
@@ -4143,6 +4133,16 @@ let bookData = [
 		avgRating : 4.03,
 		pages     : 525,
 		pubDate   : 2012,
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'Allegiant',
+		author    : 'Veronica Roth',
+		myRating  : 4,
+		avgRating : 3.63,
+		pages     : 526,
+		pubDate   : 2013,
 		yearRead  : [ 2015 ],
 		thumb     : './images/.jpg'
 	},
