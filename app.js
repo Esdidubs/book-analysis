@@ -1,7 +1,8 @@
 let fiveStar = d3.max(bookData, (d) => d.myRating);
 let fiveStarData = bookData.filter((d) => d.myRating === fiveStar);
-
 let outlierData = bookData.filter((d) => d.pubDate > 1970);
+let width = 500;
+let height = 500;
 
 // Items to run in the beginning of the page load
 $(function() {
@@ -13,8 +14,6 @@ $(function() {
 });
 
 function histograms() {
-	let width = 500;
-	let height = 500;
 	let barPadding = 1;
 	let padding = 30;
 
@@ -127,36 +126,8 @@ function histograms() {
 		.attr('cy', (d) => yScale4(d.avgRating))
 		.attr('fill', (d) => colorScale(d.myRating))
 		.attr('r', (d) => 5);
-	/*
-			.attr('r', (d) => radiusScale(d.births))
-			
-		
-		.on('mousemove', function(d) {
-			tooltip.style('opacity', 1).style('left', d3.event.x - 85 + 'px').style('top', d3.event.x + 'px').html(`
-			  <p>Title: ${d.title}</p>
-			  <p>Pages: ${d.pages}</p>
-			  <p>My Rating: ${d.myRating}</p>
-			  <p>Goodreads Rating: ${d.avgRating}</p>
-			`);
-		})
-		.on('mouseout', function() {
-			tooltip.style('opacity', 0);
-		}); */
 
 	d3.select('#pageRating').append('text').attr('x', width / 2).attr('y', height - padding).attr('dy', '1.5em').style('text-anchor', 'middle').text('Pages');
-
-	/*
-
-	d3
-		.select('#pageRating')
-		.append('text')
-		.attr('x', width / 2)
-		.attr('y', 15)
-		.style('text-anchor', 'middle')
-		.style('font-size', '1em')
-		.text('Data on Pages vs Ratings');
-
-		*/
 
 	d3
 		.select('#pageRating')
@@ -173,7 +144,6 @@ function histograms() {
 	let colorScale2 = d3.scaleLinear().domain(d3.extent(outlierData, (d) => d.myRating)).range([ 'pink', 'maroon' ]);
 	let xAxis5 = d3.axisBottom(xScale5).tickSize(-width + 2 * padding).tickSizeOuter(0);
 	let yAxis5 = d3.axisLeft(yScale5).tickSize(-height + 2 * padding).tickSizeOuter(0);
-	//let tooltip2 = d3.select('body').append('div').classed('tooltip', true);
 
 	d3.select('#yearRating').append('g').attr('transform', 'translate(0, ' + (height - padding) + ')').call(xAxis5);
 	d3.select('#yearRating').append('g').attr('transform', 'translate(' + padding + ', 0)').call(yAxis5);
@@ -190,36 +160,8 @@ function histograms() {
 		.attr('cy', (d) => yScale5(d.avgRating))
 		.attr('fill', (d) => colorScale2(d.myRating))
 		.attr('r', (d) => 5);
-	/*
-			.attr('r', (d) => radiusScale(d.births))
-			
-		
-		.on('mousemove', function(d) {
-			tooltip2.style('opacity', 1).style('left', d3.event.x - 85 + 'px').style('top', d3.event.x + 'px').html(`
-			  <p>Title: ${d.title}</p>
-			  <p>Pages: ${d.pages}</p>
-			  <p>My Rating: ${d.myRating}</p>
-			  <p>Goodreads Rating: ${d.avgRating}</p>
-			`);
-		})
-		.on('mouseout', function() {
-			tooltip2.style('opacity', 0);
-		});*/
 
 	d3.select('#yearRating').append('text').attr('x', width / 2).attr('y', height - padding).attr('dy', '1.5em').style('text-anchor', 'middle').text('Pages');
-
-	/*
-
-	d3
-		.select('#pageRating')
-		.append('text')
-		.attr('x', width / 2)
-		.attr('y', 15)
-		.style('text-anchor', 'middle')
-		.style('font-size', '1em')
-		.text('Data on Pages vs Ratings');
-
-		*/
 
 	d3
 		.select('#yearRating')
