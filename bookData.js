@@ -6,7 +6,8 @@ let bookData = [
 		avgRating : 3.49,
 		pages     : 521,
 		pubDate   : 2018,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/hocus-pocus.jpg'
 	},
 	{
 		title     : 'One Day in the Life of Ivan Denisovich',
@@ -15,7 +16,8 @@ let bookData = [
 		avgRating : 3.95,
 		pages     : 182,
 		pubDate   : 1962,
-		yearRead  : [ 2006 ]
+		yearRead  : [ 2006 ],
+		thumb     : './images/one-day.jpg'
 	},
 	{
 		title     : 'Unprotected Lexicon',
@@ -24,7 +26,8 @@ let bookData = [
 		avgRating : 4.25,
 		pages     : 110,
 		pubDate   : 2019,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/lexicon.jpg'
 	},
 	{
 		title     : 'Learning Chinese Characters',
@@ -33,11 +36,12 @@ let bookData = [
 		avgRating : 3.94,
 		pages     : 384,
 		pubDate   : 2007,
-		yearRead  : [ 2013 ]
+		yearRead  : [ 2013 ],
+		thumb     : './images/chinese-characters.jpg'
 	},
-	{ title: 'Crossed', author: 'Ally Condie', myRating: 3, avgRating: 3.52, pages: 367, pubDate: 2011, yearRead: [ 2016 ] },
-	{ title: 'Reached', author: 'Ally Condie', myRating: 3, avgRating: 3.56, pages: 512, pubDate: 2012, yearRead: [ 2016 ] },
-	{ title: 'Matched', author: 'Ally Condie', myRating: 4, avgRating: 3.66, pages: 369, pubDate: 2010, yearRead: [ 2016 ] },
+	{ title: 'Matched', author: 'Ally Condie', myRating: 4, avgRating: 3.66, pages: 369, pubDate: 2010, yearRead: [ 2016 ], thumb: './images/matched.jpg' },
+	{ title: 'Crossed', author: 'Ally Condie', myRating: 3, avgRating: 3.52, pages: 367, pubDate: 2011, yearRead: [ 2016 ], thumb: './images/crossed.jpg' },
+	{ title: 'Reached', author: 'Ally Condie', myRating: 3, avgRating: 3.56, pages: 512, pubDate: 2012, yearRead: [ 2016 ], thumb: './images/reached.jpg' },
 	{
 		title     : 'Humility: The Journey Toward Holiness',
 		author    : 'Andrew Murray',
@@ -45,11 +49,12 @@ let bookData = [
 		avgRating : 4.4,
 		pages     : 112,
 		pubDate   : 1895,
-		yearRead  : [ 2014 ]
+		yearRead  : [ 2014 ],
+		thumb     : './images/humility.jpg'
 	},
-	{ title: 'Artemis', author: 'Andy Weir', myRating: 4, avgRating: 3.66, pages: 305, pubDate: 2017, yearRead: [ 2018 ] },
-	{ title: 'The Martian', author: 'Andy Weir', myRating: 5, avgRating: 4.4, pages: 435, pubDate: 2012, yearRead: [ 2015 ] },
-	{ title: 'Grit', author: 'Angela Duckworth', myRating: 3, avgRating: 4.08, pages: 277, pubDate: 2016, yearRead: [ 2019 ] },
+	{ title: 'The Martian', author: 'Andy Weir', myRating: 5, avgRating: 4.4, pages: 435, pubDate: 2012, yearRead: [ 2015 ], thumb: './images/martian.jpg' },
+	{ title: 'Artemis', author: 'Andy Weir', myRating: 4, avgRating: 3.66, pages: 305, pubDate: 2017, yearRead: [ 2018 ], thumb: './images/artemis.jpg' },
+	{ title: 'Grit', author: 'Angela Duckworth', myRating: 3, avgRating: 4.08, pages: 277, pubDate: 2016, yearRead: [ 2019 ], thumb: './images/grit.jpg' },
 	{
 		title     : 'The History and Uncertain Future of Handwriting',
 		author    : 'Anne Trubek',
@@ -57,16 +62,18 @@ let bookData = [
 		avgRating : 3.58,
 		pages     : 192,
 		pubDate   : 2014,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/handwriting.jpg'
 	},
 	{
-		title     : 'Unshakeable: Your Financial Freedom Playbook',
+		title     : 'Unshakeable',
 		author    : 'Anthony Robbins',
 		myRating  : 5,
 		avgRating : 4.11,
 		pages     : 257,
 		pubDate   : 2017,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/unshakeable.jpg'
 	},
 	{
 		title     : 'How Much is Enough?',
@@ -75,9 +82,10 @@ let bookData = [
 		avgRating : 3.62,
 		pages     : 192,
 		pubDate   : 2003,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/how-much.jpg'
 	},
-	{ title: 'Go Ask Alice', author: 'Beatrice Sparks', myRating: 3, avgRating: 3.76, pages: 213, pubDate: 1971, yearRead: [] },
+	{ title: 'Go Ask Alice', author: 'Beatrice Sparks', myRating: 3, avgRating: 3.76, pages: 213, pubDate: 1971, yearRead: [], thumb: './images/alice.jpg' },
 	{
 		title     : 'Beyond Awkward',
 		author    : 'Beau Crosetto',
@@ -85,17 +93,18 @@ let bookData = [
 		avgRating : 4,
 		pages     : 206,
 		pubDate   : 2014,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/awkward.jpg'
 	},
-	{ title: "What If It's Us", author: 'Becky Albertalli', myRating: 4, avgRating: 3.94, pages: 448, pubDate: 2018, yearRead: [ 2018 ] },
 	{
-		title     : 'Simon vs. the Homo Sapiens Agenda',
+		title     : "What If It's Us",
 		author    : 'Becky Albertalli',
-		myRating  : 5,
-		avgRating : 4.31,
-		pages     : 303,
-		pubDate   : 2015,
-		yearRead  : [ 2017, 2018 ]
+		myRating  : 4,
+		avgRating : 3.94,
+		pages     : 448,
+		pubDate   : 2018,
+		yearRead  : [ 2018 ],
+		thumb     : './images/what-if-its-us.jpg'
 	},
 	{
 		title     : 'The Upside of Unrequited',
@@ -104,7 +113,18 @@ let bookData = [
 		avgRating : 3.97,
 		pages     : 336,
 		pubDate   : 2017,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/upside.jpg'
+	},
+	{
+		title     : 'Simon vs. the Homo Sapiens Agenda',
+		author    : 'Becky Albertalli',
+		myRating  : 5,
+		avgRating : 4.31,
+		pages     : 303,
+		pubDate   : 2015,
+		yearRead  : [ 2017, 2018 ],
+		thumb     : './images/simon.jpg'
 	},
 	{
 		title     : 'Leah on the Offbeat',
@@ -113,7 +133,8 @@ let bookData = [
 		avgRating : 3.89,
 		pages     : 352,
 		pubDate   : 2018,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/leah.jpg'
 	},
 	{
 		title     : '101 Video Games to Play Before You Grow Up',
@@ -122,7 +143,8 @@ let bookData = [
 		avgRating : 3.95,
 		pages     : 144,
 		pubDate   : 2017,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/games-before-grow.jpg'
 	},
 	{
 		title     : 'Math with Bad Drawings',
@@ -131,7 +153,8 @@ let bookData = [
 		avgRating : 4.25,
 		pages     : 376,
 		pubDate   : 2018,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/math-bad-drawings.jpg'
 	},
 	{
 		title     : 'Aristotle and Dante Discover the Secrets of the Universe',
@@ -140,7 +163,8 @@ let bookData = [
 		avgRating : 4.34,
 		pages     : 359,
 		pubDate   : 2012,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/aristotle-dante.jpg'
 	},
 	{
 		title     : 'Fluent in 3 Months',
@@ -149,7 +173,8 @@ let bookData = [
 		avgRating : 3.66,
 		pages     : 249,
 		pubDate   : 2014,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/fluent-in-3.jpg'
 	},
 	{
 		title     : 'Courageous Leadership',
@@ -158,7 +183,8 @@ let bookData = [
 		avgRating : 4.12,
 		pages     : 275,
 		pubDate   : 2002,
-		yearRead  : [ 2014 ]
+		yearRead  : [ 2014 ],
+		thumb     : './images/courageous-leadership.jpg'
 	},
 	{
 		title     : 'When Heaven Invades Earth',
@@ -167,7 +193,8 @@ let bookData = [
 		avgRating : 4.42,
 		pages     : 190,
 		pubDate   : 2005,
-		yearRead  : [ 2012, 2014 ]
+		yearRead  : [ 2012, 2014 ],
+		thumb     : './images/heaven-invades.jpg'
 	},
 	{
 		title     : 'Openly Straight',
@@ -176,7 +203,8 @@ let bookData = [
 		avgRating : 3.9,
 		pages     : 320,
 		pubDate   : 2013,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/openly-straight.jpg'
 	},
 	{
 		title     : "Fail Until You Don't",
@@ -185,16 +213,8 @@ let bookData = [
 		avgRating : 4.04,
 		pages     : 224,
 		pubDate   : 2018,
-		yearRead  : [ 2018 ]
-	},
-	{
-		title     : 'The Eleventh Metal',
-		author    : 'Brandon Sanderson',
-		myRating  : 5,
-		avgRating : 3.89,
-		pages     : 21,
-		pubDate   : 2012,
-		yearRead  : [ 2020 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/fail-until.jpg'
 	},
 	{
 		title     : 'Elantris',
@@ -203,7 +223,8 @@ let bookData = [
 		avgRating : 4.18,
 		pages     : 638,
 		pubDate   : 2006,
-		yearRead  : [ 2020 ]
+		yearRead  : [ 2020 ],
+		thumb     : './images/elantris.jpg'
 	},
 	{
 		title     : 'The Hope of Elantris',
@@ -212,7 +233,8 @@ let bookData = [
 		avgRating : 3.72,
 		pages     : 25,
 		pubDate   : 2006,
-		yearRead  : [ 2020 ]
+		yearRead  : [ 2020 ],
+		thumb     : './images/hope-elantris.jpg'
 	},
 	{
 		title     : "The Emperor's Soul",
@@ -221,7 +243,8 @@ let bookData = [
 		avgRating : 4.35,
 		pages     : 175,
 		pubDate   : 2012,
-		yearRead  : [ 2020 ]
+		yearRead  : [ 2020 ],
+		thumb     : './images/emperors-soul.jpg'
 	},
 	{
 		title     : 'Warbreaker',
@@ -230,7 +253,8 @@ let bookData = [
 		avgRating : 4.27,
 		pages     : 688,
 		pubDate   : 2009,
-		yearRead  : [ 2020 ]
+		yearRead  : [ 2020 ],
+		thumb     : './images/warbreaker.jpg'
 	},
 	{
 		title     : 'The Final Empire',
@@ -239,16 +263,8 @@ let bookData = [
 		avgRating : 4.45,
 		pages     : 541,
 		pubDate   : 2006,
-		yearRead  : [ 2019 ]
-	},
-	{
-		title     : 'The Hero of Ages',
-		author    : 'Brandon Sanderson',
-		myRating  : 5,
-		avgRating : 4.49,
-		pages     : 572,
-		pubDate   : 2008,
-		yearRead  : [ 2020 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/final-empire.jpg'
 	},
 	{
 		title     : 'The Well of Ascension',
@@ -257,7 +273,28 @@ let bookData = [
 		avgRating : 4.37,
 		pages     : 590,
 		pubDate   : 2007,
-		yearRead  : [ 2020 ]
+		yearRead  : [ 2020 ],
+		thumb     : './images/well-ascension.jpg'
+	},
+	{
+		title     : 'The Hero of Ages',
+		author    : 'Brandon Sanderson',
+		myRating  : 5,
+		avgRating : 4.49,
+		pages     : 572,
+		pubDate   : 2008,
+		yearRead  : [ 2020 ],
+		thumb     : './images/hero-ages.jpg'
+	},
+	{
+		title     : 'The Eleventh Metal',
+		author    : 'Brandon Sanderson',
+		myRating  : 5,
+		avgRating : 3.89,
+		pages     : 21,
+		pubDate   : 2012,
+		yearRead  : [ 2020 ],
+		thumb     : './images/eleventh-metal.jpg'
 	},
 	{
 		title     : 'High Performance Habits',
@@ -266,7 +303,8 @@ let bookData = [
 		avgRating : 4.22,
 		pages     : 393,
 		pubDate   : 2017,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Rising',
@@ -275,7 +313,8 @@ let bookData = [
 		avgRating : 3.79,
 		pages     : 321,
 		pubDate   : 2003,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Guardians of the Galaxy, Volume 1',
@@ -284,16 +323,8 @@ let bookData = [
 		avgRating : 3.87,
 		pages     : 136,
 		pubDate   : 2013,
-		yearRead  : [ 2016 ]
-	},
-	{
-		title     : 'Guardians of the Galaxy/All-New X-Men',
-		author    : 'Brian Michael Bendis',
-		myRating  : 4,
-		avgRating : 3.81,
-		pages     : 144,
-		pubDate   : 2014,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Guardians of the Galaxy, Volume 2',
@@ -302,7 +333,18 @@ let bookData = [
 		avgRating : 3.6,
 		pages     : 168,
 		pubDate   : 2014,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'Guardians of the Galaxy/All-New X-Men',
+		author    : 'Brian Michael Bendis',
+		myRating  : 4,
+		avgRating : 3.81,
+		pages     : 144,
+		pubDate   : 2014,
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Eat That Frog!',
@@ -311,7 +353,8 @@ let bookData = [
 		avgRating : 3.87,
 		pages     : 128,
 		pubDate   : 2001,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'God Is in the Small Stuff',
@@ -320,34 +363,8 @@ let bookData = [
 		avgRating : 3.97,
 		pages     : 256,
 		pubDate   : 1998,
-		yearRead  : [ 2017 ]
-	},
-	{
-		title     : 'Scott Pilgrim, Vol. 5',
-		author    : "Bryan Lee O'Malley",
-		myRating  : 4,
-		avgRating : 4.33,
-		pages     : 178,
-		pubDate   : 2009,
-		yearRead  : [ 2016 ]
-	},
-	{
-		title     : 'Scott Pilgrim, Volume 4',
-		author    : "Bryan Lee O'Malley",
-		myRating  : 4,
-		avgRating : 4.32,
-		pages     : 205,
-		pubDate   : 2007,
-		yearRead  : [ 2016 ]
-	},
-	{
-		title     : 'Scott Pilgrim, Vol. 6',
-		author    : "Bryan Lee O'Malley",
-		myRating  : 4,
-		avgRating : 4.42,
-		pages     : 245,
-		pubDate   : 2010,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Scott Pilgrim, Volume 1',
@@ -356,16 +373,8 @@ let bookData = [
 		avgRating : 4.17,
 		pages     : 168,
 		pubDate   : 2004,
-		yearRead  : [ 2016 ]
-	},
-	{
-		title     : 'Scott Pilgrim, Volume 3',
-		author    : "Bryan Lee O'Malley",
-		myRating  : 5,
-		avgRating : 4.29,
-		pages     : 192,
-		pubDate   : 2006,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Scott Pilgrim, Volume 2',
@@ -374,16 +383,48 @@ let bookData = [
 		avgRating : 4.24,
 		pages     : 200,
 		pubDate   : 2005,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
-		title     : 'The Lion, the Witch and the Wardrobe',
-		author    : 'C.S. Lewis',
-		myRating  : 3,
-		avgRating : 4.22,
-		pages     : 206,
-		pubDate   : 1950,
-		yearRead  : [ 2012, 2017 ]
+		title     : 'Scott Pilgrim, Volume 3',
+		author    : "Bryan Lee O'Malley",
+		myRating  : 5,
+		avgRating : 4.29,
+		pages     : 192,
+		pubDate   : 2006,
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'Scott Pilgrim, Volume 4',
+		author    : "Bryan Lee O'Malley",
+		myRating  : 4,
+		avgRating : 4.32,
+		pages     : 205,
+		pubDate   : 2007,
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'Scott Pilgrim, Vol. 5',
+		author    : "Bryan Lee O'Malley",
+		myRating  : 4,
+		avgRating : 4.33,
+		pages     : 178,
+		pubDate   : 2009,
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'Scott Pilgrim, Vol. 6',
+		author    : "Bryan Lee O'Malley",
+		myRating  : 4,
+		avgRating : 4.42,
+		pages     : 245,
+		pubDate   : 2010,
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "The Magician's Nephew",
@@ -392,7 +433,18 @@ let bookData = [
 		avgRating : 4.04,
 		pages     : 221,
 		pubDate   : 1955,
-		yearRead  : [ 2010, 2014 ]
+		yearRead  : [ 2010, 2014 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'The Lion, the Witch and the Wardrobe',
+		author    : 'C.S. Lewis',
+		myRating  : 3,
+		avgRating : 4.22,
+		pages     : 206,
+		pubDate   : 1950,
+		yearRead  : [ 2012, 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Screwtape Letters',
@@ -401,7 +453,8 @@ let bookData = [
 		avgRating : 4.22,
 		pages     : 209,
 		pubDate   : 1942,
-		yearRead  : [ 2013 ]
+		yearRead  : [ 2013 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Year of Less',
@@ -410,7 +463,8 @@ let bookData = [
 		avgRating : 3.5,
 		pages     : 189,
 		pubDate   : 2018,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Digital Minimalism',
@@ -419,7 +473,8 @@ let bookData = [
 		avgRating : 4.07,
 		pages     : 286,
 		pubDate   : 2019,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "So Good They Can't Ignore You",
@@ -428,7 +483,8 @@ let bookData = [
 		avgRating : 4.11,
 		pages     : 288,
 		pubDate   : 2012,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Seven Brief Lessons on Physics',
@@ -437,7 +493,8 @@ let bookData = [
 		avgRating : 3.96,
 		pages     : 81,
 		pubDate   : 2014,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Dead Until Dark',
@@ -446,7 +503,8 @@ let bookData = [
 		avgRating : 3.96,
 		pages     : 292,
 		pubDate   : 2001,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Python for Everybody',
@@ -455,7 +513,8 @@ let bookData = [
 		avgRating : 4.28,
 		pages     : 246,
 		pubDate   : 2016,
-		yearRead  : [ 2020 ]
+		yearRead  : [ 2020 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Yellow Wallpaper',
@@ -464,7 +523,8 @@ let bookData = [
 		avgRating : 4.12,
 		pages     : 32,
 		pubDate   : 1892,
-		yearRead  : [ 2007, 2018 ]
+		yearRead  : [ 2007, 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'We Should All Be Feminists',
@@ -473,7 +533,8 @@ let bookData = [
 		avgRating : 4.45,
 		pages     : 52,
 		pubDate   : 2014,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Dear Ijeawele',
@@ -482,7 +543,8 @@ let bookData = [
 		avgRating : 4.53,
 		pages     : 63,
 		pubDate   : 2017,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Things Fall Apart',
@@ -491,7 +553,8 @@ let bookData = [
 		avgRating : 3.67,
 		pages     : 209,
 		pubDate   : 1958,
-		yearRead  : [ 2007 ]
+		yearRead  : [ 2007 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Struck By Lightning',
@@ -500,7 +563,8 @@ let bookData = [
 		avgRating : 3.84,
 		pages     : 272,
 		pubDate   : 2012,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Nerdist Way',
@@ -509,7 +573,8 @@ let bookData = [
 		avgRating : 3.71,
 		pages     : 279,
 		pubDate   : 2011,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Retire Inspired',
@@ -518,7 +583,8 @@ let bookData = [
 		avgRating : 4.13,
 		pages     : 256,
 		pubDate   : 2016,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "The Gamer's Bucket List",
@@ -527,7 +593,8 @@ let bookData = [
 		avgRating : 3.36,
 		pages     : 139,
 		pubDate   : 2015,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'A Dirty Job',
@@ -536,25 +603,8 @@ let bookData = [
 		avgRating : 4.07,
 		pages     : 387,
 		pubDate   : 2006,
-		yearRead  : [ 2018 ]
-	},
-	{
-		title     : 'Fight Club 2',
-		author    : 'Chuck Palahniuk',
-		myRating  : 2,
-		avgRating : 3.06,
-		pages     : 256,
-		pubDate   : 2015,
-		yearRead  : [ 2018 ]
-	},
-	{
-		title     : 'Choke',
-		author    : 'Chuck Palahniuk',
-		myRating  : 3,
-		avgRating : 3.7,
-		pages     : 293,
-		pubDate   : 2001,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Fight Club',
@@ -563,7 +613,28 @@ let bookData = [
 		avgRating : 4.19,
 		pages     : 218,
 		pubDate   : 1996,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'Fight Club 2',
+		author    : 'Chuck Palahniuk',
+		myRating  : 2,
+		avgRating : 3.06,
+		pages     : 256,
+		pubDate   : 2015,
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'Choke',
+		author    : 'Chuck Palahniuk',
+		myRating  : 3,
+		avgRating : 3.7,
+		pages     : 293,
+		pubDate   : 2001,
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Science Hacks',
@@ -572,7 +643,8 @@ let bookData = [
 		avgRating : 4.07,
 		pages     : 208,
 		pubDate   : 2018,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Night of the Living Deadpool',
@@ -581,7 +653,8 @@ let bookData = [
 		avgRating : 4.04,
 		pages     : 96,
 		pubDate   : 2014,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Return of the Living Deadpool',
@@ -590,7 +663,8 @@ let bookData = [
 		avgRating : 3.98,
 		pages     : 112,
 		pubDate   : 2015,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The God Who Is There',
@@ -599,34 +673,8 @@ let bookData = [
 		avgRating : 4.3,
 		pages     : 232,
 		pubDate   : 2010,
-		yearRead  : [ 2015 ]
-	},
-	{
-		title     : 'Inferno',
-		author    : 'Dan Brown',
-		myRating  : 4,
-		avgRating : 3.85,
-		pages     : 463,
-		pubDate   : 2013,
-		yearRead  : [ 2016 ]
-	},
-	{
-		title     : 'The Lost Symbol',
-		author    : 'Dan Brown',
-		myRating  : 4,
-		avgRating : 3.7,
-		pages     : 670,
-		pubDate   : 2009,
-		yearRead  : [ 2015 ]
-	},
-	{
-		title     : 'The Da Vinci Code',
-		author    : 'Dan Brown',
-		myRating  : 5,
-		avgRating : 3.85,
-		pages     : 489,
-		pubDate   : 2003,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Angels & Demons',
@@ -635,7 +683,38 @@ let bookData = [
 		avgRating : 3.9,
 		pages     : 496,
 		pubDate   : 2000,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'The Da Vinci Code',
+		author    : 'Dan Brown',
+		myRating  : 5,
+		avgRating : 3.85,
+		pages     : 489,
+		pubDate   : 2003,
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'The Lost Symbol',
+		author    : 'Dan Brown',
+		myRating  : 4,
+		avgRating : 3.7,
+		pages     : 670,
+		pubDate   : 2009,
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'Inferno',
+		author    : 'Dan Brown',
+		myRating  : 4,
+		avgRating : 3.85,
+		pages     : 463,
+		pubDate   : 2013,
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Little Book of Talent',
@@ -644,7 +723,8 @@ let bookData = [
 		avgRating : 4.09,
 		pages     : 160,
 		pubDate   : 2012,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Minecraft',
@@ -653,7 +733,8 @@ let bookData = [
 		avgRating : 3.86,
 		pages     : 256,
 		pubDate   : 2012,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Drive',
@@ -662,7 +743,8 @@ let bookData = [
 		avgRating : 3.95,
 		pages     : 242,
 		pubDate   : 2009,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Flowers for Algernon',
@@ -671,7 +753,8 @@ let bookData = [
 		avgRating : 4.13,
 		pages     : 311,
 		pubDate   : 1966,
-		yearRead  : [ 2002 ]
+		yearRead  : [ 2002 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'World of Warcraft',
@@ -680,7 +763,8 @@ let bookData = [
 		avgRating : 3.7,
 		pages     : 128,
 		pubDate   : 2016,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Inferno',
@@ -689,7 +773,8 @@ let bookData = [
 		avgRating : 4,
 		pages     : 302,
 		pubDate   : 1320,
-		yearRead  : [ 2008 ]
+		yearRead  : [ 2008 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Circle',
@@ -698,7 +783,8 @@ let bookData = [
 		avgRating : 3.43,
 		pages     : 493,
 		pubDate   : 2013,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Money Answer Book',
@@ -707,7 +793,8 @@ let bookData = [
 		avgRating : 3.81,
 		pages     : 160,
 		pubDate   : 2005,
-		yearRead  : [ 2012, 2018, 2020 ]
+		yearRead  : [ 2012, 2018, 2020 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Total Money Makeover',
@@ -716,7 +803,8 @@ let bookData = [
 		avgRating : 4.28,
 		pages     : 229,
 		pubDate   : 2003,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "Dave Ramsey's Complete Guide to Money",
@@ -725,7 +813,8 @@ let bookData = [
 		avgRating : 4.43,
 		pages     : 330,
 		pubDate   : 2011,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Caretaker of Lorne Field',
@@ -734,7 +823,8 @@ let bookData = [
 		avgRating : 3.79,
 		pages     : 237,
 		pubDate   : 2010,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Soccer Book',
@@ -743,7 +833,8 @@ let bookData = [
 		avgRating : 4.24,
 		pages     : 400,
 		pubDate   : 2009,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Rise of the Dungeon Master',
@@ -752,7 +843,8 @@ let bookData = [
 		avgRating : 3.56,
 		pages     : 144,
 		pubDate   : 2017,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Every Day',
@@ -761,7 +853,8 @@ let bookData = [
 		avgRating : 3.95,
 		pages     : 322,
 		pubDate   : 2012,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Another Day',
@@ -770,7 +863,8 @@ let bookData = [
 		avgRating : 3.62,
 		pages     : 327,
 		pubDate   : 2015,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Slade House',
@@ -779,16 +873,8 @@ let bookData = [
 		avgRating : 3.81,
 		pages     : 238,
 		pubDate   : 2015,
-		yearRead  : [ 2018 ]
-	},
-	{
-		title     : 'Follow Me',
-		author    : 'David Platt',
-		myRating  : 4,
-		avgRating : 4.24,
-		pages     : 245,
-		pubDate   : 2013,
-		yearRead  : [ 2013 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Radical',
@@ -797,7 +883,18 @@ let bookData = [
 		avgRating : 4.18,
 		pages     : 230,
 		pubDate   : 2010,
-		yearRead  : [ 2013 ]
+		yearRead  : [ 2013 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'Follow Me',
+		author    : 'David Platt',
+		myRating  : 4,
+		avgRating : 4.24,
+		pages     : 245,
+		pubDate   : 2013,
+		yearRead  : [ 2013 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Revenge of Analog',
@@ -806,16 +903,8 @@ let bookData = [
 		avgRating : 3.79,
 		pages     : 304,
 		pubDate   : 2016,
-		yearRead  : [ 2019 ]
-	},
-	{
-		title     : "Werewolves Don't Go to Summer Camp",
-		author    : 'Debbie Dadey',
-		myRating  : 3,
-		avgRating : 3.82,
-		pages     : 96,
-		pubDate   : 1991,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "Santa Claus Doesn't Mop Floors",
@@ -824,7 +913,18 @@ let bookData = [
 		avgRating : 3.75,
 		pages     : 80,
 		pubDate   : 1991,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : "Werewolves Don't Go to Summer Camp",
+		author    : 'Debbie Dadey',
+		myRating  : 3,
+		avgRating : 3.82,
+		pages     : 96,
+		pubDate   : 1991,
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'A Discovery of Witches',
@@ -833,7 +933,8 @@ let bookData = [
 		avgRating : 4,
 		pages     : 579,
 		pubDate   : 2011,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Spelunky',
@@ -842,7 +943,8 @@ let bookData = [
 		avgRating : 4.43,
 		pages     : 140,
 		pubDate   : 2015,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Eat This And Live',
@@ -851,7 +953,8 @@ let bookData = [
 		avgRating : 3.93,
 		pages     : 192,
 		pubDate   : 2008,
-		yearRead  : [ 2013, 2014, 2017 ]
+		yearRead  : [ 2013, 2014, 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'A Million Miles in a Thousand Years',
@@ -860,16 +963,8 @@ let bookData = [
 		avgRating : 4.18,
 		pages     : 256,
 		pubDate   : 2009,
-		yearRead  : [ 2016 ]
-	},
-	{
-		title     : 'The Restaurant at the End of the Universe',
-		author    : 'Douglas Adams',
-		myRating  : 4,
-		avgRating : 4.22,
-		pages     : 187,
-		pubDate   : 1980,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "The Hitchhiker's Guide to the Galaxy",
@@ -878,7 +973,18 @@ let bookData = [
 		avgRating : 4.22,
 		pages     : 215,
 		pubDate   : 1979,
-		yearRead  : [ 2015, 2019 ]
+		yearRead  : [ 2015, 2019 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'The Restaurant at the End of the Universe',
+		author    : 'Douglas Adams',
+		myRating  : 4,
+		avgRating : 4.22,
+		pages     : 187,
+		pubDate   : 1980,
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Game On!',
@@ -887,7 +993,8 @@ let bookData = [
 		avgRating : 4.05,
 		pages     : 368,
 		pubDate   : 2016,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'We Were Liars',
@@ -896,7 +1003,8 @@ let bookData = [
 		avgRating : 3.84,
 		pages     : 242,
 		pubDate   : 2014,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "Charlotte's Web",
@@ -905,7 +1013,8 @@ let bookData = [
 		avgRating : 4.17,
 		pages     : 184,
 		pubDate   : 1952,
-		yearRead  : [ 2002 ]
+		yearRead  : [ 2002 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Creativity, Inc.',
@@ -914,7 +1023,8 @@ let bookData = [
 		avgRating : 4.21,
 		pages     : 368,
 		pubDate   : 2009,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Night',
@@ -923,7 +1033,8 @@ let bookData = [
 		avgRating : 4.33,
 		pages     : 115,
 		pubDate   : 1956,
-		yearRead  : [ 2009 ]
+		yearRead  : [ 2009 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Happiness Hack',
@@ -932,7 +1043,8 @@ let bookData = [
 		avgRating : 3.26,
 		pages     : 128,
 		pubDate   : 2017,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : '10,000 Things You Need to Know',
@@ -941,7 +1053,8 @@ let bookData = [
 		avgRating : 4.32,
 		pages     : 1000,
 		pubDate   : 2016,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Wuthering Heights',
@@ -950,7 +1063,8 @@ let bookData = [
 		avgRating : 3.85,
 		pages     : 464,
 		pubDate   : 1847,
-		yearRead  : [ 2006 ]
+		yearRead  : [ 2006 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Forests of Silence',
@@ -959,70 +1073,8 @@ let bookData = [
 		avgRating : 3.91,
 		pages     : 131,
 		pubDate   : 2000,
-		yearRead  : [ 2016 ]
-	},
-	{
-		title     : 'The Atlantis Complex',
-		author    : 'Eoin Colfer',
-		myRating  : 3,
-		avgRating : 3.98,
-		pages     : 357,
-		pubDate   : 2010,
-		yearRead  : []
-	},
-	{
-		title     : 'The Last Guardian',
-		author    : 'Eoin Colfer',
-		myRating  : 4,
-		avgRating : 4.15,
-		pages     : 328,
-		pubDate   : 2012,
-		yearRead  : [ 2020 ]
-	},
-	{
-		title     : 'The Eternity Code',
-		author    : 'Eoin Colfer',
-		myRating  : 4,
-		avgRating : 4.05,
-		pages     : 352,
-		pubDate   : 2003,
-		yearRead  : [ 2018 ]
-	},
-	{
-		title     : 'The Lost Colony',
-		author    : 'Eoin Colfer',
-		myRating  : 4,
-		avgRating : 4,
-		pages     : 385,
-		pubDate   : 2006,
-		yearRead  : [ 2018 ]
-	},
-	{
-		title     : 'The Time Paradox',
-		author    : 'Eoin Colfer',
-		myRating  : 4,
-		avgRating : 4.08,
-		pages     : 391,
-		pubDate   : 2008,
-		yearRead  : [ 2018 ]
-	},
-	{
-		title     : 'The Arctic Incident',
-		author    : 'Eoin Colfer',
-		myRating  : 4,
-		avgRating : 3.95,
-		pages     : 398,
-		pubDate   : 2002,
-		yearRead  : [ 2004, 2018 ]
-	},
-	{
-		title     : 'The Opal Deception',
-		author    : 'Eoin Colfer',
-		myRating  : 4,
-		avgRating : 4.05,
-		pages     : 416,
-		pubDate   : 2005,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Artemis Fowl',
@@ -1031,7 +1083,78 @@ let bookData = [
 		avgRating : 3.85,
 		pages     : 288,
 		pubDate   : 2001,
-		yearRead  : [ 2004, 2018 ]
+		yearRead  : [ 2004, 2018 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'The Arctic Incident',
+		author    : 'Eoin Colfer',
+		myRating  : 4,
+		avgRating : 3.95,
+		pages     : 398,
+		pubDate   : 2002,
+		yearRead  : [ 2004, 2018 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'The Eternity Code',
+		author    : 'Eoin Colfer',
+		myRating  : 4,
+		avgRating : 4.05,
+		pages     : 352,
+		pubDate   : 2003,
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'The Opal Deception',
+		author    : 'Eoin Colfer',
+		myRating  : 4,
+		avgRating : 4.05,
+		pages     : 416,
+		pubDate   : 2005,
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'The Lost Colony',
+		author    : 'Eoin Colfer',
+		myRating  : 4,
+		avgRating : 4,
+		pages     : 385,
+		pubDate   : 2006,
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'The Time Paradox',
+		author    : 'Eoin Colfer',
+		myRating  : 4,
+		avgRating : 4.08,
+		pages     : 391,
+		pubDate   : 2008,
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'The Atlantis Complex',
+		author    : 'Eoin Colfer',
+		myRating  : 3,
+		avgRating : 3.98,
+		pages     : 357,
+		pubDate   : 2010,
+		yearRead  : [],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'The Last Guardian',
+		author    : 'Eoin Colfer',
+		myRating  : 4,
+		avgRating : 4.15,
+		pages     : 328,
+		pubDate   : 2012,
+		yearRead  : [ 2020 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Ready Player One',
@@ -1040,7 +1163,8 @@ let bookData = [
 		avgRating : 4.27,
 		pages     : 374,
 		pubDate   : 2011,
-		yearRead  : [ 2013, 2017, 2018 ]
+		yearRead  : [ 2013, 2017, 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Great Gatsby',
@@ -1049,7 +1173,8 @@ let bookData = [
 		avgRating : 3.92,
 		pages     : 168,
 		pubDate   : 1925,
-		yearRead  : [ 2006 ]
+		yearRead  : [ 2006 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Ultimate Guide to Video Game Writing and Design',
@@ -1058,7 +1183,8 @@ let bookData = [
 		avgRating : 3.6,
 		pages     : 272,
 		pubDate   : 2006,
-		yearRead  : [ 2013 ]
+		yearRead  : [ 2013 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Father Heart of God',
@@ -1067,7 +1193,8 @@ let bookData = [
 		avgRating : 4.21,
 		pages     : 144,
 		pubDate   : 1984,
-		yearRead  : [ 2014 ]
+		yearRead  : [ 2014 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Living the Martial Way',
@@ -1076,7 +1203,8 @@ let bookData = [
 		avgRating : 4.18,
 		pages     : 312,
 		pubDate   : 1992,
-		yearRead  : [ 2013 ]
+		yearRead  : [ 2013 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Erasing Hell',
@@ -1085,7 +1213,8 @@ let bookData = [
 		avgRating : 3.94,
 		pages     : 197,
 		pubDate   : 2011,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Goodbye, Things',
@@ -1094,7 +1223,8 @@ let bookData = [
 		avgRating : 3.81,
 		pages     : 272,
 		pubDate   : 2015,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Be Prepared',
@@ -1103,7 +1233,8 @@ let bookData = [
 		avgRating : 4.08,
 		pages     : 240,
 		pubDate   : 2004,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The One Thing',
@@ -1112,7 +1243,8 @@ let bookData = [
 		avgRating : 4.15,
 		pages     : 240,
 		pubDate   : 2013,
-		yearRead  : [ 2017, 2020 ]
+		yearRead  : [ 2017, 2020 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Hatchet',
@@ -1121,7 +1253,8 @@ let bookData = [
 		avgRating : 3.72,
 		pages     : 186,
 		pubDate   : 1986,
-		yearRead  : [ 2001 ]
+		yearRead  : [ 2001 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Forks Over Knives',
@@ -1130,7 +1263,8 @@ let bookData = [
 		avgRating : 4.08,
 		pages     : 214,
 		pubDate   : 2011,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Animal Farm',
@@ -1139,7 +1273,8 @@ let bookData = [
 		avgRating : 3.94,
 		pages     : 141,
 		pubDate   : 1945,
-		yearRead  : [ 2001 ]
+		yearRead  : [ 2001 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Horrorstör',
@@ -1148,7 +1283,8 @@ let bookData = [
 		avgRating : 3.63,
 		pages     : 248,
 		pubDate   : 2014,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "My Best Friend's Exorcism",
@@ -1157,7 +1293,8 @@ let bookData = [
 		avgRating : 3.95,
 		pages     : 337,
 		pubDate   : 2016,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Essentialism',
@@ -1166,7 +1303,8 @@ let bookData = [
 		avgRating : 4.04,
 		pages     : 260,
 		pubDate   : 2011,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Miracle Morning',
@@ -1175,7 +1313,8 @@ let bookData = [
 		avgRating : 3.95,
 		pages     : 172,
 		pubDate   : 2012,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'An Absolutely Remarkable Thing',
@@ -1184,7 +1323,8 @@ let bookData = [
 		avgRating : 4.02,
 		pages     : 352,
 		pubDate   : 2018,
-		yearRead  : [ 2018, 2019 ]
+		yearRead  : [ 2018, 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'A Beautifully Foolish Endeavor',
@@ -1193,7 +1333,8 @@ let bookData = [
 		avgRating : 4.55,
 		pages     : 464,
 		pubDate   : 2020,
-		yearRead  : [ 2020 ]
+		yearRead  : [ 2020 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'To Kill a Mockingbird',
@@ -1202,7 +1343,8 @@ let bookData = [
 		avgRating : 4.27,
 		pages     : 376,
 		pubDate   : 1960,
-		yearRead  : [ 2003 ]
+		yearRead  : [ 2003 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Index Card',
@@ -1211,7 +1353,8 @@ let bookData = [
 		avgRating : 3.9,
 		pages     : 256,
 		pubDate   : 2016,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Navigating Genesis',
@@ -1220,7 +1363,8 @@ let bookData = [
 		avgRating : 4.43,
 		pages     : 298,
 		pubDate   : 2014,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Insight Guides: China',
@@ -1229,16 +1373,8 @@ let bookData = [
 		avgRating : 3.85,
 		pages     : 480,
 		pubDate   : 1990,
-		yearRead  : [ 2013 ]
-	},
-	{
-		title     : 'The New Hunger',
-		author    : 'Isaac Marion',
-		myRating  : 5,
-		avgRating : 3.92,
-		pages     : 170,
-		pubDate   : 2013,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2013 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Warm Bodies',
@@ -1247,7 +1383,18 @@ let bookData = [
 		avgRating : 3.92,
 		pages     : 256,
 		pubDate   : 2010,
-		yearRead  : [ 2016, 2019 ]
+		yearRead  : [ 2016, 2019 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'The New Hunger',
+		author    : 'Isaac Marion',
+		myRating  : 5,
+		avgRating : 3.92,
+		pages     : 170,
+		pubDate   : 2013,
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Burning World',
@@ -1256,7 +1403,8 @@ let bookData = [
 		avgRating : 3.91,
 		pages     : 512,
 		pubDate   : 2017,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Very Good Lives',
@@ -1265,52 +1413,8 @@ let bookData = [
 		avgRating : 4.21,
 		pages     : 74,
 		pubDate   : 2015,
-		yearRead  : [ 2018 ]
-	},
-	{
-		title     : 'Short Stories from Hogwarts of Heroism, Hardship and Dangerous Hobbies',
-		author    : 'J.K. Rowling',
-		myRating  : 5,
-		avgRating : 4.23,
-		pages     : 71,
-		pubDate   : 2016,
-		yearRead  : [ 2016, 2019 ]
-	},
-	{
-		title     : 'Short Stories from Hogwarts of Power, Politics and Pesky Poltergeists',
-		author    : 'J.K. Rowling',
-		myRating  : 5,
-		avgRating : 4.19,
-		pages     : 71,
-		pubDate   : 2016,
-		yearRead  : [ 2016 ]
-	},
-	{
-		title     : 'Hogwarts: An Incomplete and Unreliable Guide',
-		author    : 'J.K. Rowling',
-		myRating  : 5,
-		avgRating : 4.21,
-		pages     : 79,
-		pubDate   : 2016,
-		yearRead  : [ 2016, 2019 ]
-	},
-	{
-		title     : 'The Tales of Beedle the Bard',
-		author    : 'J.K. Rowling',
-		myRating  : 5,
-		avgRating : 4.07,
-		pages     : 111,
-		pubDate   : 2008,
-		yearRead  : [ 2015, 2017, 2020 ]
-	},
-	{
-		title     : 'Fantastic Beasts and Where to Find Them: The Original Screenplay',
-		author    : 'J.K. Rowling',
-		myRating  : 5,
-		avgRating : 4.26,
-		pages     : 304,
-		pubDate   : 2016,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "Harry Potter and the Sorcerer's Stone",
@@ -1319,7 +1423,8 @@ let bookData = [
 		avgRating : 4.47,
 		pages     : 309,
 		pubDate   : 1997,
-		yearRead  : [ 1999, 2000, 2010, 2011, 2012, 2017, 2018, 2019, 2020 ]
+		yearRead  : [ 1999, 2000, 2010, 2011, 2012, 2017, 2018, 2019, 2020 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Harry Potter and the Chamber of Secrets',
@@ -1328,7 +1433,8 @@ let bookData = [
 		avgRating : 4.42,
 		pages     : 341,
 		pubDate   : 1998,
-		yearRead  : [ 2000, 2010, 2017, 2018, 2019, 2020 ]
+		yearRead  : [ 2000, 2010, 2017, 2018, 2019, 2020 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Harry Potter and the Prisoner of Azkaban',
@@ -1337,16 +1443,8 @@ let bookData = [
 		avgRating : 4.57,
 		pages     : 435,
 		pubDate   : 1999,
-		yearRead  : [ 2000, 2010, 2017, 2018, 2019, 2020 ]
-	},
-	{
-		title     : 'Harry Potter and the Half-Blood Prince',
-		author    : 'J.K. Rowling',
-		myRating  : 5,
-		avgRating : 4.57,
-		pages     : 652,
-		pubDate   : 2005,
-		yearRead  : [ 2005, 2010, 2017, 2018, 2019, 2020 ]
+		yearRead  : [ 2000, 2010, 2017, 2018, 2019, 2020 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Harry Potter and the Goblet of Fire',
@@ -1355,16 +1453,8 @@ let bookData = [
 		avgRating : 4.56,
 		pages     : 734,
 		pubDate   : 2000,
-		yearRead  : [ 2000, 2010, 2017, 2018, 2019, 2020 ]
-	},
-	{
-		title     : 'Harry Potter and the Deathly Hallows',
-		author    : 'J.K. Rowling',
-		myRating  : 5,
-		avgRating : 4.62,
-		pages     : 759,
-		pubDate   : 2007,
-		yearRead  : [ 2007, 2010, 2017, 2018, 2019, 2020 ]
+		yearRead  : [ 2000, 2010, 2017, 2018, 2019, 2020 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Harry Potter and the Order of the Phoenix',
@@ -1373,7 +1463,78 @@ let bookData = [
 		avgRating : 4.5,
 		pages     : 870,
 		pubDate   : 2003,
-		yearRead  : [ 2003, 2010, 2017, 2018, 2019, 2020 ]
+		yearRead  : [ 2003, 2010, 2017, 2018, 2019, 2020 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'Harry Potter and the Half-Blood Prince',
+		author    : 'J.K. Rowling',
+		myRating  : 5,
+		avgRating : 4.57,
+		pages     : 652,
+		pubDate   : 2005,
+		yearRead  : [ 2005, 2010, 2017, 2018, 2019, 2020 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'Harry Potter and the Deathly Hallows',
+		author    : 'J.K. Rowling',
+		myRating  : 5,
+		avgRating : 4.62,
+		pages     : 759,
+		pubDate   : 2007,
+		yearRead  : [ 2007, 2010, 2017, 2018, 2019, 2020 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'Short Stories from Hogwarts of Heroism, Hardship and Dangerous Hobbies',
+		author    : 'J.K. Rowling',
+		myRating  : 5,
+		avgRating : 4.23,
+		pages     : 71,
+		pubDate   : 2016,
+		yearRead  : [ 2016, 2019 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'Short Stories from Hogwarts of Power, Politics and Pesky Poltergeists',
+		author    : 'J.K. Rowling',
+		myRating  : 5,
+		avgRating : 4.19,
+		pages     : 71,
+		pubDate   : 2016,
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'Hogwarts: An Incomplete and Unreliable Guide',
+		author    : 'J.K. Rowling',
+		myRating  : 5,
+		avgRating : 4.21,
+		pages     : 79,
+		pubDate   : 2016,
+		yearRead  : [ 2016, 2019 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'The Tales of Beedle the Bard',
+		author    : 'J.K. Rowling',
+		myRating  : 5,
+		avgRating : 4.07,
+		pages     : 111,
+		pubDate   : 2008,
+		yearRead  : [ 2015, 2017, 2020 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'Fantastic Beasts and Where to Find Them: The Original Screenplay',
+		author    : 'J.K. Rowling',
+		myRating  : 5,
+		avgRating : 4.26,
+		pages     : 304,
+		pubDate   : 2016,
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Hobbit',
@@ -1382,7 +1543,8 @@ let bookData = [
 		avgRating : 4.27,
 		pages     : 389,
 		pubDate   : 1937,
-		yearRead  : [ 2013 ]
+		yearRead  : [ 2013 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Surprised by the Power of the Spirit',
@@ -1391,7 +1553,8 @@ let bookData = [
 		avgRating : 4.29,
 		pages     : 302,
 		pubDate   : 1993,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Vegan for Life',
@@ -1400,7 +1563,8 @@ let bookData = [
 		avgRating : 4.13,
 		pages     : 283,
 		pubDate   : 2011,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Chasing the Dragon',
@@ -1409,7 +1573,8 @@ let bookData = [
 		avgRating : 4.39,
 		pages     : 256,
 		pubDate   : 1980,
-		yearRead  : [ 2014 ]
+		yearRead  : [ 2014 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Maze Runner',
@@ -1418,7 +1583,8 @@ let bookData = [
 		avgRating : 4.02,
 		pages     : 384,
 		pubDate   : 2009,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "Player's Handbook",
@@ -1427,7 +1593,8 @@ let bookData = [
 		avgRating : 4.57,
 		pages     : 320,
 		pubDate   : 2014,
-		yearRead  : []
+		yearRead  : [],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Super Better',
@@ -1436,7 +1603,8 @@ let bookData = [
 		avgRating : 3.98,
 		pages     : 480,
 		pubDate   : 2015,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Ten Arguments For Deleting Your Social Media Accounts Right Now',
@@ -1445,7 +1613,8 @@ let bookData = [
 		avgRating : 3.53,
 		pages     : 146,
 		pubDate   : 2018,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Living and the Dead',
@@ -1454,7 +1623,8 @@ let bookData = [
 		avgRating : 3.81,
 		pages     : 48,
 		pubDate   : 2006,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Blood, Sweat, and Pixels',
@@ -1463,7 +1633,8 @@ let bookData = [
 		avgRating : 4.24,
 		pages     : 304,
 		pubDate   : 2017,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Thirteen Reasons Why',
@@ -1472,7 +1643,8 @@ let bookData = [
 		avgRating : 3.94,
 		pages     : 288,
 		pubDate   : 2007,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Nerve',
@@ -1481,7 +1653,8 @@ let bookData = [
 		avgRating : 3.38,
 		pages     : 304,
 		pubDate   : 2012,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Diary of a Wimpy Kid',
@@ -1490,7 +1663,8 @@ let bookData = [
 		avgRating : 3.99,
 		pages     : 224,
 		pubDate   : 2004,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Annihilation',
@@ -1499,7 +1673,8 @@ let bookData = [
 		avgRating : 3.69,
 		pages     : 195,
 		pubDate   : 2014,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The No-Spend Challenge Guide',
@@ -1508,7 +1683,8 @@ let bookData = [
 		avgRating : 3.73,
 		pages     : 99,
 		pubDate   : 2017,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : '200+ Ways to Protect Your Privacy',
@@ -1517,7 +1693,8 @@ let bookData = [
 		avgRating : 3.52,
 		pages     : 256,
 		pubDate   : 2019,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'All the Bright Places',
@@ -1526,7 +1703,8 @@ let bookData = [
 		avgRating : 4.17,
 		pages     : 378,
 		pubDate   : 2015,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Summer I Turned Pretty',
@@ -1535,7 +1713,8 @@ let bookData = [
 		avgRating : 3.93,
 		pages     : 276,
 		pubDate   : 2009,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "It's Not Summer Without You",
@@ -1544,7 +1723,8 @@ let bookData = [
 		avgRating : 4.1,
 		pages     : 288,
 		pubDate   : 2010,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "We'll Always Have Summer",
@@ -1553,7 +1733,8 @@ let bookData = [
 		avgRating : 4.12,
 		pages     : 291,
 		pubDate   : 2011,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Remnant of Victory',
@@ -1562,7 +1743,8 @@ let bookData = [
 		avgRating : 3.5,
 		pages     : 176,
 		pubDate   : 2000,
-		yearRead  : [ 2000 ]
+		yearRead  : [ 2000 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'A Vampire Tale',
@@ -1571,7 +1753,8 @@ let bookData = [
 		avgRating : 3.2,
 		pages     : 144,
 		pubDate   : 2012,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Me and Earl and the Dying Girl',
@@ -1580,7 +1763,8 @@ let bookData = [
 		avgRating : 3.56,
 		pages     : 295,
 		pubDate   : 2012,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Danish Way of Parenting',
@@ -1589,7 +1773,8 @@ let bookData = [
 		avgRating : 3.99,
 		pages     : 224,
 		pubDate   : 2014,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Full Frontal Feminism',
@@ -1598,16 +1783,8 @@ let bookData = [
 		avgRating : 3.86,
 		pages     : 288,
 		pubDate   : 2007,
-		yearRead  : [ 2018 ]
-	},
-	{
-		title     : 'Grave Peril',
-		author    : 'Jim Butcher',
-		myRating  : 4,
-		avgRating : 4.17,
-		pages     : 378,
-		pubDate   : 2001,
-		yearRead  : [ 2020 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Storm Front',
@@ -1616,7 +1793,8 @@ let bookData = [
 		avgRating : 4.01,
 		pages     : 384,
 		pubDate   : 2000,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Fool Moon',
@@ -1625,7 +1803,18 @@ let bookData = [
 		avgRating : 4.02,
 		pages     : 401,
 		pubDate   : 2001,
-		yearRead  : [ 2020 ]
+		yearRead  : [ 2020 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'Grave Peril',
+		author    : 'Jim Butcher',
+		myRating  : 4,
+		avgRating : 4.17,
+		pages     : 378,
+		pubDate   : 2001,
+		yearRead  : [ 2020 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Passion & Purpose',
@@ -1634,7 +1823,8 @@ let bookData = [
 		avgRating : 4.41,
 		pages     : 214,
 		pubDate   : 2014,
-		yearRead  : [ 2014 ]
+		yearRead  : [ 2014 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Wild at Heart',
@@ -1643,7 +1833,8 @@ let bookData = [
 		avgRating : 3.92,
 		pages     : 242,
 		pubDate   : 2001,
-		yearRead  : [ 2009, 2011 ]
+		yearRead  : [ 2009, 2011 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Looking for Alaska',
@@ -1652,7 +1843,8 @@ let bookData = [
 		avgRating : 4.03,
 		pages     : 221,
 		pubDate   : 2005,
-		yearRead  : [ 2015, 2017, 2019 ]
+		yearRead  : [ 2015, 2017, 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'An Abundance of Katherines',
@@ -1661,7 +1853,8 @@ let bookData = [
 		avgRating : 3.58,
 		pages     : 229,
 		pubDate   : 2006,
-		yearRead  : [ 2015, 2017 ]
+		yearRead  : [ 2015, 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Turtles All the Way Down',
@@ -1670,7 +1863,8 @@ let bookData = [
 		avgRating : 3.96,
 		pages     : 286,
 		pubDate   : 2017,
-		yearRead  : [ 2017, 2019 ]
+		yearRead  : [ 2017, 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Will Grayson, Will Grayson',
@@ -1679,7 +1873,8 @@ let bookData = [
 		avgRating : 3.78,
 		pages     : 310,
 		pubDate   : 2010,
-		yearRead  : [ 2015, 2017 ]
+		yearRead  : [ 2015, 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Fault in Our Stars',
@@ -1688,7 +1883,8 @@ let bookData = [
 		avgRating : 4.22,
 		pages     : 316,
 		pubDate   : 2012,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Paper Towns',
@@ -1697,7 +1893,8 @@ let bookData = [
 		avgRating : 3.82,
 		pages     : 336,
 		pubDate   : 2008,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Let it Snow',
@@ -1706,7 +1903,8 @@ let bookData = [
 		avgRating : 3.77,
 		pages     : 352,
 		pubDate   : 2008,
-		yearRead  : [ 2015, 2017 ]
+		yearRead  : [ 2015, 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Mind Hacking',
@@ -1715,7 +1913,8 @@ let bookData = [
 		avgRating : 3.77,
 		pages     : 256,
 		pubDate   : 2015,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Chew, Vol. 1',
@@ -1724,7 +1923,8 @@ let bookData = [
 		avgRating : 3.95,
 		pages     : 128,
 		pubDate   : 2009,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Harry Potter and the Cursed Child',
@@ -1733,7 +1933,8 @@ let bookData = [
 		avgRating : 3.64,
 		pages     : 343,
 		pubDate   : 2016,
-		yearRead  : [ 2016, 2017 ]
+		yearRead  : [ 2016, 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Into the Wild',
@@ -1742,7 +1943,8 @@ let bookData = [
 		avgRating : 3.98,
 		pages     : 207,
 		pubDate   : 1996,
-		yearRead  : [ 2013 ]
+		yearRead  : [ 2013 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Nights of the Living Dead',
@@ -1751,7 +1953,8 @@ let bookData = [
 		avgRating : 3.84,
 		pages     : 368,
 		pubDate   : 2017,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'How Not to Be Wrong',
@@ -1760,7 +1963,8 @@ let bookData = [
 		avgRating : 3.96,
 		pages     : 480,
 		pubDate   : 2014,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Bird Box',
@@ -1769,7 +1973,8 @@ let bookData = [
 		avgRating : 4.02,
 		pages     : 262,
 		pubDate   : 2014,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Living With Less',
@@ -1778,7 +1983,8 @@ let bookData = [
 		avgRating : 3.68,
 		pages     : 114,
 		pubDate   : 2012,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The More of Less',
@@ -1787,7 +1993,8 @@ let bookData = [
 		avgRating : 3.79,
 		pages     : 240,
 		pubDate   : 2016,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Minimalist Home',
@@ -1796,7 +2003,8 @@ let bookData = [
 		avgRating : 3.62,
 		pages     : 256,
 		pubDate   : 2018,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Haunted Mansion',
@@ -1805,7 +2013,8 @@ let bookData = [
 		avgRating : 3.79,
 		pages     : 128,
 		pubDate   : 2016,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Buffy the Vampire Slayer: The Long Way Home',
@@ -1814,7 +2023,8 @@ let bookData = [
 		avgRating : 3.96,
 		pages     : 136,
 		pubDate   : 2007,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Beautiful Creatures',
@@ -1823,7 +2033,8 @@ let bookData = [
 		avgRating : 3.76,
 		pages     : 563,
 		pubDate   : 2009,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'One of Us Is Lying',
@@ -1832,7 +2043,8 @@ let bookData = [
 		avgRating : 4.06,
 		pages     : 361,
 		pubDate   : 2017,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Bridge to Terabithia',
@@ -1841,7 +2053,8 @@ let bookData = [
 		avgRating : 4,
 		pages     : 190,
 		pubDate   : 1977,
-		yearRead  : [ 1999 ]
+		yearRead  : [ 1999 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Finding Sisu',
@@ -1850,7 +2063,8 @@ let bookData = [
 		avgRating : 3.67,
 		pages     : 272,
 		pubDate   : 2018,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Independent Me',
@@ -1859,7 +2073,8 @@ let bookData = [
 		avgRating : 3.27,
 		pages     : 205,
 		pubDate   : 2014,
-		yearRead  : [ 2014 ]
+		yearRead  : [ 2014 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "The Geek Dad's Guide to Weekend Fun",
@@ -1868,7 +2083,8 @@ let bookData = [
 		avgRating : 3.77,
 		pages     : 240,
 		pubDate   : 2011,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "One Flew Over the Cuckoo's Nest",
@@ -1877,7 +2093,8 @@ let bookData = [
 		avgRating : 4.2,
 		pages     : 325,
 		pubDate   : 1962,
-		yearRead  : [ 2007 ]
+		yearRead  : [ 2007 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Quidditch Through the Ages',
@@ -1886,7 +2103,8 @@ let bookData = [
 		avgRating : 3.86,
 		pages     : 56,
 		pubDate   : 2001,
-		yearRead  : [ 2001, 2007 ]
+		yearRead  : [ 2001, 2007 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Unlimited Memory',
@@ -1895,7 +2113,8 @@ let bookData = [
 		avgRating : 4.02,
 		pages     : 136,
 		pubDate   : 2014,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The A-Z of Atari 8-bit Games',
@@ -1904,7 +2123,8 @@ let bookData = [
 		avgRating : 2.58,
 		pages     : 196,
 		pubDate   : 2017,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The DUFF',
@@ -1913,7 +2133,8 @@ let bookData = [
 		avgRating : 3.83,
 		pages     : 280,
 		pubDate   : 2010,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Ring',
@@ -1922,7 +2143,8 @@ let bookData = [
 		avgRating : 3.82,
 		pages     : 282,
 		pubDate   : 1991,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "Don't Get Caught",
@@ -1931,7 +2153,8 @@ let bookData = [
 		avgRating : 3.95,
 		pages     : 340,
 		pubDate   : 2016,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Awakening',
@@ -1940,7 +2163,8 @@ let bookData = [
 		avgRating : 3.4,
 		pages     : 253,
 		pubDate   : 1991,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Struggle',
@@ -1949,7 +2173,8 @@ let bookData = [
 		avgRating : 3.48,
 		pages     : 256,
 		pubDate   : 1991,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Fury',
@@ -1958,7 +2183,8 @@ let bookData = [
 		avgRating : 3.54,
 		pages     : 285,
 		pubDate   : 1991,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Dark Reunion',
@@ -1967,7 +2193,8 @@ let bookData = [
 		avgRating : 3.53,
 		pages     : 311,
 		pubDate   : 1991,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'I Love You, Beth Cooper',
@@ -1976,7 +2203,8 @@ let bookData = [
 		avgRating : 3.29,
 		pages     : 253,
 		pubDate   : 2007,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'A Secret Life',
@@ -1985,7 +2213,8 @@ let bookData = [
 		avgRating : 3.69,
 		pages     : 202,
 		pubDate   : 2003,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'What the Most Successful People Do Before Breakfast',
@@ -1994,7 +2223,8 @@ let bookData = [
 		avgRating : 3.39,
 		pages     : 32,
 		pubDate   : 2012,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Guilty Pleasures',
@@ -2003,7 +2233,8 @@ let bookData = [
 		avgRating : 4.02,
 		pages     : 355,
 		pubDate   : 1993,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Six of Crows',
@@ -2012,7 +2243,8 @@ let bookData = [
 		avgRating : 4.46,
 		pages     : 465,
 		pubDate   : 2015,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Crooked Kingdom',
@@ -2021,61 +2253,8 @@ let bookData = [
 		avgRating : 4.6,
 		pages     : 536,
 		pubDate   : 2016,
-		yearRead  : [ 2017 ]
-	},
-	{
-		title     : 'The Ersatz Elevator',
-		author    : 'Lemony Snicket',
-		myRating  : 3,
-		avgRating : 4.04,
-		pages     : 259,
-		pubDate   : 2001,
-		yearRead  : [ 2016 ]
-	},
-	{
-		title     : 'The Hostile Hospital',
-		author    : 'Lemony Snicket',
-		myRating  : 3,
-		avgRating : 3.97,
-		pages     : 272,
-		pubDate   : 2001,
-		yearRead  : [ 2016 ]
-	},
-	{
-		title     : 'The Vile Village',
-		author    : 'Lemony Snicket',
-		myRating  : 3,
-		avgRating : 3.96,
-		pages     : 272,
-		pubDate   : 2001,
-		yearRead  : [ 2016 ]
-	},
-	{
-		title     : 'The Carnivorous Carnival',
-		author    : 'Lemony Snicket',
-		myRating  : 3,
-		avgRating : 3.99,
-		pages     : 286,
-		pubDate   : 2002,
-		yearRead  : [ 2016 ]
-	},
-	{
-		title     : 'The Grim Grotto',
-		author    : 'Lemony Snicket',
-		myRating  : 3,
-		avgRating : 4.01,
-		pages     : 323,
-		pubDate   : 2004,
-		yearRead  : [ 2016 ]
-	},
-	{
-		title     : 'The Slippery Slope',
-		author    : 'Lemony Snicket',
-		myRating  : 3,
-		avgRating : 4.03,
-		pages     : 337,
-		pubDate   : 2003,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Bad Beginning',
@@ -2084,7 +2263,8 @@ let bookData = [
 		avgRating : 3.95,
 		pages     : 176,
 		pubDate   : 1999,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Reptile Room',
@@ -2093,7 +2273,68 @@ let bookData = [
 		avgRating : 3.99,
 		pages     : 192,
 		pubDate   : 1999,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'The Ersatz Elevator',
+		author    : 'Lemony Snicket',
+		myRating  : 3,
+		avgRating : 4.04,
+		pages     : 259,
+		pubDate   : 2001,
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'The Hostile Hospital',
+		author    : 'Lemony Snicket',
+		myRating  : 3,
+		avgRating : 3.97,
+		pages     : 272,
+		pubDate   : 2001,
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'The Vile Village',
+		author    : 'Lemony Snicket',
+		myRating  : 3,
+		avgRating : 3.96,
+		pages     : 272,
+		pubDate   : 2001,
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'The Carnivorous Carnival',
+		author    : 'Lemony Snicket',
+		myRating  : 3,
+		avgRating : 3.99,
+		pages     : 286,
+		pubDate   : 2002,
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'The Grim Grotto',
+		author    : 'Lemony Snicket',
+		myRating  : 3,
+		avgRating : 4.01,
+		pages     : 323,
+		pubDate   : 2004,
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
+	},
+	{
+		title     : 'The Slippery Slope',
+		author    : 'Lemony Snicket',
+		myRating  : 3,
+		avgRating : 4.03,
+		pages     : 337,
+		pubDate   : 2003,
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Miserable Mill',
@@ -2102,7 +2343,8 @@ let bookData = [
 		avgRating : 3.86,
 		pages     : 194,
 		pubDate   : 2000,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Wide Window',
@@ -2111,7 +2353,8 @@ let bookData = [
 		avgRating : 3.94,
 		pages     : 214,
 		pubDate   : 2000,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Austere Academy',
@@ -2120,7 +2363,8 @@ let bookData = [
 		avgRating : 3.99,
 		pages     : 221,
 		pubDate   : 2000,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The End',
@@ -2129,7 +2373,8 @@ let bookData = [
 		avgRating : 4.01,
 		pages     : 337,
 		pubDate   : 2006,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Penultimate Peril',
@@ -2138,7 +2383,8 @@ let bookData = [
 		avgRating : 4.05,
 		pages     : 353,
 		pubDate   : 2005,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Read Japanese Today',
@@ -2147,7 +2393,8 @@ let bookData = [
 		avgRating : 3.95,
 		pages     : 168,
 		pubDate   : 1969,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Magicians',
@@ -2156,7 +2403,8 @@ let bookData = [
 		avgRating : 3.51,
 		pages     : 402,
 		pubDate   : 2009,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Big Little Lies',
@@ -2165,7 +2413,8 @@ let bookData = [
 		avgRating : 4.27,
 		pages     : 460,
 		pubDate   : 2014,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Messenger',
@@ -2174,7 +2423,8 @@ let bookData = [
 		avgRating : 3.91,
 		pages     : 169,
 		pubDate   : 2004,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Gathering Blue',
@@ -2183,7 +2433,8 @@ let bookData = [
 		avgRating : 3.82,
 		pages     : 240,
 		pubDate   : 2000,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Giver',
@@ -2192,7 +2443,8 @@ let bookData = [
 		avgRating : 4.13,
 		pages     : 208,
 		pubDate   : 1993,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Number the Stars',
@@ -2201,7 +2453,8 @@ let bookData = [
 		avgRating : 4.15,
 		pages     : 137,
 		pubDate   : 1989,
-		yearRead  : [ 2000, 2019 ]
+		yearRead  : [ 2000, 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Nazirite DNA',
@@ -2210,7 +2463,8 @@ let bookData = [
 		avgRating : 4.58,
 		pages     : 50,
 		pubDate   : 2009,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Holes',
@@ -2219,7 +2473,8 @@ let bookData = [
 		avgRating : 3.96,
 		pages     : 233,
 		pubDate   : 1998,
-		yearRead  : [ 2001 ]
+		yearRead  : [ 2001 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Sideways Stories from Wayside School',
@@ -2228,7 +2483,8 @@ let bookData = [
 		avgRating : 4.15,
 		pages     : 128,
 		pubDate   : 1978,
-		yearRead  : [ 2003, 2015 ]
+		yearRead  : [ 2003, 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Wayside School Is Falling Down',
@@ -2237,7 +2493,8 @@ let bookData = [
 		avgRating : 4.17,
 		pages     : 152,
 		pubDate   : 1989,
-		yearRead  : [ 2003 ]
+		yearRead  : [ 2003 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Wayside School Gets a Little Stranger',
@@ -2246,7 +2503,8 @@ let bookData = [
 		avgRating : 4.19,
 		pages     : 168,
 		pubDate   : 1995,
-		yearRead  : [ 2003 ]
+		yearRead  : [ 2003 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Recruited',
@@ -2255,7 +2513,8 @@ let bookData = [
 		avgRating : 3.66,
 		pages     : 224,
 		pubDate   : 2002,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'A Wrinkle in Time',
@@ -2264,7 +2523,8 @@ let bookData = [
 		avgRating : 4,
 		pages     : 211,
 		pubDate   : 1962,
-		yearRead  : [ 2015, 2018 ]
+		yearRead  : [ 2015, 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Bored and Brilliant',
@@ -2273,7 +2533,8 @@ let bookData = [
 		avgRating : 3.73,
 		pages     : 192,
 		pubDate   : 2017,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The 125 Best Brain Teasers of All Time',
@@ -2282,7 +2543,8 @@ let bookData = [
 		avgRating : 3.62,
 		pages     : 206,
 		pubDate   : 2018,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "Where'd You Go, Bernadette",
@@ -2291,7 +2553,8 @@ let bookData = [
 		avgRating : 3.9,
 		pages     : 330,
 		pubDate   : 2012,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Beautiful',
@@ -2300,7 +2563,8 @@ let bookData = [
 		avgRating : 3.84,
 		pages     : 134,
 		pubDate   : 2014,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Legend',
@@ -2309,7 +2573,8 @@ let bookData = [
 		avgRating : 4.18,
 		pages     : 305,
 		pubDate   : 2011,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Doctrine',
@@ -2318,7 +2583,8 @@ let bookData = [
 		avgRating : 3.93,
 		pages     : 463,
 		pubDate   : 2010,
-		yearRead  : [ 2012 ]
+		yearRead  : [ 2012 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Radical Reformission',
@@ -2327,7 +2593,8 @@ let bookData = [
 		avgRating : 3.71,
 		pages     : 208,
 		pubDate   : 2004,
-		yearRead  : [ 2012 ]
+		yearRead  : [ 2012 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Subtle Art of Not Giving a F*ck',
@@ -2336,7 +2603,8 @@ let bookData = [
 		avgRating : 3.95,
 		pages     : 224,
 		pubDate   : 2016,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Archie, Vol. 1',
@@ -2345,7 +2613,8 @@ let bookData = [
 		avgRating : 3.99,
 		pages     : 160,
 		pubDate   : 2016,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'House of Leaves',
@@ -2354,7 +2623,8 @@ let bookData = [
 		avgRating : 4.1,
 		pages     : 705,
 		pubDate   : 2000,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Manna',
@@ -2363,7 +2633,8 @@ let bookData = [
 		avgRating : 3.94,
 		pages     : 79,
 		pubDate   : 2003,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Frankenstein',
@@ -2372,7 +2643,8 @@ let bookData = [
 		avgRating : 3.8,
 		pages     : 335,
 		pubDate   : 1818,
-		yearRead  : [ 2008 ]
+		yearRead  : [ 2008 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'World War Z',
@@ -2381,7 +2653,8 @@ let bookData = [
 		avgRating : 4.01,
 		pages     : 342,
 		pubDate   : 2006,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'How Not to Die',
@@ -2390,7 +2663,8 @@ let bookData = [
 		avgRating : 4.52,
 		pages     : 576,
 		pubDate   : 2015,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Stupid White Men',
@@ -2399,7 +2673,8 @@ let bookData = [
 		avgRating : 3.32,
 		pages     : 304,
 		pubDate   : 2001,
-		yearRead  : [ 2007 ]
+		yearRead  : [ 2007 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Mean Girls',
@@ -2408,7 +2683,8 @@ let bookData = [
 		avgRating : 3.84,
 		pages     : 283,
 		pubDate   : 2017,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "Dungeon Master's Guide",
@@ -2417,7 +2693,8 @@ let bookData = [
 		avgRating : 4.53,
 		pages     : 320,
 		pubDate   : 2014,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "Shirley Jackson's The Lottery: The Authorized Graphic Adaptation",
@@ -2426,7 +2703,8 @@ let bookData = [
 		avgRating : 3.68,
 		pages     : 160,
 		pubDate   : 2017,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Scythe',
@@ -2435,7 +2713,8 @@ let bookData = [
 		avgRating : 4.36,
 		pages     : 435,
 		pubDate   : 2016,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Thunderhead',
@@ -2444,7 +2723,8 @@ let bookData = [
 		avgRating : 4.5,
 		pages     : 504,
 		pubDate   : 2018,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Toll',
@@ -2453,7 +2733,8 @@ let bookData = [
 		avgRating : 4.29,
 		pages     : 625,
 		pubDate   : 2019,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Neverwhere (London Below, #1)',
@@ -2462,7 +2743,8 @@ let bookData = [
 		avgRating : 4.17,
 		pages     : 370,
 		pubDate   : 1996,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Coraline',
@@ -2471,7 +2753,8 @@ let bookData = [
 		avgRating : 4.06,
 		pages     : 162,
 		pubDate   : 2002,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Graveyard Book',
@@ -2480,7 +2763,8 @@ let bookData = [
 		avgRating : 4.14,
 		pages     : 307,
 		pubDate   : 2008,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Victory Over the Darkness',
@@ -2489,7 +2773,8 @@ let bookData = [
 		avgRating : 4.26,
 		pages     : 256,
 		pubDate   : 1990,
-		yearRead  : [ 2014 ]
+		yearRead  : [ 2014 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Fantastic Beasts and Where to Find Them',
@@ -2498,7 +2783,8 @@ let bookData = [
 		avgRating : 3.99,
 		pages     : 128,
 		pubDate   : 2001,
-		yearRead  : [ 2001, 2016 ]
+		yearRead  : [ 2001, 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Everything, Everything',
@@ -2507,7 +2793,8 @@ let bookData = [
 		avgRating : 4.07,
 		pages     : 306,
 		pubDate   : 2015,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Cold Sassy Tree',
@@ -2516,7 +2803,8 @@ let bookData = [
 		avgRating : 4.01,
 		pages     : 391,
 		pubDate   : 1984,
-		yearRead  : [ 2004 ]
+		yearRead  : [ 2004 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Ender’s Game (Ender’s Saga, #1)',
@@ -2525,7 +2813,8 @@ let bookData = [
 		avgRating : 4.3,
 		pages     : 324,
 		pubDate   : 1985,
-		yearRead  : [ 2004 ]
+		yearRead  : [ 2004 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Windup Girl',
@@ -2534,7 +2823,8 @@ let bookData = [
 		avgRating : 3.75,
 		pages     : 359,
 		pubDate   : 2009,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Name of the Wind',
@@ -2543,7 +2833,8 @@ let bookData = [
 		avgRating : 4.54,
 		pages     : 662,
 		pubDate   : 2007,
-		yearRead  : [ 2020 ]
+		yearRead  : [ 2020 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Heavenly Man',
@@ -2552,7 +2843,8 @@ let bookData = [
 		avgRating : 4.35,
 		pages     : 351,
 		pubDate   : 2000,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Girl on the Train',
@@ -2561,7 +2853,8 @@ let bookData = [
 		avgRating : 3.92,
 		pages     : 325,
 		pubDate   : 2015,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Alchemist',
@@ -2570,7 +2863,8 @@ let bookData = [
 		avgRating : 3.87,
 		pages     : 197,
 		pubDate   : 1988,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Good Earth',
@@ -2579,7 +2873,8 @@ let bookData = [
 		avgRating : 3.98,
 		pages     : 418,
 		pubDate   : 1931,
-		yearRead  : [ 2006 ]
+		yearRead  : [ 2006 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Shortest Way Home',
@@ -2588,7 +2883,8 @@ let bookData = [
 		avgRating : 4.21,
 		pages     : 352,
 		pubDate   : 2019,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : '30 Years of Adventure: A Celebration of Dungeons & Dragons',
@@ -2597,7 +2893,8 @@ let bookData = [
 		avgRating : 3.71,
 		pages     : 286,
 		pubDate   : 2004,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : '1001 Books You Must Read Before You Die',
@@ -2606,7 +2903,8 @@ let bookData = [
 		avgRating : 3.82,
 		pages     : 960,
 		pubDate   : 2006,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Hidden Codes & Grand Designs',
@@ -2615,7 +2913,8 @@ let bookData = [
 		avgRating : 3.82,
 		pages     : 375,
 		pubDate   : 2007,
-		yearRead  : [ 2014 ]
+		yearRead  : [ 2014 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Dr. Maniac Will See You Now',
@@ -2624,7 +2923,8 @@ let bookData = [
 		avgRating : 3.83,
 		pages     : 160,
 		pubDate   : 2013,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Dr. Maniac vs. Robby Schwartz',
@@ -2633,7 +2933,8 @@ let bookData = [
 		avgRating : 3.7,
 		pages     : 132,
 		pubDate   : 2008,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Welcome To Camp Slither',
@@ -2642,7 +2943,8 @@ let bookData = [
 		avgRating : 3.91,
 		pages     : 133,
 		pubDate   : 2009,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Little Shop of Hamsters',
@@ -2651,7 +2953,8 @@ let bookData = [
 		avgRating : 3.93,
 		pages     : 135,
 		pubDate   : 2010,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'When The Ghost Dog Howls',
@@ -2660,7 +2963,8 @@ let bookData = [
 		avgRating : 4.02,
 		pages     : 137,
 		pubDate   : 2010,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Slappy Birthday to You',
@@ -2669,7 +2973,8 @@ let bookData = [
 		avgRating : 4.11,
 		pages     : 139,
 		pubDate   : 2017,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Slappy New Year!',
@@ -2678,7 +2983,8 @@ let bookData = [
 		avgRating : 4.09,
 		pages     : 160,
 		pubDate   : 2010,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'It Came from Beneath the Sink!',
@@ -2687,7 +2993,8 @@ let bookData = [
 		avgRating : 3.55,
 		pages     : 112,
 		pubDate   : 1995,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Werewolf Skin',
@@ -2696,7 +3003,8 @@ let bookData = [
 		avgRating : 3.7,
 		pages     : 125,
 		pubDate   : 1997,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Say Cheese - And Die Screaming',
@@ -2705,7 +3013,8 @@ let bookData = [
 		avgRating : 3.91,
 		pages     : 125,
 		pubDate   : 2009,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Welcome to Dead House',
@@ -2714,7 +3023,8 @@ let bookData = [
 		avgRating : 3.84,
 		pages     : 126,
 		pubDate   : 1992,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Escape From Horrorland',
@@ -2723,7 +3033,8 @@ let bookData = [
 		avgRating : 4.05,
 		pages     : 132,
 		pubDate   : 2009,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "Who's Your Mummy?",
@@ -2732,7 +3043,8 @@ let bookData = [
 		avgRating : 3.92,
 		pages     : 133,
 		pubDate   : 2009,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Creature Teacher: The Final Exam',
@@ -2741,7 +3053,8 @@ let bookData = [
 		avgRating : 4.03,
 		pages     : 133,
 		pubDate   : 2014,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Night of the Living Dummy',
@@ -2750,7 +3063,8 @@ let bookData = [
 		avgRating : 3.84,
 		pages     : 134,
 		pubDate   : 1993,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'My Friends Call Me Monster',
@@ -2759,7 +3073,8 @@ let bookData = [
 		avgRating : 3.82,
 		pages     : 138,
 		pubDate   : 2015,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Stay Out of the Basement',
@@ -2768,7 +3083,8 @@ let bookData = [
 		avgRating : 3.67,
 		pages     : 144,
 		pubDate   : 1992,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "The Curse of the Mummy's Tomb",
@@ -2777,7 +3093,8 @@ let bookData = [
 		avgRating : 3.67,
 		pages     : 144,
 		pubDate   : 1993,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Horror At Chiller House',
@@ -2786,7 +3103,8 @@ let bookData = [
 		avgRating : 4.09,
 		pages     : 160,
 		pubDate   : 2011,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The 12 Screams of Christmas',
@@ -2795,7 +3113,8 @@ let bookData = [
 		avgRating : 4.12,
 		pages     : 174,
 		pubDate   : 2014,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Zombie Halloween',
@@ -2804,7 +3123,8 @@ let bookData = [
 		avgRating : 4.05,
 		pages     : 174,
 		pubDate   : 2014,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Weirdo Halloween',
@@ -2813,7 +3133,8 @@ let bookData = [
 		avgRating : 4,
 		pages     : 214,
 		pubDate   : 2010,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Creepy Creatures',
@@ -2822,7 +3143,8 @@ let bookData = [
 		avgRating : 3.9,
 		pages     : 144,
 		pubDate   : 2006,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Terror Trips',
@@ -2831,7 +3153,8 @@ let bookData = [
 		avgRating : 3.97,
 		pages     : 144,
 		pubDate   : 2007,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : '2,000 to 10,000',
@@ -2840,7 +3163,8 @@ let bookData = [
 		avgRating : 4.19,
 		pages     : 72,
 		pubDate   : 2012,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Less: A Visual Guide to Minimalism',
@@ -2849,7 +3173,8 @@ let bookData = [
 		avgRating : 3.55,
 		pages     : 144,
 		pubDate   : 2018,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "Nick & Norah's Infinite Playlist",
@@ -2858,7 +3183,8 @@ let bookData = [
 		avgRating : 3.71,
 		pages     : 183,
 		pubDate   : 2006,
-		yearRead  : [ 2015, 2018 ]
+		yearRead  : [ 2015, 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Ghosts',
@@ -2867,7 +3193,8 @@ let bookData = [
 		avgRating : 4.23,
 		pages     : 256,
 		pubDate   : 2016,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Landline',
@@ -2876,7 +3203,8 @@ let bookData = [
 		avgRating : 3.55,
 		pages     : 310,
 		pubDate   : 2014,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Attachments',
@@ -2885,7 +3213,8 @@ let bookData = [
 		avgRating : 3.91,
 		pages     : 323,
 		pubDate   : 2011,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Eleanor & Park',
@@ -2894,7 +3223,8 @@ let bookData = [
 		avgRating : 4.07,
 		pages     : 328,
 		pubDate   : 2012,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Wayward Son',
@@ -2903,7 +3233,8 @@ let bookData = [
 		avgRating : 4.07,
 		pages     : 356,
 		pubDate   : 2019,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Fangirl',
@@ -2912,7 +3243,8 @@ let bookData = [
 		avgRating : 4.07,
 		pages     : 483,
 		pubDate   : 2013,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Carry On',
@@ -2921,7 +3253,8 @@ let bookData = [
 		avgRating : 4.24,
 		pages     : 522,
 		pubDate   : 2015,
-		yearRead  : [ 2016, 2018 ]
+		yearRead  : [ 2016, 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Thing Explainer: Complicated Stuff in Simple Words',
@@ -2930,7 +3263,8 @@ let bookData = [
 		avgRating : 4.15,
 		pages     : 64,
 		pubDate   : 2015,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'What If? Serious Scientific Answers to Absurd Hypothetical Questions',
@@ -2939,7 +3273,8 @@ let bookData = [
 		avgRating : 4.16,
 		pages     : 303,
 		pubDate   : 2014,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Money, Possessions and Eternity',
@@ -2948,7 +3283,8 @@ let bookData = [
 		avgRating : 4.2,
 		pages     : 528,
 		pubDate   : 1989,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Treasure Principle: Unlocking the Secret of Joyful Giving',
@@ -2957,7 +3293,8 @@ let bookData = [
 		avgRating : 4.13,
 		pages     : 120,
 		pubDate   : 2001,
-		yearRead  : [ 2013 ]
+		yearRead  : [ 2013 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Safely Home',
@@ -2966,7 +3303,8 @@ let bookData = [
 		avgRating : 4.43,
 		pages     : 402,
 		pubDate   : 2001,
-		yearRead  : [ 2013 ]
+		yearRead  : [ 2013 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Miss Peregrine’s Home for Peculiar Children',
@@ -2975,7 +3313,8 @@ let bookData = [
 		avgRating : 3.91,
 		pages     : 382,
 		pubDate   : 2011,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Welcome to the Club',
@@ -2984,7 +3323,8 @@ let bookData = [
 		avgRating : 4.28,
 		pages     : 144,
 		pubDate   : 2016,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Fahrenheit 451',
@@ -2993,7 +3333,8 @@ let bookData = [
 		avgRating : 3.99,
 		pages     : 180,
 		pubDate   : 1953,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Cemetery Dance: Issue 74-75',
@@ -3002,7 +3343,8 @@ let bookData = [
 		avgRating : 4.17,
 		pages     : 192,
 		pubDate   : 2016,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Celebration of Discipline',
@@ -3011,7 +3353,8 @@ let bookData = [
 		avgRating : 4.19,
 		pages     : 256,
 		pubDate   : 1978,
-		yearRead  : [ 2014 ]
+		yearRead  : [ 2014 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'I Am Legend',
@@ -3020,7 +3363,8 @@ let bookData = [
 		avgRating : 4.07,
 		pages     : 160,
 		pubDate   : 1954,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Frostbite',
@@ -3029,7 +3373,8 @@ let bookData = [
 		avgRating : 4.28,
 		pages     : 327,
 		pubDate   : 2008,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Vampire Academy',
@@ -3038,7 +3383,8 @@ let bookData = [
 		avgRating : 4.13,
 		pages     : 332,
 		pubDate   : 2007,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Shadow Kiss',
@@ -3047,7 +3393,8 @@ let bookData = [
 		avgRating : 4.36,
 		pages     : 443,
 		pubDate   : 2008,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Spirit Bound',
@@ -3056,7 +3403,8 @@ let bookData = [
 		avgRating : 4.36,
 		pages     : 489,
 		pubDate   : 2010,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Blood Promise',
@@ -3065,7 +3413,8 @@ let bookData = [
 		avgRating : 4.34,
 		pages     : 503,
 		pubDate   : 2009,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Last Sacrifice',
@@ -3074,7 +3423,8 @@ let bookData = [
 		avgRating : 4.4,
 		pages     : 594,
 		pubDate   : 2010,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Final Quest',
@@ -3083,7 +3433,8 @@ let bookData = [
 		avgRating : 4.34,
 		pages     : 170,
 		pubDate   : 1996,
-		yearRead  : [ 2014 ]
+		yearRead  : [ 2014 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Lightning Thief',
@@ -3092,7 +3443,8 @@ let bookData = [
 		avgRating : 4.25,
 		pages     : 375,
 		pubDate   : 2005,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The 5th Wave',
@@ -3101,7 +3453,8 @@ let bookData = [
 		avgRating : 4.05,
 		pages     : 460,
 		pubDate   : 2013,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Slay the Dragon',
@@ -3110,7 +3463,8 @@ let bookData = [
 		avgRating : 3.84,
 		pages     : 232,
 		pubDate   : 2015,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Outcast by Kirkman & Azaceta Book 1',
@@ -3119,7 +3473,8 @@ let bookData = [
 		avgRating : 4.08,
 		pages     : 296,
 		pubDate   : 2016,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Walking Dead, Vol. 1',
@@ -3128,7 +3483,8 @@ let bookData = [
 		avgRating : 4.27,
 		pages     : 144,
 		pubDate   : 2004,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Good Luck Have Fun',
@@ -3137,7 +3493,8 @@ let bookData = [
 		avgRating : 3.64,
 		pages     : 268,
 		pubDate   : 2016,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Big Book of 30-Day Challenges',
@@ -3146,7 +3503,8 @@ let bookData = [
 		avgRating : 3.39,
 		pages     : 144,
 		pubDate   : 2017,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Milk and Honey',
@@ -3155,7 +3513,8 @@ let bookData = [
 		avgRating : 4.09,
 		pages     : 204,
 		pubDate   : 2014,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Play Dead',
@@ -3164,7 +3523,8 @@ let bookData = [
 		avgRating : 3.35,
 		pages     : 352,
 		pubDate   : 2010,
-		yearRead  : [ 2010 ]
+		yearRead  : [ 2010 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Scene but Not Heard',
@@ -3173,7 +3533,8 @@ let bookData = [
 		avgRating : 3.7,
 		pages     : 119,
 		pubDate   : 2013,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Perfect',
@@ -3182,7 +3543,8 @@ let bookData = [
 		avgRating : 3.99,
 		pages     : 298,
 		pubDate   : 2007,
-		yearRead  : [ 2020 ]
+		yearRead  : [ 2020 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Wicked',
@@ -3191,7 +3553,8 @@ let bookData = [
 		avgRating : 4.01,
 		pages     : 312,
 		pubDate   : 2008,
-		yearRead  : [ 2020 ]
+		yearRead  : [ 2020 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Flawless',
@@ -3200,7 +3563,8 @@ let bookData = [
 		avgRating : 3.94,
 		pages     : 330,
 		pubDate   : 2007,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Wanted',
@@ -3209,7 +3573,8 @@ let bookData = [
 		avgRating : 4.13,
 		pages     : 261,
 		pubDate   : 2010,
-		yearRead  : [ 2020 ]
+		yearRead  : [ 2020 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Heartless',
@@ -3218,7 +3583,8 @@ let bookData = [
 		avgRating : 4.07,
 		pages     : 274,
 		pubDate   : 2010,
-		yearRead  : [ 2020 ]
+		yearRead  : [ 2020 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Pretty Little Liars',
@@ -3227,7 +3593,8 @@ let bookData = [
 		avgRating : 3.88,
 		pages     : 286,
 		pubDate   : 2006,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Killer',
@@ -3236,7 +3603,8 @@ let bookData = [
 		avgRating : 4.05,
 		pages     : 320,
 		pubDate   : 2009,
-		yearRead  : [ 2020 ]
+		yearRead  : [ 2020 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Unbelievable',
@@ -3245,7 +3613,8 @@ let bookData = [
 		avgRating : 4.04,
 		pages     : 335,
 		pubDate   : 2008,
-		yearRead  : [ 2020 ]
+		yearRead  : [ 2020 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "Rick and Morty: Lil' Poopy Superstar",
@@ -3254,7 +3623,8 @@ let bookData = [
 		avgRating : 3.55,
 		pages     : 128,
 		pubDate   : 2017,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Level Up!: The Guide to Great Video Game Design',
@@ -3263,7 +3633,8 @@ let bookData = [
 		avgRating : 4.13,
 		pages     : 492,
 		pubDate   : 2010,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Uglies: Cutters',
@@ -3272,7 +3643,8 @@ let bookData = [
 		avgRating : 3.61,
 		pages     : 176,
 		pubDate   : 2012,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Specials',
@@ -3281,7 +3653,8 @@ let bookData = [
 		avgRating : 3.77,
 		pages     : 372,
 		pubDate   : 2006,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Pretties',
@@ -3290,7 +3663,8 @@ let bookData = [
 		avgRating : 3.85,
 		pages     : 370,
 		pubDate   : 2005,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Extras',
@@ -3299,7 +3673,8 @@ let bookData = [
 		avgRating : 3.59,
 		pages     : 417,
 		pubDate   : 2006,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Uglies',
@@ -3308,7 +3683,8 @@ let bookData = [
 		avgRating : 3.86,
 		pages     : 425,
 		pubDate   : 2005,
-		yearRead  : [ 2015, 2018 ]
+		yearRead  : [ 2015, 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Abraham Lincoln: Vampire Hunter',
@@ -3317,7 +3693,8 @@ let bookData = [
 		avgRating : 3.7,
 		pages     : 336,
 		pubDate   : 2010,
-		yearRead  : [ 2013 ]
+		yearRead  : [ 2013 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Smartcuts',
@@ -3326,7 +3703,8 @@ let bookData = [
 		avgRating : 3.93,
 		pages     : 272,
 		pubDate   : 2014,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Kicking It',
@@ -3335,7 +3713,8 @@ let bookData = [
 		avgRating : 3.92,
 		pages     : 79,
 		pubDate   : 2012,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Where the Sidewalk Ends',
@@ -3344,7 +3723,8 @@ let bookData = [
 		avgRating : 4.3,
 		pages     : 176,
 		pubDate   : 1974,
-		yearRead  : [ 1997 ]
+		yearRead  : [ 1997 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Fallin Up',
@@ -3353,7 +3733,8 @@ let bookData = [
 		avgRating : 4.34,
 		pages     : 178,
 		pubDate   : 1996,
-		yearRead  : [ 2000 ]
+		yearRead  : [ 2000 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'A Light in the Attic',
@@ -3362,7 +3743,8 @@ let bookData = [
 		avgRating : 4.35,
 		pages     : 176,
 		pubDate   : 1981,
-		yearRead  : [ 2001 ]
+		yearRead  : [ 2001 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Absolutely True Diary of a Part-Time Indian',
@@ -3371,7 +3753,8 @@ let bookData = [
 		avgRating : 4.1,
 		pages     : 230,
 		pubDate   : 2007,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Lean In',
@@ -3380,7 +3763,8 @@ let bookData = [
 		avgRating : 3.95,
 		pages     : 217,
 		pubDate   : 2013,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'My True Love Gave to Me',
@@ -3389,7 +3773,8 @@ let bookData = [
 		avgRating : 3.69,
 		pages     : 321,
 		pubDate   : 2014,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "There's Someone Inside Your House",
@@ -3398,7 +3783,8 @@ let bookData = [
 		avgRating : 3.38,
 		pages     : 287,
 		pubDate   : 2017,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Perks of Being a Wallflower',
@@ -3407,7 +3793,8 @@ let bookData = [
 		avgRating : 4.2,
 		pages     : 213,
 		pubDate   : 1999,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'I Am America (And So Can You!)',
@@ -3416,7 +3803,8 @@ let bookData = [
 		avgRating : 3.91,
 		pages     : 230,
 		pubDate   : 2007,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Red Badge of Courage',
@@ -3425,7 +3813,8 @@ let bookData = [
 		avgRating : 3.24,
 		pages     : 170,
 		pubDate   : 1895,
-		yearRead  : [ 2005 ]
+		yearRead  : [ 2005 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Green Mile, Part 1',
@@ -3434,7 +3823,8 @@ let bookData = [
 		avgRating : 4.52,
 		pages     : 92,
 		pubDate   : 1996,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Gunslinger',
@@ -3443,7 +3833,8 @@ let bookData = [
 		avgRating : 3.95,
 		pages     : 231,
 		pubDate   : 1982,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Carrie',
@@ -3452,7 +3843,8 @@ let bookData = [
 		avgRating : 3.96,
 		pages     : 253,
 		pubDate   : 1974,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Doctor Sleep',
@@ -3461,7 +3853,8 @@ let bookData = [
 		avgRating : 4.12,
 		pages     : 531,
 		pubDate   : 2013,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Pet Sematary',
@@ -3470,7 +3863,8 @@ let bookData = [
 		avgRating : 3.99,
 		pages     : 580,
 		pubDate   : 1983,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Misery',
@@ -3479,7 +3873,8 @@ let bookData = [
 		avgRating : 4.16,
 		pages     : 310,
 		pubDate   : 1987,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'On Writing',
@@ -3488,7 +3883,8 @@ let bookData = [
 		avgRating : 4.33,
 		pages     : 320,
 		pubDate   : 2000,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Shining',
@@ -3497,7 +3893,8 @@ let bookData = [
 		avgRating : 4.22,
 		pages     : 659,
 		pubDate   : 1977,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'It',
@@ -3506,7 +3903,8 @@ let bookData = [
 		avgRating : 4.24,
 		pages     : 1116,
 		pubDate   : 1986,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'New Moon',
@@ -3515,7 +3913,8 @@ let bookData = [
 		avgRating : 3.53,
 		pages     : 565,
 		pubDate   : 2006,
-		yearRead  : [ 2009 ]
+		yearRead  : [ 2009 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Eclipse',
@@ -3524,7 +3923,8 @@ let bookData = [
 		avgRating : 3.69,
 		pages     : 632,
 		pubDate   : 2007,
-		yearRead  : [ 2009 ]
+		yearRead  : [ 2009 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Breaking Dawn',
@@ -3533,7 +3933,8 @@ let bookData = [
 		avgRating : 3.69,
 		pages     : 756,
 		pubDate   : 2008,
-		yearRead  : [ 2009 ]
+		yearRead  : [ 2009 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Twilight',
@@ -3542,7 +3943,8 @@ let bookData = [
 		avgRating : 3.59,
 		pages     : 501,
 		pubDate   : 2005,
-		yearRead  : [ 2009, 2012 ]
+		yearRead  : [ 2009, 2012 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Twilight / Life and Death',
@@ -3551,7 +3953,8 @@ let bookData = [
 		avgRating : 3.42,
 		pages     : 738,
 		pubDate   : 2015,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : '30 Days of Night, Vol. 4',
@@ -3560,7 +3963,8 @@ let bookData = [
 		avgRating : 3.84,
 		pages     : 144,
 		pubDate   : 2004,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : '30 Days of Night, Vol. 1',
@@ -3569,7 +3973,8 @@ let bookData = [
 		avgRating : 3.8,
 		pages     : 104,
 		pubDate   : 2004,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : '30 Days of Night, Vol. 2',
@@ -3578,7 +3983,8 @@ let bookData = [
 		avgRating : 3.76,
 		pages     : 144,
 		pubDate   : 2004,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Ultimate History of Video Games',
@@ -3587,7 +3993,8 @@ let bookData = [
 		avgRating : 4.1,
 		pages     : 608,
 		pubDate   : 2001,
-		yearRead  : [ 2011, 2013 ]
+		yearRead  : [ 2011, 2013 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Mockingjay',
@@ -3596,7 +4003,8 @@ let bookData = [
 		avgRating : 4.04,
 		pages     : 390,
 		pubDate   : 2010,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Hunger Games',
@@ -3605,7 +4013,8 @@ let bookData = [
 		avgRating : 4.33,
 		pages     : 374,
 		pubDate   : 2008,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Catching Fire',
@@ -3614,7 +4023,8 @@ let bookData = [
 		avgRating : 4.29,
 		pages     : 391,
 		pubDate   : 2009,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Waking Gods',
@@ -3623,7 +4033,8 @@ let bookData = [
 		avgRating : 4.04,
 		pages     : 336,
 		pubDate   : 2017,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Sleeping Giants',
@@ -3632,7 +4043,8 @@ let bookData = [
 		avgRating : 3.84,
 		pages     : 320,
 		pubDate   : 2016,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Thr3e',
@@ -3641,7 +4053,8 @@ let bookData = [
 		avgRating : 4.09,
 		pages     : 423,
 		pubDate   : 2003,
-		yearRead  : [ 2013 ]
+		yearRead  : [ 2013 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Getting Started with SQL',
@@ -3650,7 +4063,8 @@ let bookData = [
 		avgRating : 3.99,
 		pages     : 134,
 		pubDate   : 2016,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Prodigal God',
@@ -3659,7 +4073,8 @@ let bookData = [
 		avgRating : 4.39,
 		pages     : 155,
 		pubDate   : 2008,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Bossypants',
@@ -3668,7 +4083,8 @@ let bookData = [
 		avgRating : 3.96,
 		pages     : 277,
 		pubDate   : 2011,
-		yearRead  : [ 2018 ]
+		yearRead  : [ 2018 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Fun Inc.',
@@ -3677,7 +4093,8 @@ let bookData = [
 		avgRating : 3.41,
 		pages     : 272,
 		pubDate   : 2010,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Strengths Finder 2.0',
@@ -3686,7 +4103,8 @@ let bookData = [
 		avgRating : 3.94,
 		pages     : 174,
 		pubDate   : 2007,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "Anya's Ghost",
@@ -3695,7 +4113,8 @@ let bookData = [
 		avgRating : 3.89,
 		pages     : 224,
 		pubDate   : 2011,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Allegiant',
@@ -3704,7 +4123,8 @@ let bookData = [
 		avgRating : 3.63,
 		pages     : 526,
 		pubDate   : 2013,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Divergent',
@@ -3713,7 +4133,8 @@ let bookData = [
 		avgRating : 4.2,
 		pages     : 487,
 		pubDate   : 2011,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Insurgent',
@@ -3722,7 +4143,8 @@ let bookData = [
 		avgRating : 4.03,
 		pages     : 525,
 		pubDate   : 2012,
-		yearRead  : [ 2015 ]
+		yearRead  : [ 2015 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Slumdog Millionaire',
@@ -3731,7 +4153,8 @@ let bookData = [
 		avgRating : 3.99,
 		pages     : 333,
 		pubDate   : 2005,
-		yearRead  : [ 2016 ]
+		yearRead  : [ 2016 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : "The Smart Girl's Guide to Privacy",
@@ -3740,7 +4163,8 @@ let bookData = [
 		avgRating : 3.68,
 		pages     : 168,
 		pubDate   : 2014,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Warner Bros. Studio Tour London',
@@ -3749,7 +4173,8 @@ let bookData = [
 		avgRating : 4.3,
 		pages     : 72,
 		pubDate   : 2012,
-		yearRead  : [ 2017 ]
+		yearRead  : [ 2017 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Systematic Theology',
@@ -3758,7 +4183,8 @@ let bookData = [
 		avgRating : 4.24,
 		pages     : 1264,
 		pubDate   : 1994,
-		yearRead  : [ 2013 ]
+		yearRead  : [ 2013 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Things We Think About Games',
@@ -3767,7 +4193,8 @@ let bookData = [
 		avgRating : 3.69,
 		pages     : 160,
 		pubDate   : 2008,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Lord of the Flies',
@@ -3776,7 +4203,8 @@ let bookData = [
 		avgRating : 3.68,
 		pages     : 192,
 		pubDate   : 1954,
-		yearRead  : [ 2003, 2005 ]
+		yearRead  : [ 2003, 2005 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Make Your Bed',
@@ -3785,7 +4213,8 @@ let bookData = [
 		avgRating : 3.98,
 		pages     : 144,
 		pubDate   : 2017,
-		yearRead  : [ 2020 ]
+		yearRead  : [ 2020 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Ghosts of Saltmarsh',
@@ -3794,7 +4223,8 @@ let bookData = [
 		avgRating : 4.1,
 		pages     : 256,
 		pubDate   : 2019,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Tales from the Yawning Portal',
@@ -3803,7 +4233,8 @@ let bookData = [
 		avgRating : 4.27,
 		pages     : 248,
 		pubDate   : 2017,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Sapiens',
@@ -3812,7 +4243,8 @@ let bookData = [
 		avgRating : 4.43,
 		pages     : 498,
 		pubDate   : 2011,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'The Willow Files, Vol. 2',
@@ -3821,7 +4253,8 @@ let bookData = [
 		avgRating : 4.14,
 		pages     : 210,
 		pubDate   : 2001,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/.jpg'
 	},
 	{
 		title     : 'Rick and Morty, Vol. 1',

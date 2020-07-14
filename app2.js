@@ -60,7 +60,8 @@ function makeHidden() {
 function fiveStarSetup() {
 	for (let book in bookData) {
 		if (bookData[book].myRating == 5) {
-			fiveStarBooks += `<div class="book">${bookData[book].title} - ${bookData[book].author}</div>`;
+			fiveStarBooks += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
+				.author}</div></div>`;
 		}
 	}
 	$('.fiveStarBox').replaceWith(` 
@@ -73,7 +74,8 @@ function fiveStarSetup() {
 function highRatingSetup() {
 	for (let book in bookData) {
 		if (bookData[book].avgRating >= 4.5) {
-			highGoodReads += `<div class="book">${bookData[book].title} - ${bookData[book].author}</div>`;
+			highGoodReads += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
+				.author}</div></div>`;
 		}
 	}
 	$('.highGRBox').replaceWith(` 
@@ -91,7 +93,8 @@ function yearSearch() {
 		if (bookData[book].yearRead.includes(yearVal) == undefined) {
 		} else {
 			if (bookData[book].yearRead.includes(yearVal) == true) {
-				yearReads += `<div class="book">${bookData[book].title} - ${bookData[book].author}</div>`;
+				yearReads += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
+					.author}</div></div>`;
 				pagesForYear += bookData[book].pages;
 				booksForYear++;
 			}
