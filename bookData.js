@@ -354,7 +354,7 @@ let bookData = [
 		pages     : 128,
 		pubDate   : 2001,
 		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/eat-frog.jpg'
 	},
 	{
 		title     : 'God Is in the Small Stuff',
@@ -364,7 +364,7 @@ let bookData = [
 		pages     : 256,
 		pubDate   : 1998,
 		yearRead  : [ 2017 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/god-in-small-stuff.jpg'
 	},
 	{
 		title     : 'Scott Pilgrim, Volume 1',
@@ -374,7 +374,7 @@ let bookData = [
 		pages     : 168,
 		pubDate   : 2004,
 		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/scott-pilgrim1.jpg'
 	},
 	{
 		title     : 'Scott Pilgrim, Volume 2',
@@ -384,7 +384,7 @@ let bookData = [
 		pages     : 200,
 		pubDate   : 2005,
 		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/scott-pilgrim2.jpg'
 	},
 	{
 		title     : 'Scott Pilgrim, Volume 3',
@@ -394,7 +394,7 @@ let bookData = [
 		pages     : 192,
 		pubDate   : 2006,
 		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/scott-pilgrim3.jpg'
 	},
 	{
 		title     : 'Scott Pilgrim, Volume 4',
@@ -404,7 +404,7 @@ let bookData = [
 		pages     : 205,
 		pubDate   : 2007,
 		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/scott-pilgrim4.jpg'
 	},
 	{
 		title     : 'Scott Pilgrim, Vol. 5',
@@ -414,7 +414,7 @@ let bookData = [
 		pages     : 178,
 		pubDate   : 2009,
 		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/scott-pilgrim5.jpg'
 	},
 	{
 		title     : 'Scott Pilgrim, Vol. 6',
@@ -424,7 +424,7 @@ let bookData = [
 		pages     : 245,
 		pubDate   : 2010,
 		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/scott-pilgrim6.jpg'
 	},
 	{
 		title     : "The Magician's Nephew",
