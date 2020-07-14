@@ -5,11 +5,13 @@ $(function() {
 	fiveStarSetup();
 	highRatingSetup();
 	displayData();
+	allBooks();
 });
 
 let fiveStarBooks = ``;
 let highGoodReads = ``;
 let yearReads = ``;
+let allReads = ``;
 let yearVal = 2020;
 
 function buttons() {
@@ -47,6 +49,9 @@ function displayData() {
 		$('.yearBox').removeClass('hidden');
 		yearVal = parseInt($('#dataSelection option:selected').text());
 		yearSearch();
+	} else if ($('#dataSelection').val() == 'all') {
+		makeHidden();
+		$('.allReads').removeClass('hidden');
 	}
 }
 
@@ -55,6 +60,30 @@ function makeHidden() {
 	$('.fiveStarBox').hasClass('hidden') ? '' : $('.fiveStarBox').toggleClass('hidden');
 	$('.highGRBox').hasClass('hidden') ? '' : $('.highGRBox').toggleClass('hidden');
 	$('.yearBox').hasClass('hidden') ? '' : $('.yearBox').toggleClass('hidden');
+	$('.allReads').hasClass('hidden') ? '' : $('.allReads').toggleClass('hidden');
+}
+
+function allBooks() {
+	allReads = ``;
+	let pagesForAll = 0;
+	let booksForAll = 0;
+	let pagesForAllUnique = 0;
+	let booksForAllUnique = 0;
+	for (let book in bookData) {
+		allReads += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
+			.author}</div></div>`;
+		pagesForAll += bookData[book].pages * bookData[book].yearRead.length;
+		booksForAll += bookData[book].yearRead.length;
+		pagesForAllUnique += bookData[book].pages;
+		booksForAllUnique++;
+	}
+
+	$('.allReads').replaceWith(`     
+		<div class="allReads hidden">
+			<h3>${booksForAll} books & ${pagesForAll} pages - ${booksForAllUnique} unique books & ${pagesForAllUnique} pages</h3>
+			<div class="bookList">${allReads}</div>
+		</div>
+    `);
 }
 
 function fiveStarSetup() {
@@ -103,7 +132,7 @@ function yearSearch() {
 	$('.yearBox').replaceWith(`     
 		<div class="yearBox">
 		<h3>${booksForYear} books & ${pagesForYear} pages</h3>
-		${yearReads}
+		<div class="bookList">${yearReads}</div>
 		</div>
     `);
 }

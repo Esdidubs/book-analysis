@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>D3 Histogram</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -10,6 +11,7 @@
     <label for="dataSelection">Select an option</label>
     <select name="dataSelection" id="dataSelection" class="dataDrop">            
         <option value="graphBtn"  selected>Graphs</option>
+        <option value="all" >All Books</option>
         <option value="fiveStarBtn"  >5 Star Books</option>
         <option value="highGRBtn"  >4.5+ GR Rating</option>
         <option value="years" >2000</option>
@@ -35,7 +37,7 @@
         <option value="years" >2020</option>
     </select>
   </div>
-  <div class="test"> </div> 
+  <div class="allReads hidden"> </div> 
   <div class="fiveStarBox hidden"> </div> 
   <div class="highGRBox hidden">  </div>
   <div class="yearBox hidden"></div>

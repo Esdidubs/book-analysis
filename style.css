@@ -38,7 +38,7 @@ svg {
 
 .fiveStarBox,
 .highGRBox,
-.yearBox {
+.bookList {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	grid-gap: 10px;
@@ -47,7 +47,7 @@ svg {
 .book {
 	padding: 10px;
 	border: 1px;
-	border-color: black;
+	border-color: rgb(202, 199, 197);
 	border-style: dashed;
 	display: flex;
 	flex-direction: column;
@@ -60,10 +60,21 @@ svg {
 
 .title {
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 16px;
 	margin-top: 10px;
 	text-align: center;
 }
 
 .author {
+}
+
+h3 {
+	width: 100%;
+	text-align: center;
+}
+
+#buttons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
