@@ -1,3 +1,8 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
 svg {
 	margin: 0 auto;
 	display: block;
@@ -63,4 +68,24 @@ h3 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-items: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#mainLabel {
+	font-size: 20px;
+}
+
+#dataSelection {
+	font-size: 16px;
+	padding: 5px 10px;
+}
+
+header {
+	background-color: rgb(5, 22, 48);
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	padding: 10px;
 }

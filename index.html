@@ -2,41 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  
-  <title>D3 Histogram</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steven's Reading Library</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+  <header>Steven's Reading Library  <i class="fa fa-book"></i></header>
   <div id="buttons">
-    <label for="dataSelection">Select an option</label>
+    <label for="dataSelection" id="mainLabel">Select an option</label>
     <select name="dataSelection" id="dataSelection" class="dataDrop">            
-        <option value="graphBtn"  selected>Graphs</option>
-        <option value="all" >All Books</option>
-        <option value="fiveStarBtn"  >5 Star Books</option>
-        <option value="highGRBtn"  >4.5+ GR Rating</option>
-        <option value="years" >2000</option>
-        <option value="years" >2001</option>
-        <option value="years" >2002</option>
-        <option value="years" >2003</option>
-        <option value="years" >2004</option>
-        <option value="years" >2005</option>
-        <option value="years" >2006</option>
-        <option value="years" >2007</option>
-        <option value="years" >2008</option>
-        <option value="years" >2009</option>
-        <option value="years" >2010</option>
-        <option value="years" >2011</option>
-        <option value="years" >2012</option>
-        <option value="years" >2013</option>
-        <option value="years" >2014</option>
-        <option value="years" >2015</option>
-        <option value="years" >2016</option>
-        <option value="years" >2017</option>
-        <option value="years" >2018</option>
-        <option value="years" >2019</option>
-        <option value="years" >2020</option>
+        <option value="graphBtn"  selected>Graphed Reading Data</option>
+        <option value="all" >All of the Books I've Read</option>
+        <option value="fiveStarBtn">Books I Gave 5 Stars</option>
+        <option value="highGRBtn">Books with 4.5+ on Goodreads</option>
+        <option value="years" >Books I Read in 2000</option>
+        <option value="years" >Books I Read in 2001</option>
+        <option value="years" >Books I Read in 2002</option>
+        <option value="years" >Books I Read in 2003</option>
+        <option value="years" >Books I Read in 2004</option>
+        <option value="years" >Books I Read in 2005</option>
+        <option value="years" >Books I Read in 2006</option>
+        <option value="years" >Books I Read in 2007</option>
+        <option value="years" >Books I Read in 2008</option>
+        <option value="years" >Books I Read in 2009</option>
+        <option value="years" >Books I Read in 2010</option>
+        <option value="years" >Books I Read in 2011</option>
+        <option value="years" >Books I Read in 2012</option>
+        <option value="years" >Books I Read in 2013</option>
+        <option value="years" >Books I Read in 2014</option>
+        <option value="years" >Books I Read in 2015</option>
+        <option value="years" >Books I Read in 2016</option>
+        <option value="years" >Books I Read in 2017</option>
+        <option value="years" >Books I Read in 2018</option>
+        <option value="years" >Books I Read in 2019</option>
+        <option value="years" >Books I Read in 2020</option>
     </select>
   </div>
+  <hr>
   <div class="allReads hidden"> </div> 
   <div class="fiveStarBox hidden"> </div> 
   <div class="highGRBox hidden">  </div>

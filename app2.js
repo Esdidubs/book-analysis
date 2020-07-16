@@ -47,7 +47,8 @@ function displayData() {
 	} else if ($('#dataSelection').val() == 'years') {
 		makeHidden();
 		$('.yearBox').removeClass('hidden');
-		yearVal = parseInt($('#dataSelection option:selected').text());
+		let selectedYear = $('#dataSelection option:selected').text();
+		yearVal = parseInt(selectedYear.substr(selectedYear.length - 4));
 		yearSearch();
 	} else if ($('#dataSelection').val() == 'all') {
 		makeHidden();
