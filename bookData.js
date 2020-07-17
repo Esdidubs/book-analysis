@@ -45,6 +45,36 @@ let bookData = [
 	{ title: 'Crossed', author: 'Ally Condie', myRating: 3, avgRating: 3.52, pages: 367, pubDate: 2011, yearRead: [ 2016 ], thumb: './images/crossed.jpg' },
 	{ title: 'Reached', author: 'Ally Condie', myRating: 3, avgRating: 3.56, pages: 512, pubDate: 2012, yearRead: [ 2016 ], thumb: './images/reached.jpg' },
 	{
+		title     : 'Scary Stories to Tell in the Dark',
+		author    : 'Alvin Schwartz',
+		myRating  : 4,
+		avgRating : 4.06,
+		pages     : 111,
+		pubDate   : 1981,
+		yearRead  : [ 1999 ],
+		thumb     : './images/scary-stories1.jpg'
+	},
+	{
+		title     : 'More Scary Stories to Tell in the Dark',
+		author    : 'Alvin Schwartz',
+		myRating  : 4,
+		avgRating : 4.12,
+		pages     : 100,
+		pubDate   : 1984,
+		yearRead  : [ 1999 ],
+		thumb     : './images/scary-stories2.jpg'
+	},
+	{
+		title     : 'More Tales to Chill Your Bones',
+		author    : 'Alvin Schwartz',
+		myRating  : 4,
+		avgRating : 4.19,
+		pages     : 128,
+		pubDate   : 1991,
+		yearRead  : [ 2000 ],
+		thumb     : './images/scary-stories3.jpg'
+	},
+	{
 		title     : 'Humility: The Journey Toward Holiness',
 		author    : 'Andrew Murray',
 		myRating  : 4,
@@ -86,6 +116,16 @@ let bookData = [
 		pubDate   : 2003,
 		yearRead  : [ 2015 ],
 		thumb     : './images/how-much.jpg'
+	},
+	{
+		title     : 'Nothing But the Truth',
+		author    : 'Avi',
+		myRating  : 2,
+		avgRating : 3.21,
+		pages     : 177,
+		pubDate   : 1991,
+		yearRead  : [ 2003 ],
+		thumb     : './images/nothing-but-truth.jpg'
 	},
 	{ title: 'Go Ask Alice', author: 'Beatrice Sparks', myRating: 3, avgRating: 3.76, pages: 213, pubDate: 1971, yearRead: [], thumb: './images/alice.jpg' },
 	{
@@ -177,6 +217,16 @@ let bookData = [
 		pubDate   : 2014,
 		yearRead  : [ 2015 ],
 		thumb     : './images/fluent-in-3.jpg'
+	},
+	{
+		title     : 'The Mouse and the Motorcycle',
+		author    : 'Beverly Cleary',
+		myRating  : 4,
+		avgRating : 3.94,
+		pages     : 186,
+		pubDate   : 1965,
+		yearRead  : [ 2000 ],
+		thumb     : './images/mouse-motorcycle.jpg'
 	},
 	{
 		title     : 'Courageous Leadership',
@@ -367,6 +417,26 @@ let bookData = [
 		pubDate   : 1998,
 		yearRead  : [ 2017 ],
 		thumb     : './images/god-in-small-stuff.jpg'
+	},
+	{
+		title     : 'My Teacher is an Alien',
+		author    : 'Bruce Coville',
+		myRating  : 4,
+		avgRating : 3.78,
+		pages     : 124,
+		pubDate   : 1989,
+		yearRead  : [ 2001 ],
+		thumb     : './images/teacher-is-alien.jpg'
+	},
+	{
+		title     : 'My Teacher Glows in the Dark',
+		author    : 'Bruce Coville',
+		myRating  : 4,
+		avgRating : 3.8,
+		pages     : 144,
+		pubDate   : 1991,
+		yearRead  : [ 2001 ],
+		thumb     : './images/teacher-is-alien3.jpg'
 	},
 	{
 		title     : 'Scott Pilgrim, Volume 1',
@@ -719,6 +789,16 @@ let bookData = [
 		thumb     : './images/inferno.jpg'
 	},
 	{
+		title     : 'The Kid Who Ran for President',
+		author    : 'Dan Gutman',
+		myRating  : 4,
+		avgRating : 3.85,
+		pages     : 156,
+		pubDate   : 1996,
+		yearRead  : [ 1999 ],
+		thumb     : './images/kid-president.jpg'
+	},
+	{
 		title     : 'The Little Book of Talent',
 		author    : 'Daniel Coyle',
 		myRating  : 5,
@@ -777,6 +857,16 @@ let bookData = [
 		pubDate   : 1320,
 		yearRead  : [ 2008 ],
 		thumb     : './images/the-inferno.jpg'
+	},
+	{
+		title     : 'The Adventures of Captain Underpants',
+		author    : 'Dav Pilkey',
+		myRating  : 4,
+		avgRating : 3.96,
+		pages     : 125,
+		pubDate   : 2000,
+		yearRead  : [ 2000 ],
+		thumb     : './images/captain-underpants.jpg'
 	},
 	{
 		title     : 'The Circle',
@@ -909,6 +999,16 @@ let bookData = [
 		thumb     : './images/analog.jpg'
 	},
 	{
+		title     : 'Whispers',
+		author    : 'Dean Koontz',
+		myRating  : 5,
+		avgRating : 3.92,
+		pages     : 464,
+		pubDate   : 2006,
+		yearRead  : [ 2006 ],
+		thumb     : './images/whispers.jpg'
+	},
+	{
 		title     : "Santa Claus Doesn't Mop Floors",
 		author    : 'Debbie Dadey',
 		myRating  : 4,
@@ -949,6 +1049,16 @@ let bookData = [
 		thumb     : './images/spelunky.jpg'
 	},
 	{
+		title     : 'Virtual Vandals',
+		author    : 'Diane Duane',
+		myRating  : 4,
+		avgRating : 4,
+		pages     : 192,
+		pubDate   : 1998,
+		yearRead  : [ 2002 ],
+		thumb     : './images/virtual-vandals.jpg'
+	},
+	{
 		title     : 'Eat This And Live',
 		author    : 'Don Colbert',
 		myRating  : 4,
@@ -967,6 +1077,26 @@ let bookData = [
 		pubDate   : 2009,
 		yearRead  : [ 2016 ],
 		thumb     : './images/million-miles.jpg'
+	},
+	{
+		title     : 'Encyclopedia Brown Takes the Cake!',
+		author    : 'Donald Sobol',
+		myRating  : 4,
+		avgRating : 3.88,
+		pages     : 128,
+		pubDate   : 1982,
+		yearRead  : [ 1999 ],
+		thumb     : './images/encyclopedia-brown.jpg'
+	},
+	{
+		title     : 'Encyclopedia Brown and the Case of the Disgusting Sneakers',
+		author    : 'Donald Sobol',
+		myRating  : 4,
+		avgRating : 4.11,
+		pages     : 112,
+		pubDate   : 1990,
+		yearRead  : [ 1999 ],
+		thumb     : './images/encyclopedia-brown-sneakers.jpg'
 	},
 	{
 		title     : "The Hitchhiker's Guide to the Galaxy",
@@ -1259,6 +1389,26 @@ let bookData = [
 		thumb     : './images/hatchet.jpg'
 	},
 	{
+		title     : 'The River',
+		author    : 'Gary Paulsen',
+		myRating  : 4,
+		avgRating : 3.81,
+		pages     : 132,
+		pubDate   : 1991,
+		yearRead  : [ 2001 ],
+		thumb     : './images/river.jpg'
+	},
+	{
+		title     : "Brian's Winter",
+		author    : 'Gary Paulsen',
+		myRating  : 4,
+		avgRating : 4.01,
+		pages     : 144,
+		pubDate   : 1996,
+		yearRead  : [ 2001 ],
+		thumb     : './images/brians-winter.jpg'
+	},
+	{
 		title     : 'Forks Over Knives',
 		author    : 'Gene  Stone',
 		myRating  : 5,
@@ -1425,7 +1575,7 @@ let bookData = [
 		avgRating : 4.47,
 		pages     : 309,
 		pubDate   : 1997,
-		yearRead  : [ 1999, 2000, 2010, 2011, 2012, 2017, 2018, 2019, 2020 ],
+		yearRead  : [ 1999, 2000, 2001, 2002, 2010, 2011, 2012, 2017, 2018, 2019, 2020 ],
 		thumb     : './images/hp1.jpg'
 	},
 	{
@@ -1435,7 +1585,7 @@ let bookData = [
 		avgRating : 4.42,
 		pages     : 341,
 		pubDate   : 1998,
-		yearRead  : [ 2000, 2010, 2017, 2018, 2019, 2020 ],
+		yearRead  : [ 2000, 2002, 2010, 2017, 2018, 2019, 2020 ],
 		thumb     : './images/hp2.jpg'
 	},
 	{
@@ -1445,7 +1595,7 @@ let bookData = [
 		avgRating : 4.57,
 		pages     : 435,
 		pubDate   : 1999,
-		yearRead  : [ 2000, 2010, 2017, 2018, 2019, 2020 ],
+		yearRead  : [ 2000, 2002, 2010, 2017, 2018, 2019, 2020 ],
 		thumb     : './images/hp3.jpg'
 	},
 	{
@@ -1455,7 +1605,7 @@ let bookData = [
 		avgRating : 4.56,
 		pages     : 734,
 		pubDate   : 2000,
-		yearRead  : [ 2000, 2010, 2017, 2018, 2019, 2020 ],
+		yearRead  : [ 2000, 2002, 2010, 2017, 2018, 2019, 2020 ],
 		thumb     : './images/hp4.jpg'
 	},
 	{
@@ -1587,6 +1737,36 @@ let bookData = [
 		pubDate   : 2009,
 		yearRead  : [ 2018 ],
 		thumb     : './images/maze-runner.jpg'
+	},
+	{
+		title     : "America's History, For the AP* Course",
+		author    : 'James Henretta',
+		myRating  : 4,
+		avgRating : 3.14,
+		pages     : 1168,
+		pubDate   : 2006,
+		yearRead  : [ 2007 ],
+		thumb     : './images/ap-history.jpg'
+	},
+	{
+		title     : 'Return to Howliday Inn',
+		author    : 'James Howe',
+		myRating  : 4,
+		avgRating : 3.97,
+		pages     : 116,
+		pubDate   : 1992,
+		yearRead  : [ 1999 ],
+		thumb     : './images/bunnicula5.jpg'
+	},
+	{
+		title     : 'Bunnicula Strikes Again!',
+		author    : 'James Howe',
+		myRating  : 4,
+		avgRating : 3.92,
+		pages     : 116,
+		pubDate   : 1995,
+		yearRead  : [ 1999 ],
+		thumb     : './images/bunnicula6.jpg'
 	},
 	{
 		title     : "Player's Handbook",
@@ -1747,6 +1927,246 @@ let bookData = [
 		pubDate   : 2000,
 		yearRead  : [ 2000 ],
 		thumb     : './images/remnant-victory.jpg'
+	},
+	{
+		title     : 'The Vanishings',
+		author    : 'Jerry B. Jenkins',
+		myRating  : 3,
+		avgRating : 3.98,
+		pages     : 148,
+		pubDate   : 1998,
+		yearRead  : [ 2002, 2009 ],
+		thumb     : './images/left-behind-kids1.jpg'
+	},
+	{
+		title     : 'Second Chance',
+		author    : 'Jerry B. Jenkins',
+		myRating  : 3,
+		avgRating : 4,
+		pages     : 144,
+		pubDate   : 1998,
+		yearRead  : [ 2002, 2009 ],
+		thumb     : './images/left-behind-kids2.jpg'
+	},
+	{
+		title     : 'Through the Flames',
+		author    : 'Jerry B. Jenkins',
+		myRating  : 3,
+		avgRating : 3.98,
+		pages     : 146,
+		pubDate   : 1998,
+		yearRead  : [ 2002, 2009 ],
+		thumb     : './images/left-behind-kids3.jpg'
+	},
+	{
+		title     : 'Facing the Future',
+		author    : 'Jerry B. Jenkins',
+		myRating  : 3,
+		avgRating : 4.02,
+		pages     : 150,
+		pubDate   : 1998,
+		yearRead  : [ 2002, 2009 ],
+		thumb     : './images/left-behind-kids4.jpg'
+	},
+	{
+		title     : 'Nicolae High',
+		author    : 'Jerry B. Jenkins',
+		myRating  : 3,
+		avgRating : 4.03,
+		pages     : 118,
+		pubDate   : 1999,
+		yearRead  : [ 2002, 2009 ],
+		thumb     : './images/left-behind-kids5.jpg'
+	},
+	{
+		title     : 'The Underground',
+		author    : 'Jerry B. Jenkins',
+		myRating  : 3,
+		avgRating : 4.01,
+		pages     : 114,
+		pubDate   : 1999,
+		yearRead  : [ 2002, 2009 ],
+		thumb     : './images/left-behind-kids6.jpg'
+	},
+	{
+		title     : 'Busted!',
+		author    : 'Jerry B. Jenkins',
+		myRating  : 3,
+		avgRating : 3.99,
+		pages     : 128,
+		pubDate   : 2000,
+		yearRead  : [ 2002, 2009 ],
+		thumb     : './images/left-behind-kids7.jpg'
+	},
+	{
+		title     : 'Death Strike',
+		author    : 'Jerry B. Jenkins',
+		myRating  : 3,
+		avgRating : 4,
+		pages     : 123,
+		pubDate   : 2000,
+		yearRead  : [ 2002, 2009 ],
+		thumb     : './images/left-behind-kids8.jpg'
+	},
+	{
+		title     : 'The Search',
+		author    : 'Jerry B. Jenkins',
+		myRating  : 3,
+		avgRating : 3.99,
+		pages     : 162,
+		pubDate   : 2000,
+		yearRead  : [ 2002, 2009 ],
+		thumb     : './images/left-behind-kids9.jpg'
+	},
+	{
+		title     : 'On the Run',
+		author    : 'Jerry B. Jenkins',
+		myRating  : 3,
+		avgRating : 4.03,
+		pages     : 160,
+		pubDate   : 2000,
+		yearRead  : [ 2002, 2009 ],
+		thumb     : './images/left-behind-kids10.jpg'
+	},
+	{
+		title     : 'Into the Storm',
+		author    : 'Jerry B. Jenkins',
+		myRating  : 3,
+		avgRating : 4.04,
+		pages     : 160,
+		pubDate   : 2000,
+		yearRead  : [ 2002, 2009 ],
+		thumb     : './images/left-behind-kids11.jpg'
+	},
+	{
+		title     : 'Earthquake!',
+		author    : 'Jerry B. Jenkins',
+		myRating  : 3,
+		avgRating : 4.04,
+		pages     : 140,
+		pubDate   : 2000,
+		yearRead  : [ 2002, 2009 ],
+		thumb     : './images/left-behind-kids12.jpg'
+	},
+	{
+		title     : 'The Showdown',
+		author    : 'Jerry B. Jenkins',
+		myRating  : 3,
+		avgRating : 4.06,
+		pages     : 152,
+		pubDate   : 2001,
+		yearRead  : [ 2003, 2009 ],
+		thumb     : './images/left-behind-kids13.jpg'
+	},
+	{
+		title     : 'Judgment Day',
+		author    : 'Jerry B. Jenkins',
+		myRating  : 3,
+		avgRating : 4.04,
+		pages     : 130,
+		pubDate   : 2001,
+		yearRead  : [ 2003, 2009 ],
+		thumb     : './images/left-behind-kids14.jpg'
+	},
+	{
+		title     : 'Battling the Commander',
+		author    : 'Jerry B. Jenkins',
+		myRating  : 3,
+		avgRating : 4.06,
+		pages     : 140,
+		pubDate   : 2001,
+		yearRead  : [ 2003, 2009 ],
+		thumb     : './images/left-behind-kids15.jpg'
+	},
+	{
+		title     : 'Fire from Heaven',
+		author    : 'Jerry B. Jenkins',
+		myRating  : 3,
+		avgRating : 4.07,
+		pages     : 142,
+		pubDate   : 2001,
+		yearRead  : [ 2003, 2009 ],
+		thumb     : './images/left-behind-kids16.jpg'
+	},
+	{
+		title     : 'Terror in the Stadium',
+		author    : 'Jerry B. Jenkins',
+		myRating  : 3,
+		avgRating : 4.05,
+		pages     : 152,
+		pubDate   : 2001,
+		yearRead  : [ 2003, 2009 ],
+		thumb     : './images/left-behind-kids17.jpg'
+	},
+	{
+		title     : 'Darkening Skies',
+		author    : 'Jerry B. Jenkins',
+		myRating  : 3,
+		avgRating : 4.06,
+		pages     : 149,
+		pubDate   : 2001,
+		yearRead  : [ 2003, 2009 ],
+		thumb     : './images/left-behind-kids18.jpg'
+	},
+	{
+		title     : 'Attack of Apollyon',
+		author    : 'Jerry B. Jenkins',
+		myRating  : 3,
+		avgRating : 4.1,
+		pages     : 150,
+		pubDate   : 2002,
+		yearRead  : [ 2003, 2009 ],
+		thumb     : './images/left-behind-kids19.jpg'
+	},
+	{
+		title     : 'A Dangerous Plan',
+		author    : 'Jerry B. Jenkins',
+		myRating  : 3,
+		avgRating : 4.08,
+		pages     : 176,
+		pubDate   : 2002,
+		yearRead  : [ 2003, 2009 ],
+		thumb     : './images/left-behind-kids20.jpg'
+	},
+	{
+		title     : 'Secrets of New Babylon',
+		author    : 'Jerry B. Jenkins',
+		myRating  : 3,
+		avgRating : 4.07,
+		pages     : 152,
+		pubDate   : 2002,
+		yearRead  : [ 2009 ],
+		thumb     : './images/left-behind-kids21.jpg'
+	},
+	{
+		title     : 'Escape from New Babylon',
+		author    : 'Jerry B. Jenkins',
+		myRating  : 3,
+		avgRating : 4.09,
+		pages     : 148,
+		pubDate   : 2002,
+		yearRead  : [ 2009 ],
+		thumb     : './images/left-behind-kids22.jpg'
+	},
+	{
+		title     : 'Horsemen of Terror',
+		author    : 'Jerry B. Jenkins',
+		myRating  : 3,
+		avgRating : 4.08,
+		pages     : 150,
+		pubDate   : 2002,
+		yearRead  : [ 2009 ],
+		thumb     : './images/left-behind-kids23.jpg'
+	},
+	{
+		title     : 'Uplink from the Underground',
+		author    : 'Jerry B. Jenkins',
+		myRating  : 3,
+		avgRating : 4.08,
+		pages     : 160,
+		pubDate   : 2002,
+		yearRead  : [ 2009 ],
+		thumb     : './images/left-behind-kids24.jpg'
 	},
 	{
 		title     : 'A Vampire Tale',
@@ -2549,6 +2969,26 @@ let bookData = [
 		thumb     : './images/brain-teasers.jpg'
 	},
 	{
+		title     : 'Vampire Baby',
+		author    : 'Marcia Thornton Jones',
+		myRating  : 4,
+		avgRating : 3.91,
+		pages     : 69,
+		pubDate   : 1999,
+		yearRead  : [ 2001 ],
+		thumb     : './images/vamp-baby.jpg'
+	},
+	{
+		title     : 'The Official Pokémon Handbook',
+		author    : 'Maria Barbo',
+		myRating  : 5,
+		avgRating : 4.43,
+		pages     : 143,
+		pubDate   : 1999,
+		yearRead  : [ 2000 ],
+		thumb     : './images/pokemon.jpg'
+	},
+	{
 		title     : "Where'd You Go, Bernadette",
 		author    : 'Maria Semple',
 		myRating  : 5,
@@ -2649,6 +3089,16 @@ let bookData = [
 		thumb     : './images/frankenstein.jpg'
 	},
 	{
+		title     : '30 Days To Understanding the Bible',
+		author    : 'Max Anders',
+		myRating  : 5,
+		avgRating : 3.67,
+		pages     : 305,
+		pubDate   : 2004,
+		yearRead  : [ 2013 ],
+		thumb     : './images/thirty-days-bible.jpg'
+	},
+	{
 		title     : 'World War Z',
 		author    : 'Max Brooks',
 		myRating  : 4,
@@ -2675,7 +3125,7 @@ let bookData = [
 		avgRating : 3.32,
 		pages     : 304,
 		pubDate   : 2001,
-		yearRead  : [ 2007 ],
+		yearRead  : [ 2008 ],
 		thumb     : './images/stupid-white-men.jpg'
 	},
 	{
@@ -3499,6 +3949,36 @@ let bookData = [
 		thumb     : './images/good-luck-have-fun.jpg'
 	},
 	{
+		title     : 'The Deadly Dungeon',
+		author    : 'Ron Roy',
+		myRating  : 4,
+		avgRating : 4.09,
+		pages     : 86,
+		pubDate   : 1998,
+		yearRead  : [ 2000 ],
+		thumb     : './images/deadly-dungeon.jpg'
+	},
+	{
+		title     : 'The Invisible Island',
+		author    : 'Ron Roy',
+		myRating  : 4,
+		avgRating : 4.1,
+		pages     : 96,
+		pubDate   : 1999,
+		yearRead  : [ 2000 ],
+		thumb     : './images/invisible-island.jpg'
+	},
+	{
+		title     : 'The Missing Mummy',
+		author    : 'Ron Roy',
+		myRating  : 4,
+		avgRating : 4.09,
+		pages     : 83,
+		pubDate   : 2001,
+		yearRead  : [ 2001 ],
+		thumb     : './images/missing-mummy.jpg'
+	},
+	{
 		title     : 'The Big Book of 30-Day Challenges',
 		author    : 'Rosanna Casper',
 		myRating  : 3,
@@ -3527,6 +4007,66 @@ let bookData = [
 		pubDate   : 2010,
 		yearRead  : [ 2010 ],
 		thumb     : './images/play-dead.jpg'
+	},
+	{
+		title     : 'The Umbrella Conspiracy',
+		author    : 'S.D. Perry',
+		myRating  : 4,
+		avgRating : 3.92,
+		pages     : 304,
+		pubDate   : 1998,
+		yearRead  : [ 2003 ],
+		thumb     : './images/resident-evil1.jpg'
+	},
+	{
+		title     : 'Caliban Cove',
+		author    : 'S.D. Perry',
+		myRating  : 4,
+		avgRating : 3.64,
+		pages     : 256,
+		pubDate   : 1998,
+		yearRead  : [ 2003 ],
+		thumb     : './images/resident-evil2.jpg'
+	},
+	{
+		title     : 'City of the Dead',
+		author    : 'S.D. Perry',
+		myRating  : 4,
+		avgRating : 4.04,
+		pages     : 352,
+		pubDate   : 1999,
+		yearRead  : [ 2003 ],
+		thumb     : './images/resident-evil3.jpg'
+	},
+	{
+		title     : 'Underworld',
+		author    : 'S.D. Perry',
+		myRating  : 4,
+		avgRating : 3.77,
+		pages     : 256,
+		pubDate   : 1999,
+		yearRead  : [ 2004 ],
+		thumb     : './images/resident-evil4.jpg'
+	},
+	{
+		title     : 'Nemesis',
+		author    : 'S.D. Perry',
+		myRating  : 4,
+		avgRating : 3.99,
+		pages     : 288,
+		pubDate   : 2000,
+		yearRead  : [ 2004 ],
+		thumb     : './images/resident-evil5.jpg'
+	},
+	{
+		title     : 'Rumble Fish',
+		author    : 'S.E. Hinton',
+		myRating  : 4,
+		avgRating : 3.79,
+		pages     : 144,
+		pubDate   : 1975,
+		yearRead  : [ 2002 ],
+		thumb     : './images/rumble-fish.jpg'
 	},
 	{
 		title     : 'Scene but Not Heard',
@@ -3725,7 +4265,7 @@ let bookData = [
 		avgRating : 4.3,
 		pages     : 176,
 		pubDate   : 1974,
-		yearRead  : [ 1997 ],
+		yearRead  : [ 2000 ],
 		thumb     : './images/where-sidewalk-ends.jpg'
 	},
 	{
@@ -4059,6 +4599,26 @@ let bookData = [
 		thumb     : './images/thr3e.jpg'
 	},
 	{
+		title     : 'Danger in the Desert',
+		author    : 'Terri Fields',
+		myRating  : 4,
+		avgRating : 3.79,
+		pages     : 126,
+		pubDate   : 1997,
+		yearRead  : [ 1999 ],
+		thumb     : './images/danger-in-desert.jpg'
+	},
+	{
+		title     : 'Missing in the Mountains',
+		author    : 'Terri Fields',
+		myRating  : 3,
+		avgRating : 3.12,
+		pages     : 108,
+		pubDate   : 1999,
+		yearRead  : [ 2000 ],
+		thumb     : './images/missing-in-mountains.jpg'
+	},
+	{
 		title     : 'Getting Started with SQL',
 		author    : 'Thomas Nield',
 		myRating  : 4,
@@ -4067,6 +4627,36 @@ let bookData = [
 		pubDate   : 2016,
 		yearRead  : [ 2018 ],
 		thumb     : './images/getting-started-sql.jpg'
+	},
+	{
+		title     : 'How to Eat Fried Worms',
+		author    : 'Thomas Rockfield',
+		myRating  : 4,
+		avgRating : 3.76,
+		pages     : 118,
+		pubDate   : 1973,
+		yearRead  : [ 1999 ],
+		thumb     : './images/eat-fried-worms.jpg'
+	},
+	{
+		title     : 'Left Behind',
+		author    : 'Tim LaHaye',
+		myRating  : 3,
+		avgRating : 3.83,
+		pages     : 342,
+		pubDate   : 1995,
+		yearRead  : [ 2014 ],
+		thumb     : './images/left-behind1.jpg'
+	},
+	{
+		title     : 'Tribulation Force',
+		author    : 'Tim LaHaye',
+		myRating  : 3,
+		avgRating : 3.96,
+		pages     : 450,
+		pubDate   : 1996,
+		yearRead  : [ 2014 ],
+		thumb     : './images/left-behind2.jpg'
 	},
 	{
 		title     : 'The Prodigal God',
@@ -4217,6 +4807,46 @@ let bookData = [
 		pubDate   : 2017,
 		yearRead  : [ 2020 ],
 		thumb     : './images/make-your-bed.jpg'
+	},
+	{
+		title     : 'Romeo and Juliet',
+		author    : 'William Shakespeare',
+		myRating  : 3,
+		avgRating : 3.75,
+		pages     : 368,
+		pubDate   : 1599,
+		yearRead  : [ 2002, 2004 ],
+		thumb     : './images/romeo-juliet.jpg'
+	},
+	{
+		title     : 'Hamlet',
+		author    : 'William Shakespeare',
+		myRating  : 3,
+		avgRating : 4.02,
+		pages     : 289,
+		pubDate   : 1603,
+		yearRead  : [ 2007 ],
+		thumb     : './images/hamlet.jpg'
+	},
+	{
+		title     : 'Macbeth',
+		author    : 'William Shakespeare',
+		myRating  : 3,
+		avgRating : 3.9,
+		pages     : 249,
+		pubDate   : 1623,
+		yearRead  : [ 2007 ],
+		thumb     : './images/macbeth.jpg'
+	},
+	{
+		title     : "A Midsummer Night's Dream",
+		author    : 'William Shakespeare',
+		myRating  : 4,
+		avgRating : 3.95,
+		pages     : 240,
+		pubDate   : 1595,
+		yearRead  : [ 2000, 2002 ],
+		thumb     : './images/midsummer-nights-dream.jpg'
 	},
 	{
 		title     : 'Ghosts of Saltmarsh',
