@@ -4899,3 +4899,150 @@ let bookData = [
 		thumb     : './images/rick-morty.jpg'
 	}
 ];
+
+let toRead = [
+	{
+		title     : 'A Short History of Nearly Everything',
+		author    : 'Bill Bryson',
+		avgRating : 4.21,
+		pages     : 544,
+		pubDate   : 2003,
+		thumb     : './images/short-history.jpg'
+	},
+	{
+		title     : 'Code',
+		author    : 'Charles Petzold',
+		avgRating : 4.4,
+		pages     : 400,
+		pubDate   : 1999,
+		thumb     : './images/code.jpg'
+	},
+	{
+		title     : 'Eternity in Their Hearts',
+		author    : 'Don Richardson',
+		avgRating : 4.3,
+		pages     : 224,
+		pubDate   : 1980,
+		thumb     : './images/eternity-in-hearts.jpg'
+	},
+	{
+		title     : 'The Living',
+		author    : 'Isaac Marion',
+		avgRating : 4.21,
+		pages     : 433,
+		pubDate   : 2018,
+		thumb     : './images/living.jpg'
+	},
+	{
+		title     : 'The Ickabog',
+		author    : 'J.K. Rowling',
+		avgRating : 3.98,
+		pages     : '???',
+		pubDate   : 2020,
+		thumb     : './images/ickabog.jpg'
+	},
+	{
+		title     : 'Lies My Teacher Told Me',
+		author    : 'James Loewen',
+		avgRating : 3.97,
+		pages     : 383,
+		pubDate   : 1995,
+		thumb     : './images/lies-teacher-told.jpg'
+	},
+	{
+		title     : 'One of Us Is Next',
+		author    : 'Karen McManus',
+		avgRating : 4.04,
+		pages     : 377,
+		pubDate   : 2020,
+		thumb     : './images/one-of-us-is-next.jpg'
+	},
+	{
+		title     : 'The Tipping Point',
+		author    : 'Malcolm Gladwell',
+		avgRating : 3.97,
+		pages     : 301,
+		pubDate   : 2000,
+		thumb     : './images/tipping-point.jpg'
+	},
+	{
+		title     : 'Blink',
+		author    : 'Malcolm Gladwell',
+		avgRating : 3.93,
+		pages     : 296,
+		pubDate   : 2005,
+		thumb     : './images/blink.jpg'
+	},
+	{
+		title     : 'Outliers',
+		author    : 'Malcolm Gladwell',
+		avgRating : 4.16,
+		pages     : 309,
+		pubDate   : 2008,
+		thumb     : './images/outliers.jpg'
+	},
+	{
+		title     : 'Astrophysics for People in a Hurry',
+		author    : 'Neil deGrasse Tyson',
+		avgRating : 4.09,
+		pages     : 224,
+		pubDate   : 2017,
+		thumb     : './images/astrophysics-in-hurry.jpg'
+	},
+	{
+		title     : 'Shadow of the Colossus',
+		author    : 'Nick Suttner',
+		avgRating : 3.7,
+		pages     : 194,
+		pubDate   : 2015,
+		thumb     : './images/shadow-of-colossus.jpg'
+	},
+	{
+		title     : 'Rick and Morty vs. Dungeons & Dragons',
+		author    : 'Patrick Rothfuss',
+		avgRating : 4.18,
+		pages     : 96,
+		pubDate   : 2019,
+		thumb     : './images/rick-morty-vs-dnd.jpg'
+	},
+	{
+		title     : 'How To',
+		author    : 'Randall Munroe',
+		avgRating : 4.18,
+		pages     : 320,
+		pubDate   : 2019,
+		thumb     : './images/how-to.jpg'
+	},
+	{
+		title     : 'The Thousand-Dollar Tan Line',
+		author    : 'Rob Thomas',
+		avgRating : 3.99,
+		pages     : 324,
+		pubDate   : 2014,
+		thumb     : './images/veronica-mars1.jpg'
+	},
+	{
+		title     : 'You Are an Artist',
+		author    : 'Sarah Urist Green',
+		avgRating : 4.33,
+		pages     : '???',
+		pubDate   : 2020,
+		thumb     : './images/you-are-an-artist.jpg'
+	},
+	{
+		title     : 'Freakonomics',
+		author    : 'Steven Levitt',
+		avgRating : 3.98,
+		pages     : 320,
+		pubDate   : 2005,
+		thumb     : './images/freakonomics.jpg'
+	},
+	{
+		title     : "It's All a Game",
+		author    : 'Tristan Donovan',
+		avgRating : 3.97,
+		pages     : 304,
+		pubDate   : 2017,
+		thumb     : './images/its-all-a-game.jpg'
+	}
+];

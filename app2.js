@@ -6,12 +6,14 @@ $(function() {
 	highRatingSetup();
 	displayData();
 	allBooks();
+	toReadSetup();
 });
 
 let fiveStarBooks = ``;
 let highGoodReads = ``;
 let yearReads = ``;
 let allReads = ``;
+let toReadList = ``;
 let yearVal = 2020;
 
 function buttons() {
@@ -29,7 +31,6 @@ function buttons() {
 	});
 	$('#dataSelection').on('change', function() {
 		event.preventDefault();
-		console.log($('#dataSelection').val());
 		displayData();
 	});
 }
@@ -53,6 +54,9 @@ function displayData() {
 	} else if ($('#dataSelection').val() == 'all') {
 		makeHidden();
 		$('.allReads').removeClass('hidden');
+	} else if ($('#dataSelection').val() == 'toRead') {
+		makeHidden();
+		$('.toReadBox').removeClass('hidden');
 	}
 }
 
@@ -62,6 +66,7 @@ function makeHidden() {
 	$('.highGRBox').hasClass('hidden') ? '' : $('.highGRBox').toggleClass('hidden');
 	$('.yearBox').hasClass('hidden') ? '' : $('.yearBox').toggleClass('hidden');
 	$('.allReads').hasClass('hidden') ? '' : $('.allReads').toggleClass('hidden');
+	$('.toReadBox').hasClass('hidden') ? '' : $('.toReadBox').toggleClass('hidden');
 }
 
 function allBooks() {
@@ -83,6 +88,20 @@ function allBooks() {
 		<div class="allReads hidden">
 			<h3>${booksForAll} books & ${pagesForAll} pages - ${booksForAllUnique} unique books & ${pagesForAllUnique} pages</h3>
 			<div class="bookList">${allReads}</div>
+		</div>
+    `);
+}
+
+function toReadSetup() {
+	toReadList = ``;
+	for (let book in toRead) {
+		toReadList += `<div class="book"> <img src="${toRead[book].thumb}"><div class="title">${toRead[book].title}</div><div class="author">${toRead[book]
+			.author}</div></div>`;
+	}
+
+	$('.toReadBox').replaceWith(`     
+		<div class="toReadBox hidden">
+			<div class="bookList">${toReadList}</div>
 		</div>
     `);
 }
