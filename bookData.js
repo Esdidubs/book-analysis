@@ -3326,7 +3326,7 @@ let bookData = [
 		pages     : 144,
 		pubDate   : 2016,
 		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/welcome-to-club.jpg'
 	},
 	{
 		title     : 'Fahrenheit 451',
@@ -3336,7 +3336,7 @@ let bookData = [
 		pages     : 180,
 		pubDate   : 1953,
 		yearRead  : [ 2015 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/f451.jpg'
 	},
 	{
 		title     : 'Cemetery Dance: Issue 74-75',
@@ -3346,7 +3346,7 @@ let bookData = [
 		pages     : 192,
 		pubDate   : 2016,
 		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/cemetary-dance.jpg'
 	},
 	{
 		title     : 'Celebration of Discipline',
@@ -3356,7 +3356,7 @@ let bookData = [
 		pages     : 256,
 		pubDate   : 1978,
 		yearRead  : [ 2014 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/celebration-of-disc.jpg'
 	},
 	{
 		title     : 'I Am Legend',
@@ -3366,7 +3366,7 @@ let bookData = [
 		pages     : 160,
 		pubDate   : 1954,
 		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/i-am-legend.jpg'
 	},
 	{
 		title     : 'Vampire Academy',
@@ -3376,7 +3376,7 @@ let bookData = [
 		pages     : 332,
 		pubDate   : 2007,
 		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/vamp-academy1.jpg'
 	},
 	{
 		title     : 'Frostbite',
@@ -3386,7 +3386,7 @@ let bookData = [
 		pages     : 327,
 		pubDate   : 2008,
 		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/vamp-academy2.jpg'
 	},
 	{
 		title     : 'Shadow Kiss',
@@ -3396,7 +3396,7 @@ let bookData = [
 		pages     : 443,
 		pubDate   : 2008,
 		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/vamp-academy3.jpg'
 	},
 	{
 		title     : 'Blood Promise',
@@ -3406,7 +3406,7 @@ let bookData = [
 		pages     : 503,
 		pubDate   : 2009,
 		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/vamp-academy4.jpg'
 	},
 	{
 		title     : 'Spirit Bound',
@@ -3416,7 +3416,7 @@ let bookData = [
 		pages     : 489,
 		pubDate   : 2010,
 		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/vamp-academy5.jpg'
 	},
 	{
 		title     : 'Last Sacrifice',
@@ -3426,7 +3426,7 @@ let bookData = [
 		pages     : 594,
 		pubDate   : 2010,
 		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/vamp-academy6.jpg'
 	},
 	{
 		title     : 'The Final Quest',
@@ -3436,7 +3436,7 @@ let bookData = [
 		pages     : 170,
 		pubDate   : 1996,
 		yearRead  : [ 2014 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/final-quest.jpg'
 	},
 	{
 		title     : 'The Lightning Thief',
@@ -3446,7 +3446,7 @@ let bookData = [
 		pages     : 375,
 		pubDate   : 2005,
 		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/percy-jackson1.jpg'
 	},
 	{
 		title     : 'The 5th Wave',
@@ -3456,7 +3456,7 @@ let bookData = [
 		pages     : 460,
 		pubDate   : 2013,
 		yearRead  : [ 2015 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/the-5th-wave.jpg'
 	},
 	{
 		title     : 'Slay the Dragon',
@@ -3466,7 +3466,7 @@ let bookData = [
 		pages     : 232,
 		pubDate   : 2015,
 		yearRead  : [ 2017 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/slay-dragon.jpg'
 	},
 	{
 		title     : 'Outcast by Kirkman & Azaceta Book 1',
@@ -3476,7 +3476,7 @@ let bookData = [
 		pages     : 296,
 		pubDate   : 2016,
 		yearRead  : [ 2017 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/outcast.jpg'
 	},
 	{
 		title     : 'The Walking Dead, Vol. 1',
@@ -3486,7 +3486,7 @@ let bookData = [
 		pages     : 144,
 		pubDate   : 2004,
 		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/walking-dead1.jpg'
 	},
 	{
 		title     : 'Good Luck Have Fun',
@@ -3496,7 +3496,7 @@ let bookData = [
 		pages     : 268,
 		pubDate   : 2016,
 		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/good-luck-have-fun.jpg'
 	},
 	{
 		title     : 'The Big Book of 30-Day Challenges',
@@ -3506,7 +3506,7 @@ let bookData = [
 		pages     : 144,
 		pubDate   : 2017,
 		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/book-of-30-day.jpg'
 	},
 	{
 		title     : 'Milk and Honey',
@@ -3516,7 +3516,7 @@ let bookData = [
 		pages     : 204,
 		pubDate   : 2014,
 		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/milk-and-honey.jpg'
 	},
 	{
 		title     : 'Play Dead',
@@ -3526,7 +3526,7 @@ let bookData = [
 		pages     : 352,
 		pubDate   : 2010,
 		yearRead  : [ 2010 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/play-dead.jpg'
 	},
 	{
 		title     : 'Scene but Not Heard',
@@ -3536,7 +3536,7 @@ let bookData = [
 		pages     : 119,
 		pubDate   : 2013,
 		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/scene-not-heard.jpg'
 	},
 	{
 		title     : 'Pretty Little Liars',
@@ -3546,7 +3546,7 @@ let bookData = [
 		pages     : 286,
 		pubDate   : 2006,
 		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/pretty-little-liars1.jpg'
 	},
 	{
 		title     : 'Flawless',
@@ -3556,7 +3556,7 @@ let bookData = [
 		pages     : 330,
 		pubDate   : 2007,
 		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/pretty-little-liars2.jpg'
 	},
 	{
 		title     : 'Perfect',
@@ -3566,7 +3566,7 @@ let bookData = [
 		pages     : 298,
 		pubDate   : 2007,
 		yearRead  : [ 2020 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/pretty-little-liars3.jpg'
 	},
 	{
 		title     : 'Unbelievable',
@@ -3576,7 +3576,7 @@ let bookData = [
 		pages     : 335,
 		pubDate   : 2008,
 		yearRead  : [ 2020 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/pretty-little-liars4.jpg'
 	},
 	{
 		title     : 'Wicked',
@@ -3586,7 +3586,7 @@ let bookData = [
 		pages     : 312,
 		pubDate   : 2008,
 		yearRead  : [ 2020 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/pretty-little-liars5.jpg'
 	},
 	{
 		title     : 'Killer',
@@ -3596,7 +3596,7 @@ let bookData = [
 		pages     : 320,
 		pubDate   : 2009,
 		yearRead  : [ 2020 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/pretty-little-liars6.jpg'
 	},
 	{
 		title     : 'Heartless',
@@ -3606,7 +3606,7 @@ let bookData = [
 		pages     : 274,
 		pubDate   : 2010,
 		yearRead  : [ 2020 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/pretty-little-liars7.jpg'
 	},
 	{
 		title     : 'Wanted',
@@ -3616,7 +3616,7 @@ let bookData = [
 		pages     : 261,
 		pubDate   : 2010,
 		yearRead  : [ 2020 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/pretty-little-liars8.jpg'
 	},
 	{
 		title     : "Rick and Morty: Lil' Poopy Superstar",
@@ -3626,7 +3626,7 @@ let bookData = [
 		pages     : 128,
 		pubDate   : 2017,
 		yearRead  : [ 2019 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/rick-morty-poopy.jpg'
 	},
 	{
 		title     : 'Level Up!: The Guide to Great Video Game Design',
@@ -3636,7 +3636,7 @@ let bookData = [
 		pages     : 492,
 		pubDate   : 2010,
 		yearRead  : [ 2017 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/level-up.jpg'
 	},
 	{
 		title     : 'Uglies',
@@ -3646,7 +3646,7 @@ let bookData = [
 		pages     : 425,
 		pubDate   : 2005,
 		yearRead  : [ 2015, 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/uglies1.jpg'
 	},
 	{
 		title     : 'Pretties',
@@ -3656,7 +3656,7 @@ let bookData = [
 		pages     : 370,
 		pubDate   : 2005,
 		yearRead  : [ 2015 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/uglies2.jpg'
 	},
 	{
 		title     : 'Specials',
@@ -3666,7 +3666,7 @@ let bookData = [
 		pages     : 372,
 		pubDate   : 2006,
 		yearRead  : [ 2015 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/uglies3.jpg'
 	},
 	{
 		title     : 'Extras',
@@ -3676,7 +3676,7 @@ let bookData = [
 		pages     : 417,
 		pubDate   : 2006,
 		yearRead  : [ 2015 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/uglies4.jpg'
 	},
 	{
 		title     : 'Uglies: Cutters',
@@ -3686,7 +3686,7 @@ let bookData = [
 		pages     : 176,
 		pubDate   : 2012,
 		yearRead  : [ 2017 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/uglies-graphic2.jpg'
 	},
 	{
 		title     : 'Abraham Lincoln: Vampire Hunter',
@@ -3696,7 +3696,7 @@ let bookData = [
 		pages     : 336,
 		pubDate   : 2010,
 		yearRead  : [ 2013 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/abe-lincoln-vamp.jpg'
 	},
 	{
 		title     : 'Smartcuts',
@@ -3706,7 +3706,7 @@ let bookData = [
 		pages     : 272,
 		pubDate   : 2014,
 		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/smartcuts.jpg'
 	},
 	{
 		title     : 'Kicking It',
@@ -3716,7 +3716,7 @@ let bookData = [
 		pages     : 79,
 		pubDate   : 2012,
 		yearRead  : [ 2019 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/kicking-it.jpg'
 	},
 	{
 		title     : 'Where the Sidewalk Ends',
@@ -3726,7 +3726,7 @@ let bookData = [
 		pages     : 176,
 		pubDate   : 1974,
 		yearRead  : [ 1997 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/where-sidewalk-ends.jpg'
 	},
 	{
 		title     : 'Fallin Up',
@@ -3736,7 +3736,7 @@ let bookData = [
 		pages     : 178,
 		pubDate   : 1996,
 		yearRead  : [ 2000 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/falling-up.jpg'
 	},
 	{
 		title     : 'A Light in the Attic',
@@ -3746,7 +3746,7 @@ let bookData = [
 		pages     : 176,
 		pubDate   : 1981,
 		yearRead  : [ 2001 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/light-in-attic.jpg'
 	},
 	{
 		title     : 'The Absolutely True Diary of a Part-Time Indian',
@@ -3756,7 +3756,7 @@ let bookData = [
 		pages     : 230,
 		pubDate   : 2007,
 		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/part-time-indian.jpg'
 	},
 	{
 		title     : 'Lean In',
@@ -3766,7 +3766,7 @@ let bookData = [
 		pages     : 217,
 		pubDate   : 2013,
 		yearRead  : [ 2017 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/lean-in.jpg'
 	},
 	{
 		title     : 'My True Love Gave to Me',
@@ -3776,7 +3776,7 @@ let bookData = [
 		pages     : 321,
 		pubDate   : 2014,
 		yearRead  : [ 2017 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/my-true-love.jpg'
 	},
 	{
 		title     : "There's Someone Inside Your House",
@@ -3786,7 +3786,7 @@ let bookData = [
 		pages     : 287,
 		pubDate   : 2017,
 		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/someone-inside-house.jpg'
 	},
 	{
 		title     : 'The Perks of Being a Wallflower',
@@ -3796,7 +3796,7 @@ let bookData = [
 		pages     : 213,
 		pubDate   : 1999,
 		yearRead  : [ 2017 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/perks-wallflower.jpg'
 	},
 	{
 		title     : 'I Am America (And So Can You!)',
@@ -3806,7 +3806,7 @@ let bookData = [
 		pages     : 230,
 		pubDate   : 2007,
 		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/i-am-america.jpg'
 	},
 	{
 		title     : 'The Red Badge of Courage',
@@ -3816,7 +3816,7 @@ let bookData = [
 		pages     : 170,
 		pubDate   : 1895,
 		yearRead  : [ 2005 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/red-badge.jpg'
 	},
 	{
 		title     : 'The Green Mile, Part 1',
@@ -3826,7 +3826,7 @@ let bookData = [
 		pages     : 92,
 		pubDate   : 1996,
 		yearRead  : [ 2019 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/green-mile1.jpg'
 	},
 	{
 		title     : 'The Gunslinger',
@@ -3836,7 +3836,7 @@ let bookData = [
 		pages     : 231,
 		pubDate   : 1982,
 		yearRead  : [ 2019 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/gunslinger.jpg'
 	},
 	{
 		title     : 'Carrie',
@@ -3846,7 +3846,7 @@ let bookData = [
 		pages     : 253,
 		pubDate   : 1974,
 		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/carrie.jpg'
 	},
 	{
 		title     : 'The Shining',
@@ -3856,7 +3856,7 @@ let bookData = [
 		pages     : 659,
 		pubDate   : 1977,
 		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/shining.jpg'
 	},
 	{
 		title     : 'Doctor Sleep',
@@ -3866,7 +3866,7 @@ let bookData = [
 		pages     : 531,
 		pubDate   : 2013,
 		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/dr-sleep.jpg'
 	},
 	{
 		title     : 'Pet Sematary',
@@ -3876,7 +3876,7 @@ let bookData = [
 		pages     : 580,
 		pubDate   : 1983,
 		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/pet-sem.jpg'
 	},
 	{
 		title     : 'Misery',
@@ -3886,7 +3886,7 @@ let bookData = [
 		pages     : 310,
 		pubDate   : 1987,
 		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/misery.jpg'
 	},
 	{
 		title     : 'On Writing',
@@ -3896,7 +3896,7 @@ let bookData = [
 		pages     : 320,
 		pubDate   : 2000,
 		yearRead  : [ 2015 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/on-writing.jpg'
 	},
 	{
 		title     : 'It',
@@ -3906,7 +3906,7 @@ let bookData = [
 		pages     : 1116,
 		pubDate   : 1986,
 		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/it.jpg'
 	},
 	{
 		title     : 'Twilight',
@@ -3916,7 +3916,7 @@ let bookData = [
 		pages     : 501,
 		pubDate   : 2005,
 		yearRead  : [ 2009, 2012 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/twilight1.jpg'
 	},
 	{
 		title     : 'New Moon',
@@ -3926,7 +3926,7 @@ let bookData = [
 		pages     : 565,
 		pubDate   : 2006,
 		yearRead  : [ 2009 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/twilight2.jpg'
 	},
 	{
 		title     : 'Eclipse',
@@ -3936,7 +3936,7 @@ let bookData = [
 		pages     : 632,
 		pubDate   : 2007,
 		yearRead  : [ 2009 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/twilight3.jpg'
 	},
 	{
 		title     : 'Breaking Dawn',
@@ -3946,7 +3946,7 @@ let bookData = [
 		pages     : 756,
 		pubDate   : 2008,
 		yearRead  : [ 2009 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/twilight4.jpg'
 	},
 	{
 		title     : 'Twilight / Life and Death',
@@ -3956,7 +3956,7 @@ let bookData = [
 		pages     : 738,
 		pubDate   : 2015,
 		yearRead  : [ 2015 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/twilight-life-death.jpg'
 	},
 	{
 		title     : '30 Days of Night, Vol. 1',
@@ -3966,7 +3966,7 @@ let bookData = [
 		pages     : 104,
 		pubDate   : 2004,
 		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/thirty-days-night1.jpg'
 	},
 	{
 		title     : '30 Days of Night, Vol. 2',
@@ -3976,7 +3976,7 @@ let bookData = [
 		pages     : 144,
 		pubDate   : 2004,
 		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/thirty-days-night2.jpg'
 	},
 	{
 		title     : '30 Days of Night, Vol. 4',
@@ -3986,7 +3986,7 @@ let bookData = [
 		pages     : 144,
 		pubDate   : 2004,
 		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/thirty-days-night4.jpg'
 	},
 	{
 		title     : 'The Ultimate History of Video Games',
@@ -3996,7 +3996,7 @@ let bookData = [
 		pages     : 608,
 		pubDate   : 2001,
 		yearRead  : [ 2011, 2013 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/ultimate-history-vgs.jpg'
 	},
 	{
 		title     : 'The Hunger Games',
@@ -4006,7 +4006,7 @@ let bookData = [
 		pages     : 374,
 		pubDate   : 2008,
 		yearRead  : [ 2015 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/hunger-games1.jpg'
 	},
 	{
 		title     : 'Catching Fire',
@@ -4016,7 +4016,7 @@ let bookData = [
 		pages     : 391,
 		pubDate   : 2009,
 		yearRead  : [ 2015 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/hunger-games2.jpg'
 	},
 	{
 		title     : 'Mockingjay',
@@ -4026,7 +4026,7 @@ let bookData = [
 		pages     : 390,
 		pubDate   : 2010,
 		yearRead  : [ 2015 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/hunger-games3.jpg'
 	},
 	{
 		title     : 'Sleeping Giants',
@@ -4036,7 +4036,7 @@ let bookData = [
 		pages     : 320,
 		pubDate   : 2016,
 		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/sleeping-giants1.jpg'
 	},
 	{
 		title     : 'Waking Gods',
@@ -4046,7 +4046,7 @@ let bookData = [
 		pages     : 336,
 		pubDate   : 2017,
 		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/sleeping-giants2.jpg'
 	},
 	{
 		title     : 'Thr3e',
@@ -4056,7 +4056,7 @@ let bookData = [
 		pages     : 423,
 		pubDate   : 2003,
 		yearRead  : [ 2013 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/thr3e.jpg'
 	},
 	{
 		title     : 'Getting Started with SQL',
@@ -4066,7 +4066,7 @@ let bookData = [
 		pages     : 134,
 		pubDate   : 2016,
 		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/getting-started-sql.jpg'
 	},
 	{
 		title     : 'The Prodigal God',
@@ -4076,7 +4076,7 @@ let bookData = [
 		pages     : 155,
 		pubDate   : 2008,
 		yearRead  : [ 2015 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/prodigal-god.jpg'
 	},
 	{
 		title     : 'Bossypants',
@@ -4086,7 +4086,7 @@ let bookData = [
 		pages     : 277,
 		pubDate   : 2011,
 		yearRead  : [ 2018 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/bossypants.jpg'
 	},
 	{
 		title     : 'Fun Inc.',
@@ -4096,7 +4096,7 @@ let bookData = [
 		pages     : 272,
 		pubDate   : 2010,
 		yearRead  : [ 2017 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/fun.jpg'
 	},
 	{
 		title     : 'Strengths Finder 2.0',
@@ -4106,7 +4106,7 @@ let bookData = [
 		pages     : 174,
 		pubDate   : 2007,
 		yearRead  : [ 2015 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/strengths-finder.jpg'
 	},
 	{
 		title     : "Anya's Ghost",
@@ -4116,7 +4116,7 @@ let bookData = [
 		pages     : 224,
 		pubDate   : 2011,
 		yearRead  : [ 2017 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/anyas-ghost.jpg'
 	},
 	{
 		title     : 'Divergent',
@@ -4126,7 +4126,7 @@ let bookData = [
 		pages     : 487,
 		pubDate   : 2011,
 		yearRead  : [ 2015 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/divergent1.jpg'
 	},
 	{
 		title     : 'Insurgent',
@@ -4136,7 +4136,7 @@ let bookData = [
 		pages     : 525,
 		pubDate   : 2012,
 		yearRead  : [ 2015 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/divergent2.jpg'
 	},
 	{
 		title     : 'Allegiant',
@@ -4146,7 +4146,7 @@ let bookData = [
 		pages     : 526,
 		pubDate   : 2013,
 		yearRead  : [ 2015 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/divergent3.jpg'
 	},
 	{
 		title     : 'Slumdog Millionaire',
@@ -4156,7 +4156,7 @@ let bookData = [
 		pages     : 333,
 		pubDate   : 2005,
 		yearRead  : [ 2016 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/slumdog.jpg'
 	},
 	{
 		title     : "The Smart Girl's Guide to Privacy",
@@ -4166,7 +4166,7 @@ let bookData = [
 		pages     : 168,
 		pubDate   : 2014,
 		yearRead  : [ 2019 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/smart-girl-privacy.jpg'
 	},
 	{
 		title     : 'Warner Bros. Studio Tour London',
@@ -4176,7 +4176,7 @@ let bookData = [
 		pages     : 72,
 		pubDate   : 2012,
 		yearRead  : [ 2017 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/warner-bros-studio.jpg'
 	},
 	{
 		title     : 'Systematic Theology',
@@ -4186,7 +4186,7 @@ let bookData = [
 		pages     : 1264,
 		pubDate   : 1994,
 		yearRead  : [ 2013 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/systematic-theology.jpg'
 	},
 	{
 		title     : 'Things We Think About Games',
@@ -4196,7 +4196,7 @@ let bookData = [
 		pages     : 160,
 		pubDate   : 2008,
 		yearRead  : [ 2019 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/things-we-think-about-games.jpg'
 	},
 	{
 		title     : 'Lord of the Flies',
@@ -4206,7 +4206,7 @@ let bookData = [
 		pages     : 192,
 		pubDate   : 1954,
 		yearRead  : [ 2003, 2005 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/lord-of-flies.jpg'
 	},
 	{
 		title     : 'Make Your Bed',
@@ -4216,7 +4216,7 @@ let bookData = [
 		pages     : 144,
 		pubDate   : 2017,
 		yearRead  : [ 2020 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/make-your-bed.jpg'
 	},
 	{
 		title     : 'Ghosts of Saltmarsh',
@@ -4226,7 +4226,7 @@ let bookData = [
 		pages     : 256,
 		pubDate   : 2019,
 		yearRead  : [ 2019 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/ghosts-saltmarsh.jpg'
 	},
 	{
 		title     : 'Tales from the Yawning Portal',
@@ -4236,7 +4236,7 @@ let bookData = [
 		pages     : 248,
 		pubDate   : 2017,
 		yearRead  : [ 2019 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/tales-yawning.jpg'
 	},
 	{
 		title     : 'Sapiens',
@@ -4246,7 +4246,7 @@ let bookData = [
 		pages     : 498,
 		pubDate   : 2011,
 		yearRead  : [ 2019 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/sapiens.jpg'
 	},
 	{
 		title     : 'The Willow Files, Vol. 2',
@@ -4256,7 +4256,7 @@ let bookData = [
 		pages     : 210,
 		pubDate   : 2001,
 		yearRead  : [ 2019 ],
-		thumb     : './images/.jpg'
+		thumb     : './images/willow-files2.jpg'
 	},
 	{
 		title     : 'Rick and Morty, Vol. 1',
@@ -4265,6 +4265,7 @@ let bookData = [
 		avgRating : 4.09,
 		pages     : 128,
 		pubDate   : 2015,
-		yearRead  : [ 2019 ]
+		yearRead  : [ 2019 ],
+		thumb     : './images/rick-morty.jpg'
 	}
 ];
