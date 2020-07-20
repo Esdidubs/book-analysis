@@ -2591,6 +2591,16 @@ let bookData = [
 		thumb     : './images/unlimited-memory.jpg'
 	},
 	{
+		title     : 'For the Win',
+		author    : 'Kevin Werbach',
+		myRating  : 4,
+		avgRating : 3.75,
+		pages     : 148,
+		pubDate   : 2012,
+		yearRead  : [ 2013 ],
+		thumb     : './images/ftw.jpg'
+	},
+	{
 		title     : 'The A-Z of Atari 8-bit Games',
 		author    : 'Kieren Hawken',
 		myRating  : 3,
@@ -3217,6 +3227,16 @@ let bookData = [
 		thumb     : './images/dmg.jpg'
 	},
 	{
+		title     : 'The Kobold Guide to Board Game Design',
+		author    : 'Mike Selinker',
+		myRating  : 5,
+		avgRating : 4.07,
+		pages     : 138,
+		pubDate   : 2011,
+		yearRead  : [ 2015 ],
+		thumb     : './images/kobold-bgs.jpg'
+	},
+	{
 		title     : "Shirley Jackson's The Lottery: The Authorized Graphic Adaptation",
 		author    : 'Miles Hyman',
 		myRating  : 3,
@@ -3543,6 +3563,16 @@ let bookData = [
 		thumb     : './images/werewolf-skin.jpg'
 	},
 	{
+		title     : 'Say Cheese and Die!',
+		author    : 'R.L. Stine',
+		myRating  : 4,
+		avgRating : 3.76,
+		pages     : 144,
+		pubDate   : 1992,
+		yearRead  : [ 1999 ],
+		thumb     : './images/say-cheese-die.jpg'
+	},
+	{
 		title     : 'Say Cheese - And Die Screaming',
 		author    : 'R.L. Stine',
 		myRating  : 4,
@@ -3611,6 +3641,16 @@ let bookData = [
 		pubDate   : 2015,
 		yearRead  : [ 2017 ],
 		thumb     : './images/friends-call-me-monster.jpg'
+	},
+	{
+		title     : 'One Day at Horrorland',
+		author    : 'R.L. Stine',
+		myRating  : 4,
+		avgRating : 3.9,
+		pages     : 123,
+		pubDate   : 1994,
+		yearRead  : [ 2006 ],
+		thumb     : './images/horrorland.jpg'
 	},
 	{
 		title     : 'Stay Out of the Basement',
