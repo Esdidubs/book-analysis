@@ -1,6 +1,7 @@
-// add another object array with books want to read
-
 let bookData = [
+	/*===========================
+		Author First Name - A's
+	===========================*/
 	{
 		title     : 'Hocus Pocus & The All New Sequel',
 		author    : 'A.W. Jantha',
@@ -127,6 +128,10 @@ let bookData = [
 		yearRead  : [ 2003 ],
 		thumb     : './images/nothing-but-truth.jpg'
 	},
+
+	/*===========================
+		Author First Name - B's
+	===========================*/
 	{ title: 'Go Ask Alice', author: 'Beatrice Sparks', myRating: 3, avgRating: 3.76, pages: 213, pubDate: 1971, yearRead: [], thumb: './images/alice.jpg' },
 	{
 		title     : 'Beyond Awkward',
@@ -498,6 +503,9 @@ let bookData = [
 		yearRead  : [ 2016 ],
 		thumb     : './images/scott-pilgrim6.jpg'
 	},
+	/*===========================
+		Author First Name - C's
+	===========================*/
 	{
 		title     : "The Magician's Nephew",
 		author    : 'C.S. Lewis',
@@ -738,6 +746,9 @@ let bookData = [
 		yearRead  : [ 2019 ],
 		thumb     : './images/return-of-deadpool.jpg'
 	},
+	/*===========================
+		Author First Name - D's
+	===========================*/
 	{
 		title     : 'The God Who Is There',
 		author    : 'D.A. Carson',
@@ -1128,6 +1139,9 @@ let bookData = [
 		yearRead  : [ 2017 ],
 		thumb     : './images/game-on.jpg'
 	},
+	/*===========================
+		Author First Name - E's
+	===========================*/
 	{
 		title     : 'We Were Liars',
 		author    : 'E. Lockhart',
@@ -1298,6 +1312,9 @@ let bookData = [
 		yearRead  : [ 2013, 2017, 2018 ],
 		thumb     : './images/rp1.jpg'
 	},
+	/*===========================
+		Author First Name - F's
+	===========================*/
 	{
 		title     : 'The Great Gatsby',
 		author    : 'F. Scott Fitzgerald',
@@ -1358,6 +1375,9 @@ let bookData = [
 		yearRead  : [ 2019 ],
 		thumb     : './images/goodbye-things.jpg'
 	},
+	/*===========================
+		Author First Name - G's
+	===========================*/
 	{
 		title     : 'Be Prepared',
 		author    : 'Gary Greenberg',
@@ -1458,6 +1478,9 @@ let bookData = [
 		yearRead  : [ 2019 ],
 		thumb     : './images/essentialism.jpg'
 	},
+	/*===========================
+		Author First Name - H's
+	===========================*/
 	{
 		title     : 'The Miracle Morning',
 		author    : 'Hal Elrod',
@@ -1518,6 +1541,9 @@ let bookData = [
 		yearRead  : [ 2015 ],
 		thumb     : './images/nav-genesis.jpg'
 	},
+	/*===========================
+		Author First Name - I's
+	===========================*/
 	{
 		title     : 'Insight Guides: China',
 		author    : 'Insight Guides',
@@ -1558,6 +1584,9 @@ let bookData = [
 		yearRead  : [ 2017 ],
 		thumb     : './images/burning-world.jpg'
 	},
+	/*===========================
+		Author First Name - J's
+	===========================*/
 	{
 		title     : 'Very Good Lives',
 		author    : 'J.K. Rowling',
@@ -2259,6 +2288,16 @@ let bookData = [
 		thumb     : './images/wild-at-heart.jpg'
 	},
 	{
+		title     : 'Looking for God in Harry Potter',
+		author    : 'John Granger',
+		myRating  : 5,
+		avgRating : 4.13,
+		pages     : 234,
+		pubDate   : 2004,
+		yearRead  : [ 2010 ],
+		thumb     : './images/god-in-hp.jpg'
+	},
+	{
 		title     : 'Looking for Alaska',
 		author    : 'John Green',
 		myRating  : 5,
@@ -2379,6 +2418,16 @@ let bookData = [
 		thumb     : './images/nights-living-dead.jpg'
 	},
 	{
+		title     : 'A Modest Proposal',
+		author    : 'Jonathan Swift',
+		myRating  : 4,
+		avgRating : 4.04,
+		pages     : 48,
+		pubDate   : 1729,
+		yearRead  : [ 2008, 2020 ],
+		thumb     : './images/modest-proposal.jpg'
+	},
+	{
 		title     : 'How Not to Be Wrong',
 		author    : 'Jordan Ellenberg',
 		myRating  : 4,
@@ -2448,6 +2497,9 @@ let bookData = [
 		yearRead  : [ 2016 ],
 		thumb     : './images/buffy-s8.jpg'
 	},
+	/*===========================
+		Author First Name - K's
+	===========================*/
 	{
 		title     : 'Beautiful Creatures',
 		author    : 'Kami Garcia',
@@ -2578,6 +2630,9 @@ let bookData = [
 		yearRead  : [ 2017 ],
 		thumb     : './images/dont-get-caught.jpg'
 	},
+	/*===========================
+		Author First Name - L's
+	===========================*/
 	{
 		title     : 'The Awakening',
 		author    : 'L.J. Smith',
@@ -2938,6 +2993,9 @@ let bookData = [
 		yearRead  : [ 2019 ],
 		thumb     : './images/recruited.jpg'
 	},
+	/*===========================
+		Author First Name - M's
+	===========================*/
 	{
 		title     : 'A Wrinkle in Time',
 		author    : "Madeleine L'Engle",
@@ -2947,6 +3005,16 @@ let bookData = [
 		pubDate   : 1962,
 		yearRead  : [ 2015, 2018 ],
 		thumb     : './images/wrinkle-in-time.jpg'
+	},
+	{
+		title     : 'Outliers',
+		author    : 'Malcolm Gladwell',
+		avgRating : 4.16,
+		myRating  : 5,
+		pages     : 309,
+		pubDate   : 2008,
+		yearRead  : [ 2020 ],
+		thumb     : './images/outliers.jpg'
 	},
 	{
 		title     : 'Bored and Brilliant',
@@ -3158,6 +3226,9 @@ let bookData = [
 		yearRead  : [ 2017 ],
 		thumb     : './images/lottery-graphic.jpg'
 	},
+	/*===========================
+		Author First Name - N's
+	===========================*/
 	{
 		title     : 'Scythe',
 		author    : 'Neal Shusterman',
@@ -3248,6 +3319,9 @@ let bookData = [
 		yearRead  : [ 2018 ],
 		thumb     : './images/everything.jpg'
 	},
+	/*===========================
+		Author First Name - O's
+	===========================*/
 	{
 		title     : 'Cold Sassy Tree',
 		author    : 'Olive Ann Burns',
@@ -3268,6 +3342,9 @@ let bookData = [
 		yearRead  : [ 2004 ],
 		thumb     : './images/enders-game.jpg'
 	},
+	/*===========================
+		Author First Name - P's
+	===========================*/
 	{
 		title     : 'The Windup Girl',
 		author    : 'Paolo Bacigalupi',
@@ -3368,6 +3445,13 @@ let bookData = [
 		yearRead  : [ 2014 ],
 		thumb     : './images/hidden-codes.jpg'
 	},
+	/*===========================
+		Author First Name - Q's
+	===========================*/
+
+	/*===========================
+		Author First Name - R's
+	===========================*/
 	{
 		title     : 'Dr. Maniac Will See You Now',
 		author    : 'R.L. Stine',
@@ -4008,6 +4092,9 @@ let bookData = [
 		yearRead  : [ 2010 ],
 		thumb     : './images/play-dead.jpg'
 	},
+	/*===========================
+		Author First Name - S's
+	===========================*/
 	{
 		title     : 'The Umbrella Conspiracy',
 		author    : 'S.D. Perry',
@@ -4588,6 +4675,9 @@ let bookData = [
 		yearRead  : [ 2018 ],
 		thumb     : './images/sleeping-giants2.jpg'
 	},
+	/*===========================
+		Author First Name - T's
+	===========================*/
 	{
 		title     : 'Thr3e',
 		author    : 'Ted Dekker',
@@ -4659,6 +4749,16 @@ let bookData = [
 		thumb     : './images/left-behind2.jpg'
 	},
 	{
+		title     : 'The 4-Hour Body',
+		author    : 'Timothy Ferriss',
+		myRating  : 2,
+		avgRating : 3.76,
+		pages     : 571,
+		pubDate   : 2000,
+		yearRead  : [ 2020 ],
+		thumb     : './images/four-hour-body.jpg'
+	},
+	{
 		title     : 'The Prodigal God',
 		author    : 'Timothy J. Keller',
 		myRating  : 4,
@@ -4698,6 +4798,13 @@ let bookData = [
 		yearRead  : [ 2015 ],
 		thumb     : './images/strengths-finder.jpg'
 	},
+	/*===========================
+		Author First Name - U's
+	===========================*/
+
+	/*===========================
+		Author First Name - V's
+	===========================*/
 	{
 		title     : "Anya's Ghost",
 		author    : 'Vera Brosgol',
@@ -4758,6 +4865,9 @@ let bookData = [
 		yearRead  : [ 2019 ],
 		thumb     : './images/smart-girl-privacy.jpg'
 	},
+	/*===========================
+		Author First Name - W's
+	===========================*/
 	{
 		title     : 'Warner Bros. Studio Tour London',
 		author    : 'Warner Bros',
@@ -4868,6 +4978,13 @@ let bookData = [
 		yearRead  : [ 2019 ],
 		thumb     : './images/tales-yawning.jpg'
 	},
+	/*===========================
+		Author First Name - X's
+	===========================*/
+
+	/*===========================
+		Author First Name - Y's
+	===========================*/
 	{
 		title     : 'Sapiens',
 		author    : 'Yuval Noah Harari',
@@ -4888,6 +5005,9 @@ let bookData = [
 		yearRead  : [ 2019 ],
 		thumb     : './images/willow-files2.jpg'
 	},
+	/*===========================
+		Author First Name - Z's
+	===========================*/
 	{
 		title     : 'Rick and Morty, Vol. 1',
 		author    : 'Zac Gorman',
@@ -4972,14 +5092,6 @@ let toRead = [
 		pages     : 296,
 		pubDate   : 2005,
 		thumb     : './images/blink.jpg'
-	},
-	{
-		title     : 'Outliers',
-		author    : 'Malcolm Gladwell',
-		avgRating : 4.16,
-		pages     : 309,
-		pubDate   : 2008,
-		thumb     : './images/outliers.jpg'
 	},
 	{
 		title     : 'Astrophysics for People in a Hurry',
