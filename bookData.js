@@ -2488,6 +2488,16 @@ let bookData = [
 		thumb     : './images/minimalist-home.jpg'
 	},
 	{
+		title     : 'The Club',
+		author    : 'Joshua Robinson',
+		myRating  : 5,
+		avgRating : 4.33,
+		pages     : 368,
+		pubDate   : 2018,
+		yearRead  : [ 2020 ],
+		thumb     : './images/club.jpg'
+	},
+	{
 		title     : 'Haunted Mansion',
 		author    : 'Joshua Williamson',
 		myRating  : 4,
@@ -3424,6 +3434,16 @@ let bookData = [
 		pubDate   : 2015,
 		yearRead  : [ 2016 ],
 		thumb     : './images/girl-on-train.jpg'
+	},
+	{
+		title     : 'Liverpool FC',
+		author    : 'Paula Wilson',
+		myRating  : 4,
+		avgRating : 3.50,
+		pages     : 32,
+		pubDate   : 2018,
+		yearRead  : [ 2020 ],
+		thumb     : './images/liverpool.jpg'
 	},
 	{
 		title     : 'The Alchemist',
