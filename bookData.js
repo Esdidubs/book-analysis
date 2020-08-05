@@ -264,6 +264,16 @@ let bookData = [
 		thumb     : './images/openly-straight.jpg'
 	},
 	{
+		title     : 'Who Is the Greatest: Elvis or the Beatles?',
+		author    : 'Bill Slater',
+		myRating  : 4,
+		avgRating : 4.1,
+		pages     : 223,
+		pubDate   : 2007,
+		yearRead  : [ 2009 ],
+		thumb     : './images/elvis-beatles.jpg'
+	},
+	{
 		title     : "Fail Until You Don't",
 		author    : 'Bobby Bones',
 		myRating  : 3,
@@ -3025,6 +3035,16 @@ let bookData = [
 		pubDate   : 2008,
 		yearRead  : [ 2020 ],
 		thumb     : './images/outliers.jpg'
+	},	
+	{
+		title     : 'Tipping Point',
+		author    : 'Malcolm Gladwell',
+		avgRating : 3.97,
+		myRating  : 5,
+		pages     : 301,
+		pubDate   : 2002,
+		yearRead  : [ 2020 ],
+		thumb     : './images/tipping-point.jpg'
 	},
 	{
 		title     : 'Bored and Brilliant',
@@ -4662,7 +4682,7 @@ let bookData = [
 		avgRating : 4.1,
 		pages     : 608,
 		pubDate   : 2001,
-		yearRead  : [ 2011, 2013 ],
+		yearRead  : [ 2009, 2011, 2013 ],
 		thumb     : './images/ultimate-history-vgs.jpg'
 	},
 	{
@@ -5116,14 +5136,6 @@ let toRead = [
 		pages     : 377,
 		pubDate   : 2020,
 		thumb     : './images/one-of-us-is-next.jpg'
-	},
-	{
-		title     : 'The Tipping Point',
-		author    : 'Malcolm Gladwell',
-		avgRating : 3.97,
-		pages     : 301,
-		pubDate   : 2000,
-		thumb     : './images/tipping-point.jpg'
 	},
 	{
 		title     : 'Blink',
