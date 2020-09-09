@@ -3802,6 +3802,15 @@ let bookData = [
 		yearRead  : [ 2015, 2018 ],
 		thumb     : './images/nick-norah.jpg'
 	},
+		
+	{
+		title     : "Dot Journaling",
+		author    : 'Rachel Miller',
+		myRating  : 3,
+		avgRating : 3.8,
+		pages     : 241,
+		pubDate   : 2020
+	},
 	{
 		title     : 'Ghosts',
 		author    : 'Raina Telgemeier',
