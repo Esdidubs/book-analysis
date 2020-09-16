@@ -1086,7 +1086,7 @@ let bookData = [
 		avgRating : 3.93,
 		pages     : 192,
 		pubDate   : 2008,
-		yearRead  : [ 2013, 2014, 2017 ],
+		yearRead  : [ 2013, 2014, 2017, 2020 ],
 		thumb     : './images/eat-this.jpg'
 	},
 	{
@@ -3235,6 +3235,16 @@ let bookData = [
 		pubDate   : 2001,
 		yearRead  : [ 2008 ],
 		thumb     : './images/stupid-white-men.jpg'
+	},
+	{
+		title     : 'Food Rules',
+		author    : 'Michael Pollan',
+		myRating  : 4,
+		avgRating : 4,
+		pages     : 152,
+		pubDate   : 2009,
+		yearRead  : [ 2020 ],
+		thumb     : './images/food-rules.jpg'
 	},
 	{
 		title     : 'Mean Girls',
