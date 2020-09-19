@@ -3819,7 +3819,9 @@ let bookData = [
 		myRating  : 3,
 		avgRating : 3.8,
 		pages     : 241,
-		pubDate   : 2020
+		pubDate   : 2020,
+		yearRead  : [ 2020 ],
+		thumb     : ''
 	},
 	{
 		title     : 'Ghosts',
