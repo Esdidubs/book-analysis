@@ -2286,6 +2286,16 @@ let bookData = [
 		pubDate   : 2014,
 		yearRead  : [ 2014 ],
 		thumb     : './images/passion-purpose.jpg'
+	},	
+	{
+		title     : 'Discipline Equals Freedom',
+		author    : 'Jocko Willink',
+		myRating  : 5,
+		avgRating : 4.1,
+		pages     : 189,
+		pubDate   : 2017,
+		yearRead  : [ 2020 ],
+		thumb     : './images/discipline.jpg'
 	},
 	{
 		title     : 'Wild at Heart',
@@ -2579,6 +2589,16 @@ let bookData = [
 		pubDate   : 2011,
 		yearRead  : [ 2019 ],
 		thumb     : './images/geek-dad.jpg'
+	},	
+	{
+		title     : "The New Answers Book 1",
+		author    : 'Ken Ham',
+		myRating  : 2,
+		avgRating : 4.19,
+		pages     : 378,
+		pubDate   : 2007,
+		yearRead  : [ 2009 ],
+		thumb     : './images/new-answers.jpg'
 	},
 	{
 		title     : "One Flew Over the Cuckoo's Nest",
