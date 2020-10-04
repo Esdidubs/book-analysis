@@ -1555,6 +1555,16 @@ let bookData = [
 		Author First Name - I's
 	===========================*/
 	{
+		title     : 'The Road Back to You',
+		author    : 'Ian Morgan Cron',
+		myRating  : 4,
+		avgRating : 4.26,
+		pages     : 238,
+		pubDate   : 2016,
+		yearRead  : [ 2020 ],
+		thumb     : './images/road-back.jpg'
+	},
+	{
 		title     : 'Insight Guides: China',
 		author    : 'Insight Guides',
 		myRating  : 4,
@@ -3524,6 +3534,16 @@ let bookData = [
 		pubDate   : 2006,
 		yearRead  : [ 2017 ],
 		thumb     : './images/thousand-one-books.jpg'
+	},
+	{
+		title     : 'Resident Evil',
+		author    : 'Philip Reed',
+		myRating  : 4,
+		avgRating : 4.08,
+		pages     : 192,
+		pubDate   : 2020,
+		yearRead  : [ 2020 ],
+		thumb     : './images/resident-evil.jpg'
 	},
 	{
 		title     : 'Hidden Codes & Grand Designs',
