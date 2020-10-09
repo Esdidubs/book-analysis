@@ -3454,6 +3454,16 @@ let bookData = [
 		pubDate   : 2007,
 		yearRead  : [ 2020 ],
 		thumb     : './images/name-of-wind.jpg'
+	},	
+	{
+		title     : 'Rick and Morty vs. Dungeons & Dragons',
+		author    : 'Patrick Rothfuss',
+		myRating  : 5,
+		avgRating : 4.18,
+		pages     : 96,
+		pubDate   : 2019,
+		yearRead  : [ 2020 ],
+		thumb     : './images/rick-morty-vs-dnd.jpg'
 	},
 	{
 		title     : 'The Heavenly Man',
@@ -3982,6 +3992,16 @@ let bookData = [
 		pubDate   : 2001,
 		yearRead  : [ 2013 ],
 		thumb     : './images/safely-home.jpg'
+	},
+	{
+		title     : 'How to be Miserable',
+		author    : 'Randy Paterson',
+		myRating  : 3,
+		avgRating : 4.02,
+		pages     : 248,
+		pubDate   : 2016,
+		yearRead  : [ 2020 ],
+		thumb     : './images/miserable.jpg'
 	},
 	{
 		title     : 'Miss Peregrine’s Home for Peculiar Children',
@@ -5241,14 +5261,6 @@ let toRead = [
 		pages     : 194,
 		pubDate   : 2015,
 		thumb     : './images/shadow-of-colossus.jpg'
-	},
-	{
-		title     : 'Rick and Morty vs. Dungeons & Dragons',
-		author    : 'Patrick Rothfuss',
-		avgRating : 4.18,
-		pages     : 96,
-		pubDate   : 2019,
-		thumb     : './images/rick-morty-vs-dnd.jpg'
 	},
 	{
 		title     : 'How To',
