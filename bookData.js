@@ -4184,6 +4184,16 @@ let bookData = [
 		thumb     : './images/walking-dead1.jpg'
 	},
 	{
+		title     : 'Rich Dad, Poor Dad',
+		author    : 'Robert Kiyosaki',
+		myRating  : 5,
+		avgRating : 4.08,
+		pages     : 195,
+		pubDate   : 1997,
+		yearRead  : [ 2020 ],
+		thumb     : './images/rich-dad-poor-dad.jpg'
+	},
+	{
 		title     : 'Good Luck Have Fun',
 		author    : 'Roland Li',
 		myRating  : 3,
@@ -4785,6 +4795,26 @@ let bookData = [
 		pubDate   : 2001,
 		yearRead  : [ 2009, 2011, 2013 ],
 		thumb     : './images/ultimate-history-vgs.jpg'
+	},	
+	{
+		title     : 'Think Like a Freak',
+		author    : 'Steven Levitt',
+		myRating  : 4,
+		avgRating : 3.86,
+		pages     : 304,
+		pubDate   : 2014,
+		yearRead  : [ 2018, 2020 ],
+		thumb     : './images/think-like-freak.jpg'
+	},		
+	{
+		title     : 'The Art of Ward',
+		author    : 'Sun Tzu',
+		myRating  : 3,
+		avgRating : 3.97,
+		pages     : 82,
+		pubDate   : -500,
+		yearRead  : [ 2020 ],
+		thumb     : './images/art-of-war.jpg'
 	},
 	{
 		title     : 'The Hunger Games',
