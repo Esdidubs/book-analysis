@@ -607,6 +607,16 @@ let bookData = [
 		thumb     : './images/py4e.jpg'
 	},
 	{
+		title     : 'Naked Statistics',
+		author    : 'Charles Wheelan',
+		myRating  : 4,
+		avgRating : 3.94,
+		pages     : 282,
+		pubDate   : 2012,
+		yearRead  : [ 2020 ],
+		thumb     : './images/naked-statistics.jpg'
+	},
+	{
 		title     : 'The Yellow Wallpaper',
 		author    : 'Charlotte Perkins Gilman',
 		myRating  : 5,
@@ -4565,6 +4575,16 @@ let bookData = [
 		pubDate   : 2013,
 		yearRead  : [ 2017 ],
 		thumb     : './images/lean-in.jpg'
+	},
+	{
+		title     : 'Who Moved My Cheese?',
+		author    : 'Spencer Johnson',
+		myRating  : 4,
+		avgRating : 3.82,
+		pages     : 96,
+		pubDate   : 1998,
+		yearRead  : [ 2000 ],
+		thumb     : './images/who-moved-cheese.jpg'
 	},
 	{
 		title     : 'My True Love Gave to Me',
