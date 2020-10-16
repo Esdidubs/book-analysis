@@ -4583,7 +4583,7 @@ let bookData = [
 		avgRating : 3.82,
 		pages     : 96,
 		pubDate   : 1998,
-		yearRead  : [ 2000 ],
+		yearRead  : [ 2020 ],
 		thumb     : './images/who-moved-cheese.jpg'
 	},
 	{
