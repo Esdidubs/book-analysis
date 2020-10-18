@@ -4827,7 +4827,7 @@ let bookData = [
 		thumb     : './images/think-like-freak.jpg'
 	},		
 	{
-		title     : 'The Art of Ward',
+		title     : 'The Art of War',
 		author    : 'Sun Tzu',
 		myRating  : 3,
 		avgRating : 3.97,
