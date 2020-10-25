@@ -1,8 +1,6 @@
 // switch the buttons to just a single dropdown that toggles it on change
-
 $(function() {
 	buttons();
-	fiveStarSetup();
 	highRatingSetup();
 	displayData();
 	allBooks();
@@ -10,7 +8,7 @@ $(function() {
 	rankSetup();
 });
 
-let fiveStarBooks = ``;
+
 let highGoodReads = ``;
 let yearReads = ``;
 let allReads = ``;
@@ -22,13 +20,9 @@ function buttons() {
 		event.preventDefault();
 		$('.svgContainer').toggleClass('hidden');
 	});
-	$('#buttons').on('click', '#fiveStarBtn', function() {
-		event.preventDefault();
-		$('.fiveStarBox').toggleClass('hidden');
-	});
 	$('#buttons').on('click', '#highGRBtn', function() {
 		event.preventDefault();
-		$('.highGRBox').toggleClass('hidden');
+		//$('.highGRBox').toggleClass('hidden');
 	});
 	$('#buttons').on('click', '#rankedBtn', function() {
 		event.preventDefault();
@@ -44,9 +38,6 @@ function displayData() {
 	if ($('#dataSelection').val() == 'graphBtn') {
 		makeHidden();
 		$('.svgContainer').removeClass('hidden');
-	} else if ($('#dataSelection').val() == 'fiveStarBtn') {
-		makeHidden();
-		$('.fiveStarBox').removeClass('hidden');
 	} else if ($('#dataSelection').val() == 'highGRBtn') {
 		makeHidden();
 		$('.highGRBox').removeClass('hidden');
@@ -75,7 +66,7 @@ function makeHidden() {
 	$('.yearBox').hasClass('hidden') ? '' : $('.yearBox').toggleClass('hidden');
 	$('.allReads').hasClass('hidden') ? '' : $('.allReads').toggleClass('hidden');
 	$('.toReadBox').hasClass('hidden') ? '' : $('.toReadBox').toggleClass('hidden');
-	$('.rankBox').hasClass('hidden') ? '' : $('.toReadBox').toggleClass('hidden');
+	$('.rankBox').hasClass('hidden') ? '' : $('.rankBox').toggleClass('hidden');
 }
 
 function allBooks() {
@@ -115,19 +106,7 @@ function toReadSetup() {
     `);
 }
 
-function fiveStarSetup() {
-	for (let book in bookData) {
-		if (bookData[book].myRating == 5) {
-			fiveStarBooks += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
-				.author}</div></div>`;
-		}
-	}
-	$('.fiveStarBox').replaceWith(` 
-    <div class="fiveStarBox hidden">
-            ${fiveStarBooks}
-        </div>  
-    `);
-}
+
 
 function highRatingSetup() {
 	for (let book in bookData) {
@@ -213,7 +192,7 @@ function rankSetup(){
 			}
 		}
 
-		$('.highGRBox').replaceWith(` 
+		$('.rankBox').replaceWith(` 
 			<div class="rankBox hidden">
 				<p>10 Rating</p>	
 				<div class="ranked">${rank10}</div>
