@@ -7,6 +7,7 @@ $(function() {
 	displayData();
 	allBooks();
 	toReadSetup();
+	rankSetup();
 });
 
 let fiveStarBooks = ``;
@@ -28,6 +29,10 @@ function buttons() {
 	$('#buttons').on('click', '#highGRBtn', function() {
 		event.preventDefault();
 		$('.highGRBox').toggleClass('hidden');
+	});
+	$('#buttons').on('click', '#rankedBtn', function() {
+		event.preventDefault();
+		$('.rankBox').toggleClass('hidden');
 	});
 	$('#dataSelection').on('change', function() {
 		event.preventDefault();
@@ -57,6 +62,9 @@ function displayData() {
 	} else if ($('#dataSelection').val() == 'toRead') {
 		makeHidden();
 		$('.toReadBox').removeClass('hidden');
+	} else if ($('#dataSelection').val() == 'rankedBtn') {
+		makeHidden();
+		$('.rankBox').removeClass('hidden');
 	}
 }
 
@@ -67,6 +75,7 @@ function makeHidden() {
 	$('.yearBox').hasClass('hidden') ? '' : $('.yearBox').toggleClass('hidden');
 	$('.allReads').hasClass('hidden') ? '' : $('.allReads').toggleClass('hidden');
 	$('.toReadBox').hasClass('hidden') ? '' : $('.toReadBox').toggleClass('hidden');
+	$('.rankBox').hasClass('hidden') ? '' : $('.toReadBox').toggleClass('hidden');
 }
 
 function allBooks() {
@@ -155,4 +164,75 @@ function yearSearch() {
 		<div class="bookList">${yearReads}</div>
 		</div>
     `);
+}
+
+function rankSetup(){
+	
+		let rank10 = '';
+		let rank9 = '';
+		let rank8 = '';
+		let rank7 = '';
+		let rank6 = '';
+		let rank5 = '';
+		let rank4 = '';
+		let rank3 = '';
+		let rank2 = '';
+		let rank1 = '';
+
+		for (let book in bookData) {
+			if (bookData[book].myWeightedRating == 10) {
+				rank10 += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
+					.author}</div></div>`;
+			} else if (bookData[book].myWeightedRating == 9) {
+				rank9 += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
+					.author}</div></div>`;
+			} else if (bookData[book].myWeightedRating == 8) {
+				rank8 += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
+					.author}</div></div>`;
+			} else if (bookData[book].myWeightedRating == 7) {
+				rank7 += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
+					.author}</div></div>`;
+			} else if (bookData[book].myWeightedRating == 6) {
+				rank6 += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
+					.author}</div></div>`;
+			} else if (bookData[book].myWeightedRating == 5) {
+				rank5 += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
+					.author}</div></div>`;
+			} else if (bookData[book].myWeightedRating == 4) {
+				rank4 += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
+					.author}</div></div>`;
+			} else if (bookData[book].myWeightedRating == 3) {
+				rank3 += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
+					.author}</div></div>`;
+			} else if (bookData[book].myWeightedRating == 2) {
+				rank2 += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
+					.author}</div></div>`;
+			} else if (bookData[book].myWeightedRating == 1) {
+				rank1 += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
+					.author}</div></div>`;
+			}
+		}
+
+		$('.highGRBox').replaceWith(` 
+			<div class="rankBox hidden">
+				<p>10 Rating</p>	
+				<div class="ranked">${rank10}</div>
+				<p>9 Rating</p>
+				<div class="ranked">${rank9}</div>
+				<p>8 Rating</p>
+				<div class="ranked">${rank8}</div>
+				<p>7 Rating</p>
+				<div class="ranked">${rank7}</div>
+				<p>6 Rating</p>
+				<div class="ranked">${rank6}</div>
+				<p>5 Rating</p>
+				<div class="ranked">${rank5}</div>
+				<p>4 Rating</p>
+				<div class="ranked">${rank4}</div>
+				<p>3 Rating</p>
+				<div class="ranked">${rank3}</div>
+				
+			</div>  
+		`);
+	
 }
