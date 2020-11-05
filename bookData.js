@@ -2104,6 +2104,17 @@ let bookData = [
 		pubDate   : 2014,
 		yearRead  : [ 2018 ],
 		thumb     : './images/annihilation.jpg'
+	}, 
+	{
+		title     : "Who's Afraid of the Multiverse",
+		author    : 'Jeffrey Zweerink',
+		myWeightedRating : 7,
+		myRating  : 4,
+		avgRating : 4.21,
+		pages     : 66,
+		pubDate   : 2008,
+		yearRead  : [ 2020 ],
+		thumb     : './images/whos-afraid.jpg'
 	},
 	{
 		title     : 'The No-Spend Challenge Guide',
@@ -3700,6 +3711,17 @@ let bookData = [
 		pubDate   : 1996,
 		yearRead  : [ 2018 ],
 		thumb     : './images/neverwhere.jpg'
+	}, 
+	{
+		title     : 'Good Omens',
+		author    : 'Neil Gaiman',
+		myWeightedRating : 5,
+		myRating  : 3,
+		avgRating : 4.24,
+		pages     : 491,
+		pubDate   : 2006,
+		yearRead  : [ 2020 ],
+		thumb     : './images/good-omens.jpg'
 	},
 	{
 		title     : 'Coraline',
@@ -5237,6 +5259,17 @@ let bookData = [
 		thumb     : './images/twilight4.jpg'
 	},
 	{
+		title     : 'Midnight Sun',
+		author    : 'Stephenie Meyer',
+		myWeightedRating : 7,
+		myRating  : 4,
+		avgRating : 3.82,
+		pages     : 662,
+		pubDate   : 2020,
+		yearRead  : [ 2020 ],
+		thumb     : './images/twilight5.jpg'
+	},
+	{
 		title     : 'Twilight / Life and Death',
 		author    : 'Stephenie Meyer',
 		myWeightedRating : 8,
@@ -5787,14 +5820,6 @@ let toRead = [
 		thumb     : './images/ickabog.jpg'
 	},
 	{
-		title     : 'Lies My Teacher Told Me',
-		author    : 'James Loewen',
-		avgRating : 3.97,
-		pages     : 383,
-		pubDate   : 1995,
-		thumb     : './images/lies-teacher-told.jpg'
-	},
-	{
 		title     : 'One of Us Is Next',
 		author    : 'Karen McManus',
 		avgRating : 4.04,
@@ -5849,14 +5874,6 @@ let toRead = [
 		pages     : '???',
 		pubDate   : 2020,
 		thumb     : './images/you-are-an-artist.jpg'
-	},
-	{
-		title     : 'Freakonomics',
-		author    : 'Steven Levitt',
-		avgRating : 3.98,
-		pages     : 320,
-		pubDate   : 2005,
-		thumb     : './images/freakonomics.jpg'
 	},
 	{
 		title     : "It's All a Game",
