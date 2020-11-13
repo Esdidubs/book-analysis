@@ -1529,7 +1529,7 @@ let bookData = [
 		avgRating : 3.81,
 		pages     : 272,
 		pubDate   : 2015,
-		yearRead  : [ 2019 ],
+		yearRead  : [ 2019, 2020 ],
 		thumb     : './images/goodbye-things.jpg'
 	},
 	/*===========================
