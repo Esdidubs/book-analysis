@@ -1635,6 +1635,17 @@ let bookData = [
 		thumb     : './images/bfs-exorcism.jpg'
 	},
 	{
+		title     : "The Southern Book Club's Guide to Slaying Vampires",
+		author    : 'Grady Hendrix',
+		myWeightedRating : 7,
+		myRating  : 4,
+		avgRating : 3.87,
+		pages     : 404,
+		pubDate   : 2020,
+		yearRead  : [ 2020 ],
+		thumb     : './images/southern-book-club.jpg'
+	},
+	{
 		title     : 'Essentialism',
 		author    : 'Greg McKeown',
 		myWeightedRating : 8,
