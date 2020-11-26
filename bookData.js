@@ -1484,7 +1484,7 @@ let bookData = [
 		pubDate   : 2020,
 		yearRead  : [ 2020 ],
 		thumb     : './images/rp2.jpg'
-	}
+	},
 	/*===========================
 		Author First Name - F's
 	===========================*/
