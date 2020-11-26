@@ -399,6 +399,17 @@ let bookData = [
 		thumb     : './images/eleventh-metal.jpg'
 	},
 	{
+		title     : 'Steelheart',
+		author    : 'Brandon Sanderson',
+		myWeightedRating : 9,
+		myRating  : 5,
+		avgRating : 4.14,
+		pages     : 386,
+		pubDate   : 2013,
+		yearRead  : [ 2020 ],
+		thumb     : './images/steelheart.jpg'
+	},
+	{
 		title     : 'High Performance Habits',
 		author    : 'Brendon Burchard',
 		myWeightedRating : 7,
@@ -1462,7 +1473,18 @@ let bookData = [
 		pubDate   : 2011,
 		yearRead  : [ 2013, 2017, 2018 ],
 		thumb     : './images/rp1.jpg'
-	},
+	},	
+	{
+		title     : 'Ready Player Two',
+		author    : 'Ernest Cline',
+		myWeightedRating : 8,
+		myRating  : 5,
+		avgRating : 3.95,
+		pages     : 384,
+		pubDate   : 2020,
+		yearRead  : [ 2020 ],
+		thumb     : './images/rp2.jpg'
+	}
 	/*===========================
 		Author First Name - F's
 	===========================*/
