@@ -831,6 +831,17 @@ let bookData = [
 		thumb     : './images/science-hacks.jpg'
 	},
 	{
+		title     : 'Project 333',
+		author    : 'Coourtney Carver',
+		myWeightedRating : 3,
+		myRating  : 6,
+		avgRating : 3.79,
+		pages     : 224,
+		pubDate   : 2020,
+		yearRead  : [ 2020 ],
+		thumb     : './images/project333.jpg'
+	},
+	{
 		title     : 'Night of the Living Deadpool',
 		author    : 'Cullen Bunn',
 		myWeightedRating : 6,
@@ -3856,11 +3867,22 @@ let bookData = [
 		myWeightedRating : 10,
 		myRating  : 5,
 		avgRating : 4.54,
-		pages     : 662,
+		pages     : 722,
 		pubDate   : 2007,
 		yearRead  : [ 2020 ],
 		thumb     : './images/name-of-wind.jpg'
-	},	
+	},
+	{
+		title     : "The Wise Man's Fear",
+		author    : 'Patrick Rothfuss',
+		myWeightedRating : 10,
+		myRating  : 5,
+		avgRating : 4.55,
+		pages     : 1107,
+		pubDate   : 2011,
+		yearRead  : [ 2020 ],
+		thumb     : './images/name-of-wind2.jpg'
+	},
 	{
 		title     : 'Rick and Morty vs. Dungeons & Dragons',
 		author    : 'Patrick Rothfuss',
