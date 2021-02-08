@@ -1838,7 +1838,7 @@ let bookData = [
 		avgRating : 4.47,
 		pages     : 309,
 		pubDate   : 1997,
-		yearRead  : [ 1999, 2000, 2001, 2002, 2010, 2011, 2012, 2017, 2018, 2019, 2020 ],
+		yearRead  : [ 1999, 2000, 2001, 2002, 2010, 2011, 2012, 2017, 2018, 2019, 2020, 2021 ],
 		thumb     : './images/hp1.jpg'
 	},
 	{
@@ -1849,7 +1849,7 @@ let bookData = [
 		avgRating : 4.42,
 		pages     : 341,
 		pubDate   : 1998,
-		yearRead  : [ 2000, 2002, 2010, 2017, 2018, 2019, 2020 ],
+		yearRead  : [ 2000, 2002, 2010, 2017, 2018, 2019, 2020, 2021 ],
 		thumb     : './images/hp2.jpg'
 	},
 	{
@@ -1860,7 +1860,7 @@ let bookData = [
 		avgRating : 4.57,
 		pages     : 435,
 		pubDate   : 1999,
-		yearRead  : [ 2000, 2002, 2010, 2017, 2018, 2019, 2020 ],
+		yearRead  : [ 2000, 2002, 2010, 2017, 2018, 2019, 2020, 2021 ],
 		thumb     : './images/hp3.jpg'
 	},
 	{
