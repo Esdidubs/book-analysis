@@ -11,7 +11,7 @@ $(function() {
 	myRatingAverage(bookData);
 	totalRatingAverage(bookData);
 	yearAverage(outlierData);
-});
+}); 
 
 function histograms() {
 	let barPadding = 1;
