@@ -14,6 +14,7 @@
         <option value="graphBtn"  selected>Graphed Reading Data</option>
         <option value="all" >All of the Books I've Read</option>
         <option value="rankedBtn">Books By My Rating</option>
+        <option value="pages">Books By Pages</option>
         <option value="highGRBtn">Books with 4.5+ on Goodreads</option>
         <option value="toRead" >Books I Want to Read</option>
         <option value="years" >Books I Read in 1999</option>
@@ -41,13 +42,14 @@
         <option value="years" >Books I Read in 2021</option>
     </select>
   </div>
-  <hr>
-  <div class="allReads hidden"> </div> 
-  <div class="highGRBox hidden">  </div>
-  <div class="yearBox hidden"></div>
-  <div class="toReadBox hidden"></div>
-  <div class="rankBox hidden"></div>
-  <div class="svgContainer hidden">
+  <hr />
+  <div class="allReads"></div> 
+  <div class="highGRBox"></div>
+  <div class="yearBox"></div>
+  <div class="toReadBox"></div>
+  <div class="rankBox"></div>
+  <div class="pagesBox"></div>
+  <div class="svgContainer">
     <div class="container">
       <div class="graph" id="pageSection">
         <h2 class="graph__title">Books Read by Page Count</h2>
@@ -90,8 +92,6 @@
       </div>   
       <svg id="myYearRating"></svg>
     </div>
-    
-    
   </div>
   <script
   src="https://code.jquery.com/jquery-3.5.1.js"
