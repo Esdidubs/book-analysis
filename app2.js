@@ -1,5 +1,4 @@
-// Default selection when page starts
-graphs();
+
 
 // Hide everything then display something when dropdown is changed
 $('#dataSelection').on('change', function() {
@@ -23,7 +22,6 @@ function makeHidden() {
 // Shows the selected section and runs its function
 function displayData() {
 	if ($('#dataSelection').val() == 'graphBtn') {		
-		graphs();
 		$('.svgContainer').show();
 	} else if ($('#dataSelection').val() == 'highGRBtn') {
 		highRatingSetup();
