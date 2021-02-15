@@ -1871,7 +1871,7 @@ let bookData = [
 		avgRating : 4.56,
 		pages     : 734,
 		pubDate   : 2000,
-		yearRead  : [ 2000, 2002, 2010, 2017, 2018, 2019, 2020 ],
+		yearRead  : [ 2000, 2002, 2010, 2017, 2018, 2019, 2020, 2021 ],
 		thumb     : './images/hp4.jpg'
 	},
 	{
@@ -2018,7 +2018,7 @@ let bookData = [
 		thumb     : './images/maze-runner.jpg'
 	},
 	{
-		title     : "America's History, For the AP* Course",
+		title     : "America's History, For the AP Course",
 		author    : 'James Henretta',
 		myWeightedRating : 7,
 		myRating  : 4,
