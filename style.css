@@ -3,14 +3,57 @@ body {
 	padding: 0;
 }
 
-svg {
-	margin: 0 auto;
-	display: block;
+h3 {
+	text-align: center;
+	width: 100%;	
 }
 
-.tick line {
-	stroke: #ccc;
-	stroke-dasharray: 10, 5;
+header {
+	background-color: rgb(5, 22, 48);
+	color: white;
+	font-size: 24px;
+	padding: 10px;
+	text-align: center;	
+}
+
+svg {
+	display: block;
+	margin: 0 auto;	
+}
+
+.barData,
+.container {
+	margin: 20px;
+}
+
+.bookList,
+.highGRBox,
+.ranked {
+	display: grid;	
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.book {
+	align-items: center;
+	border: 1px;
+	border-color: rgb(202, 199, 197);
+	border-style: dashed;
+	display: flex;
+	flex-direction: column;	
+	justify-content: center;
+	padding: 10px;
+}
+
+.pagesBox p,
+.rankBox p {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.ranked {
+	margin-bottom: 60px;
 }
 
 .svgContainer {
@@ -19,70 +62,26 @@ svg {
 	justify-content: space-evenly;
 }
 
-.container {
-	margin: 20px;
+
+.tick line {
+	stroke: #ccc;
+	stroke-dasharray: 10, 5;
 }
 
-.barData {
-	margin: 20px;
-}
-
-
-.highGRBox,
-.bookList,
-.ranked {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	grid-gap: 10px;
-}
-
-.ranked {
-	margin-bottom: 60px;
-}
-
-.rankBox p {
-	font-size: 30px;
-	font-weight: bold;
-	text-align: center;
-}
-
-.book {
-	padding: 10px;
-	border: 1px;
-	border-color: rgb(202, 199, 197);
-	border-style: dashed;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-.hidden {
-	display: none;
-}
-
-.title {
-	font-weight: bold;
+.title {	
 	font-size: 16px;
+	font-weight: bold;
 	margin-top: 10px;
 	text-align: center;
 }
 
-h3 {
-	width: 100%;
-	text-align: center;
-}
-
-#buttons {
+#buttons {	
+	align-items: center;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	justify-items: center;
 	margin-bottom: 20px;
 	margin-top: 20px;
-}
-
-#mainLabel {
-	font-size: 20px;
 }
 
 #dataSelection {
@@ -90,10 +89,6 @@ h3 {
 	padding: 5px 10px;
 }
 
-header {
-	background-color: rgb(5, 22, 48);
-	color: white;
-	font-size: 24px;
-	text-align: center;
-	padding: 10px;
+#mainLabel {
+	font-size: 20px;
 }
