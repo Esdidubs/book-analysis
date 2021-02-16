@@ -1,5 +1,3 @@
-
-
 // Hide everything then display something when dropdown is changed
 $('#dataSelection').on('change', function() {
 	event.preventDefault();
@@ -53,6 +51,8 @@ function allBooks() {
 	let booksForAll = 0;
 	let pagesForAllUnique = 0;
 	let booksForAllUnique = 0;
+
+	// Appends the next book (in HTML) and adds to the count and pages of the variables
 	for (let book in bookData) {
 		allReads += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
 			.author}</div><div class="pages">Pages: ${bookData[book].pages}</div><div class="rating">Rating: ${bookData[book].myWeightedRating}/10</div></div>`;
@@ -86,15 +86,14 @@ function pageSetup() {
 		{name: '800 or more pages', pageLimit: 800, count: 0, books: ''}
 	];
 
+	// Sorts the array from highest to lowest pages
 	pageArr.sort(function(a, b) {
 		return b.pages - a.pages;
-	});
+	});	
 
-	
-
+	// Adds book to appropriate section based on pages
 	for (let book in pageArr) {
 		for(let i = pageCount.length-1; i>=0; i--) {
-			console.log(i)
 			if(pageArr[book].pages > pageCount[i].pageLimit){
 				pageCount[i].books += `<div class="book"> <img src="${pageArr[book].thumb}"><div class="title">${pageArr[book].title}</div><div class="author">${pageArr[book]
 					.author}</div><div class="pages">Pages: ${pageArr[book].pages}</div><div class="rating">Rating: ${pageArr[book].myWeightedRating}/10</div></div>`;
@@ -123,8 +122,7 @@ function pageSetup() {
 			<p>${pageCount[1].name} - (${pageCount[1].count})</p>	
 			<div class="ranked">${pageCount[1].books}</div>
 			<p>${pageCount[0].name} - (${pageCount[0].count})</p>	
-			<div class="ranked">${pageCount[0].books}</div>
-			
+			<div class="ranked">${pageCount[0].books}</div>			
 		</div>
     `);
 }
