@@ -1882,7 +1882,7 @@ let bookData = [
 		avgRating : 4.5,
 		pages     : 870,
 		pubDate   : 2003,
-		yearRead  : [ 2003, 2010, 2017, 2018, 2019, 2020 ],
+		yearRead  : [ 2003, 2010, 2017, 2018, 2019, 2020, 2021 ],
 		thumb     : './images/hp5.jpg'
 	},
 	{
@@ -5103,6 +5103,17 @@ let bookData = [
 		pubDate   : 2013,
 		yearRead  : [ 2017 ],
 		thumb     : './images/lean-in.jpg'
+	},
+	{
+		title     : 'The Montessori Toddler',
+		author    : 'Simone Davies',
+		myWeightedRating : 8,
+		myRating  : 4,
+		avgRating : 4.41,
+		pages     : 245,
+		pubDate   : 2018,
+		yearRead  : [ 2021 ],
+		thumb     : './images/montessori.jpg'
 	},
 	{
 		title     : 'Who Moved My Cheese?',
