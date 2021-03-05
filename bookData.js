@@ -1904,7 +1904,7 @@ let bookData = [
 		avgRating : 4.62,
 		pages     : 759,
 		pubDate   : 2007,
-		yearRead  : [ 2007, 2010, 2017, 2018, 2019, 2020 ],
+		yearRead  : [ 2007, 2010, 2017, 2018, 2019, 2020, 2021 ],
 		thumb     : './images/hp7.jpg'
 	},
 	{
