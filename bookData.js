@@ -4528,6 +4528,17 @@ let bookData = [
 		pubDate   : 2016,
 		yearRead  : [ 2018 ],
 		thumb     : './images/cemetary-dance.jpg'
+	},	
+	{
+		title     : 'The Most Dangerous Game',
+		author    : 'Richard Connell',
+		myWeightedRating : 7,
+		myRating  : 4,
+		avgRating : 3.94,
+		pages     : 59,
+		pubDate   : 1924,
+		yearRead  : [ 2021 ],
+		thumb     : './images/most-dangerous.jpg'
 	},
 	{
 		title     : 'Celebration of Discipline',
