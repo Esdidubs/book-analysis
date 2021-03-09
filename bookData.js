@@ -1948,7 +1948,7 @@ let bookData = [
 		avgRating : 4.07,
 		pages     : 111,
 		pubDate   : 2008,
-		yearRead  : [ 2015, 2017, 2020 ],
+		yearRead  : [ 2015, 2017, 2020, 2021 ],
 		thumb     : './images/beedle.jpg'
 	},
 	{
