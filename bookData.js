@@ -629,7 +629,7 @@ let bookData = [
 		avgRating : 4.07,
 		pages     : 286,
 		pubDate   : 2019,
-		yearRead  : [ 2019 ],
+		yearRead  : [ 2019, 2021 ],
 		thumb     : './images/digital-minimalism.jpg'
 	},
 	{
@@ -832,9 +832,9 @@ let bookData = [
 	},
 	{
 		title     : 'Project 333',
-		author    : 'Coourtney Carver',
-		myWeightedRating : 3,
-		myRating  : 6,
+		author    : 'Courtney Carver',
+		myWeightedRating : 6,
+		myRating  : 3,
 		avgRating : 3.79,
 		pages     : 224,
 		pubDate   : 2020,
@@ -2806,7 +2806,7 @@ let bookData = [
 		avgRating : 3.79,
 		pages     : 240,
 		pubDate   : 2016,
-		yearRead  : [ 2018 ],
+		yearRead  : [ 2018, 2021 ],
 		thumb     : './images/more-of-less.jpg'
 	},
 	{
