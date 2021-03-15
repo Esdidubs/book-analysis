@@ -15,6 +15,7 @@ function makeHidden() {
 	$('.toReadBox').hide();
 	$('.rankBox').hide();
 	$('.pagesBox').hide();
+	$('.pubBox').hide();
 }
 
 // Shows the selected section and runs its function
@@ -40,7 +41,10 @@ function displayData() {
 		$('.rankBox').show();
 	} else if ($('#dataSelection').val() == 'pages') {
 		pageSetup();
-		$('.pageBox').show();
+		$('.pagesBox').show();
+	} else if ($('#dataSelection').val() == 'pubDate') {
+		pubDateSetup();
+		$('.pubBox').show();
 	}
 }
 
@@ -125,6 +129,25 @@ function pageSetup() {
 			<div class="ranked">${pageCount[0].books}</div>			
 		</div>
     `);
+}
+
+// Sorts all of the books by page count and displays them
+function pubDateSetup() {
+	let yearArr = JSON.parse(JSON.stringify(bookData));
+	let yearBooks = ``;
+
+	// Sorts the array from highest to lowest pages
+	yearArr.sort(function(a, b) {
+		return b.pubDate - a.pubDate;
+	});	
+
+	for (let book in yearArr) {
+		yearBooks += `<div class="book"> <img src="${yearArr[book].thumb}"><div class="title">${yearArr[book].title}</div><div class="author">${yearArr[book]
+			.author}</div><div class="rating">Rating: ${yearArr[book].myWeightedRating}/10</div><div class="year">${yearArr[book].pubDate}</div></div>`;
+	}
+
+	$('.pubBox').html(`<div class="bookList">${yearBooks}</div>`);
+
 }
 
 // Displays the books from the To Read section
