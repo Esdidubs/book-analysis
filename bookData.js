@@ -300,6 +300,17 @@ let bookData = [
 		thumb     : './images/elvis-beatles.jpg'
 	},
 	{
+		title     : 'Console Wars',
+		author    : 'Blake Harris',
+		myWeightedRating : 7,
+		myRating  : 4,
+		avgRating : 3.95,
+		pages     : 576,
+		pubDate   : 2014,
+		yearRead  : [ 2021 ],
+		thumb     : './images/console-wars.jpg'
+	},
+	{
 		title     : "Fail Until You Don't",
 		author    : 'Bobby Bones',
 		myWeightedRating : 5,
