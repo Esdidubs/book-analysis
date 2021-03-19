@@ -302,7 +302,7 @@ let bookData = [
 	{
 		title     : 'Console Wars',
 		author    : 'Blake Harris',
-		myWeightedRating : 7,
+		myWeightedRating : 8,
 		myRating  : 4,
 		avgRating : 3.95,
 		pages     : 576,
@@ -2148,6 +2148,17 @@ let bookData = [
 		pubDate   : 2004,
 		yearRead  : [ 2015 ],
 		thumb     : './images/diary-of-wimpy.jpg'
+	},
+	{
+		title     : 'Super Mario',
+		author    : 'Jeff Ryan',
+		myWeightedRating : 7,
+		myRating  : 4,
+		avgRating : 3.82,
+		pages     : 292,
+		pubDate   : 2011,
+		yearRead  : [ 2021 ],
+		thumb     : './images/super-mario.jpg'
 	},
 	{
 		title     : 'Annihilation',
