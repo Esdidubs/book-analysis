@@ -14,6 +14,17 @@ let bookData = [
 		thumb     : './images/hocus-pocus.jpg'
 	},
 	{
+		title     : 'Multiple Choice',
+		author    : 'Alejandro Zambra',
+		myWeightedRating : 4,
+		myRating  : 2,
+		avgRating : 3.86,
+		pages     : 128,
+		pubDate   : 2016,
+		yearRead  : [ 2021 ],
+		thumb     : './images/multiple-choice.jpg'
+	},
+	{
 		title     : 'One Day in the Life of Ivan Denisovich',
 		author    : 'Aleksandr Solzhenitsyn',
 		myWeightedRating : 6,
@@ -785,6 +796,17 @@ let bookData = [
 		pubDate   : 2015,
 		yearRead  : [ 2017 ],
 		thumb     : './images/gamer-bucket.jpg'
+	},
+	{
+		title     : 'Maze',
+		author    : 'Christopher Manson',
+		myWeightedRating : 6,
+		myRating  : 4,
+		avgRating : 4.18,
+		pages     : 96,
+		pubDate   : 1985,
+		yearRead  : [ 2021 ],
+		thumb     : './images/maze.jpg'
 	},
 	{
 		title     : 'A Dirty Job',
@@ -4003,6 +4025,17 @@ let bookData = [
 		pubDate   : 2006,
 		yearRead  : [ 2017 ],
 		thumb     : './images/thousand-one-books.jpg'
+	},
+	{
+		title     : 'Adjustment Team',
+		author    : 'Philip K Dick',
+		myWeightedRating : 6,
+		myRating  : 3,
+		avgRating : 3.73,
+		pages     : 44,
+		pubDate   : 1954,
+		yearRead  : [ 2021 ],
+		thumb     : './images/adjustment-team.jpg'
 	},
 	{
 		title     : 'Resident Evil',
