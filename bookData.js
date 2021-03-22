@@ -2146,7 +2146,7 @@ let bookData = [
 		avgRating : 4.24,
 		pages     : 304,
 		pubDate   : 2017,
-		yearRead  : [ 2017 ],
+		yearRead  : [ 2017, 2021 ],
 		thumb     : './images/blood-sweat-pixels.jpg'
 	},
 	{
