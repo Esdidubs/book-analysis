@@ -331,6 +331,17 @@ let bookData = [
 		pubDate   : 2018,
 		yearRead  : [ 2018 ],
 		thumb     : './images/fail-until.jpg'
+	},	
+	{
+		title     : "Tetris: The Games People Play",
+		author    : 'Box Brown',
+		myWeightedRating : 6,
+		myRating  : 3,
+		avgRating : 3.80,
+		pages     : 253,
+		pubDate   : 2016,
+		yearRead  : [ 2021 ],
+		thumb     : './images/tetris-games.jpg'
 	},
 	{
 		title     : 'Elantris',
