@@ -212,6 +212,17 @@ let bookData = [
 		thumb     : './images/leah.jpg'
 	},
 	{
+		title     : 'Love, Creekwood',
+		author    : 'Becky Albertalli',
+		myWeightedRating : 5,
+		myRating  : 3,
+		avgRating : 3.77,
+		pages     : 128,
+		pubDate   : 2020,
+		yearRead  : [ 2021 ],
+		thumb     : './images/love-creekwood.jpg'
+	},
+	{
 		title     : '101 Video Games to Play Before You Grow Up',
 		author    : 'Ben Bertoli',
 		myWeightedRating : 6,
