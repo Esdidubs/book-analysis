@@ -12,6 +12,16 @@ let bookData = [
 		pubDate   : 2018,
 		yearRead  : [ 2018 ],
 		thumb     : './images/hocus-pocus.jpg'
+	},{
+		title     : 'Irresistible',
+		author    : 'Adam Alter',
+		myWeightedRating : 7,
+		myRating  : 4,
+		avgRating : 3.88,
+		pages     : 368,
+		pubDate   : 2017,
+		yearRead  : [ 2021 ],
+		thumb     : './images/irresistible.jpg'
 	},
 	{
 		title     : 'Multiple Choice',
