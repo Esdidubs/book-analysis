@@ -3034,12 +3034,12 @@ let bookData = [
 	{
 		title     : 'Unlimited Memory',
 		author    : 'Kevin Horsley',
-		myWeightedRating : 5,
-		myRating  : 5,
-		avgRating : 4.02,
+		myWeightedRating : 6,
+		myRating  : 4,
+		avgRating : 3.95,
 		pages     : 136,
 		pubDate   : 2014,
-		yearRead  : [ 2019 ],
+		yearRead  : [ 2019, 2021 ],
 		thumb     : './images/unlimited-memory.jpg'
 	},
 	{
