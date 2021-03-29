@@ -1689,8 +1689,19 @@ let bookData = [
 		thumb     : './images/brians-winter.jpg'
 	},
 	{
+		title     : 'The Case Against Sugar',
+		author    : 'Gary Taubes',
+		myWeightedRating : 6,
+		myRating  : 3,
+		avgRating : 3.84,
+		pages     : 384,
+		pubDate   : 2016,
+		yearRead  : [ 2021 ],
+		thumb     : './images/case-against-sugar.jpg'
+	},
+	{
 		title     : 'Forks Over Knives',
-		author    : 'Gene  Stone',
+		author    : 'Gene Stone',
 		myWeightedRating : 6,
 		myRating  : 5,
 		avgRating : 4.08,
