@@ -3934,6 +3934,17 @@ let bookData = [
 		yearRead  : [ 2004 ],
 		thumb     : './images/enders-game.jpg'
 	},
+	{
+		title     : 'The Canterville Ghost',
+		author    : 'Oscar Wilde',
+		myWeightedRating : 7,
+		myRating  : 4,
+		avgRating : 3.89,
+		pages     : 126,
+		pubDate   : 1887,
+		yearRead  : [ 2021 ],
+		thumb     : './images/canterville.jpg'
+	},
 	/*===========================
 		Author First Name - P's
 	===========================*/
