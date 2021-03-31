@@ -2153,10 +2153,10 @@ let bookData = [
 		author    : 'Jaron Lanier',
 		myWeightedRating : 8,
 		myRating  : 4,
-		avgRating : 3.53,
+		avgRating : 3.6,
 		pages     : 146,
 		pubDate   : 2018,
-		yearRead  : [ 2019 ],
+		yearRead  : [ 2019, 2021 ],
 		thumb     : './images/delete-social-media.jpg'
 	},
 	{
