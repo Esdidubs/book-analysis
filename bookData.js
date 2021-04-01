@@ -1397,6 +1397,17 @@ let bookData = [
 		thumb     : './images/creativity.jpg'
 	},
 	{
+		title     : 'iPoe Vol. 1',
+		author    : 'Edgar Allen Poe',
+		myWeightedRating : 4,
+		myRating  : 2,
+		avgRating : 4.35,
+		pages     : 101,
+		pubDate   : 1894,
+		yearRead  : [ 2021 ],
+		thumb     : './images/ipoe1.jpg'
+	},
+	{
 		title     : 'Night',
 		author    : 'Elie Wiesel',
 		myWeightedRating : 7,
