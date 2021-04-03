@@ -1209,12 +1209,12 @@ let bookData = [
 	{
 		title     : 'The Revenge of Analog',
 		author    : 'David Sax',
-		myWeightedRating : 7,
+		myWeightedRating : 8,
 		myRating  : 4,
 		avgRating : 3.79,
 		pages     : 304,
 		pubDate   : 2016,
-		yearRead  : [ 2019 ],
+		yearRead  : [ 2019, 2021 ],
 		thumb     : './images/analog.jpg'
 	},
 	{
@@ -3906,7 +3906,7 @@ let bookData = [
 		avgRating : 3.99,
 		pages     : 128,
 		pubDate   : 2001,
-		yearRead  : [ 2001, 2016 ],
+		yearRead  : [ 2001, 2016, 2021 ],
 		thumb     : './images/fantastic-beasts.jpg'
 	},
 	{
