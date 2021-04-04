@@ -3807,6 +3807,17 @@ let bookData = [
 		yearRead  : [ 2017 ],
 		thumb     : './images/lottery-graphic.jpg'
 	},
+	{
+		title     : "AsapSCIENCE",
+		author    : 'Mitchell Moffit',
+		myWeightedRating : 7,
+		myRating  : 4,
+		avgRating : 3.94,
+		pages     : 256,
+		pubDate   : 2015,
+		yearRead  : [ 2021 ],
+		thumb     : './images/asapscience.jpg'
+	},
 	/*===========================
 		Author First Name - N's
 	===========================*/
