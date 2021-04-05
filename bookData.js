@@ -1645,6 +1645,17 @@ let bookData = [
 		Author First Name - G's
 	===========================*/
 	{
+		title     : 'The Best American Infographics 2013',
+		author    : 'Gareth Cook',
+		myWeightedRating : 7,
+		myRating  : 3,
+		avgRating : 3.85,
+		pages     : 184,
+		pubDate   : 2013,
+		yearRead  : [ 2021 ],
+		thumb     : './images/infographics-2013.jpg'
+	},
+	{
 		title     : 'Be Prepared',
 		author    : 'Gary Greenberg',
 		myWeightedRating : 7,
