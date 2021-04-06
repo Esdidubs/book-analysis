@@ -1141,6 +1141,17 @@ let bookData = [
 		thumb     : './images/soccer.jpg'
 	},
 	{
+		title     : 'Jacked',
+		author    : 'David Kushner',
+		myWeightedRating : 7,
+		myRating  : 4,
+		avgRating : 3.57,
+		pages     : 304,
+		pubDate   : 2012,
+		yearRead  : [ 2021 ],
+		thumb     : './images/jacked.jpg'
+	},
+	{
 		title     : 'Rise of the Dungeon Master',
 		author    : 'David Kushner',
 		myWeightedRating : 6,
@@ -1925,7 +1936,7 @@ let bookData = [
 		avgRating : 4.21,
 		pages     : 74,
 		pubDate   : 2015,
-		yearRead  : [ 2018 ],
+		yearRead  : [ 2018, 2021 ],
 		thumb     : './images/very-good-lives.jpg'
 	},
 	{
