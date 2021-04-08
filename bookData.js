@@ -3072,7 +3072,7 @@ let bookData = [
 		avgRating : 3.86,
 		pages     : 56,
 		pubDate   : 2001,
-		yearRead  : [ 2001, 2007 ],
+		yearRead  : [ 2001, 2007, 2021 ],
 		thumb     : './images/quidditch.jpg'
 	},
 	{
