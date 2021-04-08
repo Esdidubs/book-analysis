@@ -3579,12 +3579,12 @@ let bookData = [
 	{
 		title     : 'Bored and Brilliant',
 		author    : 'Manoush Zomorodi',
-		myWeightedRating : 6,
-		myRating  : 3,
+		myWeightedRating : 8,
+		myRating  : 4,
 		avgRating : 3.73,
 		pages     : 192,
 		pubDate   : 2017,
-		yearRead  : [ 2019 ],
+		yearRead  : [ 2019, 2021 ],
 		thumb     : './images/bored.jpg'
 	},
 	{
