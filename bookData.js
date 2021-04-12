@@ -4582,6 +4582,17 @@ let bookData = [
 		pubDate   : 2019,
 		yearRead  : [ 2019 ],
 		thumb     : './images/carry-on2.jpg'
+	},	
+	{
+		title     : 'Kindred Spirits',
+		author    : 'Rainbow Rowell',
+		myWeightedRating : 7,
+		myRating  : 4,
+		avgRating : 3.93,
+		pages     : 96,
+		pubDate   : 2016,
+		yearRead  : [ 2021 ],
+		thumb     : './images/kindred-spirits.jpg'
 	},
 	{
 		title     : 'Thing Explainer: Complicated Stuff in Simple Words',
@@ -6029,14 +6040,6 @@ let toRead = [
 		thumb     : './images/short-history.jpg'
 	},
 	{
-		title     : 'Code',
-		author    : 'Charles Petzold',
-		avgRating : 4.4,
-		pages     : 400,
-		pubDate   : 1999,
-		thumb     : './images/code.jpg'
-	},
-	{
 		title     : 'Eternity in Their Hearts',
 		author    : 'Don Richardson',
 		avgRating : 4.3,
@@ -6107,14 +6110,6 @@ let toRead = [
 		pages     : 324,
 		pubDate   : 2014,
 		thumb     : './images/veronica-mars1.jpg'
-	},
-	{
-		title     : 'You Are an Artist',
-		author    : 'Sarah Urist Green',
-		avgRating : 4.33,
-		pages     : '???',
-		pubDate   : 2020,
-		thumb     : './images/you-are-an-artist.jpg'
 	},
 	{
 		title     : "It's All a Game",
