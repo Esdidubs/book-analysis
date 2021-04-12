@@ -3486,6 +3486,17 @@ let bookData = [
 		thumb     : './images/nazirite-dna.jpg'
 	},
 	{
+		title     : 'Theodore Roosevelt',
+		author    : 'Louis Auchincloss',
+		myWeightedRating : 7,
+		myRating  : 4,
+		avgRating : 3.87,
+		pages     : 176,
+		pubDate   : 2002,
+		yearRead  : [ 2021 ],
+		thumb     : './images/teddy.jpg'
+	},
+	{
 		title     : 'Holes',
 		author    : 'Louis Sachar',
 		myWeightedRating : 7,
