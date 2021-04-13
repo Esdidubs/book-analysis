@@ -676,6 +676,17 @@ let bookData = [
 		thumb     : './images/year-of-less.jpg'
 	},
 	{
+		title     : 'Deep Work',
+		author    : 'Cal Newport',
+		myWeightedRating : 7,
+		myRating  : 4,
+		avgRating : 4.19,
+		pages     : 296,
+		pubDate   : 2016,
+		yearRead  : [ 2017 ],
+		thumb     : './images/deep-work.jpg'
+	},
+	{
 		title     : 'Digital Minimalism',
 		author    : 'Cal Newport',
 		myWeightedRating : 7,
@@ -696,6 +707,17 @@ let bookData = [
 		pubDate   : 2012,
 		yearRead  : [ 2019 ],
 		thumb     : './images/cant-ignore-you.jpg'
+	},
+	{
+		title     : "A World Without Email",
+		author    : 'Cal Newport',
+		myWeightedRating : 4,
+		myRating  : 2,
+		avgRating : 4.16,
+		pages     : 320,
+		pubDate   : 2021,
+		yearRead  : [ 2021 ],
+		thumb     : './images/without-email.jpg'
 	},
 	{
 		title     : 'Seven Brief Lessons on Physics',
@@ -2356,6 +2378,17 @@ let bookData = [
 		pubDate   : 2000,
 		yearRead  : [ 2000 ],
 		thumb     : './images/remnant-victory.jpg'
+	},
+	{
+		title     : 'Three Men in a Boat',
+		author    : 'Jerome K. Jerome',
+		myWeightedRating : 7,
+		myRating  : 4,
+		avgRating : 3.88,
+		pages     : 185,
+		pubDate   : 1889,
+		yearRead  : [ 2021 ],
+		thumb     : './images/three-men-boat.jpg'
 	},
 	{
 		title     : 'The Vanishings',
