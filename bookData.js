@@ -114,6 +114,17 @@ let bookData = [
 		yearRead  : [ 2014 ],
 		thumb     : './images/humility.jpg'
 	},
+	{
+		title     : 'The Office',
+		author    : 'Andy Greene',
+		myWeightedRating : 8,
+		myRating  : 4,
+		avgRating : 4.16,
+		pages     : 464,
+		pubDate   : 2020,
+		yearRead  : [ 2021 ],
+		thumb     : './images/office.jpg'
+	},
 	{ title: 'The Martian', author: 'Andy Weir', myWeightedRating : 8, myRating: 5, avgRating: 4.4, pages: 435, pubDate: 2012, yearRead: [ 2015 ], thumb: './images/martian.jpg' },
 	{ title: 'Artemis', author: 'Andy Weir', myWeightedRating : 7, myRating: 4, avgRating: 3.66, pages: 305, pubDate: 2017, yearRead: [ 2018 ], thumb: './images/artemis.jpg' },
 	{ title: 'Grit', author: 'Angela Duckworth', myWeightedRating : 6, myRating: 3, avgRating: 4.08, pages: 277, pubDate: 2016, yearRead: [ 2019 ], thumb: './images/grit.jpg' },
@@ -394,7 +405,7 @@ let bookData = [
 		avgRating : 4.35,
 		pages     : 175,
 		pubDate   : 2012,
-		yearRead  : [ 2020 ],
+		yearRead  : [ 2020, 2021 ],
 		thumb     : './images/emperors-soul.jpg'
 	},
 	{
@@ -1819,6 +1830,17 @@ let bookData = [
 		pubDate   : 2011,
 		yearRead  : [ 2019 ],
 		thumb     : './images/essentialism.jpg'
+	},	
+	{
+		title     : 'Effortless',
+		author    : 'Greg McKeown',
+		myWeightedRating : 8,
+		myRating  : 5,
+		avgRating : 4.15,
+		pages     : 272,
+		pubDate   : 2021,
+		yearRead  : [ 2021 ],
+		thumb     : './images/effortless.jpg'
 	},
 	/*===========================
 		Author First Name - H's
@@ -2136,6 +2158,17 @@ let bookData = [
 		pubDate   : 1980,
 		yearRead  : [ 2014 ],
 		thumb     : './images/chasing-the-dragon.jpg'
+	},
+	{
+		title     : 'Atomic Habits',
+		author    : 'James Clear',
+		myWeightedRating : 9,
+		myRating  : 5,
+		avgRating : 4.36,
+		pages     : 319,
+		pubDate   : 2018,
+		yearRead  : [ 2021 ],
+		thumb     : './images/atomic-habits.jpg'
 	},
 	{
 		title     : 'The Maze Runner',
