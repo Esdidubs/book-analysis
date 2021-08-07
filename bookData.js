@@ -3007,6 +3007,39 @@ let bookData = [
 		thumb     : './images/minimalist-home.jpg'
 	},
 	{
+		title     : 'Simplify Magazine 001',
+		author    : 'Joshua Becker',
+		myWeightedRating : 9,
+		myRating  : 4,
+		avgRating : 0.0,
+		pages     : 72,
+		pubDate   : 2017,
+		yearRead  : [ 2021 ],
+		thumb     : './images/simplify-magazine.jpg'
+	},
+	{
+		title     : 'Simplify Magazine 002',
+		author    : 'Joshua Becker',
+		myWeightedRating : 9,
+		myRating  : 4,
+		avgRating : 0.0,
+		pages     : 101,
+		pubDate   : 2017,
+		yearRead  : [ 2021 ],
+		thumb     : './images/simplify-magazine.jpg'
+	},
+	{
+		title     : 'Simplify Magazine 003',
+		author    : 'Joshua Becker',
+		myWeightedRating : 9,
+		myRating  : 4,
+		avgRating : 0.0,
+		pages     : 75,
+		pubDate   : 2017,
+		yearRead  : [ 2021 ],
+		thumb     : './images/simplify-magazine.jpg'
+	},
+	{
 		title     : 'The Club',
 		author    : 'Joshua Robinson',
 		myWeightedRating : 7,
@@ -3195,6 +3228,17 @@ let bookData = [
 		pubDate   : 1991,
 		yearRead  : [ 2018 ],
 		thumb     : './images/ring.jpg'
+	},
+	{
+		title     : 'Jesus and John Wayne',
+		author    : 'Kristin Kobes Du Mez',
+		myWeightedRating : 7,
+		myRating  : 3,
+		avgRating : 4.43,
+		pages     : 368,
+		pubDate   : 2020,
+		yearRead  : [ 2021 ],
+		thumb     : './images/jesus-john-wayne.jpg'
 	},
 	{
 		title     : "Don't Get Caught",
