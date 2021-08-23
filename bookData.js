@@ -3171,7 +3171,7 @@ let bookData = [
 		avgRating : 4.2,
 		pages     : 325,
 		pubDate   : 1962,
-		yearRead  : [ 2007 ],
+		yearRead  : [ 2007, 2007 ],
 		thumb     : './images/one-flew-over.jpg'
 	},
 	{
