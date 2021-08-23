@@ -189,11 +189,17 @@ function yearSearch(yearVal) {
 	for (let book in bookData) {
 		if (bookData[book].yearRead.includes(yearVal) == undefined) {
 		} else {
-			if (bookData[book].yearRead.includes(yearVal) == true) {
-				yearReads += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
-					.author}</div><div class="pages">Pages: ${bookData[book].pages}</div><div class="rating">Rating: ${bookData[book].myWeightedRating}/10</div></div>`;
-				pagesForYear += bookData[book].pages;
-				booksForYear++;
+			if (bookData[book].yearRead.includes(yearVal) == true) {	
+				for (let i=0; i<bookData[book].yearRead.length; i++)
+				{
+					if (yearVal == bookData[book].yearRead[i]){
+						yearReads += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
+							.author}</div><div class="pages">Pages: ${bookData[book].pages}</div><div class="rating">Rating: ${bookData[book].myWeightedRating}/10</div></div>`;
+						pagesForYear += bookData[book].pages;
+						booksForYear++;
+					}
+						
+				}
 			}
 		}
 	}
