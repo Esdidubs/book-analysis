@@ -7,7 +7,7 @@ let height = 500;
 barGraph(0, 1300, 0, 1300, 13, 'pages', 'pages', '9c27b0', 'Page Count', 'Number of Books');
 barGraph(1, 6, 0, 5, 5, 'myRating', 'myRating', 'EE5939', 'My Rating', 'Number of Books');
 barGraph(2.0, 5.0, 2.0, 5.0, 15, 'avgRating', 'avgRating', '00A572', 'Average Goodreads Rating', 'Number of Books');
-barGraph(1970, 2021, 1970, 2021, 51, 'pubDate', 'myYearRating', '9c27b0', 'Publication Year', 'Number of Books');
+barGraph(1970, 2022, 1970, 2022, 51, 'pubDate', 'myYearRating', '9c27b0', 'Publication Year', 'Number of Books');
 scatterplots(bookData, 'pages', 'pageRating', 'Pages');
 scatterplots(outlierData, 'pubDate', 'yearRating', 'Years');
 averages(outlierData, 'pubDate', 'Average Years', 'avgYear');
