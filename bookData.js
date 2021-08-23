@@ -1394,6 +1394,17 @@ let bookData = [
 		thumb     : './images/restaurant-end-universe.jpg'
 	},
 	{
+		title     : 'The 30-Minute Runner',
+		author    : 'Duncan Larkin',
+		myWeightedRating : 6,
+		myRating  : 3,
+		avgRating : 3.51,
+		pages     : 156,
+		pubDate   : 2018,
+		yearRead  : [ 2021 ],
+		thumb     : './images/thirty-minute-runner.jpg'
+	},
+	{
 		title     : 'Game On!',
 		author    : 'Dustin Hansen',
 		myWeightedRating : 8,
