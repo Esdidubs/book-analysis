@@ -1,3 +1,10 @@
+/*
+	- Add ability to see re-reads
+	- Add keywords to book
+	- Remove d3 stuff and make cleaner
+
+*/
+
 // Hide everything then display something when dropdown is changed
 $('#dataSelection').on('change', function() {
 	event.preventDefault();
@@ -16,6 +23,7 @@ function makeHidden() {
 	$('.rankBox').hide();
 	$('.pagesBox').hide();
 	$('.pubBox').hide();
+	$('.reReadBox').hide();
 }
 
 // Shows the selected section and runs its function
@@ -45,6 +53,9 @@ function displayData() {
 	} else if ($('#dataSelection').val() == 'pubDate') {
 		pubDateSetup();
 		$('.pubBox').show();
+	} else if ($('#dataSelection').val() == 'reRead') {
+		reReadSetup();	
+		$('.reReadBox').show();
 	}
 }
 
@@ -207,6 +218,35 @@ function yearSearch(yearVal) {
 		<div class="yearBox">
 		<h3>${booksForYear} books & ${pagesForYear} pages</h3>
 		<div class="bookList">${yearReads}</div>
+		</div>
+    `);
+}
+
+// Pulls all books read more than once and displays them
+function reReadSetup() {
+	let reReads = ``;
+	let totalBooksReRead = 0;
+	let readCountArr = JSON.parse(JSON.stringify(bookData));
+
+	// Sorts the array from highest to lowest read count
+	readCountArr.sort(function(a, b) {
+		return b.yearRead.length - a.yearRead.length;
+	});	
+
+	// Appends the next book (in HTML) and adds to the count of the variables
+	for (let book in readCountArr) {
+		if(readCountArr[book].yearRead.length > 1){
+			reReads += `<div class="book"> <img src="${readCountArr[book].thumb}"><div class="title">${readCountArr[book].title}</div><div class="author">${readCountArr[book]
+				.author}</div><div class="pages">Read Count: ${readCountArr[book].yearRead.length}</div></div>`;
+			totalBooksReRead++;
+		}
+		
+	}
+
+	$('.reReadBox').replaceWith(`     
+		<div class="reReadBox">
+			<h3>${totalBooksReRead} Books Re-Read</h3>
+			<div class="bookList">${reReads}</div>
 		</div>
     `);
 }
