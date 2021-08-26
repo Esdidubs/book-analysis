@@ -3552,6 +3552,17 @@ let bookData = [
 		thumb     : './images/big-little-lies.jpg'
 	},
 	{
+		title     : 'Going Bovine',
+		author    : 'Libba Bray',
+		myWeightedRating : 9,
+		myRating  : 5,
+		avgRating : 3.65,
+		pages     : 480,
+		pubDate   : 2009,
+		yearRead  : [ 2021 ],
+		thumb     : './images/bovine.jpg'
+	},
+	{
 		title     : 'The Giver',
 		author    : 'Lois Lowry',
 		myWeightedRating : 8,
