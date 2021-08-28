@@ -51,7 +51,8 @@ svg {
 	flex-wrap: wrap;
 }
 
-.categoryBooks {
+.categoryBooks,
+.yearBooks {
 	margin-top: 20px;
 	width: 100%;
 }
@@ -87,7 +88,8 @@ svg {
 }
 
 #buttons,
-.categoryBox {	
+.categoryBox,
+.yearBox {	
 	align-items: center;
 	display: flex;
 	flex-direction: column;
@@ -97,7 +99,8 @@ svg {
 }
 
 #dataSelection,
-#categorySelection {
+#categorySelection,
+#yearSelection {
 	font-size: 16px;
 	padding: 5px 10px;
 }

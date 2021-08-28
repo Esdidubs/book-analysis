@@ -5,106 +5,37 @@
   <title>Steven's Reading Library</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <header>Steven's Reading Library  <i class="fa fa-book"></i></header>
   <div id="buttons">
     <label for="dataSelection" id="mainLabel">Select an option</label>
-    <select name="dataSelection" id="dataSelection" class="dataDrop">            
-        <option value="graphBtn"  selected>Graphed Reading Data</option>
+    <select name="dataSelection" id="dataSelection" class="dataDrop">           
         <option value="all" >All of the Books I've Read</option>
         <option value="rankedBtn">Books By My Rating</option>
         <option value="pages">Books By Pages</option>
         <option value="category">Books By Keyword</option>
         <option value="pubDate">Books By Year Published</option>
-        <option value="highGRBtn">Books with 4.5+ on Goodreads</option>
         <option value="reRead" >Books I Re-Read</option>
-        <option value="years" >Books I Read in 2021</option>
-        <option value="years" >Books I Read in 2020</option>
-        <option value="years" >Books I Read in 2019</option>
-        <option value="years" >Books I Read in 2018</option>
-        <option value="years" >Books I Read in 2017</option>
-        <option value="years" >Books I Read in 2016</option>
-        <option value="years" >Books I Read in 2015</option>
-        <option value="years" >Books I Read in 2014</option>
-        <option value="years" >Books I Read in 2013</option>
-        <option value="years" >Books I Read in 2012</option>
-        <option value="years" >Books I Read in 2011</option>
-        <option value="years" >Books I Read in 2010</option>
-        <option value="years" >Books I Read in 2009</option>
-        <option value="years" >Books I Read in 2008</option>
-        <option value="years" >Books I Read in 2007</option>
-        <option value="years" >Books I Read in 2006</option>
-        <option value="years" >Books I Read in 2005</option>
-        <option value="years" >Books I Read in 2004</option>
-        <option value="years" >Books I Read in 2003</option>
-        <option value="years" >Books I Read in 2002</option>
-        <option value="years" >Books I Read in 2001</option>
-        <option value="years" >Books I Read in 2000</option>
-        <option value="years" >Books I Read in 1999</option>
+        <option value="years" >Books I Read Each Year</option>
     </select>
   </div>
   <hr />
-  <div class="allReads"></div> 
-  <div class="highGRBox"></div>
+  <div class="allReads"></div>
   <div class="yearBox"></div>
-  <div class="toReadBox"></div>
   <div class="reReadBox"></div>
   <div class="rankBox"></div>
   <div class="pagesBox"></div>
   <div class="categoryBox"></div>
   <div class="pubBox"></div>
-  <div class="svgContainer">
-    <div class="container">
-      <div class="graph" id="pageSection">
-        <h2 class="graph__title">Books Read by Page Count</h2>
-        <p class="graph__data" id="avgPages">Average Pages: 0 & Total Pages: 0</p>
-      </div>
-      <svg id="pages"></svg>
-    </div>
-    <div class="container">
-      <div class="graph" id="myRatingSection">
-        <h2 class="graph__title">Books Read by My Rating</h2>
-        <p class="graph__data" id="avgMyRating">My Average Rating: 0</p>
-      </div>
-      <svg id="myRating"></svg>
-    </div>
-    <div class="container">
-      <div class="graph" id="avgRatingSection">
-        <h2 class="graph__title">Books Read by Average Rating</h2>
-        <p class="graph__data" id="grAvg">Goodreads Average Rating: 0</p>
-      </div>   
-      <svg id="avgRating"></svg>
-    </div>
-    <div class="container">
-      <div class="graph" id="myYearRatingSection">
-        <h2 class="graph__title">Books Read by Publication Year</h2>
-        <p class="graph__data" id="avgYear">Average Year: 2020</p>
-      </div>   
-      <svg id="myYearRating"></svg>
-    </div>
-    <div class="container">
-      <div class="graph" id="pageRatingSection">
-        <h2 class="graph__title">Pages vs Ratings</h2>
-        <p>Color scale: Darker = higher personal rating</p>
-      </div>   
-      <svg id="pageRating"></svg>
-    </div>
-    <div class="container">
-      <div class="graph" id="yearRatingSection">
-        <h2 class="graph__title">Years vs Ratings</h2>
-        <p>Color scale: Darker = higher personal rating</p>
-      </div>   
-      <svg id="yearRating"></svg>
-    </div>   
-  </div>
+  
   <script
   src="https://code.jquery.com/jquery-3.5.1.js"
   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
   crossorigin="anonymous"></script>
   <script src="https://d3js.org/d3.v4.js"></script>
   <script src="bookData.js"></script>
-  <script src="app.js"></script>
-  <script src="app2.js"></script>
+  <script src="functionality.js"></script>
 </body>
 </html>

@@ -1,9 +1,16 @@
 /*
 	- update all to html instead of replacewith
-	- Add keywords to book
-	- Remove d3 stuff and make cleaner
 	- change year functionality to be like the categories
 */
+
+/*===========================
+	SETUP
+===========================*/
+
+$(document).ready(function() {
+    makeHidden();
+	displayData();
+});
 
 // Hide everything then display something when dropdown is changed
 $('#dataSelection').on('change', function() {
@@ -17,16 +24,16 @@ $(document).on('change', '#categorySelection', function(){
 	displayCategory();
 });
 
+$(document).on('change', '#yearSelection', function(){
+    event.preventDefault();
+	displayYears();
+});
 
 // Hides all elements
 function makeHidden() {
-	$('.svgContainer').hide();
-	$('.fiveStarBox').hide();
-	$('.highGRBox').hide();
 	$('.yearBox').hide();
 	$('.categoryBox').hide();
 	$('.allReads').hide();
-	$('.toReadBox').hide();
 	$('.rankBox').hide();
 	$('.pagesBox').hide();
 	$('.pubBox').hide();
@@ -34,40 +41,42 @@ function makeHidden() {
 }
 
 // Shows the selected section and runs its function
-function displayData() {
-	if ($('#dataSelection').val() == 'graphBtn') {		
-		$('.svgContainer').show();
-	} else if ($('#dataSelection').val() == 'highGRBtn') {
-		highRatingSetup();
-		$('.highGRBox').show();		
-	} else if ($('#dataSelection').val() == 'years') {
-		let selectedYear = $('#dataSelection option:selected').text();
-		let yearVal = parseInt(selectedYear.substr(selectedYear.length - 4));
-		yearSearch(yearVal);
-		$('.yearBox').show();
-	} else if ($('#dataSelection').val() == 'all') {
-		allBooks();
-		$('.allReads').show();
-	} else if ($('#dataSelection').val() == 'toRead') {
-		toReadSetup();	
-		$('.toReadBox').show();
-	} else if ($('#dataSelection').val() == 'category') {
-		categorySetup();	
-		$('.categoryBox').show();
-	} else if ($('#dataSelection').val() == 'rankedBtn') {
-		rankSetup();
-		$('.rankBox').show();
-	} else if ($('#dataSelection').val() == 'pages') {
-		pageSetup();
-		$('.pagesBox').show();
-	} else if ($('#dataSelection').val() == 'pubDate') {
-		pubDateSetup();
-		$('.pubBox').show();
-	} else if ($('#dataSelection').val() == 'reRead') {
-		reReadSetup();	
-		$('.reReadBox').show();
+function displayData() { 
+	switch($('#dataSelection').val()){
+		case 'years':
+			yearSetup();
+			$('.yearBox').show();
+			break;
+		case 'all':
+			allBooks();
+			$('.allReads').show();
+			break;
+		case 'category':
+			categorySetup();	
+			$('.categoryBox').show();
+			break;
+		case 'rankedBtn':
+			rankSetup();
+			$('.rankBox').show();
+			break;
+		case 'pages':
+			pageSetup();
+			$('.pagesBox').show();
+			break;
+		case 'pubDate':
+			pubDateSetup();
+			$('.pubBox').show();
+			break;
+		case 'reRead':
+			reReadSetup();	
+			$('.reReadBox').show();
+			break;
 	}
 }
+
+/*===========================
+	ALL BOOKS READ
+===========================*/
 
 // Pulls all of the books and displays them
 function allBooks() {
@@ -87,13 +96,15 @@ function allBooks() {
 		booksForAllUnique++;
 	}
 
-	$('.allReads').replaceWith(`     
-		<div class="allReads">
+	$('.allReads').html(`     
 			<h3>${booksForAll} books & ${pagesForAll} pages - ${booksForAllUnique} unique books & ${pagesForAllUnique} pages</h3>
 			<div class="bookList">${allReads}</div>
-		</div>
     `);
 }
+
+/*===========================
+	BOOKS BY PAGES
+===========================*/
 
 // Sorts all of the books by page count and displays them
 function pageSetup() {
@@ -128,29 +139,31 @@ function pageSetup() {
 		}
 	}
 	
-	$('.pagesBox').replaceWith(`     
-		<div class="pagesBox">
-			<p>${pageCount[8].name} - (${pageCount[8].count})</p>	
-			<div class="ranked">${pageCount[8].books}</div>
-			<p>${pageCount[7].name} - (${pageCount[7].count})</p>	
-			<div class="ranked">${pageCount[7].books}</div>
-			<p>${pageCount[6].name} - (${pageCount[6].count})</p>	
-			<div class="ranked">${pageCount[6].books}</div>
-			<p>${pageCount[5].name} - (${pageCount[5].count})</p>	
-			<div class="ranked">${pageCount[5].books}</div>
-			<p>${pageCount[4].name} - (${pageCount[4].count})</p>	
-			<div class="ranked">${pageCount[4].books}</div>
-			<p>${pageCount[3].name} - (${pageCount[3].count})</p>	
-			<div class="ranked">${pageCount[3].books}</div>
-			<p>${pageCount[2].name} - (${pageCount[2].count})</p>	
-			<div class="ranked">${pageCount[2].books}</div>
-			<p>${pageCount[1].name} - (${pageCount[1].count})</p>	
-			<div class="ranked">${pageCount[1].books}</div>
-			<p>${pageCount[0].name} - (${pageCount[0].count})</p>	
-			<div class="ranked">${pageCount[0].books}</div>			
-		</div>
+	$('.pagesBox').html(`
+		<p>${pageCount[8].name} - (${pageCount[8].count})</p>	
+		<div class="ranked">${pageCount[8].books}</div>
+		<p>${pageCount[7].name} - (${pageCount[7].count})</p>	
+		<div class="ranked">${pageCount[7].books}</div>
+		<p>${pageCount[6].name} - (${pageCount[6].count})</p>	
+		<div class="ranked">${pageCount[6].books}</div>
+		<p>${pageCount[5].name} - (${pageCount[5].count})</p>	
+		<div class="ranked">${pageCount[5].books}</div>
+		<p>${pageCount[4].name} - (${pageCount[4].count})</p>	
+		<div class="ranked">${pageCount[4].books}</div>
+		<p>${pageCount[3].name} - (${pageCount[3].count})</p>	
+		<div class="ranked">${pageCount[3].books}</div>
+		<p>${pageCount[2].name} - (${pageCount[2].count})</p>	
+		<div class="ranked">${pageCount[2].books}</div>
+		<p>${pageCount[1].name} - (${pageCount[1].count})</p>	
+		<div class="ranked">${pageCount[1].books}</div>
+		<p>${pageCount[0].name} - (${pageCount[0].count})</p>	
+		<div class="ranked">${pageCount[0].books}</div>		
     `);
 }
+
+/*===========================
+	BOOKS BY PUBLICATION DATE
+===========================*/
 
 // Sorts all of the books by page count and displays them
 function pubDateSetup() {
@@ -171,66 +184,69 @@ function pubDateSetup() {
 
 }
 
-// Displays the books from the To Read section
-function toReadSetup() {
-	let toReadList = ``;
-	for (let book in toRead) {
-		toReadList += `<div class="book"> <img src="${toRead[book].thumb}"><div class="title">${toRead[book].title}</div><div class="author">${toRead[book]
-			.author}</div></div>`;
-	}
+/*===========================
+	BOOKS BY YEAR I READ
+===========================*/
 
-	$('.toReadBox').replaceWith(`     
-		<div class="toReadBox">
-			<div class="bookList">${toReadList}</div>
-		</div>
-    `);
-}
-
-// Grabs all books that are 4.5 or higher on Goodreads and displays them
-function highRatingSetup() {
-	let highGoodReads = ``;
-	for (let book in bookData) {
-		if (bookData[book].avgRating >= 4.5) {
-			highGoodReads += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
-				.author}</div><div class="good-rating">GR Rating: ${bookData[book].avgRating}/5</div><div class="rating">My Rating: ${bookData[book].myWeightedRating}/10</div></div>`;
-		}
-	}
-	$('.highGRBox').replaceWith(` 
-    <div class="highGRBox">
-            ${highGoodReads}
-        </div>  
-    `);
-}
-
-// Grabs the books read in a given year and displays them
-function yearSearch(yearVal) {
-	let yearReads = ``;
-	let pagesForYear = 0;
-	let booksForYear = 0;
-	for (let book in bookData) {
-		if (bookData[book].yearRead.includes(yearVal) == undefined) {
-		} else {
-			if (bookData[book].yearRead.includes(yearVal) == true) {	
-				for (let i=0; i<bookData[book].yearRead.length; i++)
-				{
-					if (yearVal == bookData[book].yearRead[i]){
-						yearReads += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
-							.author}</div><div class="pages">Pages: ${bookData[book].pages}</div><div class="rating">Rating: ${bookData[book].myWeightedRating}/10</div></div>`;
-						pagesForYear += bookData[book].pages;
-						booksForYear++;
-					}
-						
+function yearSetup() {
+	let bookArr = JSON.parse(JSON.stringify(bookData));
+	let years = [];
+	for(let book in bookArr){
+		if(bookArr[book].yearRead != undefined){
+			for(let i=0; i<bookArr[book].yearRead.length; i++){
+				if(!years.includes(bookArr[book].yearRead[i])){
+					years.push(bookArr[book].yearRead[i]);
 				}
 			}
 		}
 	}
-	$('.yearBox').replaceWith(`     
-		<div class="yearBox">
-		<h3>${booksForYear} books & ${pagesForYear} pages</h3>
-		<div class="bookList">${yearReads}</div>
-		</div>
+	
+	years.sort((a, b) => b - a);
+	printYears(years);
+}
+
+function printYears(years) {
+	let yearStr = ``;
+	for(let year in years) {
+		yearStr += `<option value="${years[year]}">${years[year]}</option>`
+	}
+
+	$('.yearBox').html(`
+			<label for="yearSelection" id="yearLabel">Select a year</label>
+			<select name="yearSelection" id="yearSelection" class="dataDrop">
+				<option disabled selected>Year</option>          
+				${yearStr}
+			</select>
+			<div class="yearBooks"></div>
     `);
 }
+
+function displayYears() {
+	let yearChoice = $('#yearSelection').val();
+	let yearBookList = ``;
+	let pagesForYear = 0;
+	let booksForYear = 0;
+
+	for (let book in bookData) {
+		if (bookData[book].yearRead == undefined) { 
+		} else { 
+				if (bookData[book].yearRead.includes(parseInt(yearChoice)) == true) {
+					yearBookList += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
+						.author}</div><div class="pages">Pages: ${bookData[book].pages}</div><div class="rating">Rating: ${bookData[book].myWeightedRating}/10</div></div>`;
+					pagesForYear += bookData[book].pages;
+					booksForYear++;
+				}
+			}
+	}
+	$('.yearBooks').html(`
+		<h3>${booksForYear} books & ${pagesForYear} pages</h3>
+		<div class="bookList">${yearBookList}</div>
+    `);
+}
+
+/*===========================
+	BOOKS I'VE RE-READ
+===========================*/
 
 // Pulls all books read more than once and displays them
 function reReadSetup() {
@@ -253,13 +269,15 @@ function reReadSetup() {
 		
 	}
 
-	$('.reReadBox').replaceWith(`     
-		<div class="reReadBox">
+	$('.reReadBox').html(`
 			<h3>${totalBooksReRead} Books Re-Read</h3>
 			<div class="bookList">${reReads}</div>
-		</div>
     `);
 }
+
+/*===========================
+	BOOKS BY CATEGORY KEYWORD
+===========================*/
 
 function categorySetup() {
 	let bookArr = JSON.parse(JSON.stringify(bookData));
@@ -284,15 +302,13 @@ function printCategories(keywords) {
 		keywordStr += `<option value="${keywords[category]}">${keywords[category]}</option>`
 	}
 
-	$('.categoryBox').replaceWith(`     
-		<div class="categoryBox">
+	$('.categoryBox').html(`
 			<label for="categorySelection" id="categoryLabel">Select a keyword</label>
 			<select name="categorySelection" id="categorySelection" class="dataDrop">
 				<option disabled selected>Keyword</option>          
 				${keywordStr}
 			</select>
 			<div class="categoryBooks"></div>
-		</div>
     `);
 }
 
@@ -313,13 +329,11 @@ function displayCategory() {
 	$('.categoryBooks').html(`     
 			<div class="bookList">${categoryBookList}</div>
     `);
-
-	
 }
 
-function replaceCategory(choice){
-
-}
+/*===========================
+	BOOKS BY MY RATING
+===========================*/
 
 // Sorts all of the read books by rating
 function rankSetup(){
