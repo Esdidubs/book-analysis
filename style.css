@@ -45,6 +45,17 @@ svg {
 	padding: 10px;
 }
 
+.buttonList {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.categoryBooks {
+	margin-top: 20px;
+	width: 100%;
+}
+
 .pagesBox p,
 .rankBox p {
 	font-size: 30px;
@@ -75,7 +86,8 @@ svg {
 	text-align: center;
 }
 
-#buttons {	
+#buttons,
+.categoryBox {	
 	align-items: center;
 	display: flex;
 	flex-direction: column;
@@ -84,7 +96,8 @@ svg {
 	margin-top: 20px;
 }
 
-#dataSelection {
+#dataSelection,
+#categorySelection {
 	font-size: 16px;
 	padding: 5px 10px;
 }

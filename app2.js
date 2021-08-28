@@ -1,8 +1,8 @@
 /*
-	- Add ability to see re-reads
+	- update all to html instead of replacewith
 	- Add keywords to book
 	- Remove d3 stuff and make cleaner
-
+	- change year functionality to be like the categories
 */
 
 // Hide everything then display something when dropdown is changed
@@ -12,12 +12,19 @@ $('#dataSelection').on('change', function() {
 	displayData();
 });
 
+$(document).on('change', '#categorySelection', function(){
+    event.preventDefault();
+	displayCategory();
+});
+
+
 // Hides all elements
 function makeHidden() {
 	$('.svgContainer').hide();
 	$('.fiveStarBox').hide();
 	$('.highGRBox').hide();
 	$('.yearBox').hide();
+	$('.categoryBox').hide();
 	$('.allReads').hide();
 	$('.toReadBox').hide();
 	$('.rankBox').hide();
@@ -44,6 +51,9 @@ function displayData() {
 	} else if ($('#dataSelection').val() == 'toRead') {
 		toReadSetup();	
 		$('.toReadBox').show();
+	} else if ($('#dataSelection').val() == 'category') {
+		categorySetup();	
+		$('.categoryBox').show();
 	} else if ($('#dataSelection').val() == 'rankedBtn') {
 		rankSetup();
 		$('.rankBox').show();
@@ -249,6 +259,66 @@ function reReadSetup() {
 			<div class="bookList">${reReads}</div>
 		</div>
     `);
+}
+
+function categorySetup() {
+	let bookArr = JSON.parse(JSON.stringify(bookData));
+	let keywords = [];
+	for(let book in bookArr){
+		if(bookArr[book].keywords != undefined){
+			for(let i=0; i<bookArr[book].keywords.length; i++){
+				if(!keywords.includes(bookArr[book].keywords[i])){
+					keywords.push(bookArr[book].keywords[i]);
+				}
+			}
+		}
+	}
+	
+	keywords.sort(); 
+	printCategories(keywords);
+}
+
+function printCategories(keywords) {
+	let keywordStr = ``;
+	for(let category in keywords) {
+		keywordStr += `<option value="${keywords[category]}">${keywords[category]}</option>`
+	}
+
+	$('.categoryBox').replaceWith(`     
+		<div class="categoryBox">
+			<label for="categorySelection" id="categoryLabel">Select a keyword</label>
+			<select name="categorySelection" id="categorySelection" class="dataDrop">
+				<option disabled selected>Keyword</option>          
+				${keywordStr}
+			</select>
+			<div class="categoryBooks"></div>
+		</div>
+    `);
+}
+
+function displayCategory() {
+	let categoryChoice = $('#categorySelection').val();
+	let categoryBookList = ``;
+
+	for (let book in bookData) {
+		if (bookData[book].keywords == undefined) {
+		} else {
+				if (bookData[book].keywords.includes(categoryChoice) == true) {	
+					categoryBookList += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
+						.author}</div><div class="pages">Pages: ${bookData[book].pages}</div></div>`;	
+				}
+			}
+	}
+
+	$('.categoryBooks').html(`     
+			<div class="bookList">${categoryBookList}</div>
+    `);
+
+	
+}
+
+function replaceCategory(choice){
+
 }
 
 // Sorts all of the read books by rating
