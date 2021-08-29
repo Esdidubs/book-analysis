@@ -1,6 +1,7 @@
 /*
-	- update all to html instead of replacewith
-	- change year functionality to be like the categories
+	- add more keywords
+	- add author read count
+	- add multiple books in series keyword
 */
 
 /*===========================
@@ -38,6 +39,7 @@ function makeHidden() {
 	$('.pagesBox').hide();
 	$('.pubBox').hide();
 	$('.reReadBox').hide();
+	$('.authorBox').hide();
 }
 
 // Shows the selected section and runs its function
@@ -70,6 +72,10 @@ function displayData() {
 		case 'reRead':
 			reReadSetup();	
 			$('.reReadBox').show();
+			break;
+		case 'authors':
+			authorSetup();	
+			$('.authorBox').show();
 			break;
 	}
 }
@@ -231,10 +237,14 @@ function displayYears() {
 		if (bookData[book].yearRead == undefined) { 
 		} else { 
 				if (bookData[book].yearRead.includes(parseInt(yearChoice)) == true) {
-					yearBookList += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
-						.author}</div><div class="pages">Pages: ${bookData[book].pages}</div><div class="rating">Rating: ${bookData[book].myWeightedRating}/10</div></div>`;
-					pagesForYear += bookData[book].pages;
-					booksForYear++;
+					for (let i=0; i<bookData[book].yearRead.length; i++){
+						if (yearChoice == bookData[book].yearRead[i]){
+							yearBookList += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
+								.author}</div><div class="pages">Pages: ${bookData[book].pages}</div><div class="rating">Rating: ${bookData[book].myWeightedRating}/10</div></div>`;
+							pagesForYear += bookData[book].pages;
+							booksForYear++;
+						}
+					}
 				}
 			}
 	}
@@ -358,8 +368,7 @@ function rankSetup(){
 									<div class="author">${bookData[book].author}</div></div>`;
 		}
 
-		$('.rankBox').replaceWith(` 
-			<div class="rankBox">
+		$('.rankBox').html(`
 				<p>10 Rating</p>	
 				<div class="ranked">${ranks.r10}</div>
 				<p>9 Rating</p>
@@ -380,6 +389,54 @@ function rankSetup(){
 				<div class="ranked">${ranks.r2}</div>
 				<p>1 Rating</p>
 				<div class="ranked">${ranks.r1}</div>
-			</div> 
 		`); 	
+}
+
+/*===========================
+	AUTHORS I'VE RE-READ
+===========================*/
+
+// Pulls all books read more than once and displays them
+function authorSetup() {
+	let authors = {};
+	let mostAuthors = [];
+	let printedAuthors = ``; 
+
+	let bookCopy = JSON.parse(JSON.stringify(bookData));
+
+	for(let book in bookCopy){
+		if(bookCopy[book].author == 'Newt Scamander' || bookCopy[book].author == 'Kennilworthy Whisp'){
+			bookCopy[book].author = 'J.K. Rowling';
+		}
+	}
+
+	for (let book in bookCopy) {
+		if(authors[bookCopy[book].author]==undefined){
+			authors[bookCopy[book].author] = {count: 1};
+		} else {
+			authors[bookCopy[book].author].count ++;
+		}
+	}
+	
+
+	for(let author in authors){ 
+		if(authors[author].count > 1){
+			mostAuthors.push([author, authors[author].count]);
+		}
+	}
+
+	mostAuthors.sort((a, b) => b[1] - a[1]);
+
+	for (let author in mostAuthors) {
+
+		printedAuthors += `<div class="book">
+								<div class="title">${mostAuthors[author][0]}</div>
+								<div>${mostAuthors[author][1]} books</div>
+							</div>`;
+	}
+
+
+	$('.authorBox').html(`
+			<div class="bookList">${printedAuthors}</div>
+    `);
 }
