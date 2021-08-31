@@ -34,7 +34,8 @@ svg {
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.book {
+.book,
+.mostReadAuthors {
 	align-items: center;
 	border: 1px;
 	border-color: rgb(202, 199, 197);

@@ -451,7 +451,7 @@ function authorSetup() {
 	for (let author in mostAuthors) {
 		let avgRating = mostAuthors[author][2] / mostAuthors[author][1];
 
-		printedAuthors += `<div class="book">
+		printedAuthors += `<div class="mostReadAuthors">
 								<div class="title">${mostAuthors[author][0]}</div>
 								<div>${mostAuthors[author][1]} books</div>
 								<div>${avgRating.toFixed(2)} average rating</div>
