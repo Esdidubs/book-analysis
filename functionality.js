@@ -1,7 +1,5 @@
 /*
 	- add more keywords
-	- add author read count
-	- add multiple books in series keyword
 */
 
 /*===========================
@@ -14,6 +12,18 @@ $(document).ready(function() {
 });
 
 // Hide everything then display something when dropdown is changed
+$('#dataSelection').on('change', function() {
+	event.preventDefault();
+	makeHidden();
+	displayData();
+});
+
+$(document).on('click', '.book', function() {
+	event.preventDefault();
+	let bookTitle = $(this).find('.title').text();
+	getModalPopup(bookTitle);
+});
+
 $('#dataSelection').on('change', function() {
 	event.preventDefault();
 	makeHidden();
@@ -95,15 +105,16 @@ function allBooks() {
 	// Appends the next book (in HTML) and adds to the count and pages of the variables
 	for (let book in bookData) {
 		allReads += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
-			.author}</div><div class="pages">Pages: ${bookData[book].pages}</div><div class="rating">Rating: ${bookData[book].myWeightedRating}/10</div></div>`;
+			.author}</div><div class="pages">Pages: ${bookData[book].pages.toLocaleString("en-US")}</div><div class="rating">Rating: ${bookData[book].myRating}/10</div></div>`;
 		pagesForAll += bookData[book].pages * bookData[book].yearRead.length;
 		booksForAll += bookData[book].yearRead.length;
 		pagesForAllUnique += bookData[book].pages;
 		booksForAllUnique++;
+		bookData[book].id = book;
 	}
 
 	$('.allReads').html(`     
-			<h3>${booksForAll} books & ${pagesForAll} pages - ${booksForAllUnique} unique books & ${pagesForAllUnique} pages</h3>
+			<h3>${booksForAll} books & ${pagesForAll.toLocaleString("en-US")} pages - ${booksForAllUnique} unique books & ${pagesForAllUnique.toLocaleString("en-US")} pages</h3>
 			<div class="bookList">${allReads}</div>
     `);
 }
@@ -138,7 +149,7 @@ function pageSetup() {
 		for(let i = pageCount.length-1; i>=0; i--) {
 			if(pageArr[book].pages > pageCount[i].pageLimit){
 				pageCount[i].books += `<div class="book"> <img src="${pageArr[book].thumb}"><div class="title">${pageArr[book].title}</div><div class="author">${pageArr[book]
-					.author}</div><div class="pages">Pages: ${pageArr[book].pages}</div><div class="rating">Rating: ${pageArr[book].myWeightedRating}/10</div></div>`;
+					.author}</div><div class="pages">Pages: ${pageArr[book].pages.toLocaleString("en-US")}</div><div class="rating">Rating: ${pageArr[book].myRating}/10</div></div>`;
 				pageCount[i].count++;
 				break;
 			}
@@ -183,7 +194,7 @@ function pubDateSetup() {
 
 	for (let book in yearArr) {
 		yearBooks += `<div class="book"> <img src="${yearArr[book].thumb}"><div class="title">${yearArr[book].title}</div><div class="author">${yearArr[book]
-			.author}</div><div class="rating">Rating: ${yearArr[book].myWeightedRating}/10</div><div class="year">${yearArr[book].pubDate}</div></div>`;
+			.author}</div><div class="rating">Rating: ${yearArr[book].myRating}/10</div><div class="year">${yearArr[book].pubDate}</div></div>`;
 	}
 
 	$('.pubBox').html(`<div class="bookList">${yearBooks}</div>`);
@@ -240,7 +251,7 @@ function displayYears() {
 					for (let i=0; i<bookData[book].yearRead.length; i++){
 						if (yearChoice == bookData[book].yearRead[i]){
 							yearBookList += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
-								.author}</div><div class="pages">Pages: ${bookData[book].pages}</div><div class="rating">Rating: ${bookData[book].myWeightedRating}/10</div></div>`;
+								.author}</div><div class="pages">Pages: ${bookData[book].pages.toLocaleString("en-US")}</div><div class="rating">Rating: ${bookData[book].myRating}/10</div></div>`;
 							pagesForYear += bookData[book].pages;
 							booksForYear++;
 						}
@@ -249,7 +260,7 @@ function displayYears() {
 			}
 	}
 	$('.yearBooks').html(`
-		<h3>${booksForYear} books & ${pagesForYear} pages</h3>
+		<h3>${booksForYear} books & ${pagesForYear.toLocaleString("en-US")} pages</h3>
 		<div class="bookList">${yearBookList}</div>
     `);
 }
@@ -325,19 +336,28 @@ function printCategories(keywords) {
 function displayCategory() {
 	let categoryChoice = $('#categorySelection').val();
 	let categoryBookList = ``;
+	let bookCount = 0;
+	let bookWord = 'books';
+
 
 	for (let book in bookData) {
 		if (bookData[book].keywords == undefined) {
 		} else {
 				if (bookData[book].keywords.includes(categoryChoice) == true) {	
 					categoryBookList += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
-						.author}</div><div class="pages">Pages: ${bookData[book].pages}</div></div>`;	
+						.author}</div><div class="pages">Pages: ${bookData[book].pages}</div></div>`;
+					bookCount++;
 				}
 			}
 	}
 
+	if(bookCount==1){
+		bookWord = 'book';
+	}
+
 	$('.categoryBooks').html(`     
-			<div class="bookList">${categoryBookList}</div>
+		<h3>${bookCount} ${bookWord}</h3>	
+		<div class="bookList">${categoryBookList}</div>
     `);
 }
 
@@ -361,7 +381,7 @@ function rankSetup(){
 		}
 
 		for (let book in bookData) {
-			let rating = bookData[book].myWeightedRating;	
+			let rating = bookData[book].myRating;	
 
 			ranks["r"+rating] += `<div class="book"><img src="${bookData[book].thumb}">
 									<div class="title">${bookData[book].title}</div>
@@ -400,7 +420,7 @@ function rankSetup(){
 function authorSetup() {
 	let authors = {};
 	let mostAuthors = [];
-	let printedAuthors = ``; 
+	let printedAuthors = ``;
 
 	let bookCopy = JSON.parse(JSON.stringify(bookData));
 
@@ -412,26 +432,29 @@ function authorSetup() {
 
 	for (let book in bookCopy) {
 		if(authors[bookCopy[book].author]==undefined){
-			authors[bookCopy[book].author] = {count: 1};
+			authors[bookCopy[book].author] = {count: 1, combinedRating: bookCopy[book].myRating};
 		} else {
 			authors[bookCopy[book].author].count ++;
+			authors[bookCopy[book].author].combinedRating += bookCopy[book].myRating;
 		}
 	}
 	
 
 	for(let author in authors){ 
 		if(authors[author].count > 1){
-			mostAuthors.push([author, authors[author].count]);
+			mostAuthors.push([author, authors[author].count, authors[author].combinedRating]);
 		}
 	}
 
 	mostAuthors.sort((a, b) => b[1] - a[1]);
 
 	for (let author in mostAuthors) {
+		let avgRating = mostAuthors[author][2] / mostAuthors[author][1];
 
 		printedAuthors += `<div class="book">
 								<div class="title">${mostAuthors[author][0]}</div>
 								<div>${mostAuthors[author][1]} books</div>
+								<div>${avgRating.toFixed(2)} average rating</div>
 							</div>`;
 	}
 
@@ -439,4 +462,55 @@ function authorSetup() {
 	$('.authorBox').html(`
 			<div class="bookList">${printedAuthors}</div>
     `);
+}
+
+/*===========================
+	MODAL POPUP
+===========================*/
+
+function getModalPopup(bookTitle){
+	let selectedBook = {};
+
+	for (var i=0; i < bookData.length; i++) {
+        if (bookData[i].title === bookTitle) {
+            selectedBook.title = bookData[i].title;
+        	selectedBook.author = bookData[i].author;
+        	selectedBook.myRating = bookData[i].myRating;
+        	selectedBook.pages = bookData[i].pages;
+        	selectedBook.pubDate = bookData[i].pubDate;
+        	selectedBook.yearRead = bookData[i].yearRead;
+        	selectedBook.thumb = bookData[i].thumb;
+        	selectedBook.keywords = bookData[i].keywords;
+			break;
+        }
+    }
+
+	showModalPopup(selectedBook);
+}
+
+function showModalPopup(selectedBook){
+	$('.modal').show();
+	$('.overlay').show();
+
+	let bookYears = selectedBook.yearRead.join(', ');
+	let bookKeywords = selectedBook.keywords.join(', ');
+
+	$('.modal').html(`
+		<div class="modalContent">
+			<img src="${selectedBook.thumb}" />
+			<div><span class="bookDetail">Title:</span> ${selectedBook.title}</div>
+			<div><span class="bookDetail">Author:</span> ${selectedBook.author}</div>
+			<div><span class="bookDetail">Rating:</span> ${selectedBook.myRating}/10</div>
+			<div><span class="bookDetail">Pages:</span> ${selectedBook.pages}</div>
+			<div><span class="bookDetail">Released:</span> ${selectedBook.pubDate}</div>
+			<div><span class="bookDetail">Years Read:</span> ${bookYears}</div>
+			<div><span class="bookDetail">Keywords:</span> ${bookKeywords}</div>
+		<div>
+		<button onclick="hideModalPopup()">Close</button>
+	`);
+}
+
+function hideModalPopup(){
+	$('.modal').hide();
+	$('.overlay').hide();
 }
