@@ -506,7 +506,7 @@ function showModalPopup(selectedBook){
 			<div><span class="bookDetail">Years Read:</span> ${bookYears}</div>
 			<div><span class="bookDetail">Keywords:</span> ${bookKeywords}</div>
 		<div>
-		<button onclick="hideModalPopup()">Close</button>
+		<button onclick="hideModalPopup()" class="modalButton">Close</button>
 	`);
 }
 
