@@ -1,11 +1,12 @@
 /*
-	- add more keywords
+	- Maybe have ability to reverse order
+	- Use collapsable portions of site like accordion for ratings etc
 */
 
 /*===========================
 	SETUP
 ===========================*/
-
+//#region Setup
 $(document).ready(function() {
     makeHidden();
 	displayData();
@@ -20,6 +21,7 @@ $('#dataSelection').on('change', function() {
 
 $(document).on('click', '.book', function() {
 	event.preventDefault();
+	console.log(this)
 	let bookTitle = $(this).find('.title').text();
 	getModalPopup(bookTitle);
 });
@@ -40,6 +42,10 @@ $(document).on('change', '#yearSelection', function(){
 	displayYears();
 });
 
+//#endregion
+
+//#region Hide/Show
+
 // Hides all elements
 function makeHidden() {
 	$('.yearBox').hide();
@@ -51,6 +57,9 @@ function makeHidden() {
 	$('.reReadBox').hide();
 	$('.authorBox').hide();
 }
+
+
+
 
 // Shows the selected section and runs its function
 function displayData() { 
@@ -89,11 +98,12 @@ function displayData() {
 			break;
 	}
 }
+//#endregion
 
 /*===========================
 	ALL BOOKS READ
 ===========================*/
-
+//#region All Books
 // Pulls all of the books and displays them
 function allBooks() {
 	let allReads = ``;
@@ -118,11 +128,12 @@ function allBooks() {
 			<div class="bookList">${allReads}</div>
     `);
 }
+//#endregion
 
 /*===========================
 	BOOKS BY PAGES
 ===========================*/
-
+//#region By Pages
 // Sorts all of the books by page count and displays them
 function pageSetup() {
 	let pageArr = JSON.parse(JSON.stringify(bookData));
@@ -177,11 +188,12 @@ function pageSetup() {
 		<div class="ranked">${pageCount[0].books}</div>		
     `);
 }
+//#endregion
 
 /*===========================
 	BOOKS BY PUBLICATION DATE
 ===========================*/
-
+//#region Pub Date
 // Sorts all of the books by page count and displays them
 function pubDateSetup() {
 	let yearArr = JSON.parse(JSON.stringify(bookData));
@@ -200,11 +212,12 @@ function pubDateSetup() {
 	$('.pubBox').html(`<div class="bookList">${yearBooks}</div>`);
 
 }
+//#endregion
 
 /*===========================
 	BOOKS BY YEAR I READ
 ===========================*/
-
+//#region Year Diary
 function yearSetup() {
 	let bookArr = JSON.parse(JSON.stringify(bookData));
 	let years = [];
@@ -264,11 +277,12 @@ function displayYears() {
 		<div class="bookList">${yearBookList}</div>
     `);
 }
+//#endregion
 
 /*===========================
 	BOOKS I'VE RE-READ
 ===========================*/
-
+//#region Re-Read
 // Pulls all books read more than once and displays them
 function reReadSetup() {
 	let reReads = ``;
@@ -295,11 +309,12 @@ function reReadSetup() {
 			<div class="bookList">${reReads}</div>
     `);
 }
+//#endregion
 
 /*===========================
 	BOOKS BY CATEGORY KEYWORD
 ===========================*/
-
+//#region Keyword
 function categorySetup() {
 	let bookArr = JSON.parse(JSON.stringify(bookData));
 	let keywords = [];
@@ -360,11 +375,12 @@ function displayCategory() {
 		<div class="bookList">${categoryBookList}</div>
     `);
 }
+//#endregion
 
 /*===========================
 	BOOKS BY MY RATING
 ===========================*/
-
+//#region Rating
 // Sorts all of the read books by rating
 function rankSetup(){
 		let ranks = {
@@ -411,11 +427,12 @@ function rankSetup(){
 				<div class="ranked">${ranks.r1}</div>
 		`); 	
 }
+//#endregion
 
 /*===========================
 	AUTHORS I'VE RE-READ
 ===========================*/
-
+//#region Authors
 // Pulls all books read more than once and displays them
 function authorSetup() {
 	let authors = {};
@@ -463,11 +480,12 @@ function authorSetup() {
 			<div class="bookList">${printedAuthors}</div>
     `);
 }
+//#endregion
 
 /*===========================
 	MODAL POPUP
 ===========================*/
-
+//#region Modal/
 function getModalPopup(bookTitle){
 	let selectedBook = {};
 
@@ -481,20 +499,44 @@ function getModalPopup(bookTitle){
         	selectedBook.yearRead = bookData[i].yearRead;
         	selectedBook.thumb = bookData[i].thumb;
         	selectedBook.keywords = bookData[i].keywords;
+			selectedBook.similar = bookData[i].similar;
+			selectedBook.description = bookData[i].description;
 			break;
         }
     }
-
-	showModalPopup(selectedBook);
+	setupBookDetails(selectedBook);
 }
 
-function showModalPopup(selectedBook){
-	$('.modal').show();
-	$('.overlay').show();
-
+function setupBookDetails(selectedBook){
 	let bookYears = selectedBook.yearRead.join(', ');
 	let bookKeywords = selectedBook.keywords.join(', ');
+	let similarArr = [];
+	let similarPrinted = ``;
 
+	if(selectedBook.similar != undefined){
+		for(var i=0; i < selectedBook.similar.length; i++) {
+			for (var j=0; j < bookData.length; j++) {
+				if (bookData[j].title === selectedBook.similar[i]) {
+					similarArr.push([bookData[j].title, bookData[j].thumb]);
+					break;
+				}
+			}
+		}
+	}
+	
+	if(selectedBook.similar != undefined){
+		for(let book in similarArr){
+			similarPrinted +=  `<div class="book"> <img src="${similarArr[book][1]}"><div class="title">${similarArr[book][0]}</div></div>`;
+		}
+	}
+
+	showModalPopup(selectedBook, bookYears, bookKeywords, similarPrinted);
+}
+
+function showModalPopup(selectedBook, bookYears, bookKeywords, similarPrinted){
+	$('.modal').show();
+	$('.overlay').show();
+	
 	$('.modal').html(`
 		<div class="modalContent">
 			<img src="${selectedBook.thumb}" />
@@ -505,6 +547,11 @@ function showModalPopup(selectedBook){
 			<div><span class="bookDetail">Released:</span> ${selectedBook.pubDate}</div>
 			<div><span class="bookDetail">Years Read:</span> ${bookYears}</div>
 			<div><span class="bookDetail">Keywords:</span> ${bookKeywords}</div>
+			<div><span class="bookDetail">Description:</span> ${selectedBook.description}</div>
+			<div>
+				<span class="bookDetail">You may like:</span> 
+				<div class="similarBooks">${similarPrinted}</div>
+			</div>
 		<div>
 		<button onclick="hideModalPopup()" class="modalButton">Close</button>
 	`);
@@ -514,3 +561,5 @@ function hideModalPopup(){
 	$('.modal').hide();
 	$('.overlay').hide();
 }
+
+//#endregion
