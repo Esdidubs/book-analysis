@@ -800,7 +800,9 @@ let bookData = [
         pubDate: 1955,
         yearRead: [2010, 2014],
         thumb: './images/magician-nephew.jpg',
-        keywords: ['fiction', 'fantasy', 'young adult', 'children', 'christian', 'adventure', 'series']
+        keywords: ['fiction', 'fantasy', 'young adult', 'children', 'christian', 'adventure', 'series'],
+		similar: ['The Bad Beginning', 'The Lightning Thief'],
+		description: `A prequel to The Lion, the Witch, and the Wardrobe`
     },
     {
         title: 'The Lion, the Witch and the Wardrobe',
@@ -810,7 +812,9 @@ let bookData = [
         pubDate: 1950,
         yearRead: [2012, 2017],
         thumb: './images/lion-witch-wardrobe.jpg',
-        keywords: ['fiction', 'fantasy', 'young adult', 'children', 'christian', 'adventure', 'movies', 'series']
+        keywords: ['fiction', 'fantasy', 'young adult', 'children', 'christian', 'adventure', 'movies', 'series'],
+		similar: ['The Bad Beginning', 'The Lightning Thief'],
+		description: `Kids find a magical world behind the doors of a wardrobe.`
     },
     {
         title: 'The Screwtape Letters',
@@ -820,7 +824,9 @@ let bookData = [
         pubDate: 1942,
         yearRead: [2013],
         thumb: './images/screwtape-letters.jpg',
-        keywords: ['christian', 'fiction', 'fantasy', 'experimental']
+        keywords: ['christian', 'fiction', 'fantasy', 'experimental', 'satire'],
+		similar: ['Good Omens'],
+		description: `A satirical look at humanity from the viewpoint of a demon.`
     },
     {
         title: 'The Year of Less',
@@ -830,7 +836,9 @@ let bookData = [
         pubDate: 2018,
         yearRead: [2019],
         thumb: './images/year-of-less.jpg',
-        keywords: ['nonfiction', 'memoir', 'female author']
+        keywords: ['nonfiction', 'memoir', 'female author'],
+		similar: ['Finding Sisu'],
+		description: `A lady talks about a year of her life that she decided to change her habits.`
     },
     {
         title: 'Deep Work',
@@ -840,7 +848,9 @@ let bookData = [
         pubDate: 2016,
         yearRead: [2017],
         thumb: './images/deep-work.jpg',
-        keywords: ['nonfiction', 'productivity', 'self-help', 'psychology', 'business']
+        keywords: ['nonfiction', 'productivity', 'self-help', 'psychology', 'business'],
+		similar: ['Essentialism', 'The One Thing'],
+		description: `How to focus on your work without being distracted.`
     },
     {
         title: 'Digital Minimalism',
@@ -851,7 +861,8 @@ let bookData = [
         yearRead: [2019, 2021],
         thumb: './images/digital-minimalism.jpg',
         keywords: ['nonfiction', 'productivity', 'self-help', 'psychology', 'technology', 'minimalism'],
-		similar: ['Irresistible', 'The Revenge of Analog']
+		similar: ['Irresistible', 'The Revenge of Analog'],
+		description: `A look into the benefits of turning off notifications and stepping away from your digital devices.`
     },
     {
         title: "So Good They Can't Ignore You",
@@ -861,7 +872,9 @@ let bookData = [
         pubDate: 2012,
         yearRead: [2019],
         thumb: './images/cant-ignore-you.jpg',
-        keywords: ['nonfiction', 'productivity', 'self-help', 'psychology', 'business']
+        keywords: ['nonfiction', 'productivity', 'self-help', 'psychology', 'business'],
+		similar: ['Drive', 'Smartcuts'],
+		description: `Learning how to become excellent at something valuable and becoming passionate about it later.`
     },
     {
         title: "A World Without Email",
@@ -871,7 +884,9 @@ let bookData = [
         pubDate: 2021,
         yearRead: [2021],
         thumb: './images/without-email.jpg',
-        keywords: ['nonfiction', 'productivity', 'self-help', 'psychology', 'business', 'technology']
+        keywords: ['nonfiction', 'productivity', 'self-help', 'psychology', 'business', 'technology'],
+		similar: ['Digital Minimalism', 'Deep Work'],
+		description: `A look into how email at work decreases productivity.`
     },
     {
         title: 'Seven Brief Lessons on Physics',
@@ -881,7 +896,9 @@ let bookData = [
         pubDate: 2014,
         yearRead: [2019],
         thumb: './images/seven-lessons.jpg',
-        keywords: ['nonfiction', 'science', 'physics', 'educational']
+        keywords: ['nonfiction', 'science', 'physics', 'educational'],
+		similar: ['AsapSCIENCE', 'Science Hacks'],
+		description: `An introduction to physics made easy to understand.`
     },
     {
         title: 'Dead Until Dark',
@@ -891,7 +908,9 @@ let bookData = [
         pubDate: 2001,
         yearRead: [2015],
         thumb: './images/dead-until-dark.jpg',
-        keywords: ['fiction', 'vampires', 'romance', 'fantasy', 'mystery', 'tv', 'female author', 'series']
+        keywords: ['fiction', 'vampires', 'romance', 'fantasy', 'mystery', 'tv', 'female author', 'series'],
+		similar: ['Guilty Pleasures'],
+		description: `A waitress from a small town in Louisiana falls for the vampire who just arrived in town.`
     },
     {
         title: 'Python for Everybody',
@@ -901,7 +920,9 @@ let bookData = [
         pubDate: 2016,
         yearRead: [2020],
         thumb: './images/py4e.jpg',
-        keywords: ['nonfiction', 'educational', 'programming', 'technology', 'computers']
+        keywords: ['nonfiction', 'educational', 'programming', 'technology', 'computers'],
+		similar: ['Getting Started with SQL'],
+		description: `An introduction to Python.`
     },
     {
         title: 'Naked Statistics',
@@ -911,7 +932,9 @@ let bookData = [
         pubDate: 2012,
         yearRead: [2020],
         thumb: './images/naked-statistics.jpg',
-        keywords: ['nonfiction', 'educational', 'statistics', 'data', 'series']
+        keywords: ['nonfiction', 'educational', 'statistics', 'data', 'series'],
+		similar: ['How Not to Be Wrong', 'Math with Bad Drawings'],
+		description: `A look at statistics, how data is manipulated, and how to see through the bias in reports.`
     },
     {
         title: 'The Yellow Wallpaper',
@@ -921,7 +944,9 @@ let bookData = [
         pubDate: 1892,
         yearRead: [2007, 2018],
         thumb: './images/yellow-wallpaper.jpg',
-        keywords: ['fiction', 'horror', 'short stories', 'mental health', 'gothic', 'unreliable narrator', 'female author']
+        keywords: ['fiction', 'horror', 'short stories', 'mental health', 'gothic', 'unreliable narrator', 'female author'],
+		similar: ["Shirley Jackson's The Lottery: The Authorized Graphic Adaptation"],
+		description: `A woman deals with postpartum depression and hallucinations.`
     },
     {
         title: 'We Should All Be Feminists',
@@ -931,7 +956,9 @@ let bookData = [
         pubDate: 2014,
         yearRead: [2017],
         thumb: './images/should-be-feminist.jpg',
-        keywords: ['nonfiction', 'feminism', 'social justice', 'essays', 'female author']
+        keywords: ['nonfiction', 'feminism', 'social justice', 'essays', 'female author'],
+		similar: ['Dear Ijeawele', 'Full Frontal Feminism'],
+		description: `An argument for why cultures would thrive by empowering women.`
     },
     {
         title: 'Dear Ijeawele',
@@ -941,7 +968,9 @@ let bookData = [
         pubDate: 2017,
         yearRead: [2018],
         thumb: './images/ijeawele.jpg',
-        keywords: ['nonfiction', 'feminism', 'essays', 'female author']
+        keywords: ['nonfiction', 'feminism', 'essays', 'female author'],
+		similar: ['We Should All Be Feminists', 'Full Frontal Feminism'],
+		description: `An explanation of how you can raise a feminist child.`
     },
     {
         title: 'Things Fall Apart',
@@ -951,7 +980,9 @@ let bookData = [
         pubDate: 1958,
         yearRead: [2007],
         thumb: './images/things-fall-apart.jpg',
-        keywords: ['fiction', 'africa', 'historical', 'series']
+        keywords: ['fiction', 'africa', 'historical', 'series'],
+		similar: ['The Good Earth'],
+		description: `A man in an African tribe struggles to adjust to his evolving culture.`
     },
     {
         title: 'Struck By Lightning',
@@ -961,7 +992,10 @@ let bookData = [
         pubDate: 2012,
         yearRead: [2016],
         thumb: './images/struck-by-lightning.jpg',
-        keywords: ['young adult', 'lgbt', 'humor', 'fiction', 'coming of age', 'movies']
+        keywords: ['young adult', 'lgbt', 'humor', 'fiction', 'coming of age', 'movies'],
+		similar: ['Simon vs. the Homo Sapiens Agenda', 'Will Grayson, Will Grayson'],
+		description: `An outcast blackmails the popular kids at his school into contributing
+					to his literary journal to help his college resume.`
     },
     {
         title: 'The Nerdist Way',
@@ -971,7 +1005,9 @@ let bookData = [
         pubDate: 2011,
         yearRead: [2019],
         thumb: './images/nerdist-way.jpg',
-        keywords: ['nonfiction', 'self-help', 'humor']
+        keywords: ['nonfiction', 'self-help', 'humor'],
+		similar: ['Super Better'],
+		description: `Nerdy takes on self-help to improve your nerdy self.`
     },
     {
         title: 'Retire Inspired',
@@ -981,7 +1017,9 @@ let bookData = [
         pubDate: 2016,
         yearRead: [2019],
         thumb: './images/retire-inspired.jpg',
-        keywords: ['nonfiction', 'money', 'personal finance']
+        keywords: ['nonfiction', 'money', 'personal finance'],
+		similar: ['The Total Money Makeover', 'Unshakeable'],
+		description: `Easy-to-grasp look into retirement and personal finance.`
     },
     {
         title: "The Gamer's Bucket List",
@@ -991,7 +1029,9 @@ let bookData = [
         pubDate: 2015,
         yearRead: [2017],
         thumb: './images/gamer-bucket.jpg',
-        keywords: ['nonfiction', 'games', 'video games', 'reference']
+        keywords: ['nonfiction', 'games', 'video games', 'reference'],
+		similar: ['101 Video Games to Play Before You Grow Up'],
+		description: `50 video games to play before you die`
     },
     {
         title: 'Maze',
@@ -1001,7 +1041,9 @@ let bookData = [
         pubDate: 1985,
         yearRead: [2021],
         thumb: './images/maze.jpg',
-        keywords: ['puzzles', 'mazes', 'fiction', 'art', 'experimental']
+        keywords: ['puzzles', 'mazes', 'fiction', 'art', 'experimental'],
+		similar: ['The 125 Best Brain Teasers of All Time', 'House of Leaves'],
+		description: `An escape puzzle fashioned in the form of an illustrated book.`
     },
     {
         title: 'A Dirty Job',
@@ -1011,7 +1053,9 @@ let bookData = [
         pubDate: 2006,
         yearRead: [2018],
         thumb: './images/dirty-job.jpg',
-        keywords: ['fiction', 'humor', 'fantasy', 'death', 'series']
+        keywords: ['fiction', 'humor', 'fantasy', 'death', 'series'],
+		similar: ['Scythe', "The Southern Book Club's Guide to Slaying Vampires", 'Good Omens'],
+		description: `A man is recruited to be Death.`
     },
     {
         title: 'Fight Club',
@@ -1021,7 +1065,9 @@ let bookData = [
         pubDate: 1996,
         yearRead: [2015],
         thumb: './images/fight-club.jpg',
-        keywords: ['fiction', 'movies', 'thriller', 'satire', 'weird', 'unreliable narrator', 'series']
+        keywords: ['fiction', 'movies', 'thriller', 'satire', 'weird', 'unreliable narrator', 'series'],
+		similar: ['Choke', 'A Dirty Job'],
+		description: `An insomniac starts a fight club with a guy he meets to escape the monotony of life.`
     },
     {
         title: 'Fight Club 2',
@@ -1031,7 +1077,9 @@ let bookData = [
         pubDate: 2015,
         yearRead: [2018],
         thumb: './images/fight-club2.jpg',
-        keywords: ['graphic novels', 'fiction', 'weird', 'humor', 'thriller', 'series']
+        keywords: ['graphic novels', 'fiction', 'weird', 'humor', 'thriller', 'series'],
+		similar: ['Choke', "Rick and Morty: Lil' Poopy Superstar"],
+		description: `The sequel to Fight Club in graphic novel form`
     },
     {
         title: 'Choke',
@@ -1041,7 +1089,9 @@ let bookData = [
         pubDate: 2001,
         yearRead: [2015],
         thumb: './images/choke.jpg',
-        keywords: ['fiction', 'dark', 'weird', 'humor']
+        keywords: ['fiction', 'dark', 'weird', 'humor'],
+		similar: ['Fight Club', 'Going Bovine'],
+		description: `A man pretends to choke on food in restaurants so people feel sorry for him and give him money.`
     },
     {
         title: 'Science Hacks',
@@ -1051,7 +1101,9 @@ let bookData = [
         pubDate: 2018,
         yearRead: [2019],
         thumb: './images/science-hacks.jpg',
-        keywords: ['nonfiction', 'science', 'educational']
+        keywords: ['nonfiction', 'science', 'educational'],
+		similar: [],
+		description: ``
     },
     {
         title: 'Project 333',
@@ -1061,7 +1113,9 @@ let bookData = [
         pubDate: 2020,
         yearRead: [2020],
         thumb: './images/project333.jpg',
-        keywords: ['nonfiction', 'self-help', 'minimalism', 'female author']
+        keywords: ['nonfiction', 'self-help', 'minimalism', 'female author'],
+		similar: [],
+		description: ``
     },
     {
         title: 'Night of the Living Deadpool',
@@ -1071,7 +1125,9 @@ let bookData = [
         pubDate: 2014,
         yearRead: [2019],
         thumb: './images/night-of-deadpool.jpg',
-        keywords: ['comics', 'graphic novels', 'marvel', 'zombies', 'fiction', 'superheroes', 'series']
+        keywords: ['comics', 'graphic novels', 'marvel', 'zombies', 'fiction', 'superheroes', 'series'],
+		similar: [],
+		description: ``
     },
     {
         title: 'Return of the Living Deadpool',
@@ -1081,7 +1137,9 @@ let bookData = [
         pubDate: 2015,
         yearRead: [2019],
         thumb: './images/return-of-deadpool.jpg',
-        keywords: ['comics', 'graphic novels', 'marvel', 'zombies', 'fiction', 'superheroes', 'series']
+        keywords: ['comics', 'graphic novels', 'marvel', 'zombies', 'fiction', 'superheroes', 'series'],
+		similar: [],
+		description: ``
     },
 	//#endregion
     /*===========================
