@@ -46,6 +46,10 @@ svg {
 	padding: 10px;
 }
 
+.book {
+	cursor: pointer;
+}
+
 .bookDetail {
 	font-weight: 700;
 }
@@ -125,6 +129,22 @@ svg {
 	margin-bottom: 60px;
 }
 
+.similarBook {
+	display: flex;
+	flex-direction: column;	
+	align-items: center;
+	border: 1px;
+	border-color: rgb(202, 199, 197);
+	border-style: dashed;
+	padding: 5px;
+}
+
+.similarBooks {
+	display: grid;	
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
 .svgContainer {
 	display: flex;
 	flex-wrap: wrap;
@@ -165,3 +185,12 @@ svg {
 #mainLabel {
 	font-size: 20px;
 }
+
+@media only screen and (max-width: 768px) {
+	.modal {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+
