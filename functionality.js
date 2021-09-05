@@ -10,6 +10,24 @@
 $(document).ready(function() {
     makeHidden();
 	displayData();
+
+	let dcount = 0;
+	let nondcount = 0;
+	
+
+	for(let book in bookData){
+		if(bookData[book].description === '' || bookData[book].description === undefined){
+			nondcount++;
+		} else {
+			dcount++;
+		}
+	}
+
+	let cpercent =(dcount / (dcount + nondcount)) * 100;
+	
+
+	console.log(dcount + " books complete, " + nondcount + " to go. We're " + cpercent.toFixed(2) + " percent done.") 
+
 });
 
 // Hide everything then display something when dropdown is changed
@@ -21,7 +39,6 @@ $('#dataSelection').on('change', function() {
 
 $(document).on('click', '.book', function() {
 	event.preventDefault();
-	console.log(this)
 	let bookTitle = $(this).find('.title').text();
 	getModalPopup(bookTitle);
 });
@@ -536,7 +553,7 @@ function setupBookDetails(selectedBook){
 function showModalPopup(selectedBook, bookYears, bookKeywords, similarPrinted){
 	$('.modal').show();
 	$('.overlay').show();
-	
+
 	$('.modal').html(`
 		<div class="modalContent">
 			<img src="${selectedBook.thumb}" />
