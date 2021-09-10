@@ -1,7 +1,5 @@
 /*
-	- Maybe have ability to reverse order
-	- Use collapsable portions of site like accordion for ratings etc
-	- add a random background color to each card.
+	- fun facts page with lots of data and maybe charts
 */
 
 
@@ -30,11 +28,15 @@ $(document).ready(function() {
 
 	console.log(dcount + " books complete, " + nondcount + " to go. We're " + cpercent.toFixed(2) + " percent done.");
 
+	setRandomColor();
+
+});
+
+function setRandomColor(){
 	$('.book').each(function () {
 		$(this).css("background-color", random_color());
 	})
-
-});
+}
 
 function random_color() {
 	var letters = '0123456789ABCDEF'.split('');
@@ -68,11 +70,31 @@ $('#dataSelection').on('change', function() {
 $(document).on('change', '#categorySelection', function(){
     event.preventDefault();
 	displayCategory();
+	setRandomColor();
 });
 
 $(document).on('change', '#yearSelection', function(){
     event.preventDefault();
 	displayYears();
+	setRandomColor();
+});
+
+$(document).on('change', '#rankSelection', function(){
+    event.preventDefault();
+	displayRanks();
+	setRandomColor();
+});
+
+$(document).on('change', '#pubDateSelection', function(){
+    event.preventDefault();
+	displayPubDates();
+	setRandomColor();
+});
+
+$(document).on('change', '#pageSelection', function(){
+    event.preventDefault();
+	displayPages();
+	setRandomColor();
 });
 
 //#endregion
@@ -91,43 +113,48 @@ function makeHidden() {
 	$('.authorBox').hide();
 }
 
-
-
-
 // Shows the selected section and runs its function
 function displayData() { 
 	switch($('#dataSelection').val()){
 		case 'years':
 			yearSetup();
 			$('.yearBox').show();
+			setRandomColor();
 			break;
 		case 'all':
 			allBooks();
 			$('.allReads').show();
+			setRandomColor();
 			break;
 		case 'category':
 			categorySetup();	
 			$('.categoryBox').show();
+			setRandomColor();
 			break;
 		case 'rankedBtn':
 			rankSetup();
 			$('.rankBox').show();
+			setRandomColor();
 			break;
 		case 'pages':
 			pageSetup();
 			$('.pagesBox').show();
+			setRandomColor();
 			break;
 		case 'pubDate':
 			pubDateSetup();
 			$('.pubBox').show();
+			setRandomColor();
 			break;
 		case 'reRead':
 			reReadSetup();	
 			$('.reReadBox').show();
+			setRandomColor();
 			break;
 		case 'authors':
 			authorSetup();	
 			$('.authorBox').show();
+			setRandomColor();
 			break;
 	}
 }
@@ -167,83 +194,142 @@ function allBooks() {
 	BOOKS BY PAGES
 ===========================*/
 //#region By Pages
-// Sorts all of the books by page count and displays them
+
 function pageSetup() {
-	let pageArr = JSON.parse(JSON.stringify(bookData));
 
 	let pageCount = [
-		{name: 'Under 100 pages', pageLimit: 0, count: 0, books: ''},
-		{name: '100 to 199 pages', pageLimit: 100, count: 0, books: ''},
-		{name: '200 to 299 pages', pageLimit: 200, count: 0, books: ''},
-		{name: '300 to 399 pages', pageLimit: 300, count: 0, books: ''},
-		{name: '400 to 499 pages', pageLimit: 400, count: 0, books: ''},
-		{name: '500 to 599 pages', pageLimit: 500, count: 0, books: ''},
-		{name: '600 to 699 pages', pageLimit: 600, count: 0, books: ''},
-		{name: '700 to 799 pages', pageLimit: 700, count: 0, books: ''},
-		{name: '800 or more pages', pageLimit: 800, count: 0, books: ''}
+		{name: 'Under 100 pages', pageLimit: [0, 100], count: 0},
+		{name: '100 to 199 pages', pageLimit: [100, 200], count: 0},
+		{name: '200 to 299 pages', pageLimit: [200, 300], count: 0},
+		{name: '300 to 399 pages', pageLimit: [300, 400], count: 0},
+		{name: '400 to 499 pages', pageLimit: [400, 500], count: 0},
+		{name: '500 to 599 pages', pageLimit: [500, 600], count: 0},
+		{name: '600 to 699 pages', pageLimit: [600, 700], count: 0},
+		{name: '700 to 799 pages', pageLimit: [700, 800], count: 0},
+		{name: '800 or more pages', pageLimit: [800, 9999], count: 0}
 	];
 
-	// Sorts the array from highest to lowest pages
-	pageArr.sort(function(a, b) {
-		return b.pages - a.pages;
-	});	
-
-	// Adds book to appropriate section based on pages
-	for (let book in pageArr) {
-		for(let i = pageCount.length-1; i>=0; i--) {
-			if(pageArr[book].pages > pageCount[i].pageLimit){
-				pageCount[i].books += `<div class="book"> <img src="${pageArr[book].thumb}"><div class="title">${pageArr[book].title}</div><div class="author">${pageArr[book]
-					.author}</div><div class="pages">Pages: ${pageArr[book].pages.toLocaleString("en-US")}</div><div class="rating">Rating: ${pageArr[book].myRating}/10</div></div>`;
-				pageCount[i].count++;
-				break;
-			}
-		}
+	let pageStr = ``;
+	for(let page in pageCount) {
+		pageStr += `<option value="${pageCount[page].pageLimit}">${pageCount[page].name}</option>`
 	}
-	
+
 	$('.pagesBox').html(`
-		<p>${pageCount[8].name} - (${pageCount[8].count})</p>	
-		<div class="ranked">${pageCount[8].books}</div>
-		<p>${pageCount[7].name} - (${pageCount[7].count})</p>	
-		<div class="ranked">${pageCount[7].books}</div>
-		<p>${pageCount[6].name} - (${pageCount[6].count})</p>	
-		<div class="ranked">${pageCount[6].books}</div>
-		<p>${pageCount[5].name} - (${pageCount[5].count})</p>	
-		<div class="ranked">${pageCount[5].books}</div>
-		<p>${pageCount[4].name} - (${pageCount[4].count})</p>	
-		<div class="ranked">${pageCount[4].books}</div>
-		<p>${pageCount[3].name} - (${pageCount[3].count})</p>	
-		<div class="ranked">${pageCount[3].books}</div>
-		<p>${pageCount[2].name} - (${pageCount[2].count})</p>	
-		<div class="ranked">${pageCount[2].books}</div>
-		<p>${pageCount[1].name} - (${pageCount[1].count})</p>	
-		<div class="ranked">${pageCount[1].books}</div>
-		<p>${pageCount[0].name} - (${pageCount[0].count})</p>	
-		<div class="ranked">${pageCount[0].books}</div>		
+			<label for="pageSelection" id="pageLabel">Select an amount of pages</label>
+			<select name="pageSelection" id="pageSelection" class="dataDrop">
+				<option disabled selected>Pages</option>      
+				${pageStr}
+			</select>
+			<div class="pageBooks"></div>
     `);
 }
+
+function displayPages() {
+	let pagesChoice = $('#pageSelection').val().split(',');
+	let pagesBookList = ``;
+	let bookCount = 0;
+	let bookWord = 'books';
+
+	let pageArr = JSON.parse(JSON.stringify(bookData));
+	pageArr.sort(function(a, b) {
+		return a.pages - b.pages;
+	});	
+
+	for (let book in pageArr) {
+		if (pageArr[book].pages == undefined) {
+		}else {
+				if (pageArr[book].pages >= parseInt(pagesChoice[0]) && pageArr[book].pages < parseInt(pagesChoice[1])) {	
+					pagesBookList += `<div class="book"> <img src="${pageArr[book].thumb}"><div class="title">${pageArr[book].title}</div><div class="author">${pageArr[book]
+						.author}</div><div class="pages">Pages: ${pageArr[book].pages}</div></div>`;
+					bookCount++;
+				}
+			}
+	}
+
+	if(bookCount==1){
+		bookWord = 'book';
+	}
+
+	$('.pageBooks').html(`     
+		<h3>${bookCount} ${bookWord}</h3>	
+		<div class="bookList">${pagesBookList}</div>
+    `);
+}
+
 //#endregion
 
 /*===========================
 	BOOKS BY PUBLICATION DATE
 ===========================*/
-//#region Pub Date
-// Sorts all of the books by page count and displays them
+//#region PubDate
 function pubDateSetup() {
-	let yearArr = JSON.parse(JSON.stringify(bookData));
-	let yearBooks = ``;
+	let bookArr = JSON.parse(JSON.stringify(bookData));
+	let pubDates = [];
+	for(let book in bookArr){
+		if(bookArr[book].pubDate != undefined){
+			if(!pubDates.includes(bookArr[book].pubDate)){
+				pubDates.push(bookArr[book].pubDate);
+			}
+		}
+	}
+	
+	pubDates.sort((a, b) => b - a);
+	printpubDates(pubDates);
+}
 
-	// Sorts the array from highest to lowest pages
+function printpubDates(pubDates) {
+	let pubDateStr = ``;
+	for(let pubDate in pubDates) {
+		pubDateStr += `<option value="${pubDates[pubDate]}">${pubDates[pubDate]}</option>`
+	}
+
+	$('.pubBox').html(`
+			<label for="pubDateSelection" id="pubDateLabel">Select a release year</label>
+			<select name="pubDateSelection" id="pubDateSelection" class="dataDrop">
+				<option disabled selected>Year</option>
+				<option value="all">All Years</option>        
+				${pubDateStr}
+			</select>
+			<div class="pubDateBooks"></div>
+    `);
+}
+
+function displayPubDates() {
+	let pubDatesChoice = $('#pubDateSelection').val();
+	let pubDatesBookList = ``;
+	let bookCount = 0;
+	let bookWord = 'books';
+
+	let yearArr = JSON.parse(JSON.stringify(bookData));
 	yearArr.sort(function(a, b) {
 		return b.pubDate - a.pubDate;
 	});	
 
-	for (let book in yearArr) {
-		yearBooks += `<div class="book"> <img src="${yearArr[book].thumb}"><div class="title">${yearArr[book].title}</div><div class="author">${yearArr[book]
-			.author}</div><div class="rating">Rating: ${yearArr[book].myRating}/10</div><div class="year">${yearArr[book].pubDate}</div></div>`;
+	for (let book in bookData) {
+		if (bookData[book].pubDate == undefined) {
+		} else if(pubDatesChoice == "all"){
+			
+
+			pubDatesBookList += `<div class="book"> <img src="${yearArr[book].thumb}"><div class="title">${yearArr[book].title}</div><div class="author">${yearArr[book]
+				.author}</div><div class="pages">${yearArr[book].pubDate}</div></div>`;
+			bookCount++;
+		} else {
+				if (bookData[book].pubDate == pubDatesChoice) {	
+					pubDatesBookList += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
+						.author}</div><div class="pages">Pages: ${bookData[book].pages}</div></div>`;
+					bookCount++;
+				}
+			}
 	}
 
-	$('.pubBox').html(`<div class="bookList">${yearBooks}</div>`);
+	if(bookCount==1){
+		bookWord = 'book';
+	}
 
+	$('.pubDateBooks').html(`     
+		<h3>${bookCount} ${bookWord}</h3>	
+		<div class="bookList">${pubDatesBookList}</div>
+    `);
 }
 //#endregion
 
@@ -588,50 +674,64 @@ function displayCategory() {
 ===========================*/
 //#region Rating
 // Sorts all of the read books by rating
-function rankSetup(){
-		let ranks = {
-			r10: '',
-			r9: '',
-			r8: '',
-			r7: '',
-			r6: '',
-			r5: '',
-			r4: '',
-			r3: '',
-			r2: '',
-			r1: ''
+
+function rankSetup() {
+	let bookArr = JSON.parse(JSON.stringify(bookData));
+	let ranks = [];
+	for(let book in bookArr){
+		if(bookArr[book].myRating != undefined){
+			if(!ranks.includes(bookArr[book].myRating)){
+				ranks.push(bookArr[book].myRating);
+			}
 		}
+	}
+	
+	ranks.sort((a, b) => b - a);
+	printRanks(ranks);
+}
 
-		for (let book in bookData) {
-			let rating = bookData[book].myRating;	
+function printRanks(ranks) {
+	let rankStr = ``;
+	for(let rank in ranks) {
+		rankStr += `<option value="${ranks[rank]}">${ranks[rank]}</option>`
+	}
 
-			ranks["r"+rating] += `<div class="book"><img src="${bookData[book].thumb}">
-									<div class="title">${bookData[book].title}</div>
-									<div class="author">${bookData[book].author}</div></div>`;
-		}
+	$('.rankBox').html(`
+			<label for="rankSelection" id="rankLabel">Select a rating</label>
+			<select name="rankSelection" id="rankSelection" class="dataDrop">
+				<option disabled selected>Rating</option>          
+				${rankStr}
+			</select>
+			<div class="rankBooks"></div>
+    `);
+}
 
-		$('.rankBox').html(`
-				<p>10 Rating</p>	
-				<div class="ranked">${ranks.r10}</div>
-				<p>9 Rating</p>
-				<div class="ranked">${ranks.r9}</div>
-				<p>8 Rating</p>
-				<div class="ranked">${ranks.r8}</div>
-				<p>7 Rating</p>
-				<div class="ranked">${ranks.r7}</div>
-				<p>6 Rating</p>
-				<div class="ranked">${ranks.r6}</div>
-				<p>5 Rating</p>
-				<div class="ranked">${ranks.r5}</div>
-				<p>4 Rating</p>
-				<div class="ranked">${ranks.r4}</div>
-				<p>3 Rating</p>
-				<div class="ranked">${ranks.r3}</div>
-				<p>2 Rating</p>
-				<div class="ranked">${ranks.r2}</div>
-				<p>1 Rating</p>
-				<div class="ranked">${ranks.r1}</div>
-		`); 	
+function displayRanks() {
+	let rankChoice = $('#rankSelection').val();
+	let rankBookList = ``;
+	let bookCount = 0;
+	let bookWord = 'books';
+
+
+	for (let book in bookData) {
+		if (bookData[book].myRating == undefined) {
+		} else {
+				if (bookData[book].myRating == rankChoice) {	
+					rankBookList += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
+						.author}</div><div class="pages">Pages: ${bookData[book].pages}</div></div>`;
+					bookCount++;
+				}
+			}
+	}
+
+	if(bookCount==1){
+		bookWord = 'book';
+	}
+
+	$('.rankBooks').html(`     
+		<h3>${bookCount} ${bookWord}</h3>	
+		<div class="bookList">${rankBookList}</div>
+    `);
 }
 //#endregion
 
@@ -664,7 +764,7 @@ function authorSetup() {
 	
 
 	for(let author in authors){ 
-		if(authors[author].count > 1){
+		if(authors[author].count > 4){
 			mostAuthors.push([author, authors[author].count, authors[author].combinedRating]);
 		}
 	}

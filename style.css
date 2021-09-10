@@ -65,7 +65,10 @@ svg {
 }
 
 .categoryBooks,
-.yearBooks {
+.yearBooks,
+.rankBooks,
+.pubDateBooks,
+.pageBooks {
 	margin-top: 20px;
 	width: 100%;
 }
@@ -170,7 +173,10 @@ svg {
 
 #buttons,
 .categoryBox,
-.yearBox {	
+.yearBox,
+.rankBox,
+.pubBox,
+.pagesBox {	
 	align-items: center;
 	display: flex;
 	flex-direction: column;
@@ -181,7 +187,10 @@ svg {
 
 #dataSelection,
 #categorySelection,
-#yearSelection {
+#yearSelection,
+#rankSelection,
+#pubDateSelection,
+#pageSelection {
 	font-size: 16px;
 	padding: 5px 10px;
 }
