@@ -1,7 +1,9 @@
 /*
 	- Maybe have ability to reverse order
 	- Use collapsable portions of site like accordion for ratings etc
+	- add a random background color to each card.
 */
+
 
 /*===========================
 	SETUP
@@ -26,9 +28,23 @@ $(document).ready(function() {
 	let cpercent =(dcount / (dcount + nondcount)) * 100;
 	
 
-	console.log(dcount + " books complete, " + nondcount + " to go. We're " + cpercent.toFixed(2) + " percent done.") 
+	console.log(dcount + " books complete, " + nondcount + " to go. We're " + cpercent.toFixed(2) + " percent done.");
+
+	$('.book').each(function () {
+		$(this).css("background-color", random_color());
+	})
 
 });
+
+function random_color() {
+	var letters = '0123456789ABCDEF'.split('');
+	var color = '#';
+	for (var i = 0; i < 6; i++ ) {
+		color += letters[Math.round(Math.random() * 15)];
+	}
+	color+='40';
+	return color;
+};
 
 // Hide everything then display something when dropdown is changed
 $('#dataSelection').on('change', function() {
@@ -273,27 +289,200 @@ function displayYears() {
 	let yearBookList = ``;
 	let pagesForYear = 0;
 	let booksForYear = 0;
+	let ficCount = 0;
+	let nonficCount = 0;
+	let totalRating = 0;
+	let authors = {};
+	
+	let shortestBook = {title: 'Nothing', author: 'Nobody', pages: 9999, img: 'nice'};
+	let longestBook = {title: 'Nothing', author: 'Nobody', pages: 0, img: 'nice'};
+	let oldestBook = {title: 'Nothing', author: 'Nobody', year: 9999, img: 'nice'};
+	let booksThisYear = [];
+	let categories = {};
+	
 
 	for (let book in bookData) {
 		if (bookData[book].yearRead == undefined) { 
 		} else { 
-				if (bookData[book].yearRead.includes(parseInt(yearChoice)) == true) {
-					for (let i=0; i<bookData[book].yearRead.length; i++){
-						if (yearChoice == bookData[book].yearRead[i]){
-							yearBookList += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
-								.author}</div><div class="pages">Pages: ${bookData[book].pages.toLocaleString("en-US")}</div><div class="rating">Rating: ${bookData[book].myRating}/10</div></div>`;
-							pagesForYear += bookData[book].pages;
-							booksForYear++;
+			if (bookData[book].yearRead.includes(parseInt(yearChoice)) == true) {
+				for (let i=0; i<bookData[book].yearRead.length; i++){
+					if (yearChoice == bookData[book].yearRead[i]){
+
+						yearBookList += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
+							.author}</div><div class="pages">Pages: ${bookData[book].pages.toLocaleString("en-US")}</div><div class="rating">Rating: ${bookData[book].myRating}/10</div></div>`;
+
+						pagesForYear += bookData[book].pages;
+						booksForYear++;
+						totalRating += bookData[book].myRating;
+
+						if(bookData[book].keywords.includes('fiction')){
+							ficCount++;
+						} else if(bookData[book].keywords.includes('nonfiction')){
+							nonficCount++;
+						}
+						// maybe need to use return to get the count to work?
+
+						
+						getMostAuthors(authors, book);
+						getOldestBook(oldestBook, book);
+						getShortestBook(shortestBook, book);
+						getLongestBook(longestBook, book);
+						getCategories(categories, book);
+						
+
+						if(bookData[book].pubDate == yearChoice){
+							booksThisYear.push({title: bookData[book].title, author: bookData[book].author});
 						}
 					}
 				}
 			}
+		}
 	}
+
+	let mostCategories = [];
+	alterCategories(categories, mostCategories);
+	let topCategories = printTopCategories(mostCategories);
+
+	let mostAuthors = [];
+	findMostAuthors(authors, mostAuthors);
+	let topAuthors = printTopAuthors(mostAuthors);
+
+	let newBooks = ``;
+	for(let book in booksThisYear){
+		newBooks += `<div>- ${booksThisYear[book].title}</div>`
+	}
+
+	let avgPages = pagesForYear / booksForYear;
+	let ficPercentage = ficCount / (ficCount + nonficCount) * 100;
+	let nonficPercentage = nonficCount / (ficCount + nonficCount) * 100;
+	let avgRating = totalRating / booksForYear;
+
 	$('.yearBooks').html(`
-		<h3>${booksForYear} books & ${pagesForYear.toLocaleString("en-US")} pages</h3>
+		<h2>Stats for ${yearChoice}</h2>
+		<div class="bookList">
+			<div class="mostReadAuthors"><div class="title">Quick Stats</div><div>${booksForYear} books</div><div>${pagesForYear
+				.toLocaleString("en-US")} pages</div><div>Average Pages: ${avgPages.toFixed(2)}</div><div>Average Rating: ${avgRating.toFixed(2)}/10</div></div>
+			<div class="mostReadAuthors"><div class="title">Fiction vs Nonfiction</div><div>Fiction: ${ficCount} (${ficPercentage
+				.toFixed(0)}%)</div><div>Nonfiction: ${nonficCount} (${nonficPercentage.toFixed(0)}%)</div></div>
+			<div class="mostReadAuthors"><div class="title">Most Read Authors</div><div>${topAuthors}</div></div>
+			<div class="mostReadAuthors"><div class="title">Most Common Keywords</div><div>${topCategories}</div></div>
+			<div class="mostReadAuthors"><div class="title">Oldest Book</div><img src="${oldestBook.img}"><div>${oldestBook
+				.title}</div><div>${oldestBook.author}</div><div>${oldestBook.year}</div></div>
+			<div class="mostReadAuthors"><div class="title">Books Released This Year</div><div>${newBooks}</div></div>	
+			<div class="mostReadAuthors"><div class="title">Shortest Book</div><img src="${shortestBook.img}"><div>${shortestBook
+				.title}</div><div>${shortestBook.author}</div><div>${shortestBook.pages} pages</div></div>
+			<div class="mostReadAuthors"><div class="title">Longest Book</div><img src="${longestBook.img}"><div>${longestBook
+				.title}</div><div>${longestBook.author}</div><div>${longestBook.pages} pages</div></div>
+		</div>		
+		<h2>Books</h2>
 		<div class="bookList">${yearBookList}</div>
     `);
 }
+
+function getShortestBook(shortestBook, book){
+	if(bookData[book].pages < shortestBook.pages){
+		shortestBook.img = bookData[book].thumb;
+		shortestBook.title = bookData[book].title;
+		shortestBook.author = bookData[book].author;
+		shortestBook.pages = bookData[book].pages;
+	}
+}
+
+function getLongestBook(longestBook, book){
+	if(bookData[book].pages > longestBook.pages){
+		longestBook.img = bookData[book].thumb;
+		longestBook.title = bookData[book].title;
+		longestBook.author = bookData[book].author;
+		longestBook.pages = bookData[book].pages;
+	}
+}
+
+function getOldestBook(oldestBook, book){
+	if(bookData[book].pubDate < oldestBook.year){
+		oldestBook.img = bookData[book].thumb;
+		oldestBook.title = bookData[book].title;
+		oldestBook.author = bookData[book].author;
+		oldestBook.year = bookData[book].pubDate;
+	}
+}
+
+function getCategories(categories, book){
+	for(let category in bookData[book].keywords){
+		if(categories[bookData[book].keywords[category]]==undefined){
+			categories[bookData[book].keywords[category]] = {count: 1};
+		} else {
+			categories[bookData[book].keywords[category]].count ++;
+		}
+	}
+}
+
+function getMostAuthors(authors, book){
+	if(authors[bookData[book].author]==undefined){
+		authors[bookData[book].author] = {count: 1};
+	} else {
+		authors[bookData[book].author].count ++;
+	}
+}
+
+function alterCategories(categories, mostCategories){
+	delete categories.nonfiction;
+	delete categories.fiction;
+	delete categories.series;
+	delete categories.tv;
+	delete categories.movies;
+	delete categories['female author'];
+
+	findMostCategories(categories, mostCategories);
+}
+
+function findMostCategories(categories, mostCategories){
+	for(let category in categories){ 
+		mostCategories.push([category, categories[category].count]);
+	}
+
+	mostCategories.sort((a, b) => b[1] - a[1]);
+}
+
+function printTopCategories(mostCategories){
+	let tempTop = ``;
+
+	for(let i=0; i<5; i++){
+		if(mostCategories[i][1]>1){
+			tempTop += `<div>${mostCategories[i][0]} - ${mostCategories[i][1]}</div>`
+		}
+	}
+
+	if(tempTop == ''){
+		tempTop = 'No most read categories this year.'
+	} 
+
+	return tempTop;
+}
+
+function findMostAuthors(authors, mostAuthors){
+	for(let author in authors){ 
+		mostAuthors.push([author, authors[author].count, authors[author].combinedRating]);
+	}
+
+	mostAuthors.sort((a, b) => b[1] - a[1]);
+}
+
+function printTopAuthors(mostAuthors){
+	let tempTop = ``;
+
+	for(let i=0; i<3; i++){
+		if(mostAuthors[i][1]>1){
+			tempTop += `<div>${mostAuthors[i][0]} - ${mostAuthors[i][1]}</div>`
+		}
+	}
+
+	if(tempTop == ''){
+		tempTop = 'No most read authors this year.'
+	} 
+
+	return tempTop;
+}
+
 //#endregion
 
 /*===========================
