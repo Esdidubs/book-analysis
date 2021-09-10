@@ -2327,7 +2327,7 @@ let bookData = [
         myRating: 10,
         pages: 309,
         pubDate: 1997,
-        yearRead: [1999, 2000, 2001, 2002, 2010, 2011, 2012, 2017, 2018, 2019, 2020, 2021],
+        yearRead: [1999, 2000, 2001, 2002, 2010, 2011, 2012, 2017, 2018, 2019, 2020, 2021, 2021],
         thumb: './images/hp1.jpg',
         keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'adventure', 'mystery', 'movies', 'harry potter', 'female author', 'series'],
 		similar: ['The Hobbit', 'The Lightning Thief', 'Name of the Wind'],
@@ -2486,8 +2486,8 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/surprised-by-power.jpg',
         keywords: ['nonfiction', 'christian', 'miracles', 'holy spirit'],
-		similar: [],
-		description: ``
+		similar: ['When Heaven Invades Earth'],
+		description: `An argument saying that miracles are still happening today.`
     },
     {
         title: 'Vegan for Life',
@@ -2498,8 +2498,8 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/vegan-for-life.jpg',
         keywords: ['nonfiction', 'food', 'nutrition', 'health'],
-		similar: [],
-		description: ``
+		similar: ['Forks Over Knives'],
+		description: `Nutrition for plant-based diets and debunking the myths around veganism.`
     },
     {
         title: 'Chasing the Dragon',
@@ -2510,8 +2510,9 @@ let bookData = [
         yearRead: [2014],
         thumb: './images/chasing-the-dragon.jpg',
         keywords: ['nonfiction', 'christian', 'drugs', 'china', 'memoir', 'female author'],
-		similar: [],
-		description: ``
+		similar: ['The Heavenly Man'],
+		description: `Jackie Pullinger gives her account of ministry in the drug-infested
+						streets of Hong Kong.`
     },
     {
         title: 'Atomic Habits',
@@ -2522,8 +2523,8 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/atomic-habits.jpg',
         keywords: ['nonfiction', 'habits', 'self-help', 'psychology', 'productivity'],
-		similar: [],
-		description: ``
+		similar: ['High Performance Habits', 'Grit', 'Drive'],
+		description: `How to form good habits and break bad ones.`
     },
     {
         title: 'The Maze Runner',
@@ -2534,8 +2535,9 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/maze-runner.jpg',
         keywords: ['fiction', 'young adult', 'dystopian', 'science fiction', 'adventure', 'movies', 'series'],
-		similar: [],
-		description: ``
+		similar: ['The Hunger Games'],
+		description: `Boys wake up in a small patch of land with no memory of who they are or how they
+						got there. Surrounding the land is an ever-changing maze with death around every corner.`
     },
     {
         title: "America's History, For the AP Course",
@@ -2546,8 +2548,8 @@ let bookData = [
         yearRead: [2007],
         thumb: './images/ap-history.jpg',
         keywords: ['nonfiction', 'educational', 'historical', 'america'],
-		similar: [],
-		description: ``
+		similar: ['Theodore Roosevelt', 'The Red Badge of Courage'],
+		description: `A textbook discussing the history of the United States.`
     },
     {
         title: 'Return to Howliday Inn',
@@ -2558,8 +2560,8 @@ let bookData = [
         yearRead: [1999],
         thumb: './images/bunnicula5.jpg',
         keywords: ['fiction', 'children', 'animals', 'mystery', 'horror', 'series'],
-		similar: [],
-		description: ``
+		similar: ['Little Shop of Hamsters'],
+		description: `A sequel to Bunnicula.`
     },
     {
         title: 'Bunnicula Strikes Again!',
@@ -2570,8 +2572,8 @@ let bookData = [
         yearRead: [1999],
         thumb: './images/bunnicula6.jpg',
         keywords: ['fiction', 'children', 'animals', 'mystery', 'horror', 'series'],
-		similar: [],
-		description: ``
+		similar: ['Little Shop of Hamsters'],
+		description: `A sequel to Bunnicula.`
     },
     {
         title: "Player's Handbook",
@@ -2582,8 +2584,8 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/phb.jpg',
         keywords: ['dnd', 'fiction', 'reference', 'games', 'tabletop games', 'fantasy', 'high fantasy', 'series'],
-		similar: [],
-		description: ``
+		similar: ["Dungeon Master's Guide", 'Tales from the Yawning Portal', 'Ghosts of Saltmarsh'],
+		description: `The handbook for how to play the 5th edition of Dungeons & Dragons.`
     },
     {
         title: 'Super Better',
@@ -2594,8 +2596,8 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/super-better.jpg',
         keywords: ['nonfiction', 'psychology', 'games', 'self-help', 'female author'],
-		similar: [],
-		description: ``
+		similar: ['The Nerdist Way'],
+		description: `Scientific research into the ways all games change how we respond to stress, challenge, and pain.`
     },
     {
         title: 'Ten Arguments For Deleting Your Social Media Accounts Right Now',
@@ -2606,8 +2608,8 @@ let bookData = [
         yearRead: [2019, 2021],
         thumb: './images/delete-social-media.jpg',
         keywords: ['nonfiction', 'psychology', 'technology', 'self-help'],
-		similar: [],
-		description: ``
+		similar: ['Irresistible', "The Smart Girl's Guide to Privacy", '200+ Ways to Protect Your Privacy'],
+		description: `Reasons that social media's cons outweigh any of its benefits.`
     },
     {
         title: 'The Living and the Dead',
@@ -2618,8 +2620,8 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/living-and-dead.jpg',
         keywords: ['fiction', 'graphic novels', 'horror', 'zombies'],
-		similar: [],
-		description: ``
+		similar: ['30 Days of Night, Vol. 1', 'The Walking Dead, Vol. 1'],
+		description: `A gruesome zombie comedy graphic novel.`
     },
     {
         title: 'Blood, Sweat, and Pixels',
@@ -2630,8 +2632,8 @@ let bookData = [
         yearRead: [2017, 2021],
         thumb: './images/blood-sweat-pixels.jpg',
         keywords: ['nonfiction', 'biography', 'games', 'video games'],
-		similar: [],
-		description: ``
+		similar: ['Console Wars', 'Jacked', 'The Ultimate History of Video Games'],
+		description: `A look into the creation of some of the biggest video games.`
     },
     {
         title: 'Thirteen Reasons Why',
@@ -2642,8 +2644,8 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/thirteen-reasons.jpg',
         keywords: ['young adult', 'suicide', 'fiction', 'mental health', 'mystery', 'tv'],
-		similar: [],
-		description: ``
+		similar: ['All the Bright Places'],
+		description: `A girl commits suicide and leaves behind cassette tapes explaining why.`
     },
     {
         title: 'Nerve',
@@ -2654,8 +2656,9 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/nerve.jpg',
         keywords: ['fiction', 'young adult', 'thriller', 'science fiction', 'movies', 'female author'],
-		similar: [],
-		description: ``
+		similar: ['Fight Club'],
+		description: `A girl gets wrapped up in an anonymous online game of dares that require riskier
+						challenges for great payouts.`
     },
     {
         title: 'Diary of a Wimpy Kid',
@@ -2666,8 +2669,9 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/diary-of-wimpy.jpg',
         keywords: ['fiction', 'children', 'humor', 'graphic novels', 'schools', 'movies', 'series'],
-		similar: [],
-		description: ``
+		similar: ['The Adventures of Captain Underpants'],
+		description: `A boy starts a new year in a new school where he has to share the halls with
+						massive students who are so big, they're practically shaving.`
     },
     {
         title: 'Super Mario',
@@ -2679,7 +2683,7 @@ let bookData = [
         thumb: './images/super-mario.jpg',
         keywords: ['nonfiction', 'games', 'video games', 'biography'],
 		similar: ['Console Wars'],
-		description: ``
+		description: `A look at the history of the Mario games.`
     },
     {
         title: 'Annihilation',
@@ -2690,8 +2694,8 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/annihilation.jpg',
         keywords: ['fiction', 'horror', 'science fiction', 'movies', 'unreliable narrator', 'series'],
-		similar: [],
-		description: ``
+		similar: ['Meddling Kids', 'Horrorstör', 'Bird Box'],
+		description: `The twelfth expedition into Area X is about to begin. The first eleven all ended in death.`
     },
     {
         title: "Who's Afraid of the Multiverse",
@@ -2702,8 +2706,8 @@ let bookData = [
         yearRead: [2020],
         thumb: './images/whos-afraid.jpg',
         keywords: ['nonfiction', 'christian', 'science'],
-		similar: [],
-		description: ``
+		similar: ['Navigating Genesis'],
+		description: `A breakdown of the different theories of the multiverse and whether it fits into a Biblical narrative.`
     },
     {
         title: 'The No-Spend Challenge Guide',
@@ -2714,8 +2718,8 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/no-spend.jpg',
         keywords: ['nonfiction', 'money', 'personal finance', 'self-help', 'female author'],
-		similar: [],
-		description: ``
+		similar: ['The Year of Less'],
+		description: `Basically a blog post of how you can cut costs in different areas of your life.`
     },
     {
         title: '200+ Ways to Protect Your Privacy',
@@ -2726,8 +2730,8 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/protect-privacy.jpg',
         keywords: ['nonfiction', 'technology', 'female author'],
-		similar: [],
-		description: ``
+		similar: ["The Smart Girl's Guide to Privacy"],
+		description: `Ways to protect yourself online.`
     },
     {
         title: 'All the Bright Places',
@@ -2738,8 +2742,8 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/all-bright-places.jpg',
         keywords: ['fiction', 'young adult', 'suicide', 'romance', 'mental health', 'movies', 'female author'],
-		similar: [],
-		description: ``
+		similar: ['Thirteen Reasons Why'],
+		description: `A girl who learns to live from a boy who intends to die.`
     },
     {
         title: 'The Summer I Turned Pretty',
@@ -2749,9 +2753,10 @@ let bookData = [
         pubDate: 2009,
         yearRead: [2018],
         thumb: './images/summer-pretty1.jpg',
-        keywords: ['fiction', 'young adult', 'romance', 'female author', 'series'],
-		similar: [],
-		description: ``
+        keywords: ['fiction', 'young adult', 'romance', 'female author', 'series', 'coming of age'],
+		similar: ['Let It Snow', 'Eleanor & Park'],
+		description: `A girl spends every summer with some family friend's at a beach house, but this summer
+						it's finally dawned on them how mature she's become.`
     },
     {
         title: "It's Not Summer Without You",
@@ -2762,8 +2767,8 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/summer-pretty2.jpg',
         keywords: ['fiction', 'young adult', 'romance', 'female author', 'series'],
-		similar: [],
-		description: ``
+		similar: ['Let It Snow', 'Eleanor & Park'],
+		description: `Sequel to The Summer I Turned Pretty`
     },
     {
         title: "We'll Always Have Summer",
@@ -2774,8 +2779,8 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/summer-pretty3.jpg',
         keywords: ['fiction', 'young adult', 'romance', 'female author', 'series'],
-		similar: [],
-		description: ``
+		similar: ['Let It Snow', 'Eleanor & Park'],
+		description: `Sequel to The Summer I Turned Pretty`
     },
     {
         title: 'Remnant of Victory',
@@ -2786,8 +2791,9 @@ let bookData = [
         yearRead: [2000],
         thumb: './images/remnant-victory.jpg',
         keywords: ['fiction', 'romance', 'christian', 'female author', 'series'],
-		similar: [],
-		description: ``
+		similar: ['Eleanor & Park'],
+		description: `An Asian immigrant wants to be 100% American, including with who he dates. But
+						an Asian immigrant girl may make that plan hard to stick to.`
     },
     {
         title: 'Three Men in a Boat',
@@ -2798,8 +2804,8 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/three-men-boat.jpg',
         keywords: ['fiction', 'humor', 'travel'],
-		similar: [],
-		description: ``
+		similar: ['Cold Sassy Tree'],
+		description: `A funny trip down a river with three friends.`
     },
     {
         title: 'The Vanishings',
@@ -3306,7 +3312,7 @@ let bookData = [
 		description: ``
     },
     {
-        title: 'Let it Snow',
+        title: 'Let It Snow',
         author: 'John Green',
         myRating: 9,
         pages: 352,
@@ -5051,12 +5057,12 @@ let bookData = [
     {
         title: 'Carry On',
         author: 'Rainbow Rowell',
-        myRating: 8,
+        myRating: 7,
         pages: 522,
         pubDate: 2015,
         yearRead: [2016, 2018],
         thumb: './images/carry-on1.jpg',
-        keywords: ['young adult', 'fiction', 'fantasy', 'lgbt', 'magic', 'vampires', 'romance', 'wizards', 'witches', 'female author', 'series']
+        keywords: ['young adult', 'fiction', 'fantasy', 'lgbt', 'magic', 'vampires', 'romance', 'wizards', 'witches', 'female author', 'series', 'schools']
     },
     {
         title: 'Wayward Son',
@@ -5067,6 +5073,16 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/carry-on2.jpg',
         keywords: ['young adult', 'fiction', 'fantasy', 'lgbt', 'magic', 'vampires', 'romance', 'wizards', 'witches', 'adventure', 'female author', 'series']
+    },
+    {
+        title: 'Any Way the Wind Blows',
+        author: 'Rainbow Rowell',
+        myRating: 6,
+        pages: 579,
+        pubDate: 2021,
+        yearRead: [2021],
+        thumb: './images/carry-on3.jpg',
+        keywords: ['young adult', 'fiction', 'fantasy', 'lgbt', 'magic', 'vampires', 'romance', 'wizards', 'witches', 'female author', 'series']
     },
     {
         title: 'Kindred Spirits',
