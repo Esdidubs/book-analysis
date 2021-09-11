@@ -1,4 +1,5 @@
 /*
+	Things to add:
 	- Add more keywords
 	- Add descriptions for each book in own words
 	- Add you might like to each book
@@ -2476,6 +2477,18 @@ let bookData = [
         keywords: ['fantasy', 'fiction', 'magic', 'high fantasy', 'movies', 'lord of the rings', 'young adult', 'adventure', 'series'],
 		similar: ["Harry Potter and the Sorcerer's Stone", 'The Lightning Thief', 'Name of the Wind'],
 		description: `A hobbit goes on a quest to win a share of treasure guarded by a dragon.`
+    },
+    {
+        title: 'The Fellowship of the Ring',
+        author: 'J.R.R. Tolkien',
+        myRating: 7,
+        pages: 527,
+        pubDate: 1954,
+        yearRead: [2021],
+        thumb: './images/lotr1.jpg',
+        keywords: ['fantasy', 'fiction', 'magic', 'high fantasy', 'movies', 'lord of the rings', 'adventure', 'series'],
+		similar: ["Harry Potter and the Sorcerer's Stone", 'The Lightning Thief', 'Name of the Wind'],
+		description: `A hobbit goes on a quest to destroy the most powerful magic ring in the world.`
     },
     {
         title: 'Surprised by the Power of the Spirit',
