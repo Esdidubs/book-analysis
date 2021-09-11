@@ -1,5 +1,6 @@
 /*
-	- fun facts page with lots of data and maybe charts
+	Things to add:
+
 */
 
 
@@ -406,8 +407,6 @@ function displayYears() {
 						} else if(bookData[book].keywords.includes('nonfiction')){
 							nonficCount++;
 						}
-						// maybe need to use return to get the count to work?
-
 						
 						getMostAuthors(authors, book);
 						getOldestBook(oldestBook, book);
@@ -539,7 +538,7 @@ function printTopCategories(mostCategories){
 	}
 
 	if(tempTop == ''){
-		tempTop = 'No most read categories this year.'
+		tempTop = 'No most read categories.'
 	} 
 
 	return tempTop;
@@ -563,7 +562,7 @@ function printTopAuthors(mostAuthors){
 	}
 
 	if(tempTop == ''){
-		tempTop = 'No most read authors this year.'
+		tempTop = 'No most read authors.'
 	} 
 
 	return tempTop;
@@ -710,7 +709,11 @@ function displayRanks() {
 	let rankChoice = $('#rankSelection').val();
 	let rankBookList = ``;
 	let bookCount = 0;
-	let bookWord = 'books';
+	let ficCount = 0;
+	let nonficCount = 0;
+	let totalReadCount = 0;
+	let pagesForRating = 0;
+	let categories = {};
 
 
 	for (let book in bookData) {
@@ -718,18 +721,39 @@ function displayRanks() {
 		} else {
 				if (bookData[book].myRating == rankChoice) {	
 					rankBookList += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
-						.author}</div><div class="pages">Pages: ${bookData[book].pages}</div></div>`;
+						.author}</div></div>`;
 					bookCount++;
+					totalReadCount += bookData[book].yearRead.length;
+					pagesForRating += bookData[book].pages;
+
+					getCategories(categories, book);
+
+					if(bookData[book].keywords.includes('fiction')){
+						ficCount++;
+					} else if(bookData[book].keywords.includes('nonfiction')){
+						nonficCount++;
+					}
 				}
 			}
 	}
 
-	if(bookCount==1){
-		bookWord = 'book';
-	}
+	let ficPercentage = ficCount / (ficCount + nonficCount) * 100;
+	let nonficPercentage = nonficCount / (ficCount + nonficCount) * 100;
+	let avgPages = pagesForRating / bookCount;
 
-	$('.rankBooks').html(`     
-		<h3>${bookCount} ${bookWord}</h3>	
+	let mostCategories = [];
+	alterCategories(categories, mostCategories);
+	let topCategories = printTopCategories(mostCategories);
+
+	$('.rankBooks').html(`  
+		<div class="bookList">
+			<div class="mostReadAuthors"><div class="title">Quick Stats</div><div>Books: ${bookCount}</div>
+				<div>Total Read Count: ${totalReadCount}</div><div>Average Pages: ${avgPages.toFixed(2)}</div></div>
+			<div class="mostReadAuthors"><div class="title">Fiction vs Nonfiction</div><div>Fiction: ${ficCount} (${ficPercentage
+				.toFixed(0)}%)</div><div>Nonfiction: ${nonficCount} (${nonficPercentage.toFixed(0)}%)</div></div>
+			<div class="mostReadAuthors"><div class="title">Top Keywords</div><div>${topCategories}</div></div>
+		</div>
+		<hr />
 		<div class="bookList">${rankBookList}</div>
     `);
 }
@@ -755,29 +779,39 @@ function authorSetup() {
 
 	for (let book in bookCopy) {
 		if(authors[bookCopy[book].author]==undefined){
-			authors[bookCopy[book].author] = {count: 1, combinedRating: bookCopy[book].myRating};
+			authors[bookCopy[book].author] = {
+				count: 1, 
+				combinedRating: bookCopy[book].myRating,
+				totalReads: bookCopy[book].yearRead.length,
+				pages: bookCopy[book].pages
+			};
 		} else {
 			authors[bookCopy[book].author].count ++;
 			authors[bookCopy[book].author].combinedRating += bookCopy[book].myRating;
+			authors[bookCopy[book].author].totalReads += bookCopy[book].yearRead.length;
+			authors[bookCopy[book].author].pages += bookCopy[book].pages;
 		}
 	}
 	
 
 	for(let author in authors){ 
-		if(authors[author].count > 4){
-			mostAuthors.push([author, authors[author].count, authors[author].combinedRating]);
+		if(authors[author].totalReads > 4){
+			mostAuthors.push([author, authors[author].count, authors[author].combinedRating, authors[author].totalReads, authors[author].pages]);
 		}
 	}
 
-	mostAuthors.sort((a, b) => b[1] - a[1]);
+	mostAuthors.sort((a, b) => b[3] - a[3]);
 
 	for (let author in mostAuthors) {
 		let avgRating = mostAuthors[author][2] / mostAuthors[author][1];
+		let avgPages = mostAuthors[author][4] / mostAuthors[author][1];
 
 		printedAuthors += `<div class="mostReadAuthors">
 								<div class="title">${mostAuthors[author][0]}</div>
 								<div>${mostAuthors[author][1]} books</div>
+								<div>${mostAuthors[author][3]} total reads</div>
 								<div>${avgRating.toFixed(2)} average rating</div>
+								<div>${avgPages.toFixed(2)} average pages</div>
 							</div>`;
 	}
 
@@ -803,6 +837,7 @@ function getModalPopup(bookTitle){
         	selectedBook.pages = bookData[i].pages;
         	selectedBook.pubDate = bookData[i].pubDate;
         	selectedBook.yearRead = bookData[i].yearRead;
+			selectedBook.readCount = bookData[i].yearRead.length;
         	selectedBook.thumb = bookData[i].thumb;
         	selectedBook.keywords = bookData[i].keywords;
 			selectedBook.similar = bookData[i].similar;
@@ -851,6 +886,7 @@ function showModalPopup(selectedBook, bookYears, bookKeywords, similarPrinted){
 			<div><span class="bookDetail">Rating:</span> ${selectedBook.myRating}/10</div>
 			<div><span class="bookDetail">Pages:</span> ${selectedBook.pages}</div>
 			<div><span class="bookDetail">Released:</span> ${selectedBook.pubDate}</div>
+			<div><span class="bookDetail">Read Count:</span> ${selectedBook.readCount}</div>
 			<div><span class="bookDetail">Years Read:</span> ${bookYears}</div>
 			<div><span class="bookDetail">Keywords:</span> ${bookKeywords}</div>
 			<div><span class="bookDetail">Description:</span> ${selectedBook.description}</div>
@@ -861,6 +897,8 @@ function showModalPopup(selectedBook, bookYears, bookKeywords, similarPrinted){
 		<div>
 		<button onclick="hideModalPopup()" class="modalButton">Close</button>
 	`);
+
+	setRandomColor();
 }
 
 function hideModalPopup(){
