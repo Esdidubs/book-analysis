@@ -3,6 +3,7 @@
 	- Add more keywords
 	- Add descriptions for each book in own words
 	- Add you might like to each book
+	- Add schools to things like Name of the wind etc
 */
 
 let bookData = [
@@ -3569,8 +3570,8 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/one-of-us-is-lying.jpg',
         keywords: ['fiction', 'young adult', 'mystery', 'thriller', 'crime', 'tv', 'unreliable narrator', 'female author', 'series'],
-		similar: [],
-		description: ``
+		similar: ['The Girl on the Train', "There's Someone Inside Your House"],
+		description: `Five students walk into detention. Four students walk out alive. Everyone is a suspect.`
     },
     {
         title: 'Bridge to Terabithia',
@@ -3581,8 +3582,8 @@ let bookData = [
         yearRead: [1999],
         thumb: './images/terabithia.jpg',
         keywords: ['fiction', 'young adult', 'death', 'movies', 'female author'],
-		similar: [],
-		description: ``
+		similar: ['Holes', 'Number the Stars'],
+		description: `A fifth grade boy and girl hang out during the summer until tragedy strikes.`
     },
     {
         title: 'Finding Sisu',
@@ -3593,8 +3594,8 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/sisu.jpg',
         keywords: ['nonfiction', 'self-help', 'travel', 'female author'],
-		similar: [],
-		description: ``
+		similar: ['The Year of Less', 'The Danish Way of Parenting'],
+		description: `A journalist describes how she moved to Finland and adopted a "keep it simple and sensible" way of life.`
     },
     {
         title: 'Independent Me',
@@ -3605,8 +3606,8 @@ let bookData = [
         yearRead: [2014],
         thumb: './images/independent-me.jpg',
         keywords: ['nonfiction', 'christian', 'christian living'],
-		similar: [],
-		description: ``
+		similar: ['Humility'],
+		description: `A look at spirtual authority and selfishness.`
     },
     {
         title: "The Geek Dad's Guide to Weekend Fun",
@@ -3617,8 +3618,8 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/geek-dad.jpg',
         keywords: ['nonfiction', 'crafts', 'parenting', 'reference'],
-		similar: [],
-		description: ``
+		similar: ['Be Prepared'],
+		description: `Geek-themed crafts for dads to do with their kids.`
     },
     {
         title: "The New Answers Book 1",
@@ -3629,8 +3630,8 @@ let bookData = [
         yearRead: [2009],
         thumb: './images/new-answers.jpg',
         keywords: ['nonfiction', 'christian', 'theology', 'series'],
-		similar: [],
-		description: ``
+		similar: ['Navigating Genesis', "Who's Afraid of the Multiverse"],
+		description: `An attempt to explain away science without using actual science.`
     },
     {
         title: "One Flew Over the Cuckoo's Nest",
@@ -3641,8 +3642,8 @@ let bookData = [
         yearRead: [2007, 2007],
         thumb: './images/one-flew-over.jpg',
         keywords: ['fiction', 'mental health', 'movies', 'unreliable narrator'],
-		similar: [],
-		description: ``
+		similar: ['Fight Club'],
+		description: `A convicted criminal fakes being insane to go to an asylum instead of prison.`
     },
     {
         title: 'Quidditch Through the Ages',
@@ -3653,8 +3654,8 @@ let bookData = [
         yearRead: [2001, 2007, 2021],
         thumb: './images/quidditch.jpg',
         keywords: ['harry potter', 'fiction', 'children', 'reference', 'sports', 'fantasy', 'magic', 'witches', 'wizards', 'female author', 'series'],
-		similar: [],
-		description: ``
+		similar: ['Fantastic Beasts and Where to Find Them', 'The Tales of Beedle the Bard', "Harry Potter and the Sorcerer's Stone"],
+		description: `A reference book for Quidditch talked about in the first Harry Potter book.`
     },
     {
         title: 'Unlimited Memory',
@@ -3665,8 +3666,8 @@ let bookData = [
         yearRead: [2019, 2021],
         thumb: './images/unlimited-memory.jpg',
         keywords: ['nonfiction', 'psychology', 'self-help', 'productivity'],
-		similar: [],
-		description: ``
+		similar: ['Smartcuts', 'Mind Hacking'],
+		description: `How to improve your memory and increase your learning speed.`
     },
     {
         title: 'For the Win',
@@ -3677,8 +3678,8 @@ let bookData = [
         yearRead: [2013],
         thumb: './images/ftw.jpg',
         keywords: ['nonfiction', 'business', 'psychology', 'games', 'video games'],
-		similar: [],
-		description: ``
+		similar: ['Super Better'],
+		description: `A book about gamification and how businesses can utilize it.`
     },
     {
         title: 'The A-Z of Atari 8-bit Games',
@@ -3689,8 +3690,8 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/az-atari-8bit.jpg',
         keywords: ['nonfiction', 'reference', 'games', 'video games'],
-		similar: [],
-		description: ``
+		similar: ["The Gamer's Bucket List", 'Game On!'],
+		description: `Overviews and reviews of a lot of Atari games.`
     },
     {
         title: 'The DUFF',
@@ -3701,8 +3702,8 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/duff.jpg',
         keywords: ['fiction', 'young adult', 'romance', 'movies', 'female author', 'series'],
-		similar: [],
-		description: ``
+		similar: ["Nick & Norah's Infinite Playlist"],
+		description: `A girl starts a fling with the boy who called her the designated ugly fat friend.`
     },
     {
         title: 'Ring',
@@ -3713,8 +3714,8 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/ring.jpg',
         keywords: ['horror', 'fiction', 'ghosts', 'japanese', 'mystery', 'thriller', 'movies', 'series'],
-		similar: [],
-		description: ``
+		similar: ['Horrorstör', 'The Shining'],
+		description: `A videotape leads to the deaths of its viewers seven days after they watch it.`
     },
     {
         title: 'Jesus and John Wayne',
@@ -3725,8 +3726,8 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/jesus-john-wayne.jpg',
         keywords: ['gender', 'nonfiction', 'christian', 'historical', 'female author'],
-		similar: [],
-		description: ``
+		similar: ['The Road Back to You', 'Theodore Roosevelt'],
+		description: `A look at the origins of toxic masculinity and hypocrisy within the Christian church.`
     },
     {
         title: "Don't Get Caught",
@@ -3737,8 +3738,8 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/dont-get-caught.jpg',
         keywords: ['fiction', 'young adult', 'mystery', 'humor'],
-		similar: [],
-		description: ``
+		similar: ['Paper Towns'],
+		description: `A boy receives a mysterious invite from the untraceable, epic prank-pulling Chaos Club.`
     },
 	//#endregion
     /*===========================

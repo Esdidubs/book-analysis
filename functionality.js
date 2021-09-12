@@ -1,6 +1,6 @@
 /*
 	Things to add:
-
+	- Make sure JK Rowling's books are actually reflected
 */
 
 
