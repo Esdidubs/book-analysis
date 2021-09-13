@@ -3755,8 +3755,8 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/awakening.jpg',
         keywords: ['fiction', 'horror', 'vampires', 'romance', 'young adult', 'tv', 'female author', 'series'],
-		similar: [],
-		description: ``
+		similar: ['Vampire Academy', 'Twilight'],
+		description: `The story of two vampire brothers and the beautiful girl torn between them.`
     },
     {
         title: 'The Struggle',
@@ -3767,8 +3767,8 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/struggle.jpg',
         keywords: ['fiction', 'horror', 'vampires', 'romance', 'young adult', 'tv', 'female author', 'series'],
-		similar: [],
-		description: ``
+		similar: ['Vampire Academy', 'Twilight'],
+		description: `A sequel in the Vampire Diaries series`
     },
     {
         title: 'The Fury',
@@ -3779,8 +3779,8 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/fury.jpg',
         keywords: ['fiction', 'horror', 'vampires', 'romance', 'young adult', 'tv', 'female author', 'series'],
-		similar: [],
-		description: ``
+		similar: ['Vampire Academy', 'Twilight'],
+		description: `A sequel in the Vampire Diaries series`
     },
     {
         title: 'Dark Reunion',
@@ -3791,8 +3791,8 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/dark-reunion.jpg',
         keywords: ['fiction', 'horror', 'vampires', 'romance', 'young adult', 'tv', 'female author', 'series'],
-		similar: [],
-		description: ``
+		similar: ['Vampire Academy', 'Twilight'],
+		description: `A sequel in the Vampire Diaries series`
     },
     {
         title: 'I Love You, Beth Cooper',
@@ -3803,8 +3803,8 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/beth-cooper.jpg',
         keywords: ['young adult', 'fiction', 'romance', 'humor', 'movies'],
-		similar: [],
-		description: ``
+		similar: ["Nick & Norah's Infinite Playlist", 'Scott Pilgrim, Volume 1'],
+		description: `A valedictorian professes his love for a girl who doesn't know he really exists.`
     },
     {
         title: 'A Secret Life',
@@ -3815,8 +3815,8 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/secret-life.jpg',
         keywords: ['tv', 'fiction', 'spy thriller', 'young adult', 'female author', 'series'],
-		similar: [],
-		description: ``
+		similar: ['Recruited'],
+		description: `Sydney Bristow goes on her first mission- in Paris.`
     },
     {
         title: 'What the Most Successful People Do Before Breakfast',
@@ -3827,8 +3827,8 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/successful-breakfast.jpg',
         keywords: ['nonfiction', 'self-help', 'business', 'productivity', 'female author'],
-		similar: [],
-		description: ``
+		similar: ['Eat That Frog!', 'The Miracle Morning'],
+		description: `Rethinking your morning to become more productive.`
     },
     {
         title: 'Guilty Pleasures',
@@ -3839,8 +3839,8 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/guilty-pleasures.jpg',
         keywords: ['fiction', 'vampires', 'horror', 'fantasy', 'romance', 'female author', 'series'],
-		similar: [],
-		description: ``
+		similar: ['Storm Front', 'Dead Until Dark', 'Buffy the Vampire Slayer: The Long Way Home'],
+		description: `A vampire hunter is asked by a vampire to investigate slayings.`
     },
     {
         title: 'Six of Crows',
@@ -3851,8 +3851,8 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/six-of-crows.jpg',
         keywords: ['fiction', 'fantasy', 'high fantasy', 'lgbt', 'romance', 'heist', 'adventure', 'young adult', 'female author', 'series'],
-		similar: [],
-		description: ``
+		similar: ['The Final Empire'],
+		description: `A criminal prodigy is asked to pull off a deadly heist to make him filthy rich.`
     },
     {
         title: 'Crooked Kingdom',
@@ -3863,8 +3863,8 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/six-of-crows2.jpg',
         keywords: ['fiction', 'fantasy', 'high fantasy', 'lgbt', 'romance', 'heist', 'adventure', 'young adult', 'female author', 'series'],
-		similar: [],
-		description: ``
+		similar: ['The Final Empire'],
+		description: `Sequel to Six of Crows.`
     },
     {
         title: 'The Bad Beginning',
@@ -3875,8 +3875,8 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate1.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'movies', 'series'],
-		similar: [],
-		description: ``
+		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+		description: `Three siblings experience bad experience after bad experience.`
     },
     {
         title: 'The Reptile Room',
@@ -3887,8 +3887,8 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate2.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'movies', 'series'],
-		similar: [],
-		description: ``
+		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+		description: `Book 2 in the 'A Series of Unfortunate Events' series.`
     },
     {
         title: 'The Wide Window',
@@ -3899,8 +3899,8 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate3.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'movies', 'series'],
-		similar: [],
-		description: ``
+		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+		description: `Book 3 in the 'A Series of Unfortunate Events' series.`
     },
     {
         title: 'The Miserable Mill',
@@ -3911,8 +3911,8 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate4.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'series'],
-		similar: [],
-		description: ``
+		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+		description: `Book 4 in the 'A Series of Unfortunate Events' series.`
     },
     {
         title: 'The Austere Academy',
@@ -3923,8 +3923,8 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate5.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'series'],
-		similar: [],
-		description: ``
+		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+		description: `Book 5 in the 'A Series of Unfortunate Events' series.`
     },
     {
         title: 'The Ersatz Elevator',
@@ -3935,8 +3935,8 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate6.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'series'],
-		similar: [],
-		description: ``
+		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+		description: `Book 6 in the 'A Series of Unfortunate Events' series.`
     },
     {
         title: 'The Vile Village',
@@ -3947,8 +3947,8 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate7.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'series'],
-		similar: [],
-		description: ``
+		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+		description: `Book 7 in the 'A Series of Unfortunate Events' series.`
     },
     {
         title: 'The Hostile Hospital',
@@ -3959,8 +3959,8 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate8.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'series'],
-		similar: [],
-		description: ``
+		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+		description: `Book 8 in the 'A Series of Unfortunate Events' series.`
     },
     {
         title: 'The Carnivorous Carnival',
@@ -3971,8 +3971,8 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate9.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'series'],
-		similar: [],
-		description: ``
+		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+		description: `Book 9 in the 'A Series of Unfortunate Events' series.`
     },
     {
         title: 'The Slippery Slope',
@@ -3983,8 +3983,8 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate10.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'series'],
-		similar: [],
-		description: ``
+		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+		description: `Book 10 in the 'A Series of Unfortunate Events' series.`
     },
     {
         title: 'The Grim Grotto',
@@ -3995,8 +3995,8 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate11.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'series'],
-		similar: [],
-		description: ``
+		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+		description: `Book 11 in the 'A Series of Unfortunate Events' series.`
     },
     {
         title: 'The Penultimate Peril',
@@ -4007,8 +4007,8 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate12.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'series'],
-		similar: [],
-		description: ``
+		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+		description: `Book 12 in the 'A Series of Unfortunate Events' series.`
     },
     {
         title: 'The End',
@@ -4019,8 +4019,8 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate13.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'series'],
-		similar: [],
-		description: ``
+		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+		description: `Book 13 in the 'A Series of Unfortunate Events' series.`
     },
     {
         title: 'Read Japanese Today',
@@ -4032,7 +4032,7 @@ let bookData = [
         thumb: './images/read-japanese.jpg',
         keywords: ['nonfiction', 'language', 'educational', 'japanese', 'japan'],
 		similar: ['Learning Chinese Characters'],
-		description: ``
+		description: `Tricks to learn and remember Japanese Kanji and characters.`
     },
     {
         title: 'The Magicians',
@@ -4042,9 +4042,9 @@ let bookData = [
         pubDate: 2009,
         yearRead: [2018],
         thumb: './images/magicians.jpg',
-        keywords: ['young adult', 'fiction', 'fantasy', 'magic', 'tv', 'series'],
-		similar: [],
-		description: ``
+        keywords: ['young adult', 'fiction', 'fantasy', 'magic', 'tv', 'series', 'schools'],
+		similar: ['Storm Front', 'The Willow Files, Vol. 2', 'Carry On'],
+		description: `A teenager obsessed with a fantasy book series finds out magic is real and that he's a magician.`
     },
     {
         title: 'Big Little Lies',
@@ -4055,8 +4055,8 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/big-little-lies.jpg',
         keywords: ['fiction', 'mystery', 'humor', 'thriller', 'tv', 'female author'],
-		similar: [],
-		description: ``
+		similar: ["Where'd You Go, Bernadette"],
+		description: `Someone dies in a gossipy town and no one seems to know what happened....or do they?`
     },
     {
         title: 'Going Bovine',
@@ -4067,8 +4067,8 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/bovine.jpg',
         keywords: ['fiction', 'young adult', 'mental health', 'weird', 'fantasy', 'humor', 'death', 'adventure', 'unreliable narrator', 'female author'],
-		similar: [],
-		description: ``
+		similar: ['Good Omens', 'The Caretaker of Lorne Field', "The Hitchhiker's Guide to the Galaxy"],
+		description: `A stoner kid gets mad cow disease and is convinced he needs to save the world.`
     },
     {
         title: 'The Giver',
@@ -4079,8 +4079,8 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/giver.jpg',
         keywords: ['fiction', 'dystopian', 'young adult', 'science fiction', 'movies', 'female author', 'series'],
-		similar: [],
-		description: ``
+		similar: ['Divergent', 'The Hunger Games'],
+		description: `A twelve-year-old realizes his colorless utopia has dark secrets.`
     },
     {
         title: 'Gathering Blue',
@@ -4091,8 +4091,8 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/gathering-blue.jpg',
         keywords: ['fiction', 'dystopian', 'young adult', 'science fiction', 'female author', 'series'],
-		similar: [],
-		description: ``
+		similar: ['Divergent', 'The Hunger Games'],
+		description: `Book 2 in The Giver series.`
     },
     {
         title: 'Messenger',
@@ -4103,8 +4103,8 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/messenger.jpg',
         keywords: ['fiction', 'dystopian', 'young adult', 'science fiction', 'female author', 'series'],
-		similar: [],
-		description: ``
+		similar: ['Divergent', 'The Hunger Games'],
+		description: `Book 3 in The Giver series.`
     },
     {
         title: 'Number the Stars',
@@ -4115,8 +4115,8 @@ let bookData = [
         yearRead: [2000, 2019],
         thumb: './images/number-stars.jpg',
         keywords: ['fiction', 'historical', 'holocaust', 'children', 'female author'],
-		similar: [],
-		description: ``
+		similar: ['Night'],
+		description: `A realistic look at what Nazi Germany was like from the eyes of a child.`
     },
     {
         title: 'Nazirite DNA',
@@ -4127,8 +4127,8 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/nazirite-dna.jpg',
         keywords: ['nonfiction', 'christian', 'prayer'],
-		similar: [],
-		description: ``
+		similar: ['When Heaven Invades Earth'],
+		description: `A pamphlet on what it means to take the Nazirite vow.`
     },
     {
         title: 'Theodore Roosevelt',
@@ -4139,8 +4139,8 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/teddy.jpg',
         keywords: ['nonfiction', 'presidents', 'biography', 'historical'],
-		similar: [],
-		description: ``
+		similar: ["America's History, For the AP Course"],
+		description: `A biography of Theodore Roosevelt.`
     },
     {
         title: 'Holes',
@@ -4151,8 +4151,8 @@ let bookData = [
         yearRead: [2001],
         thumb: './images/holes.jpg',
         keywords: ['young adult', 'fiction', 'mystery', 'adventure', 'movies', 'series'],
-		similar: [],
-		description: ``
+		similar: ['Bridge to Terabithia'],
+		description: `A kid is sentenced to a juvenile detention camp where he is forced to dig holes.`
     },
     {
         title: 'Sideways Stories from Wayside School',
@@ -4162,9 +4162,9 @@ let bookData = [
         pubDate: 1978,
         yearRead: [2003, 2015],
         thumb: './images/wayside1.jpg',
-        keywords: ['children', 'humor', 'weird', 'fiction', 'short stories', 'series'],
-		similar: [],
-		description: ``
+        keywords: ['children', 'humor', 'weird', 'fiction', 'short stories', 'series', 'schools'],
+		similar: ['How to Eat Fried Worms', 'Diary of a Wimpy Kid'],
+		description: `Wayside School is a weird school filled with unique students and wild stories.`
     },
     {
         title: 'Wayside School Is Falling Down',
@@ -4174,9 +4174,9 @@ let bookData = [
         pubDate: 1989,
         yearRead: [2003],
         thumb: './images/wayside2.jpg',
-        keywords: ['children', 'humor', 'weird', 'fiction', 'short stories', 'series'],
-		similar: [],
-		description: ``
+        keywords: ['children', 'humor', 'weird', 'fiction', 'short stories', 'series', 'schools'],
+		similar: ['How to Eat Fried Worms', 'Diary of a Wimpy Kid'],
+		description: `A sequel in the Wayside School series.`
     },
     {
         title: 'Wayside School Gets a Little Stranger',
@@ -4186,9 +4186,9 @@ let bookData = [
         pubDate: 1995,
         yearRead: [2003],
         thumb: './images/wayside3.jpg',
-        keywords: ['children', 'humor', 'weird', 'fiction', 'short stories', 'series'],
-		similar: [],
-		description: ``
+        keywords: ['children', 'humor', 'weird', 'fiction', 'short stories', 'series', 'schools'],
+		similar: ['How to Eat Fried Worms', 'Diary of a Wimpy Kid'],
+		description: `A sequel in the Wayside School series.`
     },
     {
         title: 'Recruited',
@@ -4199,8 +4199,8 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/recruited.jpg',
         keywords: ['tv', 'fiction', 'spy thriller', 'young adult', 'female author', 'series'],
-		similar: [],
-		description: ``
+		similar: ['A Secret Life'],
+		description: `A prequel adventure to the TV show Alias in which Sydney is first recruited.`
     },
 	//#endregion
     /*===========================
@@ -6634,6 +6634,18 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/rick-morty.jpg',
         keywords: ['graphic novels', 'humor', 'comics', 'science fiction', 'tv', 'series']
+    },
+	{
+        title: 'The Other Black Girl',
+        author: 'Zakiya Dalila Harris',
+        myRating: 5,
+        pages: 357,
+        pubDate: 2021,
+        yearRead: [2021],
+        thumb: './images/other-black.jpg',
+        keywords: ['fiction', 'race', 'mystery', 'thriller', 'female author'],
+		similar: ['The Girl on the Train', "There's Someone Inside Your House"],
+		description: `A black girl working in an all-white publishing office gets a new black coworker who may not be what she seems.`
     }
 	//#endregion Z
 ];
