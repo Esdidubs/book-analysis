@@ -1,9 +1,7 @@
 /*
 	Things to add:
-	- Add more keywords
 	- Add descriptions for each book in own words
 	- Add you might like to each book
-	- Add schools to things like Name of the wind etc
 */
 
 let bookData = [
@@ -259,7 +257,7 @@ let bookData = [
         pubDate: 1991,
         yearRead: [2003],
         thumb: './images/nothing-but-truth.jpg',
-        keywords: ['fiction', 'young adult', 'legal', 'patriotic'],
+        keywords: ['fiction', 'young adult', 'legal', 'patriotic', 'schools'],
 		similar: ['The Kid Who Ran for President'],
 		description: `A kid goes on trial at school for humming during the national anthem.`
     },
@@ -324,7 +322,7 @@ let bookData = [
         pubDate: 2015,
         yearRead: [2017, 2018],
         thumb: './images/simon.jpg',
-        keywords: ['fiction', 'lgbt', 'romance', 'young adult', 'coming of age', 'movies', 'female author', 'series'],
+        keywords: ['fiction', 'lgbt', 'romance', 'young adult', 'coming of age', 'movies', 'schools', 'female author', 'series'],
 		similar: ['Struck By Lightning', 'Openly Straight', 'Will Grayson, Will Grayson'],
 		description: `An in-the-closet boy is blackmailed when someone finds out his secret.`
     },
@@ -445,7 +443,7 @@ let bookData = [
         pubDate: 2013,
         yearRead: [2017],
         thumb: './images/openly-straight.jpg',
-        keywords: ['fiction', 'lgbt', 'romance', 'young adult', 'series'],
+        keywords: ['fiction', 'lgbt', 'romance', 'young adult', 'series', 'schools'],
 		similar: ['Simon vs. the Homo Sapiens Agenda'],
 		description: `A homosexual boy transfers schools and pretends to be straight.`
     },
@@ -701,7 +699,7 @@ let bookData = [
         pubDate: 1989,
         yearRead: [2001],
         thumb: './images/teacher-is-alien.jpg',
-        keywords: ['fiction', 'children', 'aliens', 'science fiction', 'series'],
+        keywords: ['fiction', 'children', 'aliens', 'science fiction', 'series', 'schools'],
 		similar: ["Werewolves Don't Go to Summer Camp", 'Bunnicula Strikes Again!'],
 		description: `A student discovers her substitute teacher is an alien after he peels his human face off.`
     },
@@ -713,7 +711,7 @@ let bookData = [
         pubDate: 1991,
         yearRead: [2001],
         thumb: './images/teacher-is-alien3.jpg',
-        keywords: ['fiction', 'children', 'aliens', 'science fiction', 'series'],
+        keywords: ['fiction', 'children', 'aliens', 'science fiction', 'series', 'schools'],
 		similar: ["Werewolves Don't Go to Summer Camp", 'Bunnicula Strikes Again!'],
 		description: `A sequel to My Teacher is an Alien.`
     },
@@ -994,7 +992,7 @@ let bookData = [
         pubDate: 2012,
         yearRead: [2016],
         thumb: './images/struck-by-lightning.jpg',
-        keywords: ['young adult', 'lgbt', 'humor', 'fiction', 'coming of age', 'movies'],
+        keywords: ['young adult', 'lgbt', 'humor', 'fiction', 'coming of age', 'movies', 'schools'],
 		similar: ['Simon vs. the Homo Sapiens Agenda', 'Will Grayson, Will Grayson'],
 		description: `An outcast blackmails the popular kids at his school into contributing
 					to his literary journal to help his college resume.`
@@ -1409,7 +1407,7 @@ let bookData = [
         pubDate: 2012,
         yearRead: [2016],
         thumb: './images/every-day.jpg',
-        keywords: ['fiction', 'fantasy', 'lgbt', 'young adult', 'romance', 'weird', 'movies', 'series'],
+        keywords: ['fiction', 'fantasy', 'lgbt', 'young adult', 'romance', 'weird', 'movies', 'series', 'schools'],
 		similar: ['Everything, Everything', 'Will Grayson, Will Grayson'],
 		description: `The main character wakes up every day inside of another person's body with all of their memories.`
     },
@@ -2331,7 +2329,7 @@ let bookData = [
         pubDate: 1997,
         yearRead: [1999, 2000, 2001, 2002, 2010, 2011, 2012, 2017, 2018, 2019, 2020, 2021, 2021],
         thumb: './images/hp1.jpg',
-        keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'adventure', 'mystery', 'movies', 'harry potter', 'female author', 'series'],
+        keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'adventure', 'mystery', 'movies', 'harry potter', 'female author', 'series', 'schools'],
 		similar: ['The Hobbit', 'The Lightning Thief', 'Name of the Wind'],
 		description: `Harry Potter is an orphaned boy who discovers one day that he is a wizard. Greatest series of all-time.`
     },
@@ -2343,7 +2341,7 @@ let bookData = [
         pubDate: 1998,
         yearRead: [2000, 2002, 2010, 2017, 2018, 2019, 2020, 2021],
         thumb: './images/hp2.jpg',
-        keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'adventure', 'mystery', 'movies', 'harry potter', 'female author', 'series'],
+        keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'adventure', 'mystery', 'movies', 'harry potter', 'female author', 'series', 'schools'],
 		similar: ['The Hobbit', 'The Lightning Thief', 'Name of the Wind'],
 		description: `Book 2 of the Harry Potter series.`
     },
@@ -2355,7 +2353,7 @@ let bookData = [
         pubDate: 1999,
         yearRead: [2000, 2002, 2010, 2017, 2018, 2019, 2020, 2021],
         thumb: './images/hp3.jpg',
-        keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'adventure', 'mystery', 'movies', 'harry potter', 'time travel', 'female author', 'series'],
+        keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'adventure', 'mystery', 'movies', 'harry potter', 'time travel', 'female author', 'series', 'schools'],
 		similar: ['The Hobbit', 'The Lightning Thief', 'Name of the Wind'],
 		description: `Book 3 of the Harry Potter series.`
     },
@@ -2367,7 +2365,7 @@ let bookData = [
         pubDate: 2000,
         yearRead: [2000, 2002, 2010, 2017, 2018, 2019, 2020, 2021],
         thumb: './images/hp4.jpg',
-        keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'adventure', 'mystery', 'movies', 'harry potter', 'female author', 'series'],
+        keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'adventure', 'mystery', 'movies', 'harry potter', 'female author', 'series', 'schools'],
 		similar: ['The Hobbit', 'The Lightning Thief', 'Name of the Wind'],
 		description: `Book 4 of the Harry Potter series.`
     },
@@ -2379,7 +2377,7 @@ let bookData = [
         pubDate: 2003,
         yearRead: [2003, 2010, 2017, 2018, 2019, 2020, 2021],
         thumb: './images/hp5.jpg',
-        keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'adventure', 'mystery', 'movies', 'harry potter', 'female author', 'series'],
+        keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'adventure', 'mystery', 'movies', 'harry potter', 'female author', 'series', 'schools'],
 		similar: ['The Hobbit', 'The Lightning Thief', 'Name of the Wind'],
 		description: `Book 5 of the Harry Potter series.`
     },
@@ -2391,7 +2389,7 @@ let bookData = [
         pubDate: 2005,
         yearRead: [2005, 2010, 2017, 2018, 2019, 2020, 2021],
         thumb: './images/hp6.jpg',
-        keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'adventure', 'mystery', 'movies', 'harry potter', 'female author', 'series'],
+        keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'adventure', 'mystery', 'movies', 'harry potter', 'female author', 'series', 'schools'],
 		similar: ['The Hobbit', 'The Lightning Thief', 'Name of the Wind'],
 		description: `Book 6 of the Harry Potter series.`
     },
@@ -2657,7 +2655,7 @@ let bookData = [
         pubDate: 2007,
         yearRead: [2016],
         thumb: './images/thirteen-reasons.jpg',
-        keywords: ['young adult', 'suicide', 'fiction', 'mental health', 'mystery', 'tv'],
+        keywords: ['young adult', 'suicide', 'fiction', 'mental health', 'mystery', 'tv', 'schools'],
 		similar: ['All the Bright Places'],
 		description: `A girl commits suicide and leaves behind cassette tapes explaining why.`
     },
@@ -2755,7 +2753,7 @@ let bookData = [
         pubDate: 2015,
         yearRead: [2018],
         thumb: './images/all-bright-places.jpg',
-        keywords: ['fiction', 'young adult', 'suicide', 'romance', 'mental health', 'movies', 'female author'],
+        keywords: ['fiction', 'young adult', 'suicide', 'romance', 'mental health', 'movies', 'female author', 'schools'],
 		similar: ['Thirteen Reasons Why'],
 		description: `A girl who learns to live from a boy who intends to die.`
     },
@@ -2877,7 +2875,7 @@ let bookData = [
         pubDate: 1999,
         yearRead: [2002, 2009],
         thumb: './images/left-behind-kids5.jpg',
-        keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series'],
+        keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series', 'schools'],
 		similar: ['Left Behind'],
 		description: `One of the books in the Left Behind Kids series.`
     },
@@ -3129,7 +3127,7 @@ let bookData = [
         pubDate: 2012,
         yearRead: [2015],
         thumb: './images/me-earl.jpg',
-        keywords: ['fiction', 'young adult', 'sickness', 'humor', 'death', 'coming of age', 'movies'],
+        keywords: ['fiction', 'young adult', 'sickness', 'humor', 'death', 'coming of age', 'movies', 'schools'],
 		similar: ['The Fault in Our Stars', 'Looking for Alaska'],
 		description: `A teenager is forced to hang out with his childhood friend struggling with leukemia.`
     },
@@ -3262,7 +3260,7 @@ let bookData = [
         pubDate: 2005,
         yearRead: [2015, 2017, 2019],
         thumb: './images/alaska.jpg',
-        keywords: ['fiction', 'young adult', 'romance', 'coming of age', 'death', 'tv'],
+        keywords: ['fiction', 'young adult', 'romance', 'coming of age', 'death', 'tv', 'schools'],
 		similar: ['Me and Earl and the Dying Girl', 'Turtles All the Way Down', 'The Fault in Our Stars'],
 		description: `A boy obsessed with the last words of people goes to a boarding school where his 
 					safe-living personality is challenged by a girl who's his complete opposite.`
@@ -3371,7 +3369,7 @@ let bookData = [
         pubDate: 2016,
         yearRead: [2016, 2017],
         thumb: './images/hp-cursed.jpg',
-        keywords: ['harry potter', 'fiction', 'play', 'time travel', 'script', 'fantasy', 'magic', 'wizards', 'witches', 'series'],
+        keywords: ['harry potter', 'fiction', 'play', 'time travel', 'script', 'fantasy', 'magic', 'wizards', 'witches', 'series', 'schools'],
 		similar: ["Harry Potter and the Sorcerer's Stone", 'Fantastic Beasts and Where to Find Them: The Original Screenplay'],
 		description: `The script for the Broadway Harry Potter play set at a time when Harry Potter's kids are at Hogwarts.`
     },
@@ -3569,7 +3567,7 @@ let bookData = [
         pubDate: 2017,
         yearRead: [2018],
         thumb: './images/one-of-us-is-lying.jpg',
-        keywords: ['fiction', 'young adult', 'mystery', 'thriller', 'crime', 'tv', 'unreliable narrator', 'female author', 'series'],
+        keywords: ['fiction', 'young adult', 'mystery', 'thriller', 'crime', 'tv', 'unreliable narrator', 'female author', 'series', 'schools'],
 		similar: ['The Girl on the Train', "There's Someone Inside Your House"],
 		description: `Five students walk into detention. Four students walk out alive. Everyone is a suspect.`
     },
@@ -3701,7 +3699,7 @@ let bookData = [
         pubDate: 2010,
         yearRead: [2016],
         thumb: './images/duff.jpg',
-        keywords: ['fiction', 'young adult', 'romance', 'movies', 'female author', 'series'],
+        keywords: ['fiction', 'young adult', 'romance', 'movies', 'female author', 'series', 'schools'],
 		similar: ["Nick & Norah's Infinite Playlist"],
 		description: `A girl starts a fling with the boy who called her the designated ugly fat friend.`
     },
@@ -3737,7 +3735,7 @@ let bookData = [
         pubDate: 2016,
         yearRead: [2017],
         thumb: './images/dont-get-caught.jpg',
-        keywords: ['fiction', 'young adult', 'mystery', 'humor'],
+        keywords: ['fiction', 'young adult', 'mystery', 'humor', 'schools'],
 		similar: ['Paper Towns'],
 		description: `A boy receives a mysterious invite from the untraceable, epic prank-pulling Chaos Club.`
     },
@@ -3802,7 +3800,7 @@ let bookData = [
         pubDate: 2007,
         yearRead: [2015],
         thumb: './images/beth-cooper.jpg',
-        keywords: ['young adult', 'fiction', 'romance', 'humor', 'movies'],
+        keywords: ['young adult', 'fiction', 'romance', 'humor', 'movies', 'schools'],
 		similar: ["Nick & Norah's Infinite Playlist", 'Scott Pilgrim, Volume 1'],
 		description: `A valedictorian professes his love for a girl who doesn't know he really exists.`
     },
@@ -3922,7 +3920,7 @@ let bookData = [
         pubDate: 2000,
         yearRead: [2016],
         thumb: './images/unfortunate5.jpg',
-        keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'series'],
+        keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'series', 'schools'],
 		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
 		description: `Book 5 in the 'A Series of Unfortunate Events' series.`
     },
@@ -4066,7 +4064,7 @@ let bookData = [
         pubDate: 2009,
         yearRead: [2021],
         thumb: './images/bovine.jpg',
-        keywords: ['fiction', 'young adult', 'mental health', 'weird', 'fantasy', 'humor', 'death', 'adventure', 'unreliable narrator', 'female author'],
+        keywords: ['fiction', 'young adult', 'mental health', 'weird', 'fantasy', 'humor', 'death', 'adventure', 'unreliable narrator', 'female author', 'schools'],
 		similar: ['Good Omens', 'The Caretaker of Lorne Field', "The Hitchhiker's Guide to the Galaxy"],
 		description: `A stoner kid gets mad cow disease and is convinced he needs to save the world.`
     },
@@ -4503,7 +4501,7 @@ let bookData = [
         pubDate: 2017,
         yearRead: [2017],
         thumb: './images/mean-girls.jpg',
-        keywords: ['movies', 'young adult', 'humor', 'fiction', 'romance', 'female author'],
+        keywords: ['movies', 'young adult', 'humor', 'fiction', 'romance', 'female author', 'schools'],
 		similar: ['The DUFF', 'Hocus Pocus & The All New Sequel'],
 		description: ``
     },
@@ -4718,7 +4716,7 @@ let bookData = [
         pubDate: 2007,
         yearRead: [2020],
         thumb: './images/name-of-wind.jpg',
-        keywords: ['fantasy', 'fiction', 'magic', 'music', 'adventure', 'high fantasy', 'series']
+        keywords: ['fantasy', 'fiction', 'magic', 'music', 'adventure', 'high fantasy', 'series', 'schools']
     },
     {
         title: "The Wise Man's Fear",
@@ -4728,7 +4726,7 @@ let bookData = [
         pubDate: 2011,
         yearRead: [2020],
         thumb: './images/name-of-wind2.jpg',
-        keywords: ['fantasy', 'fiction', 'magic', 'music', 'adventure', 'high fantasy', 'fairies', 'series']
+        keywords: ['fantasy', 'fiction', 'magic', 'music', 'adventure', 'high fantasy', 'fairies', 'series', 'schools']
     },
     {
         title: 'Rick and Morty vs. Dungeons & Dragons',
@@ -4860,6 +4858,17 @@ let bookData = [
     	Author First Name - R's
     ===========================*/
 	//#region R
+    {
+        title: 'What is Predestination?',
+        author: 'R.C. Sproul',
+        myRating: 8,
+        pages: 74,
+        pubDate: 2019,
+        yearRead: [2021],
+        thumb: './images/predestination.jpg',
+        keywords: ['nonfiction', 'christian', 'theology'],
+		similar: ['Systematic Theology']
+    },
     {
         title: 'Dr. Maniac Will See You Now',
         author: 'R.L. Stine',
@@ -5022,7 +5031,7 @@ let bookData = [
         pubDate: 2014,
         yearRead: [2017],
         thumb: './images/creature-teacher.jpg',
-        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
+        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series', 'schools'],
 		similar: ['Scary Stories to Tell in the Dark']
     },
     {
@@ -5434,7 +5443,7 @@ let bookData = [
         pubDate: 2008,
         yearRead: [2016],
         thumb: './images/vamp-academy3.jpg',
-        keywords: ['fiction', 'vampires', 'horror', 'romance', 'young adult', 'fantasy', 'female author', 'series']
+        keywords: ['fiction', 'vampires', 'horror', 'romance', 'young adult', 'fantasy', 'female author', 'series', 'schools']
     },
     {
         title: 'Blood Promise',
@@ -5444,7 +5453,7 @@ let bookData = [
         pubDate: 2009,
         yearRead: [2016],
         thumb: './images/vamp-academy4.jpg',
-        keywords: ['fiction', 'vampires', 'horror', 'romance', 'young adult', 'fantasy', 'female author', 'series']
+        keywords: ['fiction', 'vampires', 'horror', 'romance', 'young adult', 'fantasy', 'female author', 'series', 'schools']
     },
     {
         title: 'Spirit Bound',
@@ -5454,7 +5463,7 @@ let bookData = [
         pubDate: 2010,
         yearRead: [2016],
         thumb: './images/vamp-academy5.jpg',
-        keywords: ['fiction', 'vampires', 'horror', 'romance', 'young adult', 'fantasy', 'female author', 'series']
+        keywords: ['fiction', 'vampires', 'horror', 'romance', 'young adult', 'fantasy', 'female author', 'series', 'schools']
     },
     {
         title: 'Last Sacrifice',
@@ -5484,7 +5493,7 @@ let bookData = [
         pubDate: 2005,
         yearRead: [2016],
         thumb: './images/percy-jackson1.jpg',
-        keywords: ['fiction', 'mythology', 'young adult', 'fantasy', 'adventure', 'movies', 'series']
+        keywords: ['fiction', 'mythology', 'young adult', 'fantasy', 'adventure', 'movies', 'series', 'schools']
     },
     {
         title: 'The 5th Wave',
@@ -5701,7 +5710,7 @@ let bookData = [
         pubDate: 2006,
         yearRead: [2018],
         thumb: './images/pretty-little-liars1.jpg',
-        keywords: ['tv', 'young adult', 'fiction', 'mystery', 'romance', 'female author', 'series']
+        keywords: ['tv', 'young adult', 'fiction', 'mystery', 'romance', 'female author', 'series', 'schools']
     },
     {
         title: 'Flawless',
@@ -5711,7 +5720,7 @@ let bookData = [
         pubDate: 2007,
         yearRead: [2018],
         thumb: './images/pretty-little-liars2.jpg',
-        keywords: ['tv', 'young adult', 'fiction', 'mystery', 'romance', 'female author', 'series']
+        keywords: ['tv', 'young adult', 'fiction', 'mystery', 'romance', 'female author', 'series', 'schools']
     },
     {
         title: 'Perfect',
@@ -5721,7 +5730,7 @@ let bookData = [
         pubDate: 2007,
         yearRead: [2020],
         thumb: './images/pretty-little-liars3.jpg',
-        keywords: ['tv', 'young adult', 'fiction', 'mystery', 'romance', 'female author', 'series']
+        keywords: ['tv', 'young adult', 'fiction', 'mystery', 'romance', 'female author', 'series', 'schools']
     },
     {
         title: 'Unbelievable',
@@ -5731,7 +5740,7 @@ let bookData = [
         pubDate: 2008,
         yearRead: [2020],
         thumb: './images/pretty-little-liars4.jpg',
-        keywords: ['tv', 'young adult', 'fiction', 'mystery', 'romance', 'female author', 'series']
+        keywords: ['tv', 'young adult', 'fiction', 'mystery', 'romance', 'female author', 'series', 'schools']
     },
     {
         title: 'Wicked',
@@ -5741,7 +5750,7 @@ let bookData = [
         pubDate: 2008,
         yearRead: [2020],
         thumb: './images/pretty-little-liars5.jpg',
-        keywords: ['tv', 'young adult', 'fiction', 'mystery', 'romance', 'female author', 'series']
+        keywords: ['tv', 'young adult', 'fiction', 'mystery', 'romance', 'female author', 'series', 'schools']
     },
     {
         title: 'Killer',
@@ -5751,7 +5760,7 @@ let bookData = [
         pubDate: 2009,
         yearRead: [2020],
         thumb: './images/pretty-little-liars6.jpg',
-        keywords: ['tv', 'young adult', 'fiction', 'mystery', 'romance', 'female author', 'series']
+        keywords: ['tv', 'young adult', 'fiction', 'mystery', 'romance', 'female author', 'series', 'schools']
     },
     {
         title: 'Heartless',
@@ -5761,7 +5770,7 @@ let bookData = [
         pubDate: 2010,
         yearRead: [2020],
         thumb: './images/pretty-little-liars7.jpg',
-        keywords: ['tv', 'young adult', 'fiction', 'mystery', 'romance', 'female author', 'series']
+        keywords: ['tv', 'young adult', 'fiction', 'mystery', 'romance', 'female author', 'series', 'schools']
     },
     {
         title: 'Wanted',
@@ -5771,7 +5780,7 @@ let bookData = [
         pubDate: 2010,
         yearRead: [2020],
         thumb: './images/pretty-little-liars8.jpg',
-        keywords: ['tv', 'young adult', 'fiction', 'mystery', 'romance', 'female author', 'series']
+        keywords: ['tv', 'young adult', 'fiction', 'mystery', 'romance', 'female author', 'series', 'schools']
     },
     {
         title: "Rick and Morty: Lil' Poopy Superstar",
@@ -5915,7 +5924,7 @@ let bookData = [
         pubDate: 2007,
         yearRead: [2016],
         thumb: './images/part-time-indian.jpg',
-        keywords: ['fiction', 'young adult', 'race', 'humor', 'coming of age']
+        keywords: ['fiction', 'young adult', 'race', 'humor', 'coming of age', 'schools']
     },
     {
         title: 'Lean In',
@@ -5975,7 +5984,7 @@ let bookData = [
         pubDate: 1999,
         yearRead: [2017],
         thumb: './images/perks-wallflower.jpg',
-        keywords: ['movies', 'lgbt', 'fiction', 'young adult', 'coming of age', 'mental health', 'romance']
+        keywords: ['movies', 'lgbt', 'fiction', 'young adult', 'coming of age', 'mental health', 'romance', 'schools']
     },
     {
         title: 'I Am America (And So Can You!)',
@@ -6095,7 +6104,7 @@ let bookData = [
         pubDate: 2005,
         yearRead: [2009, 2012],
         thumb: './images/twilight1.jpg',
-        keywords: ['fiction', 'vampires', 'werewolves', 'young adult', 'romance', 'twilight', 'female author', 'series']
+        keywords: ['fiction', 'vampires', 'werewolves', 'young adult', 'romance', 'twilight', 'female author', 'series', 'schools']
     },
     {
         title: 'New Moon',
@@ -6105,7 +6114,7 @@ let bookData = [
         pubDate: 2006,
         yearRead: [2009],
         thumb: './images/twilight2.jpg',
-        keywords: ['fiction', 'vampires', 'werewolves', 'young adult', 'romance', 'twilight', 'female author', 'series']
+        keywords: ['fiction', 'vampires', 'werewolves', 'young adult', 'romance', 'twilight', 'female author', 'series', 'schools']
     },
     {
         title: 'Eclipse',
@@ -6115,7 +6124,7 @@ let bookData = [
         pubDate: 2007,
         yearRead: [2009],
         thumb: './images/twilight3.jpg',
-        keywords: ['fiction', 'vampires', 'werewolves', 'young adult', 'romance', 'twilight', 'female author', 'series']
+        keywords: ['fiction', 'vampires', 'werewolves', 'young adult', 'romance', 'twilight', 'female author', 'series', 'schools']
     },
     {
         title: 'Breaking Dawn',
@@ -6135,7 +6144,7 @@ let bookData = [
         pubDate: 2020,
         yearRead: [2020],
         thumb: './images/twilight5.jpg',
-        keywords: ['fiction', 'vampires', 'werewolves', 'young adult', 'romance', 'twilight', 'female author', 'series']
+        keywords: ['fiction', 'vampires', 'werewolves', 'young adult', 'romance', 'twilight', 'female author', 'series', 'schools']
     },
     {
         title: 'Twilight / Life and Death',
@@ -6145,7 +6154,7 @@ let bookData = [
         pubDate: 2015,
         yearRead: [2015],
         thumb: './images/twilight-life-death.jpg',
-        keywords: ['fiction', 'vampires', 'werewolves', 'young adult', 'romance', 'twilight', 'female author', 'series']
+        keywords: ['fiction', 'vampires', 'werewolves', 'young adult', 'romance', 'twilight', 'female author', 'series', 'schools']
     },
     {
         title: '30 Days of Night, Vol. 1',
@@ -6310,7 +6319,7 @@ let bookData = [
         pubDate: 1973,
         yearRead: [1999],
         thumb: './images/eat-fried-worms.jpg',
-        keywords: ['fiction', 'children', 'humor', 'movies']
+        keywords: ['fiction', 'children', 'humor', 'movies', 'schools']
     },
     {
         title: 'Left Behind',
