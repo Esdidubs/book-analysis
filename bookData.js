@@ -11,6 +11,7 @@ let bookData = [
 	//#region A
     {
         title: 'Hocus Pocus & The All New Sequel',
+        series: '',
         author: 'A.W. Jantha',
         myRating: 6,
         pages: 521,
@@ -23,6 +24,7 @@ let bookData = [
 					later and involves the kid of the first movie re-awakening the Sanderson sisters.`
     }, {
         title: 'Irresistible',
+        series: '',
         author: 'Adam Alter',
         myRating: 7,
         pages: 368,
@@ -35,6 +37,7 @@ let bookData = [
     },
     {
         title: 'Multiple Choice',
+        series: '',
         author: 'Alejandro Zambra',
         myRating: 4,
         pages: 128,
@@ -47,6 +50,7 @@ let bookData = [
     },
     {
         title: 'One Day in the Life of Ivan Denisovich',
+        series: '',
         author: 'Aleksandr Solzhenitsyn',
         myRating: 6,
         pages: 182,
@@ -59,6 +63,7 @@ let bookData = [
     },
     {
         title: 'Unprotected Lexicon',
+        series: '',
         author: 'Alexa Chrisbacher',
         myRating: 6,
         pages: 110,
@@ -71,6 +76,7 @@ let bookData = [
     },
     {
         title: 'Learning Chinese Characters',
+        series: '',
         author: 'Alison Matthews',
         myRating: 7,
         pages: 384,
@@ -83,6 +89,7 @@ let bookData = [
     },
     {
         title: 'Matched',
+        series: '',
         author: 'Ally Condie',
         myRating: 5,
         pages: 369,
@@ -95,6 +102,7 @@ let bookData = [
     },
     {
         title: 'Crossed',
+        series: '',
         author: 'Ally Condie',
         myRating: 5,
         pages: 367,
@@ -107,6 +115,7 @@ let bookData = [
     },
     {
         title: 'Reached',
+        series: '',
         author: 'Ally Condie',
         myRating: 5,
         pages: 512,
@@ -119,6 +128,7 @@ let bookData = [
     },
     {
         title: 'Scary Stories to Tell in the Dark',
+        series: '',
         author: 'Alvin Schwartz',
         myRating: 6,
         pages: 111,
@@ -131,6 +141,7 @@ let bookData = [
     },
     {
         title: 'More Scary Stories to Tell in the Dark',
+        series: '',
         author: 'Alvin Schwartz',
         myRating: 6,
         pages: 100,
@@ -143,6 +154,7 @@ let bookData = [
     },
     {
         title: 'More Tales to Chill Your Bones',
+        series: '',
         author: 'Alvin Schwartz',
         myRating: 6,
         pages: 128,
@@ -155,6 +167,7 @@ let bookData = [
     },
     {
         title: 'Humility',
+        series: '',
         author: 'Andrew Murray',
         myRating: 6,
         pages: 112,
@@ -167,6 +180,7 @@ let bookData = [
     },
     {
         title: 'The Office',
+        series: '',
         author: 'Andy Greene',
         myRating: 8,
         pages: 464,
@@ -179,6 +193,7 @@ let bookData = [
     },
     {
         title: 'The Martian',
+        series: '',
         author: 'Andy Weir',
         myRating: 8,
         pages: 435,
@@ -191,6 +206,7 @@ let bookData = [
     },
     {
         title: 'Artemis',
+        series: '',
         author: 'Andy Weir',
         myRating: 7,
         pages: 305,
@@ -203,6 +219,7 @@ let bookData = [
     },
     {
         title: 'Grit',
+        series: '',
         author: 'Angela Duckworth',
         myRating: 6,
         pages: 277,
@@ -215,6 +232,7 @@ let bookData = [
     },
     {
         title: 'The History and Uncertain Future of Handwriting',
+        series: '',
         author: 'Anne Trubek',
         myRating: 6,
         pages: 192,
@@ -227,6 +245,7 @@ let bookData = [
     },
     {
         title: 'Unshakeable',
+        series: '',
         author: 'Anthony Robbins',
         myRating: 7,
         pages: 257,
@@ -239,6 +258,7 @@ let bookData = [
     },
     {
         title: 'How Much is Enough?',
+        series: '',
         author: 'Arthur Simon',
         myRating: 7,
         pages: 192,
@@ -251,6 +271,7 @@ let bookData = [
     },
     {
         title: 'Nothing But the Truth',
+        series: '',
         author: 'Avi',
         myRating: 4,
         pages: 177,
@@ -268,6 +289,7 @@ let bookData = [
 	//#region B
     {
         title: 'Go Ask Alice',
+        series: '',
         author: 'Beatrice Sparks',
         myRating: 5,
         pages: 213,
@@ -280,6 +302,7 @@ let bookData = [
     },
     {
         title: 'Beyond Awkward',
+        series: '',
         author: 'Beau Crosetto',
         myRating: 7,
         pages: 206,
@@ -292,6 +315,7 @@ let bookData = [
     },
     {
         title: "What If It's Us",
+        series: '',
         author: 'Becky Albertalli',
         myRating: 6,
         pages: 448,
@@ -304,6 +328,7 @@ let bookData = [
     },
     {
         title: 'The Upside of Unrequited',
+        series: '',
         author: 'Becky Albertalli',
         myRating: 7,
         pages: 336,
@@ -316,6 +341,7 @@ let bookData = [
     },
     {
         title: 'Simon vs. the Homo Sapiens Agenda',
+        series: '',
         author: 'Becky Albertalli',
         myRating: 7,
         pages: 303,
@@ -328,6 +354,7 @@ let bookData = [
     },
     {
         title: 'Leah on the Offbeat',
+        series: '',
         author: 'Becky Albertalli',
         myRating: 6,
         pages: 352,
@@ -340,6 +367,7 @@ let bookData = [
     },
     {
         title: 'Love, Creekwood',
+        series: '',
         author: 'Becky Albertalli',
         myRating: 5,
         pages: 128,
@@ -352,6 +380,7 @@ let bookData = [
     },
     {
         title: '101 Video Games to Play Before You Grow Up',
+        series: '',
         author: 'Ben Bertoli',
         myRating: 6,
         pages: 144,
@@ -364,6 +393,7 @@ let bookData = [
     },
     {
         title: 'Math with Bad Drawings',
+        series: '',
         author: 'Ben Orlin',
         myRating: 9,
         pages: 376,
@@ -376,6 +406,7 @@ let bookData = [
     },
     {
         title: 'Aristotle and Dante Discover the Secrets of the Universe',
+        series: '',
         author: 'Benjamin Alire Sáenz',
         myRating: 7,
         pages: 359,
@@ -389,6 +420,7 @@ let bookData = [
     },
     {
         title: 'Fluent in 3 Months',
+        series: '',
         author: 'Benny Lewis',
         myRating: 7,
         pages: 249,
@@ -401,6 +433,7 @@ let bookData = [
     },
     {
         title: 'The Mouse and the Motorcycle',
+        series: '',
         author: 'Beverly Cleary',
         myRating: 6,
         pages: 186,
@@ -413,6 +446,7 @@ let bookData = [
     },
     {
         title: 'Courageous Leadership',
+        series: '',
         author: 'Bill Hybels',
         myRating: 5,
         pages: 275,
@@ -425,6 +459,7 @@ let bookData = [
     },
     {
         title: 'When Heaven Invades Earth',
+        series: '',
         author: 'Bill Johnson',
         myRating: 5,
         pages: 190,
@@ -437,6 +472,7 @@ let bookData = [
     },
     {
         title: 'Openly Straight',
+        series: '',
         author: 'Bill Konigsberg',
         myRating: 4,
         pages: 320,
@@ -449,6 +485,7 @@ let bookData = [
     },
     {
         title: 'Who Is the Greatest: Elvis or the Beatles?',
+        series: '',
         author: 'Bill Slater',
         myRating: 5,
         pages: 223,
@@ -461,6 +498,7 @@ let bookData = [
     },
     {
         title: 'Console Wars',
+        series: '',
         author: 'Blake Harris',
         myRating: 8,
         pages: 576,
@@ -473,6 +511,7 @@ let bookData = [
     },
     {
         title: "Fail Until You Don't",
+        series: '',
         author: 'Bobby Bones',
         myRating: 5,
         pages: 224,
@@ -485,6 +524,7 @@ let bookData = [
     },
     {
         title: "Tetris: The Games People Play",
+        series: '',
         author: 'Box Brown',
         myRating: 6,
         pages: 253,
@@ -497,6 +537,7 @@ let bookData = [
     },
     {
         title: 'Elantris',
+        series: '',
         author: 'Brandon Sanderson',
         myRating: 9,
         pages: 638,
@@ -510,6 +551,7 @@ let bookData = [
     },
     {
         title: 'The Hope of Elantris',
+        series: '',
         author: 'Brandon Sanderson',
         myRating: 8,
         pages: 25,
@@ -522,6 +564,7 @@ let bookData = [
     },
     {
         title: "The Emperor's Soul",
+        series: '',
         author: 'Brandon Sanderson',
         myRating: 10,
         pages: 175,
@@ -535,6 +578,7 @@ let bookData = [
     },
     {
         title: 'Warbreaker',
+        series: '',
         author: 'Brandon Sanderson',
         myRating: 10,
         pages: 688,
@@ -548,6 +592,7 @@ let bookData = [
     },
     {
         title: 'The Final Empire',
+        series: '',
         author: 'Brandon Sanderson',
         myRating: 10,
         pages: 541,
@@ -561,6 +606,7 @@ let bookData = [
     },
     {
         title: 'The Well of Ascension',
+        series: '',
         author: 'Brandon Sanderson',
         myRating: 9,
         pages: 590,
@@ -573,6 +619,7 @@ let bookData = [
     },
     {
         title: 'The Hero of Ages',
+        series: '',
         author: 'Brandon Sanderson',
         myRating: 9,
         pages: 572,
@@ -585,6 +632,7 @@ let bookData = [
     },
     {
         title: 'The Eleventh Metal',
+        series: '',
         author: 'Brandon Sanderson',
         myRating: 8,
         pages: 21,
@@ -597,6 +645,7 @@ let bookData = [
     },
     {
         title: 'Steelheart',
+        series: '',
         author: 'Brandon Sanderson',
         myRating: 9,
         pages: 386,
@@ -609,6 +658,7 @@ let bookData = [
     },
     {
         title: 'High Performance Habits',
+        series: '',
         author: 'Brendon Burchard',
         myRating: 7,
         pages: 393,
@@ -621,6 +671,7 @@ let bookData = [
     },
     {
         title: 'The Rising',
+        series: '',
         author: 'Brian Keene',
         myRating: 6,
         pages: 321,
@@ -633,6 +684,7 @@ let bookData = [
     },
     {
         title: 'Guardians of the Galaxy, Volume 1',
+        series: '',
         author: 'Brian Michael Bendis',
         myRating: 6,
         pages: 136,
@@ -645,6 +697,7 @@ let bookData = [
     },
     {
         title: 'Guardians of the Galaxy, Volume 2',
+        series: '',
         author: 'Brian Michael Bendis',
         myRating: 6,
         pages: 168,
@@ -657,6 +710,7 @@ let bookData = [
     },
     {
         title: 'Guardians of the Galaxy/All-New X-Men',
+        series: '',
         author: 'Brian Michael Bendis',
         myRating: 6,
         pages: 144,
@@ -669,6 +723,7 @@ let bookData = [
     },
     {
         title: 'Eat That Frog!',
+        series: '',
         author: 'Brian Tracy',
         myRating: 6,
         pages: 128,
@@ -681,6 +736,7 @@ let bookData = [
     },
     {
         title: 'God Is in the Small Stuff',
+        series: '',
         author: 'Bruce Bickel',
         myRating: 7,
         pages: 256,
@@ -693,6 +749,7 @@ let bookData = [
     },
     {
         title: 'My Teacher is an Alien',
+        series: '',
         author: 'Bruce Coville',
         myRating: 6,
         pages: 124,
@@ -705,6 +762,7 @@ let bookData = [
     },
     {
         title: 'My Teacher Glows in the Dark',
+        series: '',
         author: 'Bruce Coville',
         myRating: 6,
         pages: 144,
@@ -717,6 +775,7 @@ let bookData = [
     },
     {
         title: 'Scott Pilgrim, Volume 1',
+        series: '',
         author: "Bryan Lee O'Malley",
         myRating: 7,
         pages: 168,
@@ -729,6 +788,7 @@ let bookData = [
     },
     {
         title: 'Scott Pilgrim, Volume 2',
+        series: '',
         author: "Bryan Lee O'Malley",
         myRating: 7,
         pages: 200,
@@ -741,6 +801,7 @@ let bookData = [
     },
     {
         title: 'Scott Pilgrim, Volume 3',
+        series: '',
         author: "Bryan Lee O'Malley",
         myRating: 7,
         pages: 192,
@@ -753,6 +814,7 @@ let bookData = [
     },
     {
         title: 'Scott Pilgrim, Volume 4',
+        series: '',
         author: "Bryan Lee O'Malley",
         myRating: 7,
         pages: 205,
@@ -765,6 +827,7 @@ let bookData = [
     },
     {
         title: 'Scott Pilgrim, Vol. 5',
+        series: '',
         author: "Bryan Lee O'Malley",
         myRating: 7,
         pages: 178,
@@ -777,6 +840,7 @@ let bookData = [
     },
     {
         title: 'Scott Pilgrim, Vol. 6',
+        series: '',
         author: "Bryan Lee O'Malley",
         myRating: 7,
         pages: 245,
@@ -794,6 +858,7 @@ let bookData = [
 	//#region C
     {
         title: "The Magician's Nephew",
+        series: '',
         author: 'C.S. Lewis',
         myRating: 5,
         pages: 221,
@@ -806,6 +871,7 @@ let bookData = [
     },
     {
         title: 'The Lion, the Witch and the Wardrobe',
+        series: '',
         author: 'C.S. Lewis',
         myRating: 6,
         pages: 206,
@@ -818,6 +884,7 @@ let bookData = [
     },
     {
         title: 'The Screwtape Letters',
+        series: '',
         author: 'C.S. Lewis',
         myRating: 8,
         pages: 209,
@@ -830,6 +897,7 @@ let bookData = [
     },
     {
         title: 'The Year of Less',
+        series: '',
         author: 'Cait Flanders',
         myRating: 3,
         pages: 189,
@@ -842,6 +910,7 @@ let bookData = [
     },
     {
         title: 'Deep Work',
+        series: '',
         author: 'Cal Newport',
         myRating: 7,
         pages: 296,
@@ -854,6 +923,7 @@ let bookData = [
     },
     {
         title: 'Digital Minimalism',
+        series: '',
         author: 'Cal Newport',
         myRating: 7,
         pages: 286,
@@ -866,6 +936,7 @@ let bookData = [
     },
     {
         title: "So Good They Can't Ignore You",
+        series: '',
         author: 'Cal Newport',
         myRating: 6,
         pages: 288,
@@ -878,6 +949,7 @@ let bookData = [
     },
     {
         title: "A World Without Email",
+        series: '',
         author: 'Cal Newport',
         myRating: 4,
         pages: 320,
@@ -890,6 +962,7 @@ let bookData = [
     },
     {
         title: 'Seven Brief Lessons on Physics',
+        series: '',
         author: 'Carlo Rovelli',
         myRating: 6,
         pages: 81,
@@ -902,6 +975,7 @@ let bookData = [
     },
     {
         title: 'Dead Until Dark',
+        series: '',
         author: 'Charlaine Harris',
         myRating: 7,
         pages: 292,
@@ -914,6 +988,7 @@ let bookData = [
     },
     {
         title: 'Python for Everybody',
+        series: '',
         author: 'Charles Severance',
         myRating: 6,
         pages: 246,
@@ -926,6 +1001,7 @@ let bookData = [
     },
     {
         title: 'Naked Statistics',
+        series: '',
         author: 'Charles Wheelan',
         myRating: 7,
         pages: 282,
@@ -938,6 +1014,7 @@ let bookData = [
     },
     {
         title: 'The Yellow Wallpaper',
+        series: '',
         author: 'Charlotte Perkins Gilman',
         myRating: 7,
         pages: 32,
@@ -950,6 +1027,7 @@ let bookData = [
     },
     {
         title: 'We Should All Be Feminists',
+        series: '',
         author: 'Chimamanda Ngozi Adichie',
         myRating: 7,
         pages: 52,
@@ -962,6 +1040,7 @@ let bookData = [
     },
     {
         title: 'Dear Ijeawele',
+        series: '',
         author: 'Chimamanda Ngozi Adichie',
         myRating: 6,
         pages: 63,
@@ -974,6 +1053,7 @@ let bookData = [
     },
     {
         title: 'Things Fall Apart',
+        series: '',
         author: 'Chinua Achebe',
         myRating: 7,
         pages: 209,
@@ -986,6 +1066,7 @@ let bookData = [
     },
     {
         title: 'Struck By Lightning',
+        series: '',
         author: 'Chris Colfer',
         myRating: 6,
         pages: 272,
@@ -999,6 +1080,7 @@ let bookData = [
     },
     {
         title: 'The Nerdist Way',
+        series: '',
         author: 'Chris Hardwick',
         myRating: 7,
         pages: 279,
@@ -1011,6 +1093,7 @@ let bookData = [
     },
     {
         title: 'Retire Inspired',
+        series: '',
         author: 'Chris Hogan',
         myRating: 7,
         pages: 256,
@@ -1023,6 +1106,7 @@ let bookData = [
     },
     {
         title: "The Gamer's Bucket List",
+        series: '',
         author: 'Chris Watters',
         myRating: 6,
         pages: 139,
@@ -1035,6 +1119,7 @@ let bookData = [
     },
     {
         title: 'Maze',
+        series: '',
         author: 'Christopher Manson',
         myRating: 6,
         pages: 96,
@@ -1047,6 +1132,7 @@ let bookData = [
     },
     {
         title: 'A Dirty Job',
+        series: '',
         author: 'Christopher Moore',
         myRating: 6,
         pages: 387,
@@ -1059,6 +1145,7 @@ let bookData = [
     },
     {
         title: 'Fight Club',
+        series: '',
         author: 'Chuck Palahniuk',
         myRating: 9,
         pages: 218,
@@ -1071,6 +1158,7 @@ let bookData = [
     },
     {
         title: 'Fight Club 2',
+        series: '',
         author: 'Chuck Palahniuk',
         myRating: 4,
         pages: 256,
@@ -1083,6 +1171,7 @@ let bookData = [
     },
     {
         title: 'Choke',
+        series: '',
         author: 'Chuck Palahniuk',
         myRating: 5,
         pages: 293,
@@ -1095,6 +1184,7 @@ let bookData = [
     },
     {
         title: 'Science Hacks',
+        series: '',
         author: 'Colin Barras',
         myRating: 5,
         pages: 208,
@@ -1107,6 +1197,7 @@ let bookData = [
     },
     {
         title: 'Project 333',
+        series: '',
         author: 'Courtney Carver',
         myRating: 6,
         pages: 224,
@@ -1119,6 +1210,7 @@ let bookData = [
     },
     {
         title: 'Night of the Living Deadpool',
+        series: '',
         author: 'Cullen Bunn',
         myRating: 6,
         pages: 96,
@@ -1131,6 +1223,7 @@ let bookData = [
     },
     {
         title: 'Return of the Living Deadpool',
+        series: '',
         author: 'Cullen Bunn',
         myRating: 6,
         pages: 112,
@@ -1148,6 +1241,7 @@ let bookData = [
 	//#region D
     {
         title: 'The God Who Is There',
+        series: '',
         author: 'D.A. Carson',
         myRating: 5,
         pages: 232,
@@ -1160,6 +1254,7 @@ let bookData = [
     },
     {
         title: 'Angels & Demons',
+        series: '',
         author: 'Dan Brown',
         myRating: 8,
         pages: 496,
@@ -1172,6 +1267,7 @@ let bookData = [
     },
     {
         title: 'The Da Vinci Code',
+        series: '',
         author: 'Dan Brown',
         myRating: 8,
         pages: 489,
@@ -1184,6 +1280,7 @@ let bookData = [
     },
     {
         title: 'The Lost Symbol',
+        series: '',
         author: 'Dan Brown',
         myRating: 7,
         pages: 670,
@@ -1196,6 +1293,7 @@ let bookData = [
     },
     {
         title: 'Inferno',
+        series: '',
         author: 'Dan Brown',
         myRating: 7,
         pages: 463,
@@ -1208,6 +1306,7 @@ let bookData = [
     },
     {
         title: 'The Kid Who Ran for President',
+        series: '',
         author: 'Dan Gutman',
         myRating: 6,
         pages: 156,
@@ -1220,6 +1319,7 @@ let bookData = [
     },
     {
         title: 'The Little Book of Talent',
+        series: '',
         author: 'Daniel Coyle',
         myRating: 7,
         pages: 160,
@@ -1232,6 +1332,7 @@ let bookData = [
     },
     {
         title: 'Minecraft',
+        series: '',
         author: 'Daniel Goldberg',
         myRating: 7,
         pages: 256,
@@ -1244,6 +1345,7 @@ let bookData = [
     },
     {
         title: 'Drive',
+        series: '',
         author: 'Daniel H. Pink',
         myRating: 7,
         pages: 242,
@@ -1256,6 +1358,7 @@ let bookData = [
     },
     {
         title: 'Flowers for Algernon',
+        series: '',
         author: 'Daniel Keyes',
         myRating: 6,
         pages: 311,
@@ -1268,6 +1371,7 @@ let bookData = [
     },
     {
         title: 'World of Warcraft',
+        series: '',
         author: 'Daniel Lisi',
         myRating: 7,
         pages: 128,
@@ -1280,6 +1384,7 @@ let bookData = [
     },
     {
         title: 'The Inferno',
+        series: '',
         author: 'Dante Alighieri',
         myRating: 7,
         pages: 302,
@@ -1292,6 +1397,7 @@ let bookData = [
     },
     {
         title: 'The Adventures of Captain Underpants',
+        series: '',
         author: 'Dav Pilkey',
         myRating: 6,
         pages: 125,
@@ -1304,6 +1410,7 @@ let bookData = [
     },
     {
         title: 'The Circle',
+        series: '',
         author: 'Dave Eggers',
         myRating: 6,
         pages: 493,
@@ -1317,6 +1424,7 @@ let bookData = [
     },
     {
         title: 'The Money Answer Book',
+        series: '',
         author: 'Dave Ramsey',
         myRating: 7,
         pages: 160,
@@ -1329,6 +1437,7 @@ let bookData = [
     },
     {
         title: 'The Total Money Makeover',
+        series: '',
         author: 'Dave Ramsey',
         myRating: 7,
         pages: 229,
@@ -1341,6 +1450,7 @@ let bookData = [
     },
     {
         title: "Dave Ramsey's Complete Guide to Money",
+        series: '',
         author: 'Dave Ramsey',
         myRating: 7,
         pages: 330,
@@ -1353,6 +1463,7 @@ let bookData = [
     },
     {
         title: 'The Caretaker of Lorne Field',
+        series: '',
         author: 'Dave Zeltserman',
         myRating: 8,
         pages: 237,
@@ -1365,6 +1476,7 @@ let bookData = [
     },
     {
         title: 'The Soccer Book',
+        series: '',
         author: 'David Goldblatt',
         myRating: 7,
         pages: 400,
@@ -1377,6 +1489,7 @@ let bookData = [
     },
     {
         title: 'Jacked',
+        series: '',
         author: 'David Kushner',
         myRating: 7,
         pages: 304,
@@ -1389,6 +1502,7 @@ let bookData = [
     },
     {
         title: 'Rise of the Dungeon Master',
+        series: '',
         author: 'David Kushner',
         myRating: 6,
         pages: 144,
@@ -1401,6 +1515,7 @@ let bookData = [
     },
     {
         title: 'Every Day',
+        series: '',
         author: 'David Levithan',
         myRating: 8,
         pages: 322,
@@ -1413,6 +1528,7 @@ let bookData = [
     },
     {
         title: 'Another Day',
+        series: '',
         author: 'David Levithan',
         myRating: 7,
         pages: 327,
@@ -1425,6 +1541,7 @@ let bookData = [
     },
     {
         title: 'Slade House',
+        series: '',
         author: 'David Mitchell',
         myRating: 7,
         pages: 238,
@@ -1437,6 +1554,7 @@ let bookData = [
     },
     {
         title: 'Radical',
+        series: '',
         author: 'David Platt',
         myRating: 9,
         pages: 230,
@@ -1450,6 +1568,7 @@ let bookData = [
     },
     {
         title: 'Follow Me',
+        series: '',
         author: 'David Platt',
         myRating: 8,
         pages: 245,
@@ -1463,6 +1582,7 @@ let bookData = [
     },
     {
         title: 'The Revenge of Analog',
+        series: '',
         author: 'David Sax',
         myRating: 8,
         pages: 304,
@@ -1475,6 +1595,7 @@ let bookData = [
     },
     {
         title: 'Whispers',
+        series: '',
         author: 'Dean Koontz',
         myRating: 8,
         pages: 464,
@@ -1487,6 +1608,7 @@ let bookData = [
     },
     {
         title: "Santa Claus Doesn't Mop Floors",
+        series: '',
         author: 'Debbie Dadey',
         myRating: 6,
         pages: 80,
@@ -1499,6 +1621,7 @@ let bookData = [
     },
     {
         title: "Werewolves Don't Go to Summer Camp",
+        series: '',
         author: 'Debbie Dadey',
         myRating: 6,
         pages: 96,
@@ -1511,6 +1634,7 @@ let bookData = [
     },
     {
         title: 'A Discovery of Witches',
+        series: '',
         author: 'Deborah Harkness',
         myRating: 7,
         pages: 579,
@@ -1524,6 +1648,7 @@ let bookData = [
     },
     {
         title: 'Spelunky',
+        series: '',
         author: 'Derek Yu',
         myRating: 8,
         pages: 140,
@@ -1536,6 +1661,7 @@ let bookData = [
     },
     {
         title: 'Virtual Vandals',
+        series: '',
         author: 'Diane Duane',
         myRating: 6,
         pages: 192,
@@ -1550,6 +1676,7 @@ let bookData = [
     },
     {
         title: 'Eat This And Live',
+        series: '',
         author: 'Don Colbert',
         myRating: 7,
         pages: 192,
@@ -1562,6 +1689,7 @@ let bookData = [
     },
     {
         title: 'A Million Miles in a Thousand Years',
+        series: '',
         author: 'Donald Miller',
         myRating: 5,
         pages: 256,
@@ -1575,6 +1703,7 @@ let bookData = [
     },
     {
         title: 'Encyclopedia Brown Takes the Cake!',
+        series: '',
         author: 'Donald Sobol',
         myRating: 6,
         pages: 128,
@@ -1587,6 +1716,7 @@ let bookData = [
     },
     {
         title: 'Encyclopedia Brown and the Case of the Disgusting Sneakers',
+        series: '',
         author: 'Donald Sobol',
         myRating: 6,
         pages: 112,
@@ -1599,6 +1729,7 @@ let bookData = [
     },
     {
         title: "The Hitchhiker's Guide to the Galaxy",
+        series: '',
         author: 'Douglas Adams',
         myRating: 8,
         pages: 215,
@@ -1614,6 +1745,7 @@ let bookData = [
     },
     {
         title: 'The Restaurant at the End of the Universe',
+        series: '',
         author: 'Douglas Adams',
         myRating: 7,
         pages: 187,
@@ -1626,6 +1758,7 @@ let bookData = [
     },
     {
         title: 'The 30-Minute Runner',
+        series: '',
         author: 'Duncan Larkin',
         myRating: 6,
         pages: 156,
@@ -1638,6 +1771,7 @@ let bookData = [
     },
     {
         title: 'Game On!',
+        series: '',
         author: 'Dustin Hansen',
         myRating: 8,
         pages: 368,
@@ -1655,6 +1789,7 @@ let bookData = [
 	//#region E
     {
         title: 'We Were Liars',
+        series: '',
         author: 'E. Lockhart',
         myRating: 6,
         pages: 242,
@@ -1668,6 +1803,7 @@ let bookData = [
     },
     {
         title: "Charlotte's Web",
+        series: '',
         author: 'E.B. White',
         myRating: 6,
         pages: 184,
@@ -1680,6 +1816,7 @@ let bookData = [
     },
     {
         title: 'Creativity, Inc.',
+        series: '',
         author: 'Ed Catmull',
         myRating: 7,
         pages: 368,
@@ -1693,6 +1830,7 @@ let bookData = [
     },
     {
         title: 'iPoe Vol. 1',
+        series: '',
         author: 'Edgar Allen Poe',
         myRating: 4,
         pages: 101,
@@ -1705,6 +1843,7 @@ let bookData = [
     },
     {
         title: 'Meddling Kids',
+        series: '',
         author: 'Edgar Cantaro',
         myRating: 8,
         pages: 322,
@@ -1717,6 +1856,7 @@ let bookData = [
     },
     {
         title: 'Night',
+        series: '',
         author: 'Elie Wiesel',
         myRating: 7,
         pages: 115,
@@ -1729,6 +1869,7 @@ let bookData = [
     },
     {
         title: 'The Happiness Hack',
+        series: '',
         author: 'Ellen Petry Leanse',
         myRating: 5,
         pages: 128,
@@ -1741,6 +1882,7 @@ let bookData = [
     },
     {
         title: '10,000 Things You Need to Know',
+        series: '',
         author: 'Elspeth Beidas',
         myRating: 5,
         pages: 1000,
@@ -1753,6 +1895,7 @@ let bookData = [
     },
     {
         title: 'Wuthering Heights',
+        series: '',
         author: 'Emily Brontë',
         myRating: 6,
         pages: 464,
@@ -1765,6 +1908,7 @@ let bookData = [
     },
     {
         title: 'The Forests of Silence',
+        series: '',
         author: 'Emily Rodda',
         myRating: 5,
         pages: 131,
@@ -1777,6 +1921,7 @@ let bookData = [
     },
     {
         title: 'Artemis Fowl',
+        series: '',
         author: 'Eoin Colfer',
         myRating: 7,
         pages: 288,
@@ -1789,6 +1934,7 @@ let bookData = [
     },
     {
         title: 'The Arctic Incident',
+        series: '',
         author: 'Eoin Colfer',
         myRating: 6,
         pages: 398,
@@ -1801,6 +1947,7 @@ let bookData = [
     },
     {
         title: 'The Eternity Code',
+        series: '',
         author: 'Eoin Colfer',
         myRating: 6,
         pages: 352,
@@ -1813,6 +1960,7 @@ let bookData = [
     },
     {
         title: 'The Opal Deception',
+        series: '',
         author: 'Eoin Colfer',
         myRating: 6,
         pages: 416,
@@ -1825,6 +1973,7 @@ let bookData = [
     },
     {
         title: 'The Lost Colony',
+        series: '',
         author: 'Eoin Colfer',
         myRating: 6,
         pages: 385,
@@ -1837,6 +1986,7 @@ let bookData = [
     },
     {
         title: 'The Time Paradox',
+        series: '',
         author: 'Eoin Colfer',
         myRating: 6,
         pages: 391,
@@ -1849,6 +1999,7 @@ let bookData = [
     },
     {
         title: 'The Atlantis Complex',
+        series: '',
         author: 'Eoin Colfer',
         myRating: 5,
         pages: 357,
@@ -1861,6 +2012,7 @@ let bookData = [
     },
     {
         title: 'The Last Guardian',
+        series: '',
         author: 'Eoin Colfer',
         myRating: 5,
         pages: 328,
@@ -1873,6 +2025,7 @@ let bookData = [
     },
     {
         title: 'Ready Player One',
+        series: '',
         author: 'Ernest Cline',
         myRating: 9,
         pages: 374,
@@ -1885,6 +2038,7 @@ let bookData = [
     },
     {
         title: 'Ready Player Two',
+        series: '',
         author: 'Ernest Cline',
         myRating: 8,
         pages: 384,
@@ -1902,6 +2056,7 @@ let bookData = [
 	//#region F
     {
         title: 'The Great Gatsby',
+        series: '',
         author: 'F. Scott Fitzgerald',
         myRating: 7,
         pages: 168,
@@ -1914,6 +2069,7 @@ let bookData = [
     },
     {
         title: 'The Ultimate Guide to Video Game Writing and Design',
+        series: '',
         author: 'Flint Dille',
         myRating: 8,
         pages: 272,
@@ -1926,6 +2082,7 @@ let bookData = [
     },
     {
         title: 'The Father Heart of God',
+        series: '',
         author: 'Floyd McClung',
         myRating: 6,
         pages: 144,
@@ -1938,6 +2095,7 @@ let bookData = [
     },
     {
         title: 'Living the Martial Way',
+        series: '',
         author: 'Forrest E. Morgan',
         myRating: 4,
         pages: 312,
@@ -1950,6 +2108,7 @@ let bookData = [
     },
     {
         title: 'Erasing Hell',
+        series: '',
         author: 'Francis Chan',
         myRating: 8,
         pages: 197,
@@ -1962,6 +2121,7 @@ let bookData = [
     },
     {
         title: 'Goodbye, Things',
+        series: '',
         author: 'Fumio Sasaki',
         myRating: 9,
         pages: 272,
@@ -1979,6 +2139,7 @@ let bookData = [
 	//#region G
     {
         title: 'The Best American Infographics 2013',
+        series: '',
         author: 'Gareth Cook',
         myRating: 7,
         pages: 184,
@@ -1991,6 +2152,7 @@ let bookData = [
     },
     {
         title: 'Be Prepared',
+        series: '',
         author: 'Gary Greenberg',
         myRating: 7,
         pages: 240,
@@ -2003,6 +2165,7 @@ let bookData = [
     },
     {
         title: 'The One Thing',
+        series: '',
         author: 'Gary Keller',
         myRating: 8,
         pages: 240,
@@ -2015,6 +2178,7 @@ let bookData = [
     },
     {
         title: 'Hatchet',
+        series: '',
         author: 'Gary Paulsen',
         myRating: 7,
         pages: 186,
@@ -2027,6 +2191,7 @@ let bookData = [
     },
     {
         title: 'The River',
+        series: '',
         author: 'Gary Paulsen',
         myRating: 6,
         pages: 132,
@@ -2039,6 +2204,7 @@ let bookData = [
     },
     {
         title: "Brian's Winter",
+        series: '',
         author: 'Gary Paulsen',
         myRating: 6,
         pages: 144,
@@ -2051,6 +2217,7 @@ let bookData = [
     },
     {
         title: 'The Case Against Sugar',
+        series: '',
         author: 'Gary Taubes',
         myRating: 6,
         pages: 384,
@@ -2063,6 +2230,7 @@ let bookData = [
     },
     {
         title: 'Forks Over Knives',
+        series: '',
         author: 'Gene Stone',
         myRating: 6,
         pages: 214,
@@ -2075,6 +2243,7 @@ let bookData = [
     },
     {
         title: 'Animal Farm',
+        series: '',
         author: 'George Orwell',
         myRating: 7,
         pages: 141,
@@ -2088,6 +2257,7 @@ let bookData = [
     },
     {
         title: 'Horrorstör',
+        series: '',
         author: 'Grady Hendrix',
         myRating: 7,
         pages: 248,
@@ -2100,6 +2270,7 @@ let bookData = [
     },
     {
         title: "My Best Friend's Exorcism",
+        series: '',
         author: 'Grady Hendrix',
         myRating: 7,
         pages: 337,
@@ -2112,6 +2283,7 @@ let bookData = [
     },
     {
         title: "The Southern Book Club's Guide to Slaying Vampires",
+        series: '',
         author: 'Grady Hendrix',
         myRating: 7,
         pages: 404,
@@ -2124,6 +2296,7 @@ let bookData = [
     },
     {
         title: 'Essentialism',
+        series: '',
         author: 'Greg McKeown',
         myRating: 8,
         pages: 260,
@@ -2136,6 +2309,7 @@ let bookData = [
     },
     {
         title: 'Effortless',
+        series: '',
         author: 'Greg McKeown',
         myRating: 8,
         pages: 272,
@@ -2153,6 +2327,7 @@ let bookData = [
 	//#region H
     {
         title: 'The Miracle Morning',
+        series: '',
         author: 'Hal Elrod',
         myRating: 6,
         pages: 172,
@@ -2165,6 +2340,7 @@ let bookData = [
     },
     {
         title: 'An Absolutely Remarkable Thing',
+        series: '',
         author: 'Hank Green',
         myRating: 9,
         pages: 352,
@@ -2178,6 +2354,7 @@ let bookData = [
     },
     {
         title: 'A Beautifully Foolish Endeavor',
+        series: '',
         author: 'Hank Green',
         myRating: 8,
         pages: 464,
@@ -2190,6 +2367,7 @@ let bookData = [
     },
     {
         title: 'To Kill a Mockingbird',
+        series: '',
         author: 'Harper Lee',
         myRating: 6,
         pages: 376,
@@ -2204,6 +2382,7 @@ let bookData = [
     },
     {
         title: 'The Index Card',
+        series: '',
         author: 'Helaine Olen',
         myRating: 6,
         pages: 256,
@@ -2217,6 +2396,7 @@ let bookData = [
     },
     {
         title: 'Anguish Languish',
+        series: '',
         author: 'Howard Chase',
         myRating: 7,
         pages: 60,
@@ -2229,6 +2409,7 @@ let bookData = [
     },
     {
         title: 'Navigating Genesis',
+        series: '',
         author: 'Hugh Ross',
         myRating: 7,
         pages: 298,
@@ -2246,6 +2427,7 @@ let bookData = [
 	//#region I
     {
         title: 'The Road Back to You',
+        series: '',
         author: 'Ian Morgan Cron',
         myRating: 6,
         pages: 238,
@@ -2258,6 +2440,7 @@ let bookData = [
     },
     {
         title: 'Insight Guides: China',
+        series: '',
         author: 'Insight Guides',
         myRating: 6,
         pages: 480,
@@ -2270,6 +2453,7 @@ let bookData = [
     },
     {
         title: 'Warm Bodies',
+        series: '',
         author: 'Isaac Marion',
         myRating: 10,
         pages: 256,
@@ -2282,6 +2466,7 @@ let bookData = [
     },
     {
         title: 'The New Hunger',
+        series: '',
         author: 'Isaac Marion',
         myRating: 8,
         pages: 170,
@@ -2294,6 +2479,7 @@ let bookData = [
     },
     {
         title: 'The Burning World',
+        series: '',
         author: 'Isaac Marion',
         myRating: 9,
         pages: 512,
@@ -2311,6 +2497,7 @@ let bookData = [
 	//#region J
     {
         title: 'Very Good Lives',
+        series: '',
         author: 'J.K. Rowling',
         myRating: 8,
         pages: 74,
@@ -2323,6 +2510,7 @@ let bookData = [
     },
     {
         title: "Harry Potter and the Sorcerer's Stone",
+        series: '',
         author: 'J.K. Rowling',
         myRating: 10,
         pages: 309,
@@ -2335,6 +2523,7 @@ let bookData = [
     },
     {
         title: 'Harry Potter and the Chamber of Secrets',
+        series: '',
         author: 'J.K. Rowling',
         myRating: 10,
         pages: 341,
@@ -2347,6 +2536,7 @@ let bookData = [
     },
     {
         title: 'Harry Potter and the Prisoner of Azkaban',
+        series: '',
         author: 'J.K. Rowling',
         myRating: 10,
         pages: 435,
@@ -2359,6 +2549,7 @@ let bookData = [
     },
     {
         title: 'Harry Potter and the Goblet of Fire',
+        series: '',
         author: 'J.K. Rowling',
         myRating: 10,
         pages: 734,
@@ -2371,6 +2562,7 @@ let bookData = [
     },
     {
         title: 'Harry Potter and the Order of the Phoenix',
+        series: '',
         author: 'J.K. Rowling',
         myRating: 10,
         pages: 870,
@@ -2383,6 +2575,7 @@ let bookData = [
     },
     {
         title: 'Harry Potter and the Half-Blood Prince',
+        series: '',
         author: 'J.K. Rowling',
         myRating: 10,
         pages: 652,
@@ -2395,6 +2588,7 @@ let bookData = [
     },
     {
         title: 'Harry Potter and the Deathly Hallows',
+        series: '',
         author: 'J.K. Rowling',
         myRating: 10,
         pages: 759,
@@ -2407,6 +2601,7 @@ let bookData = [
     },
     {
         title: 'Short Stories from Hogwarts of Heroism, Hardship and Dangerous Hobbies',
+        series: '',
         author: 'J.K. Rowling',
         myRating: 8,
         pages: 71,
@@ -2419,6 +2614,7 @@ let bookData = [
     },
     {
         title: 'Short Stories from Hogwarts of Power, Politics and Pesky Poltergeists',
+        series: '',
         author: 'J.K. Rowling',
         myRating: 8,
         pages: 71,
@@ -2431,6 +2627,7 @@ let bookData = [
     },
     {
         title: 'Hogwarts: An Incomplete and Unreliable Guide',
+        series: '',
         author: 'J.K. Rowling',
         myRating: 8,
         pages: 79,
@@ -2443,6 +2640,7 @@ let bookData = [
     },
     {
         title: 'The Tales of Beedle the Bard',
+        series: '',
         author: 'J.K. Rowling',
         myRating: 7,
         pages: 111,
@@ -2455,6 +2653,7 @@ let bookData = [
     },
     {
         title: 'Fantastic Beasts and Where to Find Them: The Original Screenplay',
+        series: '',
         author: 'J.K. Rowling',
         myRating: 7,
         pages: 304,
@@ -2467,6 +2666,7 @@ let bookData = [
     },
     {
         title: 'The Hobbit',
+        series: '',
         author: 'J.R.R. Tolkien',
         myRating: 8,
         pages: 389,
@@ -2479,6 +2679,7 @@ let bookData = [
     },
     {
         title: 'The Fellowship of the Ring',
+        series: '',
         author: 'J.R.R. Tolkien',
         myRating: 7,
         pages: 527,
@@ -2491,6 +2692,7 @@ let bookData = [
     },
     {
         title: 'Surprised by the Power of the Spirit',
+        series: '',
         author: 'Jack Deere',
         myRating: 5,
         pages: 302,
@@ -2503,6 +2705,7 @@ let bookData = [
     },
     {
         title: 'Vegan for Life',
+        series: '',
         author: 'Jack Norris',
         myRating: 4,
         pages: 283,
@@ -2515,6 +2718,7 @@ let bookData = [
     },
     {
         title: 'Chasing the Dragon',
+        series: '',
         author: 'Jackie Pullinger',
         myRating: 5,
         pages: 256,
@@ -2528,6 +2732,7 @@ let bookData = [
     },
     {
         title: 'Atomic Habits',
+        series: '',
         author: 'James Clear',
         myRating: 9,
         pages: 319,
@@ -2540,6 +2745,7 @@ let bookData = [
     },
     {
         title: 'The Maze Runner',
+        series: '',
         author: 'James Dashner',
         myRating: 6,
         pages: 384,
@@ -2553,6 +2759,7 @@ let bookData = [
     },
     {
         title: "America's History, For the AP Course",
+        series: '',
         author: 'James Henretta',
         myRating: 7,
         pages: 1168,
@@ -2565,6 +2772,7 @@ let bookData = [
     },
     {
         title: 'Return to Howliday Inn',
+        series: '',
         author: 'James Howe',
         myRating: 6,
         pages: 116,
@@ -2577,6 +2785,7 @@ let bookData = [
     },
     {
         title: 'Bunnicula Strikes Again!',
+        series: '',
         author: 'James Howe',
         myRating: 6,
         pages: 116,
@@ -2589,6 +2798,7 @@ let bookData = [
     },
     {
         title: "Player's Handbook",
+        series: '',
         author: 'James Wyatt',
         myRating: 9,
         pages: 320,
@@ -2601,6 +2811,7 @@ let bookData = [
     },
     {
         title: 'Super Better',
+        series: '',
         author: 'Jane McGonigal',
         myRating: 7,
         pages: 480,
@@ -2613,6 +2824,7 @@ let bookData = [
     },
     {
         title: 'Ten Arguments For Deleting Your Social Media Accounts Right Now',
+        series: '',
         author: 'Jaron Lanier',
         myRating: 8,
         pages: 146,
@@ -2625,6 +2837,7 @@ let bookData = [
     },
     {
         title: 'The Living and the Dead',
+        series: '',
         author: 'Jason',
         myRating: 4,
         pages: 48,
@@ -2637,6 +2850,7 @@ let bookData = [
     },
     {
         title: 'Blood, Sweat, and Pixels',
+        series: '',
         author: 'Jason Schreier',
         myRating: 10,
         pages: 304,
@@ -2649,6 +2863,7 @@ let bookData = [
     },
     {
         title: 'Thirteen Reasons Why',
+        series: '',
         author: 'Jay Asher',
         myRating: 6,
         pages: 288,
@@ -2661,6 +2876,7 @@ let bookData = [
     },
     {
         title: 'Nerve',
+        series: '',
         author: 'Jeanne Ryan',
         myRating: 8,
         pages: 304,
@@ -2674,6 +2890,7 @@ let bookData = [
     },
     {
         title: 'Diary of a Wimpy Kid',
+        series: '',
         author: 'Jeff Kinney',
         myRating: 6,
         pages: 224,
@@ -2687,6 +2904,7 @@ let bookData = [
     },
     {
         title: 'Super Mario',
+        series: '',
         author: 'Jeff Ryan',
         myRating: 7,
         pages: 292,
@@ -2699,6 +2917,7 @@ let bookData = [
     },
     {
         title: 'Annihilation',
+        series: '',
         author: 'Jeff VanderMeer',
         myRating: 5,
         pages: 195,
@@ -2711,6 +2930,7 @@ let bookData = [
     },
     {
         title: "Who's Afraid of the Multiverse",
+        series: '',
         author: 'Jeffrey Zweerink',
         myRating: 7,
         pages: 66,
@@ -2723,6 +2943,7 @@ let bookData = [
     },
     {
         title: 'The No-Spend Challenge Guide',
+        series: '',
         author: 'Jen Smith',
         myRating: 5,
         pages: 99,
@@ -2735,6 +2956,7 @@ let bookData = [
     },
     {
         title: '200+ Ways to Protect Your Privacy',
+        series: '',
         author: 'Jeni Rogers',
         myRating: 5,
         pages: 256,
@@ -2747,6 +2969,7 @@ let bookData = [
     },
     {
         title: 'All the Bright Places',
+        series: '',
         author: 'Jennifer Niven',
         myRating: 6,
         pages: 378,
@@ -2759,6 +2982,7 @@ let bookData = [
     },
     {
         title: 'The Summer I Turned Pretty',
+        series: '',
         author: 'Jenny Han',
         myRating: 7,
         pages: 276,
@@ -2772,6 +2996,7 @@ let bookData = [
     },
     {
         title: "It's Not Summer Without You",
+        series: '',
         author: 'Jenny Han',
         myRating: 7,
         pages: 288,
@@ -2784,6 +3009,7 @@ let bookData = [
     },
     {
         title: "We'll Always Have Summer",
+        series: '',
         author: 'Jenny Han',
         myRating: 7,
         pages: 291,
@@ -2796,6 +3022,7 @@ let bookData = [
     },
     {
         title: 'Remnant of Victory',
+        series: '',
         author: 'Jeri Odell',
         myRating: 7,
         pages: 176,
@@ -2809,6 +3036,7 @@ let bookData = [
     },
     {
         title: 'Three Men in a Boat',
+        series: '',
         author: 'Jerome K. Jerome',
         myRating: 7,
         pages: 185,
@@ -2821,6 +3049,7 @@ let bookData = [
     },
     {
         title: 'The Vanishings',
+        series: '',
         author: 'Jerry B. Jenkins',
         myRating: 6,
         pages: 148,
@@ -2833,6 +3062,7 @@ let bookData = [
     },
     {
         title: 'Second Chance',
+        series: '',
         author: 'Jerry B. Jenkins',
         myRating: 6,
         pages: 144,
@@ -2845,6 +3075,7 @@ let bookData = [
     },
     {
         title: 'Through the Flames',
+        series: '',
         author: 'Jerry B. Jenkins',
         myRating: 6,
         pages: 146,
@@ -2857,6 +3088,7 @@ let bookData = [
     },
     {
         title: 'Facing the Future',
+        series: '',
         author: 'Jerry B. Jenkins',
         myRating: 6,
         pages: 150,
@@ -2869,6 +3101,7 @@ let bookData = [
     },
     {
         title: 'Nicolae High',
+        series: '',
         author: 'Jerry B. Jenkins',
         myRating: 5,
         pages: 118,
@@ -2881,6 +3114,7 @@ let bookData = [
     },
     {
         title: 'The Underground',
+        series: '',
         author: 'Jerry B. Jenkins',
         myRating: 5,
         pages: 114,
@@ -2893,6 +3127,7 @@ let bookData = [
     },
     {
         title: 'Busted!',
+        series: '',
         author: 'Jerry B. Jenkins',
         myRating: 5,
         pages: 128,
@@ -2905,6 +3140,7 @@ let bookData = [
     },
     {
         title: 'Death Strike',
+        series: '',
         author: 'Jerry B. Jenkins',
         myRating: 5,
         pages: 123,
@@ -2917,6 +3153,7 @@ let bookData = [
     },
     {
         title: 'The Search',
+        series: '',
         author: 'Jerry B. Jenkins',
         myRating: 5,
         pages: 162,
@@ -2929,6 +3166,7 @@ let bookData = [
     },
     {
         title: 'On the Run',
+        series: '',
         author: 'Jerry B. Jenkins',
         myRating: 5,
         pages: 160,
@@ -2941,6 +3179,7 @@ let bookData = [
     },
     {
         title: 'Into the Storm',
+        series: '',
         author: 'Jerry B. Jenkins',
         myRating: 5,
         pages: 160,
@@ -2953,6 +3192,7 @@ let bookData = [
     },
     {
         title: 'Earthquake!',
+        series: '',
         author: 'Jerry B. Jenkins',
         myRating: 5,
         pages: 140,
@@ -2965,6 +3205,7 @@ let bookData = [
     },
     {
         title: 'The Showdown',
+        series: '',
         author: 'Jerry B. Jenkins',
         myRating: 5,
         pages: 152,
@@ -2977,6 +3218,7 @@ let bookData = [
     },
     {
         title: 'Judgment Day',
+        series: '',
         author: 'Jerry B. Jenkins',
         myRating: 5,
         pages: 130,
@@ -2989,6 +3231,7 @@ let bookData = [
     },
     {
         title: 'Battling the Commander',
+        series: '',
         author: 'Jerry B. Jenkins',
         myRating: 5,
         pages: 140,
@@ -3001,6 +3244,7 @@ let bookData = [
     },
     {
         title: 'Fire from Heaven',
+        series: '',
         author: 'Jerry B. Jenkins',
         myRating: 5,
         pages: 142,
@@ -3013,6 +3257,7 @@ let bookData = [
     },
     {
         title: 'Terror in the Stadium',
+        series: '',
         author: 'Jerry B. Jenkins',
         myRating: 5,
         pages: 152,
@@ -3025,6 +3270,7 @@ let bookData = [
     },
     {
         title: 'Darkening Skies',
+        series: '',
         author: 'Jerry B. Jenkins',
         myRating: 5,
         pages: 149,
@@ -3037,6 +3283,7 @@ let bookData = [
     },
     {
         title: 'Attack of Apollyon',
+        series: '',
         author: 'Jerry B. Jenkins',
         myRating: 5,
         pages: 150,
@@ -3049,6 +3296,7 @@ let bookData = [
     },
     {
         title: 'A Dangerous Plan',
+        series: '',
         author: 'Jerry B. Jenkins',
         myRating: 5,
         pages: 176,
@@ -3061,6 +3309,7 @@ let bookData = [
     },
     {
         title: 'Secrets of New Babylon',
+        series: '',
         author: 'Jerry B. Jenkins',
         myRating: 5,
         pages: 152,
@@ -3073,6 +3322,7 @@ let bookData = [
     },
     {
         title: 'Escape from New Babylon',
+        series: '',
         author: 'Jerry B. Jenkins',
         myRating: 5,
         pages: 148,
@@ -3085,6 +3335,7 @@ let bookData = [
     },
     {
         title: 'Horsemen of Terror',
+        series: '',
         author: 'Jerry B. Jenkins',
         myRating: 5,
         pages: 150,
@@ -3097,6 +3348,7 @@ let bookData = [
     },
     {
         title: 'Uplink from the Underground',
+        series: '',
         author: 'Jerry B. Jenkins',
         myRating: 5,
         pages: 160,
@@ -3109,6 +3361,7 @@ let bookData = [
     },
     {
         title: 'A Vampire Tale',
+        series: '',
         author: 'Jess Smart Smiley',
         myRating: 5,
         pages: 144,
@@ -3121,6 +3374,7 @@ let bookData = [
     },
     {
         title: 'Me and Earl and the Dying Girl',
+        series: '',
         author: 'Jesse Andrews',
         myRating: 6,
         pages: 295,
@@ -3133,6 +3387,7 @@ let bookData = [
     },
     {
         title: 'The Danish Way of Parenting',
+        series: '',
         author: 'Jessica Joelle Alexander',
         myRating: 5,
         pages: 224,
@@ -3145,6 +3400,7 @@ let bookData = [
     },
     {
         title: 'Full Frontal Feminism',
+        series: '',
         author: 'Jessica Valenti',
         myRating: 5,
         pages: 288,
@@ -3157,6 +3413,7 @@ let bookData = [
     },
     {
         title: 'Storm Front',
+        series: '',
         author: 'Jim Butcher',
         myRating: 8,
         pages: 384,
@@ -3169,6 +3426,7 @@ let bookData = [
     },
     {
         title: 'Fool Moon',
+        series: '',
         author: 'Jim Butcher',
         myRating: 7,
         pages: 401,
@@ -3181,6 +3439,7 @@ let bookData = [
     },
     {
         title: 'Grave Peril',
+        series: '',
         author: 'Jim Butcher',
         myRating: 7,
         pages: 378,
@@ -3193,6 +3452,7 @@ let bookData = [
     },
     {
         title: 'Rick and Morty vs. Dungeons & Dragons II',
+        series: '',
         author: 'Jim Zub',
         myRating: 6,
         pages: 128,
@@ -3205,6 +3465,7 @@ let bookData = [
     },
     {
         title: 'Passion & Purpose',
+        series: '',
         author: 'Jimmy Seibert',
         myRating: 5,
         pages: 214,
@@ -3217,6 +3478,7 @@ let bookData = [
     },
     {
         title: 'Discipline Equals Freedom',
+        series: '',
         author: 'Jocko Willink',
         myRating: 9,
         pages: 189,
@@ -3230,6 +3492,7 @@ let bookData = [
     },
     {
         title: 'Wild at Heart',
+        series: '',
         author: 'John Eldredge',
         myRating: 8,
         pages: 242,
@@ -3242,6 +3505,7 @@ let bookData = [
     },
     {
         title: 'Looking for God in Harry Potter',
+        series: '',
         author: 'John Granger',
         myRating: 7,
         pages: 234,
@@ -3254,6 +3518,7 @@ let bookData = [
     },
     {
         title: 'Looking for Alaska',
+        series: '',
         author: 'John Green',
         myRating: 9,
         pages: 221,
@@ -3267,6 +3532,7 @@ let bookData = [
     },
     {
         title: 'An Abundance of Katherines',
+        series: '',
         author: 'John Green',
         myRating: 8,
         pages: 229,
@@ -3279,6 +3545,7 @@ let bookData = [
     },
     {
         title: 'Turtles All the Way Down',
+        series: '',
         author: 'John Green',
         myRating: 7,
         pages: 286,
@@ -3291,6 +3558,7 @@ let bookData = [
     },
     {
         title: 'Will Grayson, Will Grayson',
+        series: '',
         author: 'John Green',
         myRating: 7,
         pages: 310,
@@ -3303,6 +3571,7 @@ let bookData = [
     },
     {
         title: 'The Fault in Our Stars',
+        series: '',
         author: 'John Green',
         myRating: 7,
         pages: 316,
@@ -3315,6 +3584,7 @@ let bookData = [
     },
     {
         title: 'Paper Towns',
+        series: '',
         author: 'John Green',
         myRating: 8,
         pages: 336,
@@ -3327,6 +3597,7 @@ let bookData = [
     },
     {
         title: 'Let It Snow',
+        series: '',
         author: 'John Green',
         myRating: 9,
         pages: 352,
@@ -3339,6 +3610,7 @@ let bookData = [
     },
     {
         title: 'Mind Hacking',
+        series: '',
         author: 'John Hargrave',
         myRating: 7,
         pages: 256,
@@ -3351,6 +3623,7 @@ let bookData = [
     },
     {
         title: 'Chew, Vol. 1',
+        series: '',
         author: 'John Layman',
         myRating: 5,
         pages: 128,
@@ -3363,6 +3636,7 @@ let bookData = [
     },
     {
         title: 'Harry Potter and the Cursed Child',
+        series: '',
         author: 'John Tiffany',
         myRating: 6,
         pages: 343,
@@ -3375,6 +3649,7 @@ let bookData = [
     },
     {
         title: 'Into the Wild',
+        series: '',
         author: 'Jon Krakauer',
         myRating: 5,
         pages: 207,
@@ -3387,6 +3662,7 @@ let bookData = [
     },
     {
         title: 'Nights of the Living Dead',
+        series: '',
         author: 'Jonathan Maberry',
         myRating: 5,
         pages: 368,
@@ -3399,6 +3675,7 @@ let bookData = [
     },
     {
         title: 'A Modest Proposal',
+        series: '',
         author: 'Jonathan Swift',
         myRating: 7,
         pages: 48,
@@ -3411,6 +3688,7 @@ let bookData = [
     },
     {
         title: 'How Not to Be Wrong',
+        series: '',
         author: 'Jordan Ellenberg',
         myRating: 7,
         pages: 480,
@@ -3423,6 +3701,7 @@ let bookData = [
     },
     {
         title: 'Bird Box',
+        series: '',
         author: 'Josh Malerman',
         myRating: 8,
         pages: 262,
@@ -3435,6 +3714,7 @@ let bookData = [
     },
     {
         title: 'Living With Less',
+        series: '',
         author: 'Joshua Becker',
         myRating: 8,
         pages: 114,
@@ -3447,6 +3727,7 @@ let bookData = [
     },
     {
         title: 'The More of Less',
+        series: '',
         author: 'Joshua Becker',
         myRating: 7,
         pages: 240,
@@ -3459,6 +3740,7 @@ let bookData = [
     },
     {
         title: 'The Minimalist Home',
+        series: '',
         author: 'Joshua Becker',
         myRating: 7,
         pages: 256,
@@ -3471,6 +3753,7 @@ let bookData = [
     },
     {
         title: 'Simplify Magazine 001',
+        series: '',
         author: 'Joshua Becker',
         myRating: 9,
         pages: 72,
@@ -3483,6 +3766,7 @@ let bookData = [
     },
     {
         title: 'Simplify Magazine 002',
+        series: '',
         author: 'Joshua Becker',
         myRating: 9,
         pages: 101,
@@ -3495,6 +3779,7 @@ let bookData = [
     },
     {
         title: 'Simplify Magazine 003',
+        series: '',
         author: 'Joshua Becker',
         myRating: 9,
         pages: 75,
@@ -3507,6 +3792,7 @@ let bookData = [
     },
     {
         title: 'The Club',
+        series: '',
         author: 'Joshua Robinson',
         myRating: 7,
         pages: 368,
@@ -3519,6 +3805,7 @@ let bookData = [
     },
     {
         title: 'Haunted Mansion',
+        series: '',
         author: 'Joshua Williamson',
         myRating: 6,
         pages: 128,
@@ -3531,6 +3818,7 @@ let bookData = [
     },
     {
         title: 'Buffy the Vampire Slayer: The Long Way Home',
+        series: '',
         author: 'Joss Whedon',
         myRating: 6,
         pages: 136,
@@ -3548,6 +3836,7 @@ let bookData = [
 	//#region K
     {
         title: 'Beautiful Creatures',
+        series: '',
         author: 'Kami Garcia',
         myRating: 5,
         pages: 563,
@@ -3561,6 +3850,7 @@ let bookData = [
     },
     {
         title: 'One of Us Is Lying',
+        series: '',
         author: 'Karen M. McManus',
         myRating: 8,
         pages: 361,
@@ -3573,6 +3863,7 @@ let bookData = [
     },
     {
         title: 'Bridge to Terabithia',
+        series: '',
         author: 'Katherine Paterson',
         myRating: 6,
         pages: 190,
@@ -3585,6 +3876,7 @@ let bookData = [
     },
     {
         title: 'Finding Sisu',
+        series: '',
         author: 'Katja Pantzar',
         myRating: 5,
         pages: 272,
@@ -3597,6 +3889,7 @@ let bookData = [
     },
     {
         title: 'Independent Me',
+        series: '',
         author: 'Kely Braswell',
         myRating: 4,
         pages: 205,
@@ -3609,6 +3902,7 @@ let bookData = [
     },
     {
         title: "The Geek Dad's Guide to Weekend Fun",
+        series: '',
         author: 'Ken Denmead',
         myRating: 6,
         pages: 240,
@@ -3621,6 +3915,7 @@ let bookData = [
     },
     {
         title: "The New Answers Book 1",
+        series: '',
         author: 'Ken Ham',
         myRating: 3,
         pages: 378,
@@ -3633,6 +3928,7 @@ let bookData = [
     },
     {
         title: "One Flew Over the Cuckoo's Nest",
+        series: '',
         author: 'Ken Kesey',
         myRating: 6,
         pages: 325,
@@ -3645,6 +3941,7 @@ let bookData = [
     },
     {
         title: 'Quidditch Through the Ages',
+        series: '',
         author: 'Kennilworthy Whisp',
         myRating: 6,
         pages: 56,
@@ -3657,6 +3954,7 @@ let bookData = [
     },
     {
         title: 'Unlimited Memory',
+        series: '',
         author: 'Kevin Horsley',
         myRating: 6,
         pages: 136,
@@ -3669,6 +3967,7 @@ let bookData = [
     },
     {
         title: 'For the Win',
+        series: '',
         author: 'Kevin Werbach',
         myRating: 6,
         pages: 148,
@@ -3681,6 +3980,7 @@ let bookData = [
     },
     {
         title: 'The A-Z of Atari 8-bit Games',
+        series: '',
         author: 'Kieren Hawken',
         myRating: 4,
         pages: 196,
@@ -3693,6 +3993,7 @@ let bookData = [
     },
     {
         title: 'The DUFF',
+        series: '',
         author: 'Kody Keplinger',
         myRating: 7,
         pages: 280,
@@ -3705,6 +4006,7 @@ let bookData = [
     },
     {
         title: 'Ring',
+        series: '',
         author: 'Kōji Suzuki',
         myRating: 5,
         pages: 282,
@@ -3717,6 +4019,7 @@ let bookData = [
     },
     {
         title: 'Jesus and John Wayne',
+        series: '',
         author: 'Kristin Kobes Du Mez',
         myRating: 7,
         pages: 368,
@@ -3729,6 +4032,7 @@ let bookData = [
     },
     {
         title: "Don't Get Caught",
+        series: '',
         author: 'Kurt Dinan',
         myRating: 6,
         pages: 340,
@@ -3746,6 +4050,7 @@ let bookData = [
 	//#region L
     {
         title: 'The Awakening',
+        series: '',
         author: 'L.J. Smith',
         myRating: 5,
         pages: 253,
@@ -3758,6 +4063,7 @@ let bookData = [
     },
     {
         title: 'The Struggle',
+        series: '',
         author: 'L.J. Smith',
         myRating: 5,
         pages: 256,
@@ -3770,6 +4076,7 @@ let bookData = [
     },
     {
         title: 'The Fury',
+        series: '',
         author: 'L.J. Smith',
         myRating: 5,
         pages: 285,
@@ -3782,6 +4089,7 @@ let bookData = [
     },
     {
         title: 'Dark Reunion',
+        series: '',
         author: 'L.J. Smith',
         myRating: 5,
         pages: 311,
@@ -3794,6 +4102,7 @@ let bookData = [
     },
     {
         title: 'I Love You, Beth Cooper',
+        series: '',
         author: 'Larry Doyle',
         myRating: 7,
         pages: 253,
@@ -3806,6 +4115,7 @@ let bookData = [
     },
     {
         title: 'A Secret Life',
+        series: '',
         author: 'Laura Peyton Roberts',
         myRating: 6,
         pages: 202,
@@ -3818,6 +4128,7 @@ let bookData = [
     },
     {
         title: 'What the Most Successful People Do Before Breakfast',
+        series: '',
         author: 'Laura Vanderkam',
         myRating: 7,
         pages: 32,
@@ -3830,6 +4141,7 @@ let bookData = [
     },
     {
         title: 'Guilty Pleasures',
+        series: '',
         author: 'Laurell K. Hamilton',
         myRating: 7,
         pages: 355,
@@ -3842,6 +4154,7 @@ let bookData = [
     },
     {
         title: 'Six of Crows',
+        series: '',
         author: 'Leigh Bardugo',
         myRating: 8,
         pages: 465,
@@ -3854,6 +4167,7 @@ let bookData = [
     },
     {
         title: 'Crooked Kingdom',
+        series: '',
         author: 'Leigh Bardugo',
         myRating: 8,
         pages: 536,
@@ -3866,6 +4180,7 @@ let bookData = [
     },
     {
         title: 'The Bad Beginning',
+        series: '',
         author: 'Lemony Snicket',
         myRating: 6,
         pages: 176,
@@ -3878,6 +4193,7 @@ let bookData = [
     },
     {
         title: 'The Reptile Room',
+        series: '',
         author: 'Lemony Snicket',
         myRating: 6,
         pages: 192,
@@ -3890,6 +4206,7 @@ let bookData = [
     },
     {
         title: 'The Wide Window',
+        series: '',
         author: 'Lemony Snicket',
         myRating: 5,
         pages: 214,
@@ -3902,6 +4219,7 @@ let bookData = [
     },
     {
         title: 'The Miserable Mill',
+        series: '',
         author: 'Lemony Snicket',
         myRating: 5,
         pages: 194,
@@ -3914,6 +4232,7 @@ let bookData = [
     },
     {
         title: 'The Austere Academy',
+        series: '',
         author: 'Lemony Snicket',
         myRating: 5,
         pages: 221,
@@ -3926,6 +4245,7 @@ let bookData = [
     },
     {
         title: 'The Ersatz Elevator',
+        series: '',
         author: 'Lemony Snicket',
         myRating: 4,
         pages: 259,
@@ -3938,6 +4258,7 @@ let bookData = [
     },
     {
         title: 'The Vile Village',
+        series: '',
         author: 'Lemony Snicket',
         myRating: 4,
         pages: 272,
@@ -3950,6 +4271,7 @@ let bookData = [
     },
     {
         title: 'The Hostile Hospital',
+        series: '',
         author: 'Lemony Snicket',
         myRating: 4,
         pages: 272,
@@ -3962,6 +4284,7 @@ let bookData = [
     },
     {
         title: 'The Carnivorous Carnival',
+        series: '',
         author: 'Lemony Snicket',
         myRating: 4,
         pages: 286,
@@ -3974,6 +4297,7 @@ let bookData = [
     },
     {
         title: 'The Slippery Slope',
+        series: '',
         author: 'Lemony Snicket',
         myRating: 4,
         pages: 337,
@@ -3986,6 +4310,7 @@ let bookData = [
     },
     {
         title: 'The Grim Grotto',
+        series: '',
         author: 'Lemony Snicket',
         myRating: 4,
         pages: 323,
@@ -3998,6 +4323,7 @@ let bookData = [
     },
     {
         title: 'The Penultimate Peril',
+        series: '',
         author: 'Lemony Snicket',
         myRating: 4,
         pages: 353,
@@ -4010,6 +4336,7 @@ let bookData = [
     },
     {
         title: 'The End',
+        series: '',
         author: 'Lemony Snicket',
         myRating: 4,
         pages: 337,
@@ -4022,6 +4349,7 @@ let bookData = [
     },
     {
         title: 'Read Japanese Today',
+        series: '',
         author: 'Len Welsh',
         myRating: 7,
         pages: 168,
@@ -4034,6 +4362,7 @@ let bookData = [
     },
     {
         title: 'The Magicians',
+        series: '',
         author: 'Lev Grossman',
         myRating: 4,
         pages: 402,
@@ -4046,6 +4375,7 @@ let bookData = [
     },
     {
         title: 'Big Little Lies',
+        series: '',
         author: 'Liane Moriarty',
         myRating: 9,
         pages: 460,
@@ -4058,6 +4388,7 @@ let bookData = [
     },
     {
         title: 'Going Bovine',
+        series: '',
         author: 'Libba Bray',
         myRating: 9,
         pages: 480,
@@ -4070,6 +4401,7 @@ let bookData = [
     },
     {
         title: 'The Giver',
+        series: '',
         author: 'Lois Lowry',
         myRating: 8,
         pages: 208,
@@ -4082,6 +4414,7 @@ let bookData = [
     },
     {
         title: 'Gathering Blue',
+        series: '',
         author: 'Lois Lowry',
         myRating: 5,
         pages: 240,
@@ -4094,6 +4427,7 @@ let bookData = [
     },
     {
         title: 'Messenger',
+        series: '',
         author: 'Lois Lowry',
         myRating: 5,
         pages: 169,
@@ -4106,6 +4440,7 @@ let bookData = [
     },
     {
         title: 'Number the Stars',
+        series: '',
         author: 'Lois Lowry',
         myRating: 8,
         pages: 137,
@@ -4118,6 +4453,7 @@ let bookData = [
     },
     {
         title: 'Nazirite DNA',
+        series: '',
         author: 'Lou Engle',
         myRating: 5,
         pages: 50,
@@ -4130,6 +4466,7 @@ let bookData = [
     },
     {
         title: 'Theodore Roosevelt',
+        series: '',
         author: 'Louis Auchincloss',
         myRating: 7,
         pages: 176,
@@ -4142,6 +4479,7 @@ let bookData = [
     },
     {
         title: 'Holes',
+        series: '',
         author: 'Louis Sachar',
         myRating: 7,
         pages: 233,
@@ -4154,6 +4492,7 @@ let bookData = [
     },
     {
         title: 'Sideways Stories from Wayside School',
+        series: '',
         author: 'Louis Sachar',
         myRating: 7,
         pages: 128,
@@ -4166,6 +4505,7 @@ let bookData = [
     },
     {
         title: 'Wayside School Is Falling Down',
+        series: '',
         author: 'Louis Sachar',
         myRating: 7,
         pages: 152,
@@ -4178,6 +4518,7 @@ let bookData = [
     },
     {
         title: 'Wayside School Gets a Little Stranger',
+        series: '',
         author: 'Louis Sachar',
         myRating: 7,
         pages: 168,
@@ -4190,6 +4531,7 @@ let bookData = [
     },
     {
         title: 'Recruited',
+        series: '',
         author: 'Lynn Mason',
         myRating: 6,
         pages: 224,
@@ -4207,6 +4549,7 @@ let bookData = [
 	//#region M
     {
         title: 'A Wrinkle in Time',
+        series: '',
         author: "Madeleine L'Engle",
         myRating: 7,
         pages: 211,
@@ -4219,6 +4562,7 @@ let bookData = [
     },
     {
         title: 'Outliers',
+        series: '',
         author: 'Malcolm Gladwell',
         myRating: 8,
 		pages: 309,
@@ -4231,6 +4575,7 @@ let bookData = [
     },
     {
         title: 'Tipping Point',
+        series: '',
         author: 'Malcolm Gladwell',
         myRating: 7,
 		pages: 301,
@@ -4243,6 +4588,7 @@ let bookData = [
     },
     {
         title: 'Bored and Brilliant',
+        series: '',
         author: 'Manoush Zomorodi',
         myRating: 8,
         pages: 192,
@@ -4255,6 +4601,7 @@ let bookData = [
     },
     {
         title: 'The 125 Best Brain Teasers of All Time',
+        series: '',
         author: 'Marcel Danesi',
         myRating: 5,
         pages: 206,
@@ -4267,6 +4614,7 @@ let bookData = [
     },
     {
         title: 'Vampire Baby',
+        series: '',
         author: 'Marcia Thornton Jones',
         myRating: 6,
         pages: 69,
@@ -4279,6 +4627,7 @@ let bookData = [
     },
     {
         title: 'The Official Pokémon Handbook',
+        series: '',
         author: 'Maria Barbo',
         myRating: 7,
         pages: 143,
@@ -4291,6 +4640,7 @@ let bookData = [
     },
     {
         title: "Where'd You Go, Bernadette",
+        series: '',
         author: 'Maria Semple',
         myRating: 9,
         pages: 330,
@@ -4303,6 +4653,7 @@ let bookData = [
     },
     {
         title: 'Beautiful',
+        series: '',
         author: "Marie D'Abreo",
         myRating: 4,
         pages: 134,
@@ -4315,6 +4666,7 @@ let bookData = [
     },
     {
         title: 'The Life-Changing Magic of Tidying Up',
+        series: '',
         author: "Marie Kondō",
         myRating: 7,
         pages: 213,
@@ -4327,6 +4679,7 @@ let bookData = [
     },
     {
         title: 'Spark Joy',
+        series: '',
         author: "Marie Kondō",
         myRating: 7,
         pages: 291,
@@ -4339,6 +4692,7 @@ let bookData = [
     },
     {
         title: 'Legend',
+        series: '',
         author: 'Marie Lu',
         myRating: 7,
         pages: 305,
@@ -4351,6 +4705,7 @@ let bookData = [
     },
     {
         title: 'Doctrine',
+        series: '',
         author: 'Mark Driscoll',
         myRating: 8,
         pages: 463,
@@ -4363,6 +4718,7 @@ let bookData = [
     },
     {
         title: 'The Radical Reformission',
+        series: '',
         author: 'Mark Driscoll',
         myRating: 8,
         pages: 208,
@@ -4375,6 +4731,7 @@ let bookData = [
     },
     {
         title: 'The Subtle Art of Not Giving a F*ck',
+        series: '',
         author: 'Mark Manson',
         myRating: 7,
         pages: 224,
@@ -4387,6 +4744,7 @@ let bookData = [
     },
     {
         title: 'Archie, Vol. 1',
+        series: '',
         author: 'Mark Waid',
         myRating: 6,
         pages: 160,
@@ -4399,6 +4757,7 @@ let bookData = [
     },
     {
         title: 'House of Leaves',
+        series: '',
         author: 'Mark Z. Danielewski',
         myRating: 7,
         pages: 705,
@@ -4411,6 +4770,7 @@ let bookData = [
     },
     {
         title: 'Manna',
+        series: '',
         author: 'Marshall Brain',
         myRating: 8,
         pages: 79,
@@ -4423,6 +4783,7 @@ let bookData = [
     },
     {
         title: 'Frankenstein',
+        series: '',
         author: 'Mary Wollstonecraft Shelley',
         myRating: 6,
         pages: 335,
@@ -4435,6 +4796,7 @@ let bookData = [
     },
     {
         title: '30 Days To Understanding the Bible',
+        series: '',
         author: 'Max Anders',
         myRating: 7,
         pages: 305,
@@ -4447,6 +4809,7 @@ let bookData = [
     },
     {
         title: 'World War Z',
+        series: '',
         author: 'Max Brooks',
         myRating: 6,
         pages: 342,
@@ -4459,6 +4822,7 @@ let bookData = [
     },
     {
         title: 'How Not to Die',
+        series: '',
         author: 'Michael Greger',
         myRating: 7,
         pages: 576,
@@ -4471,6 +4835,7 @@ let bookData = [
     },
     {
         title: 'Stupid White Men',
+        series: '',
         author: 'Michael Moore',
         myRating: 6,
         pages: 304,
@@ -4483,6 +4848,7 @@ let bookData = [
     },
     {
         title: 'Food Rules',
+        series: '',
         author: 'Michael Pollan',
         myRating: 8,
         pages: 152,
@@ -4495,6 +4861,7 @@ let bookData = [
     },
     {
         title: 'Mean Girls',
+        series: '',
         author: 'Micol Ostow',
         myRating: 7,
         pages: 283,
@@ -4507,6 +4874,7 @@ let bookData = [
     },
     {
         title: "Dungeon Master's Guide",
+        series: '',
         author: 'Mike Mearls',
         myRating: 8,
         pages: 320,
@@ -4519,6 +4887,7 @@ let bookData = [
     },
     {
         title: 'The Kobold Guide to Board Game Design',
+        series: '',
         author: 'Mike Selinker',
         myRating: 9,
         pages: 138,
@@ -4531,6 +4900,7 @@ let bookData = [
     },
     {
         title: "Shirley Jackson's The Lottery: The Authorized Graphic Adaptation",
+        series: '',
         author: 'Miles Hyman',
         myRating: 5,
         pages: 160,
@@ -4543,6 +4913,7 @@ let bookData = [
     },
     {
         title: "AsapSCIENCE",
+        series: '',
         author: 'Mitchell Moffit',
         myRating: 7,
         pages: 256,
@@ -4560,6 +4931,7 @@ let bookData = [
 	//#region N
     {
         title: 'Scythe',
+        series: '',
         author: 'Neal Shusterman',
         myRating: 9,
         pages: 435,
@@ -4570,6 +4942,7 @@ let bookData = [
     },
     {
         title: 'Thunderhead',
+        series: '',
         author: 'Neal Shusterman',
         myRating: 10,
         pages: 504,
@@ -4580,6 +4953,7 @@ let bookData = [
     },
     {
         title: 'The Toll',
+        series: '',
         author: 'Neal Shusterman',
         myRating: 9,
         pages: 625,
@@ -4590,6 +4964,7 @@ let bookData = [
     },
     {
         title: 'Neverwhere',
+        series: '',
         author: 'Neil Gaiman',
         myRating: 6,
         pages: 370,
@@ -4600,6 +4975,7 @@ let bookData = [
     },
     {
         title: 'Good Omens',
+        series: '',
         author: 'Neil Gaiman',
         myRating: 5,
         pages: 491,
@@ -4610,6 +4986,7 @@ let bookData = [
     },
     {
         title: 'Coraline',
+        series: '',
         author: 'Neil Gaiman',
         myRating: 6,
         pages: 162,
@@ -4620,6 +4997,7 @@ let bookData = [
     },
     {
         title: 'The Graveyard Book',
+        series: '',
         author: 'Neil Gaiman',
         myRating: 7,
         pages: 307,
@@ -4630,6 +5008,7 @@ let bookData = [
     },
     {
         title: 'Victory Over the Darkness',
+        series: '',
         author: 'Neil T. Anderson',
         myRating: 4,
         pages: 256,
@@ -4640,6 +5019,7 @@ let bookData = [
     },
     {
         title: 'Fantastic Beasts and Where to Find Them',
+        series: '',
         author: 'Newt Scamander',
         myRating: 7,
         pages: 128,
@@ -4650,6 +5030,7 @@ let bookData = [
     },
     {
         title: 'Everything, Everything',
+        series: '',
         author: 'Nicola Yoon',
         myRating: 7,
         pages: 306,
@@ -4665,6 +5046,7 @@ let bookData = [
 	//#region O
     {
         title: 'Cold Sassy Tree',
+        series: '',
         author: 'Olive Ann Burns',
         myRating: 6,
         pages: 391,
@@ -4675,6 +5057,7 @@ let bookData = [
     },
     {
         title: 'Ender’s Game',
+        series: '',
         author: 'Orson Scott Card',
         myRating: 6,
         pages: 324,
@@ -4685,6 +5068,7 @@ let bookData = [
     },
     {
         title: 'The Canterville Ghost',
+        series: '',
         author: 'Oscar Wilde',
         myRating: 7,
         pages: 126,
@@ -4700,6 +5084,7 @@ let bookData = [
 	//#region P
     {
         title: 'The Windup Girl',
+        series: '',
         author: 'Paolo Bacigalupi',
         myRating: 5,
         pages: 359,
@@ -4710,16 +5095,18 @@ let bookData = [
     },
     {
         title: 'The Name of the Wind',
+        series: '1',
         author: 'Patrick Rothfuss',
         myRating: 10,
         pages: 722,
         pubDate: 2007,
-        yearRead: [2020],
+        yearRead: [2020, 2021],
         thumb: './images/name-of-wind.jpg',
         keywords: ['fantasy', 'fiction', 'magic', 'music', 'adventure', 'high fantasy', 'series', 'schools']
     },
     {
         title: "The Wise Man's Fear",
+        series: '2',
         author: 'Patrick Rothfuss',
         myRating: 10,
         pages: 1107,
@@ -4730,6 +5117,7 @@ let bookData = [
     },
     {
         title: 'Rick and Morty vs. Dungeons & Dragons',
+        series: '',
         author: 'Patrick Rothfuss',
         myRating: 9,
         pages: 96,
@@ -4740,6 +5128,7 @@ let bookData = [
     },
     {
         title: 'The Heavenly Man',
+        series: '',
         author: 'Paul Hattaway',
         myRating: 6,
         pages: 351,
@@ -4750,6 +5139,7 @@ let bookData = [
     },
     {
         title: 'The Girl on the Train',
+        series: '',
         author: 'Paula Hawkins',
         myRating: 7,
         pages: 325,
@@ -4760,6 +5150,7 @@ let bookData = [
     },
     {
         title: 'Liverpool FC',
+        series: '',
         author: 'Paula Wilson',
         myRating: 6,
         pages: 32,
@@ -4770,6 +5161,7 @@ let bookData = [
     },
     {
         title: 'The Alchemist',
+        series: '',
         author: 'Paulo Coelho',
         myRating: 5,
         pages: 197,
@@ -4780,6 +5172,7 @@ let bookData = [
     },
     {
         title: 'The Good Earth',
+        series: '',
         author: 'Pearl S. Buck',
         myRating: 5,
         pages: 418,
@@ -4790,6 +5183,7 @@ let bookData = [
     },
     {
         title: 'Shortest Way Home',
+        series: '',
         author: 'Pete Buttigieg',
         myRating: 6,
         pages: 352,
@@ -4800,6 +5194,7 @@ let bookData = [
     },
     {
         title: '30 Years of Adventure: A Celebration of Dungeons & Dragons',
+        series: '',
         author: 'Peter Archer',
         myRating: 5,
         pages: 286,
@@ -4810,6 +5205,7 @@ let bookData = [
     },
     {
         title: '1001 Books You Must Read Before You Die',
+        series: '',
         author: 'Peter Boxall',
         myRating: 5,
         pages: 960,
@@ -4820,6 +5216,7 @@ let bookData = [
     },
     {
         title: 'Adjustment Team',
+        series: '',
         author: 'Philip K Dick',
         myRating: 6,
         pages: 44,
@@ -4830,6 +5227,7 @@ let bookData = [
     },
     {
         title: 'Resident Evil',
+        series: '',
         author: 'Philip Reed',
         myRating: 7,
         pages: 192,
@@ -4840,6 +5238,7 @@ let bookData = [
     },
     {
         title: 'Hidden Codes & Grand Designs',
+        series: '',
         author: 'Pierre Berloquin',
         myRating: 6,
         pages: 375,
@@ -4860,6 +5259,7 @@ let bookData = [
 	//#region R
     {
         title: 'What is Predestination?',
+        series: '',
         author: 'R.C. Sproul',
         myRating: 8,
         pages: 74,
@@ -4870,84 +5270,80 @@ let bookData = [
 		similar: ['Systematic Theology']
     },
     {
-        title: 'Dr. Maniac Will See You Now',
+        title: 'Welcome to Dead House',
+        series: '1',
         author: 'R.L. Stine',
-        myRating: 4,
-        pages: 160,
-        pubDate: 2013,
+        myRating: 7,
+        pages: 126,
+        pubDate: 1992,
         yearRead: [2017],
-        thumb: './images/dr-maniac.jpg',
-        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
-		similar: ['Scary Stories to Tell in the Dark', 'Dr. Maniac vs. Robby Schwartz']
-    },
-    {
-        title: 'Dr. Maniac vs. Robby Schwartz',
-        author: 'R.L. Stine',
-        myRating: 3,
-        pages: 132,
-        pubDate: 2008,
-        yearRead: [2017],
-        thumb: './images/dr-maniac-vs.jpg',
-        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
-		similar: ['Dr. Maniac Will See You Now', 'Scary Stories to Tell in the Dark']
-    },
-    {
-        title: 'Welcome To Camp Slither',
-        author: 'R.L. Stine',
-        myRating: 4,
-        pages: 133,
-        pubDate: 2009,
-        yearRead: [2017],
-        thumb: './images/camp-slither.jpg',
-        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'camps', 'series'],
+        thumb: './images/dead-house.jpg',
+        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'ghosts', 'tv', 'series'],
 		similar: ['Scary Stories to Tell in the Dark']
     },
     {
-        title: 'Little Shop of Hamsters',
+        title: 'Stay Out of the Basement',
+        series: '2',
         author: 'R.L. Stine',
-        myRating: 4,
-        pages: 135,
-        pubDate: 2010,
+        myRating: 6,
+        pages: 144,
+        pubDate: 1992,
         yearRead: [2017],
-        thumb: './images/little-shop-hamsters.jpg',
+        thumb: './images/stay-out-basement.jpg',
+        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'tv', 'series'],
+		similar: ['Scary Stories to Tell in the Dark']
+    },
+    {
+        title: 'Say Cheese and Die!',
+        series: '4',
+        author: 'R.L. Stine',
+        myRating: 7,
+        pages: 144,
+        pubDate: 1992,
+        yearRead: [1999],
+        thumb: './images/say-cheese-die.jpg',
+        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'tv', 'series'],
+		similar: ['Say Cheese - And Die Screaming', 'Scary Stories to Tell in the Dark']
+    },
+    {
+        title: "The Curse of the Mummy's Tomb",
+        series: '5',
+        author: 'R.L. Stine',
+        myRating: 6,
+        pages: 144,
+        pubDate: 1993,
+        yearRead: [2017],
+        thumb: './images/curse-of-mummy.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
 		similar: ['Scary Stories to Tell in the Dark']
     },
     {
-        title: 'When The Ghost Dog Howls',
+        title: 'Night of the Living Dummy',
+        series: '7',
         author: 'R.L. Stine',
-        myRating: 4,
-        pages: 137,
-        pubDate: 2010,
+        myRating: 7,
+        pages: 134,
+        pubDate: 1993,
         yearRead: [2017],
-        thumb: './images/ghost-dog-howls.jpg',
-        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'ghosts', 'series'],
+        thumb: './images/night-living-dummy.jpg',
+        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
 		similar: ['Scary Stories to Tell in the Dark']
     },
     {
-        title: 'Slappy Birthday to You',
+        title: 'One Day at Horrorland',
+        series: '16',
         author: 'R.L. Stine',
-        myRating: 4,
-        pages: 139,
-        pubDate: 2017,
-        yearRead: [2017],
-        thumb: './images/slappy-birthday.jpg',
-        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
-		similar: ['Night of the Living Dummy', 'Scary Stories to Tell in the Dark']
-    },
-    {
-        title: 'Slappy New Year!',
-        author: 'R.L. Stine',
-        myRating: 4,
-        pages: 160,
-        pubDate: 2010,
-        yearRead: [2017],
-        thumb: './images/slappy-new-year.jpg',
-        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
-		similar: ['Night of the Living Dummy', 'Scary Stories to Tell in the Dark']
+        myRating: 7,
+        pages: 123,
+        pubDate: 1994,
+        yearRead: [2006],
+        thumb: './images/horrorland.jpg',
+        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'tv', 'series'],
+		similar: ['Scary Stories to Tell in the Dark']
     },
     {
         title: 'It Came from Beneath the Sink!',
+        series: '30',
         author: 'R.L. Stine',
         myRating: 6,
         pages: 112,
@@ -4959,6 +5355,7 @@ let bookData = [
     },
     {
         title: 'Werewolf Skin',
+        series: '60',
         author: 'R.L. Stine',
         myRating: 7,
         pages: 125,
@@ -4969,51 +5366,32 @@ let bookData = [
 		similar: ['Scary Stories to Tell in the Dark']
     },
     {
-        title: 'Say Cheese and Die!',
+        title: 'Beware of the Purple Peanut Butter',
+        series: '6',
         author: 'R.L. Stine',
-        myRating: 7,
+        myRating: 4,
         pages: 144,
-        pubDate: 1992,
-        yearRead: [1999],
-        thumb: './images/say-cheese-die.jpg',
-        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'tv', 'series'],
-		similar: ['Say Cheese - And Die Screaming', 'Scary Stories to Tell in the Dark']
+        pubDate: 1996,
+        yearRead: [2021],
+        thumb: './images/purple-pb.jpg',
+        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series', 'choose-adventure'],
+		similar: ['Welcome to Dead House']
     },
     {
-        title: 'Say Cheese - And Die Screaming',
+        title: 'Dr. Maniac vs. Robby Schwartz',
+        series: '5',
         author: 'R.L. Stine',
-        myRating: 5,
-        pages: 125,
-        pubDate: 2009,
-        yearRead: [2017],
-        thumb: './images/say-cheese-die-screaming.jpg',
-        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
-		similar: ['Say Cheese and Die!', 'Scary Stories to Tell in the Dark']
-    },
-    {
-        title: 'Welcome to Dead House',
-        author: 'R.L. Stine',
-        myRating: 7,
-        pages: 126,
-        pubDate: 1992,
-        yearRead: [2017],
-        thumb: './images/dead-house.jpg',
-        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'ghosts', 'tv', 'series'],
-		similar: ['Scary Stories to Tell in the Dark']
-    },
-    {
-        title: 'Escape From Horrorland',
-        author: 'R.L. Stine',
-        myRating: 5,
+        myRating: 3,
         pages: 132,
-        pubDate: 2009,
+        pubDate: 2008,
         yearRead: [2017],
-        thumb: './images/escape-horrorland.jpg',
+        thumb: './images/dr-maniac-vs.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
-		similar: ['Scary Stories to Tell in the Dark', 'One Day at Horrorland']
+		similar: ['Dr. Maniac Will See You Now', 'Scary Stories to Tell in the Dark']
     },
     {
         title: "Who's Your Mummy?",
+        series: '6',
         author: 'R.L. Stine',
         myRating: 5,
         pages: 133,
@@ -5024,29 +5402,8 @@ let bookData = [
 		similar: ['Scary Stories to Tell in the Dark', "The Curse of the Mummy's Tomb"]
     },
     {
-        title: 'Creature Teacher: The Final Exam',
-        author: 'R.L. Stine',
-        myRating: 4,
-        pages: 133,
-        pubDate: 2014,
-        yearRead: [2017],
-        thumb: './images/creature-teacher.jpg',
-        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series', 'schools'],
-		similar: ['Scary Stories to Tell in the Dark']
-    },
-    {
-        title: 'Night of the Living Dummy',
-        author: 'R.L. Stine',
-        myRating: 7,
-        pages: 134,
-        pubDate: 1993,
-        yearRead: [2017],
-        thumb: './images/night-living-dummy.jpg',
-        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
-		similar: ['Scary Stories to Tell in the Dark']
-    },
-    {
         title: 'My Friends Call Me Monster',
+        series: '7',
         author: 'R.L. Stine',
         myRating: 4,
         pages: 138,
@@ -5057,73 +5414,68 @@ let bookData = [
 		similar: ['Scary Stories to Tell in the Dark']
     },
     {
-        title: 'One Day at Horrorland',
-        author: 'R.L. Stine',
-        myRating: 7,
-        pages: 123,
-        pubDate: 1994,
-        yearRead: [2006],
-        thumb: './images/horrorland.jpg',
-        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'tv', 'series'],
-		similar: ['Scary Stories to Tell in the Dark']
-    },
-    {
-        title: 'Stay Out of the Basement',
-        author: 'R.L. Stine',
-        myRating: 6,
-        pages: 144,
-        pubDate: 1992,
-        yearRead: [2017],
-        thumb: './images/stay-out-basement.jpg',
-        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'tv', 'series'],
-		similar: ['Scary Stories to Tell in the Dark']
-    },
-    {
-        title: "The Curse of the Mummy's Tomb",
-        author: 'R.L. Stine',
-        myRating: 6,
-        pages: 144,
-        pubDate: 1993,
-        yearRead: [2017],
-        thumb: './images/curse-of-mummy.jpg',
-        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
-		similar: ['Scary Stories to Tell in the Dark']
-    },
-    {
-        title: 'The Horror At Chiller House',
+        title: 'Say Cheese - And Die Screaming',
+        series: '8',
         author: 'R.L. Stine',
         myRating: 5,
-        pages: 160,
-        pubDate: 2011,
+        pages: 125,
+        pubDate: 2009,
         yearRead: [2017],
-        thumb: './images/chiller-house.jpg',
+        thumb: './images/say-cheese-die-screaming.jpg',
+        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
+		similar: ['Say Cheese and Die!', 'Scary Stories to Tell in the Dark']
+    },
+    {
+        title: 'Welcome To Camp Slither',
+        series: '9',
+        author: 'R.L. Stine',
+        myRating: 4,
+        pages: 133,
+        pubDate: 2009,
+        yearRead: [2017],
+        thumb: './images/camp-slither.jpg',
+        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'camps', 'series'],
+		similar: ['Scary Stories to Tell in the Dark']
+    },
+    {
+        title: 'Escape From Horrorland',
+        series: '11',
+        author: 'R.L. Stine',
+        myRating: 5,
+        pages: 132,
+        pubDate: 2009,
+        yearRead: [2017],
+        thumb: './images/escape-horrorland.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
 		similar: ['Scary Stories to Tell in the Dark', 'One Day at Horrorland']
     },
     {
-        title: 'The 12 Screams of Christmas',
+        title: 'When The Ghost Dog Howls',
+        series: '13',
         author: 'R.L. Stine',
-        myRating: 6,
-        pages: 174,
-        pubDate: 2014,
+        myRating: 4,
+        pages: 137,
+        pubDate: 2010,
         yearRead: [2017],
-        thumb: './images/twelve-screams.jpg',
-        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'christmas', 'series'],
-		similar: ['Scary Stories to Tell in the Dark', 'Zombie Halloween']
+        thumb: './images/ghost-dog-howls.jpg',
+        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'ghosts', 'series'],
+		similar: ['Scary Stories to Tell in the Dark']
     },
     {
-        title: 'Zombie Halloween',
+        title: 'Little Shop of Hamsters',
+        series: '14',
         author: 'R.L. Stine',
-        myRating: 6,
-        pages: 174,
-        pubDate: 2014,
+        myRating: 4,
+        pages: 135,
+        pubDate: 2010,
         yearRead: [2017],
-        thumb: './images/zombie-halloween.jpg',
-        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'zombies', 'halloween', 'series'],
-		similar: ['Scary Stories to Tell in the Dark', 'Weirdo Halloween']
+        thumb: './images/little-shop-hamsters.jpg',
+        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
+		similar: ['Scary Stories to Tell in the Dark']
     },
     {
         title: 'Weirdo Halloween',
+        series: '16',
         author: 'R.L. Stine',
         myRating: 4,
         pages: 214,
@@ -5134,7 +5486,92 @@ let bookData = [
 		similar: ['Scary Stories to Tell in the Dark', 'Zombie Halloween']
     },
     {
+        title: 'Slappy New Year!',
+        series: '18',
+        author: 'R.L. Stine',
+        myRating: 4,
+        pages: 160,
+        pubDate: 2010,
+        yearRead: [2017],
+        thumb: './images/slappy-new-year.jpg',
+        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
+		similar: ['Night of the Living Dummy', 'Scary Stories to Tell in the Dark']
+    },
+    {
+        title: 'The Horror At Chiller House',
+        series: '19',
+        author: 'R.L. Stine',
+        myRating: 5,
+        pages: 160,
+        pubDate: 2011,
+        yearRead: [2017],
+        thumb: './images/chiller-house.jpg',
+        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
+		similar: ['Scary Stories to Tell in the Dark', 'One Day at Horrorland']
+    },
+    {
+        title: 'Dr. Maniac Will See You Now',
+        series: '5',
+        author: 'R.L. Stine',
+        myRating: 4,
+        pages: 160,
+        pubDate: 2013,
+        yearRead: [2017],
+        thumb: './images/dr-maniac.jpg',
+        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
+		similar: ['Scary Stories to Tell in the Dark', 'Dr. Maniac vs. Robby Schwartz']
+    },
+    {
+        title: 'Creature Teacher: The Final Exam',
+        series: '6',
+        author: 'R.L. Stine',
+        myRating: 4,
+        pages: 133,
+        pubDate: 2014,
+        yearRead: [2017],
+        thumb: './images/creature-teacher.jpg',
+        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series', 'schools'],
+		similar: ['Scary Stories to Tell in the Dark']
+    },
+    {
+        title: 'Zombie Halloween',
+        series: '1',
+        author: 'R.L. Stine',
+        myRating: 6,
+        pages: 174,
+        pubDate: 2014,
+        yearRead: [2017],
+        thumb: './images/zombie-halloween.jpg',
+        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'zombies', 'halloween', 'series'],
+		similar: ['Scary Stories to Tell in the Dark', 'Weirdo Halloween']
+    },
+    {
+        title: 'The 12 Screams of Christmas',
+        series: '2',
+        author: 'R.L. Stine',
+        myRating: 6,
+        pages: 174,
+        pubDate: 2014,
+        yearRead: [2017],
+        thumb: './images/twelve-screams.jpg',
+        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'christmas', 'series'],
+		similar: ['Scary Stories to Tell in the Dark', 'Zombie Halloween']
+    },
+    {
+        title: 'Slappy Birthday to You',
+        series: '1',
+        author: 'R.L. Stine',
+        myRating: 4,
+        pages: 139,
+        pubDate: 2017,
+        yearRead: [2017],
+        thumb: './images/slappy-birthday.jpg',
+        keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
+		similar: ['Night of the Living Dummy', 'Scary Stories to Tell in the Dark']
+    },
+    {
         title: 'Creepy Creatures',
+        series: '1',
         author: 'R.L. Stine',
         myRating: 5,
         pages: 144,
@@ -5146,6 +5583,7 @@ let bookData = [
     },
     {
         title: 'Terror Trips',
+        series: '2',
         author: 'R.L. Stine',
         myRating: 5,
         pages: 144,
@@ -5157,6 +5595,7 @@ let bookData = [
     },
     {
         title: '2,000 to 10,000',
+        series: '',
         author: 'Rachel Aaron',
         myRating: 6,
         pages: 72,
@@ -5167,6 +5606,7 @@ let bookData = [
     },
     {
         title: 'Less: A Visual Guide to Minimalism',
+        series: '',
         author: 'Rachel Aust',
         myRating: 6,
         pages: 144,
@@ -5177,6 +5617,7 @@ let bookData = [
     },
     {
         title: "Nick & Norah's Infinite Playlist",
+        series: '',
         author: 'Rachel Cohn',
         myRating: 8,
         pages: 183,
@@ -5187,6 +5628,7 @@ let bookData = [
     },
     {
         title: "Dot Journaling",
+        series: '',
         author: 'Rachel Miller',
         myRating: 6,
         pages: 241,
@@ -5197,6 +5639,7 @@ let bookData = [
     },
     {
         title: 'Ghosts',
+        series: '',
         author: 'Raina Telgemeier',
         myRating: 7,
         pages: 256,
@@ -5207,6 +5650,7 @@ let bookData = [
     },
     {
         title: 'Landline',
+        series: '',
         author: 'Rainbow Rowell',
         myRating: 7,
         pages: 310,
@@ -5217,6 +5661,7 @@ let bookData = [
     },
     {
         title: 'Attachments',
+        series: '',
         author: 'Rainbow Rowell',
         myRating: 7,
         pages: 323,
@@ -5227,6 +5672,7 @@ let bookData = [
     },
     {
         title: 'Eleanor & Park',
+        series: '',
         author: 'Rainbow Rowell',
         myRating: 7,
         pages: 328,
@@ -5237,6 +5683,7 @@ let bookData = [
     },
     {
         title: 'Fangirl',
+        series: '',
         author: 'Rainbow Rowell',
         myRating: 9,
         pages: 483,
@@ -5247,6 +5694,7 @@ let bookData = [
     },
     {
         title: 'Carry On',
+        series: '',
         author: 'Rainbow Rowell',
         myRating: 7,
         pages: 522,
@@ -5257,6 +5705,7 @@ let bookData = [
     },
     {
         title: 'Wayward Son',
+        series: '',
         author: 'Rainbow Rowell',
         myRating: 8,
         pages: 356,
@@ -5267,6 +5716,7 @@ let bookData = [
     },
     {
         title: 'Any Way the Wind Blows',
+        series: '',
         author: 'Rainbow Rowell',
         myRating: 6,
         pages: 579,
@@ -5277,6 +5727,7 @@ let bookData = [
     },
     {
         title: 'Kindred Spirits',
+        series: '',
         author: 'Rainbow Rowell',
         myRating: 7,
         pages: 96,
@@ -5287,6 +5738,7 @@ let bookData = [
     },
     {
         title: 'Thing Explainer',
+        series: '',
         author: 'Randall Munroe',
         myRating: 8,
         pages: 64,
@@ -5297,6 +5749,7 @@ let bookData = [
     },
     {
         title: 'What If?',
+        series: '',
         author: 'Randall Munroe',
         myRating: 8,
         pages: 303,
@@ -5307,6 +5760,7 @@ let bookData = [
     },
     {
         title: 'Money, Possessions and Eternity',
+        series: '',
         author: 'Randy Alcorn',
         myRating: 6,
         pages: 528,
@@ -5317,6 +5771,7 @@ let bookData = [
     },
     {
         title: 'The Treasure Principle',
+        series: '',
         author: 'Randy Alcorn',
         myRating: 8,
         pages: 120,
@@ -5327,6 +5782,7 @@ let bookData = [
     },
     {
         title: 'Safely Home',
+        series: '',
         author: 'Randy Alcorn',
         myRating: 8,
         pages: 402,
@@ -5337,6 +5793,7 @@ let bookData = [
     },
     {
         title: 'How to be Miserable',
+        series: '',
         author: 'Randy Paterson',
         myRating: 5,
         pages: 248,
@@ -5347,6 +5804,7 @@ let bookData = [
     },
     {
         title: 'Miss Peregrine’s Home for Peculiar Children',
+        series: '',
         author: 'Ransom Riggs',
         myRating: 6,
         pages: 382,
@@ -5357,6 +5815,7 @@ let bookData = [
     },
     {
         title: 'Welcome to the Club',
+        series: '',
         author: "Raquel D'Apice",
         myRating: 7,
         pages: 144,
@@ -5367,6 +5826,7 @@ let bookData = [
     },
     {
         title: 'Fahrenheit 451',
+        series: '',
         author: 'Ray Bradbury',
         myRating: 7,
         pages: 180,
@@ -5377,6 +5837,7 @@ let bookData = [
     },
     {
         title: 'Cemetery Dance: Issue 74-75',
+        series: '',
         author: 'Richard Chizmar',
         myRating: 4,
         pages: 192,
@@ -5387,6 +5848,7 @@ let bookData = [
     },
     {
         title: 'The Most Dangerous Game',
+        series: '',
         author: 'Richard Connell',
         myRating: 7,
         pages: 59,
@@ -5397,6 +5859,7 @@ let bookData = [
     },
     {
         title: 'Celebration of Discipline',
+        series: '',
         author: 'Richard J. Foster',
         myRating: 8,
         pages: 256,
@@ -5407,6 +5870,7 @@ let bookData = [
     },
     {
         title: 'I Am Legend',
+        series: '',
         author: 'Richard Matheson',
         myRating: 7,
         pages: 160,
@@ -5417,6 +5881,7 @@ let bookData = [
     },
     {
         title: 'Vampire Academy',
+        series: '',
         author: 'Richelle Mead',
         myRating: 9,
         pages: 332,
@@ -5427,6 +5892,7 @@ let bookData = [
     },
     {
         title: 'Frostbite',
+        series: '',
         author: 'Richelle Mead',
         myRating: 8,
         pages: 327,
@@ -5437,6 +5903,7 @@ let bookData = [
     },
     {
         title: 'Shadow Kiss',
+        series: '',
         author: 'Richelle Mead',
         myRating: 8,
         pages: 443,
@@ -5447,6 +5914,7 @@ let bookData = [
     },
     {
         title: 'Blood Promise',
+        series: '',
         author: 'Richelle Mead',
         myRating: 8,
         pages: 503,
@@ -5457,6 +5925,7 @@ let bookData = [
     },
     {
         title: 'Spirit Bound',
+        series: '',
         author: 'Richelle Mead',
         myRating: 8,
         pages: 489,
@@ -5467,6 +5936,7 @@ let bookData = [
     },
     {
         title: 'Last Sacrifice',
+        series: '',
         author: 'Richelle Mead',
         myRating: 8,
         pages: 594,
@@ -5477,6 +5947,7 @@ let bookData = [
     },
     {
         title: 'The Final Quest',
+        series: '',
         author: 'Rick Joyner',
         myRating: 5,
         pages: 170,
@@ -5487,6 +5958,7 @@ let bookData = [
     },
     {
         title: 'The Lightning Thief',
+        series: '',
         author: 'Rick Riordan',
         myRating: 7,
         pages: 375,
@@ -5497,6 +5969,7 @@ let bookData = [
     },
     {
         title: 'The 5th Wave',
+        series: '',
         author: 'Rick Yancey',
         myRating: 6,
         pages: 460,
@@ -5507,6 +5980,7 @@ let bookData = [
     },
     {
         title: 'Slay the Dragon',
+        series: '',
         author: 'Robert Denton Bryant',
         myRating: 7,
         pages: 232,
@@ -5517,6 +5991,7 @@ let bookData = [
     },
     {
         title: 'Changing the World Through Discipleship',
+        series: '',
         author: 'Robert Herber',
         myRating: 7,
         pages: 111,
@@ -5528,6 +6003,7 @@ let bookData = [
     },
     {
         title: 'Outcast by Kirkman & Azaceta Book 1',
+        series: '',
         author: 'Robert Kirkman',
         myRating: 4,
         pages: 296,
@@ -5538,6 +6014,7 @@ let bookData = [
     },
     {
         title: 'The Walking Dead, Vol. 1',
+        series: '',
         author: 'Robert Kirkman',
         myRating: 6,
         pages: 144,
@@ -5548,6 +6025,7 @@ let bookData = [
     },
     {
         title: 'Rich Dad, Poor Dad',
+        series: '',
         author: 'Robert Kiyosaki',
         myRating: 9,
         pages: 195,
@@ -5558,6 +6036,7 @@ let bookData = [
     },
     {
         title: 'Good Luck Have Fun',
+        series: '',
         author: 'Roland Li',
         myRating: 6,
         pages: 268,
@@ -5568,6 +6047,7 @@ let bookData = [
     },
     {
         title: 'The Deadly Dungeon',
+        series: '',
         author: 'Ron Roy',
         myRating: 5,
         pages: 86,
@@ -5578,6 +6058,7 @@ let bookData = [
     },
     {
         title: 'The Invisible Island',
+        series: '',
         author: 'Ron Roy',
         myRating: 5,
         pages: 96,
@@ -5588,6 +6069,7 @@ let bookData = [
     },
     {
         title: 'The Missing Mummy',
+        series: '',
         author: 'Ron Roy',
         myRating: 5,
         pages: 83,
@@ -5598,6 +6080,7 @@ let bookData = [
     },
     {
         title: 'The Big Book of 30-Day Challenges',
+        series: '',
         author: 'Rosanna Casper',
         myRating: 6,
         pages: 144,
@@ -5608,6 +6091,7 @@ let bookData = [
     },
     {
         title: 'Milk and Honey',
+        series: '',
         author: 'Rupi Kaur',
         myRating: 5,
         pages: 204,
@@ -5619,6 +6103,7 @@ let bookData = [
     },
     {
         title: 'Play Dead',
+        series: '',
         author: 'Ryan Brown',
         myRating: 6,
         pages: 352,
@@ -5634,6 +6119,7 @@ let bookData = [
 	//#region S
     {
         title: 'The Umbrella Conspiracy',
+        series: '',
         author: 'S.D. Perry',
         myRating: 7,
         pages: 304,
@@ -5644,6 +6130,7 @@ let bookData = [
     },
     {
         title: 'Caliban Cove',
+        series: '',
         author: 'S.D. Perry',
         myRating: 6,
         pages: 256,
@@ -5654,6 +6141,7 @@ let bookData = [
     },
     {
         title: 'City of the Dead',
+        series: '',
         author: 'S.D. Perry',
         myRating: 7,
         pages: 352,
@@ -5664,6 +6152,7 @@ let bookData = [
     },
     {
         title: 'Underworld',
+        series: '',
         author: 'S.D. Perry',
         myRating: 6,
         pages: 256,
@@ -5674,6 +6163,7 @@ let bookData = [
     },
     {
         title: 'Nemesis',
+        series: '',
         author: 'S.D. Perry',
         myRating: 7,
         pages: 288,
@@ -5684,6 +6174,7 @@ let bookData = [
     },
     {
         title: 'Rumble Fish',
+        series: '',
         author: 'S.E. Hinton',
         myRating: 6,
         pages: 144,
@@ -5694,6 +6185,7 @@ let bookData = [
     },
     {
         title: 'Scene but Not Heard',
+        series: '',
         author: 'Sam Henderson',
         myRating: 4,
         pages: 119,
@@ -5704,6 +6196,7 @@ let bookData = [
     },
     {
         title: 'Pretty Little Liars',
+        series: '',
         author: 'Sara Shepard',
         myRating: 8,
         pages: 286,
@@ -5714,6 +6207,7 @@ let bookData = [
     },
     {
         title: 'Flawless',
+        series: '',
         author: 'Sara Shepard',
         myRating: 7,
         pages: 330,
@@ -5724,6 +6218,7 @@ let bookData = [
     },
     {
         title: 'Perfect',
+        series: '',
         author: 'Sara Shepard',
         myRating: 7,
         pages: 298,
@@ -5734,6 +6229,7 @@ let bookData = [
     },
     {
         title: 'Unbelievable',
+        series: '',
         author: 'Sara Shepard',
         myRating: 7,
         pages: 335,
@@ -5744,6 +6240,7 @@ let bookData = [
     },
     {
         title: 'Wicked',
+        series: '',
         author: 'Sara Shepard',
         myRating: 7,
         pages: 312,
@@ -5754,6 +6251,7 @@ let bookData = [
     },
     {
         title: 'Killer',
+        series: '',
         author: 'Sara Shepard',
         myRating: 7,
         pages: 320,
@@ -5764,6 +6262,7 @@ let bookData = [
     },
     {
         title: 'Heartless',
+        series: '',
         author: 'Sara Shepard',
         myRating: 7,
         pages: 274,
@@ -5774,6 +6273,7 @@ let bookData = [
     },
     {
         title: 'Wanted',
+        series: '',
         author: 'Sara Shepard',
         myRating: 7,
         pages: 261,
@@ -5784,6 +6284,7 @@ let bookData = [
     },
     {
         title: "Rick and Morty: Lil' Poopy Superstar",
+        series: '',
         author: 'Sarah Graley',
         myRating: 7,
         pages: 128,
@@ -5794,6 +6295,7 @@ let bookData = [
     },
     {
         title: 'Level Up!: The Guide to Great Video Game Design',
+        series: '',
         author: 'Scott Rogers',
         myRating: 9,
         pages: 492,
@@ -5804,6 +6306,7 @@ let bookData = [
     },
     {
         title: 'Uglies',
+        series: '',
         author: 'Scott Westerfeld',
         myRating: 7,
         pages: 425,
@@ -5815,6 +6318,7 @@ let bookData = [
     },
     {
         title: 'Pretties',
+        series: '',
         author: 'Scott Westerfeld',
         myRating: 6,
         pages: 370,
@@ -5826,6 +6330,7 @@ let bookData = [
     },
     {
         title: 'Specials',
+        series: '',
         author: 'Scott Westerfeld',
         myRating: 6,
         pages: 372,
@@ -5837,6 +6342,7 @@ let bookData = [
     },
     {
         title: 'Extras',
+        series: '',
         author: 'Scott Westerfeld',
         myRating: 6,
         pages: 417,
@@ -5848,6 +6354,7 @@ let bookData = [
     },
     {
         title: 'Uglies: Cutters',
+        series: '',
         author: 'Scott Westerfeld',
         myRating: 4,
         pages: 176,
@@ -5858,6 +6365,7 @@ let bookData = [
     },
     {
         title: 'Abraham Lincoln: Vampire Hunter',
+        series: '',
         author: 'Seth Grahame-Smith',
         myRating: 6,
         pages: 336,
@@ -5868,6 +6376,7 @@ let bookData = [
     },
     {
         title: 'Smartcuts',
+        series: '',
         author: 'Shane Snow',
         myRating: 6,
         pages: 272,
@@ -5878,6 +6387,7 @@ let bookData = [
     },
     {
         title: 'Kicking It',
+        series: '',
         author: 'Shanna Germain',
         myRating: 6,
         pages: 79,
@@ -5888,6 +6398,7 @@ let bookData = [
     },
     {
         title: 'Where the Sidewalk Ends',
+        series: '',
         author: 'Shel Silverstein',
         myRating: 7,
         pages: 176,
@@ -5898,6 +6409,7 @@ let bookData = [
     },
     {
         title: 'Fallin Up',
+        series: '',
         author: 'Shel Silverstein',
         myRating: 7,
         pages: 178,
@@ -5908,6 +6420,7 @@ let bookData = [
     },
     {
         title: 'A Light in the Attic',
+        series: '',
         author: 'Shel Silverstein',
         myRating: 7,
         pages: 176,
@@ -5918,6 +6431,7 @@ let bookData = [
     },
     {
         title: 'The Absolutely True Diary of a Part-Time Indian',
+        series: '',
         author: 'Sherman Alexie',
         myRating: 7,
         pages: 230,
@@ -5928,6 +6442,7 @@ let bookData = [
     },
     {
         title: 'Lean In',
+        series: '',
         author: 'Sheryl Sandberg',
         myRating: 7,
         pages: 217,
@@ -5938,6 +6453,7 @@ let bookData = [
     },
     {
         title: 'The Montessori Toddler',
+        series: '',
         author: 'Simone Davies',
         myRating: 8,
         pages: 245,
@@ -5948,6 +6464,7 @@ let bookData = [
     },
     {
         title: 'Who Moved My Cheese?',
+        series: '',
         author: 'Spencer Johnson',
         myRating: 7,
         pages: 96,
@@ -5958,6 +6475,7 @@ let bookData = [
     },
     {
         title: 'My True Love Gave to Me',
+        series: '',
         author: 'Stephanie Perkins',
         myRating: 6,
         pages: 321,
@@ -5968,6 +6486,7 @@ let bookData = [
     },
     {
         title: "There's Someone Inside Your House",
+        series: '',
         author: 'Stephanie Perkins',
         myRating: 7,
         pages: 287,
@@ -5978,6 +6497,7 @@ let bookData = [
     },
     {
         title: 'The Perks of Being a Wallflower',
+        series: '',
         author: 'Stephen Chbosky',
         myRating: 7,
         pages: 213,
@@ -5988,6 +6508,7 @@ let bookData = [
     },
     {
         title: 'I Am America (And So Can You!)',
+        series: '',
         author: 'Stephen Colbert',
         myRating: 7,
         pages: 230,
@@ -5998,6 +6519,7 @@ let bookData = [
     },
     {
         title: 'The Red Badge of Courage',
+        series: '',
         author: 'Stephen Crane',
         myRating: 3,
         pages: 170,
@@ -6008,6 +6530,7 @@ let bookData = [
     },
     {
         title: 'The Green Mile, Part 1',
+        series: '',
         author: 'Stephen King',
         myRating: 6,
         pages: 92,
@@ -6018,6 +6541,7 @@ let bookData = [
     },
     {
         title: 'The Gunslinger',
+        series: '',
         author: 'Stephen King',
         myRating: 5,
         pages: 231,
@@ -6028,6 +6552,7 @@ let bookData = [
     },
     {
         title: 'Carrie',
+        series: '',
         author: 'Stephen King',
         myRating: 6,
         pages: 253,
@@ -6038,6 +6563,7 @@ let bookData = [
     },
     {
         title: 'The Shining',
+        series: '',
         author: 'Stephen King',
         myRating: 8,
         pages: 659,
@@ -6048,6 +6574,7 @@ let bookData = [
     },
     {
         title: 'Doctor Sleep',
+        series: '',
         author: 'Stephen King',
         myRating: 6,
         pages: 531,
@@ -6058,6 +6585,7 @@ let bookData = [
     },
     {
         title: 'Pet Sematary',
+        series: '',
         author: 'Stephen King',
         myRating: 7,
         pages: 580,
@@ -6068,6 +6596,7 @@ let bookData = [
     },
     {
         title: 'Misery',
+        series: '',
         author: 'Stephen King',
         myRating: 8,
         pages: 310,
@@ -6078,6 +6607,7 @@ let bookData = [
     },
     {
         title: 'On Writing',
+        series: '',
         author: 'Stephen King',
         myRating: 9,
         pages: 320,
@@ -6088,6 +6618,7 @@ let bookData = [
     },
     {
         title: 'It',
+        series: '',
         author: 'Stephen King',
         myRating: 7,
         pages: 1116,
@@ -6098,6 +6629,7 @@ let bookData = [
     },
     {
         title: 'Twilight',
+        series: '',
         author: 'Stephenie Meyer',
         myRating: 8,
         pages: 501,
@@ -6108,6 +6640,7 @@ let bookData = [
     },
     {
         title: 'New Moon',
+        series: '',
         author: 'Stephenie Meyer',
         myRating: 7,
         pages: 565,
@@ -6118,6 +6651,7 @@ let bookData = [
     },
     {
         title: 'Eclipse',
+        series: '',
         author: 'Stephenie Meyer',
         myRating: 7,
         pages: 632,
@@ -6128,6 +6662,7 @@ let bookData = [
     },
     {
         title: 'Breaking Dawn',
+        series: '',
         author: 'Stephenie Meyer',
         myRating: 7,
         pages: 756,
@@ -6138,6 +6673,7 @@ let bookData = [
     },
     {
         title: 'Midnight Sun',
+        series: '',
         author: 'Stephenie Meyer',
         myRating: 7,
         pages: 662,
@@ -6148,6 +6684,7 @@ let bookData = [
     },
     {
         title: 'Twilight / Life and Death',
+        series: '',
         author: 'Stephenie Meyer',
         myRating: 8,
         pages: 738,
@@ -6158,6 +6695,7 @@ let bookData = [
     },
     {
         title: '30 Days of Night, Vol. 1',
+        series: '',
         author: 'Steve Niles',
         myRating: 6,
         pages: 104,
@@ -6168,6 +6706,7 @@ let bookData = [
     },
     {
         title: '30 Days of Night, Vol. 2',
+        series: '',
         author: 'Steve Niles',
         myRating: 6,
         pages: 144,
@@ -6178,6 +6717,7 @@ let bookData = [
     },
     {
         title: '30 Days of Night, Vol. 4',
+        series: '',
         author: 'Steve Niles',
         myRating: 6,
         pages: 144,
@@ -6188,6 +6728,7 @@ let bookData = [
     },
     {
         title: 'The Ultimate History of Video Games',
+        series: '',
         author: 'Steven L. Kent',
         myRating: 9,
         pages: 608,
@@ -6198,6 +6739,7 @@ let bookData = [
     },
     {
         title: 'Think Like a Freak',
+        series: '',
         author: 'Steven Levitt',
         myRating: 7,
         pages: 304,
@@ -6208,6 +6750,7 @@ let bookData = [
     },
     {
         title: 'The Art of War',
+        series: '',
         author: 'Sun Tzu',
         myRating: 4,
         pages: 82,
@@ -6218,6 +6761,7 @@ let bookData = [
     },
     {
         title: 'The Hunger Games',
+        series: '',
         author: 'Suzanne Collins',
         myRating: 8,
         pages: 374,
@@ -6228,6 +6772,7 @@ let bookData = [
     },
     {
         title: 'Catching Fire',
+        series: '',
         author: 'Suzanne Collins',
         myRating: 7,
         pages: 391,
@@ -6238,6 +6783,7 @@ let bookData = [
     },
     {
         title: 'Mockingjay',
+        series: '',
         author: 'Suzanne Collins',
         myRating: 7,
         pages: 390,
@@ -6248,6 +6794,7 @@ let bookData = [
     },
     {
         title: 'Sleeping Giants',
+        series: '',
         author: 'Sylvain Neuvel',
         myRating: 7,
         pages: 320,
@@ -6258,6 +6805,7 @@ let bookData = [
     },
     {
         title: 'Waking Gods',
+        series: '',
         author: 'Sylvain Neuvel',
         myRating: 6,
         pages: 336,
@@ -6273,6 +6821,7 @@ let bookData = [
 	//#region T
     {
         title: 'Thr3e',
+        series: '',
         author: 'Ted Dekker',
         myRating: 7,
         pages: 423,
@@ -6283,6 +6832,7 @@ let bookData = [
     },
     {
         title: 'Danger in the Desert',
+        series: '',
         author: 'Terri Fields',
         myRating: 6,
         pages: 126,
@@ -6293,6 +6843,7 @@ let bookData = [
     },
     {
         title: 'Missing in the Mountains',
+        series: '',
         author: 'Terri Fields',
         myRating: 6,
         pages: 108,
@@ -6303,6 +6854,7 @@ let bookData = [
     },
     {
         title: 'Getting Started with SQL',
+        series: '',
         author: 'Thomas Nield',
         myRating: 6,
         pages: 134,
@@ -6313,6 +6865,7 @@ let bookData = [
     },
     {
         title: 'How to Eat Fried Worms',
+        series: '',
         author: 'Thomas Rockfield',
         myRating: 6,
         pages: 118,
@@ -6323,6 +6876,7 @@ let bookData = [
     },
     {
         title: 'Left Behind',
+        series: '',
         author: 'Tim LaHaye',
         myRating: 6,
         pages: 342,
@@ -6333,6 +6887,7 @@ let bookData = [
     },
     {
         title: 'Tribulation Force',
+        series: '',
         author: 'Tim LaHaye',
         myRating: 5,
         pages: 450,
@@ -6343,6 +6898,7 @@ let bookData = [
     },
     {
         title: 'The 4-Hour Body',
+        series: '',
         author: 'Timothy Ferriss',
         myRating: 5,
         pages: 571,
@@ -6353,6 +6909,7 @@ let bookData = [
     },
     {
         title: 'The 4-Hour Workweek',
+        series: '',
         author: 'Timothy Ferriss',
         myRating: 6,
         pages: 396,
@@ -6363,6 +6920,7 @@ let bookData = [
     },
     {
         title: 'The Prodigal God',
+        series: '',
         author: 'Timothy J. Keller',
         myRating: 6,
         pages: 155,
@@ -6373,6 +6931,7 @@ let bookData = [
     },
     {
         title: 'Bossypants',
+        series: '',
         author: 'Tina Fey',
         myRating: 6,
         pages: 277,
@@ -6383,6 +6942,7 @@ let bookData = [
     },
     {
         title: 'Heaven is for Real',
+        series: '',
         author: 'Todd Burpo',
         myRating: 5,
         pages: 162,
@@ -6393,6 +6953,7 @@ let bookData = [
     },
     {
         title: 'Fun Inc.',
+        series: '',
         author: 'Tom Chatfield',
         myRating: 6,
         pages: 272,
@@ -6403,6 +6964,7 @@ let bookData = [
     },
     {
         title: 'Strengths Finder 2.0',
+        series: '',
         author: 'Tom Rath',
         myRating: 6,
         pages: 174,
@@ -6423,6 +6985,7 @@ let bookData = [
 	//#region V
     {
         title: "Anya's Ghost",
+        series: '',
         author: 'Vera Brosgol',
         myRating: 5,
         pages: 224,
@@ -6433,6 +6996,7 @@ let bookData = [
     },
     {
         title: 'Divergent',
+        series: '',
         author: 'Veronica Roth',
         myRating: 8,
         pages: 487,
@@ -6444,6 +7008,7 @@ let bookData = [
     },
     {
         title: 'Insurgent',
+        series: '',
         author: 'Veronica Roth',
         myRating: 7,
         pages: 525,
@@ -6455,6 +7020,7 @@ let bookData = [
     },
     {
         title: 'Allegiant',
+        series: '',
         author: 'Veronica Roth',
         myRating: 7,
         pages: 526,
@@ -6466,6 +7032,7 @@ let bookData = [
     },
     {
         title: 'Slumdog Millionaire',
+        series: '',
         author: 'Vikas Swarup',
         myRating: 8,
         pages: 333,
@@ -6476,6 +7043,7 @@ let bookData = [
     },
     {
         title: "The Smart Girl's Guide to Privacy",
+        series: '',
         author: 'Violet Blue',
         myRating: 6,
         pages: 168,
@@ -6491,6 +7059,7 @@ let bookData = [
 	//#region W
     {
         title: 'Warner Bros. Studio Tour London',
+        series: '',
         author: 'Warner Bros',
         myRating: 6,
         pages: 72,
@@ -6501,6 +7070,7 @@ let bookData = [
     },
     {
         title: 'Systematic Theology',
+        series: '',
         author: 'Wayne Grudem',
         myRating: 7,
         pages: 1264,
@@ -6511,6 +7081,7 @@ let bookData = [
     },
     {
         title: 'Things We Think About Games',
+        series: '',
         author: 'Will Hindmarch',
         myRating: 6,
         pages: 160,
@@ -6521,6 +7092,7 @@ let bookData = [
     },
     {
         title: 'Lord of the Flies',
+        series: '',
         author: 'William Golding',
         myRating: 7,
         pages: 192,
@@ -6531,6 +7103,7 @@ let bookData = [
     },
     {
         title: 'Make Your Bed',
+        series: '',
         author: 'William McRaven',
         myRating: 6,
         pages: 144,
@@ -6541,6 +7114,7 @@ let bookData = [
     },
     {
         title: 'Romeo and Juliet',
+        series: '',
         author: 'William Shakespeare',
         myRating: 6,
         pages: 368,
@@ -6551,6 +7125,7 @@ let bookData = [
     },
     {
         title: 'Hamlet',
+        series: '',
         author: 'William Shakespeare',
         myRating: 6,
         pages: 289,
@@ -6561,6 +7136,7 @@ let bookData = [
     },
     {
         title: 'Macbeth',
+        series: '',
         author: 'William Shakespeare',
         myRating: 6,
         pages: 249,
@@ -6571,6 +7147,7 @@ let bookData = [
     },
     {
         title: "A Midsummer Night's Dream",
+        series: '',
         author: 'William Shakespeare',
         myRating: 6,
         pages: 240,
@@ -6581,6 +7158,7 @@ let bookData = [
     },
     {
         title: 'Ghosts of Saltmarsh',
+        series: '',
         author: 'Wizards RPG Team',
         myRating: 8,
         pages: 256,
@@ -6591,6 +7169,7 @@ let bookData = [
     },
     {
         title: 'Tales from the Yawning Portal',
+        series: '',
         author: 'Wizards RPG Team',
         myRating: 8,
         pages: 248,
@@ -6611,6 +7190,7 @@ let bookData = [
 	//#region Y
     {
         title: 'Sapiens',
+        series: '',
         author: 'Yuval Noah Harari',
         myRating: 7,
         pages: 498,
@@ -6621,6 +7201,7 @@ let bookData = [
     },
     {
         title: 'The Willow Files, Vol. 2',
+        series: '',
         author: 'Yvonne Navarro',
         myRating: 5,
         pages: 210,
@@ -6636,6 +7217,7 @@ let bookData = [
 	//#region Z
     {
         title: 'Rick and Morty, Vol. 1',
+        series: '',
         author: 'Zac Gorman',
         myRating: 7,
         pages: 128,
@@ -6646,6 +7228,7 @@ let bookData = [
     },
 	{
         title: 'The Other Black Girl',
+        series: '',
         author: 'Zakiya Dalila Harris',
         myRating: 5,
         pages: 357,
