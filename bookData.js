@@ -1196,6 +1196,19 @@ let bookData = [
 		description: `Techniques to easily understand 100 of the biggest scientific theories.`
     },
     {
+        title: 'Verity',
+        series: '',
+        author: 'Colleen Harris',
+        myRating: 8,
+        pages: 324,
+        pubDate: 2018,
+        yearRead: [2021],
+        thumb: './images/verity.jpg',
+        keywords: ['fiction', 'mystery', 'thriller', 'dark', 'death', 'romance'],
+		similar: [],
+		description: ``
+    },
+    {
         title: 'Project 333',
         series: '',
         author: 'Courtney Carver',
