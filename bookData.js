@@ -1701,6 +1701,19 @@ let bookData = [
 		description: `A nutrition book that mostly focuses on the positives of what to eat instead of what to avoid.`
     },
     {
+        title: 'Because the Internet',
+        series: '',
+        author: 'Donald Glover',
+        myRating: 7,
+        pages: 73,
+        pubDate: 2013,
+        yearRead: [2019],
+        thumb: './images/because-the-internet.jpg',
+        keywords: ['fiction', 'music', 'screenplay'],
+		similar: [],
+		description: `A screenplay that goes along with the album from Childish Gambino.`
+    },
+    {
         title: 'A Million Miles in a Thousand Years',
         series: '',
         author: 'Donald Miller',
@@ -4806,6 +4819,19 @@ let bookData = [
         keywords: ['fiction', 'gothic', 'horror', 'science fiction', 'movies', 'female author'],
 		similar: [],
 		description: ``
+    },
+    {
+        title: 'The Midnight Library',
+        series: '',
+        author: 'Matt Haig',
+        myRating: 8,
+        pages: 304,
+        pubDate: 2020,
+        yearRead: [2021],
+        thumb: './images/midnight-library.jpg',
+        keywords: ['fiction', 'suicide', 'death', 'mental health', 'fantasy'],
+		similar: ['Every Day'],
+		description: `A suicidal girl sees all of the alternate paths her life could have taken.`
     },
     {
         title: '30 Days To Understanding the Bible',
