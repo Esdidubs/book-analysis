@@ -288,6 +288,19 @@ let bookData = [
     ===========================*/
 	//#region B
     {
+        title: 'One More Thing',
+        series: '',
+        author: 'B.J. Novak',
+        myRating: 9,
+        pages: 288,
+        pubDate: 2014,
+        yearRead: [2021],
+        thumb: './images/one-more-thing.jpg',
+        keywords: ['fiction', 'humor'],
+		similar: [''],
+		description: ``
+    },
+    {
         title: 'Go Ask Alice',
         series: '',
         author: 'Beatrice Sparks',
@@ -2452,6 +2465,19 @@ let bookData = [
     ===========================*/
 	//#region I
     {
+        title: 'Laws of the Game 21/22',
+        series: '',
+        author: 'I.F.A.B.',
+        myRating: 7,
+        pages: 228,
+        pubDate: 2021,
+        yearRead: [2021],
+        thumb: './images/laws-game-22.jpg',
+        keywords: ['nonfiction', 'sports', 'soccer'],
+		similar: [],
+		description: ``
+    },
+    {
         title: 'The Road Back to You',
         series: '',
         author: 'Ian Morgan Cron',
@@ -2530,7 +2556,7 @@ let bookData = [
         pubDate: 2015,
         yearRead: [2018, 2021],
         thumb: './images/very-good-lives.jpg',
-        keywords: ['nonfiction', 'self-help', 'essays', 'female author'],
+        keywords: ['nonfiction', 'self-help', 'essays', 'female author', 'speeches'],
 		similar: ["Fail Until You Don't"],
 		description: `This was a graduation speech Rowling gave regarding failure.`
     },
@@ -6890,6 +6916,18 @@ let bookData = [
         yearRead: [2000],
         thumb: './images/missing-in-mountains.jpg',
         keywords: ['fiction', 'survival', 'children', 'female author']
+    },
+    {
+        title: 'Citizenship in a Republilc',
+        series: '',
+        author: 'Theodore Roosevelt',
+        myRating: 7,
+        pages: 40,
+        pubDate: 1910,
+        yearRead: [2021],
+        thumb: './images/citizenship.jpg',
+        keywords: ['nonfiction', 'presidents', 'historical', 'speeches'],
+        similar: ['Theodore Roosevelt']
     },
     {
         title: 'Getting Started with SQL',
