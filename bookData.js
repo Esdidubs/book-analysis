@@ -3569,6 +3569,19 @@ let bookData = [
 		description: `How Harry Potter has Christian elements interwoven within all of its stories.`
     },
     {
+        title: 'The Anthropocene Reviewed',
+        series: '',
+        author: 'John Green',
+        myRating: 9,
+        pages: 293,
+        pubDate: 2021,
+        yearRead: [2021],
+        thumb: './images/anthropocene.jpg',
+        keywords: ['nonfiction', 'anthropology'],
+		similar: [],
+		description: `An anthropological look into various objects along with reviews for each one.`
+    },
+    {
         title: 'Looking for Alaska',
         series: '',
         author: 'John Green',
@@ -6759,6 +6772,17 @@ let bookData = [
         keywords: ['fiction', 'vampires', 'werewolves', 'young adult', 'romance', 'twilight', 'female author', 'series', 'schools']
     },
     {
+        title: 'Level Up Your Life',
+        series: '',
+        author: 'Steve Kamb',
+        myRating: 9,
+        pages: 274,
+        pubDate: 2016,
+        yearRead: [2021],
+        thumb: './images/level-up-life.jpg',
+        keywords: ['nonfiction', 'games', 'self-help', 'productivity']
+    },
+    {
         title: '30 Days of Night, Vol. 1',
         series: '',
         author: 'Steve Niles',
@@ -6812,6 +6836,17 @@ let bookData = [
         yearRead: [2018, 2020],
         thumb: './images/think-like-freak.jpg',
         keywords: ['nonfiction', 'psychology', 'self-help']
+    },
+    {
+        title: 'The War of Art',
+        series: '',
+        author: 'Steven Pressfield',
+        myRating: 7,
+        pages: 198,
+        pubDate: 2011,
+        yearRead: [2021],
+        thumb: './images/war-of-art.jpg',
+        keywords: ['nonfiction', 'self-help', 'creativity']
     },
     {
         title: 'The Art of War',
