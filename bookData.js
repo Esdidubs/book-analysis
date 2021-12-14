@@ -1894,6 +1894,19 @@ let bookData = [
 		description: `The Scooby Gang (renamed for copyright reasons) 13 years after their last case and now they're all adults.`
     },
     {
+        title: 'Tarzan of the Apes',
+        series: '',
+        author: 'Edgar Rice Burroughs',
+        myRating: 7,
+        pages: 324,
+        pubDate: 1912,
+        yearRead: [2021],
+        thumb: './images/tarzan.jpg',
+        keywords: ['fiction', 'adventure', 'series', 'fantasy', 'africa', 'animals', 'movies', 'tv'],
+		similar: [],
+		description: ``
+    },
+    {
         title: 'Night',
         series: '',
         author: 'Elie Wiesel',
@@ -6596,6 +6609,28 @@ let bookData = [
         keywords: ['nonfiction', 'humor', 'politics', 'series']
     },
     {
+        title: 'The 7 Habits of Highly Effective People',
+        series: '',
+        author: 'Stephen Covey',
+        myRating: 7,
+        pages: 372,
+        pubDate: 1988,
+        yearRead: [2021],
+        thumb: './images/7-habits.jpg',
+        keywords: ['nonfiction', 'business', 'leadership', 'psychology']
+    },
+    {
+        title: 'The 7 Habits of Highly Effective People Personal Workbook',
+        series: '',
+        author: 'Stephen Covey',
+        myRating: 7,
+        pages: 192,
+        pubDate: 2003,
+        yearRead: [2021],
+        thumb: './images/7-habits-workbook.jpg',
+        keywords: ['nonfiction', 'business', 'leadership', 'psychology']
+    },
+    {
         title: 'The Red Badge of Courage',
         series: '',
         author: 'Stephen Crane',
@@ -7141,6 +7176,18 @@ let bookData = [
         thumb: './images/divergent3.jpg',
         keywords: ['movies', 'fiction', 'dystopian', 'young adult', 'romance', 'science fiction', 'adventure', 'female author', 'series'],
 		similar: ['Matched']
+    },
+    {
+        title: 'Ark',
+        series: '',
+        author: 'Veronica Roth',
+        myRating: 7,
+        pages: 33,
+        pubDate: 2019,
+        yearRead: [2021],
+        thumb: './images/ark.jpg',
+        keywords: ['fiction', 'apocalyptic', 'science fiction', 'female author'],
+		similar: []
     },
     {
         title: 'Slumdog Millionaire',
