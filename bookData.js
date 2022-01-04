@@ -201,7 +201,7 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/martian.jpg',
         keywords: ['fiction', 'science fiction', 'adventure', 'space', 'mars', 'movies'],
-		similar: ['Artemis'],
+		similar: ['Artemis','Project Hail Mary'],
 		description: `An astronaut ends up stranded on Mars and needs to figure out how to survive.`
     },
     {
@@ -214,8 +214,21 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/artemis.jpg',
         keywords: ['fiction', 'science fiction', 'adventure', 'space', 'moon'],
-		similar: ['The Martian'],
+		similar: ['The Martian','Project Hail Mary'],
 		description: `A smuggler living on the only city on the Moon is caught up in a conspiracy for control of the city.`
+    },
+    {
+        title: 'Project Hail Mary',
+        series: '',
+        author: 'Andy Weir',
+        myRating: 10,
+        pages: 476,
+        pubDate: 2021,
+        yearRead: [2021],
+        thumb: './images/hail-mary.jpg',
+        keywords: ['fiction', 'science fiction', 'adventure', 'space', 'aliens'],
+		similar: ['The Martian', 'Artemis'],
+		description: `A man finds himself in space with no recollection of who he is except for the fact that he's saving the world.`
     },
     {
         title: 'Grit',
@@ -510,6 +523,19 @@ let bookData = [
 		description: `Comparing the works of Elvis and the Beatles.`
     },
     {
+        title: 'We Need to Hang Out',
+        series: '',
+        author: 'Billy Baker',
+        myRating: 6,
+        pages: 224,
+        pubDate: 2021,
+        yearRead: [2021],
+        thumb: './images/hang-out.jpg',
+        keywords: ['nonfiction', 'memoir', 'friends'],
+		similar: [''],
+		description: ``
+    },
+    {
         title: 'Console Wars',
         series: '',
         author: 'Blake Harris',
@@ -746,6 +772,19 @@ let bookData = [
         keywords: ['nonfiction', 'self-help', 'habits', 'procrastination', 'productivity'],
 		similar: ['What the Most Successful People Do Before Breakfast'],
 		description: `How to stop procrastinating and just get things done.`
+    },
+    {
+        title: 'Slow',
+        series: '',
+        author: 'Brooke McAlary',
+        myRating: 7,
+        pages: 288,
+        pubDate: 2018,
+        yearRead: [2021],
+        thumb: './images/slow.jpg',
+        keywords: ['nonfiction', 'self-help', 'minimalism', 'habits'],
+		similar: [],
+		description: ``
     },
     {
         title: 'God Is in the Small Stuff',
@@ -6739,6 +6778,17 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/it.jpg',
         keywords: ['fiction', 'horror', 'clowns', 'thriller']
+    },
+    {
+        title: 'Building Your Band of Brothers',
+        series: '',
+        author: 'Stephen Mansfield',
+        myRating: 8,
+        pages: 71,
+        pubDate: 2016,
+        yearRead: [2021],
+        thumb: './images/band-brothers.jpg',
+        keywords: ['nonfiction', 'friends']
     },
     {
         title: 'Twilight',
