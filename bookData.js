@@ -257,6 +257,19 @@ let bookData = [
 		description: `A look at the history of handwriting and the impact it's had on various cultures.`
     },
     {
+        title: 'How to Build Strong & Lean Bodyweight Muscle',
+        series: '',
+        author: 'Anthony Arvanitakis',
+        myRating: 7,
+        pages: 158,
+        pubDate: 2018,
+        yearRead: [2022],
+        thumb: './images/bodyweight-muscle.jpg',
+        keywords: ['nonfiction', 'fitness'],
+		similar: [],
+		description: ``
+    },
+    {
         title: 'Unshakeable',
         series: '',
         author: 'Anthony Robbins',
@@ -681,6 +694,19 @@ let bookData = [
         keywords: ['fiction', 'high fantasy', 'magic', 'fantasy', 'cosmere', 'short stories', 'series'],
 		similar: ['Elantris', 'Warbreaker'],
 		description: `A short story in the Mistborn universe.`
+    },
+    {
+        title: 'The Alloy of Law',
+        series: '',
+        author: 'Brandon Sanderson',
+        myRating: 9,
+        pages: 332,
+        pubDate: 2011,
+        yearRead: [2022],
+        thumb: './images/mistborn4.jpg',
+        keywords: ['fiction', 'fantasy', 'magic', 'cosmere', 'series'],
+		similar: [],
+		description: ``
     },
     {
         title: 'Steelheart',
