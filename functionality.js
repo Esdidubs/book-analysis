@@ -530,8 +530,11 @@ function findMostCategories(categories, mostCategories){
 
 function printTopCategories(mostCategories){
 	let tempTop = ``;
-
-	for(let i=0; i<5; i++){
+	let numOfCategories = 5;
+	if(mostCategories.length < 5){
+		numOfCategories = mostCategories.length;
+	}
+	for(let i=0; i<numOfCategories; i++){
 		if(mostCategories[i][1]>1){
 			tempTop += `<div>${mostCategories[i][0]} - ${mostCategories[i][1]}</div>`
 		}
@@ -555,7 +558,12 @@ function findMostAuthors(authors, mostAuthors){
 function printTopAuthors(mostAuthors){
 	let tempTop = ``;
 
-	for(let i=0; i<3; i++){
+	let numOfAuthors = 3;
+	if(mostAuthors.length < 3){
+		numOfAuthors = mostAuthors.length;
+	}
+
+	for(let i=0; i<numOfAuthors; i++){
 		if(mostAuthors[i][1]>1){
 			tempTop += `<div>${mostAuthors[i][0]} - ${mostAuthors[i][1]}</div>`
 		}
