@@ -6158,6 +6158,18 @@ let bookData = [
 		similar: ['Beyond Awkward']
     },
     {
+        title: 'The Eye of the World',
+        series: '',
+        author: 'Robert Jordan',
+        myRating: 9,
+        pages: 814,
+        pubDate: 1990,
+        yearRead: [2022],
+        thumb: './images/wot1.jpg',
+        keywords: ['fiction', 'magic', 'fantasy', 'adventure', 'high fantasy'],
+		similar: []
+    },
+    {
         title: 'Outcast by Kirkman & Azaceta Book 1',
         series: '',
         author: 'Robert Kirkman',
@@ -6958,6 +6970,17 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/war-of-art.jpg',
         keywords: ['nonfiction', 'self-help', 'creativity']
+    },
+    {
+        title: 'The 7½ Deaths of Evelyn Hardcastle',
+        series: '',
+        author: 'Stuart Turton',
+        myRating: 10,
+        pages: 432,
+        pubDate: 2018,
+        yearRead: [2022],
+        thumb: './images/seven-half-deaths.jpg',
+        keywords: ['fiction', 'death', 'murder', 'mystery', 'murder-mystery', 'fantasy']
     },
     {
         title: 'The Art of War',
