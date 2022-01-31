@@ -709,6 +709,19 @@ let bookData = [
 		description: ``
     },
     {
+        title: 'Shadows of Self',
+        series: '',
+        author: 'Brandon Sanderson',
+        myRating: 9,
+        pages: 383,
+        pubDate: 2015,
+        yearRead: [2022],
+        thumb: './images/mistborn5.jpg',
+        keywords: ['fiction', 'fantasy', 'magic', 'cosmere', 'series'],
+		similar: [],
+		description: ``
+    },
+    {
         title: 'Steelheart',
         series: '',
         author: 'Brandon Sanderson',
