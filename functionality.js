@@ -1,6 +1,9 @@
 /*
 	Things to add:
 	- Make sure JK Rowling's books are actually reflected
+
+	- figure out why the functions are being called twice when chaning categories
+	- fix avgWords for authors
 */
 
 
@@ -98,6 +101,12 @@ $(document).on('change', '#pageSelection', function(){
 	setRandomColor();
 });
 
+$(document).on('change', '#wordSelection', function(){
+    event.preventDefault();
+	displayWords();
+	setRandomColor();
+});
+
 //#endregion
 
 //#region Hide/Show
@@ -109,6 +118,7 @@ function makeHidden() {
 	$('.allReads').hide();
 	$('.rankBox').hide();
 	$('.pagesBox').hide();
+	$('.wordBox').hide();
 	$('.pubBox').hide();
 	$('.reReadBox').hide();
 	$('.authorBox').hide();
@@ -142,6 +152,11 @@ function displayData() {
 			$('.pagesBox').show();
 			setRandomColor();
 			break;
+		case 'words':
+			wordSetup();
+			$('.wordBox').show();
+			setRandomColor();
+			break;
 		case 'pubDate':
 			pubDateSetup();
 			$('.pubBox').show();
@@ -170,22 +185,28 @@ function allBooks() {
 	let allReads = ``;
 	let pagesForAll = 0;
 	let booksForAll = 0;
+	let wordsForAll = 0;
 	let pagesForAllUnique = 0;
 	let booksForAllUnique = 0;
+	let wordsForAllUnique = 0;
 
 	// Appends the next book (in HTML) and adds to the count and pages of the variables
 	for (let book in bookData) {
 		allReads += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
-			.author}</div><div class="pages">Pages: ${bookData[book].pages.toLocaleString("en-US")}</div><div class="rating">Rating: ${bookData[book].myRating}/10</div></div>`;
+			.author}</div><div class="pages">Pages: ${bookData[book].pages.toLocaleString("en-US")}</div><div class="words">Words: ${bookData[book].wordCount.toLocaleString("en-US")}</div>
+			<div class="rating">Rating: ${bookData[book].myRating}/10</div></div>`;
 		pagesForAll += bookData[book].pages * bookData[book].yearRead.length;
 		booksForAll += bookData[book].yearRead.length;
+		wordsForAll += bookData[book].wordCount * bookData[book].yearRead.length;
 		pagesForAllUnique += bookData[book].pages;
 		booksForAllUnique++;
+		wordsForAllUnique += bookData[book].wordCount;
 		bookData[book].id = book;
 	}
 
 	$('.allReads').html(`     
-			<h3>${booksForAll} books & ${pagesForAll.toLocaleString("en-US")} pages - ${booksForAllUnique} unique books & ${pagesForAllUnique.toLocaleString("en-US")} pages</h3>
+			<h3>${booksForAll} books & ${pagesForAll.toLocaleString("en-US")} pages & ${wordsForAll.toLocaleString("en-US")} words </h3>
+			<h3>${booksForAllUnique} unique books & ${pagesForAllUnique.toLocaleString("en-US")} pages & ${wordsForAllUnique.toLocaleString("en-US")} words</h3>
 			<div class="bookList">${allReads}</div>
     `);
 }
@@ -254,6 +275,74 @@ function displayPages() {
 	$('.pageBooks').html(`     
 		<h3>${bookCount} ${bookWord}</h3>	
 		<div class="bookList">${pagesBookList}</div>
+    `);
+}
+
+//#endregion
+
+/*===========================
+	BOOKS BY WORDS
+===========================*/
+//#region By Words
+
+function wordSetup() {
+
+	let wordCount = [
+		{name: 'Under 25000 words', wordLimit: [0, 25000], count: 0},
+		{name: '25000 to 50000 words', wordLimit: [25000, 50000], count: 0},
+		{name: '50000 to 50000 words', wordLimit: [50000, 75000], count: 0},
+		{name: '25000 to 75000 words', wordLimit: [75000, 100000], count: 0},
+		{name: '100000 to 150000 words', wordLimit: [100000, 150000], count: 0},
+		{name: '150000 to 200000 words', wordLimit: [150000, 200000], count: 0},
+		{name: '200000 or more words', wordLimit: [200000, 999999999], count: 0}
+	];
+
+	let wordStr = ``;
+	for(let word in wordCount) {
+		wordStr += `<option value="${wordCount[word].wordLimit}">${wordCount[word].name}</option>`
+	}
+
+	$('.wordBox').html(`
+			<label for="wordSelection" id="wordLabel">Select an amount of words</label>
+			<select name="wordSelection" id="wordSelection" class="dataDrop">
+				<option disabled selected>Words</option>      
+				${wordStr}
+			</select>
+			<div class="wordBooks"></div>
+    `);
+}
+
+function displayWords() {
+	let wordsChoice = $('#wordSelection').val().split(',');
+	let wordsBookList = ``;
+	let bookCount = 0;
+	let bookWord = 'books';
+
+	let wordArr = JSON.parse(JSON.stringify(bookData));
+	wordArr.sort(function(a, b) {
+		return a.wordCount - b.wordCount;
+	});	
+
+
+	for (let book in wordArr) {
+		if (wordArr[book].wordCount == undefined) {
+		}else {
+				if (wordArr[book].wordCount >= parseInt(wordsChoice[0]) && wordArr[book].wordCount < parseInt(wordsChoice[1])) {	
+					wordsBookList += `<div class="book"> <img src="${wordArr[book].thumb}"><div class="title">${wordArr[book].title}</div><div class="author">${wordArr[book]
+						.author}</div><div class="pages">Pages: ${wordArr[book].pages}</div><div class="words">Words: ${wordArr[book].wordCount}</div></div>`;
+					bookCount++;
+				}
+			}
+	}
+
+	if(bookCount==1){
+		bookWord = 'book';
+	}
+
+
+	$('.wordBooks').html(`     
+		<h3>${bookCount} ${bookWord}</h3>	
+		<div class="bookList">${wordsBookList}</div>
     `);
 }
 
@@ -376,13 +465,14 @@ function displayYears() {
 	let yearBookList = ``;
 	let pagesForYear = 0;
 	let booksForYear = 0;
+	let wordsForYear = 0;
 	let ficCount = 0;
 	let nonficCount = 0;
 	let totalRating = 0;
 	let authors = {};
 	
-	let shortestBook = {title: 'Nothing', author: 'Nobody', pages: 9999, img: 'nice'};
-	let longestBook = {title: 'Nothing', author: 'Nobody', pages: 0, img: 'nice'};
+	let shortestBook = {title: 'Nothing', author: 'Nobody', pages: 9999, words: 9999999999, img: 'nice'};
+	let longestBook = {title: 'Nothing', author: 'Nobody', pages: 0, words: -1, img: 'nice'};
 	let oldestBook = {title: 'Nothing', author: 'Nobody', year: 9999, img: 'nice'};
 	let booksThisYear = [];
 	let categories = {};
@@ -396,10 +486,12 @@ function displayYears() {
 					if (yearChoice == bookData[book].yearRead[i]){
 
 						yearBookList += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
-							.author}</div><div class="pages">Pages: ${bookData[book].pages.toLocaleString("en-US")}</div><div class="rating">Rating: ${bookData[book].myRating}/10</div></div>`;
+							.author}</div><div class="pages">Pages: ${bookData[book].pages.toLocaleString("en-US")}</div>
+							<div class="words">Words: ${bookData[book].wordCount.toLocaleString("en-US")}</div><div class="rating">Rating: ${bookData[book].myRating}/10</div></div>`;
 
 						pagesForYear += bookData[book].pages;
 						booksForYear++;
+						wordsForYear += bookData[book].wordCount;
 						totalRating += bookData[book].myRating;
 
 						if(bookData[book].keywords.includes('fiction')){
@@ -438,6 +530,7 @@ function displayYears() {
 	}
 
 	let avgPages = pagesForYear / booksForYear;
+	let avgWords = wordsForYear / booksForYear;
 	let ficPercentage = ficCount / (ficCount + nonficCount) * 100;
 	let nonficPercentage = nonficCount / (ficCount + nonficCount) * 100;
 	let avgRating = totalRating / booksForYear;
@@ -446,7 +539,8 @@ function displayYears() {
 		<h2>Stats for ${yearChoice}</h2>
 		<div class="bookList">
 			<div class="mostReadAuthors"><div class="title">Quick Stats</div><div>${booksForYear} books</div><div>${pagesForYear
-				.toLocaleString("en-US")} pages</div><div>Average Pages: ${avgPages.toFixed(2)}</div><div>Average Rating: ${avgRating.toFixed(2)}/10</div></div>
+				.toLocaleString("en-US")} pages</div><div>${wordsForYear.toLocaleString("en-US")} words</div>
+				<div>Average Pages: ${avgPages.toFixed(2)}</div><div>Average Words: ${avgWords.toFixed(2)}</div><div>Average Rating: ${avgRating.toFixed(2)}/10</div></div>
 			<div class="mostReadAuthors"><div class="title">Fiction vs Nonfiction</div><div>Fiction: ${ficCount} (${ficPercentage
 				.toFixed(0)}%)</div><div>Nonfiction: ${nonficCount} (${nonficPercentage.toFixed(0)}%)</div></div>
 			<div class="mostReadAuthors"><div class="title">Most Read Authors</div><div>${topAuthors}</div></div>
@@ -470,6 +564,7 @@ function getShortestBook(shortestBook, book){
 		shortestBook.title = bookData[book].title;
 		shortestBook.author = bookData[book].author;
 		shortestBook.pages = bookData[book].pages;
+		shortestBook.wordCount = bookData[book].wordCount;
 	}
 }
 
@@ -479,6 +574,7 @@ function getLongestBook(longestBook, book){
 		longestBook.title = bookData[book].title;
 		longestBook.author = bookData[book].author;
 		longestBook.pages = bookData[book].pages;
+		longestBook.wordCount = bookData[book].wordCount;
 	}
 }
 
@@ -721,6 +817,7 @@ function displayRanks() {
 	let nonficCount = 0;
 	let totalReadCount = 0;
 	let pagesForRating = 0;
+	let wordsForRating = 0;
 	let categories = {};
 
 
@@ -733,6 +830,7 @@ function displayRanks() {
 					bookCount++;
 					totalReadCount += bookData[book].yearRead.length;
 					pagesForRating += bookData[book].pages;
+					wordsForRating += bookData[book].wordCount;
 
 					getCategories(categories, book);
 
@@ -748,6 +846,7 @@ function displayRanks() {
 	let ficPercentage = ficCount / (ficCount + nonficCount) * 100;
 	let nonficPercentage = nonficCount / (ficCount + nonficCount) * 100;
 	let avgPages = pagesForRating / bookCount;
+	let avgWords = wordsForRating / bookCount;
 
 	let mostCategories = [];
 	alterCategories(categories, mostCategories);
@@ -756,7 +855,8 @@ function displayRanks() {
 	$('.rankBooks').html(`  
 		<div class="bookList">
 			<div class="mostReadAuthors"><div class="title">Quick Stats</div><div>Books: ${bookCount}</div>
-				<div>Total Read Count: ${totalReadCount}</div><div>Average Pages: ${avgPages.toFixed(2)}</div></div>
+				<div>Total Read Count: ${totalReadCount}</div><div>Average Pages: ${avgPages.toFixed(2)}</div>
+				<div>Average Words: ${avgWords.toFixed(2)}</div></div>
 			<div class="mostReadAuthors"><div class="title">Fiction vs Nonfiction</div><div>Fiction: ${ficCount} (${ficPercentage
 				.toFixed(0)}%)</div><div>Nonfiction: ${nonficCount} (${nonficPercentage.toFixed(0)}%)</div></div>
 			<div class="mostReadAuthors"><div class="title">Top Keywords</div><div>${topCategories}</div></div>
@@ -786,33 +886,35 @@ function authorSetup() {
 	}
 
 	for (let book in bookCopy) {
+		
 		if(authors[bookCopy[book].author]==undefined){
 			authors[bookCopy[book].author] = {
 				count: 1, 
 				combinedRating: bookCopy[book].myRating,
 				totalReads: bookCopy[book].yearRead.length,
-				pages: bookCopy[book].pages
-			};
+				pages: bookCopy[book].pages,
+				words: bookCopy[book].wordCount
+			}; 
 		} else {
 			authors[bookCopy[book].author].count ++;
 			authors[bookCopy[book].author].combinedRating += bookCopy[book].myRating;
 			authors[bookCopy[book].author].totalReads += bookCopy[book].yearRead.length;
 			authors[bookCopy[book].author].pages += bookCopy[book].pages;
+			authors[bookCopy[book].author].words += bookCopy[book].wordCount;
 		}
 	}
-	
 
 	for(let author in authors){ 
 		if(authors[author].totalReads > 4){
-			mostAuthors.push([author, authors[author].count, authors[author].combinedRating, authors[author].totalReads, authors[author].pages]);
+			mostAuthors.push([author, authors[author].count, authors[author].combinedRating, authors[author].totalReads, authors[author].pages, authors[author].words]);
 		}
 	}
 
 	mostAuthors.sort((a, b) => b[3] - a[3]);
-
 	for (let author in mostAuthors) {
 		let avgRating = mostAuthors[author][2] / mostAuthors[author][1];
 		let avgPages = mostAuthors[author][4] / mostAuthors[author][1];
+		let avgWords = mostAuthors[author][5] / mostAuthors[author][1];
 
 		printedAuthors += `<div class="mostReadAuthors">
 								<div class="title">${mostAuthors[author][0]}</div>
@@ -820,6 +922,7 @@ function authorSetup() {
 								<div>${mostAuthors[author][3]} total reads</div>
 								<div>${avgRating.toFixed(2)} average rating</div>
 								<div>${avgPages.toFixed(2)} average pages</div>
+								<div>${avgWords.toFixed(2)} average words</div>
 							</div>`;
 	}
 
@@ -843,6 +946,7 @@ function getModalPopup(bookTitle){
         	selectedBook.author = bookData[i].author;
         	selectedBook.myRating = bookData[i].myRating;
         	selectedBook.pages = bookData[i].pages;
+			selectedBook.wordCount = bookData[i].wordCount;
         	selectedBook.pubDate = bookData[i].pubDate;
         	selectedBook.yearRead = bookData[i].yearRead;
 			selectedBook.readCount = bookData[i].yearRead.length;
@@ -893,6 +997,7 @@ function showModalPopup(selectedBook, bookYears, bookKeywords, similarPrinted){
 			<div><span class="bookDetail">Author:</span> ${selectedBook.author}</div>
 			<div><span class="bookDetail">Rating:</span> ${selectedBook.myRating}/10</div>
 			<div><span class="bookDetail">Pages:</span> ${selectedBook.pages}</div>
+			<div><span class="bookDetail">Words:</span> ${selectedBook.wordCount}</div>
 			<div><span class="bookDetail">Released:</span> ${selectedBook.pubDate}</div>
 			<div><span class="bookDetail">Read Count:</span> ${selectedBook.readCount}</div>
 			<div><span class="bookDetail">Years Read:</span> ${bookYears}</div>

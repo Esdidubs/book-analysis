@@ -68,7 +68,8 @@ svg {
 .yearBooks,
 .rankBooks,
 .pubDateBooks,
-.pageBooks {
+.pageBooks,
+.wordBooks {
 	margin-top: 20px;
 	width: 100%;
 }
@@ -126,7 +127,8 @@ svg {
 }
 
 .pagesBox p,
-.rankBox p {
+.rankBox p,
+.wordBox p {
 	font-size: 30px;
 	font-weight: bold;
 	text-align: center;
@@ -176,7 +178,8 @@ svg {
 .yearBox,
 .rankBox,
 .pubBox,
-.pagesBox {	
+.pagesBox,
+.wordBox {	
 	align-items: center;
 	display: flex;
 	flex-direction: column;
@@ -190,7 +193,8 @@ svg {
 #yearSelection,
 #rankSelection,
 #pubDateSelection,
-#pageSelection {
+#pageSelection,
+#wordSelection {
 	font-size: 16px;
 	padding: 5px 10px;
 }
