@@ -1,10 +1,7 @@
 /*
 	Things to add:
 	- Make sure JK Rowling's books are actually reflected
-
-	- figure out why the functions are being called twice when chaning categories
 */
-let testCount = 0;
 
 /*===========================
 	SETUP
@@ -54,7 +51,6 @@ function random_color() {
 // Hide everything then display something when dropdown is changed
 $('#dataSelection').on('change', function() {
 	event.preventDefault();
-	console.log('made selection')
 	makeHidden();
 	displayData();
 });
@@ -65,11 +61,6 @@ $(document).on('click', '.book', function() {
 	getModalPopup(bookTitle);
 });
 
-$('#dataSelection').on('change', function() {
-	event.preventDefault();
-	makeHidden();
-	displayData();
-});
 
 $(document).on('change', '#categorySelection', function(){
     event.preventDefault();
@@ -218,8 +209,6 @@ function allBooks() {
 //#region By Pages
 
 function pageSetup() {
-	testCount++;
-	console.log(testCount)
 
 	let pageCount = [
 		{name: 'Under 100 pages', pageLimit: [0, 100], count: 0},
