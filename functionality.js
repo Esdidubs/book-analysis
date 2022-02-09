@@ -3,9 +3,8 @@
 	- Make sure JK Rowling's books are actually reflected
 
 	- figure out why the functions are being called twice when chaning categories
-	- fix avgWords for authors
 */
-
+let testCount = 0;
 
 /*===========================
 	SETUP
@@ -14,7 +13,7 @@
 $(document).ready(function() {
     makeHidden();
 	displayData();
-
+	
 	let dcount = 0;
 	let nondcount = 0;
 	
@@ -55,6 +54,7 @@ function random_color() {
 // Hide everything then display something when dropdown is changed
 $('#dataSelection').on('change', function() {
 	event.preventDefault();
+	console.log('made selection')
 	makeHidden();
 	displayData();
 });
@@ -218,6 +218,8 @@ function allBooks() {
 //#region By Pages
 
 function pageSetup() {
+	testCount++;
+	console.log(testCount)
 
 	let pageCount = [
 		{name: 'Under 100 pages', pageLimit: [0, 100], count: 0},
@@ -290,8 +292,8 @@ function wordSetup() {
 	let wordCount = [
 		{name: 'Under 25000 words', wordLimit: [0, 25000], count: 0},
 		{name: '25000 to 50000 words', wordLimit: [25000, 50000], count: 0},
-		{name: '50000 to 50000 words', wordLimit: [50000, 75000], count: 0},
-		{name: '25000 to 75000 words', wordLimit: [75000, 100000], count: 0},
+		{name: '50000 to 75000 words', wordLimit: [50000, 75000], count: 0},
+		{name: '75000 to 100000 words', wordLimit: [75000, 100000], count: 0},
 		{name: '100000 to 150000 words', wordLimit: [100000, 150000], count: 0},
 		{name: '150000 to 200000 words', wordLimit: [150000, 200000], count: 0},
 		{name: '200000 or more words', wordLimit: [200000, 999999999], count: 0}
@@ -549,9 +551,9 @@ function displayYears() {
 				.title}</div><div>${oldestBook.author}</div><div>${oldestBook.year}</div></div>
 			<div class="mostReadAuthors"><div class="title">Books Released This Year</div><div>${newBooks}</div></div>	
 			<div class="mostReadAuthors"><div class="title">Shortest Book</div><img src="${shortestBook.img}"><div>${shortestBook
-				.title}</div><div>${shortestBook.author}</div><div>${shortestBook.pages} pages</div></div>
+				.title}</div><div>${shortestBook.author}</div><div>${shortestBook.pages} pages</div><div>${shortestBook.words.toLocaleString("en-US")} words</div></div>
 			<div class="mostReadAuthors"><div class="title">Longest Book</div><img src="${longestBook.img}"><div>${longestBook
-				.title}</div><div>${longestBook.author}</div><div>${longestBook.pages} pages</div></div>
+				.title}</div><div>${longestBook.author}</div><div>${longestBook.pages} pages</div><div>${longestBook.words.toLocaleString("en-US")} words</div></div>
 		</div>		
 		<h2>Books</h2>
 		<div class="bookList">${yearBookList}</div>
@@ -559,22 +561,22 @@ function displayYears() {
 }
 
 function getShortestBook(shortestBook, book){
-	if(bookData[book].pages < shortestBook.pages){
+	if(bookData[book].wordCount < shortestBook.words){
 		shortestBook.img = bookData[book].thumb;
 		shortestBook.title = bookData[book].title;
 		shortestBook.author = bookData[book].author;
 		shortestBook.pages = bookData[book].pages;
-		shortestBook.wordCount = bookData[book].wordCount;
+		shortestBook.words = bookData[book].wordCount;
 	}
 }
 
 function getLongestBook(longestBook, book){
-	if(bookData[book].pages > longestBook.pages){
+	if(bookData[book].wordCount > longestBook.words){
 		longestBook.img = bookData[book].thumb;
 		longestBook.title = bookData[book].title;
 		longestBook.author = bookData[book].author;
 		longestBook.pages = bookData[book].pages;
-		longestBook.wordCount = bookData[book].wordCount;
+		longestBook.words = bookData[book].wordCount;
 	}
 }
 

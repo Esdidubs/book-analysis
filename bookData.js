@@ -1,6 +1,4 @@
 /*
-    Estimated word count based either on audiobook length or page dimensions and count of kindle book
-
 	Things to add:
 	- Add descriptions for each book in own words
 	- Add you might like to each book
