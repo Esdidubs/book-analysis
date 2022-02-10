@@ -1022,11 +1022,11 @@ let bookData = [
         title: "The Magician's Nephew",
         series: '',
         author: 'C.S. Lewis',
-        myRating: 5,
+        myRating: 7,
         pages: 221,
         wordCount: 37209,
         pubDate: 1955,
-        yearRead: [2010, 2014],
+        yearRead: [2010, 2014, 2022],
         thumb: './images/magician-nephew.jpg',
         keywords: ['fiction', 'fantasy', 'young adult', 'children', 'christian', 'adventure', 'series'],
 		similar: ['The Bad Beginning', 'The Lightning Thief'],
@@ -1780,6 +1780,20 @@ let bookData = [
         keywords: ['fiction', 'horror', 'halloween', 'ghosts', 'experimental'],
 		similar: ['House of Leaves'],
 		description: `Every nine years, a house appears and welcomes in a guest before disappearing again.`
+    },
+    {
+        title: 'Drink?',
+        series: '',
+        author: 'David Nutt',
+        myRating: 7,
+        pages: 304,
+        wordCount: 62172,
+        pubDate: 2020,
+        yearRead: [2022],
+        thumb: './images/drink.jpg',
+        keywords: ['nonfiction'],
+		similar: [''],
+		description: ``
     },
     {
         title: 'Radical',
@@ -7329,6 +7343,18 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/pet-sem.jpg',
         keywords: ['horror', 'fiction', 'zombies']
+    },
+    {
+        title: 'The Stand',
+        series: '',
+        author: 'Stephen King',
+        myRating: 9,
+        pages: 1152,
+        wordCount: 514827,
+        pubDate: 1990,
+        yearRead: [2022],
+        thumb: './images/the-stand.jpg',
+        keywords: ['horror', 'fiction', 'apocalyptic']
     },
     {
         title: 'Misery',
