@@ -5053,6 +5053,20 @@ let bookData = [
 		description: `A sequel in the Wayside School series.`
     },
     {
+        title: 'Wayside School Beneath the Cloud of Doom',
+        series: '',
+        author: 'Louis Sachar',
+        myRating: 7,
+        pages: 192,
+        wordCount: 31938,
+        pubDate: 2020,
+        yearRead: [2022],
+        thumb: './images/wayside4.jpg',
+        keywords: ['children', 'humor', 'weird', 'fiction', 'short stories', 'series', 'schools'],
+		similar: ['How to Eat Fried Worms', 'Diary of a Wimpy Kid'],
+		description: `A sequel in the Wayside School series.`
+    },
+    {
         title: 'Recruited',
         series: '',
         author: 'Lynn Mason',
@@ -6371,6 +6385,18 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/kindred-spirits.jpg',
         keywords: ['fiction', 'young adult', 'romance', 'short stories', 'female author']
+    },
+    {
+        title: 'I Will Teach You to Be Rich',
+        series: '',
+        author: 'Ramit Sethi',
+        myRating: 9,
+        pages: 352,
+        wordCount: 114296,
+        pubDate: 2009,
+        yearRead: [2022],
+        thumb: './images/teach-to-be-rich.jpg',
+        keywords: ['nonfiction', 'money', 'personal finance']
     },
     {
         title: 'Thing Explainer',
