@@ -1,6 +1,6 @@
 /*
 	Things to add:
-	- Make sure JK Rowling's books are actually reflected
+	- Maybe add best of the year for each year? or awards?
 */
 
 /*===========================
@@ -10,11 +10,11 @@
 $(document).ready(function() {
     makeHidden();
 	displayData();
-	
+
+
+	// Using temporarily to keep track of how many books are completely defined
 	let dcount = 0;
 	let nondcount = 0;
-	
-
 	for(let book in bookData){
 		if(bookData[book].description === '' || bookData[book].description === undefined){
 			nondcount++;
@@ -22,10 +22,7 @@ $(document).ready(function() {
 			dcount++;
 		}
 	}
-
 	let cpercent =(dcount / (dcount + nondcount)) * 100;
-	
-
 	console.log(dcount + " books complete, " + nondcount + " to go. We're " + cpercent.toFixed(2) + " percent done.");
 
 	setRandomColor();
@@ -34,6 +31,9 @@ $(document).ready(function() {
 
 function setRandomColor(){
 	$('.book').each(function () {
+		$(this).css("background-color", random_color());
+	}) 
+	$('.mostReadAuthors').each(function () {
 		$(this).css("background-color", random_color());
 	})
 }
@@ -392,12 +392,12 @@ function displayPubDates() {
 			
 
 			pubDatesBookList += `<div class="book"> <img src="${yearArr[book].thumb}"><div class="title">${yearArr[book].title}</div><div class="author">${yearArr[book]
-				.author}</div><div class="pages">${yearArr[book].pubDate}</div></div>`;
+				.author}</div><div class="pages">${yearArr[book].pubDate}</div><div class="pages">${yearArr[book].myRating}/10</div></div>`;
 			bookCount++;
 		} else {
 				if (bookData[book].pubDate == pubDatesChoice) {	
 					pubDatesBookList += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
-						.author}</div><div class="pages">Pages: ${bookData[book].pages}</div></div>`;
+						.author}</div><div class="pages">Pages: ${bookData[book].pages}</div><div class="pages">${bookData[book].myRating}/10</div></div>`;
 					bookCount++;
 				}
 			}
@@ -909,8 +909,8 @@ function authorSetup() {
 
 		printedAuthors += `<div class="mostReadAuthors">
 								<div class="title">${mostAuthors[author][0]}</div>
-								<div>${mostAuthors[author][1]} books</div>
 								<div>${mostAuthors[author][3]} total reads</div>
+								<div>${mostAuthors[author][1]} books</div>
 								<div>${avgRating.toFixed(2)} average rating</div>
 								<div>${avgPages.toFixed(2)} average pages</div>
 								<div>${avgWords.toFixed(2)} average words</div>
