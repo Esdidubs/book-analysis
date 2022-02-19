@@ -4446,6 +4446,20 @@ let bookData = [
 		description: `How to improve your memory and increase your learning speed.`
     },
     {
+        title: 'Crazy Rich Asians',
+        series: '',
+        author: 'Kevin Kwan',
+        myRating: 5,
+        pages: 403,
+        wordCount: 130781,
+        pubDate: 2013,
+        yearRead: [2022],
+        thumb: './images/crazy-rich-asians.jpg',
+        keywords: ['fiction', 'romance', 'humor', 'china', 'asia', 'series', 'movies'],
+		similar: [],
+		description: ``
+    },
+    {
         title: 'For the Win',
         series: '',
         author: 'Kevin Werbach',
@@ -6697,7 +6711,7 @@ let bookData = [
         pubDate: 1990,
         yearRead: [2022],
         thumb: './images/wot1.jpg',
-        keywords: ['fiction', 'magic', 'fantasy', 'adventure', 'high fantasy'],
+        keywords: ['fiction', 'magic', 'fantasy', 'adventure', 'high fantasy', 'tv', 'series'],
 		similar: []
     },
     {
@@ -6795,6 +6809,18 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/book-of-30-day.jpg',
         keywords: ['nonfiction', 'habits', 'self-help', 'female author']
+    },
+    {
+        title: 'Arrested Development',
+        series: '',
+        author: 'Running Press',
+        myRating: 6,
+        pages: 147,
+        wordCount: 1470,
+        pubDate: 2013,
+        yearRead: [2022],
+        thumb: './images/arrested-development.jpg',
+        keywords: ['nonfiction', 'humor', 'tv', 'quotes']
     },
     {
         title: 'Milk and Honey',
@@ -7380,7 +7406,7 @@ let bookData = [
         pubDate: 1990,
         yearRead: [2022],
         thumb: './images/the-stand.jpg',
-        keywords: ['horror', 'fiction', 'apocalyptic']
+        keywords: ['horror', 'fiction', 'apocalyptic', 'tv']
     },
     {
         title: 'Misery',
