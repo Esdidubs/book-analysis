@@ -6814,7 +6814,7 @@ let bookData = [
         title: 'Arrested Development',
         series: '',
         author: 'Running Press',
-        myRating: 6,
+        myRating: 5,
         pages: 147,
         wordCount: 1470,
         pubDate: 2013,
