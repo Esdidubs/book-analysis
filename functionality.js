@@ -177,15 +177,17 @@ function allBooks() {
 	let pagesForAll = 0;
 	let booksForAll = 0;
 	let wordsForAll = 0;
+	let timeForAll = 0;
 	let pagesForAllUnique = 0;
 	let booksForAllUnique = 0;
 	let wordsForAllUnique = 0;
+	let timeForAllUnique = 0;
+	let averageReadingSpeed = 250;
 
 	// Appends the next book (in HTML) and adds to the count and pages of the variables
 	for (let book in bookData) {
 		allReads += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
-			.author}</div><div class="pages">Pages: ${bookData[book].pages.toLocaleString("en-US")}</div><div class="words">Words: ${bookData[book].wordCount.toLocaleString("en-US")}</div>
-			<div class="rating">Rating: ${bookData[book].myRating}/10</div></div>`;
+			.author}</div></div>`;
 		pagesForAll += bookData[book].pages * bookData[book].yearRead.length;
 		booksForAll += bookData[book].yearRead.length;
 		wordsForAll += bookData[book].wordCount * bookData[book].yearRead.length;
@@ -194,10 +196,12 @@ function allBooks() {
 		wordsForAllUnique += bookData[book].wordCount;
 		bookData[book].id = book;
 	}
+	timeForAll = Math.floor(wordsForAll/averageReadingSpeed);
+	timeForAllUnique = Math.floor(wordsForAllUnique/averageReadingSpeed);
 
 	$('.allReads').html(`     
-			<h3>${booksForAll} books & ${pagesForAll.toLocaleString("en-US")} pages & ${wordsForAll.toLocaleString("en-US")} words </h3>
-			<h3>${booksForAllUnique} unique books & ${pagesForAllUnique.toLocaleString("en-US")} pages & ${wordsForAllUnique.toLocaleString("en-US")} words</h3>
+			<h3>${booksForAll} books & ${pagesForAll.toLocaleString("en-US")} pages & ${wordsForAll.toLocaleString("en-US")} words - ${convertTime(timeForAll)} at 250wpm</h3>
+			<h3>${booksForAllUnique} unique books & ${pagesForAllUnique.toLocaleString("en-US")} pages & ${wordsForAllUnique.toLocaleString("en-US")} words - ${convertTime(timeForAllUnique)} at 250wpm</h3>
 			<div class="bookList">${allReads}</div>
     `);
 }
@@ -318,9 +322,11 @@ function displayWords() {
 	for (let book in wordArr) {
 		if (wordArr[book].wordCount == undefined) {
 		}else {
+				let readTime = wordArr[book].wordCount / 250;
 				if (wordArr[book].wordCount >= parseInt(wordsChoice[0]) && wordArr[book].wordCount < parseInt(wordsChoice[1])) {	
 					wordsBookList += `<div class="book"> <img src="${wordArr[book].thumb}"><div class="title">${wordArr[book].title}</div><div class="author">${wordArr[book]
-						.author}</div><div class="pages">Pages: ${wordArr[book].pages}</div><div class="words">Words: ${wordArr[book].wordCount}</div></div>`;
+						.author}</div><div class="pages">Pages: ${wordArr[book].pages}</div><div class="words">Words: ${wordArr[book].wordCount}</div>
+						<div class="words">${convertTime(readTime)}</div></div>`;
 					bookCount++;
 				}
 			}
@@ -392,12 +398,12 @@ function displayPubDates() {
 			
 
 			pubDatesBookList += `<div class="book"> <img src="${yearArr[book].thumb}"><div class="title">${yearArr[book].title}</div><div class="author">${yearArr[book]
-				.author}</div><div class="pages">${yearArr[book].pubDate}</div><div class="pages">${yearArr[book].myRating}/10</div></div>`;
+				.author}</div></div>`;
 			bookCount++;
 		} else {
 				if (bookData[book].pubDate == pubDatesChoice) {	
 					pubDatesBookList += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
-						.author}</div><div class="pages">Pages: ${bookData[book].pages}</div><div class="pages">${bookData[book].myRating}/10</div></div>`;
+						.author}</div></div>`;
 					bookCount++;
 				}
 			}
@@ -525,12 +531,13 @@ function displayYears() {
 	let ficPercentage = ficCount / (ficCount + nonficCount) * 100;
 	let nonficPercentage = nonficCount / (ficCount + nonficCount) * 100;
 	let avgRating = totalRating / booksForYear;
+	let readTime = wordsForYear/250;
 
 	$('.yearBooks').html(`
 		<h2>Stats for ${yearChoice}</h2>
 		<div class="bookList">
 			<div class="mostReadAuthors"><div class="title">Quick Stats</div><div>${booksForYear} books</div><div>${pagesForYear
-				.toLocaleString("en-US")} pages</div><div>${wordsForYear.toLocaleString("en-US")} words</div>
+				.toLocaleString("en-US")} pages</div><div>${wordsForYear.toLocaleString("en-US")} words</div><div>${convertTime(readTime)}</div>
 				<div>Average Pages: ${avgPages.toFixed(2)}</div><div>Average Words: ${avgWords.toFixed(2)}</div><div>Average Rating: ${avgRating.toFixed(2)}/10</div></div>
 			<div class="mostReadAuthors"><div class="title">Fiction vs Nonfiction</div><div>Fiction: ${ficCount} (${ficPercentage
 				.toFixed(0)}%)</div><div>Nonfiction: ${nonficCount} (${nonficPercentage.toFixed(0)}%)</div></div>
@@ -746,7 +753,7 @@ function displayCategory() {
 		} else {
 				if (bookData[book].keywords.includes(categoryChoice) == true) {	
 					categoryBookList += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
-						.author}</div><div class="pages">Pages: ${bookData[book].pages}</div></div>`;
+						.author}</div></div>`;
 					bookCount++;
 				}
 			}
@@ -981,6 +988,7 @@ function showModalPopup(selectedBook, bookYears, bookKeywords, similarPrinted){
 	$('.modal').show();
 	$('.overlay').show();
 
+	let readTime = selectedBook.wordCount / 250;
 	$('.modal').html(`
 		<div class="modalContent">
 			<img src="${selectedBook.thumb}" />
@@ -989,6 +997,7 @@ function showModalPopup(selectedBook, bookYears, bookKeywords, similarPrinted){
 			<div><span class="bookDetail">Rating:</span> ${selectedBook.myRating}/10</div>
 			<div><span class="bookDetail">Pages:</span> ${selectedBook.pages}</div>
 			<div><span class="bookDetail">Words:</span> ${selectedBook.wordCount}</div>
+			<div><span class="bookDetail">Read Time (250wpm):</span> ${convertTime(readTime)}</div>
 			<div><span class="bookDetail">Released:</span> ${selectedBook.pubDate}</div>
 			<div><span class="bookDetail">Read Count:</span> ${selectedBook.readCount}</div>
 			<div><span class="bookDetail">Years Read:</span> ${bookYears}</div>
@@ -1011,3 +1020,29 @@ function hideModalPopup(){
 }
 
 //#endregion
+
+function convertTime(timeInMinutes){
+	let num = timeInMinutes;
+	let days = (num / 60 / 24);
+	let rdays = Math.floor(days);
+	let hours = (days - rdays) * 24;
+	let rhours = Math.floor(hours);
+	let minutes = (hours - rhours) * 60;
+	let rminutes = Math.round(minutes);
+	let dayWord = 'days';
+	let hourWord = 'hours';
+	let minuteWord = 'minutes';
+	if(rdays == 1){dayWord = 'day';}
+	if(rhours == 1){hourWord = 'hour';}
+	if(rminutes == 1){minuteWord = 'minute';}
+
+	if(rdays > 0){
+		if(rhours > 0 && rminutes > 0) {return `${rdays} ${dayWord}, ${rhours} ${hourWord}, ${rminutes} ${minuteWord}`;}
+		else if(rhours > 0) {return `${rdays} ${dayWord}, ${rhours} ${hourWord}`;}
+		else {return `${rdays} ${dayWord}, ${rminutes} ${minuteWord}`;}
+	} else {
+		if(rhours > 0 && rminutes > 0) {return `${rhours} ${hourWord}, ${rminutes} ${minuteWord}`;}
+		else if(rhours > 0) {return `${rhours} ${hourWord}`;}
+		else {return `${rminutes} ${minuteWord}`;}
+	}
+}
