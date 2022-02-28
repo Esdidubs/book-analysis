@@ -2871,7 +2871,7 @@ let bookData = [
         pages: 309,
         wordCount: 76944,
         pubDate: 1997,
-        yearRead: [1999, 2000, 2001, 2002, 2010, 2011, 2012, 2017, 2018, 2019, 2020, 2021, 2021],
+        yearRead: [1999, 2000, 2001, 2002, 2010, 2011, 2012, 2017, 2018, 2019, 2020, 2021, 2021, 2022],
         thumb: './images/hp1.jpg',
         keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'adventure', 'mystery', 'movies', 'harry potter', 'female author', 'series', 'schools'],
 		similar: ['The Hobbit', 'The Lightning Thief', 'Name of the Wind'],
