@@ -15,7 +15,9 @@ $(document).ready(function() {
 	// Using temporarily to keep track of how many books are completely defined
 	let dcount = 0;
 	let nondcount = 0;
+	let ratingString = '';
 	for(let book in bookData){
+		ratingString += `${bookData[book].title}|${bookData[book].myRating}%`;
 		if(bookData[book].description === '' || bookData[book].description === undefined){
 			nondcount++;
 		} else {
@@ -24,7 +26,7 @@ $(document).ready(function() {
 	}
 	let cpercent =(dcount / (dcount + nondcount)) * 100;
 	console.log(dcount + " books complete, " + nondcount + " to go. We're " + cpercent.toFixed(2) + " percent done.");
-
+	
 	setRandomColor();
 
 });
@@ -818,23 +820,37 @@ function displayRanks() {
 	let wordsForRating = 0;
 	let categories = {};
 
+	 
 
-	for (let book in bookData) {
-		if (bookData[book].myRating == undefined) {
+	let bookArr = JSON.parse(JSON.stringify(bookData));
+	
+	for(let book in bookArr){
+		if(bookArr[book].myRating != undefined){
+			bookArr[book].orderRanking = allBooksOrderedRankings.indexOf(bookArr[book].title) + 1;
+		}
+	}
+	
+	bookArr.sort(function(a, b) {
+		return a.orderRanking - b.orderRanking;
+	});	
+
+
+	for (let book in bookArr) {
+		if (bookArr[book].myRating == undefined) {
 		} else {
-				if (bookData[book].myRating == rankChoice) {	
-					rankBookList += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
-						.author}</div></div>`;
+				if (bookArr[book].myRating == rankChoice) {	
+					rankBookList += `<div class="book"> <img src="${bookArr[book].thumb}"><div class="title">${bookArr[book].title}</div><div class="author">${bookArr[book]
+						.author}</div><div class="author">${bookArr[book].orderRanking}</div></div>`;
 					bookCount++;
-					totalReadCount += bookData[book].yearRead.length;
-					pagesForRating += bookData[book].pages;
-					wordsForRating += bookData[book].wordCount;
+					totalReadCount += bookArr[book].yearRead.length;
+					pagesForRating += bookArr[book].pages;
+					wordsForRating += bookArr[book].wordCount;
 
 					getCategories(categories, book);
 
-					if(bookData[book].keywords.includes('fiction')){
+					if(bookArr[book].keywords.includes('fiction')){
 						ficCount++;
-					} else if(bookData[book].keywords.includes('nonfiction')){
+					} else if(bookArr[book].keywords.includes('nonfiction')){
 						nonficCount++;
 					}
 				}
@@ -987,13 +1003,14 @@ function setupBookDetails(selectedBook){
 function showModalPopup(selectedBook, bookYears, bookKeywords, similarPrinted){
 	$('.modal').show();
 	$('.overlay').show();
-
+	let orderRanking = allBooksOrderedRankings.indexOf(selectedBook.title) + 1;
 	let readTime = selectedBook.wordCount / 250;
 	$('.modal').html(`
 		<div class="modalContent">
 			<img src="${selectedBook.thumb}" />
 			<div><span class="bookDetail">Title:</span> ${selectedBook.title}</div>
 			<div><span class="bookDetail">Author:</span> ${selectedBook.author}</div>
+			<div><span class="bookDetail">Ranking:</span> ${orderRanking}</div>
 			<div><span class="bookDetail">Rating:</span> ${selectedBook.myRating}/10</div>
 			<div><span class="bookDetail">Pages:</span> ${selectedBook.pages}</div>
 			<div><span class="bookDetail">Words:</span> ${selectedBook.wordCount}</div>
