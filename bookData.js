@@ -23,7 +23,8 @@ let bookData = [
 		similar: ['Mean Girls'],
 		description: `First part of the book is a scene-by-scene retelling of the hit movie. The second half is set 25 years
 					later and involves the kid of the first movie re-awakening the Sanderson sisters.`
-    }, {
+    }, 
+    {
         title: 'Irresistible',
         series: '',
         author: 'Adam Alter',
@@ -36,6 +37,20 @@ let bookData = [
         keywords: ['nonfiction', 'technology', 'self-help', 'psychology', 'habits'],
 		similar: ['Digital Minimalism', 'The Revenge of Analog', 'Bored and Brilliant'],
 		description: `Understanding why so many of today's products are irresistible due to behavioral addicition.`
+    },
+    {
+        title: 'How to Talk So Kids Will Listen & Listen So Kids Will Talk',
+        series: '',
+        author: 'Adele Faber',
+        myRating: 5,
+        pages: 286,
+        wordCount: 79128,
+        pubDate: 1996,
+        yearRead: [2022],
+        thumb: './images/talk-listen.jpg',
+        keywords: ['nonfiction', 'parenting', 'self-help', 'psychology'],
+		similar: [],
+		description: ``
     },
     {
         title: 'Multiple Choice',
@@ -3032,6 +3047,20 @@ let bookData = [
 		description: `The screenplay from the first of the Fantastic Beasts and Where to Find Them films.`
     },
     {
+        title: 'The Christmas Pig',
+        series: '',
+        author: 'J.K. Rowling',
+        myRating: 8,
+        pages: 288,
+        wordCount: 50000,
+        pubDate: 2021,
+        yearRead: [2022],
+        thumb: './images/christmas-pig.jpg',
+        keywords: ['fiction', 'childrens', 'magic', 'fantasy', 'adventure', 'female author', 'christmas', 'divorce', 'death'],
+		similar: [],
+		description: `A boy travels to the Land of Lost Toys to find his missing pig.`
+    },
+    {
         title: 'The Hobbit',
         series: '',
         author: 'J.R.R. Tolkien',
@@ -5703,6 +5732,18 @@ let bookData = [
         keywords: ['science fiction', 'fiction', 'dystopian', 'steampunk']
     },
     {
+        title: 'The Five Dysfunctions of a Team',
+        series: '',
+        author: 'Patrick Lencioni',
+        myRating: 8,
+        pages: 227,
+        wordCount: 34854,
+        pubDate: 2002,
+        yearRead: [2022],
+        thumb: './images/five-dysfunctions.jpg',
+        keywords: ['nonfiction', 'business', 'leadership']
+    },
+    {
         title: 'The Name of the Wind',
         series: '1',
         author: 'Patrick Rothfuss',
@@ -8285,6 +8326,7 @@ let allBooksOrderedRankings = [
     "Game On!",
     "The Screwtape Letters",
     "The Lion, the Witch and the Wardrobe",
+    "The Christmas Pig",
     "The Office",
     "Very Good Lives",
     "The Revenge of Analog",
@@ -8316,6 +8358,7 @@ let allBooksOrderedRankings = [
     "The One Thing",
     "Food Rules",
     "The New Hunger",
+    "The Five Dysfunctions of a Team",
     "Nerve",
     "Ten Arguments For Deleting Your Social Media Accounts Right Now",
     "Wild at Heart",
@@ -8659,6 +8702,7 @@ let allBooksOrderedRankings = [
     "A Million Miles in a Thousand Years",
     "10,000 Things You Need to Know",
     "The Gunslinger",
+    "How to Talk So Kids Will Listen & Listen So Kids Will Talk",
     "The Atlantis Complex",
     "The Last Guardian",
     "Annihilation",

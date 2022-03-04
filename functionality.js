@@ -1,6 +1,7 @@
 /*
 	Things to add:
 	- Maybe add best of the year for each year? or awards?
+	- May need to fix the ranking logic if 2 books have the same title
 */
 
 /*===========================
