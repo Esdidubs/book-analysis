@@ -8503,6 +8503,7 @@ let allBooksOrderedRankings = [
     "Learning Chinese Characters",
     "Think Like a Freak",
     "Tipping Point",
+    "Death Note Vol. 1",
     "Creativity, Inc.",
     "We Should All Be Feminists",
     "Navigating Genesis",
