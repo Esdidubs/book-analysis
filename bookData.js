@@ -791,6 +791,20 @@ let bookData = [
 		description: ``
     },
     {
+        title: 'The Way of Kings',
+        series: '',
+        author: 'Brandon Sanderson',
+        myRating: 10,
+        pages: 1007,
+        wordCount: 384265,
+        pubDate: 2010,
+        yearRead: [2022],
+        thumb: './images/stormlight1.jpg',
+        keywords: ['fiction', 'fantasy', 'magic', 'cosmere', 'series', 'high fantasy'],
+		similar: [],
+		description: ``
+    },
+    {
         title: 'Steelheart',
         series: '',
         author: 'Brandon Sanderson',
@@ -7923,6 +7937,18 @@ let bookData = [
         thumb: './images/strengths-finder.jpg',
         keywords: ['nonfiction', 'business', 'leadership', 'self-help', 'psychology']
     },
+    {
+        title: 'Death Note Vol. 1',
+        series: '',
+        author: 'Tsugumi Ohba',
+        myRating: 7,
+        pages: 195,
+        wordCount: 12675,
+        pubDate: 2007,
+        yearRead: [2022],
+        thumb: './images/deathnote1.jpg',
+        keywords: ['fiction', 'manga', 'graphic novel', 'fantasy', 'horror']
+    },
 	//#endregion
     /*===========================
     	Author First Name - U's
@@ -8241,6 +8267,7 @@ let allBooksOrderedRankings = [
     "Project Hail Mary",
     "Warm Bodies",
     "Warbreaker",
+    "The Way of Kings",
     "The Final Empire",
     "Blood, Sweat, and Pixels",
     "The 7½ Deaths of Evelyn Hardcastle",
