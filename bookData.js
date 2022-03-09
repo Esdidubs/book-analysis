@@ -5945,7 +5945,20 @@ let bookData = [
         pubDate: 2019,
         yearRead: [2021],
         thumb: './images/predestination.jpg',
-        keywords: ['nonfiction', 'christian', 'theology'],
+        keywords: ['nonfiction', 'christian', 'theology', 'series'],
+		similar: ['Systematic Theology']
+    },
+    {
+        title: 'How Should I Think About Money?',
+        series: '',
+        author: 'R.C. Sproul',
+        myRating: 8,
+        pages: 74,
+        wordCount: 19313,
+        pubDate: 2016,
+        yearRead: [2022],
+        thumb: './images/how-think-money.jpg',
+        keywords: ['nonfiction', 'christian', 'theology', 'series', 'money'],
 		similar: ['Systematic Theology']
     },
     {
@@ -8373,6 +8386,7 @@ let allBooksOrderedRankings = [
     "Follow Me",
     "Living With Less",
     "Outliers",
+    "How Should I Think About Money?",
     "Spelunky",
     "Effortless",
     "Bored and Brilliant",
