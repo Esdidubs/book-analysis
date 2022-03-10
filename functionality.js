@@ -218,15 +218,15 @@ function allBooks() {
 function pageSetup() {
 
 	let pageCount = [
-		{name: 'Under 100 pages', pageLimit: [0, 100], count: 0},
-		{name: '100 to 199 pages', pageLimit: [100, 200], count: 0},
-		{name: '200 to 299 pages', pageLimit: [200, 300], count: 0},
-		{name: '300 to 399 pages', pageLimit: [300, 400], count: 0},
-		{name: '400 to 499 pages', pageLimit: [400, 500], count: 0},
-		{name: '500 to 599 pages', pageLimit: [500, 600], count: 0},
-		{name: '600 to 699 pages', pageLimit: [600, 700], count: 0},
+		{name: '800 or more pages', pageLimit: [800, 9999], count: 0},
 		{name: '700 to 799 pages', pageLimit: [700, 800], count: 0},
-		{name: '800 or more pages', pageLimit: [800, 9999], count: 0}
+		{name: '600 to 699 pages', pageLimit: [600, 700], count: 0},
+		{name: '500 to 599 pages', pageLimit: [500, 600], count: 0},
+		{name: '400 to 499 pages', pageLimit: [400, 500], count: 0},
+		{name: '300 to 399 pages', pageLimit: [300, 400], count: 0},
+		{name: '200 to 299 pages', pageLimit: [200, 300], count: 0},
+		{name: '100 to 199 pages', pageLimit: [100, 200], count: 0},
+		{name: 'Under 100 pages', pageLimit: [0, 100], count: 0}
 	];
 
 	let pageStr = ``;
@@ -237,7 +237,8 @@ function pageSetup() {
 	$('.pagesBox').html(`
 			<label for="pageSelection" id="pageLabel">Select an amount of pages</label>
 			<select name="pageSelection" id="pageSelection" class="dataDrop">
-				<option disabled selected>Pages</option>      
+				<option disabled selected>Pages</option>
+				<option value="all">Any Page Count</option>     
 				${pageStr}
 			</select>
 			<div class="pageBooks"></div>
@@ -252,12 +253,16 @@ function displayPages() {
 
 	let pageArr = JSON.parse(JSON.stringify(bookData));
 	pageArr.sort(function(a, b) {
-		return a.pages - b.pages;
+		return b.pages - a.pages;
 	});	
 
 	for (let book in pageArr) {
 		if (pageArr[book].pages == undefined) {
-		}else {
+		} else if(pagesChoice == "all"){
+			pagesBookList += `<div class="book"> <img src="${pageArr[book].thumb}"><div class="title">${pageArr[book].title}</div><div class="author">${pageArr[book]
+				.author}</div><div class="pages">Pages: ${pageArr[book].pages}</div></div>`;
+			bookCount++;
+		} else {
 				if (pageArr[book].pages >= parseInt(pagesChoice[0]) && pageArr[book].pages < parseInt(pagesChoice[1])) {	
 					pagesBookList += `<div class="book"> <img src="${pageArr[book].thumb}"><div class="title">${pageArr[book].title}</div><div class="author">${pageArr[book]
 						.author}</div><div class="pages">Pages: ${pageArr[book].pages}</div></div>`;
@@ -286,13 +291,13 @@ function displayPages() {
 function wordSetup() {
 
 	let wordCount = [
-		{name: 'Under 25000 words', wordLimit: [0, 25000], count: 0},
-		{name: '25000 to 50000 words', wordLimit: [25000, 50000], count: 0},
-		{name: '50000 to 75000 words', wordLimit: [50000, 75000], count: 0},
-		{name: '75000 to 100000 words', wordLimit: [75000, 100000], count: 0},
-		{name: '100000 to 150000 words', wordLimit: [100000, 150000], count: 0},
+		{name: '200000 or more words', wordLimit: [200000, 999999999], count: 0},
 		{name: '150000 to 200000 words', wordLimit: [150000, 200000], count: 0},
-		{name: '200000 or more words', wordLimit: [200000, 999999999], count: 0}
+		{name: '100000 to 150000 words', wordLimit: [100000, 150000], count: 0},
+		{name: '75000 to 100000 words', wordLimit: [75000, 100000], count: 0},
+		{name: '50000 to 75000 words', wordLimit: [50000, 75000], count: 0},
+		{name: '25000 to 50000 words', wordLimit: [25000, 50000], count: 0},
+		{name: 'Under 25000 words', wordLimit: [0, 25000], count: 0}
 	];
 
 	let wordStr = ``;
@@ -303,7 +308,8 @@ function wordSetup() {
 	$('.wordBox').html(`
 			<label for="wordSelection" id="wordLabel">Select an amount of words</label>
 			<select name="wordSelection" id="wordSelection" class="dataDrop">
-				<option disabled selected>Words</option>      
+				<option disabled selected>Words</option>
+				<option value="all">Any Word Count</option>  
 				${wordStr}
 			</select>
 			<div class="wordBooks"></div>
@@ -318,12 +324,18 @@ function displayWords() {
 
 	let wordArr = JSON.parse(JSON.stringify(bookData));
 	wordArr.sort(function(a, b) {
-		return a.wordCount - b.wordCount;
+		return b.wordCount - a.wordCount;
 	});	
 
 
 	for (let book in wordArr) {
 		if (wordArr[book].wordCount == undefined) {
+		}else if(wordsChoice == "all"){
+			let readTime = wordArr[book].wordCount / 250;
+			wordsBookList += `<div class="book"> <img src="${wordArr[book].thumb}"><div class="title">${wordArr[book].title}</div><div class="author">${wordArr[book]
+				.author}</div><div class="pages">Pages: ${wordArr[book].pages}</div><div class="words">Words: ${wordArr[book].wordCount}</div>
+				<div class="words">${convertTime(readTime)}</div></div>`;
+			bookCount++;
 		}else {
 				let readTime = wordArr[book].wordCount / 250;
 				if (wordArr[book].wordCount >= parseInt(wordsChoice[0]) && wordArr[book].wordCount < parseInt(wordsChoice[1])) {	
