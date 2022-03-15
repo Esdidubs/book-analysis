@@ -805,6 +805,20 @@ let bookData = [
 		description: ``
     },
     {
+        title: 'White Sand, Volume 1',
+        series: '',
+        author: 'Brandon Sanderson',
+        myRating: 8,
+        pages: 160,
+        wordCount: 20800,
+        pubDate: 2016,
+        yearRead: [2022],
+        thumb: './images/white-sand1.jpg',
+        keywords: ['fiction', 'fantasy', 'magic', 'cosmere', 'series', 'high fantasy', 'graphic novel', 'comic'],
+		similar: [],
+		description: ``
+    },
+    {
         title: 'Steelheart',
         series: '',
         author: 'Brandon Sanderson',
