@@ -4503,6 +4503,20 @@ let bookData = [
 		description: `A reference book for Quidditch talked about in the first Harry Potter book.`
     },
     {
+        title: 'Crucial Conversations',
+        series: '',
+        author: 'Kerry Patterson',
+        myRating: 6,
+        pages: 240,
+        wordCount: 60759,
+        pubDate: 2001,
+        yearRead: [2022],
+        thumb: './images/crucial-conversations.jpg',
+        keywords: ['nonfiction', 'communication', 'business'],
+		similar: [],
+		description: ``
+    },
+    {
         title: 'Unlimited Memory',
         series: '',
         author: 'Kevin Horsley',
@@ -5251,6 +5265,20 @@ let bookData = [
         yearRead: [2001],
         thumb: './images/vamp-baby.jpg',
         keywords: ['fiction', 'bailey school kids', 'children', 'fantasy', 'mystery', 'vampires', 'female author', 'series'],
+		similar: [],
+		description: ``
+    },
+    {
+        title: 'First, Break All the Rules',
+        series: '',
+        author: 'Marcus Buckingham',
+        myRating: 7,
+        pages: 272,
+        wordCount: 92787,
+        pubDate: 1999,
+        yearRead: [2022],
+        thumb: './images/first-break-rules.jpg',
+        keywords: ['nonfiction', 'business', 'management'],
 		similar: [],
 		description: ``
     },
@@ -8592,6 +8620,7 @@ let allBooksOrderedRankings = [
     "The Life-Changing Magic of Tidying Up",
     "The Subtle Art of Not Giving a F*ck",
     "Spark Joy",
+    "First, Break All the Rules",
     "Wayside School Beneath the Cloud of Doom",
     "The Inferno",
     "House of Leaves",
@@ -8694,6 +8723,7 @@ let allBooksOrderedRankings = [
     "Adjustment Team",
     "Eat That Frog!",
     "Money, Possessions and Eternity",
+    "Crucial Conversations",
     "Macbeth",
     "Hamlet",
     "Grit",
