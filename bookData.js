@@ -847,6 +847,20 @@ let bookData = [
 		description: ``
     },
     {
+        title: 'Edgedancer',
+        series: '',
+        author: 'Brandon Sanderson',
+        myRating: 8,
+        pages: 272,
+        wordCount: 40660,
+        pubDate: 2017,
+        yearRead: [2022],
+        thumb: './images/edgedancer.jpg',
+        keywords: ['fiction', 'fantasy', 'magic', 'cosmere', 'series', 'high fantasy'],
+		similar: [],
+		description: ``
+    },
+    {
         title: 'White Sand, Volume 1',
         series: '',
         author: 'Brandon Sanderson',
@@ -8489,6 +8503,7 @@ let allBooksOrderedRankings = [
     "Angels & Demons",
     "A Beautifully Foolish Endeavor",
     "Ready Player Two",
+    "Edgedancer",
     "Essentialism",
     "The Ultimate Guide to Video Game Writing and Design",
     "Game On!",
