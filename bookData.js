@@ -95,6 +95,20 @@ let bookData = [
 		description: `Poetry book exploring a girl's journey with roller derby, feminism, and sexuality.`
     },
     {
+        title: 'Bad Choices',
+        series: '',
+        author: 'Ali Almossawi',
+        myRating: 8,
+        pages: 160,
+        wordCount: 27298,
+        pubDate: 2017,
+        yearRead: [2022],
+        thumb: './images/bad-choices.jpg',
+        keywords: ['nonfiction', 'educational', 'computer science', 'programming', 'mathematics', 'algorithms'],
+		similar: [],
+		description: ``
+    },
+    {
         title: 'Learning Chinese Characters',
         series: '',
         author: 'Alison Matthews',
@@ -4160,6 +4174,20 @@ let bookData = [
 		description: ``
     },
     {
+        title: 'Creativity',
+        series: '',
+        author: 'John Cleese',
+        myRating: 7,
+        pages: 112,
+        wordCount: 9263,
+        pubDate: 2020,
+        yearRead: [2022],
+        thumb: './images/creativity-cleese.jpg',
+        keywords: ['nonfiction', 'writing'],
+		similar: [],
+		description: ``
+    },
+    {
         title: 'Wild at Heart',
         series: '',
         author: 'John Eldredge',
@@ -4455,6 +4483,20 @@ let bookData = [
 		description: `Practical guides for creating and maintaining a minimalist home.`
     },
     {
+        title: 'Things That Matter',
+        series: '',
+        author: 'Joshua Becker',
+        myRating: 8,
+        pages: 256,
+        wordCount: 61858,
+        pubDate: 2022,
+        yearRead: [2022],
+        thumb: './images/things-that-matter.jpg',
+        keywords: ['nonfiction', 'minimalism', 'self-help'],
+		similar: ['The Minimalist Home', 'The More of Less', 'Living With Less'],
+		description: ``
+    },
+    {
         title: 'Simplify Magazine 001',
         series: '',
         author: 'Joshua Becker',
@@ -4641,6 +4683,20 @@ let bookData = [
         keywords: ['nonfiction', 'christian', 'theology', 'series'],
 		similar: ['Navigating Genesis', "Who's Afraid of the Multiverse"],
 		description: `An attempt to explain away science without using actual science.`
+    },
+    {
+        title: "Planet Funny",
+        series: '',
+        author: 'Ken Jennings',
+        myRating: 7,
+        pages: 320,
+        wordCount: 86507,
+        pubDate: 2018,
+        yearRead: [2022],
+        thumb: './images/planet-funny.jpg',
+        keywords: ['nonfiction', 'humor'],
+		similar: [],
+		description: ``
     },
     {
         title: "One Flew Over the Cuckoo's Nest",
@@ -5390,6 +5446,20 @@ let bookData = [
         pubDate: 2002,
         yearRead: [2020],
         thumb: './images/tipping-point.jpg',
+        keywords: ['nonfiction', 'psychology', 'sociology'],
+		similar: [],
+		description: ``
+    },
+    {
+        title: 'David and Goliath',
+        series: '',
+        author: 'Malcolm Gladwell',
+        myRating: 8,
+		pages: 305,
+        wordCount: 66568,
+        pubDate: 2013,
+        yearRead: [2022],
+        thumb: './images/david-goliath.jpg',
         keywords: ['nonfiction', 'psychology', 'sociology'],
 		similar: [],
 		description: ``
@@ -6811,6 +6881,18 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/f451.jpg',
         keywords: ['fiction', 'movies', 'dystopian']
+    },
+    {
+        title: 'The Science of Nutrition',
+        series: '',
+        author: 'Rhiannon Lambert',
+        myRating: 7,
+        pages: 224,
+        wordCount: 22402,
+        pubDate: 2021,
+        yearRead: [2022],
+        thumb: './images/science-nutrition.jpg',
+        keywords: ['nonfiction', 'nutrition', 'health']
     },
     {
         title: 'Cemetery Dance: Issue 74-75',
@@ -8614,6 +8696,8 @@ let allBooksOrderedRankings = [
     "Celebration of Discipline",
     "Thing Explainer",
     "What If?",
+    "Things That Matter",
+    "David and Goliath",
     "The Midnight Library",
     "Erasing Hell",
     "The Rithmatist",
@@ -8632,6 +8716,7 @@ let allBooksOrderedRankings = [
     "Tales from the Yawning Portal",
     "Ghosts of Saltmarsh",
     "The One Thing",
+    "Bad Choices",
     "Food Rules",
     "The New Hunger",
     "The Five Dysfunctions of a Team",
@@ -8766,6 +8851,7 @@ let allBooksOrderedRankings = [
     "The Total Money Makeover",
     "Dave Ramsey's Complete Guide to Money",
     "Sapiens",
+    "The Science of Nutrition",
     "Anguish Languish",
     "Wicked",
     "Killer",
@@ -8787,6 +8873,7 @@ let allBooksOrderedRankings = [
     "Because the Internet",
     "Fluent in 3 Months",
     "Drink?",
+    "Creativity",
     "Retire Inspired",
     "Fantastic Beasts and Where to Find Them: The Original Screenplay",
     "Be Prepared",
@@ -8802,6 +8889,7 @@ let allBooksOrderedRankings = [
     "Spark Joy",
     "Allomancer Jak and the Pits of Elantia",
     "First, Break All the Rules",
+    "Planet Funny",
     "Wayside School Beneath the Cloud of Doom",
     "The Inferno",
     "House of Leaves",
