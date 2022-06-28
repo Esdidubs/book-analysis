@@ -2,6 +2,8 @@
 	Things to add:
 	- Add descriptions for each book in own words
 	- Add you might like to each book
+    - Handle pennames and multiple authors
+    - Create ability to sort?
 */
 
 let bookData = [
@@ -3653,6 +3655,20 @@ let bookData = [
 		description: `Ways to protect yourself online.`
     },
     {
+        title: 'The Office BFFs',
+        series: '',
+        author: 'Jenna Fischer',
+        myRating: 7,
+        pages: 240,
+        wordCount: 79442,
+        pubDate: 2022,
+        yearRead: [2022],
+        thumb: './images/office-bffs.jpg',
+        keywords: ['nonfiction', 'memoir', 'tv'],
+		similar: [],
+		description: ``
+    },
+    {
         title: 'All the Bright Places',
         series: '',
         author: 'Jennifer Niven',
@@ -3723,6 +3739,20 @@ let bookData = [
 		similar: ['Eleanor & Park'],
 		description: `An Asian immigrant wants to be 100% American, including with who he dates. But
 						an Asian immigrant girl may make that plan hard to stick to.`
+    },
+    {
+        title: "50 Things They Don't Want You to Know",
+        series: '',
+        author: 'Jerome Hudson',
+        myRating: 5,
+        pages: 321,
+        wordCount: 73005,
+        pubDate: 2019,
+        yearRead: [2022],
+        thumb: './images/50-things.jpg',
+        keywords: ['nonfiction', 'politics'],
+		similar: [],
+		description: ``
     },
     {
         title: 'Three Men in a Boat',
@@ -4413,6 +4443,20 @@ let bookData = [
 		description: `A detective gets psychic impressions from chewing on murder victims.`
     },
     {
+        title: 'BiblioTech',
+        series: '',
+        author: 'John Palfrey',
+        myRating: 6,
+        pages: 288,
+        wordCount: 54165,
+        pubDate: 2015,
+        yearRead: [2022],
+        thumb: './images/bibliotech.jpg',
+        keywords: ['nonfiction', 'books', 'technology'],
+		similar: [],
+		description: ``
+    },
+    {
         title: 'Harry Potter and the Cursed Child',
         series: '',
         author: 'John Tiffany',
@@ -4767,6 +4811,34 @@ let bookData = [
         keywords: ['fiction', 'mental health', 'movies', 'unreliable narrator'],
 		similar: ['Fight Club'],
 		description: `A convicted criminal fakes being insane to go to an asylum instead of prison.`
+    },
+    {
+        title: "Insanely Simple",
+        series: '',
+        author: 'Ken Segall',
+        myRating: 9,
+        pages: 240,
+        wordCount: 66725,
+        pubDate: 2012,
+        yearRead: [2022],
+        thumb: './images/insanely-simple.jpg',
+        keywords: ['nonfiction', 'business', 'technology', 'design'],
+		similar: [''],
+		description: ``
+    },
+    {
+        title: "The New One Minute Manager",
+        series: '',
+        author: 'Kenneth Blanchard',
+        myRating: 7,
+        pages: 112,
+        wordCount: 13659,
+        pubDate: 2015,
+        yearRead: [2022],
+        thumb: './images/new-manager.jpg',
+        keywords: ['nonfiction', 'business', 'leadership'],
+		similar: ['The Five Dysfunctions of a Team'],
+		description: ``
     },
     {
         title: 'Quidditch Through the Ages',
@@ -7743,6 +7815,18 @@ let bookData = [
         keywords: ['nonfiction', 'humor', 'politics', 'series']
     },
     {
+        title: 'America Again',
+        series: '',
+        author: 'Stephen Colbert',
+        myRating: 9,
+        pages: 240,
+        wordCount: 34893,
+        pubDate: 2012,
+        yearRead: [2022],
+        thumb: './images/america-again.jpg',
+        keywords: ['nonfiction', 'humor', 'politics', 'series']
+    },
+    {
         title: 'The 7 Habits of Highly Effective People',
         series: '',
         author: 'Stephen Covey',
@@ -8717,6 +8801,8 @@ let allBooksOrderedRankings = [
     "One More Thing",
     "Atomic Habits",
     "On Writing",
+    "Insanely Simple",
+    "America Again",
     "Rick and Morty vs. Dungeons & Dragons",
     "Press Reset",
     "The Stand",
@@ -8940,6 +9026,7 @@ let allBooksOrderedRankings = [
     "Death Note Vol. 1",
     "Creativity, Inc.",
     "We Should All Be Feminists",
+    "The Office BFFs",
     "Navigating Genesis",
     "The Official Pokémon Handbook",
     "The Southern Book Club's Guide to Slaying Vampires",
@@ -8999,6 +9086,7 @@ let allBooksOrderedRankings = [
     "Read Japanese Today",
     "Resident Evil",
     "Who Moved My Cheese?",
+    "The New One Minute Manager",
     "The War of Art",
     "What the Most Successful People Do Before Breakfast",
     "The 7 Habits of Highly Effective People",
@@ -9148,6 +9236,7 @@ let allBooksOrderedRankings = [
     "Fun Inc.",
     "Stupid White Men",
     "The Case Against Sugar",
+    "BiblioTech",
     "World War Z",
     "The Heavenly Man",
     "Less: A Visual Guide to Minimalism",
@@ -9200,6 +9289,7 @@ let allBooksOrderedRankings = [
     "The Forests of Silence",
     "The Danish Way of Parenting",
     "Full Frontal Feminism",
+    "50 Things They Don't Want You to Know",
     "Into the Wild",
     "Finding Sisu",
     "Milk and Honey",
