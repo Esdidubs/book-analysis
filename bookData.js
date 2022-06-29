@@ -3690,7 +3690,7 @@ let bookData = [
         pages: 276,
         wordCount: 65469,
         pubDate: 2009,
-        yearRead: [2018],
+        yearRead: [2018, 2022],
         thumb: './images/summer-pretty1.jpg',
         keywords: ['fiction', 'young adult', 'romance', 'series', 'coming of age'],
 		similar: ['Let It Snow', 'Eleanor & Park'],
