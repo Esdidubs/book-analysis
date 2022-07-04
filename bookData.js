@@ -3,18 +3,17 @@
 	- Add descriptions for each book in own words
 	- Add you might like to each book
     - Handle pennames and multiple authors
-    - Create ability to sort?
 */
 
 let bookData = [
     /*===========================
     	Author First Name - A's
     ===========================*/
-	//#region A
     {
         title: 'Hocus Pocus & The All New Sequel',
         series: '',
         author: 'A.W. Jantha',
+        authorLast: 'Jantha, A.W.',
         myRating: 6,
         pages: 521,
         wordCount: 107328,
@@ -22,14 +21,15 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/hocus-pocus.jpg',
         keywords: ['magic', 'fiction', 'lgbt', 'witches', 'young adult', 'fantasy', 'halloween', 'movies', ],
-		similar: ['Mean Girls'],
-		description: `First part of the book is a scene-by-scene retelling of the hit movie. The second half is set 25 years
+        similar: ['Mean Girls'],
+        description: `First part of the book is a scene-by-scene retelling of the hit movie. The second half is set 25 years
 					later and involves the kid of the first movie re-awakening the Sanderson sisters.`
-    }, 
+    },
     {
         title: 'Irresistible',
         series: '',
         author: 'Adam Alter',
+        authorLast: 'Alter, Adam',
         myRating: 7,
         pages: 368,
         wordCount: 76459,
@@ -37,13 +37,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/irresistible.jpg',
         keywords: ['nonfiction', 'technology', 'self-help', 'psychology', 'habits'],
-		similar: ['Digital Minimalism', 'The Revenge of Analog', 'Bored and Brilliant'],
-		description: `Understanding why so many of today's products are irresistible due to behavioral addicition.`
+        similar: ['Digital Minimalism', 'The Revenge of Analog', 'Bored and Brilliant'],
+        description: `Understanding why so many of today's products are irresistible due to behavioral addicition.`
     },
     {
         title: 'The Complete Guide to Absolutely Everything',
         series: '',
         author: 'Adam Rutherford',
+        authorLast: 'Rutherford, Adam',
         myRating: 9,
         pages: 304,
         wordCount: 66256,
@@ -51,13 +52,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/guide-to-everything.jpg',
         keywords: ['nonfiction', 'science', 'mathematics'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'How to Talk So Kids Will Listen & Listen So Kids Will Talk',
         series: '',
         author: 'Adele Faber',
+        authorLast: 'Faber, Adele',
         myRating: 5,
         pages: 286,
         wordCount: 79128,
@@ -65,13 +67,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/talk-listen.jpg',
         keywords: ['nonfiction', 'parenting', 'self-help', 'psychology'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Multiple Choice',
         series: '',
         author: 'Alejandro Zambra',
+        authorLast: 'Zambra, Alejandro',
         myRating: 4,
         pages: 128,
         wordCount: 35220,
@@ -79,13 +82,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/multiple-choice.jpg',
         keywords: ['fiction', 'poetry', 'experimental'],
-		similar: ['Milk and Honey'],
-		description: `Poetry in the form of a standardized test.`
+        similar: ['Milk and Honey'],
+        description: `Poetry in the form of a standardized test.`
     },
     {
         title: 'One Day in the Life of Ivan Denisovich',
         series: '',
         author: 'Aleksandr Solzhenitsyn',
+        authorLast: 'Solzhenitsyn, Aleksandr',
         myRating: 6,
         pages: 182,
         wordCount: 47885,
@@ -93,13 +97,14 @@ let bookData = [
         yearRead: [2006],
         thumb: './images/one-day.jpg',
         keywords: ['fiction', 'russia', 'historical'],
-		similar: ['Night'],
-		description: `Follows an inmate in a Soviet labor camp, showing what life was like.`
+        similar: ['Night'],
+        description: `Follows an inmate in a Soviet labor camp, showing what life was like.`
     },
     {
         title: 'Unprotected Lexicon',
         series: '',
         author: 'Alexa Chrisbacher',
+        authorLast: 'Chrisbacher, Alexa',
         myRating: 6,
         pages: 110,
         wordCount: 32339,
@@ -107,13 +112,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/lexicon.jpg',
         keywords: ['poetry', 'lgbt', 'roller derby', 'sports', 'fiction', ],
-		similar: ['Milk and Honey'],
-		description: `Poetry book exploring a girl's journey with roller derby, feminism, and sexuality.`
+        similar: ['Milk and Honey'],
+        description: `Poetry book exploring a girl's journey with roller derby, feminism, and sexuality.`
     },
     {
         title: 'Bad Choices',
         series: '',
         author: 'Ali Almossawi',
+        authorLast: 'Almossawi, Ali',
         myRating: 8,
         pages: 160,
         wordCount: 27298,
@@ -121,13 +127,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/bad-choices.jpg',
         keywords: ['nonfiction', 'educational', 'computer science', 'programming', 'mathematics', 'algorithms'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Learning Chinese Characters',
         series: '',
         author: 'Alison Matthews',
+        authorLast: 'Matthews, Alison',
         myRating: 7,
         pages: 384,
         wordCount: 103295,
@@ -135,13 +142,14 @@ let bookData = [
         yearRead: [2013],
         thumb: './images/chinese-characters.jpg',
         keywords: ['nonfiction', 'educational', 'language', 'chinese', 'china', ],
-		similar: ['Read Japanese Today', 'Fluent in 3 Months'],
-		description: `800 Chinese characters with tips for how to remember them for the HSK Level A test.`
+        similar: ['Read Japanese Today', 'Fluent in 3 Months'],
+        description: `800 Chinese characters with tips for how to remember them for the HSK Level A test.`
     },
     {
         title: 'Matched',
         series: '',
         author: 'Ally Condie',
+        authorLast: 'Condie, Ally',
         myRating: 5,
         pages: 369,
         wordCount: 92473,
@@ -149,13 +157,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/matched.jpg',
         keywords: ['fiction', 'young adult', 'romance', 'dystopian', 'fantasy', 'series'],
-		similar: ['Uglies', 'Divergent'],
-		description: `Dystopian world where officials choose everything for you, including who you love.`
+        similar: ['Uglies', 'Divergent'],
+        description: `Dystopian world where officials choose everything for you, including who you love.`
     },
     {
         title: 'Crossed',
         series: '',
         author: 'Ally Condie',
+        authorLast: 'Condie, Ally',
         myRating: 5,
         pages: 367,
         wordCount: 92630,
@@ -163,13 +172,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/crossed.jpg',
         keywords: ['fiction', 'young adult', 'romance', 'dystopian', 'fantasy', 'series'],
-		similar: ['Uglies', 'Divergent'],
-		description: `Book 2 in the Matched series.`
+        similar: ['Uglies', 'Divergent'],
+        description: `Book 2 in the Matched series.`
     },
     {
         title: 'Reached',
         series: '',
         author: 'Ally Condie',
+        authorLast: 'Condie, Ally',
         myRating: 5,
         pages: 512,
         wordCount: 122605,
@@ -177,13 +187,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/reached.jpg',
         keywords: ['fiction', 'young adult', 'romance', 'dystopian', 'fantasy', 'series'],
-		similar: ['Uglies', 'Divergent'],
-		description: `Book 3 in the Matched series.`
+        similar: ['Uglies', 'Divergent'],
+        description: `Book 3 in the Matched series.`
     },
     {
         title: 'Scary Stories to Tell in the Dark',
         series: '',
         author: 'Alvin Schwartz',
+        authorLast: 'Schwartz, Alvin',
         myRating: 6,
         pages: 111,
         wordCount: 10990,
@@ -191,13 +202,14 @@ let bookData = [
         yearRead: [1999],
         thumb: './images/scary-stories1.jpg',
         keywords: ['fiction', 'children', 'horror', 'short stories', 'halloween', 'movies', 'series'],
-		similar: ['Welcome to Dead House', 'Night of the Living Dummy'],
-		description: `Lots of creepy short stories for kids.`
+        similar: ['Welcome to Dead House', 'Night of the Living Dummy'],
+        description: `Lots of creepy short stories for kids.`
     },
     {
         title: 'More Scary Stories to Tell in the Dark',
         series: '',
         author: 'Alvin Schwartz',
+        authorLast: 'Schwartz, Alvin',
         myRating: 6,
         pages: 100,
         wordCount: 9997,
@@ -205,13 +217,14 @@ let bookData = [
         yearRead: [1999],
         thumb: './images/scary-stories2.jpg',
         keywords: ['fiction', 'children', 'horror', 'short stories', 'halloween', 'series'],
-		similar: ['Welcome to Dead House', 'Night of the Living Dummy'],
-		description: `Lots of creepy short stories for kids.`
+        similar: ['Welcome to Dead House', 'Night of the Living Dummy'],
+        description: `Lots of creepy short stories for kids.`
     },
     {
         title: 'More Tales to Chill Your Bones',
         series: '',
         author: 'Alvin Schwartz',
+        authorLast: 'Schwartz, Alvin',
         myRating: 6,
         pages: 128,
         wordCount: 12765,
@@ -219,13 +232,14 @@ let bookData = [
         yearRead: [2000],
         thumb: './images/scary-stories3.jpg',
         keywords: ['fiction', 'children', 'horror', 'short stories', 'halloween', 'series'],
-		similar: ['Welcome to Dead House', 'Night of the Living Dummy'],
-		description: `Lots of creepy short stories for kids.`
+        similar: ['Welcome to Dead House', 'Night of the Living Dummy'],
+        description: `Lots of creepy short stories for kids.`
     },
     {
         title: 'Humility',
         series: '',
         author: 'Andrew Murray',
+        authorLast: 'Murray, Andrew',
         myRating: 6,
         pages: 112,
         wordCount: 25670,
@@ -233,13 +247,14 @@ let bookData = [
         yearRead: [2014],
         thumb: './images/humility.jpg',
         keywords: ['nonfiction', 'religion', 'christian', 'christian living'],
-		similar: ['Celebration of Discipline'],
-		description: `Christian book discussing how to stop being prideful.`
+        similar: ['Celebration of Discipline'],
+        description: `Christian book discussing how to stop being prideful.`
     },
     {
         title: 'The Office',
         series: '',
         author: 'Andy Greene',
+        authorLast: 'Greene, Andy',
         myRating: 8,
         pages: 464,
         wordCount: 133300,
@@ -247,13 +262,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/office.jpg',
         keywords: ['nonfiction', 'tv', 'pop culture', 'biography'],
-		similar: ['Blood, Sweat, and Pixels'],
-		description: `A look at the making of the U.S. version of The Office with interviews throughout.`
+        similar: ['Blood, Sweat, and Pixels'],
+        description: `A look at the making of the U.S. version of The Office with interviews throughout.`
     },
     {
         title: 'The Martian',
         series: '',
         author: 'Andy Weir',
+        authorLast: 'Weir, Andy',
         myRating: 8,
         pages: 435,
         wordCount: 102804,
@@ -261,13 +277,14 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/martian.jpg',
         keywords: ['fiction', 'science fiction', 'adventure', 'space', 'mars', 'movies'],
-		similar: ['Artemis','Project Hail Mary'],
-		description: `An astronaut ends up stranded on Mars and needs to figure out how to survive.`
+        similar: ['Artemis', 'Project Hail Mary'],
+        description: `An astronaut ends up stranded on Mars and needs to figure out how to survive.`
     },
     {
         title: 'Artemis',
         series: '',
         author: 'Andy Weir',
+        authorLast: 'Weir, Andy',
         myRating: 7,
         pages: 305,
         wordCount: 84309,
@@ -275,13 +292,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/artemis.jpg',
         keywords: ['fiction', 'science fiction', 'adventure', 'space', 'moon'],
-		similar: ['The Martian','Project Hail Mary'],
-		description: `A smuggler living on the only city on the Moon is caught up in a conspiracy for control of the city.`
+        similar: ['The Martian', 'Project Hail Mary'],
+        description: `A smuggler living on the only city on the Moon is caught up in a conspiracy for control of the city.`
     },
     {
         title: 'Project Hail Mary',
         series: '',
         author: 'Andy Weir',
+        authorLast: 'Weir, Andy',
         myRating: 10,
         pages: 476,
         wordCount: 149380,
@@ -289,13 +307,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/hail-mary.jpg',
         keywords: ['fiction', 'science fiction', 'adventure', 'space', 'aliens'],
-		similar: ['The Martian', 'Artemis'],
-		description: `A man finds himself in space with no recollection of who he is except for the fact that he's saving the world.`
+        similar: ['The Martian', 'Artemis'],
+        description: `A man finds himself in space with no recollection of who he is except for the fact that he's saving the world.`
     },
     {
         title: 'Grit',
         series: '',
         author: 'Angela Duckworth',
+        authorLast: 'Duckworth, Angela',
         myRating: 6,
         pages: 277,
         wordCount: 88234,
@@ -303,13 +322,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/grit.jpg',
         keywords: ['nonfiction', 'psychology', 'self-help', 'leadership', ],
-		similar: ['Atomic Habits', 'Drive'],
-		description: `Shows how talent isn't the main factor for success but instead perserverance and passion are.`
+        similar: ['Atomic Habits', 'Drive'],
+        description: `Shows how talent isn't the main factor for success but instead perserverance and passion are.`
     },
     {
         title: 'The History and Uncertain Future of Handwriting',
         series: '',
         author: 'Anne Trubek',
+        authorLast: 'Trubek, Anne',
         myRating: 6,
         pages: 192,
         wordCount: 38465,
@@ -317,13 +337,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/handwriting.jpg',
         keywords: ['nonfiction', 'writing', 'historical', 'handwriting', ],
-		similar: ['Hidden Codes & Grand Designs'],
-		description: `A look at the history of handwriting and the impact it's had on various cultures.`
+        similar: ['Hidden Codes & Grand Designs'],
+        description: `A look at the history of handwriting and the impact it's had on various cultures.`
     },
     {
         title: 'How to Build Strong & Lean Bodyweight Muscle',
         series: '',
         author: 'Anthony Arvanitakis',
+        authorLast: 'Arvanitakis, Anthony',
         myRating: 7,
         pages: 158,
         wordCount: 34387,
@@ -331,13 +352,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/bodyweight-muscle.jpg',
         keywords: ['nonfiction', 'fitness'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Unshakeable',
         series: '',
         author: 'Anthony Robbins',
+        authorLast: 'Robbins, Anthony',
         myRating: 7,
         pages: 257,
         wordCount: 69237,
@@ -345,13 +367,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/unshakeable.jpg',
         keywords: ['nonfiction', 'personal finance', 'self-help', 'money'],
-		similar: ["Dave Ramsey's Complete Guide to Money"],
-		description: `Steps to protect your investments and maximize your wealth.`
+        similar: ["Dave Ramsey's Complete Guide to Money"],
+        description: `Steps to protect your investments and maximize your wealth.`
     },
     {
         title: 'How Much is Enough?',
         series: '',
         author: 'Arthur Simon',
+        authorLast: 'Simon, Arthur',
         myRating: 7,
         pages: 192,
         wordCount: 51614,
@@ -359,13 +382,14 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/how-much.jpg',
         keywords: ['nonfiction', 'christian living', 'christian', 'money'],
-		similar: ['The Treasure Principle', 'Money, Possessions and Eternity'],
-		description: `A look at affluenza within America and within the church.`
+        similar: ['The Treasure Principle', 'Money, Possessions and Eternity'],
+        description: `A look at affluenza within America and within the church.`
     },
     {
         title: 'Nothing But the Truth',
         series: '',
         author: 'Avi',
+        authorLast: 'Avi',
         myRating: 4,
         pages: 177,
         wordCount: 30144,
@@ -373,18 +397,17 @@ let bookData = [
         yearRead: [2003],
         thumb: './images/nothing-but-truth.jpg',
         keywords: ['fiction', 'young adult', 'legal', 'patriotic', 'schools'],
-		similar: ['The Kid Who Ran for President'],
-		description: `A kid goes on trial at school for humming during the national anthem.`
+        similar: ['The Kid Who Ran for President'],
+        description: `A kid goes on trial at school for humming during the national anthem.`
     },
-	//#endregion
     /*===========================
     	Author First Name - B's
     ===========================*/
-	//#region B
     {
         title: 'One More Thing',
         series: '',
         author: 'B.J. Novak',
+        authorLast: 'Novak, B.J.',
         myRating: 9,
         pages: 288,
         wordCount: 64056,
@@ -392,13 +415,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/one-more-thing.jpg',
         keywords: ['fiction', 'humor'],
-		similar: [''],
-		description: ``
+        similar: [''],
+        description: ``
     },
     {
         title: 'Go Ask Alice',
         series: '',
         author: 'Beatrice Sparks',
+        authorLast: 'Sparks, Beatrice',
         myRating: 5,
         pages: 213,
         wordCount: 48199,
@@ -406,13 +430,14 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/alice.jpg',
         keywords: ['fiction', 'mental health', 'young adult', 'drugs', 'coming of age', ],
-		similar: ['Thirteen Reasons Why'],
-		description: `A girl gets hooked on drugs after someone slips LSD in her drink at a party.`
+        similar: ['Thirteen Reasons Why'],
+        description: `A girl gets hooked on drugs after someone slips LSD in her drink at a party.`
     },
     {
         title: 'Beyond Awkward',
         series: '',
         author: 'Beau Crosetto',
+        authorLast: 'Crosetto, Beau',
         myRating: 7,
         pages: 206,
         wordCount: 55921,
@@ -420,13 +445,14 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/awkward.jpg',
         keywords: ['nonfiction', 'christian', 'evangelism'],
-		similar: ['Changing the World Through Discipleship'],
-		description: `Making evangelism less awkward for everyone.`
+        similar: ['Changing the World Through Discipleship'],
+        description: `Making evangelism less awkward for everyone.`
     },
     {
         title: "What If It's Us",
         series: '',
         author: 'Becky Albertalli',
+        authorLast: 'Albertalli, Becky',
         myRating: 6,
         pages: 448,
         wordCount: 92316,
@@ -434,13 +460,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/what-if-its-us.jpg',
         keywords: ['fiction', 'lgbt', 'romance', 'young adult', 'series'],
-		similar: ['The Upside of Unrequited'],
-		description: `Two teenage boys meet each other by chance at a post office and fall for each other.`
+        similar: ['The Upside of Unrequited'],
+        description: `Two teenage boys meet each other by chance at a post office and fall for each other.`
     },
     {
         title: 'The Upside of Unrequited',
         series: '',
         author: 'Becky Albertalli',
+        authorLast: 'Albertalli, Becky',
         myRating: 7,
         pages: 336,
         wordCount: 75046,
@@ -448,13 +475,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/upside.jpg',
         keywords: ['fiction', 'lgbt', 'romance', 'young adult', 'series'],
-		similar: ["What If It's Us"],
-		description: `An insecure girl who has had 26 unrequited crushes tries to find love.`
+        similar: ["What If It's Us"],
+        description: `An insecure girl who has had 26 unrequited crushes tries to find love.`
     },
     {
         title: 'Simon vs. the Homo Sapiens Agenda',
         series: '',
         author: 'Becky Albertalli',
+        authorLast: 'Albertalli, Becky',
         myRating: 7,
         pages: 303,
         wordCount: 63585,
@@ -462,13 +490,14 @@ let bookData = [
         yearRead: [2017, 2018],
         thumb: './images/simon.jpg',
         keywords: ['fiction', 'lgbt', 'romance', 'young adult', 'coming of age', 'movies', 'schools', 'series'],
-		similar: ['Struck By Lightning', 'Openly Straight', 'Will Grayson, Will Grayson'],
-		description: `An in-the-closet boy is blackmailed when someone finds out his secret.`
+        similar: ['Struck By Lightning', 'Openly Straight', 'Will Grayson, Will Grayson'],
+        description: `An in-the-closet boy is blackmailed when someone finds out his secret.`
     },
     {
         title: 'Leah on the Offbeat',
         series: '',
         author: 'Becky Albertalli',
+        authorLast: 'Albertalli, Becky',
         myRating: 6,
         pages: 352,
         wordCount: 66882,
@@ -476,13 +505,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/leah.jpg',
         keywords: ['fiction', 'lgbt', 'romance', 'young adult', 'series'],
-		similar: ['The Upside of Unrequited'],
-		description: `Sequel to Simon vs. the Homo Sapiens Agenda focused on his best friend.`
+        similar: ['The Upside of Unrequited'],
+        description: `Sequel to Simon vs. the Homo Sapiens Agenda focused on his best friend.`
     },
     {
         title: 'Love, Creekwood',
         series: '',
         author: 'Becky Albertalli',
+        authorLast: 'Albertalli, Becky',
         myRating: 5,
         pages: 128,
         wordCount: 26219,
@@ -490,13 +520,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/love-creekwood.jpg',
         keywords: ['fiction', 'lgbt', 'romance', 'young adult', 'experimental', 'series'],
-		similar: ['Simon vs. the Homo Sapiens Agenda'],
-		description: `Sequel to Simon vs. the Homo Sapiens Agenda but written through letters and emails.`
+        similar: ['Simon vs. the Homo Sapiens Agenda'],
+        description: `Sequel to Simon vs. the Homo Sapiens Agenda but written through letters and emails.`
     },
     {
         title: '101 Video Games to Play Before You Grow Up',
         series: '',
         author: 'Ben Bertoli',
+        authorLast: 'Bertoli, Ben',
         myRating: 6,
         pages: 144,
         wordCount: 33600,
@@ -504,13 +535,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/games-before-grow.jpg',
         keywords: ['nonfiction', 'games', 'video games', 'reference'],
-		similar: ["The Gamer's Bucket List"],
-		description: `Tidbits and trivia about 101 recommended video games.`
+        similar: ["The Gamer's Bucket List"],
+        description: `Tidbits and trivia about 101 recommended video games.`
     },
     {
         title: 'Math with Bad Drawings',
         series: '',
         author: 'Ben Orlin',
+        authorLast: 'Orlin, Ben',
         myRating: 9,
         pages: 376,
         wordCount: 96648,
@@ -518,13 +550,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/math-bad-drawings.jpg',
         keywords: ['nonfiction', 'humor', 'mathematics', 'educational'],
-		similar: ['What If?', 'Thing Explainer'],
-		description: `Drawings and humor combine to help explain various math-based questions.`
+        similar: ['What If?', 'Thing Explainer'],
+        description: `Drawings and humor combine to help explain various math-based questions.`
     },
     {
         title: 'Aristotle and Dante Discover the Secrets of the Universe',
         series: '',
         author: 'Benjamin Alire Sáenz',
+        authorLast: 'Sáenz, Benjamin Alire',
         myRating: 7,
         pages: 359,
         wordCount: 70493,
@@ -532,14 +565,15 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/aristotle-dante.jpg',
         keywords: ['fiction', 'lgbt', 'romance', 'young adult', 'coming of age', 'series'],
-		similar: ['Eleanor & Park', 'Simon vs. the Homo Sapiens Agenda'],
-		description: `Two Mexican-American boys find friendship as they struggle with racial and ethnic
+        similar: ['Eleanor & Park', 'Simon vs. the Homo Sapiens Agenda'],
+        description: `Two Mexican-American boys find friendship as they struggle with racial and ethnic
 					identity, sexuality, and family relationships.`
     },
     {
         title: 'Fluent in 3 Months',
         series: '',
         author: 'Benny Lewis',
+        authorLast: 'Lewis, Benny',
         myRating: 7,
         pages: 249,
         wordCount: 59503,
@@ -547,13 +581,14 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/fluent-in-3.jpg',
         keywords: ['nonfiction', 'educational', 'language'],
-		similar: ['Learning Chinese Characters', 'Read Japanese Today'],
-		description: `Tips for how to grasp a new language faster from someone who's done it multiple times.`
+        similar: ['Learning Chinese Characters', 'Read Japanese Today'],
+        description: `Tips for how to grasp a new language faster from someone who's done it multiple times.`
     },
     {
         title: 'The Mouse and the Motorcycle',
         series: '',
         author: 'Beverly Cleary',
+        authorLast: 'Cleary, Beverly',
         myRating: 6,
         pages: 186,
         wordCount: 21509,
@@ -561,13 +596,14 @@ let bookData = [
         yearRead: [2000],
         thumb: './images/mouse-motorcycle.jpg',
         keywords: ['fiction', 'animals', 'children', 'fantasy', 'series'],
-		similar: ["Charlotte's Web"],
-		description: `A talking mouse goes on adventures while riding his motorcycle.`
+        similar: ["Charlotte's Web"],
+        description: `A talking mouse goes on adventures while riding his motorcycle.`
     },
     {
         title: 'Courageous Leadership',
         series: '',
         author: 'Bill Hybels',
+        authorLast: 'Hybels, Bill',
         myRating: 5,
         pages: 275,
         wordCount: 77454,
@@ -575,13 +611,14 @@ let bookData = [
         yearRead: [2014],
         thumb: './images/courageous-leadership.jpg',
         keywords: ['nonfiction', 'christian', 'leadership'],
-		similar: ['Wild at Heart'],
-		description: `A book that explores Christian leadership.`
+        similar: ['Wild at Heart'],
+        description: `A book that explores Christian leadership.`
     },
     {
         title: 'When Heaven Invades Earth',
         series: '',
         author: 'Bill Johnson',
+        authorLast: 'Johnson, Bill',
         myRating: 5,
         pages: 190,
         wordCount: 51182,
@@ -589,13 +626,14 @@ let bookData = [
         yearRead: [2012, 2014],
         thumb: './images/heaven-invades.jpg',
         keywords: ['nonfiction', 'christian', 'miracles', 'faith'],
-		similar: ['Surprised by the Power of the Spirit'],
-		description: `Experiencing a life filled with miracles.`
+        similar: ['Surprised by the Power of the Spirit'],
+        description: `Experiencing a life filled with miracles.`
     },
     {
         title: 'Openly Straight',
         series: '',
         author: 'Bill Konigsberg',
+        authorLast: 'Konigsberg, Bill',
         myRating: 4,
         pages: 320,
         wordCount: 84937,
@@ -603,13 +641,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/openly-straight.jpg',
         keywords: ['fiction', 'lgbt', 'romance', 'young adult', 'series', 'schools'],
-		similar: ['Simon vs. the Homo Sapiens Agenda'],
-		description: `A homosexual boy transfers schools and pretends to be straight.`
+        similar: ['Simon vs. the Homo Sapiens Agenda'],
+        description: `A homosexual boy transfers schools and pretends to be straight.`
     },
     {
         title: 'Who Is the Greatest: Elvis or the Beatles?',
         series: '',
         author: 'Bill Slater',
+        authorLast: 'Slater, Bill',
         myRating: 5,
         pages: 223,
         wordCount: 72703,
@@ -617,13 +656,14 @@ let bookData = [
         yearRead: [2009],
         thumb: './images/elvis-beatles.jpg',
         keywords: ['nonfiction', 'biography', 'music'],
-		similar: ['The Ultimate History of Video Games'],
-		description: `Comparing the works of Elvis and the Beatles.`
+        similar: ['The Ultimate History of Video Games'],
+        description: `Comparing the works of Elvis and the Beatles.`
     },
     {
         title: 'We Need to Hang Out',
         series: '',
         author: 'Billy Baker',
+        authorLast: 'Baker, Billy',
         myRating: 6,
         pages: 224,
         wordCount: 53066,
@@ -631,13 +671,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/hang-out.jpg',
         keywords: ['nonfiction', 'memoir', 'friends'],
-		similar: [''],
-		description: ``
+        similar: [''],
+        description: ``
     },
     {
         title: 'Console Wars',
         series: '',
         author: 'Blake Harris',
+        authorLast: 'Harris, Blake',
         myRating: 8,
         pages: 576,
         wordCount: 163812,
@@ -645,13 +686,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/console-wars.jpg',
         keywords: ['nonfiction', 'biography', 'games', 'video games', 'tv'],
-		similar: ['Super Mario'],
-		description: `A look at the battle between Sega and Nintendo.`
+        similar: ['Super Mario'],
+        description: `A look at the battle between Sega and Nintendo.`
     },
     {
         title: "Fail Until You Don't",
         series: '',
         author: 'Bobby Bones',
+        authorLast: 'Bones, Bobby',
         myRating: 5,
         pages: 224,
         wordCount: 50240,
@@ -659,13 +701,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/fail-until.jpg',
         keywords: ['nonfiction', 'memoir', 'self-help'],
-		similar: ['The 4-Hour Workweek'],
-		description: `A radio and television personality explains how to reach your goals by allowing yourself to fail.`
+        similar: ['The 4-Hour Workweek'],
+        description: `A radio and television personality explains how to reach your goals by allowing yourself to fail.`
     },
     {
         title: "Tetris: The Games People Play",
         series: '',
         author: 'Box Brown',
+        authorLast: 'Brown, Box',
         myRating: 6,
         pages: 253,
         wordCount: 17963,
@@ -673,13 +716,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/tetris-games.jpg',
         keywords: ['nonfiction', 'games', 'video games', 'graphic novels', 'biography'],
-		similar: ['Rise of the Dungeon Master'],
-		description: `The history of Tetris told in the form of a graphic novel.`
+        similar: ['Rise of the Dungeon Master'],
+        description: `The history of Tetris told in the form of a graphic novel.`
     },
     {
         title: 'Elantris',
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 9,
         pages: 638,
         wordCount: 201372,
@@ -687,14 +731,15 @@ let bookData = [
         yearRead: [2020],
         thumb: './images/elantris.jpg',
         keywords: ['fiction', 'high fantasy', 'magic', 'fantasy', 'cosmere', 'series'],
-		similar: ['Warbreaker', 'The Final Empire'],
-		description: `The perfect city Elantris loses its magic and becomes a dark, filthy place
+        similar: ['Warbreaker', 'The Final Empire'],
+        description: `The perfect city Elantris loses its magic and becomes a dark, filthy place
 					where people are banished.`
     },
     {
         title: 'The Hope of Elantris',
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 8,
         pages: 25,
         wordCount: 6030,
@@ -702,13 +747,14 @@ let bookData = [
         yearRead: [2020, 2022],
         thumb: './images/hope-elantris.jpg',
         keywords: ['fiction', 'high fantasy', 'magic', 'fantasy', 'cosmere', 'short stories', 'series'],
-		similar: ['Warbreaker', 'The Final Empire'],
-		description: `A short story that dives a bit deeper into Elantris.`
+        similar: ['Warbreaker', 'The Final Empire'],
+        description: `A short story that dives a bit deeper into Elantris.`
     },
     {
         title: "The Emperor's Soul",
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 10,
         pages: 175,
         wordCount: 31925,
@@ -716,14 +762,15 @@ let bookData = [
         yearRead: [2020, 2021, 2022],
         thumb: './images/emperors-soul.jpg',
         keywords: ['fiction', 'high fantasy', 'magic', 'fantasy', 'cosmere', 'short stories', 'series'],
-		similar: ['Elantris', 'Warbreaker', 'The Final Empire'],
-		description: `A girl who can flawlessly copy and re-create any item by rewriting its history with magic
+        similar: ['Elantris', 'Warbreaker', 'The Final Empire'],
+        description: `A girl who can flawlessly copy and re-create any item by rewriting its history with magic
 					is condemned to death for trying to steal the emperor's scepter.`
     },
     {
         title: 'Warbreaker',
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 10,
         pages: 688,
         wordCount: 196014,
@@ -731,14 +778,15 @@ let bookData = [
         yearRead: [2020],
         thumb: './images/warbreaker.jpg',
         keywords: ['fiction', 'high fantasy', 'magic', 'fantasy', 'cosmere', 'series'],
-		similar: ['Elantris', 'The Final Empire'],
-		description: `Set in a world where people use breath and color to create magic, a girl has to deal with
+        similar: ['Elantris', 'The Final Empire'],
+        description: `Set in a world where people use breath and color to create magic, a girl has to deal with
 					her arranged marriage with the powerful God King.`
     },
     {
         title: 'The Final Empire',
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 10,
         pages: 541,
         wordCount: 210103,
@@ -746,14 +794,15 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/final-empire.jpg',
         keywords: ['fiction', 'high fantasy', 'magic', 'fantasy', 'cosmere', 'series'],
-		similar: ['Elantris', 'Warbreaker'],
-		description: `Set in a world where metals can help the gifted forge magic, a crew of the underworld's
+        similar: ['Elantris', 'Warbreaker'],
+        description: `Set in a world where metals can help the gifted forge magic, a crew of the underworld's
 					elite try to plot the downfall of the immortal king.`
     },
     {
         title: 'The Well of Ascension',
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 9,
         pages: 590,
         wordCount: 229152,
@@ -761,13 +810,14 @@ let bookData = [
         yearRead: [2020],
         thumb: './images/well-ascension.jpg',
         keywords: ['fiction', 'high fantasy', 'magic', 'fantasy', 'cosmere', 'series'],
-		similar: ['Elantris', 'Warbreaker'],
-		description: `Book 2 of the Mistoborn trilogy`
+        similar: ['Elantris', 'Warbreaker'],
+        description: `Book 2 of the Mistoborn trilogy`
     },
     {
         title: 'The Hero of Ages',
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 9,
         pages: 572,
         wordCount: 217140,
@@ -775,13 +825,14 @@ let bookData = [
         yearRead: [2020],
         thumb: './images/hero-ages.jpg',
         keywords: ['fiction', 'high fantasy', 'magic', 'fantasy', 'cosmere', 'series'],
-		similar: ['Elantris', 'Warbreaker'],
-		description: `Book 3 of the Mistoborn trilogy`
+        similar: ['Elantris', 'Warbreaker'],
+        description: `Book 3 of the Mistoborn trilogy`
     },
     {
         title: 'The Eleventh Metal',
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 8,
         pages: 21,
         wordCount: 6713,
@@ -789,13 +840,14 @@ let bookData = [
         yearRead: [2020, 2022],
         thumb: './images/eleventh-metal.jpg',
         keywords: ['fiction', 'high fantasy', 'magic', 'fantasy', 'cosmere', 'short stories', 'series'],
-		similar: ['Elantris', 'Warbreaker'],
-		description: `A short story in the Mistborn universe.`
+        similar: ['Elantris', 'Warbreaker'],
+        description: `A short story in the Mistborn universe.`
     },
     {
         title: 'Mistborn Secret History',
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 8,
         pages: 160,
         wordCount: 44981,
@@ -803,13 +855,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/mistborn-secret-history.jpg',
         keywords: ['fiction', 'high fantasy', 'magic', 'fantasy', 'cosmere', 'series'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Allomancer Jak and the Pits of Elantia',
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 7,
         pages: 40,
         wordCount: 5300,
@@ -817,13 +870,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/allomancer-jak.jpg',
         keywords: ['fiction', 'high fantasy', 'magic', 'fantasy', 'short stories', 'cosmere', 'series'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'The Alloy of Law',
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 9,
         pages: 332,
         wordCount: 101088,
@@ -831,13 +885,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/mistborn4.jpg',
         keywords: ['fiction', 'fantasy', 'magic', 'cosmere', 'series'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Shadows of Self',
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 9,
         pages: 383,
         wordCount: 117335,
@@ -845,13 +900,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/mistborn5.jpg',
         keywords: ['fiction', 'fantasy', 'magic', 'cosmere', 'series'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Bands of Mourning',
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 9,
         pages: 447,
         wordCount: 127456,
@@ -859,13 +915,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/mistborn6.jpg',
         keywords: ['fiction', 'fantasy', 'magic', 'cosmere', 'series'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'The Way of Kings',
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 10,
         pages: 1007,
         wordCount: 384265,
@@ -873,13 +930,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/stormlight1.jpg',
         keywords: ['fiction', 'fantasy', 'magic', 'cosmere', 'series', 'high fantasy'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Words of Radiance',
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 10,
         pages: 1087,
         wordCount: 398238,
@@ -887,13 +945,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/stormlight2.jpg',
         keywords: ['fiction', 'fantasy', 'magic', 'cosmere', 'series', 'high fantasy'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Edgedancer',
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 8,
         pages: 272,
         wordCount: 40660,
@@ -901,13 +960,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/edgedancer.jpg',
         keywords: ['fiction', 'fantasy', 'magic', 'cosmere', 'series', 'high fantasy'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'White Sand, Volume 1',
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 8,
         pages: 160,
         wordCount: 20800,
@@ -915,13 +975,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/white-sand1.jpg',
         keywords: ['fiction', 'fantasy', 'magic', 'cosmere', 'series', 'high fantasy', 'graphic novel', 'comic'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'White Sand, Volume 2',
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 8,
         pages: 160,
         wordCount: 20800,
@@ -929,13 +990,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/white-sand2.jpg',
         keywords: ['fiction', 'fantasy', 'magic', 'cosmere', 'series', 'high fantasy', 'graphic novel', 'comic'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Shadows for Silence in the Forests of Hell',
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 9,
         pages: 89,
         wordCount: 17892,
@@ -943,13 +1005,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/shadows-for-silence.jpg',
         keywords: ['fiction', 'high fantasy', 'magic', 'fantasy', 'short stories', 'cosmere', 'series'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Sixth of the Dusk',
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 8,
         pages: 96,
         wordCount: 18083,
@@ -957,13 +1020,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/sixth-dusk.jpg',
         keywords: ['fiction', 'high fantasy', 'magic', 'fantasy', 'short stories', 'cosmere', 'series'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Steelheart',
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 9,
         pages: 386,
         wordCount: 118110,
@@ -971,13 +1035,14 @@ let bookData = [
         yearRead: [2020],
         thumb: './images/steelheart.jpg',
         keywords: ['fiction', 'fantasy', 'superheroes', 'young adult', 'dystopian', 'series'],
-		similar: ['The Final Empire'],
-		description: `A world where the superheroes are actually supervillains keeping humanity captive.`
+        similar: ['The Final Empire'],
+        description: `A world where the superheroes are actually supervillains keeping humanity captive.`
     },
     {
         title: 'The Rithmatist',
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 8,
         pages: 353,
         wordCount: 87683,
@@ -985,13 +1050,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/rithmatist.jpg',
         keywords: ['fiction', 'fantasy', 'magic', 'young adult', 'series'],
-		similar: [''],
-		description: ``
+        similar: [''],
+        description: ``
     },
     {
         title: 'Legion',
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 8,
         pages: 88,
         wordCount: 18081,
@@ -999,13 +1065,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/legion1.jpg',
         keywords: ['fiction', 'science fiction', 'fantasy', 'urban fantasy', 'mental health', 'mystery', 'series'],
-		similar: [''],
-		description: ``
+        similar: [''],
+        description: ``
     },
     {
         title: 'Skin Deep',
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 7,
         pages: 148,
         wordCount: 41293,
@@ -1013,13 +1080,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/legion3.jpg',
         keywords: ['fiction', 'science fiction', 'fantasy', 'urban fantasy', 'mental health', 'mystery', 'series'],
-		similar: [''],
-		description: ``
+        similar: [''],
+        description: ``
     },
     {
         title: 'Lies of the Beholder',
         series: '',
         author: 'Brandon Sanderson',
+        authorLast: 'Sanderson, Brandon',
         myRating: 7,
         pages: 88,
         wordCount: 30892,
@@ -1027,13 +1095,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/legion3.jpg',
         keywords: ['fiction', 'science fiction', 'fantasy', 'urban fantasy', 'mental health', 'mystery', 'series'],
-		similar: [''],
-		description: ``
+        similar: [''],
+        description: ``
     },
     {
         title: 'High Performance Habits',
         series: '',
         author: 'Brendon Burchard',
+        authorLast: 'Burchard, Brendon',
         myRating: 7,
         pages: 393,
         wordCount: 99060,
@@ -1041,13 +1110,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/high-performance.jpg',
         keywords: ['nonfiction', 'self-help', 'habits'],
-		similar: ['What the Most Successful People Do Before Breakfast', 'Atomic Habits'],
-		description: `Six habits that are the most likely to help you succeed.`
+        similar: ['What the Most Successful People Do Before Breakfast', 'Atomic Habits'],
+        description: `Six habits that are the most likely to help you succeed.`
     },
     {
         title: 'The Rising',
         series: '',
         author: 'Brian Keene',
+        authorLast: 'Keene, Brian',
         myRating: 6,
         pages: 321,
         wordCount: 105456,
@@ -1055,13 +1125,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/rising.jpg',
         keywords: ['fiction', 'zombies', 'horror', 'apocalyptic', 'series'],
-		similar: ['The Umbrella Conspiracy', 'The Walking Dead, Vol. 1', 'Nights of the Living Dead'],
-		description: `A man sets out on an impossible journey to save his son during a zombie apocalypse.`
+        similar: ['The Umbrella Conspiracy', 'The Walking Dead, Vol. 1', 'Nights of the Living Dead'],
+        description: `A man sets out on an impossible journey to save his son during a zombie apocalypse.`
     },
     {
         title: 'Guardians of the Galaxy, Volume 1',
         series: '',
         author: 'Brian Michael Bendis',
+        authorLast: 'Bendis, Brian Michael',
         myRating: 6,
         pages: 136,
         wordCount: 5440,
@@ -1069,13 +1140,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/guardians1.jpg',
         keywords: ['fiction', 'comics', 'graphic novels', 'superheroes', 'marvel', 'space', 'series'],
-		similar: ['Guardians of the Galaxy/All-New X-Men', 'Night of the Living Deadpool'],
-		description: `An adventure with the Guardians of the Galaxy`
+        similar: ['Guardians of the Galaxy/All-New X-Men', 'Night of the Living Deadpool'],
+        description: `An adventure with the Guardians of the Galaxy`
     },
     {
         title: 'Guardians of the Galaxy, Volume 2',
         series: '',
         author: 'Brian Michael Bendis',
+        authorLast: 'Bendis, Brian Michael',
         myRating: 6,
         pages: 168,
         wordCount: 6720,
@@ -1083,13 +1155,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/guardians2.jpg',
         keywords: ['fiction', 'comics', 'graphic novels', 'superheroes', 'marvel', 'space', 'series'],
-		similar: ['Guardians of the Galaxy/All-New X-Men', 'Night of the Living Deadpool'],
-		description: `Another adventure with the Guardians of the Galaxy`
+        similar: ['Guardians of the Galaxy/All-New X-Men', 'Night of the Living Deadpool'],
+        description: `Another adventure with the Guardians of the Galaxy`
     },
     {
         title: 'Guardians of the Galaxy/All-New X-Men',
         series: '',
         author: 'Brian Michael Bendis',
+        authorLast: 'Bendis, Brian Michael',
         myRating: 6,
         pages: 144,
         wordCount: 5760,
@@ -1097,13 +1170,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/guardians-xmen.jpg',
         keywords: ['fiction', 'comics', 'graphic novels', 'superheroes', 'marvel', 'space', 'series'],
-		similar: ['Guardians of the Galaxy, Volume 1', 'Night of the Living Deadpool'],
-		description: `Crossover between the Guardians of the Galaxy and the X-Men`
+        similar: ['Guardians of the Galaxy, Volume 1', 'Night of the Living Deadpool'],
+        description: `Crossover between the Guardians of the Galaxy and the X-Men`
     },
     {
         title: 'Eat That Frog!',
         series: '',
         author: 'Brian Tracy',
+        authorLast: 'Tracy, Brian',
         myRating: 6,
         pages: 128,
         wordCount: 24649,
@@ -1111,13 +1185,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/eat-frog.jpg',
         keywords: ['nonfiction', 'self-help', 'habits', 'procrastination', 'productivity'],
-		similar: ['What the Most Successful People Do Before Breakfast'],
-		description: `How to stop procrastinating and just get things done.`
+        similar: ['What the Most Successful People Do Before Breakfast'],
+        description: `How to stop procrastinating and just get things done.`
     },
     {
         title: 'Slow',
         series: '',
         author: 'Brooke McAlary',
+        authorLast: 'McAlary, Brooke',
         myRating: 7,
         pages: 288,
         wordCount: 54322,
@@ -1125,13 +1200,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/slow.jpg',
         keywords: ['nonfiction', 'self-help', 'minimalism', 'habits'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'God Is in the Small Stuff',
         series: '',
         author: 'Bruce Bickel',
+        authorLast: 'Bickel, Bruce',
         myRating: 7,
         pages: 256,
         wordCount: 66957,
@@ -1139,13 +1215,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/god-in-small-stuff.jpg',
         keywords: ['christian', 'nonfiction', 'faith'],
-		similar: ['The God Who Is There'],
-		description: `A reminder and inspiration that God is involved in the smallest details of our lives.`
+        similar: ['The God Who Is There'],
+        description: `A reminder and inspiration that God is involved in the smallest details of our lives.`
     },
     {
         title: 'My Teacher is an Alien',
         series: '',
         author: 'Bruce Coville',
+        authorLast: 'Coville, Bruce',
         myRating: 6,
         pages: 124,
         wordCount: 24178,
@@ -1153,13 +1230,14 @@ let bookData = [
         yearRead: [2001],
         thumb: './images/teacher-is-alien.jpg',
         keywords: ['fiction', 'children', 'aliens', 'science fiction', 'series', 'schools'],
-		similar: ["Werewolves Don't Go to Summer Camp", 'Bunnicula Strikes Again!'],
-		description: `A student discovers her substitute teacher is an alien after he peels his human face off.`
+        similar: ["Werewolves Don't Go to Summer Camp", 'Bunnicula Strikes Again!'],
+        description: `A student discovers her substitute teacher is an alien after he peels his human face off.`
     },
     {
         title: 'My Teacher Glows in the Dark',
         series: '',
         author: 'Bruce Coville',
+        authorLast: 'Coville, Bruce',
         myRating: 6,
         pages: 144,
         wordCount: 29878,
@@ -1167,13 +1245,14 @@ let bookData = [
         yearRead: [2001],
         thumb: './images/teacher-is-alien3.jpg',
         keywords: ['fiction', 'children', 'aliens', 'science fiction', 'series', 'schools'],
-		similar: ["Werewolves Don't Go to Summer Camp", 'Bunnicula Strikes Again!'],
-		description: `A sequel to My Teacher is an Alien.`
+        similar: ["Werewolves Don't Go to Summer Camp", 'Bunnicula Strikes Again!'],
+        description: `A sequel to My Teacher is an Alien.`
     },
     {
         title: 'Scott Pilgrim, Volume 1',
         series: '',
         author: "Bryan Lee O'Malley",
+        authorLast: "O'Malley, Bryan Lee",
         myRating: 7,
         pages: 168,
         wordCount: 5880,
@@ -1181,13 +1260,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/scott-pilgrim1.jpg',
         keywords: ['fiction', 'young adult', 'graphic novels', 'humor', 'movies', 'series'],
-		similar: ['Rick and Morty vs. Dungeons & Dragons', 'Rick and Morty, Vol. 1'],
-		description: `Scott Pilgrim needs to fight off Romona's seven evil exes if he wants to date her.`
+        similar: ['Rick and Morty vs. Dungeons & Dragons', 'Rick and Morty, Vol. 1'],
+        description: `Scott Pilgrim needs to fight off Romona's seven evil exes if he wants to date her.`
     },
     {
         title: 'Scott Pilgrim, Volume 2',
         series: '',
         author: "Bryan Lee O'Malley",
+        authorLast: "O'Malley, Bryan Lee",
         myRating: 7,
         pages: 200,
         wordCount: 7000,
@@ -1195,13 +1275,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/scott-pilgrim2.jpg',
         keywords: ['fiction', 'young adult', 'graphic novels', 'humor', 'movies', 'series'],
-		similar: ['Rick and Morty vs. Dungeons & Dragons', 'Rick and Morty, Vol. 1'],
-		description: `Book 2 of the Scott Pilgrim series`
+        similar: ['Rick and Morty vs. Dungeons & Dragons', 'Rick and Morty, Vol. 1'],
+        description: `Book 2 of the Scott Pilgrim series`
     },
     {
         title: 'Scott Pilgrim, Volume 3',
         series: '',
         author: "Bryan Lee O'Malley",
+        authorLast: "O'Malley, Bryan Lee",
         myRating: 7,
         pages: 192,
         wordCount: 6720,
@@ -1209,13 +1290,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/scott-pilgrim3.jpg',
         keywords: ['fiction', 'young adult', 'graphic novels', 'humor', 'movies', 'series'],
-		similar: ['Rick and Morty vs. Dungeons & Dragons', 'Rick and Morty, Vol. 1'],
-		description: `Book 3 of the Scott Pilgrim series`
+        similar: ['Rick and Morty vs. Dungeons & Dragons', 'Rick and Morty, Vol. 1'],
+        description: `Book 3 of the Scott Pilgrim series`
     },
     {
         title: 'Scott Pilgrim, Volume 4',
         series: '',
         author: "Bryan Lee O'Malley",
+        authorLast: "O'Malley, Bryan Lee",
         myRating: 7,
         pages: 205,
         wordCount: 7175,
@@ -1223,13 +1305,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/scott-pilgrim4.jpg',
         keywords: ['fiction', 'young adult', 'graphic novels', 'humor', 'movies', 'series'],
-		similar: ['Rick and Morty vs. Dungeons & Dragons', 'Rick and Morty, Vol. 1'],
-		description: `Book 4 of the Scott Pilgrim series`
+        similar: ['Rick and Morty vs. Dungeons & Dragons', 'Rick and Morty, Vol. 1'],
+        description: `Book 4 of the Scott Pilgrim series`
     },
     {
         title: 'Scott Pilgrim, Vol. 5',
         series: '',
         author: "Bryan Lee O'Malley",
+        authorLast: "O'Malley, Bryan Lee",
         myRating: 7,
         pages: 178,
         wordCount: 6230,
@@ -1237,13 +1320,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/scott-pilgrim5.jpg',
         keywords: ['fiction', 'young adult', 'graphic novels', 'humor', 'movies', 'series'],
-		similar: ['Rick and Morty vs. Dungeons & Dragons', 'Rick and Morty, Vol. 1'],
-		description: `Book 5 of the Scott Pilgrim series`
+        similar: ['Rick and Morty vs. Dungeons & Dragons', 'Rick and Morty, Vol. 1'],
+        description: `Book 5 of the Scott Pilgrim series`
     },
     {
         title: 'Scott Pilgrim, Vol. 6',
         series: '',
         author: "Bryan Lee O'Malley",
+        authorLast: "O'Malley, Bryan Lee",
         myRating: 7,
         pages: 245,
         wordCount: 8575,
@@ -1251,18 +1335,17 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/scott-pilgrim6.jpg',
         keywords: ['fiction', 'young adult', 'graphic novels', 'humor', 'movies', 'series'],
-		similar: ['Rick and Morty vs. Dungeons & Dragons', 'Rick and Morty, Vol. 1'],
-		description: `Book 6 of the Scott Pilgrim series`
+        similar: ['Rick and Morty vs. Dungeons & Dragons', 'Rick and Morty, Vol. 1'],
+        description: `Book 6 of the Scott Pilgrim series`
     },
-	//#endregion
     /*===========================
     	Author First Name - C's
     ===========================*/
-	//#region C
     {
         title: "The Magician's Nephew",
         series: '',
         author: 'C.S. Lewis',
+        authorLast: 'Lewis, C.S.',
         myRating: 7,
         pages: 221,
         wordCount: 37209,
@@ -1270,13 +1353,14 @@ let bookData = [
         yearRead: [2010, 2014, 2022],
         thumb: './images/magician-nephew.jpg',
         keywords: ['fiction', 'fantasy', 'young adult', 'children', 'christian', 'adventure', 'series'],
-		similar: ['The Bad Beginning', 'The Lightning Thief'],
-		description: `A prequel to The Lion, the Witch, and the Wardrobe`
+        similar: ['The Bad Beginning', 'The Lightning Thief'],
+        description: `A prequel to The Lion, the Witch, and the Wardrobe`
     },
     {
         title: 'The Lion, the Witch and the Wardrobe',
         series: '',
         author: 'C.S. Lewis',
+        authorLast: 'Lewis, C.S.',
         myRating: 8,
         pages: 206,
         wordCount: 40977,
@@ -1284,13 +1368,14 @@ let bookData = [
         yearRead: [2012, 2017, 2022],
         thumb: './images/lion-witch-wardrobe.jpg',
         keywords: ['fiction', 'fantasy', 'young adult', 'children', 'christian', 'adventure', 'movies', 'series'],
-		similar: ['The Bad Beginning', 'The Lightning Thief'],
-		description: `Kids find a magical world behind the doors of a wardrobe.`
+        similar: ['The Bad Beginning', 'The Lightning Thief'],
+        description: `Kids find a magical world behind the doors of a wardrobe.`
     },
     {
         title: 'The Screwtape Letters',
         series: '',
         author: 'C.S. Lewis',
+        authorLast: 'Lewis, C.S.',
         myRating: 8,
         pages: 209,
         wordCount: 37523,
@@ -1298,13 +1383,14 @@ let bookData = [
         yearRead: [2013],
         thumb: './images/screwtape-letters.jpg',
         keywords: ['christian', 'fiction', 'fantasy', 'experimental', 'satire'],
-		similar: ['Good Omens'],
-		description: `A satirical look at humanity from the viewpoint of a demon.`
+        similar: ['Good Omens'],
+        description: `A satirical look at humanity from the viewpoint of a demon.`
     },
     {
         title: 'The Year of Less',
         series: '',
         author: 'Cait Flanders',
+        authorLast: 'Flanders, Cait',
         myRating: 3,
         pages: 189,
         wordCount: 52281,
@@ -1312,13 +1398,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/year-of-less.jpg',
         keywords: ['nonfiction', 'memoir', ],
-		similar: ['Finding Sisu'],
-		description: `A lady talks about a year of her life that she decided to change her habits.`
+        similar: ['Finding Sisu'],
+        description: `A lady talks about a year of her life that she decided to change her habits.`
     },
     {
         title: 'Deep Work',
         series: '',
         author: 'Cal Newport',
+        authorLast: 'Newport, Cal',
         myRating: 7,
         pages: 296,
         wordCount: 72848,
@@ -1326,13 +1413,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/deep-work.jpg',
         keywords: ['nonfiction', 'productivity', 'self-help', 'psychology', 'business'],
-		similar: ['Essentialism', 'The One Thing'],
-		description: `How to focus on your work without being distracted.`
+        similar: ['Essentialism', 'The One Thing'],
+        description: `How to focus on your work without being distracted.`
     },
     {
         title: 'Digital Minimalism',
         series: '',
         author: 'Cal Newport',
+        authorLast: 'Newport, Cal',
         myRating: 7,
         pages: 286,
         wordCount: 65783,
@@ -1340,13 +1428,14 @@ let bookData = [
         yearRead: [2019, 2021],
         thumb: './images/digital-minimalism.jpg',
         keywords: ['nonfiction', 'productivity', 'self-help', 'psychology', 'technology', 'minimalism'],
-		similar: ['Irresistible', 'The Revenge of Analog'],
-		description: `A look into the benefits of turning off notifications and stepping away from your digital devices.`
+        similar: ['Irresistible', 'The Revenge of Analog'],
+        description: `A look into the benefits of turning off notifications and stepping away from your digital devices.`
     },
     {
         title: "So Good They Can't Ignore You",
         series: '',
         author: 'Cal Newport',
+        authorLast: 'Newport, Cal',
         myRating: 6,
         pages: 288,
         wordCount: 60916,
@@ -1354,13 +1443,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/cant-ignore-you.jpg',
         keywords: ['nonfiction', 'productivity', 'self-help', 'psychology', 'business'],
-		similar: ['Drive', 'Smartcuts'],
-		description: `Learning how to become excellent at something valuable and becoming passionate about it later.`
+        similar: ['Drive', 'Smartcuts'],
+        description: `Learning how to become excellent at something valuable and becoming passionate about it later.`
     },
     {
         title: "A World Without Email",
         series: '',
         author: 'Cal Newport',
+        authorLast: 'Newport, Cal',
         myRating: 4,
         pages: 320,
         wordCount: 87292,
@@ -1368,13 +1458,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/without-email.jpg',
         keywords: ['nonfiction', 'productivity', 'self-help', 'psychology', 'business', 'technology'],
-		similar: ['Digital Minimalism', 'Deep Work'],
-		description: `A look into how email at work decreases productivity.`
+        similar: ['Digital Minimalism', 'Deep Work'],
+        description: `A look into how email at work decreases productivity.`
     },
     {
         title: 'Seven Brief Lessons on Physics',
         series: '',
         author: 'Carlo Rovelli',
+        authorLast: 'Rovelli, Carlo',
         myRating: 6,
         pages: 81,
         wordCount: 15552,
@@ -1382,13 +1473,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/seven-lessons.jpg',
         keywords: ['nonfiction', 'science', 'physics', 'educational'],
-		similar: ['AsapSCIENCE', 'Science Hacks'],
-		description: `An introduction to physics made easy to understand.`
+        similar: ['AsapSCIENCE', 'Science Hacks'],
+        description: `An introduction to physics made easy to understand.`
     },
     {
         title: 'How to Break Up with Your Phone',
         series: '',
         author: 'Catherine Price',
+        authorLast: 'Price, Catherine',
         myRating: 8,
         pages: 184,
         wordCount: 42076,
@@ -1396,13 +1488,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/break-up-phone.jpg',
         keywords: ['nonfiction', 'self-help', 'technology'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Dead Until Dark',
         series: '',
         author: 'Charlaine Harris',
+        authorLast: 'Harris, Charlaine',
         myRating: 7,
         pages: 292,
         wordCount: 93729,
@@ -1410,13 +1503,14 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/dead-until-dark.jpg',
         keywords: ['fiction', 'vampires', 'romance', 'fantasy', 'mystery', 'tv', 'series'],
-		similar: ['Guilty Pleasures'],
-		description: `A waitress from a small town in Louisiana falls for the vampire who just arrived in town.`
+        similar: ['Guilty Pleasures'],
+        description: `A waitress from a small town in Louisiana falls for the vampire who just arrived in town.`
     },
     {
         title: 'The Power of Habit',
         series: '',
         author: 'Charles Duhigg',
+        authorLast: 'Duhigg, Charles',
         myRating: 8,
         pages: 375,
         wordCount: 102521,
@@ -1424,13 +1518,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/power-of-habit.jpg',
         keywords: ['nonfiction', 'self-help', 'psychology', 'habits'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Python for Everybody',
         series: '',
         author: 'Charles Severance',
+        authorLast: 'Severance, Charles',
         myRating: 6,
         pages: 246,
         wordCount: 66418,
@@ -1438,13 +1533,14 @@ let bookData = [
         yearRead: [2020],
         thumb: './images/py4e.jpg',
         keywords: ['nonfiction', 'educational', 'programming', 'technology', 'computers'],
-		similar: ['Getting Started with SQL'],
-		description: `An introduction to Python.`
+        similar: ['Getting Started with SQL'],
+        description: `An introduction to Python.`
     },
     {
         title: 'Naked Statistics',
         series: '',
         author: 'Charles Wheelan',
+        authorLast: 'Wheelan, Charles',
         myRating: 7,
         pages: 282,
         wordCount: 101088,
@@ -1452,13 +1548,14 @@ let bookData = [
         yearRead: [2020],
         thumb: './images/naked-statistics.jpg',
         keywords: ['nonfiction', 'educational', 'statistics', 'data', 'series'],
-		similar: ['How Not to Be Wrong', 'Math with Bad Drawings'],
-		description: `A look at statistics, how data is manipulated, and how to see through the bias in reports.`
+        similar: ['How Not to Be Wrong', 'Math with Bad Drawings'],
+        description: `A look at statistics, how data is manipulated, and how to see through the bias in reports.`
     },
     {
         title: 'The Yellow Wallpaper',
         series: '',
         author: 'Charlotte Perkins Gilman',
+        authorLast: 'Gilman, Charlotte Perkins',
         myRating: 7,
         pages: 32,
         wordCount: 6437,
@@ -1466,13 +1563,14 @@ let bookData = [
         yearRead: [2007, 2018],
         thumb: './images/yellow-wallpaper.jpg',
         keywords: ['fiction', 'horror', 'short stories', 'mental health', 'gothic', 'unreliable narrator', ],
-		similar: ["Shirley Jackson's The Lottery: The Authorized Graphic Adaptation"],
-		description: `A woman deals with postpartum depression and hallucinations.`
+        similar: ["Shirley Jackson's The Lottery: The Authorized Graphic Adaptation"],
+        description: `A woman deals with postpartum depression and hallucinations.`
     },
     {
         title: 'We Should All Be Feminists',
         series: '',
         author: 'Chimamanda Ngozi Adichie',
+        authorLast: 'Adichie, Chimamanda Ngozi',
         myRating: 7,
         pages: 52,
         wordCount: 8007,
@@ -1480,13 +1578,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/should-be-feminist.jpg',
         keywords: ['nonfiction', 'feminism', 'social justice', 'essays', ],
-		similar: ['Dear Ijeawele', 'Full Frontal Feminism'],
-		description: `An argument for why cultures would thrive by empowering women.`
+        similar: ['Dear Ijeawele', 'Full Frontal Feminism'],
+        description: `An argument for why cultures would thrive by empowering women.`
     },
     {
         title: 'Dear Ijeawele',
         series: '',
         author: 'Chimamanda Ngozi Adichie',
+        authorLast: 'Adichie, Chimamanda Ngozi',
         myRating: 6,
         pages: 63,
         wordCount: 9577,
@@ -1494,13 +1593,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/ijeawele.jpg',
         keywords: ['nonfiction', 'feminism', 'essays', ],
-		similar: ['We Should All Be Feminists', 'Full Frontal Feminism'],
-		description: `An explanation of how you can raise a feminist child.`
+        similar: ['We Should All Be Feminists', 'Full Frontal Feminism'],
+        description: `An explanation of how you can raise a feminist child.`
     },
     {
         title: 'Things Fall Apart',
         series: '',
         author: 'Chinua Achebe',
+        authorLast: 'Achebe, Chinua',
         myRating: 7,
         pages: 209,
         wordCount: 57550,
@@ -1508,13 +1608,14 @@ let bookData = [
         yearRead: [2007],
         thumb: './images/things-fall-apart.jpg',
         keywords: ['fiction', 'africa', 'historical', 'series'],
-		similar: ['The Good Earth'],
-		description: `A man in an African tribe struggles to adjust to his evolving culture.`
+        similar: ['The Good Earth'],
+        description: `A man in an African tribe struggles to adjust to his evolving culture.`
     },
     {
         title: 'Struck By Lightning',
         series: '',
         author: 'Chris Colfer',
+        authorLast: 'Colfer, Chris',
         myRating: 6,
         pages: 272,
         wordCount: 37209,
@@ -1522,14 +1623,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/struck-by-lightning.jpg',
         keywords: ['young adult', 'lgbt', 'humor', 'fiction', 'coming of age', 'movies', 'schools'],
-		similar: ['Simon vs. the Homo Sapiens Agenda', 'Will Grayson, Will Grayson'],
-		description: `An outcast blackmails the popular kids at his school into contributing
-					to his literary journal to help his college resume.`
+        similar: ['Simon vs. the Homo Sapiens Agenda', 'Will Grayson, Will Grayson'],
+        description: `An outcast blackmails the popular kids at his school into contributing to his literary journal to help his college resume.`
     },
     {
         title: 'The Nerdist Way',
         series: '',
         author: 'Chris Hardwick',
+        authorLast: 'Hardwick, Chris',
         myRating: 7,
         pages: 279,
         wordCount: 58090,
@@ -1537,13 +1638,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/nerdist-way.jpg',
         keywords: ['nonfiction', 'self-help', 'humor'],
-		similar: ['Super Better'],
-		description: `Nerdy takes on self-help to improve your nerdy self.`
+        similar: ['Super Better'],
+        description: `Nerdy takes on self-help to improve your nerdy self.`
     },
     {
         title: 'Retire Inspired',
         series: '',
         author: 'Chris Hogan',
+        authorLast: 'Hogan, Chris',
         myRating: 7,
         pages: 256,
         wordCount: 88548,
@@ -1551,13 +1653,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/retire-inspired.jpg',
         keywords: ['nonfiction', 'money', 'personal finance'],
-		similar: ['The Total Money Makeover', 'Unshakeable'],
-		description: `Easy-to-grasp look into retirement and personal finance.`
+        similar: ['The Total Money Makeover', 'Unshakeable'],
+        description: `Easy-to-grasp look into retirement and personal finance.`
     },
     {
         title: "The Gamer's Bucket List",
         series: '',
         author: 'Chris Watters',
+        authorLast: 'Watters, Chris',
         myRating: 6,
         pages: 139,
         wordCount: 18840,
@@ -1565,13 +1668,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/gamer-bucket.jpg',
         keywords: ['nonfiction', 'games', 'video games', 'reference'],
-		similar: ['101 Video Games to Play Before You Grow Up'],
-		description: `50 video games to play before you die`
+        similar: ['101 Video Games to Play Before You Grow Up'],
+        description: `50 video games to play before you die`
     },
     {
         title: 'Maze',
         series: '',
         author: 'Christopher Manson',
+        authorLast: 'Manson, Christopher',
         myRating: 6,
         pages: 96,
         wordCount: 8694,
@@ -1579,13 +1683,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/maze.jpg',
         keywords: ['puzzles', 'mazes', 'fiction', 'art', 'experimental'],
-		similar: ['The 125 Best Brain Teasers of All Time', 'House of Leaves'],
-		description: `An escape puzzle fashioned in the form of an illustrated book.`
+        similar: ['The 125 Best Brain Teasers of All Time', 'House of Leaves'],
+        description: `An escape puzzle fashioned in the form of an illustrated book.`
     },
     {
         title: 'A Dirty Job',
         series: '',
         author: 'Christopher Moore',
+        authorLast: 'Moore, Christopher',
         myRating: 6,
         pages: 387,
         wordCount: 111470,
@@ -1593,13 +1698,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/dirty-job.jpg',
         keywords: ['fiction', 'humor', 'fantasy', 'death', 'series'],
-		similar: ['Scythe', "The Southern Book Club's Guide to Slaying Vampires", 'Good Omens'],
-		description: `A man is recruited to be Death.`
+        similar: ['Scythe', "The Southern Book Club's Guide to Slaying Vampires", 'Good Omens'],
+        description: `A man is recruited to be Death.`
     },
     {
         title: 'Fight Club',
         series: '',
         author: 'Chuck Palahniuk',
+        authorLast: 'Palahniuk, Chuck',
         myRating: 9,
         pages: 218,
         wordCount: 49962,
@@ -1607,13 +1713,14 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/fight-club.jpg',
         keywords: ['fiction', 'movies', 'thriller', 'satire', 'weird', 'unreliable narrator', 'series'],
-		similar: ['Choke', 'A Dirty Job'],
-		description: `An insomniac starts a fight club with a guy he meets to escape the monotony of life.`
+        similar: ['Choke', 'A Dirty Job'],
+        description: `An insomniac starts a fight club with a guy he meets to escape the monotony of life.`
     },
     {
         title: 'Fight Club 2',
         series: '',
         author: 'Chuck Palahniuk',
+        authorLast: 'Palahniuk, Chuck',
         myRating: 4,
         pages: 256,
         wordCount: 12288,
@@ -1621,13 +1728,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/fight-club2.jpg',
         keywords: ['graphic novels', 'fiction', 'weird', 'humor', 'thriller', 'series'],
-		similar: ['Choke', "Rick and Morty: Lil' Poopy Superstar"],
-		description: `The sequel to Fight Club in graphic novel form`
+        similar: ['Choke', "Rick and Morty: Lil' Poopy Superstar"],
+        description: `The sequel to Fight Club in graphic novel form`
     },
     {
         title: 'Choke',
         series: '',
         author: 'Chuck Palahniuk',
+        authorLast: 'Palahniuk, Chuck',
         myRating: 5,
         pages: 293,
         wordCount: 67510,
@@ -1635,13 +1743,14 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/choke.jpg',
         keywords: ['fiction', 'dark', 'weird', 'humor'],
-		similar: ['Fight Club', 'Going Bovine'],
-		description: `A man pretends to choke on food in restaurants so people feel sorry for him and give him money.`
+        similar: ['Fight Club', 'Going Bovine'],
+        description: `A man pretends to choke on food in restaurants so people feel sorry for him and give him money.`
     },
     {
         title: 'Science Hacks',
         series: '',
         author: 'Colin Barras',
+        authorLast: 'Barras, Colin',
         myRating: 5,
         pages: 208,
         wordCount: 55921,
@@ -1649,13 +1758,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/science-hacks.jpg',
         keywords: ['nonfiction', 'science', 'educational'],
-		similar: ['Seven Brief Lessons on Physics'],
-		description: `Techniques to easily understand 100 of the biggest scientific theories.`
+        similar: ['Seven Brief Lessons on Physics'],
+        description: `Techniques to easily understand 100 of the biggest scientific theories.`
     },
     {
         title: 'Verity',
         series: '',
         author: 'Colleen Harris',
+        authorLast: 'Harris, Colleen',
         myRating: 8,
         pages: 324,
         wordCount: 76930,
@@ -1663,13 +1773,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/verity.jpg',
         keywords: ['fiction', 'mystery', 'thriller', 'dark', 'death', 'romance'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Project 333',
         series: '',
         author: 'Courtney Carver',
+        authorLast: 'Carver, Courtney',
         myRating: 6,
         pages: 224,
         wordCount: 45530,
@@ -1677,13 +1788,14 @@ let bookData = [
         yearRead: [2020],
         thumb: './images/project333.jpg',
         keywords: ['nonfiction', 'self-help', 'minimalism', ],
-		similar: ['Goodbye, Things', 'The More of Less', 'Simplify Magazine 001'],
-		description: `A book on minimalism within your wardrobe. Known for the 33 items for 3 months challenge.`
+        similar: ['Goodbye, Things', 'The More of Less', 'Simplify Magazine 001'],
+        description: `A book on minimalism within your wardrobe. Known for the 33 items for 3 months challenge.`
     },
     {
         title: 'Night of the Living Deadpool',
         series: '',
         author: 'Cullen Bunn',
+        authorLast: 'Bunn, Cullen',
         myRating: 6,
         pages: 96,
         wordCount: 7680,
@@ -1691,13 +1803,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/night-of-deadpool.jpg',
         keywords: ['comics', 'graphic novels', 'marvel', 'zombies', 'fiction', 'superheroes', 'series'],
-		similar: ['Guardians of the Galaxy, Volume 1', 'Guardians of the Galaxy/All-New X-Men', 'The Walking Dead, Vol. 1'],
-		description: `Zombies in the Marvel world and focused around Deadpool.`
+        similar: ['Guardians of the Galaxy, Volume 1', 'Guardians of the Galaxy/All-New X-Men', 'The Walking Dead, Vol. 1'],
+        description: `Zombies in the Marvel world and focused around Deadpool.`
     },
     {
         title: 'Return of the Living Deadpool',
         series: '',
         author: 'Cullen Bunn',
+        authorLast: 'Bunn, Cullen',
         myRating: 6,
         pages: 112,
         wordCount: 8960,
@@ -1705,18 +1818,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/return-of-deadpool.jpg',
         keywords: ['comics', 'graphic novels', 'marvel', 'zombies', 'fiction', 'superheroes', 'series'],
-		similar: ['Guardians of the Galaxy, Volume 1', 'Guardians of the Galaxy/All-New X-Men', 'The Walking Dead, Vol. 1'],
-		description: `Zombies in the Marvel world and focused around Deadpool.`
+        similar: ['Guardians of the Galaxy, Volume 1', 'Guardians of the Galaxy/All-New X-Men', 'The Walking Dead, Vol. 1'],
+        description: `Zombies in the Marvel world and focused around Deadpool.`
     },
-	//#endregion
-    /*===========================
-    	Author First Name - D's
-    ===========================*/
-	//#region D
     {
         title: 'The God Who Is There',
         series: '',
         author: 'D.A. Carson',
+        authorLast: 'Carson, D.A.',
         myRating: 5,
         pages: 232,
         wordCount: 94357,
@@ -1724,13 +1833,14 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/god-who-is-there.jpg',
         keywords: ['nonfiction', 'christian', 'faith', 'theology'],
-		similar: ['God Is in the Small Stuff', '30 Days To Understanding the Bible'],
-		description: `Tracing the story of the Bible to see the overall picture and redemptive story throughout.`
+        similar: ['God Is in the Small Stuff', '30 Days To Understanding the Bible'],
+        description: `Tracing the story of the Bible to see the overall picture and redemptive story throughout.`
     },
     {
         title: 'Angels & Demons',
         series: '',
         author: 'Dan Brown',
+        authorLast: 'Brown, Dan',
         myRating: 8,
         pages: 496,
         wordCount: 173956,
@@ -1738,13 +1848,14 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/angels-and-demons.jpg',
         keywords: ['fiction', 'mystery', 'thriller', 'crime', 'historical', 'movies', 'series'],
-		similar: ['The Girl on the Train', 'Thr3e'],
-		description: `A Harvard professor investigates a plot against the Catholic Church by the Illuminati. Book 1 of the Robert Langdon Series.`
+        similar: ['The Girl on the Train', 'Thr3e'],
+        description: `A Harvard professor investigates a plot against the Catholic Church by the Illuminati. Book 1 of the Robert Langdon Series.`
     },
     {
         title: 'The Da Vinci Code',
         series: '',
         author: 'Dan Brown',
+        authorLast: 'Brown, Dan',
         myRating: 8,
         pages: 489,
         wordCount: 159983,
@@ -1752,13 +1863,14 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/da-vinci-code.jpg',
         keywords: ['fiction', 'mystery', 'thriller', 'crime', 'historical', 'movies', 'series'],
-		similar: ['The Girl on the Train', 'Thr3e'],
-		description: `Book 2 of the Robert Langdon Series.`
+        similar: ['The Girl on the Train', 'Thr3e'],
+        description: `Book 2 of the Robert Langdon Series.`
     },
     {
         title: 'The Lost Symbol',
         series: '',
         author: 'Dan Brown',
+        authorLast: 'Brown, Dan',
         myRating: 7,
         pages: 670,
         wordCount: 167519,
@@ -1766,13 +1878,14 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/lost-symbol.jpg',
         keywords: ['fiction', 'mystery', 'thriller', 'crime', 'historical', 'series', 'tv'],
-		similar: ['The Girl on the Train', 'Thr3e'],
-		description: `Book 3 of the Robert Langdon Series.`
+        similar: ['The Girl on the Train', 'Thr3e'],
+        description: `Book 3 of the Robert Langdon Series.`
     },
     {
         title: 'Inferno',
         series: '',
         author: 'Dan Brown',
+        authorLast: 'Brown, Dan',
         myRating: 7,
         pages: 463,
         wordCount: 162024,
@@ -1780,13 +1893,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/inferno.jpg',
         keywords: ['fiction', 'mystery', 'thriller', 'crime', 'historical', 'movies', 'series'],
-		similar: ['The Girl on the Train', 'Thr3e'],
-		description: `Book 4 of the Robert Langdon Series.`
+        similar: ['The Girl on the Train', 'Thr3e'],
+        description: `Book 4 of the Robert Langdon Series.`
     },
     {
         title: 'The Kid Who Ran for President',
         series: '',
         author: 'Dan Gutman',
+        authorLast: 'Gutman, Dan',
         myRating: 6,
         pages: 156,
         wordCount: 24335,
@@ -1794,13 +1908,14 @@ let bookData = [
         yearRead: [1999],
         thumb: './images/kid-president.jpg',
         keywords: ['fiction', 'children', 'humor', 'politics', 'presidents', 'series'],
-		similar: ['Nothing But the Truth'],
-		description: `A sixth-grader runs for president under a third party.`
+        similar: ['Nothing But the Truth'],
+        description: `A sixth-grader runs for president under a third party.`
     },
     {
         title: 'The Little Book of Talent',
         series: '',
         author: 'Daniel Coyle',
+        authorLast: 'Coyle, Daniel',
         myRating: 7,
         pages: 160,
         wordCount: 17741,
@@ -1808,13 +1923,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/little-book-talent.jpg',
         keywords: ['nonfiction', 'self-help', 'psychology', 'productivity'],
-		similar: ['Smartcuts'],
-		description: `52 tips on how to get better in your skills`
+        similar: ['Smartcuts'],
+        description: `52 tips on how to get better in your skills`
     },
     {
         title: 'Minecraft',
         series: '',
         author: 'Daniel Goldberg',
+        authorLast: 'Goldberg, Daniel',
         myRating: 7,
         pages: 256,
         wordCount: 48199,
@@ -1822,13 +1938,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/minecraft.jpg',
         keywords: ['nonfiction', 'biography', 'games', 'video games'],
-		similar: ['Jacked', 'Spelunky', 'World of Warcraft'],
-		description: `The history of the making of Minecraft and Notch's life.`
+        similar: ['Jacked', 'Spelunky', 'World of Warcraft'],
+        description: `The history of the making of Minecraft and Notch's life.`
     },
     {
         title: 'Drive',
         series: '',
         author: 'Daniel H. Pink',
+        authorLast: 'Pink, Daniel H.',
         myRating: 7,
         pages: 242,
         wordCount: 55421,
@@ -1836,13 +1953,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/drive.jpg',
         keywords: ['nonfiction', 'business', 'psychology', 'self-help'],
-		similar: ['Atomic Habits', 'Deep Work', "So Good They Can't Ignore You"],
-		description: `Looking at motivation and what actually keeps employees working hard for the long run.`
+        similar: ['Atomic Habits', 'Deep Work', "So Good They Can't Ignore You"],
+        description: `Looking at motivation and what actually keeps employees working hard for the long run.`
     },
     {
         title: 'Flowers for Algernon',
         series: '',
         author: 'Daniel Keyes',
+        authorLast: 'Keyes, Daniel',
         myRating: 6,
         pages: 311,
         wordCount: 84466,
@@ -1850,13 +1968,14 @@ let bookData = [
         yearRead: [2002],
         thumb: './images/algernon.jpg',
         keywords: ['fiction', 'young adult', 'science fiction', 'experimental', 'movies', 'unreliable narrator', 'weird'],
-		similar: ['Going Bovine'],
-		description: `A mentally disabled man undergoes a brain operation that increases his IQ and changes his life.`
+        similar: ['Going Bovine'],
+        description: `A mentally disabled man undergoes a brain operation that increases his IQ and changes his life.`
     },
     {
         title: 'World of Warcraft',
         series: '',
         author: 'Daniel Lisi',
+        authorLast: 'Lisi, Daniel',
         myRating: 7,
         pages: 128,
         wordCount: 34387,
@@ -1864,13 +1983,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/wow.jpg',
         keywords: ['biography', 'boss fight books', 'nonfiction', 'games', 'video games', 'series'],
-		similar: ['Jacked', 'Spelunky', 'Minecraft', 'Resident Evil'],
-		description: `A look at the history and impact of World of Warcraft.`
+        similar: ['Jacked', 'Spelunky', 'Minecraft', 'Resident Evil'],
+        description: `A look at the history and impact of World of Warcraft.`
     },
     {
         title: 'The Inferno',
         series: '',
         author: 'Dante Alighieri',
+        authorLast: 'Alighieri, Dante',
         myRating: 7,
         pages: 302,
         wordCount: 44117,
@@ -1878,13 +1998,14 @@ let bookData = [
         yearRead: [2008],
         thumb: './images/the-inferno.jpg',
         keywords: ['fiction', 'poetry', 'religion', 'hell', 'fantasy', 'series'],
-		similar: ['Neverwhere', 'Good Omens', 'Macbeth'],
-		description: `A poem about someone's journey through Hell`
+        similar: ['Neverwhere', 'Good Omens', 'Macbeth'],
+        description: `A poem about someone's journey through Hell`
     },
     {
         title: 'The Adventures of Captain Underpants',
         series: '',
         author: 'Dav Pilkey',
+        authorLast: 'Pilkey, Dav',
         myRating: 6,
         pages: 125,
         wordCount: 9420,
@@ -1892,13 +2013,14 @@ let bookData = [
         yearRead: [2000],
         thumb: './images/captain-underpants.jpg',
         keywords: ['fiction', 'children', 'superheroes', 'humor', 'comics', 'graphic novels', 'series'],
-		similar: ['Diary of a Wimpy Kid'],
-		description: `Two boys hypnotize their principal into becoming a superhero to avoid being blackmailed.`
+        similar: ['Diary of a Wimpy Kid'],
+        description: `Two boys hypnotize their principal into becoming a superhero to avoid being blackmailed.`
     },
     {
         title: 'The Circle',
         series: '',
         author: 'Dave Eggers',
+        authorLast: 'Eggers, Dave',
         myRating: 6,
         pages: 493,
         wordCount: 129054,
@@ -1906,14 +2028,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/circle.jpg',
         keywords: ['fiction', 'science fiction', 'dystopian', 'technology', 'movies'],
-		similar: ['The Giver', 'Uglies'],
-		description: `A girl is hired at the world's most powerful internet company. Her initially amazing
-						experience turns a darker direction.`
+        similar: ['The Giver', 'Uglies'],
+        description: `A girl is hired at the world's most powerful internet company. Her initially amazing experience turns a darker direction.`
     },
     {
         title: 'The Money Answer Book',
         series: '',
         author: 'Dave Ramsey',
+        authorLast: 'Ramsey, Dave',
         myRating: 7,
         pages: 160,
         wordCount: 47307,
@@ -1921,13 +2043,14 @@ let bookData = [
         yearRead: [2012, 2018, 2020],
         thumb: './images/money-answer.jpg',
         keywords: ['nonfiction', 'personal finance', 'money'],
-		similar: ['Retire Inspired', 'Unshakeable', 'The Total Money Makeover'],
-		description: `An FAQ from Dave Ramsey's radio show.`
+        similar: ['Retire Inspired', 'Unshakeable', 'The Total Money Makeover'],
+        description: `An FAQ from Dave Ramsey's radio show.`
     },
     {
         title: 'The Total Money Makeover',
         series: '',
         author: 'Dave Ramsey',
+        authorLast: 'Ramsey, Dave',
         myRating: 7,
         pages: 229,
         wordCount: 34697,
@@ -1935,13 +2058,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/tmm.jpg',
         keywords: ['nonfiction', 'personal finance', 'money'],
-		similar: ['Retire Inspired', 'Unshakeable'],
-		description: `A game plan for your money habits`
+        similar: ['Retire Inspired', 'Unshakeable'],
+        description: `A game plan for your money habits`
     },
     {
         title: "Dave Ramsey's Complete Guide to Money",
         series: '',
         author: 'Dave Ramsey',
+        authorLast: 'Ramsey, Dave',
         myRating: 7,
         pages: 330,
         wordCount: 87120,
@@ -1949,13 +2073,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/guide-to-money.jpg',
         keywords: ['nonfiction', 'personal finance', 'money'],
-		similar: ['Unshakeable', 'Retire Inspired'],
-		description: `A game plan for getting out of debt and getting on track financially.`
+        similar: ['Unshakeable', 'Retire Inspired'],
+        description: `A game plan for getting out of debt and getting on track financially.`
     },
     {
         title: 'The Caretaker of Lorne Field',
         series: '',
         author: 'Dave Zeltserman',
+        authorLast: 'Zeltserman, Dave',
         myRating: 8,
         pages: 237,
         wordCount: 64370,
@@ -1963,13 +2088,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/lorne.jpg',
         keywords: ['fiction', 'horror', 'weird', 'farming', 'unreliable narrator'],
-		similar: ['Going Bovine'],
-		description: `A farmer is convinced he needs to tend to his field to save the world.`
+        similar: ['Going Bovine'],
+        description: `A farmer is convinced he needs to tend to his field to save the world.`
     },
     {
         title: 'The Soccer Book',
         series: '',
         author: 'David Goldblatt',
+        authorLast: 'Goldblatt, David',
         myRating: 7,
         pages: 400,
         wordCount: 107599,
@@ -1977,13 +2103,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/soccer.jpg',
         keywords: ['nonfiction', 'reference', 'sports', 'soccer', 'educational'],
-		similar: ['The Club', 'Liverpool FC'],
-		description: `An in-depth look into soccer, its rules, its history, and various leagues.`
+        similar: ['The Club', 'Liverpool FC'],
+        description: `An in-depth look into soccer, its rules, its history, and various leagues.`
     },
     {
         title: 'Jacked',
         series: '',
         author: 'David Kushner',
+        authorLast: 'Kushner, David',
         myRating: 7,
         pages: 304,
         wordCount: 89176,
@@ -1991,13 +2118,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/jacked.jpg',
         keywords: ['nonfiction', 'biography', 'games', 'video games'],
-		similar: ['World of Warcraft', 'Minecraft', 'Spelunky'],
-		description: `The story of the Grand Theft Auto series.`
+        similar: ['World of Warcraft', 'Minecraft', 'Spelunky'],
+        description: `The story of the Grand Theft Auto series.`
     },
     {
         title: 'Rise of the Dungeon Master',
         series: '',
         author: 'David Kushner',
+        authorLast: 'Kushner, David',
         myRating: 6,
         pages: 144,
         wordCount: 12240,
@@ -2005,13 +2133,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/rise-of-dm.jpg',
         keywords: ['nonfiction', 'biography', 'games', 'dnd', 'graphic novels', 'tabletop games'],
-		similar: ['30 Years of Adventure: A Celebration of Dungeons & Dragons'],
-		description: `Graphic novel that tells the history of D&D and its creator.`
+        similar: ['30 Years of Adventure: A Celebration of Dungeons & Dragons'],
+        description: `Graphic novel that tells the history of D&D and its creator.`
     },
     {
         title: 'Every Day',
         series: '',
         author: 'David Levithan',
+        authorLast: 'Levithan, David',
         myRating: 8,
         pages: 322,
         wordCount: 79285,
@@ -2019,13 +2148,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/every-day.jpg',
         keywords: ['fiction', 'fantasy', 'lgbt', 'young adult', 'romance', 'weird', 'movies', 'series', 'schools'],
-		similar: ['Everything, Everything', 'Will Grayson, Will Grayson'],
-		description: `The main character wakes up every day inside of another person's body with all of their memories.`
+        similar: ['Everything, Everything', 'Will Grayson, Will Grayson'],
+        description: `The main character wakes up every day inside of another person's body with all of their memories.`
     },
     {
         title: 'Another Day',
         series: '',
         author: 'David Levithan',
+        authorLast: 'Levithan, David',
         myRating: 7,
         pages: 327,
         wordCount: 89019,
@@ -2033,13 +2163,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/another-day.jpg',
         keywords: ['fiction', 'fantasy', 'lgbt', 'young adult', 'romance', 'weird', 'series'],
-		similar: ['Everything, Everything', 'Will Grayson, Will Grayson'],
-		description: `The 2nd book in the Every Day series.`
+        similar: ['Everything, Everything', 'Will Grayson, Will Grayson'],
+        description: `The 2nd book in the Every Day series.`
     },
     {
         title: 'Slade House',
         series: '',
         author: 'David Mitchell',
+        authorLast: 'Mitchell, David',
         myRating: 7,
         pages: 238,
         wordCount: 64998,
@@ -2047,13 +2178,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/slade-house.jpg',
         keywords: ['fiction', 'horror', 'halloween', 'ghosts', 'experimental'],
-		similar: ['House of Leaves'],
-		description: `Every nine years, a house appears and welcomes in a guest before disappearing again.`
+        similar: ['House of Leaves'],
+        description: `Every nine years, a house appears and welcomes in a guest before disappearing again.`
     },
     {
         title: 'Drink?',
         series: '',
         author: 'David Nutt',
+        authorLast: 'Nutt, David',
         myRating: 7,
         pages: 304,
         wordCount: 62172,
@@ -2061,13 +2193,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/drink.jpg',
         keywords: ['nonfiction'],
-		similar: [''],
-		description: ``
+        similar: [''],
+        description: ``
     },
     {
         title: 'Radical',
         series: '',
         author: 'David Platt',
+        authorLast: 'Platt, David',
         myRating: 9,
         pages: 230,
         wordCount: 59503,
@@ -2075,14 +2208,14 @@ let bookData = [
         yearRead: [2013],
         thumb: './images/radical.jpg',
         keywords: ['nonfiction', 'christian', 'christian living'],
-		similar: ['Follow Me'],
-		description: `A challenge to believe and obey what's said in the Bible instead of 
-					fitting it into your cultural preferences.`
+        similar: ['Follow Me'],
+        description: `A challenge to believe and obey what's said in the Bible instead of fitting it into your cultural preferences.`
     },
     {
         title: 'Follow Me',
         series: '',
         author: 'David Platt',
+        authorLast: 'Platt, David',
         myRating: 8,
         pages: 245,
         wordCount: 69708,
@@ -2090,14 +2223,14 @@ let bookData = [
         yearRead: [2013],
         thumb: './images/follow-me.jpg',
         keywords: ['nonfiction', 'christian', 'christian living'],
-		similar: ['Radical'],
-		description: `This book explores what we must forsake in this world and what joy we get when we live a 
-						life for Christ.`
+        similar: ['Radical'],
+        description: `This book explores what we must forsake in this world and what joy we get when we live a life for Christ.`
     },
     {
         title: 'The Revenge of Analog',
         series: '',
         author: 'David Sax',
+        authorLast: 'Sax, David',
         myRating: 8,
         pages: 304,
         wordCount: 87449,
@@ -2105,13 +2238,14 @@ let bookData = [
         yearRead: [2019, 2021],
         thumb: './images/analog.jpg',
         keywords: ['nonfiction', 'technology'],
-		similar: ['Digital Minimalism', 'Irresistible'],
-		description: `A look at how analog technology hasn't died off and is making a comeback in some areas.`
+        similar: ['Digital Minimalism', 'Irresistible'],
+        description: `A look at how analog technology hasn't died off and is making a comeback in some areas.`
     },
     {
         title: 'Whispers',
         series: '',
         author: 'Dean Koontz',
+        authorLast: 'Koontz, Dean',
         myRating: 8,
         pages: 464,
         wordCount: 177567,
@@ -2119,13 +2253,14 @@ let bookData = [
         yearRead: [2006],
         thumb: './images/whispers.jpg',
         keywords: ['fiction', 'horror', 'thriller', 'mystery', 'weird'],
-		similar: ['Thr3e'],
-		description: `A disturbed man is haunted by the voice of his dead mother and feels like the whispers want him to kill.`
+        similar: ['Thr3e'],
+        description: `A disturbed man is haunted by the voice of his dead mother and feels like the whispers want him to kill.`
     },
     {
         title: "Santa Claus Doesn't Mop Floors",
         series: '',
         author: 'Debbie Dadey',
+        authorLast: 'Dadey, Debbie',
         myRating: 6,
         pages: 80,
         wordCount: 16331,
@@ -2133,13 +2268,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/santa.jpg',
         keywords: ['fiction', 'bailey school kids', 'children', 'fantasy', 'mystery', 'christmas', 'schools', 'series'],
-		similar: ["Werewolves Don't Go to Summer Camp"],
-		description: `A new custodian joins the school just before Christmas and seems to resemble Santa Claus.`
+        similar: ["Werewolves Don't Go to Summer Camp"],
+        description: `A new custodian joins the school just before Christmas and seems to resemble Santa Claus.`
     },
     {
         title: "Werewolves Don't Go to Summer Camp",
         series: '',
         author: 'Debbie Dadey',
+        authorLast: 'Dadey, Debbie',
         myRating: 6,
         pages: 96,
         wordCount: 21365,
@@ -2147,13 +2283,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/werewolves.jpg',
         keywords: ['fiction', 'bailey school kids', 'children', 'fantasy', 'mystery', 'werewolves', 'camps', 'series'],
-		similar: ["Santa Claus Doesn't Mop Floors"],
-		description: `The new camp director at Camp Lone Wolf might be a werewolf.`
+        similar: ["Santa Claus Doesn't Mop Floors"],
+        description: `The new camp director at Camp Lone Wolf might be a werewolf.`
     },
     {
         title: 'A Discovery of Witches',
         series: '',
         author: 'Deborah Harkness',
+        authorLast: 'Harkness, Deborah',
         myRating: 7,
         pages: 579,
         wordCount: 225923,
@@ -2161,14 +2298,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/discovery-witches.jpg',
         keywords: ['fiction', 'witches', 'romance', 'schools', 'vampires', 'magic', 'tv', 'series'],
-		similar: ['Dead Until Dark', 'Twilight', 'Vampire Academy'],
-		description: `A logical scholar gets thrown into a world of magic and vampires 
-					when she unwittingly calls up a bewitched alchemical manuscript.`
+        similar: ['Dead Until Dark', 'Twilight', 'Vampire Academy'],
+        description: `A logical scholar gets thrown into a world of magic and vampires when she unwittingly calls up a bewitched alchemical manuscript.`
     },
     {
         title: 'Spelunky',
         series: '',
         author: 'Derek Yu',
+        authorLast: 'Yu, Derek',
         myRating: 8,
         pages: 140,
         wordCount: 60227,
@@ -2176,13 +2313,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/spelunky.jpg',
         keywords: ['boss fight books', 'nonfiction', 'games', 'video games', 'biography', 'series'],
-		similar: ['Minecraft', 'Resident Evil', 'World of Warcraft'],
-		description: `A look into the creation of Spelunky from its creator.`
+        similar: ['Minecraft', 'Resident Evil', 'World of Warcraft'],
+        description: `A look into the creation of Spelunky from its creator.`
     },
     {
         title: 'Virtual Vandals',
         series: '',
         author: 'Diane Duane',
+        authorLast: 'Duane, Diane',
         myRating: 6,
         pages: 192,
         wordCount: 57085,
@@ -2190,15 +2328,14 @@ let bookData = [
         yearRead: [2002],
         thumb: './images/virtual-vandals.jpg',
         keywords: ['fiction', 'young adult', 'tom clancy', 'science fiction', 'thriller', 'series'],
-		similar: ['A Secret Life'],
-		description: `After his boss is assassinated, Alex Michaels is placed into  one of the most powerful and 
-					dangerous positions in the world. At the same time, cyber-terrorists 
-					sabotage mainframe computers across the country, causing famine, chaos, and death.`
+        similar: ['A Secret Life'],
+        description: `After his boss is assassinated, Alex Michaels is placed into  one of the most powerful and dangerous positions in the world. At the same time, cyber-terrorists sabotage mainframe computers across the country, causing famine, chaos, and death.`
     },
     {
         title: 'Eat This And Live',
         series: '',
         author: 'Don Colbert',
+        authorLast: 'Colbert, Don',
         myRating: 7,
         pages: 192,
         wordCount: 48000,
@@ -2206,13 +2343,14 @@ let bookData = [
         yearRead: [2013, 2014, 2017, 2020],
         thumb: './images/eat-this.jpg',
         keywords: ['nonfiction', 'christian', 'nutrition', 'food'],
-		similar: ['How Not to Die', 'Forks Over Knives'],
-		description: `A nutrition book that mostly focuses on the positives of what to eat instead of what to avoid.`
+        similar: ['How Not to Die', 'Forks Over Knives'],
+        description: `A nutrition book that mostly focuses on the positives of what to eat instead of what to avoid.`
     },
     {
         title: 'Because the Internet',
         series: '',
         author: 'Donald Glover',
+        authorLast: 'Glover, Donald',
         myRating: 7,
         pages: 73,
         wordCount: 13413,
@@ -2220,13 +2358,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/because-the-internet.jpg',
         keywords: ['fiction', 'music', 'screenplay'],
-		similar: [],
-		description: `A screenplay that goes along with the album from Childish Gambino.`
+        similar: [],
+        description: `A screenplay that goes along with the album from Childish Gambino.`
     },
     {
         title: 'A Million Miles in a Thousand Years',
         series: '',
         author: 'Donald Miller',
+        authorLast: 'Miller, Donald',
         myRating: 5,
         pages: 256,
         wordCount: 48827,
@@ -2234,14 +2373,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/million-miles.jpg',
         keywords: ['nonfiction', 'christian', 'memoir'],
-		similar: ['Shortest Way Home'],
-		description: `Donald Miller shares the story of how went from best-selling author, to a major funk, and finally
-						to writing his book into a movie format for the big screen.`
+        similar: ['Shortest Way Home'],
+        description: `Donald Miller shares the story of how went from best-selling author, to a major funk, and finally to writing his book into a movie format for the big screen.`
     },
     {
         title: 'Encyclopedia Brown Takes the Cake!',
         series: '',
         author: 'Donald Sobol',
+        authorLast: 'Sobol, Donald',
         myRating: 6,
         pages: 128,
         wordCount: 15699,
@@ -2249,13 +2388,14 @@ let bookData = [
         yearRead: [1999],
         thumb: './images/encyclopedia-brown.jpg',
         keywords: ['fiction', 'children', 'mystery', 'encyclopedia brown', 'short stories', 'series'],
-		similar: ['The Mouse and the Motorcycle', 'The Missing Mummy'],
-		description: `A collection of short mysteries from boy detective Enclyclopedia Brown.`
+        similar: ['The Mouse and the Motorcycle', 'The Missing Mummy'],
+        description: `A collection of short mysteries from boy detective Enclyclopedia Brown.`
     },
     {
         title: 'Encyclopedia Brown and the Case of the Disgusting Sneakers',
         series: '',
         author: 'Donald Sobol',
+        authorLast: 'Sobol, Donald',
         myRating: 6,
         pages: 112,
         wordCount: 13736,
@@ -2263,13 +2403,14 @@ let bookData = [
         yearRead: [1999],
         thumb: './images/encyclopedia-brown-sneakers.jpg',
         keywords: ['fiction', 'children', 'mystery', 'encyclopedia brown', 'short stories', 'series'],
-		similar: ['The Mouse and the Motorcycle', 'The Missing Mummy'],
-		description: `A collection of short mysteries from boy detective Enclyclopedia Brown.`
+        similar: ['The Mouse and the Motorcycle', 'The Missing Mummy'],
+        description: `A collection of short mysteries from boy detective Enclyclopedia Brown.`
     },
     {
         title: "The Hitchhiker's Guide to the Galaxy",
         series: '',
         author: 'Douglas Adams',
+        authorLast: 'Adams, Douglas',
         myRating: 8,
         pages: 215,
         wordCount: 55107,
@@ -2277,16 +2418,14 @@ let bookData = [
         yearRead: [2015, 2019],
         thumb: './images/hitchhiker.jpg',
         keywords: ['fiction', 'space', 'humor', 'science fiction', 'movies', 'tv', 'series', 'weird'],
-		similar: ['Good Omens', 'The Canterville Ghost'],
-		description: `Seconds before Earth is demolished to make way for a galactic freeway, Arthur Dent
-					 is plucked off the planet by his friend Ford Prefect, a researcher for the revised 
-					edition of The Hitchhiker's Guide to the Galaxy who, for the last fifteen years, 
-					has been posing as an out-of-work actor.`
+        similar: ['Good Omens', 'The Canterville Ghost'],
+        description: `Seconds before Earth is demolished to make way for a galactic freeway, Arthur Dent is plucked off the planet by his friend Ford Prefect, a researcher for the revised edition of The Hitchhiker's Guide to the Galaxy who, for the last fifteen years, has been posing as an out-of-work actor.`
     },
     {
         title: 'The Restaurant at the End of the Universe',
         series: '',
         author: 'Douglas Adams',
+        authorLast: 'Adams, Douglas',
         myRating: 7,
         pages: 187,
         wordCount: 54479,
@@ -2294,13 +2433,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/restaurant-end-universe.jpg',
         keywords: ['fiction', 'space', 'humor', 'science fiction', 'series'],
-		similar: ['Good Omens', 'The Canterville Ghost'],
-		description: `The 2nd book of the Hitchhiker's Guide series.`
+        similar: ['Good Omens', 'The Canterville Ghost'],
+        description: `The 2nd book of the Hitchhiker's Guide series.`
     },
     {
         title: 'The 30-Minute Runner',
         series: '',
         author: 'Duncan Larkin',
+        authorLast: 'Larkin, Duncan',
         myRating: 6,
         pages: 156,
         wordCount: 45154,
@@ -2308,13 +2448,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/thirty-minute-runner.jpg',
         keywords: ['nonfiction', 'sports', 'running', 'fitness'],
-		similar: ['Living the Martial Way', 'The 4-Hour Body'],
-		description: `A guide to getting started with running.`
+        similar: ['Living the Martial Way', 'The 4-Hour Body'],
+        description: `A guide to getting started with running.`
     },
     {
         title: 'Game On!',
         series: '',
         author: 'Dustin Hansen',
+        authorLast: 'Hansen, Dustin',
         myRating: 8,
         pages: 368,
         wordCount: 87292,
@@ -2322,18 +2463,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/game-on.jpg',
         keywords: ['nonfiction', 'reference', 'games', 'video games'],
-		similar: ['101 Video Games to Play Before You Grow Up', "The Gamer's Bucket List"],
-		description: `A reference book talking about some of the most popular, influential video games.`
+        similar: ['101 Video Games to Play Before You Grow Up', "The Gamer's Bucket List"],
+        description: `A reference book talking about some of the most popular, influential video games.`
     },
-	//#endregion
-    /*===========================
-    	Author First Name - E's
-    ===========================*/
-	//#region E
     {
         title: 'We Were Liars',
         series: '',
         author: 'E. Lockhart',
+        authorLast: 'Lockhart, E.',
         myRating: 6,
         pages: 242,
         wordCount: 60759,
@@ -2341,14 +2478,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/we-were-liars.jpg',
         keywords: ['young adult', 'fiction', 'mystery', 'romance', 'unreliable narrator', ],
-		similar: ['One of Us Is Lying', 'All the Bright Places'],
-		description: `A wealthy family spends every summer on their private island until something happens.
-						Now the family must revisit the incident of that summer.`
+        similar: ['One of Us Is Lying', 'All the Bright Places'],
+        description: `A wealthy family spends every summer on their private island until something happens. Now the family must revisit the incident of that summer.`
     },
     {
         title: "Charlotte's Web",
         series: '',
         author: 'E.B. White',
+        authorLast: 'White, E.B.',
         myRating: 6,
         pages: 184,
         wordCount: 33598,
@@ -2356,13 +2493,14 @@ let bookData = [
         yearRead: [2002],
         thumb: './images/charlottes-web.jpg',
         keywords: ['fiction', 'children', 'animals', 'movies', 'fantasy'],
-		similar: ['The Mouse and the Motorcycle'],
-		description: `A runt of a pig becomes friends with a spider in his barn.`
+        similar: ['The Mouse and the Motorcycle'],
+        description: `A runt of a pig becomes friends with a spider in his barn.`
     },
     {
         title: 'Creativity, Inc.',
         series: '',
         author: 'Ed Catmull',
+        authorLast: 'Catmull, Ed',
         myRating: 7,
         pages: 368,
         wordCount: 121204,
@@ -2370,14 +2508,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/creativity.jpg',
         keywords: ['nonfiction', 'business', 'leadership', 'creativity'],
-		similar: ['The Little Book of Talent', 'Drive'],
-		description: `A book for managers who want to lead their employees to new heights,
-						and a manual for anyone who strives for originality`
+        similar: ['The Little Book of Talent', 'Drive'],
+        description: `A book for managers who want to lead their employees to new heights, and a manual for anyone who strives for originality`
     },
     {
         title: 'iPoe Vol. 1',
         series: '',
         author: 'Edgar Allen Poe',
+        authorLast: 'Allen Poe, Edgar',
         myRating: 4,
         pages: 101,
         wordCount: 3760,
@@ -2385,13 +2523,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/ipoe1.jpg',
         keywords: ['fiction', 'short stories', 'horror', 'interactive', 'poetry', 'gothic'],
-		similar: ['The Canterville Ghost'],
-		description: `An interactive app that tells multiple stories from Edgar Allen Poe in the creepiest possible way.`
+        similar: ['The Canterville Ghost'],
+        description: `An interactive app that tells multiple stories from Edgar Allen Poe in the creepiest possible way.`
     },
     {
         title: 'Meddling Kids',
         series: '',
         author: 'Edgar Cantaro',
+        authorLast: 'Cantaro, Edgar',
         myRating: 8,
         pages: 322,
         wordCount: 121518,
@@ -2399,13 +2538,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/meddling.jpg',
         keywords: ['fiction', 'horror', 'mystery', 'fantasy', 'ghosts', 'lgbt', 'weird'],
-		similar: ['Horrorstör', "My Best Friend's Exorcism"],
-		description: `The Scooby Gang (renamed for copyright reasons) 13 years after their last case and now they're all adults.`
+        similar: ['Horrorstör', "My Best Friend's Exorcism"],
+        description: `The Scooby Gang (renamed for copyright reasons) 13 years after their last case and now they're all adults.`
     },
     {
         title: 'Tarzan of the Apes',
         series: '',
         author: 'Edgar Rice Burroughs',
+        authorLast: 'Burroughs, Edgar Rice',
         myRating: 7,
         pages: 324,
         wordCount: 78814,
@@ -2413,13 +2553,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/tarzan.jpg',
         keywords: ['fiction', 'adventure', 'series', 'fantasy', 'africa', 'animals', 'movies', 'tv'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Night',
         series: '',
         author: 'Elie Wiesel',
+        authorLast: 'Wiesel, Elie',
         myRating: 7,
         pages: 115,
         wordCount: 40349,
@@ -2427,13 +2568,14 @@ let bookData = [
         yearRead: [2009],
         thumb: './images/night.jpg',
         keywords: ['nonfiction', 'memoir', 'holocaust', 'historical', 'series'],
-		similar: ['One Day in the Life of Ivan Denisovich', 'Number the Stars'],
-		description: `A true account of someone's time in Auschwitz.`
+        similar: ['One Day in the Life of Ivan Denisovich', 'Number the Stars'],
+        description: `A true account of someone's time in Auschwitz.`
     },
     {
         title: 'The Happiness Hack',
         series: '',
         author: 'Ellen Petry Leanse',
+        authorLast: 'Leanse, Ellen Petry',
         myRating: 5,
         pages: 128,
         wordCount: 22765,
@@ -2441,13 +2583,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/happiness-hack.jpg',
         keywords: ['nonfiction', 'psychology', 'self-help', ],
-		similar: ['The Subtle Art of Not Giving a F*ck', 'Mind Hacking'],
-		description: `Learn how to hack your mind to become happier and less stressed.`
+        similar: ['The Subtle Art of Not Giving a F*ck', 'Mind Hacking'],
+        description: `Learn how to hack your mind to become happier and less stressed.`
     },
     {
         title: '10,000 Things You Need to Know',
         series: '',
         author: 'Elspeth Beidas',
+        authorLast: 'Beidas, Elspeth',
         myRating: 5,
         pages: 1000,
         wordCount: 410000,
@@ -2455,13 +2598,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/ten-thousand-things.jpg',
         keywords: ['nonfiction', 'lists', 'reference', ],
-		similar: ['1001 Books You Must Read Before You Die', '101 Video Games to Play Before You Grow Up'],
-		description: `Lists of lists of lists`
+        similar: ['1001 Books You Must Read Before You Die', '101 Video Games to Play Before You Grow Up'],
+        description: `Lists of lists of lists`
     },
     {
         title: 'Wuthering Heights',
         series: '',
         author: 'Emily Brontë',
+        authorLast: 'Brontë, Emily',
         myRating: 6,
         pages: 464,
         wordCount: 118064,
@@ -2469,13 +2613,14 @@ let bookData = [
         yearRead: [2006],
         thumb: './images/wuthering.jpg',
         keywords: ['fiction', 'gothic', 'historical', 'romance', 'ghosts', 'unreliable narrator', ],
-		similar: ['The Great Gatsby', 'Romeo and Juliet'],
-		description: `Basically follows this dude Heathcliff from childhood through adulthood.`
+        similar: ['The Great Gatsby', 'Romeo and Juliet'],
+        description: `Basically follows this dude Heathcliff from childhood through adulthood.`
     },
     {
         title: 'The Forests of Silence',
         series: '',
         author: 'Emily Rodda',
+        authorLast: 'Rodda, Emily',
         myRating: 5,
         pages: 131,
         wordCount: 28260,
@@ -2483,13 +2628,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/forests-of-silence.jpg',
         keywords: ['fantasy', 'fiction', 'children', 'high fantasy', 'magic', 'adventure', 'series'],
-		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief'],
-		description: `Two unlikely companions team up on a quest to find the seven gems of power that can overthrow the Shadow Lord.`
+        similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief'],
+        description: `Two unlikely companions team up on a quest to find the seven gems of power that can overthrow the Shadow Lord.`
     },
     {
         title: 'Artemis Fowl',
         series: '',
         author: 'Eoin Colfer',
+        authorLast: 'Colfer, Eoin',
         myRating: 7,
         pages: 288,
         wordCount: 57462,
@@ -2497,13 +2643,14 @@ let bookData = [
         yearRead: [2004, 2018],
         thumb: './images/artemis-fowl1.jpg',
         keywords: ['fiction', 'fantasy', 'young adult', 'magic', 'adventure', 'fairies', 'artemis fowl', 'movies', 'series'],
-		similar: ['The Lightning Thief', 'The Bad Beginning'],
-		description: `A 12-year-old millionaire, genius, and criminal-mastermind kidnaps a fairy who is also a cop.`
+        similar: ['The Lightning Thief', 'The Bad Beginning'],
+        description: `A 12-year-old millionaire, genius, and criminal-mastermind kidnaps a fairy who is also a cop.`
     },
     {
         title: 'The Arctic Incident',
         series: '',
         author: 'Eoin Colfer',
+        authorLast: 'Colfer, Eoin',
         myRating: 6,
         pages: 398,
         wordCount: 57933,
@@ -2511,13 +2658,14 @@ let bookData = [
         yearRead: [2004, 2018],
         thumb: './images/artemis-fowl2.jpg',
         keywords: ['fiction', 'fantasy', 'young adult', 'magic', 'adventure', 'fairies', 'artemis fowl', 'series'],
-		similar: ['The Lightning Thief', 'The Bad Beginning'],
-		description: `Book 2 of the Artemis Fowl series.`
+        similar: ['The Lightning Thief', 'The Bad Beginning'],
+        description: `Book 2 of the Artemis Fowl series.`
     },
     {
         title: 'The Eternity Code',
         series: '',
         author: 'Eoin Colfer',
+        authorLast: 'Colfer, Eoin',
         myRating: 6,
         pages: 352,
         wordCount: 64998,
@@ -2525,13 +2673,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/artemis-fowl3.jpg',
         keywords: ['fiction', 'fantasy', 'young adult', 'magic', 'adventure', 'fairies', 'artemis fowl', 'series'],
-		similar: ['The Lightning Thief', 'The Bad Beginning'],
-		description: `Book 3 of the Artemis Fowl series.`
+        similar: ['The Lightning Thief', 'The Bad Beginning'],
+        description: `Book 3 of the Artemis Fowl series.`
     },
     {
         title: 'The Opal Deception',
         series: '',
         author: 'Eoin Colfer',
+        authorLast: 'Colfer, Eoin',
         myRating: 6,
         pages: 416,
         wordCount: 70336,
@@ -2539,13 +2688,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/artemis-fowl4.jpg',
         keywords: ['fiction', 'fantasy', 'young adult', 'magic', 'adventure', 'fairies', 'artemis fowl', 'series'],
-		similar: ['The Lightning Thief', 'The Bad Beginning'],
-		description: `Book 4 of the Artemis Fowl series.`
+        similar: ['The Lightning Thief', 'The Bad Beginning'],
+        description: `Book 4 of the Artemis Fowl series.`
     },
     {
         title: 'The Lost Colony',
         series: '',
         author: 'Eoin Colfer',
+        authorLast: 'Colfer, Eoin',
         myRating: 6,
         pages: 385,
         wordCount: 78971,
@@ -2553,13 +2703,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/artemis-fowl5.jpg',
         keywords: ['fiction', 'fantasy', 'young adult', 'magic', 'adventure', 'fairies', 'artemis fowl', 'series'],
-		similar: ['The Lightning Thief', 'The Bad Beginning'],
-		description: `Book 5 of the Artemis Fowl series.`
+        similar: ['The Lightning Thief', 'The Bad Beginning'],
+        description: `Book 5 of the Artemis Fowl series.`
     },
     {
         title: 'The Time Paradox',
         series: '',
         author: 'Eoin Colfer',
+        authorLast: 'Colfer, Eoin',
         myRating: 6,
         pages: 391,
         wordCount: 83524,
@@ -2567,13 +2718,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/artemis-fowl6.jpg',
         keywords: ['fiction', 'fantasy', 'young adult', 'magic', 'adventure', 'fairies', 'time travel', 'artemis fowl', 'series'],
-		similar: ['The Lightning Thief', 'The Bad Beginning'],
-		description: `Book 6 of the Artemis Fowl series.`
+        similar: ['The Lightning Thief', 'The Bad Beginning'],
+        description: `Book 6 of the Artemis Fowl series.`
     },
     {
         title: 'The Atlantis Complex',
         series: '',
         author: 'Eoin Colfer',
+        authorLast: 'Colfer, Eoin',
         myRating: 5,
         pages: 357,
         wordCount: 78154,
@@ -2581,13 +2733,14 @@ let bookData = [
         yearRead: [],
         thumb: './images/artemis-fowl7.jpg',
         keywords: ['fiction', 'fantasy', 'young adult', 'magic', 'adventure', 'fairies', 'artemis fowl', 'series'],
-		similar: ['The Lightning Thief', 'The Bad Beginning'],
-		description: `Book 7 of the Artemis Fowl series.`
+        similar: ['The Lightning Thief', 'The Bad Beginning'],
+        description: `Book 7 of the Artemis Fowl series.`
     },
     {
         title: 'The Last Guardian',
         series: '',
         author: 'Eoin Colfer',
+        authorLast: 'Colfer, Eoin',
         myRating: 5,
         pages: 328,
         wordCount: 72063,
@@ -2595,13 +2748,14 @@ let bookData = [
         yearRead: [2020],
         thumb: './images/artemis-fowl8.jpg',
         keywords: ['fiction', 'fantasy', 'young adult', 'magic', 'adventure', 'fairies', 'artemis fowl', 'series'],
-		similar: ['The Lightning Thief', 'The Bad Beginning'],
-		description: `Book 8 of the Artemis Fowl series.`
+        similar: ['The Lightning Thief', 'The Bad Beginning'],
+        description: `Book 8 of the Artemis Fowl series.`
     },
     {
         title: 'Ready Player One',
         series: '',
         author: 'Ernest Cline',
+        authorLast: 'Cline, Ernest',
         myRating: 9,
         pages: 374,
         wordCount: 147580,
@@ -2609,13 +2763,14 @@ let bookData = [
         yearRead: [2013, 2017, 2018],
         thumb: './images/rp1.jpg',
         keywords: ['fiction', 'pop culture', 'young adult', 'science fiction', 'dystopian', 'adventure', 'movies', 'series'],
-		similar: ['An Absolutely Remarkable Thing'],
-		description: `A boy tries to crack the puzzles inside a virtual world before a heartless corporation can.`
+        similar: ['An Absolutely Remarkable Thing'],
+        description: `A boy tries to crack the puzzles inside a virtual world before a heartless corporation can.`
     },
     {
         title: 'Ready Player Two',
         series: '',
         author: 'Ernest Cline',
+        authorLast: 'Cline, Ernest',
         myRating: 8,
         pages: 384,
         wordCount: 129682,
@@ -2623,18 +2778,14 @@ let bookData = [
         yearRead: [2020],
         thumb: './images/rp2.jpg',
         keywords: ['fiction', 'pop culture', 'young adult', 'science fiction', 'dystopian', 'adventure', 'series'],
-		similar: ['An Absolutely Remarkable Thing'],
-		description: `The sequel to Ready Player One`
+        similar: ['An Absolutely Remarkable Thing'],
+        description: `The sequel to Ready Player One`
     },
-	//#endregion
-    /*===========================
-    	Author First Name - F's
-    ===========================*/
-	//#region F
     {
         title: 'The Great Gatsby',
         series: '',
         author: 'F. Scott Fitzgerald',
+        authorLast: 'Fitzgerald, F. Scott',
         myRating: 7,
         pages: 168,
         wordCount: 47094,
@@ -2642,13 +2793,14 @@ let bookData = [
         yearRead: [2006],
         thumb: './images/great-gatsby.jpg',
         keywords: ['fiction', 'historical', 'romance', 'movies'],
-		similar: ['Wuthering Heights'],
-		description: `The narrator spends time partying with a wealthy man and his new lover.`
+        similar: ['Wuthering Heights'],
+        description: `The narrator spends time partying with a wealthy man and his new lover.`
     },
     {
         title: 'The Ultimate Guide to Video Game Writing and Design',
         series: '',
         author: 'Flint Dille',
+        authorLast: 'Dille, Flint',
         myRating: 8,
         pages: 272,
         wordCount: 73148,
@@ -2656,13 +2808,14 @@ let bookData = [
         yearRead: [2013],
         thumb: './images/ultimate-guide-vgs.jpg',
         keywords: ['nonfiction', 'game design', 'video games', 'games', 'writing', 'educational'],
-		similar: ['Level Up!: The Guide to Great Video Game Design', 'Slay the Dragon', 'The Kobold Guide to Board Game Design'],
-		description: `Gives a great overview of creating outlines, scripts, and design documents for video games.`
+        similar: ['Level Up!: The Guide to Great Video Game Design', 'Slay the Dragon', 'The Kobold Guide to Board Game Design'],
+        description: `Gives a great overview of creating outlines, scripts, and design documents for video games.`
     },
     {
         title: 'The Father Heart of God',
         series: '',
         author: 'Floyd McClung',
+        authorLast: 'McClung, Floyd',
         myRating: 6,
         pages: 144,
         wordCount: 38694,
@@ -2670,13 +2823,14 @@ let bookData = [
         yearRead: [2014],
         thumb: './images/father-heart.jpg',
         keywords: ['nonfiction', 'christian'],
-		similar: ['Passion & Purpose'],
-		description: `Talks about the compassion of God.`
+        similar: ['Passion & Purpose'],
+        description: `Talks about the compassion of God.`
     },
     {
         title: 'Living the Martial Way',
         series: '',
         author: 'Forrest E. Morgan',
+        authorLast: 'Morgan, Forrest E.',
         myRating: 4,
         pages: 312,
         wordCount: 83915,
@@ -2684,13 +2838,14 @@ let bookData = [
         yearRead: [2013],
         thumb: './images/living-martial-way.jpg',
         keywords: ['nonfiction', 'sports', 'martial arts'],
-		similar: ['The 30-Minute Runner'],
-		description: `A step-by-step approach to applying the Japanese warrior's mind set to martial training and daily life.`
+        similar: ['The 30-Minute Runner'],
+        description: `A step-by-step approach to applying the Japanese warrior's mind set to martial training and daily life.`
     },
     {
         title: 'Erasing Hell',
         series: '',
         author: 'Francis Chan',
+        authorLast: 'Chan, Francis',
         myRating: 8,
         pages: 197,
         wordCount: 55921,
@@ -2698,13 +2853,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/erasing-hell.jpg',
         keywords: ['nonfiction', 'christian', 'hell', 'theology'],
-		similar: ['Radical', 'Follow Me'],
-		description: `Tells what the Bible says about Hell.`
+        similar: ['Radical', 'Follow Me'],
+        description: `Tells what the Bible says about Hell.`
     },
     {
         title: 'Goodbye, Things',
         series: '',
         author: 'Fumio Sasaki',
+        authorLast: 'Sasaki, Fumio',
         myRating: 9,
         pages: 272,
         wordCount: 42704,
@@ -2712,18 +2868,14 @@ let bookData = [
         yearRead: [2019, 2020],
         thumb: './images/goodbye-things.jpg',
         keywords: ['nonfiction', 'minimalism', 'self-help', 'series'],
-		similar: ['The Life-Changing Magic of Tidying Up', 'Spark Joy'],
-		description: `A look into Japanese minimalism.`
+        similar: ['The Life-Changing Magic of Tidying Up', 'Spark Joy'],
+        description: `A look into Japanese minimalism.`
     },
-	//#endregion
-    /*===========================
-    	Author First Name - G's
-    ===========================*/
-	//#region G
     {
         title: 'The Best American Infographics 2013',
         series: '',
         author: 'Gareth Cook',
+        authorLast: 'Cook, Gareth',
         myRating: 7,
         pages: 184,
         wordCount: 55200,
@@ -2731,13 +2883,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/infographics-2013.jpg',
         keywords: ['nonfiction', 'data', 'reference', 'series'],
-		similar: ['Naked Statistics'],
-		description: `A collection of the best infographics from 2013.`
+        similar: ['Naked Statistics'],
+        description: `A collection of the best infographics from 2013.`
     },
     {
         title: 'Be Prepared',
         series: '',
         author: 'Gary Greenberg',
+        authorLast: 'Greenberg, Gary',
         myRating: 7,
         pages: 240,
         wordCount: 33600,
@@ -2745,13 +2898,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/be-prepared.jpg',
         keywords: ['nonfiction', 'parenting', 'humor'],
-		similar: ['Welcome to the Club'],
-		description: `A funny guide for new dads.`
+        similar: ['Welcome to the Club'],
+        description: `A funny guide for new dads.`
     },
     {
         title: 'The One Thing',
         series: '',
         author: 'Gary Keller',
+        authorLast: 'Keller, Gary',
         myRating: 8,
         pages: 240,
         wordCount: 51496,
@@ -2759,13 +2913,14 @@ let bookData = [
         yearRead: [2017, 2020],
         thumb: './images/one-thing.jpg',
         keywords: ['nonfiction', 'business', 'self-help', 'productivity'],
-		similar: ['Essentialism', 'Deep Work'],
-		description: `Learning how to increase productivity by narrowing your focus.`
+        similar: ['Essentialism', 'Deep Work'],
+        description: `Learning how to increase productivity by narrowing your focus.`
     },
     {
         title: 'Hatchet',
         series: '',
         author: 'Gary Paulsen',
+        authorLast: 'Paulsen, Gary',
         myRating: 7,
         pages: 186,
         wordCount: 34854,
@@ -2773,13 +2928,14 @@ let bookData = [
         yearRead: [2001],
         thumb: './images/hatchet.jpg',
         keywords: ['fiction', 'children', 'survival', 'adventure', 'outdoors', 'series'],
-		similar: ['Danger in the Desert', 'Missing in the Mountains'],
-		description: `A boy must survive in the wilderness after his plane crashes.`
+        similar: ['Danger in the Desert', 'Missing in the Mountains'],
+        description: `A boy must survive in the wilderness after his plane crashes.`
     },
     {
         title: 'The River',
         series: '',
         author: 'Gary Paulsen',
+        authorLast: 'Paulsen, Gary',
         myRating: 6,
         pages: 132,
         wordCount: 23707,
@@ -2787,13 +2943,14 @@ let bookData = [
         yearRead: [2001],
         thumb: './images/river.jpg',
         keywords: ['fiction', 'children', 'survival', 'adventure', 'outdoors', 'series'],
-		similar: ['Danger in the Desert', 'Missing in the Mountains'],
-		description: `A sequel to Hatchet.`
+        similar: ['Danger in the Desert', 'Missing in the Mountains'],
+        description: `A sequel to Hatchet.`
     },
     {
         title: "Brian's Winter",
         series: '',
         author: 'Gary Paulsen',
+        authorLast: 'Paulsen, Gary',
         myRating: 6,
         pages: 144,
         wordCount: 29987,
@@ -2801,13 +2958,14 @@ let bookData = [
         yearRead: [2001],
         thumb: './images/brians-winter.jpg',
         keywords: ['fiction', 'children', 'survival', 'adventure', 'outdoors', 'series'],
-		similar: ['Danger in the Desert', 'Missing in the Mountains'],
-		description: `A sequel to Hatchet.`
+        similar: ['Danger in the Desert', 'Missing in the Mountains'],
+        description: `A sequel to Hatchet.`
     },
     {
         title: 'The Case Against Sugar',
         series: '',
         author: 'Gary Taubes',
+        authorLast: 'Taubes, Gary',
         myRating: 6,
         pages: 384,
         wordCount: 108801,
@@ -2815,13 +2973,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/case-against-sugar.jpg',
         keywords: ['nonfiction', 'nutrition', 'food', 'health'],
-		similar: ['Food Rules', 'How Not to Die', 'Eat This And Live'],
-		description: `Breaking down the history and health implications of sugar consumption.`
+        similar: ['Food Rules', 'How Not to Die', 'Eat This And Live'],
+        description: `Breaking down the history and health implications of sugar consumption.`
     },
     {
         title: 'Forks Over Knives',
         series: '',
         author: 'Gene Stone',
+        authorLast: 'Stone, Gene',
         myRating: 6,
         pages: 214,
         wordCount: 19311,
@@ -2829,13 +2988,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/forks-over-knives.jpg',
         keywords: ['nonfiction', 'nutrition', 'food', 'health', 'cookbooks'],
-		similar: ['Vegan for Life', 'Food Rules', 'How Not to Die', 'Eat This And Live'],
-		description: `A look into the benefits of a plant-based diet.`
+        similar: ['Vegan for Life', 'Food Rules', 'How Not to Die', 'Eat This And Live'],
+        description: `A look into the benefits of a plant-based diet.`
     },
     {
         title: 'Animal Farm',
         series: '',
         author: 'George Orwell',
+        authorLast: 'Orwell, George',
         myRating: 7,
         pages: 141,
         wordCount: 29987,
@@ -2843,14 +3003,14 @@ let bookData = [
         yearRead: [2001],
         thumb: './images/animal-farm.jpg',
         keywords: ['fiction', 'animals', 'fantasy', 'politics', 'dystopian', 'movies', 'satire'],
-		similar: ['Fahrenheit 451', "Charlotte's Web"],
-		description: `A group of animals rebel against their farmers in order 
-					to create a free and equal society for animals.`
+        similar: ['Fahrenheit 451', "Charlotte's Web"],
+        description: `A group of animals rebel against their farmers in order to create a free and equal society for animals.`
     },
     {
         title: 'Horrorstör',
         series: '',
         author: 'Grady Hendrix',
+        authorLast: 'Hendrix, Grady',
         myRating: 7,
         pages: 248,
         wordCount: 59032,
@@ -2858,13 +3018,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/horrorstor.jpg',
         keywords: ['fiction', 'horror', 'ghosts', 'humor', 'weird'],
-		similar: ['Meddling Kids', "My Best Friend's Exorcism", "The Southern Book Club's Guide to Slaying Vampires"],
-		description: `Three employees volunteer to work a night shift at a haunted Ikea.`
+        similar: ['Meddling Kids', "My Best Friend's Exorcism", "The Southern Book Club's Guide to Slaying Vampires"],
+        description: `Three employees volunteer to work a night shift at a haunted Ikea.`
     },
     {
         title: "My Best Friend's Exorcism",
         series: '',
         author: 'Grady Hendrix',
+        authorLast: 'Hendrix, Grady',
         myRating: 7,
         pages: 337,
         wordCount: 95927,
@@ -2872,13 +3033,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/bfs-exorcism.jpg',
         keywords: ['fiction', 'horror', 'demons', 'humor', 'young adult', 'weird'],
-		similar: ['Meddling Kids', 'Horrorstör', "The Southern Book Club's Guide to Slaying Vampires"],
-		description: `A girl believes her best friend is possessed by a demon after she starts acting funny.`
+        similar: ['Meddling Kids', 'Horrorstör', "The Southern Book Club's Guide to Slaying Vampires"],
+        description: `A girl believes her best friend is possessed by a demon after she starts acting funny.`
     },
     {
         title: "The Southern Book Club's Guide to Slaying Vampires",
         series: '',
         author: 'Grady Hendrix',
+        authorLast: 'Hendrix, Grady',
         myRating: 7,
         pages: 404,
         wordCount: 130153,
@@ -2886,13 +3048,14 @@ let bookData = [
         yearRead: [2020],
         thumb: './images/southern-book-club.jpg',
         keywords: ['fiction', 'horror', 'vampires', 'southern', 'weird'],
-		similar: ['Meddling Kids', 'Horrorstör', "My Best Friend's Exorcism"],
-		description: `A mother who is part of a book club believes the new man in town is a vampire.`
+        similar: ['Meddling Kids', 'Horrorstör', "My Best Friend's Exorcism"],
+        description: `A mother who is part of a book club believes the new man in town is a vampire.`
     },
     {
         title: 'Essentialism',
         series: '',
         author: 'Greg McKeown',
+        authorLast: 'McKeown, Greg',
         myRating: 8,
         pages: 260,
         wordCount: 58718,
@@ -2900,13 +3063,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/essentialism.jpg',
         keywords: ['nonfiction', 'self-help', 'business', 'productivity', 'series'],
-		similar: ['Deep Work', 'The One Thing'],
-		description: `Learning to become more effective by being selective of only the most essential.`
+        similar: ['Deep Work', 'The One Thing'],
+        description: `Learning to become more effective by being selective of only the most essential.`
     },
     {
         title: 'Effortless',
         series: '',
         author: 'Greg McKeown',
+        authorLast: 'McKeown, Greg',
         myRating: 8,
         pages: 272,
         wordCount: 56834,
@@ -2914,18 +3078,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/effortless.jpg',
         keywords: ['nonfiction', 'self-help', 'business', 'productivity', 'series'],
-		similar: ['Deep Work', 'The One Thing'],
-		description: `A follow-up to Essentialism that shows how to make the essential tasks easy to do.`
+        similar: ['Deep Work', 'The One Thing'],
+        description: `A follow-up to Essentialism that shows how to make the essential tasks easy to do.`
     },
-	//#endregion
-    /*===========================
-    	Author First Name - H's
-    ===========================*/
-	//#region H
     {
         title: 'The Miracle Morning',
         series: '',
         author: 'Hal Elrod',
+        authorLast: 'Elrod, Hal',
         myRating: 6,
         pages: 172,
         wordCount: 46629,
@@ -2933,13 +3093,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/miracle-morning.jpg',
         keywords: ['nonfiction', 'self-help', 'productivity'],
-		similar: ['What the Most Successful People Do Before Breakfast'],
-		description: `Learning to perform a daily ritual first thing each day.`
+        similar: ['What the Most Successful People Do Before Breakfast'],
+        description: `Learning to perform a daily ritual first thing each day.`
     },
     {
         title: 'An Absolutely Remarkable Thing',
         series: '',
         author: 'Hank Green',
+        authorLast: 'Green, Hank',
         myRating: 9,
         pages: 352,
         wordCount: 88705,
@@ -2947,14 +3108,14 @@ let bookData = [
         yearRead: [2018, 2019],
         thumb: './images/remarkable1.jpg',
         keywords: ['fiction', 'lgbt', 'science fiction', 'young adult', 'series'],
-		similar: ['Ready Player One', 'Sleeping Giants'],
-		description: `A lot of statues appear all over the world at the 
-					same time and no one knows how they got there.`
+        similar: ['Ready Player One', 'Sleeping Giants'],
+        description: `A lot of statues appear all over the world at the same time and no one knows how they got there.`
     },
     {
         title: 'A Beautifully Foolish Endeavor',
         series: '',
         author: 'Hank Green',
+        authorLast: 'Green, Hank',
         myRating: 8,
         pages: 464,
         wordCount: 148522,
@@ -2962,13 +3123,14 @@ let bookData = [
         yearRead: [2020],
         thumb: './images/remarkable2.jpg',
         keywords: ['fiction', 'lgbt', 'science fiction', 'young adult', 'series'],
-		similar: ['Ready Player Two'],
-		description: `The sequel to An Absolutely Remarkable Thing`
+        similar: ['Ready Player Two'],
+        description: `The sequel to An Absolutely Remarkable Thing`
     },
     {
         title: 'To Kill a Mockingbird',
         series: '',
         author: 'Harper Lee',
+        authorLast: 'Lee, Harper',
         myRating: 6,
         pages: 376,
         wordCount: 100388,
@@ -2976,15 +3138,14 @@ let bookData = [
         yearRead: [2003],
         thumb: './images/mockingbird.jpg',
         keywords: ['fiction', 'historical', 'race', 'movies', 'southern', 'series'],
-		similar: ['The Absolutely True Diary of a Part-Time Indian'],
-		description: `Told through the eyes of Scout Finch, you learn about her father Atticus Finch, 
-						an attorney who hopelessly strives to prove the innocence of a 
-						black man unjustly accused of rape.`
+        similar: ['The Absolutely True Diary of a Part-Time Indian'],
+        description: `Told through the eyes of Scout Finch, you learn about her father Atticus Finch, an attorney who hopelessly strives to prove the innocence of a black man unjustly accused of rape.`
     },
     {
         title: 'The Index Card',
         series: '',
         author: 'Helaine Olen',
+        authorLast: 'Olen, Helaine',
         myRating: 6,
         pages: 256,
         wordCount: 35011,
@@ -2992,14 +3153,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/index-card.jpg',
         keywords: ['nonfiction', 'personal finance', 'self-help', 'money', ],
-		similar: ['Unshakeable', 'Rich Dad, Poor Dad'],
-		description: `Making personal finance principles simple by showing the 
-					ideas should be able to fit on an index card.`
+        similar: ['Unshakeable', 'Rich Dad, Poor Dad'],
+        description: `Making personal finance principles simple by showing the ideas should be able to fit on an index card.`
     },
     {
         title: 'Anguish Languish',
         series: '',
         author: 'Howard Chase',
+        authorLast: 'Chase, Howard',
         myRating: 7,
         pages: 60,
         wordCount: 12853,
@@ -3007,13 +3168,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/anguish-languish.jpg',
         keywords: ['fiction', 'humor', 'experimental', 'children', 'language', 'fairy tales'],
-		similar: ['The Tales of Beedle the Bard'],
-		description: `Classic fairy tales told using words that combined sound like the actual words. Think Mad Gab.`
+        similar: ['The Tales of Beedle the Bard'],
+        description: `Classic fairy tales told using words that combined sound like the actual words. Think Mad Gab.`
     },
     {
         title: 'Navigating Genesis',
         series: '',
         author: 'Hugh Ross',
+        authorLast: 'Ross, Hugh',
         myRating: 7,
         pages: 298,
         wordCount: 77480,
@@ -3021,18 +3183,14 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/nav-genesis.jpg',
         keywords: ['nonfiction', 'christian', 'science', 'theology'],
-		similar: ['Sapiens', "Who's Afraid of the Multiverse"],
-		description: `Showing how the story in Genesis aligns with the science of the formation of the world.`
+        similar: ['Sapiens', "Who's Afraid of the Multiverse"],
+        description: `Showing how the story in Genesis aligns with the science of the formation of the world.`
     },
-	//#endregion
-    /*===========================
-    	Author First Name - I's
-    ===========================*/
-	//#region I
     {
         title: 'Laws of the Game 21/22',
         series: '',
         author: 'I.F.A.B.',
+        authorLast: 'I.F.A.B.',
         myRating: 7,
         pages: 228,
         wordCount: 29785,
@@ -3040,13 +3198,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/laws-game-22.jpg',
         keywords: ['nonfiction', 'sports', 'soccer'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'The Road Back to You',
         series: '',
         author: 'Ian Morgan Cron',
+        authorLast: 'Cron, Ian Morgan',
         myRating: 6,
         pages: 238,
         wordCount: 87449,
@@ -3054,13 +3213,14 @@ let bookData = [
         yearRead: [2020],
         thumb: './images/road-back.jpg',
         keywords: ['nonfiction', 'psychology', 'self-help', 'christian'],
-		similar: ['Strengths Finder 2.0'],
-		description: `An in-depth look into the Enneagram types.`
+        similar: ['Strengths Finder 2.0'],
+        description: `An in-depth look into the Enneagram types.`
     },
     {
         title: 'Insight Guides: China',
         series: '',
         author: 'Insight Guides',
+        authorLast: 'Insight Guides',
         myRating: 6,
         pages: 480,
         wordCount: 129106,
@@ -3068,13 +3228,14 @@ let bookData = [
         yearRead: [2013],
         thumb: './images/insight-china.jpg',
         keywords: ['nonfiction', 'china', 'travel', 'reference', 'series'],
-		similar: ['Learning Chinese Characters'],
-		description: `A travel guide for China.`
+        similar: ['Learning Chinese Characters'],
+        description: `A travel guide for China.`
     },
     {
         title: 'Warm Bodies',
         series: '',
         author: 'Isaac Marion',
+        authorLast: 'Marion, Isaac',
         myRating: 10,
         pages: 256,
         wordCount: 75203,
@@ -3082,13 +3243,14 @@ let bookData = [
         yearRead: [2016, 2019],
         thumb: './images/warm-bodies.jpg',
         keywords: ['fiction', 'young adult', 'humor', 'horror', 'zombies', 'apocalyptic', 'romance', 'movies', 'series', 'weird'],
-		similar: ['Play Dead', 'I Am Legend', 'The 5th Wave'],
-		description: `A zombie falls for a living girl.`
+        similar: ['Play Dead', 'I Am Legend', 'The 5th Wave'],
+        description: `A zombie falls for a living girl.`
     },
     {
         title: 'The New Hunger',
         series: '',
         author: 'Isaac Marion',
+        authorLast: 'Marion, Isaac',
         myRating: 8,
         pages: 170,
         wordCount: 31871,
@@ -3096,13 +3258,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/new-hunger.jpg',
         keywords: ['fiction', 'young adult', 'horror', 'zombies', 'apocalyptic', 'series'],
-		similar: ['Play Dead', 'I Am Legend', 'The 5th Wave'],
-		description: `A prequel to Warm Bodies`
+        similar: ['Play Dead', 'I Am Legend', 'The 5th Wave'],
+        description: `A prequel to Warm Bodies`
     },
     {
         title: 'The Burning World',
         series: '',
         author: 'Isaac Marion',
+        authorLast: 'Marion, Isaac',
         myRating: 9,
         pages: 512,
         wordCount: 132822,
@@ -3110,18 +3273,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/burning-world.jpg',
         keywords: ['fiction', 'young adult', 'horror', 'zombies', 'apocalyptic', 'series'],
-		similar: ['Play Dead', 'I Am Legend', 'The 5th Wave'],
-		description: `A sequel to Warm Bodies`
+        similar: ['Play Dead', 'I Am Legend', 'The 5th Wave'],
+        description: `A sequel to Warm Bodies`
     },
-	//#endregion
-    /*===========================
-    	Author First Name - J's
-    ===========================*/
-	//#region J
     {
         title: 'Very Good Lives',
         series: '',
         author: 'J.K. Rowling',
+        authorLast: 'Rowling, J.K.',
         myRating: 8,
         pages: 74,
         wordCount: 3297,
@@ -3129,13 +3288,14 @@ let bookData = [
         yearRead: [2018, 2021],
         thumb: './images/very-good-lives.jpg',
         keywords: ['nonfiction', 'self-help', 'essays', 'speeches'],
-		similar: ["Fail Until You Don't"],
-		description: `This was a graduation speech Rowling gave regarding failure.`
+        similar: ["Fail Until You Don't"],
+        description: `This was a graduation speech Rowling gave regarding failure.`
     },
     {
         title: "Harry Potter and the Sorcerer's Stone",
         series: '',
         author: 'J.K. Rowling',
+        authorLast: 'Rowling, J.K.',
         myRating: 10,
         pages: 309,
         wordCount: 76944,
@@ -3143,13 +3303,14 @@ let bookData = [
         yearRead: [1999, 2000, 2001, 2002, 2010, 2011, 2012, 2017, 2018, 2019, 2020, 2021, 2021, 2022],
         thumb: './images/hp1.jpg',
         keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'adventure', 'mystery', 'movies', 'harry potter', 'series', 'schools'],
-		similar: ['The Hobbit', 'The Lightning Thief', 'Name of the Wind'],
-		description: `Harry Potter is an orphaned boy who discovers one day that he is a wizard. Greatest series of all-time.`
+        similar: ['The Hobbit', 'The Lightning Thief', 'Name of the Wind'],
+        description: `Harry Potter is an orphaned boy who discovers one day that he is a wizard. Greatest series of all-time.`
     },
     {
         title: 'Harry Potter and the Chamber of Secrets',
         series: '',
         author: 'J.K. Rowling',
+        authorLast: 'Rowling, J.K.',
         myRating: 10,
         pages: 341,
         wordCount: 85141,
@@ -3157,13 +3318,14 @@ let bookData = [
         yearRead: [2000, 2002, 2010, 2017, 2018, 2019, 2020, 2021, 2022],
         thumb: './images/hp2.jpg',
         keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'adventure', 'mystery', 'movies', 'harry potter', 'series', 'schools'],
-		similar: ['The Hobbit', 'The Lightning Thief', 'Name of the Wind'],
-		description: `Book 2 of the Harry Potter series.`
+        similar: ['The Hobbit', 'The Lightning Thief', 'Name of the Wind'],
+        description: `Book 2 of the Harry Potter series.`
     },
     {
         title: 'Harry Potter and the Prisoner of Azkaban',
         series: '',
         author: 'J.K. Rowling',
+        authorLast: 'Rowling, J.K.',
         myRating: 10,
         pages: 435,
         wordCount: 107253,
@@ -3171,13 +3333,14 @@ let bookData = [
         yearRead: [2000, 2002, 2010, 2017, 2018, 2019, 2020, 2021],
         thumb: './images/hp3.jpg',
         keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'adventure', 'mystery', 'movies', 'harry potter', 'time travel', 'series', 'schools'],
-		similar: ['The Hobbit', 'The Lightning Thief', 'Name of the Wind'],
-		description: `Book 3 of the Harry Potter series.`
+        similar: ['The Hobbit', 'The Lightning Thief', 'Name of the Wind'],
+        description: `Book 3 of the Harry Potter series.`
     },
     {
         title: 'Harry Potter and the Goblet of Fire',
         series: '',
         author: 'J.K. Rowling',
+        authorLast: 'Rowling, J.K.',
         myRating: 10,
         pages: 734,
         wordCount: 190637,
@@ -3185,13 +3348,14 @@ let bookData = [
         yearRead: [2000, 2002, 2010, 2017, 2018, 2019, 2020, 2021],
         thumb: './images/hp4.jpg',
         keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'adventure', 'mystery', 'movies', 'harry potter', 'series', 'schools'],
-		similar: ['The Hobbit', 'The Lightning Thief', 'Name of the Wind'],
-		description: `Book 4 of the Harry Potter series.`
+        similar: ['The Hobbit', 'The Lightning Thief', 'Name of the Wind'],
+        description: `Book 4 of the Harry Potter series.`
     },
     {
         title: 'Harry Potter and the Order of the Phoenix',
         series: '',
         author: 'J.K. Rowling',
+        authorLast: 'Rowling, J.K.',
         myRating: 10,
         pages: 870,
         wordCount: 257045,
@@ -3199,13 +3363,14 @@ let bookData = [
         yearRead: [2003, 2010, 2017, 2018, 2019, 2020, 2021],
         thumb: './images/hp5.jpg',
         keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'adventure', 'mystery', 'movies', 'harry potter', 'series', 'schools'],
-		similar: ['The Hobbit', 'The Lightning Thief', 'Name of the Wind'],
-		description: `Book 5 of the Harry Potter series.`
+        similar: ['The Hobbit', 'The Lightning Thief', 'Name of the Wind'],
+        description: `Book 5 of the Harry Potter series.`
     },
     {
         title: 'Harry Potter and the Half-Blood Prince',
         series: '',
         author: 'J.K. Rowling',
+        authorLast: 'Rowling, J.K.',
         myRating: 10,
         pages: 652,
         wordCount: 168923,
@@ -3213,13 +3378,14 @@ let bookData = [
         yearRead: [2005, 2010, 2017, 2018, 2019, 2020, 2021],
         thumb: './images/hp6.jpg',
         keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'adventure', 'mystery', 'movies', 'harry potter', 'series', 'schools'],
-		similar: ['The Hobbit', 'The Lightning Thief', 'Name of the Wind'],
-		description: `Book 6 of the Harry Potter series.`
+        similar: ['The Hobbit', 'The Lightning Thief', 'Name of the Wind'],
+        description: `Book 6 of the Harry Potter series.`
     },
     {
         title: 'Harry Potter and the Deathly Hallows',
         series: '',
         author: 'J.K. Rowling',
+        authorLast: 'Rowling, J.K.',
         myRating: 10,
         pages: 759,
         wordCount: 198227,
@@ -3227,13 +3393,14 @@ let bookData = [
         yearRead: [2007, 2010, 2017, 2018, 2019, 2020, 2021],
         thumb: './images/hp7.jpg',
         keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'adventure', 'mystery', 'movies', 'harry potter', 'series'],
-		similar: ['The Hobbit', 'The Lightning Thief', 'Name of the Wind'],
-		description: `Book 7 of the Harry Potter series.`
+        similar: ['The Hobbit', 'The Lightning Thief', 'Name of the Wind'],
+        description: `Book 7 of the Harry Potter series.`
     },
     {
         title: 'Short Stories from Hogwarts of Heroism, Hardship and Dangerous Hobbies',
         series: '',
         author: 'J.K. Rowling',
+        authorLast: 'Rowling, J.K.',
         myRating: 8,
         pages: 71,
         wordCount: 14910,
@@ -3241,13 +3408,14 @@ let bookData = [
         yearRead: [2016, 2019],
         thumb: './images/hogwarts-hero.jpg',
         keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'short stories', 'harry potter', 'series'],
-		similar: ["Harry Potter and the Sorcerer's Stone"],
-		description: `A deeper look into the backgrounds of people throughout the Harry Potter series.`
+        similar: ["Harry Potter and the Sorcerer's Stone"],
+        description: `A deeper look into the backgrounds of people throughout the Harry Potter series.`
     },
     {
         title: 'Short Stories from Hogwarts of Power, Politics and Pesky Poltergeists',
         series: '',
         author: 'J.K. Rowling',
+        authorLast: 'Rowling, J.K.',
         myRating: 8,
         pages: 71,
         wordCount: 14910,
@@ -3255,13 +3423,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/hogwarts-power.jpg',
         keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'short stories', 'harry potter', 'series'],
-		similar: ["Harry Potter and the Sorcerer's Stone"],
-		description: `A deeper look into the backgrounds of people throughout the Harry Potter series.`
+        similar: ["Harry Potter and the Sorcerer's Stone"],
+        description: `A deeper look into the backgrounds of people throughout the Harry Potter series.`
     },
     {
         title: 'Hogwarts: An Incomplete and Unreliable Guide',
         series: '',
         author: 'J.K. Rowling',
+        authorLast: 'Rowling, J.K.',
         myRating: 8,
         pages: 79,
         wordCount: 16590,
@@ -3269,13 +3438,14 @@ let bookData = [
         yearRead: [2016, 2019],
         thumb: './images/hogwarts.jpg',
         keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'short stories', 'harry potter', 'series'],
-		similar: ["Harry Potter and the Sorcerer's Stone"],
-		description: `A deeper look into Hogwarts.`
+        similar: ["Harry Potter and the Sorcerer's Stone"],
+        description: `A deeper look into Hogwarts.`
     },
     {
         title: 'The Tales of Beedle the Bard',
         series: '',
         author: 'J.K. Rowling',
+        authorLast: 'Rowling, J.K.',
         myRating: 7,
         pages: 111,
         wordCount: 14915,
@@ -3283,13 +3453,14 @@ let bookData = [
         yearRead: [2015, 2017, 2020, 2021],
         thumb: './images/beedle.jpg',
         keywords: ['fiction', 'children', 'magic', 'fantasy', 'witches', 'wizards', 'short stories', 'fairy tales', 'harry potter', 'series'],
-		similar: ["Harry Potter and the Sorcerer's Stone"],
-		description: `A collection of magical fairy tales from the Harry Potter universe.`
+        similar: ["Harry Potter and the Sorcerer's Stone"],
+        description: `A collection of magical fairy tales from the Harry Potter universe.`
     },
     {
         title: 'Fantastic Beasts and Where to Find Them: The Original Screenplay',
         series: '',
         author: 'J.K. Rowling',
+        authorLast: 'Rowling, J.K.',
         myRating: 7,
         pages: 304,
         wordCount: 41990,
@@ -3297,13 +3468,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/fantastic-beasts-screenplay.jpg',
         keywords: ['fiction', 'young adult', 'magic', 'fantasy', 'witches', 'wizards', 'adventure', 'movies', 'harry potter', 'screenplay', 'series'],
-		similar: ["Harry Potter and the Sorcerer's Stone", 'Fantastic Beasts and Where to Find Them'],
-		description: `The screenplay from the first of the Fantastic Beasts and Where to Find Them films.`
+        similar: ["Harry Potter and the Sorcerer's Stone", 'Fantastic Beasts and Where to Find Them'],
+        description: `The screenplay from the first of the Fantastic Beasts and Where to Find Them films.`
     },
     {
         title: 'The Christmas Pig',
         series: '',
         author: 'J.K. Rowling',
+        authorLast: 'Rowling, J.K.',
         myRating: 8,
         pages: 288,
         wordCount: 50000,
@@ -3311,13 +3483,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/christmas-pig.jpg',
         keywords: ['fiction', 'childrens', 'magic', 'fantasy', 'adventure', 'christmas', 'divorce', 'death'],
-		similar: [],
-		description: `A boy travels to the Land of Lost Toys to find his missing pig.`
+        similar: [],
+        description: `A boy travels to the Land of Lost Toys to find his missing pig.`
     },
     {
         title: 'The Hobbit',
         series: '',
         author: 'J.R.R. Tolkien',
+        authorLast: 'Tolkien, J.R.R.',
         myRating: 8,
         pages: 389,
         wordCount: 95356,
@@ -3325,13 +3498,14 @@ let bookData = [
         yearRead: [2013],
         thumb: './images/hobbit.jpg',
         keywords: ['fantasy', 'fiction', 'magic', 'high fantasy', 'movies', 'lord of the rings', 'young adult', 'adventure', 'series'],
-		similar: ["Harry Potter and the Sorcerer's Stone", 'The Lightning Thief', 'Name of the Wind'],
-		description: `A hobbit goes on a quest to win a share of treasure guarded by a dragon.`
+        similar: ["Harry Potter and the Sorcerer's Stone", 'The Lightning Thief', 'Name of the Wind'],
+        description: `A hobbit goes on a quest to win a share of treasure guarded by a dragon.`
     },
     {
         title: 'The Fellowship of the Ring',
         series: '',
         author: 'J.R.R. Tolkien',
+        authorLast: 'Tolkien, J.R.R.',
         myRating: 7,
         pages: 527,
         wordCount: 187790,
@@ -3339,13 +3513,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/lotr1.jpg',
         keywords: ['fantasy', 'fiction', 'magic', 'high fantasy', 'movies', 'lord of the rings', 'adventure', 'series'],
-		similar: ["Harry Potter and the Sorcerer's Stone", 'The Lightning Thief', 'Name of the Wind'],
-		description: `A hobbit goes on a quest to destroy the most powerful magic ring in the world.`
+        similar: ["Harry Potter and the Sorcerer's Stone", 'The Lightning Thief', 'Name of the Wind'],
+        description: `A hobbit goes on a quest to destroy the most powerful magic ring in the world.`
     },
     {
         title: 'Surprised by the Power of the Spirit',
         series: '',
         author: 'Jack Deere',
+        authorLast: 'Deere, Jack',
         myRating: 5,
         pages: 302,
         wordCount: 81223,
@@ -3353,13 +3528,14 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/surprised-by-power.jpg',
         keywords: ['nonfiction', 'christian', 'miracles', 'holy spirit'],
-		similar: ['When Heaven Invades Earth'],
-		description: `An argument saying that miracles are still happening today.`
+        similar: ['When Heaven Invades Earth'],
+        description: `An argument saying that miracles are still happening today.`
     },
     {
         title: 'Vegan for Life',
         series: '',
         author: 'Jack Norris',
+        authorLast: 'Norris, Jack',
         myRating: 4,
         pages: 283,
         wordCount: 78814,
@@ -3367,13 +3543,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/vegan-for-life.jpg',
         keywords: ['nonfiction', 'food', 'nutrition', 'health'],
-		similar: ['Forks Over Knives'],
-		description: `Nutrition for plant-based diets and debunking the myths around veganism.`
+        similar: ['Forks Over Knives'],
+        description: `Nutrition for plant-based diets and debunking the myths around veganism.`
     },
     {
         title: 'Chasing the Dragon',
         series: '',
         author: 'Jackie Pullinger',
+        authorLast: 'Pullinger, Jackie',
         myRating: 5,
         pages: 256,
         wordCount: 68841,
@@ -3381,14 +3558,14 @@ let bookData = [
         yearRead: [2014],
         thumb: './images/chasing-the-dragon.jpg',
         keywords: ['nonfiction', 'christian', 'drugs', 'china', 'memoir', ],
-		similar: ['The Heavenly Man'],
-		description: `Jackie Pullinger gives her account of ministry in the drug-infested
-						streets of Hong Kong.`
+        similar: ['The Heavenly Man'],
+        description: `Jackie Pullinger gives her account of ministry in the drug-infested streets of Hong Kong.`
     },
     {
         title: 'Atomic Habits',
         series: '',
         author: 'James Clear',
+        authorLast: 'Clear, James',
         myRating: 9,
         pages: 319,
         wordCount: 52595,
@@ -3396,13 +3573,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/atomic-habits.jpg',
         keywords: ['nonfiction', 'habits', 'self-help', 'psychology', 'productivity'],
-		similar: ['High Performance Habits', 'Grit', 'Drive'],
-		description: `How to form good habits and break bad ones.`
+        similar: ['High Performance Habits', 'Grit', 'Drive'],
+        description: `How to form good habits and break bad ones.`
     },
     {
         title: 'The Maze Runner',
         series: '',
         author: 'James Dashner',
+        authorLast: 'Dashner, James',
         myRating: 6,
         pages: 384,
         wordCount: 102050,
@@ -3410,14 +3588,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/maze-runner.jpg',
         keywords: ['fiction', 'young adult', 'dystopian', 'science fiction', 'adventure', 'movies', 'series'],
-		similar: ['The Hunger Games'],
-		description: `Boys wake up in a small patch of land with no memory of who they are or how they
-						got there. Surrounding the land is an ever-changing maze with death around every corner.`
+        similar: ['The Hunger Games'],
+        description: `Boys wake up in a small patch of land with no memory of who they are or how they got there. Surrounding the land is an ever-changing maze with death around every corner.`
     },
     {
         title: "America's History, For the AP Course",
         series: '',
         author: 'James Henretta',
+        authorLast: 'Henretta, James',
         myRating: 7,
         pages: 1168,
         wordCount: 576120,
@@ -3425,13 +3603,14 @@ let bookData = [
         yearRead: [2007],
         thumb: './images/ap-history.jpg',
         keywords: ['nonfiction', 'educational', 'historical', 'america'],
-		similar: ['Theodore Roosevelt', 'The Red Badge of Courage'],
-		description: `A textbook discussing the history of the United States.`
+        similar: ['Theodore Roosevelt', 'The Red Badge of Courage'],
+        description: `A textbook discussing the history of the United States.`
     },
     {
         title: 'Return to Howliday Inn',
         series: '',
         author: 'James Howe',
+        authorLast: 'Howe, James',
         myRating: 6,
         pages: 116,
         wordCount: 23079,
@@ -3439,13 +3618,14 @@ let bookData = [
         yearRead: [1999],
         thumb: './images/bunnicula5.jpg',
         keywords: ['fiction', 'children', 'animals', 'mystery', 'horror', 'series'],
-		similar: ['Little Shop of Hamsters'],
-		description: `A sequel to Bunnicula.`
+        similar: ['Little Shop of Hamsters'],
+        description: `A sequel to Bunnicula.`
     },
     {
         title: 'Bunnicula Strikes Again!',
         series: '',
         author: 'James Howe',
+        authorLast: 'Howe, James',
         myRating: 6,
         pages: 116,
         wordCount: 19468,
@@ -3453,13 +3633,14 @@ let bookData = [
         yearRead: [1999],
         thumb: './images/bunnicula6.jpg',
         keywords: ['fiction', 'children', 'animals', 'mystery', 'horror', 'series'],
-		similar: ['Little Shop of Hamsters'],
-		description: `A sequel to Bunnicula.`
+        similar: ['Little Shop of Hamsters'],
+        description: `A sequel to Bunnicula.`
     },
     {
         title: "Player's Handbook",
         series: '',
         author: 'James Wyatt',
+        authorLast: 'Wyatt, James',
         myRating: 9,
         pages: 320,
         wordCount: 212919,
@@ -3467,13 +3648,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/phb.jpg',
         keywords: ['dnd', 'fiction', 'reference', 'games', 'tabletop games', 'fantasy', 'high fantasy', 'series'],
-		similar: ["Dungeon Master's Guide", 'Tales from the Yawning Portal', 'Ghosts of Saltmarsh'],
-		description: `The handbook for how to play the 5th edition of Dungeons & Dragons.`
+        similar: ["Dungeon Master's Guide", 'Tales from the Yawning Portal', 'Ghosts of Saltmarsh'],
+        description: `The handbook for how to play the 5th edition of Dungeons & Dragons.`
     },
     {
         title: 'Super Better',
         series: '',
         author: 'Jane McGonigal',
+        authorLast: 'McGonigal, Jane',
         myRating: 7,
         pages: 480,
         wordCount: 136590,
@@ -3481,13 +3663,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/super-better.jpg',
         keywords: ['nonfiction', 'psychology', 'games', 'self-help', ],
-		similar: ['The Nerdist Way'],
-		description: `Scientific research into the ways all games change how we respond to stress, challenge, and pain.`
+        similar: ['The Nerdist Way'],
+        description: `Scientific research into the ways all games change how we respond to stress, challenge, and pain.`
     },
     {
         title: 'Ten Arguments For Deleting Your Social Media Accounts Right Now',
         series: '',
         author: 'Jaron Lanier',
+        authorLast: 'Lanier, Jaron',
         myRating: 8,
         pages: 146,
         wordCount: 44588,
@@ -3495,13 +3678,14 @@ let bookData = [
         yearRead: [2019, 2021],
         thumb: './images/delete-social-media.jpg',
         keywords: ['nonfiction', 'psychology', 'technology', 'self-help'],
-		similar: ['Irresistible', "The Smart Girl's Guide to Privacy", '200+ Ways to Protect Your Privacy'],
-		description: `Reasons that social media's cons outweigh any of its benefits.`
+        similar: ['Irresistible', "The Smart Girl's Guide to Privacy", '200+ Ways to Protect Your Privacy'],
+        description: `Reasons that social media's cons outweigh any of its benefits.`
     },
     {
         title: 'The Living and the Dead',
         series: '',
         author: 'Jason',
+        authorLast: 'Jason',
         myRating: 4,
         pages: 48,
         wordCount: 406,
@@ -3509,13 +3693,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/living-and-dead.jpg',
         keywords: ['fiction', 'graphic novels', 'horror', 'zombies'],
-		similar: ['30 Days of Night, Vol. 1', 'The Walking Dead, Vol. 1'],
-		description: `A gruesome zombie comedy graphic novel.`
+        similar: ['30 Days of Night, Vol. 1', 'The Walking Dead, Vol. 1'],
+        description: `A gruesome zombie comedy graphic novel.`
     },
     {
         title: 'Blood, Sweat, and Pixels',
         series: '',
         author: 'Jason Schreier',
+        authorLast: 'Schreier, Jason',
         myRating: 10,
         pages: 304,
         wordCount: 75046,
@@ -3523,13 +3708,14 @@ let bookData = [
         yearRead: [2017, 2021],
         thumb: './images/blood-sweat-pixels.jpg',
         keywords: ['nonfiction', 'biography', 'games', 'video games'],
-		similar: ['Console Wars', 'Jacked', 'The Ultimate History of Video Games'],
-		description: `A look into the creation of some of the biggest video games.`
+        similar: ['Console Wars', 'Jacked', 'The Ultimate History of Video Games'],
+        description: `A look into the creation of some of the biggest video games.`
     },
     {
         title: 'Press Reset',
         series: '',
         author: 'Jason Schreier',
+        authorLast: 'Schreier, Jason',
         myRating: 9,
         pages: 320,
         wordCount: 77558,
@@ -3537,13 +3723,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/press-reset.jpg',
         keywords: ['nonfiction', 'biography', 'games', 'video games'],
-		similar: ['Console Wars', 'Jacked', 'The Ultimate History of Video Games'],
-		description: ``
+        similar: ['Console Wars', 'Jacked', 'The Ultimate History of Video Games'],
+        description: ``
     },
     {
         title: 'Thirteen Reasons Why',
         series: '',
         author: 'Jay Asher',
+        authorLast: 'Asher, Jay',
         myRating: 6,
         pages: 288,
         wordCount: 60288,
@@ -3551,13 +3738,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/thirteen-reasons.jpg',
         keywords: ['young adult', 'suicide', 'fiction', 'mental health', 'mystery', 'tv', 'schools'],
-		similar: ['All the Bright Places'],
-		description: `A girl commits suicide and leaves behind cassette tapes explaining why.`
+        similar: ['All the Bright Places'],
+        description: `A girl commits suicide and leaves behind cassette tapes explaining why.`
     },
     {
         title: 'Nerve',
         series: '',
         author: 'Jeanne Ryan',
+        authorLast: 'Ryan, Jeanne',
         myRating: 8,
         pages: 304,
         wordCount: 63899,
@@ -3565,14 +3753,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/nerve.jpg',
         keywords: ['fiction', 'young adult', 'thriller', 'science fiction', 'movies', ],
-		similar: ['Fight Club'],
-		description: `A girl gets wrapped up in an anonymous online game of dares that require riskier
-						challenges for great payouts.`
+        similar: ['Fight Club'],
+        description: `A girl gets wrapped up in an anonymous online game of dares that require riskier challenges for great payouts.`
     },
     {
         title: 'Diary of a Wimpy Kid',
         series: '',
         author: 'Jeff Kinney',
+        authorLast: 'Kinney, Jeff',
         myRating: 6,
         pages: 224,
         wordCount: 18369,
@@ -3580,14 +3768,14 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/diary-of-wimpy.jpg',
         keywords: ['fiction', 'children', 'humor', 'graphic novels', 'schools', 'movies', 'series'],
-		similar: ['The Adventures of Captain Underpants'],
-		description: `A boy starts a new year in a new school where he has to share the halls with
-						massive students who are so big, they're practically shaving.`
+        similar: ['The Adventures of Captain Underpants'],
+        description: `A boy starts a new year in a new school where he has to share the halls with massive students who are so big, they're practically shaving.`
     },
     {
         title: 'Super Mario',
         series: '',
         author: 'Jeff Ryan',
+        authorLast: 'Ryan, Jeff',
         myRating: 7,
         pages: 292,
         wordCount: 78500,
@@ -3595,13 +3783,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/super-mario.jpg',
         keywords: ['nonfiction', 'games', 'video games', 'biography'],
-		similar: ['Console Wars'],
-		description: `A look at the history of the Mario games.`
+        similar: ['Console Wars'],
+        description: `A look at the history of the Mario games.`
     },
     {
         title: 'Annihilation',
         series: '',
         author: 'Jeff VanderMeer',
+        authorLast: 'VanderMeer, Jeff',
         myRating: 5,
         pages: 195,
         wordCount: 56520,
@@ -3609,13 +3798,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/annihilation.jpg',
         keywords: ['fiction', 'horror', 'science fiction', 'movies', 'unreliable narrator', 'series'],
-		similar: ['Meddling Kids', 'Horrorstör', 'Bird Box'],
-		description: `The twelfth expedition into Area X is about to begin. The first eleven all ended in death.`
+        similar: ['Meddling Kids', 'Horrorstör', 'Bird Box'],
+        description: `The twelfth expedition into Area X is about to begin. The first eleven all ended in death.`
     },
     {
         title: "Who's Afraid of the Multiverse",
         series: '',
         author: 'Jeffrey Zweerink',
+        authorLast: 'Zweerink, Jeffrey',
         myRating: 7,
         pages: 66,
         wordCount: 19500,
@@ -3623,13 +3813,14 @@ let bookData = [
         yearRead: [2020],
         thumb: './images/whos-afraid.jpg',
         keywords: ['nonfiction', 'christian', 'science'],
-		similar: ['Navigating Genesis'],
-		description: `A breakdown of the different theories of the multiverse and whether it fits into a Biblical narrative.`
+        similar: ['Navigating Genesis'],
+        description: `A breakdown of the different theories of the multiverse and whether it fits into a Biblical narrative.`
     },
     {
         title: 'The No-Spend Challenge Guide',
         series: '',
         author: 'Jen Smith',
+        authorLast: 'Smith, Jen',
         myRating: 5,
         pages: 99,
         wordCount: 36002,
@@ -3637,13 +3828,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/no-spend.jpg',
         keywords: ['nonfiction', 'money', 'personal finance', 'self-help', ],
-		similar: ['The Year of Less'],
-		description: `Basically a blog post of how you can cut costs in different areas of your life.`
+        similar: ['The Year of Less'],
+        description: `Basically a blog post of how you can cut costs in different areas of your life.`
     },
     {
         title: '200+ Ways to Protect Your Privacy',
         series: '',
         author: 'Jeni Rogers',
+        authorLast: 'Rogers, Jeni',
         myRating: 5,
         pages: 256,
         wordCount: 68841,
@@ -3651,13 +3843,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/protect-privacy.jpg',
         keywords: ['nonfiction', 'technology', ],
-		similar: ["The Smart Girl's Guide to Privacy"],
-		description: `Ways to protect yourself online.`
+        similar: ["The Smart Girl's Guide to Privacy"],
+        description: `Ways to protect yourself online.`
     },
     {
         title: 'The Office BFFs',
         series: '',
         author: 'Jenna Fischer',
+        authorLast: 'Fischer, Jenna',
         myRating: 7,
         pages: 240,
         wordCount: 79442,
@@ -3665,13 +3858,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/office-bffs.jpg',
         keywords: ['nonfiction', 'memoir', 'tv'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'All the Bright Places',
         series: '',
         author: 'Jennifer Niven',
+        authorLast: 'Niven, Jennifer',
         myRating: 6,
         pages: 378,
         wordCount: 104248,
@@ -3679,13 +3873,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/all-bright-places.jpg',
         keywords: ['fiction', 'young adult', 'suicide', 'romance', 'mental health', 'movies', 'schools'],
-		similar: ['Thirteen Reasons Why'],
-		description: `A girl who learns to live from a boy who intends to die.`
+        similar: ['Thirteen Reasons Why'],
+        description: `A girl who learns to live from a boy who intends to die.`
     },
     {
         title: 'The Summer I Turned Pretty',
         series: '',
         author: 'Jenny Han',
+        authorLast: 'Han, Jenny',
         myRating: 7,
         pages: 276,
         wordCount: 65469,
@@ -3693,14 +3888,14 @@ let bookData = [
         yearRead: [2018, 2022],
         thumb: './images/summer-pretty1.jpg',
         keywords: ['fiction', 'young adult', 'romance', 'series', 'coming of age'],
-		similar: ['Let It Snow', 'Eleanor & Park'],
-		description: `A girl spends every summer with some family friend's at a beach house, but this summer
-						it's finally dawned on them how mature she's become.`
+        similar: ['Let It Snow', 'Eleanor & Park'],
+        description: `A girl spends every summer with some family friend's at a beach house, but this summer it's finally dawned on them how mature she's become.`
     },
     {
         title: "It's Not Summer Without You",
         series: '',
         author: 'Jenny Han',
+        authorLast: 'Han, Jenny',
         myRating: 7,
         pages: 288,
         wordCount: 62486,
@@ -3708,13 +3903,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/summer-pretty2.jpg',
         keywords: ['fiction', 'young adult', 'romance', 'series'],
-		similar: ['Let It Snow', 'Eleanor & Park'],
-		description: `Sequel to The Summer I Turned Pretty`
+        similar: ['Let It Snow', 'Eleanor & Park'],
+        description: `Sequel to The Summer I Turned Pretty`
     },
     {
         title: "We'll Always Have Summer",
         series: '',
         author: 'Jenny Han',
+        authorLast: 'Han, Jenny',
         myRating: 7,
         pages: 291,
         wordCount: 63428,
@@ -3722,13 +3918,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/summer-pretty3.jpg',
         keywords: ['fiction', 'young adult', 'romance', 'series'],
-		similar: ['Let It Snow', 'Eleanor & Park'],
-		description: `Sequel to The Summer I Turned Pretty`
+        similar: ['Let It Snow', 'Eleanor & Park'],
+        description: `Sequel to The Summer I Turned Pretty`
     },
     {
         title: 'Remnant of Victory',
         series: '',
         author: 'Jeri Odell',
+        authorLast: 'Odell, Jeri',
         myRating: 7,
         pages: 176,
         wordCount: 49152,
@@ -3736,14 +3933,14 @@ let bookData = [
         yearRead: [2000],
         thumb: './images/remnant-victory.jpg',
         keywords: ['fiction', 'romance', 'christian', 'series'],
-		similar: ['Eleanor & Park'],
-		description: `An Asian immigrant wants to be 100% American, including with who he dates. But
-						an Asian immigrant girl may make that plan hard to stick to.`
+        similar: ['Eleanor & Park'],
+        description: `An Asian immigrant wants to be 100% American, including with who he dates. But an Asian immigrant girl may make that plan hard to stick to.`
     },
     {
         title: "50 Things They Don't Want You to Know",
         series: '',
         author: 'Jerome Hudson',
+        authorLast: 'Hudson, Jerome',
         myRating: 5,
         pages: 321,
         wordCount: 73005,
@@ -3751,13 +3948,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/50-things.jpg',
         keywords: ['nonfiction', 'politics'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Three Men in a Boat',
         series: '',
         author: 'Jerome K. Jerome',
+        authorLast: 'Jerome, Jerome K.',
         myRating: 7,
         pages: 185,
         wordCount: 62643,
@@ -3765,13 +3963,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/three-men-boat.jpg',
         keywords: ['fiction', 'humor', 'travel'],
-		similar: ['Cold Sassy Tree'],
-		description: `A funny trip down a river with three friends.`
+        similar: ['Cold Sassy Tree'],
+        description: `A funny trip down a river with three friends.`
     },
     {
         title: 'The Vanishings',
         series: '',
         author: 'Jerry B. Jenkins',
+        authorLast: 'Jenkins, Jerry B.',
         myRating: 6,
         pages: 148,
         wordCount: 29045,
@@ -3779,13 +3978,14 @@ let bookData = [
         yearRead: [2002, 2009],
         thumb: './images/left-behind-kids1.jpg',
         keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series'],
-		similar: ['Left Behind'],
-		description: `In the blink of an eye, hundreds of millions of people are raptured from the earth.`
+        similar: ['Left Behind'],
+        description: `In the blink of an eye, hundreds of millions of people are raptured from the earth.`
     },
     {
         title: 'Second Chance',
         series: '',
         author: 'Jerry B. Jenkins',
+        authorLast: 'Jenkins, Jerry B.',
         myRating: 6,
         pages: 144,
         wordCount: 27632,
@@ -3793,13 +3993,14 @@ let bookData = [
         yearRead: [2002, 2009],
         thumb: './images/left-behind-kids2.jpg',
         keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series'],
-		similar: ['Left Behind'],
-		description: `One of the books in the Left Behind Kids series.`
+        similar: ['Left Behind'],
+        description: `One of the books in the Left Behind Kids series.`
     },
     {
         title: 'Through the Flames',
         series: '',
         author: 'Jerry B. Jenkins',
+        authorLast: 'Jenkins, Jerry B.',
         myRating: 6,
         pages: 146,
         wordCount: 29987,
@@ -3807,13 +4008,14 @@ let bookData = [
         yearRead: [2002, 2009],
         thumb: './images/left-behind-kids3.jpg',
         keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series'],
-		similar: ['Left Behind'],
-		description: `One of the books in the Left Behind Kids series.`
+        similar: ['Left Behind'],
+        description: `One of the books in the Left Behind Kids series.`
     },
     {
         title: 'Facing the Future',
         series: '',
         author: 'Jerry B. Jenkins',
+        authorLast: 'Jenkins, Jerry B.',
         myRating: 6,
         pages: 150,
         wordCount: 29516,
@@ -3821,13 +4023,14 @@ let bookData = [
         yearRead: [2002, 2009],
         thumb: './images/left-behind-kids4.jpg',
         keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series'],
-		similar: ['Left Behind'],
-		description: `One of the books in the Left Behind Kids series.`
+        similar: ['Left Behind'],
+        description: `One of the books in the Left Behind Kids series.`
     },
     {
         title: 'Nicolae High',
         series: '',
         author: 'Jerry B. Jenkins',
+        authorLast: 'Jenkins, Jerry B.',
         myRating: 5,
         pages: 118,
         wordCount: 23128,
@@ -3835,13 +4038,14 @@ let bookData = [
         yearRead: [2002, 2009],
         thumb: './images/left-behind-kids5.jpg',
         keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series', 'schools'],
-		similar: ['Left Behind'],
-		description: `One of the books in the Left Behind Kids series.`
+        similar: ['Left Behind'],
+        description: `One of the books in the Left Behind Kids series.`
     },
     {
         title: 'The Underground',
         series: '',
         author: 'Jerry B. Jenkins',
+        authorLast: 'Jenkins, Jerry B.',
         myRating: 5,
         pages: 114,
         wordCount: 22344,
@@ -3849,13 +4053,14 @@ let bookData = [
         yearRead: [2002, 2009],
         thumb: './images/left-behind-kids6.jpg',
         keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series'],
-		similar: ['Left Behind'],
-		description: `One of the books in the Left Behind Kids series.`
+        similar: ['Left Behind'],
+        description: `One of the books in the Left Behind Kids series.`
     },
     {
         title: 'Busted!',
         series: '',
         author: 'Jerry B. Jenkins',
+        authorLast: 'Jenkins, Jerry B.',
         myRating: 5,
         pages: 128,
         wordCount: 25088,
@@ -3863,13 +4068,14 @@ let bookData = [
         yearRead: [2002, 2009],
         thumb: './images/left-behind-kids7.jpg',
         keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series'],
-		similar: ['Left Behind'],
-		description: `One of the books in the Left Behind Kids series.`
+        similar: ['Left Behind'],
+        description: `One of the books in the Left Behind Kids series.`
     },
     {
         title: 'Death Strike',
         series: '',
         author: 'Jerry B. Jenkins',
+        authorLast: 'Jenkins, Jerry B.',
         myRating: 5,
         pages: 123,
         wordCount: 24108,
@@ -3877,13 +4083,14 @@ let bookData = [
         yearRead: [2002, 2009],
         thumb: './images/left-behind-kids8.jpg',
         keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series'],
-		similar: ['Left Behind'],
-		description: `One of the books in the Left Behind Kids series.`
+        similar: ['Left Behind'],
+        description: `One of the books in the Left Behind Kids series.`
     },
     {
         title: 'The Search',
         series: '',
         author: 'Jerry B. Jenkins',
+        authorLast: 'Jenkins, Jerry B.',
         myRating: 5,
         pages: 162,
         wordCount: 31752,
@@ -3891,13 +4098,14 @@ let bookData = [
         yearRead: [2002, 2009],
         thumb: './images/left-behind-kids9.jpg',
         keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series'],
-		similar: ['Left Behind'],
-		description: `One of the books in the Left Behind Kids series.`
+        similar: ['Left Behind'],
+        description: `One of the books in the Left Behind Kids series.`
     },
     {
         title: 'On the Run',
         series: '',
         author: 'Jerry B. Jenkins',
+        authorLast: 'Jenkins, Jerry B.',
         myRating: 5,
         pages: 160,
         wordCount: 31360,
@@ -3905,13 +4113,14 @@ let bookData = [
         yearRead: [2002, 2009],
         thumb: './images/left-behind-kids10.jpg',
         keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series'],
-		similar: ['Left Behind'],
-		description: `One of the books in the Left Behind Kids series.`
+        similar: ['Left Behind'],
+        description: `One of the books in the Left Behind Kids series.`
     },
     {
         title: 'Into the Storm',
         series: '',
         author: 'Jerry B. Jenkins',
+        authorLast: 'Jenkins, Jerry B.',
         myRating: 5,
         pages: 160,
         wordCount: 31360,
@@ -3919,13 +4128,14 @@ let bookData = [
         yearRead: [2002, 2009],
         thumb: './images/left-behind-kids11.jpg',
         keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series'],
-		similar: ['Left Behind'],
-		description: `One of the books in the Left Behind Kids series.`
+        similar: ['Left Behind'],
+        description: `One of the books in the Left Behind Kids series.`
     },
     {
         title: 'Earthquake!',
         series: '',
         author: 'Jerry B. Jenkins',
+        authorLast: 'Jenkins, Jerry B.',
         myRating: 5,
         pages: 140,
         wordCount: 27440,
@@ -3933,13 +4143,14 @@ let bookData = [
         yearRead: [2002, 2009],
         thumb: './images/left-behind-kids12.jpg',
         keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series'],
-		similar: ['Left Behind'],
-		description: `One of the books in the Left Behind Kids series.`
+        similar: ['Left Behind'],
+        description: `One of the books in the Left Behind Kids series.`
     },
     {
         title: 'The Showdown',
         series: '',
         author: 'Jerry B. Jenkins',
+        authorLast: 'Jenkins, Jerry B.',
         myRating: 5,
         pages: 152,
         wordCount: 29792,
@@ -3947,13 +4158,14 @@ let bookData = [
         yearRead: [2003, 2009],
         thumb: './images/left-behind-kids13.jpg',
         keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series'],
-		similar: ['Left Behind'],
-		description: `One of the books in the Left Behind Kids series.`
+        similar: ['Left Behind'],
+        description: `One of the books in the Left Behind Kids series.`
     },
     {
         title: 'Judgment Day',
         series: '',
         author: 'Jerry B. Jenkins',
+        authorLast: 'Jenkins, Jerry B.',
         myRating: 5,
         pages: 130,
         wordCount: 25480,
@@ -3961,13 +4173,14 @@ let bookData = [
         yearRead: [2003, 2009],
         thumb: './images/left-behind-kids14.jpg',
         keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series'],
-		similar: ['Left Behind'],
-		description: `One of the books in the Left Behind Kids series.`
+        similar: ['Left Behind'],
+        description: `One of the books in the Left Behind Kids series.`
     },
     {
         title: 'Battling the Commander',
         series: '',
         author: 'Jerry B. Jenkins',
+        authorLast: 'Jenkins, Jerry B.',
         myRating: 5,
         pages: 140,
         wordCount: 27440,
@@ -3975,13 +4188,14 @@ let bookData = [
         yearRead: [2003, 2009],
         thumb: './images/left-behind-kids15.jpg',
         keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series'],
-		similar: ['Left Behind'],
-		description: `One of the books in the Left Behind Kids series.`
+        similar: ['Left Behind'],
+        description: `One of the books in the Left Behind Kids series.`
     },
     {
         title: 'Fire from Heaven',
         series: '',
         author: 'Jerry B. Jenkins',
+        authorLast: 'Jenkins, Jerry B.',
         myRating: 5,
         pages: 142,
         wordCount: 27832,
@@ -3989,13 +4203,14 @@ let bookData = [
         yearRead: [2003, 2009],
         thumb: './images/left-behind-kids16.jpg',
         keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series'],
-		similar: ['Left Behind'],
-		description: `One of the books in the Left Behind Kids series.`
+        similar: ['Left Behind'],
+        description: `One of the books in the Left Behind Kids series.`
     },
     {
         title: 'Terror in the Stadium',
         series: '',
         author: 'Jerry B. Jenkins',
+        authorLast: 'Jenkins, Jerry B.',
         myRating: 5,
         pages: 152,
         wordCount: 29792,
@@ -4003,13 +4218,14 @@ let bookData = [
         yearRead: [2003, 2009],
         thumb: './images/left-behind-kids17.jpg',
         keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series'],
-		similar: ['Left Behind'],
-		description: `One of the books in the Left Behind Kids series.`
+        similar: ['Left Behind'],
+        description: `One of the books in the Left Behind Kids series.`
     },
     {
         title: 'Darkening Skies',
         series: '',
         author: 'Jerry B. Jenkins',
+        authorLast: 'Jenkins, Jerry B.',
         myRating: 5,
         pages: 149,
         wordCount: 29204,
@@ -4017,13 +4233,14 @@ let bookData = [
         yearRead: [2003, 2009],
         thumb: './images/left-behind-kids18.jpg',
         keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series'],
-		similar: ['Left Behind'],
-		description: `One of the books in the Left Behind Kids series.`
+        similar: ['Left Behind'],
+        description: `One of the books in the Left Behind Kids series.`
     },
     {
         title: 'Attack of Apollyon',
         series: '',
         author: 'Jerry B. Jenkins',
+        authorLast: 'Jenkins, Jerry B.',
         myRating: 5,
         pages: 150,
         wordCount: 29400,
@@ -4031,13 +4248,14 @@ let bookData = [
         yearRead: [2003, 2009],
         thumb: './images/left-behind-kids19.jpg',
         keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series'],
-		similar: ['Left Behind'],
-		description: `One of the books in the Left Behind Kids series.`
+        similar: ['Left Behind'],
+        description: `One of the books in the Left Behind Kids series.`
     },
     {
         title: 'A Dangerous Plan',
         series: '',
         author: 'Jerry B. Jenkins',
+        authorLast: 'Jenkins, Jerry B.',
         myRating: 5,
         pages: 176,
         wordCount: 34496,
@@ -4045,13 +4263,14 @@ let bookData = [
         yearRead: [2003, 2009],
         thumb: './images/left-behind-kids20.jpg',
         keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series'],
-		similar: ['Left Behind'],
-		description: `One of the books in the Left Behind Kids series.`
+        similar: ['Left Behind'],
+        description: `One of the books in the Left Behind Kids series.`
     },
     {
         title: 'Secrets of New Babylon',
         series: '',
         author: 'Jerry B. Jenkins',
+        authorLast: 'Jenkins, Jerry B.',
         myRating: 5,
         pages: 152,
         wordCount: 29792,
@@ -4059,13 +4278,14 @@ let bookData = [
         yearRead: [2009],
         thumb: './images/left-behind-kids21.jpg',
         keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series'],
-		similar: ['Left Behind'],
-		description: `One of the books in the Left Behind Kids series.`
+        similar: ['Left Behind'],
+        description: `One of the books in the Left Behind Kids series.`
     },
     {
         title: 'Escape from New Babylon',
         series: '',
         author: 'Jerry B. Jenkins',
+        authorLast: 'Jenkins, Jerry B.',
         myRating: 5,
         pages: 148,
         wordCount: 29008,
@@ -4073,13 +4293,14 @@ let bookData = [
         yearRead: [2009],
         thumb: './images/left-behind-kids22.jpg',
         keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series'],
-		similar: ['Left Behind'],
-		description: `One of the books in the Left Behind Kids series.`
+        similar: ['Left Behind'],
+        description: `One of the books in the Left Behind Kids series.`
     },
     {
         title: 'Horsemen of Terror',
         series: '',
         author: 'Jerry B. Jenkins',
+        authorLast: 'Jenkins, Jerry B.',
         myRating: 5,
         pages: 150,
         wordCount: 29400,
@@ -4087,13 +4308,14 @@ let bookData = [
         yearRead: [2009],
         thumb: './images/left-behind-kids23.jpg',
         keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series'],
-		similar: ['Left Behind'],
-		description: `One of the books in the Left Behind Kids series.`
+        similar: ['Left Behind'],
+        description: `One of the books in the Left Behind Kids series.`
     },
     {
         title: 'Uplink from the Underground',
         series: '',
         author: 'Jerry B. Jenkins',
+        authorLast: 'Jenkins, Jerry B.',
         myRating: 5,
         pages: 160,
         wordCount: 31360,
@@ -4101,13 +4323,14 @@ let bookData = [
         yearRead: [2009],
         thumb: './images/left-behind-kids24.jpg',
         keywords: ['fiction', 'christian', 'young adult', 'apocalyptic', 'left behind', 'series'],
-		similar: ['Left Behind'],
-		description: `One of the books in the Left Behind Kids series.`
+        similar: ['Left Behind'],
+        description: `One of the books in the Left Behind Kids series.`
     },
     {
         title: 'Upside Down',
         series: '',
         author: 'Jess Smart Smiley',
+        authorLast: 'Smiley, Jess Smart',
         myRating: 5,
         pages: 144,
         wordCount: 2880,
@@ -4115,13 +4338,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/vamp-tale.jpg',
         keywords: ['fiction', 'vampires', 'graphic novels', 'children', 'humor', 'series'],
-		similar: ['Ghosts', "Anya's Ghost"],
-		description: `A young vampire loves candy so much he may lose his teeth.`
+        similar: ['Ghosts', "Anya's Ghost"],
+        description: `A young vampire loves candy so much he may lose his teeth.`
     },
     {
         title: 'Me and Earl and the Dying Girl',
         series: '',
         author: 'Jesse Andrews',
+        authorLast: 'Andrews, Jesse',
         myRating: 6,
         pages: 295,
         wordCount: 57933,
@@ -4129,13 +4353,14 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/me-earl.jpg',
         keywords: ['fiction', 'young adult', 'sickness', 'humor', 'death', 'coming of age', 'movies', 'schools'],
-		similar: ['The Fault in Our Stars', 'Looking for Alaska'],
-		description: `A teenager is forced to hang out with his childhood friend struggling with leukemia.`
+        similar: ['The Fault in Our Stars', 'Looking for Alaska'],
+        description: `A teenager is forced to hang out with his childhood friend struggling with leukemia.`
     },
     {
         title: 'The Danish Way of Parenting',
         series: '',
         author: 'Jessica Joelle Alexander',
+        authorLast: 'Alexander, Jessica Joelle',
         myRating: 5,
         pages: 224,
         wordCount: 32656,
@@ -4143,13 +4368,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/danish-way.jpg',
         keywords: ['nonfiction', 'parenting', ],
-		similar: ['The Montessori Toddler', 'Finding Sisu'],
-		description: `A look at how the people of Denmark raise their kids.`
+        similar: ['The Montessori Toddler', 'Finding Sisu'],
+        description: `A look at how the people of Denmark raise their kids.`
     },
     {
         title: 'Full Frontal Feminism',
         series: '',
         author: 'Jessica Valenti',
+        authorLast: 'Valenti, Jessica',
         myRating: 5,
         pages: 288,
         wordCount: 79128,
@@ -4157,13 +4383,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/full-frontal.jpg',
         keywords: ['nonfiction', 'feminism', 'gender', ],
-		similar: ['We Should All Be Feminists', 'Dear Ijeawele'],
-		description: `Feminism and pop culture, health, rights, violence, education, relationships, and more.`
+        similar: ['We Should All Be Feminists', 'Dear Ijeawele'],
+        description: `Feminism and pop culture, health, rights, violence, education, relationships, and more.`
     },
     {
         title: 'Storm Front',
         series: '',
         author: 'Jim Butcher',
+        authorLast: 'Butcher, Jim',
         myRating: 8,
         pages: 384,
         wordCount: 75517,
@@ -4171,13 +4398,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/dresden1.jpg',
         keywords: ['fiction', 'dreseden files', 'fantasy', 'magic', 'wizards', 'crime', 'mystery', 'vampires', 'series'],
-		similar: ['Dead Until Dark', 'Guilty Pleasures'],
-		description: `Book 1 in the Dresden series. Harry Dresden is a wizard detective who helps out Chicago P.D.`
+        similar: ['Dead Until Dark', 'Guilty Pleasures'],
+        description: `Book 1 in the Dresden series. Harry Dresden is a wizard detective who helps out Chicago P.D.`
     },
     {
         title: 'Fool Moon',
         series: '',
         author: 'Jim Butcher',
+        authorLast: 'Butcher, Jim',
         myRating: 7,
         pages: 401,
         wordCount: 95142,
@@ -4185,13 +4413,14 @@ let bookData = [
         yearRead: [2020],
         thumb: './images/dresden2.jpg',
         keywords: ['fiction', 'dreseden files', 'fantasy', 'magic', 'wizards', 'crime', 'mystery', 'vampires', 'werewolves', 'series'],
-		similar: ['Dead Until Dark', 'Guilty Pleasures'],
-		description: `Book 2 in the Dresden series.`
+        similar: ['Dead Until Dark', 'Guilty Pleasures'],
+        description: `Book 2 in the Dresden series.`
     },
     {
         title: 'Grave Peril',
         series: '',
         author: 'Jim Butcher',
+        authorLast: 'Butcher, Jim',
         myRating: 7,
         pages: 378,
         wordCount: 112255,
@@ -4199,13 +4428,14 @@ let bookData = [
         yearRead: [2020],
         thumb: './images/dresden3.jpg',
         keywords: ['fiction', 'dreseden files', 'fantasy', 'magic', 'wizards', 'crime', 'mystery', 'vampires', 'series'],
-		similar: ['Dead Until Dark', 'Guilty Pleasures'],
-		description: `Book 3 in the Dresden series.`
+        similar: ['Dead Until Dark', 'Guilty Pleasures'],
+        description: `Book 3 in the Dresden series.`
     },
     {
         title: 'Rick and Morty vs. Dungeons & Dragons II',
         series: '',
         author: 'Jim Zub',
+        authorLast: 'Zub, Jim',
         myRating: 6,
         pages: 128,
         wordCount: 7680,
@@ -4213,13 +4443,14 @@ let bookData = [
         yearRead: [2020],
         thumb: './images/rick-morty-vs-dnd2.jpg',
         keywords: ['tv', 'humor', 'dnd', 'comics', 'graphic novels', 'fantasy', 'science fiction', 'series'],
-		similar: ['Rick and Morty vs. Dungeons & Dragons', "Rick and Morty: Lil' Poopy Superstar", "Rick and Morty, Vol. 1"],
-		description: `Dungeons & Dragons comes to Earth and now Rick and Morty need to survive the Painscape.`
+        similar: ['Rick and Morty vs. Dungeons & Dragons', "Rick and Morty: Lil' Poopy Superstar", "Rick and Morty, Vol. 1"],
+        description: `Dungeons & Dragons comes to Earth and now Rick and Morty need to survive the Painscape.`
     },
     {
         title: 'Passion & Purpose',
         series: '',
         author: 'Jimmy Seibert',
+        authorLast: 'Seibert, Jimmy',
         myRating: 5,
         pages: 214,
         wordCount: 58850,
@@ -4227,13 +4458,14 @@ let bookData = [
         yearRead: [2014],
         thumb: './images/passion-purpose.jpg',
         keywords: ['nonfiction', 'church', 'christian', 'memoir'],
-		similar: ['The Father Heart of God'],
-		description: `Jimmy Seibert's (founder of Antioch Church) memoir.`
+        similar: ['The Father Heart of God'],
+        description: `Jimmy Seibert's (founder of Antioch Church) memoir.`
     },
     {
         title: 'Discipline Equals Freedom',
         series: '',
         author: 'Jocko Willink',
+        authorLast: 'Willink, Jocko',
         myRating: 9,
         pages: 189,
         wordCount: 20790,
@@ -4241,14 +4473,14 @@ let bookData = [
         yearRead: [2020],
         thumb: './images/discipline.jpg',
         keywords: ['nonfiction', 'self-help', 'habits'],
-		similar: ['High Performance Habits', 'Atomic Habits'],
-		description: `Strategies for conquering weakness, procrastination, and fear; specific physical 
-					training; the best sleep habits; and food intake recommended to optimize performance.`
+        similar: ['High Performance Habits', 'Atomic Habits'],
+        description: `Strategies for conquering weakness, procrastination, and fear; specific physical training; the best sleep habits; and food intake recommended to optimize performance.`
     },
     {
         title: 'Stolen Focus',
         series: '',
         author: 'Johann Hari',
+        authorLast: 'Hari, Johann',
         myRating: 8,
         pages: 283,
         wordCount: 97340,
@@ -4256,13 +4488,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/stolen-focus.jpg',
         keywords: ['nonfiction', 'self-help', 'habits'],
-		similar: [''],
-		description: ``
+        similar: [''],
+        description: ``
     },
     {
         title: 'Creativity',
         series: '',
         author: 'John Cleese',
+        authorLast: 'Cleese, John',
         myRating: 7,
         pages: 112,
         wordCount: 9263,
@@ -4270,13 +4503,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/creativity-cleese.jpg',
         keywords: ['nonfiction', 'writing'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Wild at Heart',
         series: '',
         author: 'John Eldredge',
+        authorLast: 'Eldredge, John',
         myRating: 8,
         pages: 242,
         wordCount: 78500,
@@ -4284,13 +4518,14 @@ let bookData = [
         yearRead: [2009, 2011],
         thumb: './images/wild-at-heart.jpg',
         keywords: ['nonfiction', 'christian', 'christian living'],
-		similar: ['Courageous Leadership', 'The Radical Reformission'],
-		description: `A look inside the true heart of a man-- designed to be dangerous, passionate, alive, and free.`
+        similar: ['Courageous Leadership', 'The Radical Reformission'],
+        description: `A look inside the true heart of a man-- designed to be dangerous, passionate, alive, and free.`
     },
     {
         title: 'Looking for God in Harry Potter',
         series: '',
         author: 'John Granger',
+        authorLast: 'Granger, John',
         myRating: 7,
         pages: 234,
         wordCount: 63140,
@@ -4298,13 +4533,14 @@ let bookData = [
         yearRead: [2010],
         thumb: './images/god-in-hp.jpg',
         keywords: ['nonfiction', 'christian', 'harry potter'],
-		similar: ["Harry Potter and the Sorcerer's Stone"],
-		description: `How Harry Potter has Christian elements interwoven within all of its stories.`
+        similar: ["Harry Potter and the Sorcerer's Stone"],
+        description: `How Harry Potter has Christian elements interwoven within all of its stories.`
     },
     {
         title: 'The Anthropocene Reviewed',
         series: '',
         author: 'John Green',
+        authorLast: 'Green, John',
         myRating: 9,
         pages: 293,
         wordCount: 94671,
@@ -4312,13 +4548,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/anthropocene.jpg',
         keywords: ['nonfiction', 'anthropology'],
-		similar: [],
-		description: `An anthropological look into various objects along with reviews for each one.`
+        similar: [],
+        description: `An anthropological look into various objects along with reviews for each one.`
     },
     {
         title: 'Looking for Alaska',
         series: '',
         author: 'John Green',
+        authorLast: 'Green, John',
         myRating: 9,
         pages: 221,
         wordCount: 62800,
@@ -4326,14 +4563,14 @@ let bookData = [
         yearRead: [2015, 2017, 2019],
         thumb: './images/alaska.jpg',
         keywords: ['fiction', 'young adult', 'romance', 'coming of age', 'death', 'tv', 'schools'],
-		similar: ['Me and Earl and the Dying Girl', 'Turtles All the Way Down', 'The Fault in Our Stars'],
-		description: `A boy obsessed with the last words of people goes to a boarding school where his 
-					safe-living personality is challenged by a girl who's his complete opposite.`
+        similar: ['Me and Earl and the Dying Girl', 'Turtles All the Way Down', 'The Fault in Our Stars'],
+        description: `A boy obsessed with the last words of people goes to a boarding school where his safe-living personality is challenged by a girl who's his complete opposite.`
     },
     {
         title: 'An Abundance of Katherines',
         series: '',
         author: 'John Green',
+        authorLast: 'Green, John',
         myRating: 8,
         pages: 229,
         wordCount: 63899,
@@ -4341,13 +4578,14 @@ let bookData = [
         yearRead: [2015, 2017],
         thumb: './images/katherines.jpg',
         keywords: ['fiction', 'young adult', 'romance', 'coming of age'],
-		similar: ['Will Grayson, Will Grayson', 'Paper Towns', 'Eleanor & Park'],
-		description: `A washed-up child prodigy who has been dumped by 19 different Katherines goes on a road trip with his best friend.`
+        similar: ['Will Grayson, Will Grayson', 'Paper Towns', 'Eleanor & Park'],
+        description: `A washed-up child prodigy who has been dumped by 19 different Katherines goes on a road trip with his best friend.`
     },
     {
         title: 'Turtles All the Way Down',
         series: '',
         author: 'John Green',
+        authorLast: 'Green, John',
         myRating: 7,
         pages: 286,
         wordCount: 67824,
@@ -4355,13 +4593,14 @@ let bookData = [
         yearRead: [2017, 2019],
         thumb: './images/turtles.jpg',
         keywords: ['fiction', 'young adult', 'romance', 'coming of age', 'mental health'],
-		similar: ['Looking for Alaska', 'Paper Towns', 'The Perks of Being a Wallflower'],
-		description: `A teenager with OCD searches for a missing billionaire with a cash reward bounty.`
+        similar: ['Looking for Alaska', 'Paper Towns', 'The Perks of Being a Wallflower'],
+        description: `A teenager with OCD searches for a missing billionaire with a cash reward bounty.`
     },
     {
         title: 'Will Grayson, Will Grayson',
         series: '',
         author: 'John Green',
+        authorLast: 'Green, John',
         myRating: 7,
         pages: 310,
         wordCount: 73947,
@@ -4369,13 +4608,14 @@ let bookData = [
         yearRead: [2015, 2017],
         thumb: './images/will-grayson.jpg',
         keywords: ['fiction', 'young adult', 'romance', 'coming of age', 'lgbt'],
-		similar: ['Simon vs. the Homo Sapiens Agenda', 'Struck By Lightning'],
-		description: `A boy named Will Grayson meets a boy named Will Grayson.`
+        similar: ['Simon vs. the Homo Sapiens Agenda', 'Struck By Lightning'],
+        description: `A boy named Will Grayson meets a boy named Will Grayson.`
     },
     {
         title: 'The Fault in Our Stars',
         series: '',
         author: 'John Green',
+        authorLast: 'Green, John',
         myRating: 7,
         pages: 316,
         wordCount: 68138,
@@ -4383,13 +4623,14 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/fault-stars.jpg',
         keywords: ['fiction', 'young adult', 'romance', 'coming of age', 'death', 'movies'],
-		similar: ['Looking for Alaska', 'Me and Earl and the Dying Girl', 'Turtles All the Way Down'],
-		description: `A girl with a terminal illness finds love at Cancer Kid Support Group.`
+        similar: ['Looking for Alaska', 'Me and Earl and the Dying Girl', 'Turtles All the Way Down'],
+        description: `A girl with a terminal illness finds love at Cancer Kid Support Group.`
     },
     {
         title: 'Paper Towns',
         series: '',
         author: 'John Green',
+        authorLast: 'Green, John',
         myRating: 8,
         pages: 336,
         wordCount: 75360,
@@ -4397,13 +4638,14 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/paper-towns.jpg',
         keywords: ['fiction', 'young adult', 'romance', 'coming of age', 'mystery', 'movies'],
-		similar: ['An Abundance of Katherines', 'Turtles All the Way Down', 'Eleanor & Park'],
-		description: `A boy searches for the neighbor he's always loved when she disappears.`
+        similar: ['An Abundance of Katherines', 'Turtles All the Way Down', 'Eleanor & Park'],
+        description: `A boy searches for the neighbor he's always loved when she disappears.`
     },
     {
         title: 'Let It Snow',
         series: '',
         author: 'John Green',
+        authorLast: 'Green, John',
         myRating: 9,
         pages: 352,
         wordCount: 76773,
@@ -4411,13 +4653,14 @@ let bookData = [
         yearRead: [2015, 2017],
         thumb: './images/let-it-snow.jpg',
         keywords: ['fiction', 'young adult', 'romance', 'christmas', 'tv'],
-		similar: ['My True Love Gave to Me', 'The Summer I Turned Pretty'],
-		description: `A Christmas Eve snowstorm transforms one small town into a romantic haven, the kind you see only in movies.`
+        similar: ['My True Love Gave to Me', 'The Summer I Turned Pretty'],
+        description: `A Christmas Eve snowstorm transforms one small town into a romantic haven, the kind you see only in movies.`
     },
     {
         title: 'Mind Hacking',
         series: '',
         author: 'John Hargrave',
+        authorLast: 'Hargrave, John',
         myRating: 7,
         pages: 256,
         wordCount: 121361,
@@ -4425,13 +4668,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/mind-hacking.jpg',
         keywords: ['nonfiction', 'psychology', 'self-help'],
-		similar: ['The Happiness Hack', 'Atomic Habits'],
-		description: `A how-to manual for hacking your head.`
+        similar: ['The Happiness Hack', 'Atomic Habits'],
+        description: `A how-to manual for hacking your head.`
     },
     {
         title: 'Chew, Vol. 1',
         series: '',
         author: 'John Layman',
+        authorLast: 'Layman, John',
         myRating: 5,
         pages: 128,
         wordCount: 15360,
@@ -4439,13 +4683,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/chew.jpg',
         keywords: ['fiction', 'graphic novels', 'zombies', 'crime'],
-		similar: ['Warm Bodies', 'The Walking Dead, Vol. 1'],
-		description: `A detective gets psychic impressions from chewing on murder victims.`
+        similar: ['Warm Bodies', 'The Walking Dead, Vol. 1'],
+        description: `A detective gets psychic impressions from chewing on murder victims.`
     },
     {
         title: 'BiblioTech',
         series: '',
         author: 'John Palfrey',
+        authorLast: 'Palfrey, John',
         myRating: 6,
         pages: 288,
         wordCount: 54165,
@@ -4453,13 +4698,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/bibliotech.jpg',
         keywords: ['nonfiction', 'books', 'technology'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Harry Potter and the Cursed Child',
         series: '',
         author: 'John Tiffany',
+        authorLast: 'Tiffany, John',
         myRating: 6,
         pages: 343,
         wordCount: 49074,
@@ -4467,13 +4713,14 @@ let bookData = [
         yearRead: [2016, 2017],
         thumb: './images/hp-cursed.jpg',
         keywords: ['harry potter', 'fiction', 'play', 'time travel', 'script', 'fantasy', 'magic', 'wizards', 'witches', 'series', 'schools'],
-		similar: ["Harry Potter and the Sorcerer's Stone", 'Fantastic Beasts and Where to Find Them: The Original Screenplay'],
-		description: `The script for the Broadway Harry Potter play set at a time when Harry Potter's kids are at Hogwarts.`
+        similar: ["Harry Potter and the Sorcerer's Stone", 'Fantastic Beasts and Where to Find Them: The Original Screenplay'],
+        description: `The script for the Broadway Harry Potter play set at a time when Harry Potter's kids are at Hogwarts.`
     },
     {
         title: 'Into the Wild',
         series: '',
         author: 'Jon Krakauer',
+        authorLast: 'Krakauer, Jon',
         myRating: 5,
         pages: 207,
         wordCount: 66725,
@@ -4481,13 +4728,14 @@ let bookData = [
         yearRead: [2013],
         thumb: './images/into-wild.jpg',
         keywords: ['nonfiction', 'biography', 'travel', 'adventure', 'survival'],
-		similar: ['Hatchet'],
-		description: `Tracking the final weeks of Christopher Johnson McCandless after he gave up all of his possessions and moved into the wilderness.`
+        similar: ['Hatchet'],
+        description: `Tracking the final weeks of Christopher Johnson McCandless after he gave up all of his possessions and moved into the wilderness.`
     },
     {
         title: 'Nights of the Living Dead',
         series: '',
         author: 'Jonathan Maberry',
+        authorLast: 'Maberry, Jonathan',
         myRating: 5,
         pages: 368,
         wordCount: 111941,
@@ -4495,13 +4743,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/nights-living-dead.jpg',
         keywords: ['fiction', 'short stories', 'zombies', 'horror'],
-		similar: ['World War Z', 'The Rising', 'Cemetery Dance: Issue 74-75'],
-		description: `A collection of short zombie stories.`
+        similar: ['World War Z', 'The Rising', 'Cemetery Dance: Issue 74-75'],
+        description: `A collection of short zombie stories.`
     },
     {
         title: 'A Modest Proposal',
         series: '',
         author: 'Jonathan Swift',
+        authorLast: 'Swift, Jonathan',
         myRating: 7,
         pages: 48,
         wordCount: 4553,
@@ -4509,13 +4758,14 @@ let bookData = [
         yearRead: [2008, 2020],
         thumb: './images/modest-proposal.jpg',
         keywords: ['fiction', 'satire', 'essays', 'politics'],
-		similar: ['Animal Farm'],
-		description: `A satirical essay saying the poor Irish should sell their children as food to the wealthy.`
+        similar: ['Animal Farm'],
+        description: `A satirical essay saying the poor Irish should sell their children as food to the wealthy.`
     },
     {
         title: 'How Not to Be Wrong',
         series: '',
         author: 'Jordan Ellenberg',
+        authorLast: 'Ellenberg, Jordan',
         myRating: 7,
         pages: 480,
         wordCount: 127013,
@@ -4523,13 +4773,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/how-not-to-be-wrong.jpg',
         keywords: ['nonfiction', 'mathematics', 'psychology'],
-		similar: ['Naked Statistics', 'Math with Bad Drawings'],
-		description: `Connects various economic and societal philosophies with basic mathematics and statistical principles.`
+        similar: ['Naked Statistics', 'Math with Bad Drawings'],
+        description: `Connects various economic and societal philosophies with basic mathematics and statistical principles.`
     },
     {
         title: 'Bird Box',
         series: '',
         author: 'Josh Malerman',
+        authorLast: 'Malerman, Josh',
         myRating: 8,
         pages: 262,
         wordCount: 86036,
@@ -4537,13 +4788,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/bird-box.jpg',
         keywords: ['fiction', 'horror', 'apocalyptic', 'thriller', 'movies', 'series'],
-		similar: ['Annihilation', 'I Am Legend'],
-		description: `The world is overrun with creatures that kill you if you see them.`
+        similar: ['Annihilation', 'I Am Legend'],
+        description: `The world is overrun with creatures that kill you if you see them.`
     },
     {
         title: 'Living With Less',
         series: '',
         author: 'Joshua Becker',
+        authorLast: 'Becker, Joshua',
         myRating: 8,
         pages: 114,
         wordCount: 30780,
@@ -4551,13 +4803,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/living-with-less.jpg',
         keywords: ['nonfiction', 'minimalism', 'self-help', 'christian', 'christian living'],
-		similar: ['The Treasure Principle', 'Money, Possessions and Eternity', 'How Much is Enough?'],
-		description: `Biblical teachings on possessions as well as Becker's own minimalist journey.`
+        similar: ['The Treasure Principle', 'Money, Possessions and Eternity', 'How Much is Enough?'],
+        description: `Biblical teachings on possessions as well as Becker's own minimalist journey.`
     },
     {
         title: 'The More of Less',
         series: '',
         author: 'Joshua Becker',
+        authorLast: 'Becker, Joshua',
         myRating: 7,
         pages: 240,
         wordCount: 63271,
@@ -4565,13 +4818,14 @@ let bookData = [
         yearRead: [2018, 2021],
         thumb: './images/more-of-less.jpg',
         keywords: ['nonfiction', 'minimalism', 'self-help'],
-		similar: ['Goodbye, Things', 'Project 333'],
-		description: `Recognizing the benefits of owning less.`
+        similar: ['Goodbye, Things', 'Project 333'],
+        description: `Recognizing the benefits of owning less.`
     },
     {
         title: 'The Minimalist Home',
         series: '',
         author: 'Joshua Becker',
+        authorLast: 'Becker, Joshua',
         myRating: 7,
         pages: 256,
         wordCount: 76145,
@@ -4579,13 +4833,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/minimalist-home.jpg',
         keywords: ['nonfiction', 'minimalism', 'self-help'],
-		similar: ['Goodbye, Things', 'Project 333'],
-		description: `Practical guides for creating and maintaining a minimalist home.`
+        similar: ['Goodbye, Things', 'Project 333'],
+        description: `Practical guides for creating and maintaining a minimalist home.`
     },
     {
         title: 'Things That Matter',
         series: '',
         author: 'Joshua Becker',
+        authorLast: 'Becker, Joshua',
         myRating: 8,
         pages: 256,
         wordCount: 61858,
@@ -4593,13 +4848,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/things-that-matter.jpg',
         keywords: ['nonfiction', 'minimalism', 'self-help'],
-		similar: ['The Minimalist Home', 'The More of Less', 'Living With Less'],
-		description: ``
+        similar: ['The Minimalist Home', 'The More of Less', 'Living With Less'],
+        description: ``
     },
     {
         title: 'Simplify Magazine 001',
         series: '',
         author: 'Joshua Becker',
+        authorLast: 'Becker, Joshua',
         myRating: 9,
         pages: 72,
         wordCount: 12128,
@@ -4607,13 +4863,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/simplify-magazine.jpg',
         keywords: ['nonfiction', 'minimalism', 'self-help', 'magazine', 'series'],
-		similar: ['The Minimalist Home', 'The More of Less', 'Living With Less'],
-		description: `This issue has essays dealing with 'Happiness'.`
+        similar: ['The Minimalist Home', 'The More of Less', 'Living With Less'],
+        description: `This issue has essays dealing with 'Happiness'.`
     },
     {
         title: 'Simplify Magazine 002',
         series: '',
         author: 'Joshua Becker',
+        authorLast: 'Becker, Joshua',
         myRating: 9,
         pages: 101,
         wordCount: 17012,
@@ -4621,13 +4878,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/simplify-magazine.jpg',
         keywords: ['nonfiction', 'minimalism', 'self-help', 'magazine', 'series'],
-		similar: ['The Minimalist Home', 'The More of Less', 'Living With Less'],
-		description: `This issue has essays dealing with 'Health and Wellness'.`
+        similar: ['The Minimalist Home', 'The More of Less', 'Living With Less'],
+        description: `This issue has essays dealing with 'Health and Wellness'.`
     },
     {
         title: 'Simplify Magazine 003',
         series: '',
         author: 'Joshua Becker',
+        authorLast: 'Becker, Joshua',
         myRating: 9,
         pages: 75,
         wordCount: 12633,
@@ -4635,13 +4893,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/simplify-magazine.jpg',
         keywords: ['nonfiction', 'minimalism', 'self-help', 'magazine', 'series'],
-		similar: ['The Minimalist Home', 'The More of Less', 'Living With Less'],
-		description: `This issue has essays dealing with 'Stress and Overwhelm'.`
+        similar: ['The Minimalist Home', 'The More of Less', 'Living With Less'],
+        description: `This issue has essays dealing with 'Stress and Overwhelm'.`
     },
     {
         title: 'The Club',
         series: '',
         author: 'Joshua Robinson',
+        authorLast: 'Robinson, Joshua',
         myRating: 7,
         pages: 368,
         wordCount: 123402,
@@ -4649,13 +4908,14 @@ let bookData = [
         yearRead: [2020],
         thumb: './images/club.jpg',
         keywords: ['nonfiction', 'biography', 'sports', 'soccer'],
-		similar: ['The Soccer Book', 'Liverpool FC'],
-		description: `The history of the Premier League.`
+        similar: ['The Soccer Book', 'Liverpool FC'],
+        description: `The history of the Premier League.`
     },
     {
         title: 'Haunted Mansion',
         series: '',
         author: 'Joshua Williamson',
+        authorLast: 'Williamson, Joshua',
         myRating: 6,
         pages: 128,
         wordCount: 7040,
@@ -4663,13 +4923,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/haunted-mansion.jpg',
         keywords: ['fiction', 'graphic novels', 'ghosts', 'horror', 'comics'],
-		similar: ['Ghosts', 'Guardians of the Galaxy, Volume 1'],
-		description: `A graphic novel set in Disney's Haunted Mansion.`
+        similar: ['Ghosts', 'Guardians of the Galaxy, Volume 1'],
+        description: `A graphic novel set in Disney's Haunted Mansion.`
     },
     {
         title: 'Buffy the Vampire Slayer: The Long Way Home',
         series: '',
         author: 'Joss Whedon',
+        authorLast: 'Whedon, Joss',
         myRating: 6,
         pages: 136,
         wordCount: 10880,
@@ -4677,18 +4938,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/buffy-s8.jpg',
         keywords: ['graphic novels', 'fiction', 'horror', 'vampires', 'tv', 'fantasy', 'witches', 'series'],
-		similar: ['30 Days of Night, Vol. 1', 'Archie, Vol. 1'],
-		description: `Season 8 of Buffy in graphic novel form.`
+        similar: ['30 Days of Night, Vol. 1', 'Archie, Vol. 1'],
+        description: `Season 8 of Buffy in graphic novel form.`
     },
-	//#endregion
-    /*===========================
-    	Author First Name - K's
-    ===========================*/
-	//#region K
     {
         title: 'Beautiful Creatures',
         series: '',
         author: 'Kami Garcia',
+        authorLast: 'Garcia, Kami',
         myRating: 5,
         pages: 563,
         wordCount: 165321,
@@ -4696,14 +4953,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/beautiful-creatures.jpg',
         keywords: ['fiction', 'fantasy', 'romance', 'magic', 'witches', 'young adult', 'movies', 'series'],
-		similar: ['Twilight', 'Vampire Academy'],
-		description: `A young man falls for a new girl in his small town, only to 
-						discover she comes from a mysterious family, all of whom possess supernatural powers.`
+        similar: ['Twilight', 'Vampire Academy'],
+        description: `A young man falls for a new girl in his small town, only to discover she comes from a mysterious family, all of whom possess supernatural powers.`
     },
     {
         title: 'One of Us Is Lying',
         series: '',
         author: 'Karen M. McManus',
+        authorLast: 'McManus, Karen M.',
         myRating: 8,
         pages: 361,
         wordCount: 100951,
@@ -4711,13 +4968,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/one-of-us-is-lying.jpg',
         keywords: ['fiction', 'young adult', 'mystery', 'thriller', 'crime', 'tv', 'unreliable narrator', 'series', 'schools'],
-		similar: ['The Girl on the Train', "There's Someone Inside Your House"],
-		description: `Five students walk into detention. Four students walk out alive. Everyone is a suspect.`
+        similar: ['The Girl on the Train', "There's Someone Inside Your House"],
+        description: `Five students walk into detention. Four students walk out alive. Everyone is a suspect.`
     },
     {
         title: 'Bridge to Terabithia',
         series: '',
         author: 'Katherine Paterson',
+        authorLast: 'Paterson, Katherine',
         myRating: 6,
         pages: 190,
         wordCount: 32970,
@@ -4725,13 +4983,14 @@ let bookData = [
         yearRead: [1999],
         thumb: './images/terabithia.jpg',
         keywords: ['fiction', 'young adult', 'death', 'movies', ],
-		similar: ['Holes', 'Number the Stars'],
-		description: `A fifth grade boy and girl hang out during the summer until tragedy strikes.`
+        similar: ['Holes', 'Number the Stars'],
+        description: `A fifth grade boy and girl hang out during the summer until tragedy strikes.`
     },
     {
         title: 'Finding Sisu',
         series: '',
         author: 'Katja Pantzar',
+        authorLast: 'Pantzar, Katja',
         myRating: 5,
         pages: 272,
         wordCount: 52595,
@@ -4739,13 +4998,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/sisu.jpg',
         keywords: ['nonfiction', 'self-help', 'travel', ],
-		similar: ['The Year of Less', 'The Danish Way of Parenting'],
-		description: `A journalist describes how she moved to Finland and adopted a "keep it simple and sensible" way of life.`
+        similar: ['The Year of Less', 'The Danish Way of Parenting'],
+        description: `A journalist describes how she moved to Finland and adopted a "keep it simple and sensible" way of life.`
     },
     {
         title: 'Independent Me',
         series: '',
         author: 'Kely Braswell',
+        authorLast: 'Braswell, Kely',
         myRating: 4,
         pages: 205,
         wordCount: 41000,
@@ -4753,13 +5013,14 @@ let bookData = [
         yearRead: [2014],
         thumb: './images/independent-me.jpg',
         keywords: ['nonfiction', 'christian', 'christian living'],
-		similar: ['Humility'],
-		description: `A look at spirtual authority and selfishness.`
+        similar: ['Humility'],
+        description: `A look at spirtual authority and selfishness.`
     },
     {
         title: "The Geek Dad's Guide to Weekend Fun",
         series: '',
         author: 'Ken Denmead',
+        authorLast: 'Denmead, Ken',
         myRating: 6,
         pages: 240,
         wordCount: 46080,
@@ -4767,13 +5028,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/geek-dad.jpg',
         keywords: ['nonfiction', 'crafts', 'parenting', 'reference'],
-		similar: ['Be Prepared'],
-		description: `Geek-themed crafts for dads to do with their kids.`
+        similar: ['Be Prepared'],
+        description: `Geek-themed crafts for dads to do with their kids.`
     },
     {
         title: "The New Answers Book 1",
         series: '',
         author: 'Ken Ham',
+        authorLast: 'Ham, Ken',
         myRating: 3,
         pages: 378,
         wordCount: 103295,
@@ -4781,13 +5043,14 @@ let bookData = [
         yearRead: [2009],
         thumb: './images/new-answers.jpg',
         keywords: ['nonfiction', 'christian', 'theology', 'series'],
-		similar: ['Navigating Genesis', "Who's Afraid of the Multiverse"],
-		description: `An attempt to explain away science without using actual science.`
+        similar: ['Navigating Genesis', "Who's Afraid of the Multiverse"],
+        description: `An attempt to explain away science without using actual science.`
     },
     {
         title: "Planet Funny",
         series: '',
         author: 'Ken Jennings',
+        authorLast: 'Jennings, Ken',
         myRating: 7,
         pages: 320,
         wordCount: 86507,
@@ -4795,13 +5058,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/planet-funny.jpg',
         keywords: ['nonfiction', 'humor'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: "One Flew Over the Cuckoo's Nest",
         series: '',
         author: 'Ken Kesey',
+        authorLast: 'Kesey, Ken',
         myRating: 6,
         pages: 325,
         wordCount: 99224,
@@ -4809,13 +5073,14 @@ let bookData = [
         yearRead: [2007, 2007],
         thumb: './images/one-flew-over.jpg',
         keywords: ['fiction', 'mental health', 'movies', 'unreliable narrator'],
-		similar: ['Fight Club'],
-		description: `A convicted criminal fakes being insane to go to an asylum instead of prison.`
+        similar: ['Fight Club'],
+        description: `A convicted criminal fakes being insane to go to an asylum instead of prison.`
     },
     {
         title: "Insanely Simple",
         series: '',
         author: 'Ken Segall',
+        authorLast: 'Segall, Ken',
         myRating: 9,
         pages: 240,
         wordCount: 66725,
@@ -4823,13 +5088,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/insanely-simple.jpg',
         keywords: ['nonfiction', 'business', 'technology', 'design'],
-		similar: [''],
-		description: ``
+        similar: [''],
+        description: ``
     },
     {
         title: "The New One Minute Manager",
         series: '',
         author: 'Kenneth Blanchard',
+        authorLast: 'Blanchard, Kenneth',
         myRating: 7,
         pages: 112,
         wordCount: 13659,
@@ -4837,13 +5103,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/new-manager.jpg',
         keywords: ['nonfiction', 'business', 'leadership'],
-		similar: ['The Five Dysfunctions of a Team'],
-		description: ``
+        similar: ['The Five Dysfunctions of a Team'],
+        description: ``
     },
     {
         title: 'Quidditch Through the Ages',
         series: '',
         author: 'Kennilworthy Whisp',
+        authorLast: 'Whisp, Kennilworthy',
         myRating: 6,
         pages: 56,
         wordCount: 10475,
@@ -4851,13 +5118,14 @@ let bookData = [
         yearRead: [2001, 2007, 2021],
         thumb: './images/quidditch.jpg',
         keywords: ['harry potter', 'fiction', 'children', 'reference', 'sports', 'fantasy', 'magic', 'witches', 'wizards', 'series'],
-		similar: ['Fantastic Beasts and Where to Find Them', 'The Tales of Beedle the Bard', "Harry Potter and the Sorcerer's Stone"],
-		description: `A reference book for Quidditch talked about in the first Harry Potter book.`
+        similar: ['Fantastic Beasts and Where to Find Them', 'The Tales of Beedle the Bard', "Harry Potter and the Sorcerer's Stone"],
+        description: `A reference book for Quidditch talked about in the first Harry Potter book.`
     },
     {
         title: 'Crucial Conversations',
         series: '',
         author: 'Kerry Patterson',
+        authorLast: 'Patterson, Kerry',
         myRating: 6,
         pages: 240,
         wordCount: 60759,
@@ -4865,13 +5133,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/crucial-conversations.jpg',
         keywords: ['nonfiction', 'communication', 'business'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Unlimited Memory',
         series: '',
         author: 'Kevin Horsley',
+        authorLast: 'Horsley, Kevin',
         myRating: 6,
         pages: 136,
         wordCount: 23236,
@@ -4879,13 +5148,14 @@ let bookData = [
         yearRead: [2019, 2021],
         thumb: './images/unlimited-memory.jpg',
         keywords: ['nonfiction', 'psychology', 'self-help', 'productivity'],
-		similar: ['Smartcuts', 'Mind Hacking'],
-		description: `How to improve your memory and increase your learning speed.`
+        similar: ['Smartcuts', 'Mind Hacking'],
+        description: `How to improve your memory and increase your learning speed.`
     },
     {
         title: 'Crazy Rich Asians',
         series: '',
         author: 'Kevin Kwan',
+        authorLast: 'Kwan, Kevin',
         myRating: 5,
         pages: 403,
         wordCount: 130781,
@@ -4893,13 +5163,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/crazy-rich-asians.jpg',
         keywords: ['fiction', 'romance', 'humor', 'china', 'asia', 'series', 'movies'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'For the Win',
         series: '',
         author: 'Kevin Werbach',
+        authorLast: 'Werbach, Kevin',
         myRating: 6,
         pages: 148,
         wordCount: 28574,
@@ -4907,13 +5178,14 @@ let bookData = [
         yearRead: [2013],
         thumb: './images/ftw.jpg',
         keywords: ['nonfiction', 'business', 'psychology', 'games', 'video games'],
-		similar: ['Super Better'],
-		description: `A book about gamification and how businesses can utilize it.`
+        similar: ['Super Better'],
+        description: `A book about gamification and how businesses can utilize it.`
     },
     {
         title: 'The A-Z of Atari 8-bit Games',
         series: '',
         author: 'Kieren Hawken',
+        authorLast: 'Hawken, Kieren',
         myRating: 4,
         pages: 196,
         wordCount: 45276,
@@ -4921,13 +5193,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/az-atari-8bit.jpg',
         keywords: ['nonfiction', 'reference', 'games', 'video games'],
-		similar: ["The Gamer's Bucket List", 'Game On!'],
-		description: `Overviews and reviews of a lot of Atari games.`
+        similar: ["The Gamer's Bucket List", 'Game On!'],
+        description: `Overviews and reviews of a lot of Atari games.`
     },
     {
         title: 'The DUFF',
         series: '',
         author: 'Kody Keplinger',
+        authorLast: 'Keplinger, Kody',
         myRating: 7,
         pages: 280,
         wordCount: 71121,
@@ -4935,13 +5208,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/duff.jpg',
         keywords: ['fiction', 'young adult', 'romance', 'movies', 'series', 'schools'],
-		similar: ["Nick & Norah's Infinite Playlist"],
-		description: `A girl starts a fling with the boy who called her the designated ugly fat friend.`
+        similar: ["Nick & Norah's Infinite Playlist"],
+        description: `A girl starts a fling with the boy who called her the designated ugly fat friend.`
     },
     {
         title: 'Ring',
         series: '',
         author: 'Kōji Suzuki',
+        authorLast: 'Suzuki, Kōji',
         myRating: 5,
         pages: 282,
         wordCount: 88977,
@@ -4949,13 +5223,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/ring.jpg',
         keywords: ['horror', 'fiction', 'ghosts', 'japanese', 'mystery', 'thriller', 'movies', 'series'],
-		similar: ['Horrorstör', 'The Shining'],
-		description: `A videotape leads to the deaths of its viewers seven days after they watch it.`
+        similar: ['Horrorstör', 'The Shining'],
+        description: `A videotape leads to the deaths of its viewers seven days after they watch it.`
     },
     {
         title: 'Jesus and John Wayne',
         series: '',
         author: 'Kristin Kobes Du Mez',
+        authorLast: 'Kobes Du Mez, Kristin',
         myRating: 7,
         pages: 368,
         wordCount: 113511,
@@ -4963,13 +5238,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/jesus-john-wayne.jpg',
         keywords: ['gender', 'nonfiction', 'christian', 'historical', ],
-		similar: ['The Road Back to You', 'Theodore Roosevelt'],
-		description: `A look at the origins of toxic masculinity and hypocrisy within the Christian church.`
+        similar: ['The Road Back to You', 'Theodore Roosevelt'],
+        description: `A look at the origins of toxic masculinity and hypocrisy within the Christian church.`
     },
     {
         title: "Don't Get Caught",
         series: '',
         author: 'Kurt Dinan',
+        authorLast: 'Dinan, Kurt',
         myRating: 6,
         pages: 340,
         wordCount: 82892,
@@ -4977,18 +5253,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/dont-get-caught.jpg',
         keywords: ['fiction', 'young adult', 'mystery', 'humor', 'schools'],
-		similar: ['Paper Towns'],
-		description: `A boy receives a mysterious invite from the untraceable, epic prank-pulling Chaos Club.`
+        similar: ['Paper Towns'],
+        description: `A boy receives a mysterious invite from the untraceable, epic prank-pulling Chaos Club.`
     },
-	//#endregion
-    /*===========================
-    	Author First Name - L's
-    ===========================*/
-	//#region L
     {
         title: 'The Awakening',
         series: '',
         author: 'L.J. Smith',
+        authorLast: 'Smith, L.J.',
         myRating: 5,
         pages: 253,
         wordCount: 61387,
@@ -4996,13 +5268,14 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/awakening.jpg',
         keywords: ['fiction', 'horror', 'vampires', 'romance', 'young adult', 'tv', 'series'],
-		similar: ['Vampire Academy', 'Twilight'],
-		description: `The story of two vampire brothers and the beautiful girl torn between them.`
+        similar: ['Vampire Academy', 'Twilight'],
+        description: `The story of two vampire brothers and the beautiful girl torn between them.`
     },
     {
         title: 'The Struggle',
         series: '',
         author: 'L.J. Smith',
+        authorLast: 'Smith, L.J.',
         myRating: 5,
         pages: 256,
         wordCount: 53223,
@@ -5010,13 +5283,14 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/struggle.jpg',
         keywords: ['fiction', 'horror', 'vampires', 'romance', 'young adult', 'tv', 'series'],
-		similar: ['Vampire Academy', 'Twilight'],
-		description: `A sequel in the Vampire Diaries series`
+        similar: ['Vampire Academy', 'Twilight'],
+        description: `A sequel in the Vampire Diaries series`
     },
     {
         title: 'The Fury',
         series: '',
         author: 'L.J. Smith',
+        authorLast: 'Smith, L.J.',
         myRating: 5,
         pages: 285,
         wordCount: 56991,
@@ -5024,13 +5298,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/fury.jpg',
         keywords: ['fiction', 'horror', 'vampires', 'romance', 'young adult', 'tv', 'series'],
-		similar: ['Vampire Academy', 'Twilight'],
-		description: `A sequel in the Vampire Diaries series`
+        similar: ['Vampire Academy', 'Twilight'],
+        description: `A sequel in the Vampire Diaries series`
     },
     {
         title: 'Dark Reunion',
         series: '',
         author: 'L.J. Smith',
+        authorLast: 'Smith, L.J.',
         myRating: 5,
         pages: 311,
         wordCount: 65626,
@@ -5038,13 +5313,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/dark-reunion.jpg',
         keywords: ['fiction', 'horror', 'vampires', 'romance', 'young adult', 'tv', 'series'],
-		similar: ['Vampire Academy', 'Twilight'],
-		description: `A sequel in the Vampire Diaries series`
+        similar: ['Vampire Academy', 'Twilight'],
+        description: `A sequel in the Vampire Diaries series`
     },
     {
         title: 'I Love You, Beth Cooper',
         series: '',
         author: 'Larry Doyle',
+        authorLast: 'Doyle, Larry',
         myRating: 7,
         pages: 253,
         wordCount: 69865,
@@ -5052,13 +5328,14 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/beth-cooper.jpg',
         keywords: ['young adult', 'fiction', 'romance', 'humor', 'movies', 'schools'],
-		similar: ["Nick & Norah's Infinite Playlist", 'Scott Pilgrim, Volume 1'],
-		description: `A valedictorian professes his love for a girl who doesn't know he really exists.`
+        similar: ["Nick & Norah's Infinite Playlist", 'Scott Pilgrim, Volume 1'],
+        description: `A valedictorian professes his love for a girl who doesn't know he really exists.`
     },
     {
         title: 'A Secret Life',
         series: '',
         author: 'Laura Peyton Roberts',
+        authorLast: 'Roberts, Laura Peyton',
         myRating: 6,
         pages: 202,
         wordCount: 51614,
@@ -5066,13 +5343,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/secret-life.jpg',
         keywords: ['tv', 'fiction', 'spy thriller', 'young adult', 'series'],
-		similar: ['Recruited'],
-		description: `Sydney Bristow goes on her first mission- in Paris.`
+        similar: ['Recruited'],
+        description: `Sydney Bristow goes on her first mission- in Paris.`
     },
     {
         title: 'What the Most Successful People Do Before Breakfast',
         series: '',
         author: 'Laura Vanderkam',
+        authorLast: 'Vanderkam, Laura',
         myRating: 7,
         pages: 32,
         wordCount: 47257,
@@ -5080,13 +5358,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/successful-breakfast.jpg',
         keywords: ['nonfiction', 'self-help', 'business', 'productivity', ],
-		similar: ['Eat That Frog!', 'The Miracle Morning'],
-		description: `Rethinking your morning to become more productive.`
+        similar: ['Eat That Frog!', 'The Miracle Morning'],
+        description: `Rethinking your morning to become more productive.`
     },
     {
         title: 'Guilty Pleasures',
         series: '',
         author: 'Laurell K. Hamilton',
+        authorLast: 'Hamilton, Laurell K.',
         myRating: 7,
         pages: 355,
         wordCount: 92002,
@@ -5094,13 +5373,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/guilty-pleasures.jpg',
         keywords: ['fiction', 'vampires', 'horror', 'fantasy', 'romance', 'series'],
-		similar: ['Storm Front', 'Dead Until Dark', 'Buffy the Vampire Slayer: The Long Way Home'],
-		description: `A vampire hunter is asked by a vampire to investigate slayings.`
+        similar: ['Storm Front', 'Dead Until Dark', 'Buffy the Vampire Slayer: The Long Way Home'],
+        description: `A vampire hunter is asked by a vampire to investigate slayings.`
     },
     {
         title: 'Six of Crows',
         series: '',
         author: 'Leigh Bardugo',
+        authorLast: 'Bardugo, Leigh',
         myRating: 8,
         pages: 465,
         wordCount: 141928,
@@ -5108,13 +5388,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/six-of-crows.jpg',
         keywords: ['fiction', 'fantasy', 'high fantasy', 'lgbt', 'romance', 'heist', 'adventure', 'young adult', 'series'],
-		similar: ['The Final Empire'],
-		description: `A criminal prodigy is asked to pull off a deadly heist to make him filthy rich.`
+        similar: ['The Final Empire'],
+        description: `A criminal prodigy is asked to pull off a deadly heist to make him filthy rich.`
     },
     {
         title: 'Crooked Kingdom',
         series: '',
         author: 'Leigh Bardugo',
+        authorLast: 'Bardugo, Leigh',
         myRating: 8,
         pages: 536,
         wordCount: 169246,
@@ -5122,13 +5403,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/six-of-crows2.jpg',
         keywords: ['fiction', 'fantasy', 'high fantasy', 'lgbt', 'romance', 'heist', 'adventure', 'young adult', 'series'],
-		similar: ['The Final Empire'],
-		description: `Sequel to Six of Crows.`
+        similar: ['The Final Empire'],
+        description: `Sequel to Six of Crows.`
     },
     {
         title: 'The Bad Beginning',
         series: '',
         author: 'Lemony Snicket',
+        authorLast: 'Snicket, Lemony',
         myRating: 6,
         pages: 176,
         wordCount: 23393,
@@ -5136,13 +5418,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate1.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'movies', 'series'],
-		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
-		description: `Three siblings experience bad experience after bad experience.`
+        similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+        description: `Three siblings experience bad experience after bad experience.`
     },
     {
         title: 'The Reptile Room',
         series: '',
         author: 'Lemony Snicket',
+        authorLast: 'Snicket, Lemony',
         myRating: 6,
         pages: 192,
         wordCount: 29987,
@@ -5150,13 +5433,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate2.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'movies', 'series'],
-		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
-		description: `Book 2 in the 'A Series of Unfortunate Events' series.`
+        similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+        description: `Book 2 in the 'A Series of Unfortunate Events' series.`
     },
     {
         title: 'The Wide Window',
         series: '',
         author: 'Lemony Snicket',
+        authorLast: 'Snicket, Lemony',
         myRating: 5,
         pages: 214,
         wordCount: 28888,
@@ -5164,13 +5448,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate3.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'movies', 'series'],
-		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
-		description: `Book 3 in the 'A Series of Unfortunate Events' series.`
+        similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+        description: `Book 3 in the 'A Series of Unfortunate Events' series.`
     },
     {
         title: 'The Miserable Mill',
         series: '',
         author: 'Lemony Snicket',
+        authorLast: 'Snicket, Lemony',
         myRating: 5,
         pages: 194,
         wordCount: 27632,
@@ -5178,13 +5463,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate4.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'series'],
-		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
-		description: `Book 4 in the 'A Series of Unfortunate Events' series.`
+        similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+        description: `Book 4 in the 'A Series of Unfortunate Events' series.`
     },
     {
         title: 'The Austere Academy',
         series: '',
         author: 'Lemony Snicket',
+        authorLast: 'Snicket, Lemony',
         myRating: 5,
         pages: 221,
         wordCount: 30615,
@@ -5192,13 +5478,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate5.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'series', 'schools'],
-		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
-		description: `Book 5 in the 'A Series of Unfortunate Events' series.`
+        similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+        description: `Book 5 in the 'A Series of Unfortunate Events' series.`
     },
     {
         title: 'The Ersatz Elevator',
         series: '',
         author: 'Lemony Snicket',
+        authorLast: 'Snicket, Lemony',
         myRating: 4,
         pages: 259,
         wordCount: 41291,
@@ -5206,13 +5493,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate6.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'series'],
-		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
-		description: `Book 6 in the 'A Series of Unfortunate Events' series.`
+        similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+        description: `Book 6 in the 'A Series of Unfortunate Events' series.`
     },
     {
         title: 'The Vile Village',
         series: '',
         author: 'Lemony Snicket',
+        authorLast: 'Snicket, Lemony',
         myRating: 4,
         pages: 272,
         wordCount: 40349,
@@ -5220,13 +5508,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate7.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'series'],
-		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
-		description: `Book 7 in the 'A Series of Unfortunate Events' series.`
+        similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+        description: `Book 7 in the 'A Series of Unfortunate Events' series.`
     },
     {
         title: 'The Hostile Hospital',
         series: '',
         author: 'Lemony Snicket',
+        authorLast: 'Snicket, Lemony',
         myRating: 4,
         pages: 272,
         wordCount: 39564,
@@ -5234,13 +5523,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate8.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'series'],
-		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
-		description: `Book 8 in the 'A Series of Unfortunate Events' series.`
+        similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+        description: `Book 8 in the 'A Series of Unfortunate Events' series.`
     },
     {
         title: 'The Carnivorous Carnival',
         series: '',
         author: 'Lemony Snicket',
+        authorLast: 'Snicket, Lemony',
         myRating: 4,
         pages: 286,
         wordCount: 45530,
@@ -5248,13 +5538,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate9.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'series'],
-		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
-		description: `Book 9 in the 'A Series of Unfortunate Events' series.`
+        similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+        description: `Book 9 in the 'A Series of Unfortunate Events' series.`
     },
     {
         title: 'The Slippery Slope',
         series: '',
         author: 'Lemony Snicket',
+        authorLast: 'Snicket, Lemony',
         myRating: 4,
         pages: 337,
         wordCount: 56677,
@@ -5262,13 +5553,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate10.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'series'],
-		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
-		description: `Book 10 in the 'A Series of Unfortunate Events' series.`
+        similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+        description: `Book 10 in the 'A Series of Unfortunate Events' series.`
     },
     {
         title: 'The Grim Grotto',
         series: '',
         author: 'Lemony Snicket',
+        authorLast: 'Snicket, Lemony',
         myRating: 4,
         pages: 323,
         wordCount: 56363,
@@ -5276,13 +5568,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate11.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'series'],
-		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
-		description: `Book 11 in the 'A Series of Unfortunate Events' series.`
+        similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+        description: `Book 11 in the 'A Series of Unfortunate Events' series.`
     },
     {
         title: 'The Penultimate Peril',
         series: '',
         author: 'Lemony Snicket',
+        authorLast: 'Snicket, Lemony',
         myRating: 4,
         pages: 353,
         wordCount: 60602,
@@ -5290,13 +5583,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate12.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'series'],
-		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
-		description: `Book 12 in the 'A Series of Unfortunate Events' series.`
+        similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+        description: `Book 12 in the 'A Series of Unfortunate Events' series.`
     },
     {
         title: 'The End',
         series: '',
         author: 'Lemony Snicket',
+        authorLast: 'Snicket, Lemony',
         myRating: 4,
         pages: 337,
         wordCount: 56677,
@@ -5304,13 +5598,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/unfortunate13.jpg',
         keywords: ['fiction', 'children', 'fantasy', 'humor', 'adventure', 'tv', 'series'],
-		similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
-		description: `Book 13 in the 'A Series of Unfortunate Events' series.`
+        similar: ['The Lion, the Witch and the Wardrobe', 'The Lightning Thief', 'Sideways Stories from Wayside School'],
+        description: `Book 13 in the 'A Series of Unfortunate Events' series.`
     },
     {
         title: 'Read Japanese Today',
         series: '',
         author: 'Len Welsh',
+        authorLast: 'Welsh, Len',
         myRating: 7,
         pages: 168,
         wordCount: 51614,
@@ -5318,13 +5613,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/read-japanese.jpg',
         keywords: ['nonfiction', 'language', 'educational', 'japanese', 'japan'],
-		similar: ['Learning Chinese Characters'],
-		description: `Tricks to learn and remember Japanese Kanji and characters.`
+        similar: ['Learning Chinese Characters'],
+        description: `Tricks to learn and remember Japanese Kanji and characters.`
     },
     {
         title: 'The Magicians',
         series: '',
         author: 'Lev Grossman',
+        authorLast: 'Grossman, Lev',
         myRating: 4,
         pages: 402,
         wordCount: 163908,
@@ -5332,13 +5628,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/magicians.jpg',
         keywords: ['young adult', 'fiction', 'fantasy', 'magic', 'tv', 'series', 'schools'],
-		similar: ['Storm Front', 'The Willow Files, Vol. 2', 'Carry On'],
-		description: `A teenager obsessed with a fantasy book series finds out magic is real and that he's a magician.`
+        similar: ['Storm Front', 'The Willow Files, Vol. 2', 'Carry On'],
+        description: `A teenager obsessed with a fantasy book series finds out magic is real and that he's a magician.`
     },
     {
         title: 'Big Little Lies',
         series: '',
         author: 'Liane Moriarty',
+        authorLast: 'Moriarty, Liane',
         myRating: 9,
         pages: 460,
         wordCount: 149935,
@@ -5346,13 +5643,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/big-little-lies.jpg',
         keywords: ['fiction', 'mystery', 'humor', 'thriller', 'tv', ],
-		similar: ["Where'd You Go, Bernadette"],
-		description: `Someone dies in a gossipy town and no one seems to know what happened....or do they?`
+        similar: ["Where'd You Go, Bernadette"],
+        description: `Someone dies in a gossipy town and no one seems to know what happened....or do they?`
     },
     {
         title: 'Going Bovine',
         series: '',
         author: 'Libba Bray',
+        authorLast: 'Bray, Libba',
         myRating: 9,
         pages: 480,
         wordCount: 142556,
@@ -5360,13 +5658,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/bovine.jpg',
         keywords: ['fiction', 'young adult', 'mental health', 'weird', 'fantasy', 'humor', 'death', 'adventure', 'unreliable narrator', 'schools'],
-		similar: ['Good Omens', 'The Caretaker of Lorne Field', "The Hitchhiker's Guide to the Galaxy"],
-		description: `A stoner kid gets mad cow disease and is convinced he needs to save the world.`
+        similar: ['Good Omens', 'The Caretaker of Lorne Field', "The Hitchhiker's Guide to the Galaxy"],
+        description: `A stoner kid gets mad cow disease and is convinced he needs to save the world.`
     },
     {
         title: 'The Giver',
         series: '',
         author: 'Lois Lowry',
+        authorLast: 'Lowry, Lois',
         myRating: 8,
         pages: 208,
         wordCount: 45373,
@@ -5374,13 +5673,14 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/giver.jpg',
         keywords: ['fiction', 'dystopian', 'young adult', 'science fiction', 'movies', 'series'],
-		similar: ['Divergent', 'The Hunger Games'],
-		description: `A twelve-year-old realizes his colorless utopia has dark secrets.`
+        similar: ['Divergent', 'The Hunger Games'],
+        description: `A twelve-year-old realizes his colorless utopia has dark secrets.`
     },
     {
         title: 'Gathering Blue',
         series: '',
         author: 'Lois Lowry',
+        authorLast: 'Lowry, Lois',
         myRating: 5,
         pages: 240,
         wordCount: 51339,
@@ -5388,13 +5688,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/gathering-blue.jpg',
         keywords: ['fiction', 'dystopian', 'young adult', 'science fiction', 'series'],
-		similar: ['Divergent', 'The Hunger Games'],
-		description: `Book 2 in The Giver series.`
+        similar: ['Divergent', 'The Hunger Games'],
+        description: `Book 2 in The Giver series.`
     },
     {
         title: 'Messenger',
         series: '',
         author: 'Lois Lowry',
+        authorLast: 'Lowry, Lois',
         myRating: 5,
         pages: 169,
         wordCount: 35168,
@@ -5402,13 +5703,14 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/messenger.jpg',
         keywords: ['fiction', 'dystopian', 'young adult', 'science fiction', 'series'],
-		similar: ['Divergent', 'The Hunger Games'],
-		description: `Book 3 in The Giver series.`
+        similar: ['Divergent', 'The Hunger Games'],
+        description: `Book 3 in The Giver series.`
     },
     {
         title: 'Number the Stars',
         series: '',
         author: 'Lois Lowry',
+        authorLast: 'Lowry, Lois',
         myRating: 8,
         pages: 137,
         wordCount: 25905,
@@ -5416,13 +5718,14 @@ let bookData = [
         yearRead: [2000, 2019],
         thumb: './images/number-stars.jpg',
         keywords: ['fiction', 'historical', 'holocaust', 'children', ],
-		similar: ['Night'],
-		description: `A realistic look at what Nazi Germany was like from the eyes of a child.`
+        similar: ['Night'],
+        description: `A realistic look at what Nazi Germany was like from the eyes of a child.`
     },
     {
         title: 'Nazirite DNA',
         series: '',
         author: 'Lou Engle',
+        authorLast: 'Engle, Lou',
         myRating: 5,
         pages: 50,
         wordCount: 12853,
@@ -5430,13 +5733,14 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/nazirite-dna.jpg',
         keywords: ['nonfiction', 'christian', 'prayer'],
-		similar: ['When Heaven Invades Earth'],
-		description: `A pamphlet on what it means to take the Nazirite vow.`
+        similar: ['When Heaven Invades Earth'],
+        description: `A pamphlet on what it means to take the Nazirite vow.`
     },
     {
         title: 'Theodore Roosevelt',
         series: '',
         author: 'Louis Auchincloss',
+        authorLast: 'Auchincloss, Louis',
         myRating: 7,
         pages: 176,
         wordCount: 33598,
@@ -5444,13 +5748,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/teddy.jpg',
         keywords: ['nonfiction', 'presidents', 'biography', 'historical'],
-		similar: ["America's History, For the AP Course"],
-		description: `A biography of Theodore Roosevelt.`
+        similar: ["America's History, For the AP Course"],
+        description: `A biography of Theodore Roosevelt.`
     },
     {
         title: 'Holes',
         series: '',
         author: 'Louis Sachar',
+        authorLast: 'Sachar, Louis',
         myRating: 7,
         pages: 233,
         wordCount: 42390,
@@ -5458,13 +5763,14 @@ let bookData = [
         yearRead: [2001],
         thumb: './images/holes.jpg',
         keywords: ['young adult', 'fiction', 'mystery', 'adventure', 'movies', 'series'],
-		similar: ['Bridge to Terabithia'],
-		description: `A kid is sentenced to a juvenile detention camp where he is forced to dig holes.`
+        similar: ['Bridge to Terabithia'],
+        description: `A kid is sentenced to a juvenile detention camp where he is forced to dig holes.`
     },
     {
         title: 'Sideways Stories from Wayside School',
         series: '',
         author: 'Louis Sachar',
+        authorLast: 'Sachar, Louis',
         myRating: 7,
         pages: 128,
         wordCount: 22922,
@@ -5472,13 +5778,14 @@ let bookData = [
         yearRead: [2003, 2015],
         thumb: './images/wayside1.jpg',
         keywords: ['children', 'humor', 'weird', 'fiction', 'short stories', 'series', 'schools'],
-		similar: ['How to Eat Fried Worms', 'Diary of a Wimpy Kid'],
-		description: `Wayside School is a weird school filled with unique students and wild stories.`
+        similar: ['How to Eat Fried Worms', 'Diary of a Wimpy Kid'],
+        description: `Wayside School is a weird school filled with unique students and wild stories.`
     },
     {
         title: 'Wayside School Is Falling Down',
         series: '',
         author: 'Louis Sachar',
+        authorLast: 'Sachar, Louis',
         myRating: 7,
         pages: 152,
         wordCount: 33127,
@@ -5486,13 +5793,14 @@ let bookData = [
         yearRead: [2003],
         thumb: './images/wayside2.jpg',
         keywords: ['children', 'humor', 'weird', 'fiction', 'short stories', 'series', 'schools'],
-		similar: ['How to Eat Fried Worms', 'Diary of a Wimpy Kid'],
-		description: `A sequel in the Wayside School series.`
+        similar: ['How to Eat Fried Worms', 'Diary of a Wimpy Kid'],
+        description: `A sequel in the Wayside School series.`
     },
     {
         title: 'Wayside School Gets a Little Stranger',
         series: '',
         author: 'Louis Sachar',
+        authorLast: 'Sachar, Louis',
         myRating: 7,
         pages: 168,
         wordCount: 27946,
@@ -5500,13 +5808,14 @@ let bookData = [
         yearRead: [2003],
         thumb: './images/wayside3.jpg',
         keywords: ['children', 'humor', 'weird', 'fiction', 'short stories', 'series', 'schools'],
-		similar: ['How to Eat Fried Worms', 'Diary of a Wimpy Kid'],
-		description: `A sequel in the Wayside School series.`
+        similar: ['How to Eat Fried Worms', 'Diary of a Wimpy Kid'],
+        description: `A sequel in the Wayside School series.`
     },
     {
         title: 'Wayside School Beneath the Cloud of Doom',
         series: '',
         author: 'Louis Sachar',
+        authorLast: 'Sachar, Louis',
         myRating: 7,
         pages: 192,
         wordCount: 31938,
@@ -5514,13 +5823,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/wayside4.jpg',
         keywords: ['children', 'humor', 'weird', 'fiction', 'short stories', 'series', 'schools'],
-		similar: ['How to Eat Fried Worms', 'Diary of a Wimpy Kid'],
-		description: `A sequel in the Wayside School series.`
+        similar: ['How to Eat Fried Worms', 'Diary of a Wimpy Kid'],
+        description: `A sequel in the Wayside School series.`
     },
     {
         title: 'Recruited',
         series: '',
         author: 'Lynn Mason',
+        authorLast: 'Mason, Lynn',
         myRating: 6,
         pages: 224,
         wordCount: 55238,
@@ -5528,18 +5838,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/recruited.jpg',
         keywords: ['tv', 'fiction', 'spy thriller', 'young adult', 'series'],
-		similar: ['A Secret Life'],
-		description: `A prequel adventure to the TV show Alias in which Sydney is first recruited.`
+        similar: ['A Secret Life'],
+        description: `A prequel adventure to the TV show Alias in which Sydney is first recruited.`
     },
-	//#endregion
-    /*===========================
-    	Author First Name - M's
-    ===========================*/
-	//#region M
     {
         title: 'A Wrinkle in Time',
         series: '',
         author: "Madeleine L'Engle",
+        authorLast: "L'Engle, Madeleine",
         myRating: 7,
         pages: 211,
         wordCount: 60759,
@@ -5547,55 +5853,59 @@ let bookData = [
         yearRead: [2015, 2018],
         thumb: './images/wrinkle-in-time.jpg',
         keywords: ['movies', 'fiction', 'young adult', 'fantasy', 'science fiction', 'time travel', 'series'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Outliers',
         series: '',
         author: 'Malcolm Gladwell',
+        authorLast: 'Gladwell, Malcolm',
         myRating: 8,
-		pages: 309,
+        pages: 309,
         wordCount: 68766,
         pubDate: 2008,
         yearRead: [2020],
         thumb: './images/outliers.jpg',
         keywords: ['nonfiction', 'psychology', 'sociology'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Tipping Point',
         series: '',
         author: 'Malcolm Gladwell',
+        authorLast: 'Gladwell, Malcolm',
         myRating: 7,
-		pages: 301,
+        pages: 301,
         wordCount: 80698,
         pubDate: 2002,
         yearRead: [2020],
         thumb: './images/tipping-point.jpg',
         keywords: ['nonfiction', 'psychology', 'sociology'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'David and Goliath',
         series: '',
         author: 'Malcolm Gladwell',
+        authorLast: 'Gladwell, Malcolm',
         myRating: 8,
-		pages: 305,
+        pages: 305,
         wordCount: 66568,
         pubDate: 2013,
         yearRead: [2022],
         thumb: './images/david-goliath.jpg',
         keywords: ['nonfiction', 'psychology', 'sociology'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Bored and Brilliant',
         series: '',
         author: 'Manoush Zomorodi',
+        authorLast: 'Zomorodi, Manoush',
         myRating: 8,
         pages: 192,
         wordCount: 65626,
@@ -5603,13 +5913,14 @@ let bookData = [
         yearRead: [2019, 2021],
         thumb: './images/bored.jpg',
         keywords: ['nonfiction', 'psychology', 'self-help', 'technology'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'The 125 Best Brain Teasers of All Time',
         series: '',
         author: 'Marcel Danesi',
+        authorLast: 'Danesi, Marcel',
         myRating: 5,
         pages: 206,
         wordCount: 18540,
@@ -5617,13 +5928,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/brain-teasers.jpg',
         keywords: ['puzzles', 'nonfiction'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Vampire Baby',
         series: '',
         author: 'Marcia Thornton Jones',
+        authorLast: 'Jones, Marcia Thornton',
         myRating: 6,
         pages: 69,
         wordCount: 14697,
@@ -5631,13 +5943,14 @@ let bookData = [
         yearRead: [2001],
         thumb: './images/vamp-baby.jpg',
         keywords: ['fiction', 'bailey school kids', 'children', 'fantasy', 'mystery', 'vampires', 'series'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'First, Break All the Rules',
         series: '',
         author: 'Marcus Buckingham',
+        authorLast: 'Buckingham, Marcus',
         myRating: 7,
         pages: 272,
         wordCount: 92787,
@@ -5645,13 +5958,14 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/first-break-rules.jpg',
         keywords: ['nonfiction', 'business', 'management'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'The Official Pokémon Handbook',
         series: '',
         author: 'Maria Barbo',
+        authorLast: 'Barbo, Maria',
         myRating: 7,
         pages: 143,
         wordCount: 11440,
@@ -5659,13 +5973,14 @@ let bookData = [
         yearRead: [2000],
         thumb: './images/pokemon.jpg',
         keywords: ['tv', 'movies', 'games', 'video games', 'children', 'animals', 'fiction', 'reference', ],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: "Where'd You Go, Bernadette",
         series: '',
         author: 'Maria Semple',
+        authorLast: 'Semple, Maria',
         myRating: 9,
         pages: 330,
         wordCount: 90275,
@@ -5673,13 +5988,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/bernadette.jpg',
         keywords: ['movies', 'fiction', 'humor', 'mystery', ],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Beautiful',
         series: '',
         author: "Marie D'Abreo",
+        authorLast: "D'Abreo, Marie",
         myRating: 4,
         pages: 134,
         wordCount: 3350,
@@ -5687,13 +6003,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/beautiful.jpg',
         keywords: ['graphic novels', 'young adult', 'coming of age', 'fiction', ],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'The Life-Changing Magic of Tidying Up',
         series: '',
         author: "Marie Kondō",
+        authorLast: 'Kondō, Marie',
         myRating: 7,
         pages: 213,
         wordCount: 45530,
@@ -5701,13 +6018,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/magic-tidying-up.jpg',
         keywords: ['nonfiction', 'minimalism', 'self-help', 'series', ],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Spark Joy',
         series: '',
         author: "Marie Kondō",
+        authorLast: 'Kondō, Marie',
         myRating: 7,
         pages: 291,
         wordCount: 51967,
@@ -5715,13 +6033,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/spark-joy.jpg',
         keywords: ['nonfiction', 'minimalism', 'self-help', 'series', ],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Legend',
         series: '',
         author: 'Marie Lu',
+        authorLast: 'Lu, Marie',
         myRating: 7,
         pages: 305,
         wordCount: 73476,
@@ -5729,13 +6048,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/legend.jpg',
         keywords: ['young adult', 'fiction', 'dystopian', 'science fiction', 'romance', 'series'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Doctrine',
         series: '',
         author: 'Mark Driscoll',
+        authorLast: 'Driscoll, Mark',
         myRating: 8,
         pages: 463,
         wordCount: 147580,
@@ -5743,13 +6063,14 @@ let bookData = [
         yearRead: [2012],
         thumb: './images/doctrine.jpg',
         keywords: ['christian', 'nonfiction', 'theology'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'The Radical Reformission',
         series: '',
         author: 'Mark Driscoll',
+        authorLast: 'Driscoll, Mark',
         myRating: 8,
         pages: 208,
         wordCount: 47728,
@@ -5757,13 +6078,14 @@ let bookData = [
         yearRead: [2012],
         thumb: './images/radical-ref.jpg',
         keywords: ['christian', 'nonfiction', 'christian living'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'The Subtle Art of Not Giving a F*ck',
         series: '',
         author: 'Mark Manson',
+        authorLast: 'Manson, Mark',
         myRating: 7,
         pages: 224,
         wordCount: 49769,
@@ -5771,13 +6093,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/subtle-art.jpg',
         keywords: ['nonfiction', 'self-help', 'psychology'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Archie, Vol. 1',
         series: '',
         author: 'Mark Waid',
+        authorLast: 'Waid, Mark',
         myRating: 6,
         pages: 160,
         wordCount: 9600,
@@ -5785,13 +6108,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/archie.jpg',
         keywords: ['tv', 'graphic novels', 'young adult', 'comics', 'fiction', 'series'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'House of Leaves',
         series: '',
         author: 'Mark Z. Danielewski',
+        authorLast: 'Danielewski, Mark Z.',
         myRating: 7,
         pages: 705,
         wordCount: 223699,
@@ -5799,13 +6123,14 @@ let bookData = [
         yearRead: [2019],
         thumb: './images/house-of-leaves.jpg',
         keywords: ['experimental', 'weird', 'horror', 'fiction', 'fantasy', 'mystery', 'unreliable narrator'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Manna',
         series: '',
         author: 'Marshall Brain',
+        authorLast: 'Brain, Marshall',
         myRating: 8,
         pages: 79,
         wordCount: 22547,
@@ -5813,13 +6138,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/manna.jpg',
         keywords: ['fiction', 'science fiction', 'dystopian', 'short stories', 'technology'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Frankenstein',
         series: '',
-        author: 'Mary Wollstonecraft Shelley',
+        author: 'Mary Shelley',
+        authorLast: 'Shelley, Mary',
         myRating: 6,
         pages: 335,
         wordCount: 80855,
@@ -5827,13 +6153,14 @@ let bookData = [
         yearRead: [2008],
         thumb: './images/frankenstein.jpg',
         keywords: ['fiction', 'gothic', 'horror', 'science fiction', 'movies', ],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'The Midnight Library',
         series: '',
         author: 'Matt Haig',
+        authorLast: 'Haig, Matt',
         myRating: 8,
         pages: 304,
         wordCount: 83210,
@@ -5841,13 +6168,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/midnight-library.jpg',
         keywords: ['fiction', 'suicide', 'death', 'mental health', 'fantasy'],
-		similar: ['Every Day'],
-		description: `A suicidal girl sees all of the alternate paths her life could have taken.`
+        similar: ['Every Day'],
+        description: `A suicidal girl sees all of the alternate paths her life could have taken.`
     },
     {
         title: '30 Days To Understanding the Bible',
         series: '',
         author: 'Max Anders',
+        authorLast: 'Anders, Max',
         myRating: 7,
         pages: 305,
         wordCount: 17741,
@@ -5855,13 +6183,14 @@ let bookData = [
         yearRead: [2013],
         thumb: './images/thirty-days-bible.jpg',
         keywords: ['reference', 'theology', 'christian', 'nonfiction'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'World War Z',
         series: '',
         author: 'Max Brooks',
+        authorLast: 'Brooks, Max',
         myRating: 6,
         pages: 342,
         wordCount: 114453,
@@ -5869,13 +6198,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/wwz.jpg',
         keywords: ['fiction', 'zombies', 'horror', 'movies'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'How Not to Die',
         series: '',
         author: 'Michael Greger',
+        authorLast: 'Greger, Michael',
         myRating: 7,
         pages: 576,
         wordCount: 161553,
@@ -5883,13 +6213,14 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/how-not-to-die.jpg',
         keywords: ['nonfiction', 'health', 'nutrition', 'food', 'science'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Stupid White Men',
         series: '',
         author: 'Michael Moore',
+        authorLast: 'Moore, Michael',
         myRating: 6,
         pages: 304,
         wordCount: 75360,
@@ -5897,13 +6228,14 @@ let bookData = [
         yearRead: [2008],
         thumb: './images/stupid-white-men.jpg',
         keywords: ['nonfiction', 'politics', 'humor', 'historical', 'america'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Food Rules',
         series: '',
         author: 'Michael Pollan',
+        authorLast: 'Pollan, Michael',
         myRating: 8,
         pages: 152,
         wordCount: 12560,
@@ -5911,13 +6243,14 @@ let bookData = [
         yearRead: [2020],
         thumb: './images/food-rules.jpg',
         keywords: ['nonfiction', 'nutrition', 'food'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'Mean Girls',
         series: '',
         author: 'Micol Ostow',
+        authorLast: 'Ostow, Micol',
         myRating: 7,
         pages: 283,
         wordCount: 51496,
@@ -5925,13 +6258,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/mean-girls.jpg',
         keywords: ['movies', 'young adult', 'humor', 'fiction', 'romance', 'schools'],
-		similar: ['The DUFF', 'Hocus Pocus & The All New Sequel'],
-		description: ``
+        similar: ['The DUFF', 'Hocus Pocus & The All New Sequel'],
+        description: ``
     },
     {
         title: "Dungeon Master's Guide",
         series: '',
         author: 'Mike Mearls',
+        authorLast: 'Mearls, Mike',
         myRating: 8,
         pages: 320,
         wordCount: 212896,
@@ -5939,13 +6273,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/dmg.jpg',
         keywords: ['dnd', 'fiction', 'reference', 'games', 'tabletop games', 'fantasy', 'high fantasy', 'series'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: 'The Kobold Guide to Board Game Design',
         series: '',
         author: 'Mike Selinker',
+        authorLast: 'Selinker, Mike',
         myRating: 9,
         pages: 138,
         wordCount: 58247,
@@ -5953,13 +6288,14 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/kobold-bgs.jpg',
         keywords: ['essays', 'nonfiction', 'game design', 'games', 'tabletop games'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: "Shirley Jackson's The Lottery: The Authorized Graphic Adaptation",
         series: '',
         author: 'Miles Hyman',
+        authorLast: 'Hyman, Miles',
         myRating: 5,
         pages: 160,
         wordCount: 1000,
@@ -5967,13 +6303,14 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/lottery-graphic.jpg',
         keywords: ['graphic novels', 'short stories', 'horror', 'fiction', 'dystopian'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
     {
         title: "AsapSCIENCE",
         series: '',
         author: 'Mitchell Moffit',
+        authorLast: 'Moffit, Mitchell',
         myRating: 7,
         pages: 256,
         wordCount: 17427,
@@ -5981,18 +6318,14 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/asapscience.jpg',
         keywords: ['nonfiction', 'reference', 'science', 'humor'],
-		similar: [],
-		description: ``
+        similar: [],
+        description: ``
     },
-	//#endregion
-    /*===========================
-    	Author First Name - N's
-    ===========================*/
-	//#region N
     {
         title: 'Scythe',
         series: '',
         author: 'Neal Shusterman',
+        authorLast: 'Shusterman, Neal',
         myRating: 9,
         pages: 435,
         wordCount: 99224,
@@ -6005,6 +6338,7 @@ let bookData = [
         title: 'Thunderhead',
         series: '',
         author: 'Neal Shusterman',
+        authorLast: 'Shusterman, Neal',
         myRating: 10,
         pages: 504,
         wordCount: 122774,
@@ -6017,6 +6351,7 @@ let bookData = [
         title: 'The Toll',
         series: '',
         author: 'Neal Shusterman',
+        authorLast: 'Shusterman, Neal',
         myRating: 9,
         pages: 625,
         wordCount: 144754,
@@ -6029,6 +6364,7 @@ let bookData = [
         title: 'Neverwhere',
         series: '',
         author: 'Neil Gaiman',
+        authorLast: 'Gaiman, Neil',
         myRating: 6,
         pages: 370,
         wordCount: 129996,
@@ -6041,6 +6377,7 @@ let bookData = [
         title: 'Good Omens',
         series: '',
         author: 'Neil Gaiman',
+        authorLast: 'Gaiman, Neil',
         myRating: 5,
         pages: 491,
         wordCount: 115238,
@@ -6053,6 +6390,7 @@ let bookData = [
         title: 'Coraline',
         series: '',
         author: 'Neil Gaiman',
+        authorLast: 'Gaiman, Neil',
         myRating: 6,
         pages: 162,
         wordCount: 33755,
@@ -6065,6 +6403,7 @@ let bookData = [
         title: 'The Graveyard Book',
         series: '',
         author: 'Neil Gaiman',
+        authorLast: 'Gaiman, Neil',
         myRating: 7,
         pages: 307,
         wordCount: 72691,
@@ -6077,6 +6416,7 @@ let bookData = [
         title: 'Victory Over the Darkness',
         series: '',
         author: 'Neil T. Anderson',
+        authorLast: 'T. Anderson, Neil',
         myRating: 4,
         pages: 256,
         wordCount: 60227,
@@ -6089,6 +6429,7 @@ let bookData = [
         title: 'Fantastic Beasts and Where to Find Them',
         series: '',
         author: 'Newt Scamander',
+        authorLast: 'Scamander, Newt',
         myRating: 7,
         pages: 128,
         wordCount: 13051,
@@ -6101,6 +6442,7 @@ let bookData = [
         title: 'Everything, Everything',
         series: '',
         author: 'Nicola Yoon',
+        authorLast: 'Yoon, Nicola',
         myRating: 7,
         pages: 306,
         wordCount: 63428,
@@ -6113,6 +6455,7 @@ let bookData = [
         title: 'The Shallows',
         series: '',
         author: 'Nicolas Carr',
+        authorLast: 'Carr, Nicolas',
         myRating: 6,
         pages: 280,
         wordCount: 95142,
@@ -6121,15 +6464,11 @@ let bookData = [
         thumb: './images/shallows.jpg',
         keywords: ['nonfiction', 'technology', 'self-help']
     },
-	//#endregion
-    /*===========================
-    	Author First Name - O's
-    ===========================*/
-	//#region O
     {
         title: 'Cold Sassy Tree',
         series: '',
         author: 'Olive Ann Burns',
+        authorLast: 'Ann Burns, Olive',
         myRating: 6,
         pages: 391,
         wordCount: 123402,
@@ -6142,6 +6481,7 @@ let bookData = [
         title: 'Ender’s Game',
         series: '',
         author: 'Orson Scott Card',
+        authorLast: 'Card, Orson Scott',
         myRating: 6,
         pages: 324,
         wordCount: 112569,
@@ -6154,6 +6494,7 @@ let bookData = [
         title: 'The Canterville Ghost',
         series: '',
         author: 'Oscar Wilde',
+        authorLast: 'Wilde, Oscar',
         myRating: 7,
         pages: 126,
         wordCount: 12089,
@@ -6162,15 +6503,11 @@ let bookData = [
         thumb: './images/canterville.jpg',
         keywords: ['horror', 'fiction', 'humor', 'gothic', 'ghosts']
     },
-	//#endregion
-    /*===========================
-    	Author First Name - P's
-    ===========================*/
-	//#region P
     {
         title: "100 Things We've Lost to the Internet",
         series: '',
         author: 'Pamela Paul',
+        authorLast: 'Paul, Pamela',
         myRating: 7,
         pages: 288,
         wordCount: 52538,
@@ -6183,6 +6520,7 @@ let bookData = [
         title: 'The Windup Girl',
         series: '',
         author: 'Paolo Bacigalupi',
+        authorLast: 'Bacigalupi, Paolo',
         myRating: 5,
         pages: 359,
         wordCount: 184318,
@@ -6195,6 +6533,7 @@ let bookData = [
         title: 'The Five Dysfunctions of a Team',
         series: '',
         author: 'Patrick Lencioni',
+        authorLast: 'Lencioni, Patrick',
         myRating: 8,
         pages: 227,
         wordCount: 34854,
@@ -6207,6 +6546,7 @@ let bookData = [
         title: 'The Name of the Wind',
         series: '1',
         author: 'Patrick Rothfuss',
+        authorLast: 'Rothfuss, Patrick',
         myRating: 10,
         pages: 722,
         wordCount: 262975,
@@ -6219,6 +6559,7 @@ let bookData = [
         title: "The Wise Man's Fear",
         series: '2',
         author: 'Patrick Rothfuss',
+        authorLast: 'Rothfuss, Patrick',
         myRating: 10,
         pages: 1107,
         wordCount: 404275,
@@ -6231,6 +6572,7 @@ let bookData = [
         title: 'Rick and Morty vs. Dungeons & Dragons',
         series: '',
         author: 'Patrick Rothfuss',
+        authorLast: 'Rothfuss, Patrick',
         myRating: 9,
         pages: 96,
         wordCount: 5760,
@@ -6243,6 +6585,7 @@ let bookData = [
         title: 'The Heavenly Man',
         series: '',
         author: 'Paul Hattaway',
+        authorLast: 'Hattaway, Paul',
         myRating: 6,
         pages: 351,
         wordCount: 92944,
@@ -6255,6 +6598,7 @@ let bookData = [
         title: 'The Girl on the Train',
         series: '',
         author: 'Paula Hawkins',
+        authorLast: 'Hawkins, Paula',
         myRating: 7,
         pages: 325,
         wordCount: 103306,
@@ -6267,6 +6611,7 @@ let bookData = [
         title: 'Liverpool FC',
         series: '',
         author: 'Paula Wilson',
+        authorLast: 'Wilson, Paula',
         myRating: 6,
         pages: 32,
         wordCount: 8535,
@@ -6279,6 +6624,7 @@ let bookData = [
         title: 'The Alchemist',
         series: '',
         author: 'Paulo Coelho',
+        authorLast: 'Coelho, Paulo',
         myRating: 5,
         pages: 197,
         wordCount: 37680,
@@ -6291,6 +6637,7 @@ let bookData = [
         title: 'The Good Earth',
         series: '',
         author: 'Pearl S. Buck',
+        authorLast: 'Buck, Pearl S.',
         myRating: 5,
         pages: 418,
         wordCount: 100009,
@@ -6303,6 +6650,7 @@ let bookData = [
         title: 'Shortest Way Home',
         series: '',
         author: 'Pete Buttigieg',
+        authorLast: 'Buttigieg, Pete',
         myRating: 6,
         pages: 352,
         wordCount: 93729,
@@ -6315,6 +6663,7 @@ let bookData = [
         title: '30 Years of Adventure: A Celebration of Dungeons & Dragons',
         series: '',
         author: 'Peter Archer',
+        authorLast: 'Archer, Peter',
         myRating: 5,
         pages: 286,
         wordCount: 48000,
@@ -6327,6 +6676,7 @@ let bookData = [
         title: '1001 Books You Must Read Before You Die',
         series: '',
         author: 'Peter Boxall',
+        authorLast: 'Boxall, Peter',
         myRating: 5,
         pages: 960,
         wordCount: 277440,
@@ -6339,6 +6689,7 @@ let bookData = [
         title: 'Adjustment Team',
         series: '',
         author: 'Philip K Dick',
+        authorLast: 'Dick, Philip K.',
         myRating: 6,
         pages: 44,
         wordCount: 9420,
@@ -6351,6 +6702,7 @@ let bookData = [
         title: 'Resident Evil',
         series: '',
         author: 'Philip Reed',
+        authorLast: 'Reed, Philip',
         myRating: 7,
         pages: 192,
         wordCount: 51614,
@@ -6363,6 +6715,7 @@ let bookData = [
         title: 'Hidden Codes & Grand Designs',
         series: '',
         author: 'Pierre Berloquin',
+        authorLast: 'Berloquin, Pierre',
         myRating: 6,
         pages: 375,
         wordCount: 100872,
@@ -6371,20 +6724,11 @@ let bookData = [
         thumb: './images/hidden-codes.jpg',
         keywords: ['nonfiction', 'historical', 'science']
     },
-	//#endregion
-    /*===========================
-    	Author First Name - Q's
-    ===========================*/
-	//#region Q
-	//#endregion
-    /*===========================
-    	Author First Name - R's
-    ===========================*/
-	//#region R
     {
         title: 'What is Predestination?',
         series: '',
         author: 'R.C. Sproul',
+        authorLast: 'Sproul, R.C.',
         myRating: 8,
         pages: 74,
         wordCount: 19313,
@@ -6392,12 +6736,13 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/predestination.jpg',
         keywords: ['nonfiction', 'christian', 'theology', 'series'],
-		similar: ['Systematic Theology']
+        similar: ['Systematic Theology']
     },
     {
         title: 'How Should I Think About Money?',
         series: '',
         author: 'R.C. Sproul',
+        authorLast: 'Sproul, R.C.',
         myRating: 8,
         pages: 74,
         wordCount: 19313,
@@ -6405,12 +6750,13 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/how-think-money.jpg',
         keywords: ['nonfiction', 'christian', 'theology', 'series', 'money'],
-		similar: ['Systematic Theology']
+        similar: ['Systematic Theology']
     },
     {
         title: 'Welcome to Dead House',
         series: '1',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 7,
         pages: 126,
         wordCount: 23434,
@@ -6418,12 +6764,13 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/dead-house.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'ghosts', 'tv', 'series'],
-		similar: ['Scary Stories to Tell in the Dark']
+        similar: ['Scary Stories to Tell in the Dark']
     },
     {
         title: 'Stay Out of the Basement',
         series: '2',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 6,
         pages: 144,
         wordCount: 25434,
@@ -6431,12 +6778,13 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/stay-out-basement.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'tv', 'series'],
-		similar: ['Scary Stories to Tell in the Dark']
+        similar: ['Scary Stories to Tell in the Dark']
     },
     {
         title: 'Say Cheese and Die!',
         series: '4',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 7,
         pages: 144,
         wordCount: 25434,
@@ -6444,12 +6792,13 @@ let bookData = [
         yearRead: [1999],
         thumb: './images/say-cheese-die.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'tv', 'series'],
-		similar: ['Say Cheese - And Die Screaming', 'Scary Stories to Tell in the Dark']
+        similar: ['Say Cheese - And Die Screaming', 'Scary Stories to Tell in the Dark']
     },
     {
         title: "The Curse of the Mummy's Tomb",
         series: '5',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 6,
         pages: 144,
         wordCount: 25434,
@@ -6457,12 +6806,13 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/curse-of-mummy.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
-		similar: ['Scary Stories to Tell in the Dark']
+        similar: ['Scary Stories to Tell in the Dark']
     },
     {
         title: 'Night of the Living Dummy',
         series: '7',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 7,
         pages: 134,
         wordCount: 26690,
@@ -6470,12 +6820,13 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/night-living-dummy.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
-		similar: ['Scary Stories to Tell in the Dark']
+        similar: ['Scary Stories to Tell in the Dark']
     },
     {
         title: 'One Day at Horrorland',
         series: '16',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 7,
         pages: 123,
         wordCount: 24335,
@@ -6483,12 +6834,13 @@ let bookData = [
         yearRead: [2006],
         thumb: './images/horrorland.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'tv', 'series'],
-		similar: ['Scary Stories to Tell in the Dark']
+        similar: ['Scary Stories to Tell in the Dark']
     },
     {
         title: 'It Came from Beneath the Sink!',
         series: '30',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 6,
         pages: 112,
         wordCount: 23135,
@@ -6496,12 +6848,13 @@ let bookData = [
         yearRead: [2016],
         thumb: './images/it-came-from-beneath.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'tv', 'series'],
-		similar: ['Scary Stories to Tell in the Dark']
+        similar: ['Scary Stories to Tell in the Dark']
     },
     {
         title: 'Werewolf Skin',
         series: '60',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 7,
         pages: 125,
         wordCount: 24335,
@@ -6509,12 +6862,13 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/werewolf-skin.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'werewolves', 'tv', 'series'],
-		similar: ['Scary Stories to Tell in the Dark']
+        similar: ['Scary Stories to Tell in the Dark']
     },
     {
         title: 'Beware of the Purple Peanut Butter',
         series: '6',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 4,
         pages: 144,
         wordCount: 25434,
@@ -6522,12 +6876,13 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/purple-pb.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series', 'choose-adventure'],
-		similar: ['Welcome to Dead House']
+        similar: ['Welcome to Dead House']
     },
     {
         title: 'Dr. Maniac vs. Robby Schwartz',
         series: '5',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 3,
         pages: 132,
         wordCount: 25002,
@@ -6535,12 +6890,13 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/dr-maniac-vs.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
-		similar: ['Dr. Maniac Will See You Now', 'Scary Stories to Tell in the Dark']
+        similar: ['Dr. Maniac Will See You Now', 'Scary Stories to Tell in the Dark']
     },
     {
         title: "Who's Your Mummy?",
         series: '6',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 5,
         pages: 133,
         wordCount: 25100,
@@ -6548,12 +6904,13 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/whos-your-mummy.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
-		similar: ['Scary Stories to Tell in the Dark', "The Curse of the Mummy's Tomb"]
+        similar: ['Scary Stories to Tell in the Dark', "The Curse of the Mummy's Tomb"]
     },
     {
         title: 'My Friends Call Me Monster',
         series: '7',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 4,
         pages: 138,
         wordCount: 25434,
@@ -6561,12 +6918,13 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/friends-call-me-monster.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
-		similar: ['Scary Stories to Tell in the Dark']
+        similar: ['Scary Stories to Tell in the Dark']
     },
     {
         title: 'Say Cheese - And Die Screaming',
         series: '8',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 5,
         pages: 125,
         wordCount: 23434,
@@ -6574,12 +6932,13 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/say-cheese-die-screaming.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
-		similar: ['Say Cheese and Die!', 'Scary Stories to Tell in the Dark']
+        similar: ['Say Cheese and Die!', 'Scary Stories to Tell in the Dark']
     },
     {
         title: 'Welcome To Camp Slither',
         series: '9',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 4,
         pages: 133,
         wordCount: 24800,
@@ -6587,12 +6946,13 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/camp-slither.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'camps', 'series'],
-		similar: ['Scary Stories to Tell in the Dark']
+        similar: ['Scary Stories to Tell in the Dark']
     },
     {
         title: 'Escape From Horrorland',
         series: '11',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 5,
         pages: 132,
         wordCount: 24788,
@@ -6600,12 +6960,13 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/escape-horrorland.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
-		similar: ['Scary Stories to Tell in the Dark', 'One Day at Horrorland']
+        similar: ['Scary Stories to Tell in the Dark', 'One Day at Horrorland']
     },
     {
         title: 'When The Ghost Dog Howls',
         series: '13',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 4,
         pages: 137,
         wordCount: 25120,
@@ -6613,12 +6974,13 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/ghost-dog-howls.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'ghosts', 'series'],
-		similar: ['Scary Stories to Tell in the Dark']
+        similar: ['Scary Stories to Tell in the Dark']
     },
     {
         title: 'Little Shop of Hamsters',
         series: '14',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 4,
         pages: 135,
         wordCount: 24987,
@@ -6626,12 +6988,13 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/little-shop-hamsters.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
-		similar: ['Scary Stories to Tell in the Dark']
+        similar: ['Scary Stories to Tell in the Dark']
     },
     {
         title: 'Weirdo Halloween',
         series: '16',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 4,
         pages: 214,
         wordCount: 39804,
@@ -6639,12 +7002,13 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/weirdo-halloween.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'halloween', 'series'],
-		similar: ['Scary Stories to Tell in the Dark', 'Zombie Halloween']
+        similar: ['Scary Stories to Tell in the Dark', 'Zombie Halloween']
     },
     {
         title: 'Slappy New Year!',
         series: '18',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 4,
         pages: 160,
         wordCount: 29760,
@@ -6652,12 +7016,13 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/slappy-new-year.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
-		similar: ['Night of the Living Dummy', 'Scary Stories to Tell in the Dark']
+        similar: ['Night of the Living Dummy', 'Scary Stories to Tell in the Dark']
     },
     {
         title: 'The Horror At Chiller House',
         series: '19',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 5,
         pages: 160,
         wordCount: 29760,
@@ -6665,12 +7030,13 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/chiller-house.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
-		similar: ['Scary Stories to Tell in the Dark', 'One Day at Horrorland']
+        similar: ['Scary Stories to Tell in the Dark', 'One Day at Horrorland']
     },
     {
         title: 'Dr. Maniac Will See You Now',
         series: '5',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 4,
         pages: 160,
         wordCount: 29760,
@@ -6678,12 +7044,13 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/dr-maniac.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
-		similar: ['Scary Stories to Tell in the Dark', 'Dr. Maniac vs. Robby Schwartz']
+        similar: ['Scary Stories to Tell in the Dark', 'Dr. Maniac vs. Robby Schwartz']
     },
     {
         title: 'Creature Teacher: The Final Exam',
         series: '6',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 4,
         pages: 133,
         wordCount: 24738,
@@ -6691,12 +7058,13 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/creature-teacher.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series', 'schools'],
-		similar: ['Scary Stories to Tell in the Dark']
+        similar: ['Scary Stories to Tell in the Dark']
     },
     {
         title: 'Zombie Halloween',
         series: '1',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 6,
         pages: 174,
         wordCount: 32364,
@@ -6704,12 +7072,13 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/zombie-halloween.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'zombies', 'halloween', 'series'],
-		similar: ['Scary Stories to Tell in the Dark', 'Weirdo Halloween']
+        similar: ['Scary Stories to Tell in the Dark', 'Weirdo Halloween']
     },
     {
         title: 'The 12 Screams of Christmas',
         series: '2',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 6,
         pages: 174,
         wordCount: 32364,
@@ -6717,12 +7086,13 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/twelve-screams.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'christmas', 'series'],
-		similar: ['Scary Stories to Tell in the Dark', 'Zombie Halloween']
+        similar: ['Scary Stories to Tell in the Dark', 'Zombie Halloween']
     },
     {
         title: 'Slappy Birthday to You',
         series: '1',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 4,
         pages: 139,
         wordCount: 25854,
@@ -6730,12 +7100,13 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/slappy-birthday.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'series'],
-		similar: ['Night of the Living Dummy', 'Scary Stories to Tell in the Dark']
+        similar: ['Night of the Living Dummy', 'Scary Stories to Tell in the Dark']
     },
     {
         title: 'Creepy Creatures',
         series: '1',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 5,
         pages: 144,
         wordCount: 11520,
@@ -6743,12 +7114,13 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/creepy-creatures.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'graphic novels', 'series'],
-		similar: ['Scary Stories to Tell in the Dark', 'Terror Trips']
+        similar: ['Scary Stories to Tell in the Dark', 'Terror Trips']
     },
     {
         title: 'Terror Trips',
         series: '2',
         author: 'R.L. Stine',
+        authorLast: 'Stine, R.L.',
         myRating: 5,
         pages: 144,
         wordCount: 11520,
@@ -6756,12 +7128,13 @@ let bookData = [
         yearRead: [2017],
         thumb: './images/terror-trips.jpg',
         keywords: ['goosebumps', 'fiction', 'children', 'horror', 'graphic novels', 'series'],
-		similar: ['Scary Stories to Tell in the Dark', 'Creepy Creatures']
+        similar: ['Scary Stories to Tell in the Dark', 'Creepy Creatures']
     },
     {
         title: '2,000 to 10,000',
         series: '',
         author: 'Rachel Aaron',
+        authorLast: 'Aaron, Rachel',
         myRating: 6,
         pages: 72,
         wordCount: 29003,
@@ -6774,6 +7147,7 @@ let bookData = [
         title: 'Less: A Visual Guide to Minimalism',
         series: '',
         author: 'Rachel Aust',
+        authorLast: 'Aust, Rachel',
         myRating: 6,
         pages: 144,
         wordCount: 28800,
@@ -6786,6 +7160,7 @@ let bookData = [
         title: "Nick & Norah's Infinite Playlist",
         series: '',
         author: 'Rachel Cohn',
+        authorLast: 'Cohn, Rachel',
         myRating: 8,
         pages: 183,
         wordCount: 46786,
@@ -6798,6 +7173,7 @@ let bookData = [
         title: "Dot Journaling",
         series: '',
         author: 'Rachel Miller',
+        authorLast: 'Miller, Rachel',
         myRating: 6,
         pages: 241,
         wordCount: 64534,
@@ -6810,6 +7186,7 @@ let bookData = [
         title: 'Ghosts',
         series: '',
         author: 'Raina Telgemeier',
+        authorLast: 'Telgemeier, Raina',
         myRating: 7,
         pages: 256,
         wordCount: 6400,
@@ -6822,6 +7199,7 @@ let bookData = [
         title: 'Landline',
         series: '',
         author: 'Rainbow Rowell',
+        authorLast: 'Rowell, Rainbow',
         myRating: 7,
         pages: 310,
         wordCount: 85251,
@@ -6834,6 +7212,7 @@ let bookData = [
         title: 'Attachments',
         series: '',
         author: 'Rainbow Rowell',
+        authorLast: 'Rowell, Rainbow',
         myRating: 7,
         pages: 323,
         wordCount: 83995,
@@ -6846,6 +7225,7 @@ let bookData = [
         title: 'Eleanor & Park',
         series: '',
         author: 'Rainbow Rowell',
+        authorLast: 'Rowell, Rainbow',
         myRating: 7,
         pages: 328,
         wordCount: 84152,
@@ -6858,6 +7238,7 @@ let bookData = [
         title: 'Fangirl',
         series: '',
         author: 'Rainbow Rowell',
+        authorLast: 'Rowell, Rainbow',
         myRating: 9,
         pages: 483,
         wordCount: 120733,
@@ -6870,6 +7251,7 @@ let bookData = [
         title: 'Carry On',
         series: '',
         author: 'Rainbow Rowell',
+        authorLast: 'Rowell, Rainbow',
         myRating: 7,
         pages: 522,
         wordCount: 128426,
@@ -6882,6 +7264,7 @@ let bookData = [
         title: 'Wayward Son',
         series: '',
         author: 'Rainbow Rowell',
+        authorLast: 'Rowell, Rainbow',
         myRating: 8,
         pages: 356,
         wordCount: 84309,
@@ -6894,6 +7277,7 @@ let bookData = [
         title: 'Any Way the Wind Blows',
         series: '',
         author: 'Rainbow Rowell',
+        authorLast: 'Rowell, Rainbow',
         myRating: 6,
         pages: 579,
         wordCount: 141771,
@@ -6906,6 +7290,7 @@ let bookData = [
         title: 'Kindred Spirits',
         series: '',
         author: 'Rainbow Rowell',
+        authorLast: 'Rowell, Rainbow',
         myRating: 7,
         pages: 96,
         wordCount: 24629,
@@ -6918,6 +7303,7 @@ let bookData = [
         title: 'I Will Teach You to Be Rich',
         series: '',
         author: 'Ramit Sethi',
+        authorLast: 'Sethi, Ramit',
         myRating: 9,
         pages: 352,
         wordCount: 114296,
@@ -6930,6 +7316,7 @@ let bookData = [
         title: 'Thing Explainer',
         series: '',
         author: 'Randall Munroe',
+        authorLast: 'Munroe, Randall',
         myRating: 8,
         pages: 64,
         wordCount: 32000,
@@ -6942,6 +7329,7 @@ let bookData = [
         title: 'What If?',
         series: '',
         author: 'Randall Munroe',
+        authorLast: 'Munroe, Randall',
         myRating: 8,
         pages: 303,
         wordCount: 62172,
@@ -6954,6 +7342,7 @@ let bookData = [
         title: 'Money, Possessions and Eternity',
         series: '',
         author: 'Randy Alcorn',
+        authorLast: 'Alcorn, Randy',
         myRating: 6,
         pages: 528,
         wordCount: 92002,
@@ -6966,6 +7355,7 @@ let bookData = [
         title: 'The Treasure Principle',
         series: '',
         author: 'Randy Alcorn',
+        authorLast: 'Alcorn, Randy',
         myRating: 8,
         pages: 120,
         wordCount: 24806,
@@ -6978,6 +7368,7 @@ let bookData = [
         title: 'Safely Home',
         series: '',
         author: 'Randy Alcorn',
+        authorLast: 'Alcorn, Randy',
         myRating: 8,
         pages: 402,
         wordCount: 69708,
@@ -6990,6 +7381,7 @@ let bookData = [
         title: 'How to be Miserable',
         series: '',
         author: 'Randy Paterson',
+        authorLast: 'Paterson, Randy',
         myRating: 5,
         pages: 248,
         wordCount: 47100,
@@ -7002,6 +7394,7 @@ let bookData = [
         title: 'Miss Peregrine’s Home for Peculiar Children',
         series: '',
         author: 'Ransom Riggs',
+        authorLast: 'Riggs, Ransom',
         myRating: 6,
         pages: 382,
         wordCount: 91374,
@@ -7014,6 +7407,7 @@ let bookData = [
         title: 'Welcome to the Club',
         series: '',
         author: "Raquel D'Apice",
+        authorLast: "D'Apice, Raquel",
         myRating: 7,
         pages: 144,
         wordCount: 21600,
@@ -7026,6 +7420,7 @@ let bookData = [
         title: 'Fahrenheit 451',
         series: '',
         author: 'Ray Bradbury',
+        authorLast: 'Bradbury, Ray',
         myRating: 7,
         pages: 180,
         wordCount: 46118,
@@ -7038,6 +7433,7 @@ let bookData = [
         title: 'The Science of Nutrition',
         series: '',
         author: 'Rhiannon Lambert',
+        authorLast: 'Lambert, Rhiannon',
         myRating: 7,
         pages: 224,
         wordCount: 22402,
@@ -7050,6 +7446,7 @@ let bookData = [
         title: 'Cemetery Dance: Issue 74-75',
         series: '',
         author: 'Richard Chizmar',
+        authorLast: 'Chizmar, Richard',
         myRating: 4,
         pages: 192,
         wordCount: 19200,
@@ -7062,6 +7459,7 @@ let bookData = [
         title: 'The Most Dangerous Game',
         series: '',
         author: 'Richard Connell',
+        authorLast: 'Connell, Richard',
         myRating: 7,
         pages: 59,
         wordCount: 9106,
@@ -7074,6 +7472,7 @@ let bookData = [
         title: 'Celebration of Discipline',
         series: '',
         author: 'Richard J. Foster',
+        authorLast: 'Foster, Richard J.',
         myRating: 8,
         pages: 256,
         wordCount: 67353,
@@ -7086,6 +7485,7 @@ let bookData = [
         title: 'I Am Legend',
         series: '',
         author: 'Richard Matheson',
+        authorLast: 'Matheson, Richard',
         myRating: 7,
         pages: 160,
         wordCount: 50240,
@@ -7098,6 +7498,7 @@ let bookData = [
         title: 'Vampire Academy',
         series: '',
         author: 'Richelle Mead',
+        authorLast: 'Mead, Richelle',
         myRating: 9,
         pages: 332,
         wordCount: 83838,
@@ -7110,6 +7511,7 @@ let bookData = [
         title: 'Frostbite',
         series: '',
         author: 'Richelle Mead',
+        authorLast: 'Mead, Richelle',
         myRating: 8,
         pages: 327,
         wordCount: 82739,
@@ -7122,6 +7524,7 @@ let bookData = [
         title: 'Shadow Kiss',
         series: '',
         author: 'Richelle Mead',
+        authorLast: 'Mead, Richelle',
         myRating: 8,
         pages: 443,
         wordCount: 112412,
@@ -7134,6 +7537,7 @@ let bookData = [
         title: 'Blood Promise',
         series: '',
         author: 'Richelle Mead',
+        authorLast: 'Mead, Richelle',
         myRating: 8,
         pages: 503,
         wordCount: 123402,
@@ -7146,6 +7550,7 @@ let bookData = [
         title: 'Spirit Bound',
         series: '',
         author: 'Richelle Mead',
+        authorLast: 'Mead, Richelle',
         myRating: 8,
         pages: 489,
         wordCount: 124187,
@@ -7158,6 +7563,7 @@ let bookData = [
         title: 'Last Sacrifice',
         series: '',
         author: 'Richelle Mead',
+        authorLast: 'Mead, Richelle',
         myRating: 8,
         pages: 594,
         wordCount: 165792,
@@ -7170,6 +7576,7 @@ let bookData = [
         title: 'The Final Quest',
         series: '',
         author: 'Rick Joyner',
+        authorLast: 'Joyner, Rick',
         myRating: 5,
         pages: 170,
         wordCount: 45692,
@@ -7182,6 +7589,7 @@ let bookData = [
         title: 'The Lightning Thief',
         series: '',
         author: 'Rick Riordan',
+        authorLast: 'Riordan, Rick',
         myRating: 7,
         pages: 375,
         wordCount: 94514,
@@ -7194,6 +7602,7 @@ let bookData = [
         title: 'The 5th Wave',
         series: '',
         author: 'Rick Yancey',
+        authorLast: 'Yancey, Rick',
         myRating: 6,
         pages: 460,
         wordCount: 119477,
@@ -7206,6 +7615,7 @@ let bookData = [
         title: 'Slay the Dragon',
         series: '',
         author: 'Robert Denton Bryant',
+        authorLast: 'Bryant, Robert Denton',
         myRating: 7,
         pages: 232,
         wordCount: 62381,
@@ -7218,6 +7628,7 @@ let bookData = [
         title: 'Changing the World Through Discipleship',
         series: '',
         author: 'Robert Herber',
+        authorLast: 'Herber, Robert',
         myRating: 7,
         pages: 111,
         wordCount: 27388,
@@ -7225,12 +7636,13 @@ let bookData = [
         yearRead: [2013],
         thumb: './images/discipleship.jpg',
         keywords: ['nonfiction', 'christian', 'christian living', 'evangelism'],
-		similar: ['Beyond Awkward']
+        similar: ['Beyond Awkward']
     },
     {
         title: 'The Eye of the World',
         series: '',
         author: 'Robert Jordan',
+        authorLast: 'Jordan, Robert',
         myRating: 9,
         pages: 814,
         wordCount: 282129,
@@ -7238,12 +7650,13 @@ let bookData = [
         yearRead: [2022],
         thumb: './images/wot1.jpg',
         keywords: ['fiction', 'magic', 'fantasy', 'adventure', 'high fantasy', 'tv', 'series'],
-		similar: []
+        similar: []
     },
     {
         title: 'Outcast by Kirkman & Azaceta Book 1',
         series: '',
         author: 'Robert Kirkman',
+        authorLast: 'Kirkman, Robert',
         myRating: 4,
         pages: 296,
         wordCount: 8880,
@@ -7256,6 +7669,7 @@ let bookData = [
         title: 'The Walking Dead, Vol. 1',
         series: '',
         author: 'Robert Kirkman',
+        authorLast: 'Kirkman, Robert',
         myRating: 6,
         pages: 144,
         wordCount: 21600,
@@ -7268,6 +7682,7 @@ let bookData = [
         title: 'Rich Dad, Poor Dad',
         series: '',
         author: 'Robert Kiyosaki',
+        authorLast: 'Kiyosaki, Robert',
         myRating: 9,
         pages: 195,
         wordCount: 57933,
@@ -7280,6 +7695,7 @@ let bookData = [
         title: 'Good Luck Have Fun',
         series: '',
         author: 'Roland Li',
+        authorLast: 'Li, Roland',
         myRating: 6,
         pages: 268,
         wordCount: 63585,
@@ -7292,6 +7708,7 @@ let bookData = [
         title: 'The Deadly Dungeon',
         series: '',
         author: 'Ron Roy',
+        authorLast: 'Roy, Ron',
         myRating: 5,
         pages: 86,
         wordCount: 8635,
@@ -7304,6 +7721,7 @@ let bookData = [
         title: 'The Invisible Island',
         series: '',
         author: 'Ron Roy',
+        authorLast: 'Roy, Ron',
         myRating: 5,
         pages: 96,
         wordCount: 8635,
@@ -7316,6 +7734,7 @@ let bookData = [
         title: 'The Missing Mummy',
         series: '',
         author: 'Ron Roy',
+        authorLast: 'Roy, Ron',
         myRating: 5,
         pages: 83,
         wordCount: 8465,
@@ -7328,6 +7747,7 @@ let bookData = [
         title: 'The Big Book of 30-Day Challenges',
         series: '',
         author: 'Rosanna Casper',
+        authorLast: 'Casper, Rosanna',
         myRating: 6,
         pages: 144,
         wordCount: 29045,
@@ -7340,6 +7760,7 @@ let bookData = [
         title: 'Arrested Development',
         series: '',
         author: 'Running Press',
+        authorLast: 'Running Press',
         myRating: 5,
         pages: 147,
         wordCount: 1470,
@@ -7352,6 +7773,7 @@ let bookData = [
         title: 'Milk and Honey',
         series: '',
         author: 'Rupi Kaur',
+        authorLast: 'Kaur, Rupi',
         myRating: 5,
         pages: 204,
         wordCount: 12403,
@@ -7359,12 +7781,13 @@ let bookData = [
         yearRead: [2018],
         thumb: './images/milk-and-honey.jpg',
         keywords: ['nonfiction', 'poetry', 'feminism', 'mental health', ],
-		similar: ['Multiple Choice', 'Unprotected Lexicon']
+        similar: ['Multiple Choice', 'Unprotected Lexicon']
     },
     {
         title: 'Play Dead',
         series: '',
         author: 'Ryan Brown',
+        authorLast: 'Brown, Ryan',
         myRating: 6,
         pages: 352,
         wordCount: 87920,
@@ -7373,15 +7796,11 @@ let bookData = [
         thumb: './images/play-dead.jpg',
         keywords: ['fiction', 'sports', 'zombies', 'football', 'horror', 'humor']
     },
-	//#endregion
-    /*===========================
-    	Author First Name - S's
-    ===========================*/
-	//#region S
     {
         title: 'The Umbrella Conspiracy',
         series: '',
         author: 'S.D. Perry',
+        authorLast: 'Perry, S.D.',
         myRating: 7,
         pages: 304,
         wordCount: 73451,
@@ -7394,6 +7813,7 @@ let bookData = [
         title: 'Caliban Cove',
         series: '',
         author: 'S.D. Perry',
+        authorLast: 'Perry, S.D.',
         myRating: 6,
         pages: 256,
         wordCount: 71767,
@@ -7406,6 +7826,7 @@ let bookData = [
         title: 'City of the Dead',
         series: '',
         author: 'S.D. Perry',
+        authorLast: 'Perry, S.D.',
         myRating: 7,
         pages: 352,
         wordCount: 94216,
@@ -7418,6 +7839,7 @@ let bookData = [
         title: 'Underworld',
         series: '',
         author: 'S.D. Perry',
+        authorLast: 'Perry, S.D.',
         myRating: 6,
         pages: 256,
         wordCount: 80746,
@@ -7430,6 +7852,7 @@ let bookData = [
         title: 'Nemesis',
         series: '',
         author: 'S.D. Perry',
+        authorLast: 'Perry, S.D.',
         myRating: 7,
         pages: 288,
         wordCount: 89726,
@@ -7442,6 +7865,7 @@ let bookData = [
         title: 'Rumble Fish',
         series: '',
         author: 'S.E. Hinton',
+        authorLast: 'Hinton, S.E.',
         myRating: 6,
         pages: 144,
         wordCount: 28103,
@@ -7454,6 +7878,7 @@ let bookData = [
         title: 'Scene but Not Heard',
         series: '',
         author: 'Sam Henderson',
+        authorLast: 'Henderson, Sam',
         myRating: 4,
         pages: 119,
         wordCount: 250,
@@ -7466,6 +7891,7 @@ let bookData = [
         title: 'Pretty Little Liars',
         series: '',
         author: 'Sara Shepard',
+        authorLast: 'Shepard, Sara',
         myRating: 8,
         pages: 286,
         wordCount: 66725,
@@ -7478,6 +7904,7 @@ let bookData = [
         title: 'Flawless',
         series: '',
         author: 'Sara Shepard',
+        authorLast: 'Shepard, Sara',
         myRating: 7,
         pages: 330,
         wordCount: 77715,
@@ -7490,6 +7917,7 @@ let bookData = [
         title: 'Perfect',
         series: '',
         author: 'Sara Shepard',
+        authorLast: 'Shepard, Sara',
         myRating: 7,
         pages: 298,
         wordCount: 71278,
@@ -7502,6 +7930,7 @@ let bookData = [
         title: 'Unbelievable',
         series: '',
         author: 'Sara Shepard',
+        authorLast: 'Shepard, Sara',
         myRating: 7,
         pages: 335,
         wordCount: 81012,
@@ -7514,6 +7943,7 @@ let bookData = [
         title: 'Wicked',
         series: '',
         author: 'Sara Shepard',
+        authorLast: 'Shepard, Sara',
         myRating: 7,
         pages: 312,
         wordCount: 79128,
@@ -7526,6 +7956,7 @@ let bookData = [
         title: 'Killer',
         series: '',
         author: 'Sara Shepard',
+        authorLast: 'Shepard, Sara',
         myRating: 7,
         pages: 320,
         wordCount: 82268,
@@ -7538,6 +7969,7 @@ let bookData = [
         title: 'Heartless',
         series: '',
         author: 'Sara Shepard',
+        authorLast: 'Shepard, Sara',
         myRating: 7,
         pages: 274,
         wordCount: 68138,
@@ -7550,6 +7982,7 @@ let bookData = [
         title: 'Wanted',
         series: '',
         author: 'Sara Shepard',
+        authorLast: 'Shepard, Sara',
         myRating: 7,
         pages: 261,
         wordCount: 64056,
@@ -7562,6 +7995,7 @@ let bookData = [
         title: "Rick and Morty: Lil' Poopy Superstar",
         series: '',
         author: 'Sarah Graley',
+        authorLast: 'Graley, Sarah',
         myRating: 7,
         pages: 128,
         wordCount: 5120,
@@ -7574,6 +8008,7 @@ let bookData = [
         title: 'Level Up!: The Guide to Great Video Game Design',
         series: '',
         author: 'Scott Rogers',
+        authorLast: 'Rogers, Scott',
         myRating: 9,
         pages: 492,
         wordCount: 150612,
@@ -7586,6 +8021,7 @@ let bookData = [
         title: 'Uglies',
         series: '',
         author: 'Scott Westerfeld',
+        authorLast: 'Westerfeld, Scott',
         myRating: 7,
         pages: 425,
         wordCount: 96084,
@@ -7593,12 +8029,13 @@ let bookData = [
         yearRead: [2015, 2018],
         thumb: './images/uglies1.jpg',
         keywords: ['fiction', 'young adult', 'dystopian', 'romance', 'science fiction', 'weird', 'series'],
-		similar: ['Matched']
+        similar: ['Matched']
     },
     {
         title: 'Pretties',
         series: '',
         author: 'Scott Westerfeld',
+        authorLast: 'Westerfeld, Scott',
         myRating: 6,
         pages: 370,
         wordCount: 88077,
@@ -7606,12 +8043,13 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/uglies2.jpg',
         keywords: ['fiction', 'young adult', 'dystopian', 'romance', 'science fiction', 'weird', 'series'],
-		similar: ['Matched']
+        similar: ['Matched']
     },
     {
         title: 'Specials',
         series: '',
         author: 'Scott Westerfeld',
+        authorLast: 'Westerfeld, Scott',
         myRating: 6,
         pages: 372,
         wordCount: 86664,
@@ -7619,12 +8057,13 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/uglies3.jpg',
         keywords: ['fiction', 'young adult', 'dystopian', 'romance', 'science fiction', 'weird', 'series'],
-		similar: ['Matched']
+        similar: ['Matched']
     },
     {
         title: 'Extras',
         series: '',
         author: 'Scott Westerfeld',
+        authorLast: 'Westerfeld, Scott',
         myRating: 6,
         pages: 417,
         wordCount: 89333,
@@ -7632,12 +8071,13 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/uglies4.jpg',
         keywords: ['fiction', 'young adult', 'dystopian', 'romance', 'science fiction', 'weird', 'series'],
-		similar: ['Matched']
+        similar: ['Matched']
     },
     {
         title: 'Uglies: Cutters',
         series: '',
         author: 'Scott Westerfeld',
+        authorLast: 'Westerfeld, Scott',
         myRating: 4,
         pages: 176,
         wordCount: 10560,
@@ -7650,6 +8090,7 @@ let bookData = [
         title: 'Abraham Lincoln: Vampire Hunter',
         series: '',
         author: 'Seth Grahame-Smith',
+        authorLast: 'Grahame-Smith, Seth',
         myRating: 6,
         pages: 336,
         wordCount: 103934,
@@ -7662,6 +8103,7 @@ let bookData = [
         title: 'Smartcuts',
         series: '',
         author: 'Shane Snow',
+        authorLast: 'Snow, Shane',
         myRating: 6,
         pages: 272,
         wordCount: 55735,
@@ -7674,6 +8116,7 @@ let bookData = [
         title: 'Kicking It',
         series: '',
         author: 'Shanna Germain',
+        authorLast: 'Germain, Shanna',
         myRating: 6,
         pages: 79,
         wordCount: 15800,
@@ -7686,6 +8129,7 @@ let bookData = [
         title: 'Where the Sidewalk Ends',
         series: '',
         author: 'Shel Silverstein',
+        authorLast: 'Silverstein, Shel',
         myRating: 7,
         pages: 176,
         wordCount: 26400,
@@ -7698,6 +8142,7 @@ let bookData = [
         title: 'Falling Up',
         series: '',
         author: 'Shel Silverstein',
+        authorLast: 'Silverstein, Shel',
         myRating: 7,
         pages: 178,
         wordCount: 26600,
@@ -7710,6 +8155,7 @@ let bookData = [
         title: 'A Light in the Attic',
         series: '',
         author: 'Shel Silverstein',
+        authorLast: 'Silverstein, Shel',
         myRating: 7,
         pages: 176,
         wordCount: 26400,
@@ -7722,6 +8168,7 @@ let bookData = [
         title: 'The Absolutely True Diary of a Part-Time Indian',
         series: '',
         author: 'Sherman Alexie',
+        authorLast: 'Alexie, Sherman',
         myRating: 7,
         pages: 230,
         wordCount: 73790,
@@ -7734,6 +8181,7 @@ let bookData = [
         title: 'Lean In',
         series: '',
         author: 'Sheryl Sandberg',
+        authorLast: 'Sandberg, Sheryl',
         myRating: 7,
         pages: 217,
         wordCount: 60759,
@@ -7746,6 +8194,7 @@ let bookData = [
         title: 'The Montessori Toddler',
         series: '',
         author: 'Simone Davies',
+        authorLast: 'Davies, Simone',
         myRating: 8,
         pages: 245,
         wordCount: 69394,
@@ -7758,6 +8207,7 @@ let bookData = [
         title: 'Who Moved My Cheese?',
         series: '',
         author: 'Spencer Johnson',
+        authorLast: 'Johnson, Spencer',
         myRating: 7,
         pages: 96,
         wordCount: 15543,
@@ -7770,6 +8220,7 @@ let bookData = [
         title: 'My True Love Gave to Me',
         series: '',
         author: 'Stephanie Perkins',
+        authorLast: 'Perkins, Stephanie',
         myRating: 6,
         pages: 321,
         wordCount: 121832,
@@ -7782,6 +8233,7 @@ let bookData = [
         title: "There's Someone Inside Your House",
         series: '',
         author: 'Stephanie Perkins',
+        authorLast: 'Perkins, Stephanie',
         myRating: 7,
         pages: 287,
         wordCount: 88862,
@@ -7794,6 +8246,7 @@ let bookData = [
         title: 'The Perks of Being a Wallflower',
         series: '',
         author: 'Stephen Chbosky',
+        authorLast: 'Chbosky, Stephen',
         myRating: 7,
         pages: 213,
         wordCount: 60131,
@@ -7806,6 +8259,7 @@ let bookData = [
         title: 'I Am America (And So Can You!)',
         series: '',
         author: 'Stephen Colbert',
+        authorLast: 'Colbert, Stephen',
         myRating: 7,
         pages: 230,
         wordCount: 33441,
@@ -7818,6 +8272,7 @@ let bookData = [
         title: 'America Again',
         series: '',
         author: 'Stephen Colbert',
+        authorLast: 'Colbert, Stephen',
         myRating: 9,
         pages: 240,
         wordCount: 34893,
@@ -7830,6 +8285,7 @@ let bookData = [
         title: 'The 7 Habits of Highly Effective People',
         series: '',
         author: 'Stephen Covey',
+        authorLast: 'Covey, Stephen',
         myRating: 7,
         pages: 372,
         wordCount: 142399,
@@ -7842,6 +8298,7 @@ let bookData = [
         title: 'The 7 Habits of Highly Effective People Personal Workbook',
         series: '',
         author: 'Stephen Covey',
+        authorLast: 'Covey, Stephen',
         myRating: 7,
         pages: 192,
         wordCount: 14400,
@@ -7854,6 +8311,7 @@ let bookData = [
         title: 'The Red Badge of Courage',
         series: '',
         author: 'Stephen Crane',
+        authorLast: 'Crane, Stephen',
         myRating: 3,
         pages: 170,
         wordCount: 46315,
@@ -7866,6 +8324,7 @@ let bookData = [
         title: 'The Green Mile, Part 1',
         series: '',
         author: 'Stephen King',
+        authorLast: 'King, Stephen',
         myRating: 6,
         pages: 92,
         wordCount: 22400,
@@ -7878,6 +8337,7 @@ let bookData = [
         title: 'The Gunslinger',
         series: '',
         author: 'Stephen King',
+        authorLast: 'King, Stephen',
         myRating: 5,
         pages: 231,
         wordCount: 69080,
@@ -7890,6 +8350,7 @@ let bookData = [
         title: 'Carrie',
         series: '',
         author: 'Stephen King',
+        authorLast: 'King, Stephen',
         myRating: 6,
         pages: 253,
         wordCount: 69708,
@@ -7902,6 +8363,7 @@ let bookData = [
         title: 'The Shining',
         series: '',
         author: 'Stephen King',
+        authorLast: 'King, Stephen',
         myRating: 8,
         pages: 659,
         wordCount: 149150,
@@ -7914,6 +8376,7 @@ let bookData = [
         title: 'Doctor Sleep',
         series: '',
         author: 'Stephen King',
+        authorLast: 'King, Stephen',
         myRating: 6,
         pages: 531,
         wordCount: 174898,
@@ -7926,6 +8389,7 @@ let bookData = [
         title: 'Pet Sematary',
         series: '',
         author: 'Stephen King',
+        authorLast: 'King, Stephen',
         myRating: 7,
         pages: 580,
         wordCount: 147737,
@@ -7938,6 +8402,7 @@ let bookData = [
         title: 'The Stand',
         series: '',
         author: 'Stephen King',
+        authorLast: 'King, Stephen',
         myRating: 9,
         pages: 1152,
         wordCount: 514827,
@@ -7950,6 +8415,7 @@ let bookData = [
         title: 'Misery',
         series: '',
         author: 'Stephen King',
+        authorLast: 'King, Stephen',
         myRating: 8,
         pages: 310,
         wordCount: 116337,
@@ -7962,6 +8428,7 @@ let bookData = [
         title: 'On Writing',
         series: '',
         author: 'Stephen King',
+        authorLast: 'King, Stephen',
         myRating: 9,
         pages: 320,
         wordCount: 85879,
@@ -7974,6 +8441,7 @@ let bookData = [
         title: 'It',
         series: '',
         author: 'Stephen King',
+        authorLast: 'King, Stephen',
         myRating: 7,
         pages: 1116,
         wordCount: 423115,
@@ -7986,6 +8454,7 @@ let bookData = [
         title: 'Building Your Band of Brothers',
         series: '',
         author: 'Stephen Mansfield',
+        authorLast: 'Mansfield, Stephen',
         myRating: 8,
         pages: 71,
         wordCount: 8120,
@@ -7998,6 +8467,7 @@ let bookData = [
         title: 'Twilight',
         series: '',
         author: 'Stephenie Meyer',
+        authorLast: 'Meyer, Stephenie',
         myRating: 8,
         pages: 501,
         wordCount: 118975,
@@ -8010,6 +8480,7 @@ let bookData = [
         title: 'New Moon',
         series: '',
         author: 'Stephenie Meyer',
+        authorLast: 'Meyer, Stephenie',
         myRating: 7,
         pages: 565,
         wordCount: 132758,
@@ -8022,6 +8493,7 @@ let bookData = [
         title: 'Eclipse',
         series: '',
         author: 'Stephenie Meyer',
+        authorLast: 'Meyer, Stephenie',
         myRating: 7,
         pages: 632,
         wordCount: 148971,
@@ -8034,6 +8506,7 @@ let bookData = [
         title: 'Breaking Dawn',
         series: '',
         author: 'Stephenie Meyer',
+        authorLast: 'Meyer, Stephenie',
         myRating: 7,
         pages: 756,
         wordCount: 186542,
@@ -8046,6 +8519,7 @@ let bookData = [
         title: 'Midnight Sun',
         series: '',
         author: 'Stephenie Meyer',
+        authorLast: 'Meyer, Stephenie',
         myRating: 7,
         pages: 662,
         wordCount: 243193,
@@ -8058,6 +8532,7 @@ let bookData = [
         title: 'Twilight / Life and Death',
         series: '',
         author: 'Stephenie Meyer',
+        authorLast: 'Meyer, Stephenie',
         myRating: 8,
         pages: 738,
         wordCount: 272552,
@@ -8070,6 +8545,7 @@ let bookData = [
         title: 'Level Up Your Life',
         series: '',
         author: 'Steve Kamb',
+        authorLast: 'Kamb, Steve',
         myRating: 9,
         pages: 274,
         wordCount: 64213,
@@ -8082,6 +8558,7 @@ let bookData = [
         title: '30 Days of Night, Vol. 1',
         series: '',
         author: 'Steve Niles',
+        authorLast: 'Niles, Steve',
         myRating: 6,
         pages: 104,
         wordCount: 3120,
@@ -8094,6 +8571,7 @@ let bookData = [
         title: '30 Days of Night, Vol. 2',
         series: '',
         author: 'Steve Niles',
+        authorLast: 'Niles, Steve',
         myRating: 6,
         pages: 144,
         wordCount: 4320,
@@ -8106,6 +8584,7 @@ let bookData = [
         title: '30 Days of Night, Vol. 4',
         series: '',
         author: 'Steve Niles',
+        authorLast: 'Niles, Steve',
         myRating: 6,
         pages: 144,
         wordCount: 4320,
@@ -8118,6 +8597,7 @@ let bookData = [
         title: 'The Ultimate History of Video Games',
         series: '',
         author: 'Steven L. Kent',
+        authorLast: 'Kent, Steven L.',
         myRating: 9,
         pages: 608,
         wordCount: 198134,
@@ -8130,6 +8610,7 @@ let bookData = [
         title: 'Think Like a Freak',
         series: '',
         author: 'Steven Levitt',
+        authorLast: 'Levitt, Steven',
         myRating: 7,
         pages: 304,
         wordCount: 66725,
@@ -8142,6 +8623,7 @@ let bookData = [
         title: 'The War of Art',
         series: '',
         author: 'Steven Pressfield',
+        authorLast: 'Pressfield, Steven',
         myRating: 7,
         pages: 198,
         wordCount: 23393,
@@ -8154,6 +8636,7 @@ let bookData = [
         title: 'The 7½ Deaths of Evelyn Hardcastle',
         series: '',
         author: 'Stuart Turton',
+        authorLast: 'Turton, Stuart',
         myRating: 9,
         pages: 432,
         wordCount: 160768,
@@ -8166,6 +8649,7 @@ let bookData = [
         title: 'The Art of War',
         series: '',
         author: 'Sun Tzu',
+        authorLast: 'Tzu, Sun',
         myRating: 4,
         pages: 82,
         wordCount: 11775,
@@ -8178,6 +8662,7 @@ let bookData = [
         title: 'The Hunger Games',
         series: '',
         author: 'Suzanne Collins',
+        authorLast: 'Collins, Suzanne',
         myRating: 8,
         pages: 374,
         wordCount: 99695,
@@ -8190,6 +8675,7 @@ let bookData = [
         title: 'Catching Fire',
         series: '',
         author: 'Suzanne Collins',
+        authorLast: 'Collins, Suzanne',
         myRating: 7,
         pages: 391,
         wordCount: 104091,
@@ -8202,6 +8688,7 @@ let bookData = [
         title: 'Mockingjay',
         series: '',
         author: 'Suzanne Collins',
+        authorLast: 'Collins, Suzanne',
         myRating: 7,
         pages: 390,
         wordCount: 106603,
@@ -8214,6 +8701,7 @@ let bookData = [
         title: 'Sleeping Giants',
         series: '',
         author: 'Sylvain Neuvel',
+        authorLast: 'Neuvel, Sylvain',
         myRating: 7,
         pages: 320,
         wordCount: 79756,
@@ -8226,6 +8714,7 @@ let bookData = [
         title: 'Waking Gods',
         series: '',
         author: 'Sylvain Neuvel',
+        authorLast: 'Neuvel, Sylvain',
         myRating: 6,
         pages: 336,
         wordCount: 85094,
@@ -8234,15 +8723,11 @@ let bookData = [
         thumb: './images/sleeping-giants2.jpg',
         keywords: ['experimental', 'fiction', 'science fiction', 'aliens', 'series']
     },
-	//#endregion
-    /*===========================
-    	Author First Name - T's
-    ===========================*/
-	//#region T
     {
         title: 'Between the World and Me',
         series: '',
         author: 'Ta-Nehisi Coates',
+        authorLast: 'Coates, Ta-Nehisi',
         myRating: 9,
         pages: 152,
         wordCount: 33755,
@@ -8255,6 +8740,7 @@ let bookData = [
         title: 'Thr3e',
         series: '',
         author: 'Ted Dekker',
+        authorLast: 'Dekker, Ted',
         myRating: 7,
         pages: 423,
         wordCount: 99224,
@@ -8267,6 +8753,7 @@ let bookData = [
         title: 'Danger in the Desert',
         series: '',
         author: 'Terri Fields',
+        authorLast: 'Fields, Terri',
         myRating: 6,
         pages: 126,
         wordCount: 25759,
@@ -8279,6 +8766,7 @@ let bookData = [
         title: 'Missing in the Mountains',
         series: '',
         author: 'Terri Fields',
+        authorLast: 'Fields, Terri',
         myRating: 6,
         pages: 108,
         wordCount: 22069,
@@ -8291,6 +8779,7 @@ let bookData = [
         title: 'Citizenship in a Republilc',
         series: '',
         author: 'Theodore Roosevelt',
+        authorLast: 'Roosevelt, Theodore',
         myRating: 7,
         pages: 40,
         wordCount: 8635,
@@ -8304,6 +8793,7 @@ let bookData = [
         title: 'Getting Started with SQL',
         series: '',
         author: 'Thomas Nield',
+        authorLast: 'Nield, Thomas',
         myRating: 6,
         pages: 134,
         wordCount: 36002,
@@ -8316,6 +8806,7 @@ let bookData = [
         title: 'How to Eat Fried Worms',
         series: '',
         author: 'Thomas Rockfield',
+        authorLast: 'Rockfield, Thomas',
         myRating: 6,
         pages: 118,
         wordCount: 17741,
@@ -8328,6 +8819,7 @@ let bookData = [
         title: 'Left Behind',
         series: '',
         author: 'Tim LaHaye',
+        authorLast: 'LaHaye, Tim',
         myRating: 6,
         pages: 342,
         wordCount: 111313,
@@ -8340,6 +8832,7 @@ let bookData = [
         title: 'Tribulation Force',
         series: '',
         author: 'Tim LaHaye',
+        authorLast: 'LaHaye, Tim',
         myRating: 5,
         pages: 450,
         wordCount: 108644,
@@ -8352,6 +8845,7 @@ let bookData = [
         title: 'The 4-Hour Body',
         series: '',
         author: 'Timothy Ferriss',
+        authorLast: 'Ferriss, Timothy',
         myRating: 5,
         pages: 571,
         wordCount: 165590,
@@ -8364,6 +8858,7 @@ let bookData = [
         title: 'The 4-Hour Workweek',
         series: '',
         author: 'Timothy Ferriss',
+        authorLast: 'Ferriss, Timothy',
         myRating: 6,
         pages: 396,
         wordCount: 122617,
@@ -8376,6 +8871,7 @@ let bookData = [
         title: 'The Prodigal God',
         series: '',
         author: 'Timothy J. Keller',
+        authorLast: 'Keller, Timothy J.',
         myRating: 6,
         pages: 155,
         wordCount: 22294,
@@ -8388,6 +8884,7 @@ let bookData = [
         title: 'Bossypants',
         series: '',
         author: 'Tina Fey',
+        authorLast: 'Fey, Tina',
         myRating: 6,
         pages: 277,
         wordCount: 52124,
@@ -8400,6 +8897,7 @@ let bookData = [
         title: 'Heaven is for Real',
         series: '',
         author: 'Todd Burpo',
+        authorLast: 'Burpo, Todd',
         myRating: 5,
         pages: 162,
         wordCount: 48042,
@@ -8412,6 +8910,7 @@ let bookData = [
         title: 'Fun Inc.',
         series: '',
         author: 'Tom Chatfield',
+        authorLast: 'Chatfield, Tom',
         myRating: 6,
         pages: 272,
         wordCount: 68766,
@@ -8424,6 +8923,7 @@ let bookData = [
         title: 'Strengths Finder 2.0',
         series: '',
         author: 'Tom Rath',
+        authorLast: 'Rath, Tom',
         myRating: 6,
         pages: 174,
         wordCount: 39093,
@@ -8436,6 +8936,7 @@ let bookData = [
         title: 'Death Note Vol. 1',
         series: '',
         author: 'Tsugumi Ohba',
+        authorLast: 'Ohba, Tsugumi',
         myRating: 7,
         pages: 195,
         wordCount: 12675,
@@ -8444,20 +8945,11 @@ let bookData = [
         thumb: './images/deathnote1.jpg',
         keywords: ['fiction', 'manga', 'graphic novel', 'fantasy', 'horror']
     },
-	//#endregion
-    /*===========================
-    	Author First Name - U's
-    ===========================*/
-	//#region U
-	//#endregion
-    /*===========================
-    	Author First Name - V's
-    ===========================*/
-	//#region V
     {
         title: "Anya's Ghost",
         series: '',
         author: 'Vera Brosgol',
+        authorLast: 'Brosgol, Vera',
         myRating: 5,
         pages: 224,
         wordCount: 12320,
@@ -8470,6 +8962,7 @@ let bookData = [
         title: 'Divergent',
         series: '',
         author: 'Veronica Roth',
+        authorLast: 'Roth, Veronica',
         myRating: 8,
         pages: 487,
         wordCount: 105347,
@@ -8477,12 +8970,13 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/divergent1.jpg',
         keywords: ['movies', 'fiction', 'dystopian', 'young adult', 'romance', 'science fiction', 'adventure', 'series'],
-		similar: ['Matched']
+        similar: ['Matched']
     },
     {
         title: 'Insurgent',
         series: '',
         author: 'Veronica Roth',
+        authorLast: 'Roth, Veronica',
         myRating: 7,
         pages: 525,
         wordCount: 107074,
@@ -8490,12 +8984,13 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/divergent2.jpg',
         keywords: ['movies', 'fiction', 'dystopian', 'young adult', 'romance', 'science fiction', 'adventure', 'series'],
-		similar: ['Matched']
+        similar: ['Matched']
     },
     {
         title: 'Allegiant',
         series: '',
         author: 'Veronica Roth',
+        authorLast: 'Roth, Veronica',
         myRating: 7,
         pages: 526,
         wordCount: 111627,
@@ -8503,12 +8998,13 @@ let bookData = [
         yearRead: [2015],
         thumb: './images/divergent3.jpg',
         keywords: ['movies', 'fiction', 'dystopian', 'young adult', 'romance', 'science fiction', 'adventure', 'series'],
-		similar: ['Matched']
+        similar: ['Matched']
     },
     {
         title: 'Ark',
         series: '',
         author: 'Veronica Roth',
+        authorLast: 'Roth, Veronica',
         myRating: 7,
         pages: 33,
         wordCount: 12874,
@@ -8516,12 +9012,13 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/ark.jpg',
         keywords: ['fiction', 'apocalyptic', 'science fiction', ],
-		similar: []
+        similar: []
     },
     {
         title: 'Slumdog Millionaire',
         series: '',
         author: 'Vikas Swarup',
+        authorLast: 'Swarup, Vikas',
         myRating: 8,
         pages: 333,
         wordCount: 101422,
@@ -8534,6 +9031,7 @@ let bookData = [
         title: "The Smart Girl's Guide to Privacy",
         series: '',
         author: 'Violet Blue',
+        authorLast: 'Blue, Violet',
         myRating: 6,
         pages: 168,
         wordCount: 47307,
@@ -8542,15 +9040,11 @@ let bookData = [
         thumb: './images/smart-girl-privacy.jpg',
         keywords: ['nonfiction', 'self-help', 'technology', 'computers', ]
     },
-	//#endregion
-    /*===========================
-    	Author First Name - W's
-    ===========================*/
-	//#region W
     {
         title: 'Warner Bros. Studio Tour London',
         series: '',
         author: 'Warner Bros',
+        authorLast: 'Warner Bros',
         myRating: 6,
         pages: 72,
         wordCount: 5400,
@@ -8563,6 +9057,7 @@ let bookData = [
         title: 'Systematic Theology',
         series: '',
         author: 'Wayne Grudem',
+        authorLast: 'Grudem, Wayne',
         myRating: 7,
         pages: 1264,
         wordCount: 619360,
@@ -8575,6 +9070,7 @@ let bookData = [
         title: 'Things We Think About Games',
         series: '',
         author: 'Will Hindmarch',
+        authorLast: 'Hindmarch, Will',
         myRating: 6,
         pages: 160,
         wordCount: 43000,
@@ -8587,6 +9083,7 @@ let bookData = [
         title: 'Lord of the Flies',
         series: '',
         author: 'William Golding',
+        authorLast: 'Golding, William',
         myRating: 7,
         pages: 192,
         wordCount: 59990,
@@ -8599,6 +9096,7 @@ let bookData = [
         title: 'Make Your Bed',
         series: '',
         author: 'William McRaven',
+        authorLast: 'McRaven, William',
         myRating: 6,
         pages: 144,
         wordCount: 17741,
@@ -8611,6 +9109,7 @@ let bookData = [
         title: 'Romeo and Juliet',
         series: '',
         author: 'William Shakespeare',
+        authorLast: 'Shakespeare, William',
         myRating: 6,
         pages: 368,
         wordCount: 24545,
@@ -8623,6 +9122,7 @@ let bookData = [
         title: 'Hamlet',
         series: '',
         author: 'William Shakespeare',
+        authorLast: 'Shakespeare, William',
         myRating: 6,
         pages: 289,
         wordCount: 30557,
@@ -8635,6 +9135,7 @@ let bookData = [
         title: 'Macbeth',
         series: '',
         author: 'William Shakespeare',
+        authorLast: 'Shakespeare, William',
         myRating: 6,
         pages: 249,
         wordCount: 17121,
@@ -8647,6 +9148,7 @@ let bookData = [
         title: "A Midsummer Night's Dream",
         series: '',
         author: 'William Shakespeare',
+        authorLast: 'Shakespeare, William',
         myRating: 6,
         pages: 240,
         wordCount: 16511,
@@ -8659,6 +9161,7 @@ let bookData = [
         title: 'Ghosts of Saltmarsh',
         series: '',
         author: 'Wizards RPG Team',
+        authorLast: 'Wizards RPG Team',
         myRating: 8,
         pages: 256,
         wordCount: 170316,
@@ -8671,6 +9174,7 @@ let bookData = [
         title: 'Tales from the Yawning Portal',
         series: '',
         author: 'Wizards RPG Team',
+        authorLast: 'Wizards RPG Team',
         myRating: 8,
         pages: 248,
         wordCount: 164994,
@@ -8679,20 +9183,11 @@ let bookData = [
         thumb: './images/tales-yawning.jpg',
         keywords: ['dnd', 'fiction', 'reference', 'games', 'tabletop games', 'fantasy', 'high fantasy', 'series']
     },
-	//#endregion W
-    /*===========================
-    	Author First Name - X's
-    ===========================*/
-	//#region X
-	//#endregion X
-    /*===========================
-    	Author First Name - Y's
-    ===========================*/
-	//#region Y
     {
         title: 'Sapiens',
         series: '',
         author: 'Yuval Noah Harari',
+        authorLast: 'Harari, Yuval Noah',
         myRating: 7,
         pages: 498,
         wordCount: 143969,
@@ -8705,6 +9200,7 @@ let bookData = [
         title: 'The Willow Files, Vol. 2',
         series: '',
         author: 'Yvonne Navarro',
+        authorLast: 'Navarro, Yvonne',
         myRating: 5,
         pages: 210,
         wordCount: 51341,
@@ -8713,15 +9209,11 @@ let bookData = [
         thumb: './images/willow-files2.jpg',
         keywords: ['tv', 'fiction', 'horror', 'vampires', 'magic', 'fantasy', 'witches', 'series']
     },
-	//#endregion
-    /*===========================
-    	Author First Name - Z's
-    ===========================*/
-	//#region Z
     {
         title: 'Rick and Morty, Vol. 1',
         series: '',
         author: 'Zac Gorman',
+        authorLast: 'Gorman, Zac',
         myRating: 7,
         pages: 128,
         wordCount: 5120,
@@ -8730,10 +9222,11 @@ let bookData = [
         thumb: './images/rick-morty.jpg',
         keywords: ['graphic novels', 'humor', 'comics', 'science fiction', 'tv', 'series']
     },
-	{
+    {
         title: 'The Other Black Girl',
         series: '',
         author: 'Zakiya Dalila Harris',
+        authorLast: 'Harris, Zakiya Dalila',
         myRating: 5,
         pages: 357,
         wordCount: 127641,
@@ -8741,10 +9234,9 @@ let bookData = [
         yearRead: [2021],
         thumb: './images/other-black.jpg',
         keywords: ['fiction', 'race', 'mystery', 'thriller', ],
-		similar: ['The Girl on the Train', "There's Someone Inside Your House"],
-		description: `A black girl working in an all-white publishing office gets a new black coworker who may not be what she seems.`
+        similar: ['The Girl on the Train', "There's Someone Inside Your House"],
+        description: `A black girl working in an all-white publishing office gets a new black coworker who may not be what she seems.`
     }
-	//#endregion Z
 ];
 
 let allBooksOrderedRankings = [

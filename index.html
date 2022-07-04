@@ -10,31 +10,24 @@
 <body>
   <header>Steven's Reading Library  <i class="fa fa-book"></i></header>
   <div id="buttons">
-    <label for="dataSelection" id="mainLabel">Select an option</label>
-    <select name="dataSelection" id="dataSelection" class="dataDrop">           
-        <option value="all" >All of the Books I've Read</option>
-        <option value="years" >Books I Read Each Year</option>
-        <option value="rankedBtn">Books By My Rating</option>
-        <option value="pages">Books By Pages</option>
-        <option value="words">Books By Words</option>
-        <option value="category">Books By Keyword</option>
-        <option value="pubDate">Books By Year Published</option>
-        <option value="reRead" >Books I Re-Read</option>
-        <option value="authors" >My Most Read Authors</option>
-    </select>
+    <div class="yearBox"></div>
+    <div class="sortBox">
+      <div>Sort by:</div>
+      <div class="multi-button">
+        <button type="button" onclick="displayData('authorsFirst')">Author First Name</button>
+        <button type="button" onclick="displayData('authorsLast')">Author Last Name</button>
+        <button type="button" onclick="displayData('pages')">Pages</button>
+        <button type="button" onclick="displayData('pubDate')">Publication Year</button>
+        <button type="button" onclick="displayData('ranking')">Ratings</button>
+        <button type="button" onclick="displayData('readCount')">Read Count</button>
+        <button type="button" onclick="displayData('title')">Title</button>
+        <button type="button" onclick="displayData('words')">Words</button>
+      </div>
+    </div>
   </div>
   <hr />
   <div class="allReads"></div>
-  <div class="yearBox"></div>
-  <div class="reReadBox"></div>
-  <div class="rankBox"></div>
-  <div class="pagesBox"></div>
-  <div class="wordBox"></div>
-  <div class="categoryBox"></div>
-  <div class="pubBox"></div>
-  <div class="authorBox"></div>
-  <div class="modal" style="display:none"></div>
-  <div class="overlay" style="display:none"></div>
+  
   <script
   src="https://code.jquery.com/jquery-3.5.1.js"
   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="

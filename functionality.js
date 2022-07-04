@@ -1,35 +1,17 @@
 /*
 	Things to add:
-	- Maybe add best of the year for each year? or awards?
 	- May need to fix the ranking logic if 2 books have the same title
+	- Have author with penname look like JK Rowling (Newt Scamander). Include penname key?
+	- Have secondary authors
+	- Add re-reads to quick stats?
+	- Rename variables and classes to be more accurate
+	- Default year is current year
 */
 
-/*===========================
-	SETUP
-===========================*/
-//#region Setup
 $(document).ready(function() {
-    makeHidden();
-	displayData();
-
-
-	// Using temporarily to keep track of how many books are completely defined
-	let dcount = 0;
-	let nondcount = 0;
-	let ratingString = '';
-	for(let book in bookData){
-		ratingString += `${bookData[book].title}|${bookData[book].myRating}%`;
-		if(bookData[book].description === '' || bookData[book].description === undefined){
-			nondcount++;
-		} else {
-			dcount++;
-		}
-	}
-	let cpercent =(dcount / (dcount + nondcount)) * 100;
-	console.log(dcount + " books complete, " + nondcount + " to go. We're " + cpercent.toFixed(2) + " percent done.");
-	
+	yearSetup();
+	displayData('all');
 	setRandomColor();
-
 });
 
 function setRandomColor(){
@@ -39,6 +21,14 @@ function setRandomColor(){
 	$('.mostReadAuthors').each(function () {
 		$(this).css("background-color", random_color());
 	})
+
+	$('.front').each(function () {
+		$(this).css("background-color", random_color());
+	}) 
+
+	$('.back').each(function () {
+		$(this).css("background-color", random_color());
+	}) 
 }
 
 function random_color() {
@@ -51,131 +41,54 @@ function random_color() {
 	return color;
 };
 
-// Hide everything then display something when dropdown is changed
-$('#dataSelection').on('change', function() {
-	event.preventDefault();
-	makeHidden();
-	displayData();
-});
-
-$(document).on('click', '.book', function() {
-	event.preventDefault();
-	let bookTitle = $(this).find('.title').text();
-	getModalPopup(bookTitle);
-});
-
-
-$(document).on('change', '#categorySelection', function(){
-    event.preventDefault();
-	displayCategory();
-	setRandomColor();
-});
-
 $(document).on('change', '#yearSelection', function(){
     event.preventDefault();
-	displayYears();
+	displayData('all');
 	setRandomColor();
 });
 
-$(document).on('change', '#rankSelection', function(){
-    event.preventDefault();
-	displayRanks();
-	setRandomColor();
-});
-
-$(document).on('change', '#pubDateSelection', function(){
-    event.preventDefault();
-	displayPubDates();
-	setRandomColor();
-});
-
-$(document).on('change', '#pageSelection', function(){
-    event.preventDefault();
-	displayPages();
-	setRandomColor();
-});
-
-$(document).on('change', '#wordSelection', function(){
-    event.preventDefault();
-	displayWords();
-	setRandomColor();
-});
-
-//#endregion
-
-//#region Hide/Show
-
-// Hides all elements
-function makeHidden() {
-	$('.yearBox').hide();
-	$('.categoryBox').hide();
-	$('.allReads').hide();
-	$('.rankBox').hide();
-	$('.pagesBox').hide();
-	$('.wordBox').hide();
-	$('.pubBox').hide();
-	$('.reReadBox').hide();
-	$('.authorBox').hide();
-}
 
 // Shows the selected section and runs its function
-function displayData() { 
-	switch($('#dataSelection').val()){
-		case 'years':
-			yearSetup();
-			$('.yearBox').show();
-			setRandomColor();
-			break;
-		case 'all':
-			allBooks();
-			$('.allReads').show();
-			setRandomColor();
-			break;
-		case 'category':
-			categorySetup();	
-			$('.categoryBox').show();
-			setRandomColor();
-			break;
-		case 'rankedBtn':
-			rankSetup();
-			$('.rankBox').show();
-			setRandomColor();
+function displayData(sortType) { 
+	let orderArray = JSON.parse(JSON.stringify(bookData));
+	
+	switch(sortType){
+		case 'ranking':
+			for(let book in orderArray){
+				orderArray[book].orderRanking = allBooksOrderedRankings.indexOf(orderArray[book].title) + 1;
+			}
+			orderArray.sort((a,b) => a.orderRanking - b.orderRanking);
 			break;
 		case 'pages':
-			pageSetup();
-			$('.pagesBox').show();
-			setRandomColor();
+			orderArray.sort((a,b) => b.pages - a.pages);
 			break;
 		case 'words':
-			wordSetup();
-			$('.wordBox').show();
-			setRandomColor();
+			orderArray.sort((a,b) => b.wordCount - a.wordCount);
 			break;
 		case 'pubDate':
-			pubDateSetup();
-			$('.pubBox').show();
-			setRandomColor();
+			orderArray.sort((a,b) => b.pubDate - a.pubDate);
 			break;
-		case 'reRead':
-			reReadSetup();	
-			$('.reReadBox').show();
-			setRandomColor();
+		case 'readCount':
+			orderArray.sort((a,b) => b.yearRead.length - a.yearRead.length);
 			break;
-		case 'authors':
-			authorSetup();	
-			$('.authorBox').show();
-			setRandomColor();
+		case 'authorsFirst':
+			orderArray.sort((a,b) => (a.author > b.author) ? 1 : ((b.author > a.author) ? -1 : 0));
+			break;
+		case 'authorsLast':
+			orderArray.sort((a,b) => (a.authorLast > b.authorLast) ? 1 : ((b.authorLast > a.authorLast) ? -1 : 0));
+			break;
+		case 'title':
+			orderArray.sort((a,b) => (a.title > b.title) ? 1 : ((b.title > a.title) ? -1 : 0));
+			break;
+		default:
 			break;
 	}
+	allBooks(orderArray);
+	$('.allReads').show();
+	setRandomColor();
 }
-//#endregion
 
-/*===========================
-	ALL BOOKS READ
-===========================*/
-//#region All Books
-// Pulls all of the books and displays them
-function allBooks() {
+function allBooks(sortedArray) {
 	let allReads = ``;
 	let pagesForAll = 0;
 	let booksForAll = 0;
@@ -186,259 +99,108 @@ function allBooks() {
 	let wordsForAllUnique = 0;
 	let timeForAllUnique = 0;
 	let averageReadingSpeed = 250;
+	let yearChoice = $('#yearSelection').val();
 
 	// Appends the next book (in HTML) and adds to the count and pages of the variables
-	for (let book in bookData) {
-		allReads += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
-			.author}</div></div>`;
-		pagesForAll += bookData[book].pages * bookData[book].yearRead.length;
-		booksForAll += bookData[book].yearRead.length;
-		wordsForAll += bookData[book].wordCount * bookData[book].yearRead.length;
-		pagesForAllUnique += bookData[book].pages;
-		booksForAllUnique++;
-		wordsForAllUnique += bookData[book].wordCount;
-		bookData[book].id = book;
-	}
-	timeForAll = Math.floor(wordsForAll/averageReadingSpeed);
-	timeForAllUnique = Math.floor(wordsForAllUnique/averageReadingSpeed);
-
-	$('.allReads').html(`     
-			<h3>${booksForAll} books & ${pagesForAll.toLocaleString("en-US")} pages & ${wordsForAll.toLocaleString("en-US")} words - ${convertTime(timeForAll)} at 250wpm</h3>
-			<h3>${booksForAllUnique} unique books & ${pagesForAllUnique.toLocaleString("en-US")} pages & ${wordsForAllUnique.toLocaleString("en-US")} words - ${convertTime(timeForAllUnique)} at 250wpm</h3>
-			<div class="bookList">${allReads}</div>
-    `);
-}
-//#endregion
-
-/*===========================
-	BOOKS BY PAGES
-===========================*/
-//#region By Pages
-
-function pageSetup() {
-
-	let pageCount = [
-		{name: '800 or more pages', pageLimit: [800, 9999], count: 0},
-		{name: '700 to 799 pages', pageLimit: [700, 800], count: 0},
-		{name: '600 to 699 pages', pageLimit: [600, 700], count: 0},
-		{name: '500 to 599 pages', pageLimit: [500, 600], count: 0},
-		{name: '400 to 499 pages', pageLimit: [400, 500], count: 0},
-		{name: '300 to 399 pages', pageLimit: [300, 400], count: 0},
-		{name: '200 to 299 pages', pageLimit: [200, 300], count: 0},
-		{name: '100 to 199 pages', pageLimit: [100, 200], count: 0},
-		{name: 'Under 100 pages', pageLimit: [0, 100], count: 0}
-	];
-
-	let pageStr = ``;
-	for(let page in pageCount) {
-		pageStr += `<option value="${pageCount[page].pageLimit}">${pageCount[page].name}</option>`
-	}
-
-	$('.pagesBox').html(`
-			<label for="pageSelection" id="pageLabel">Select an amount of pages</label>
-			<select name="pageSelection" id="pageSelection" class="dataDrop">
-				<option disabled selected>Pages</option>
-				<option value="all">Any Page Count</option>     
-				${pageStr}
-			</select>
-			<div class="pageBooks"></div>
-    `);
-}
-
-function displayPages() {
-	let pagesChoice = $('#pageSelection').val().split(',');
-	let pagesBookList = ``;
-	let bookCount = 0;
-	let bookWord = 'books';
-
-	let pageArr = JSON.parse(JSON.stringify(bookData));
-	pageArr.sort(function(a, b) {
-		return b.pages - a.pages;
-	});	
-
-	for (let book in pageArr) {
-		if (pageArr[book].pages == undefined) {
-		} else if(pagesChoice == "all"){
-			pagesBookList += `<div class="book"> <img src="${pageArr[book].thumb}"><div class="title">${pageArr[book].title}</div><div class="author">${pageArr[book]
-				.author}</div><div class="pages">Pages: ${pageArr[book].pages}</div></div>`;
-			bookCount++;
-		} else {
-				if (pageArr[book].pages >= parseInt(pagesChoice[0]) && pageArr[book].pages < parseInt(pagesChoice[1])) {	
-					pagesBookList += `<div class="book"> <img src="${pageArr[book].thumb}"><div class="title">${pageArr[book].title}</div><div class="author">${pageArr[book]
-						.author}</div><div class="pages">Pages: ${pageArr[book].pages}</div></div>`;
-					bookCount++;
-				}
-			}
-	}
-
-	if(bookCount==1){
-		bookWord = 'book';
-	}
-
-	$('.pageBooks').html(`     
-		<h3>${bookCount} ${bookWord}</h3>	
-		<div class="bookList">${pagesBookList}</div>
-    `);
-}
-
-//#endregion
-
-/*===========================
-	BOOKS BY WORDS
-===========================*/
-//#region By Words
-
-function wordSetup() {
-
-	let wordCount = [
-		{name: '200000 or more words', wordLimit: [200000, 999999999], count: 0},
-		{name: '150000 to 200000 words', wordLimit: [150000, 200000], count: 0},
-		{name: '100000 to 150000 words', wordLimit: [100000, 150000], count: 0},
-		{name: '75000 to 100000 words', wordLimit: [75000, 100000], count: 0},
-		{name: '50000 to 75000 words', wordLimit: [50000, 75000], count: 0},
-		{name: '25000 to 50000 words', wordLimit: [25000, 50000], count: 0},
-		{name: 'Under 25000 words', wordLimit: [0, 25000], count: 0}
-	];
-
-	let wordStr = ``;
-	for(let word in wordCount) {
-		wordStr += `<option value="${wordCount[word].wordLimit}">${wordCount[word].name}</option>`
-	}
-
-	$('.wordBox').html(`
-			<label for="wordSelection" id="wordLabel">Select an amount of words</label>
-			<select name="wordSelection" id="wordSelection" class="dataDrop">
-				<option disabled selected>Words</option>
-				<option value="all">Any Word Count</option>  
-				${wordStr}
-			</select>
-			<div class="wordBooks"></div>
-    `);
-}
-
-function displayWords() {
-	let wordsChoice = $('#wordSelection').val().split(',');
-	let wordsBookList = ``;
-	let bookCount = 0;
-	let bookWord = 'books';
-
-	let wordArr = JSON.parse(JSON.stringify(bookData));
-	wordArr.sort(function(a, b) {
-		return b.wordCount - a.wordCount;
-	});	
-
-
-	for (let book in wordArr) {
-		if (wordArr[book].wordCount == undefined) {
-		}else if(wordsChoice == "all"){
-			let readTime = wordArr[book].wordCount / 250;
-			wordsBookList += `<div class="book"> <img src="${wordArr[book].thumb}"><div class="title">${wordArr[book].title}</div><div class="author">${wordArr[book]
-				.author}</div><div class="pages">Pages: ${wordArr[book].pages}</div><div class="words">Words: ${wordArr[book].wordCount}</div>
-				<div class="words">${convertTime(readTime)}</div></div>`;
-			bookCount++;
-		}else {
-				let readTime = wordArr[book].wordCount / 250;
-				if (wordArr[book].wordCount >= parseInt(wordsChoice[0]) && wordArr[book].wordCount < parseInt(wordsChoice[1])) {	
-					wordsBookList += `<div class="book"> <img src="${wordArr[book].thumb}"><div class="title">${wordArr[book].title}</div><div class="author">${wordArr[book]
-						.author}</div><div class="pages">Pages: ${wordArr[book].pages}</div><div class="words">Words: ${wordArr[book].wordCount}</div>
-						<div class="words">${convertTime(readTime)}</div></div>`;
-					bookCount++;
-				}
-			}
-	}
-
-	if(bookCount==1){
-		bookWord = 'book';
-	}
-
-
-	$('.wordBooks').html(`     
-		<h3>${bookCount} ${bookWord}</h3>	
-		<div class="bookList">${wordsBookList}</div>
-    `);
-}
-
-//#endregion
-
-/*===========================
-	BOOKS BY PUBLICATION DATE
-===========================*/
-//#region PubDate
-function pubDateSetup() {
-	let bookArr = JSON.parse(JSON.stringify(bookData));
-	let pubDates = [];
-	for(let book in bookArr){
-		if(bookArr[book].pubDate != undefined){
-			if(!pubDates.includes(bookArr[book].pubDate)){
-				pubDates.push(bookArr[book].pubDate);
-			}
+	for (let book in sortedArray) {
+		if (yearChoice == 'all' || sortedArray[book].yearRead.includes(parseInt(yearChoice)) == true) {
+			let orderRanking = allBooksOrderedRankings.indexOf(sortedArray[book].title) + 1;
+			allReads += 
+				`<div class="flip-container">
+					<div class="flipper">
+						<div class="front">
+							<div class="front-items-container">
+								<div class="front-items">
+									<img src="${sortedArray[book].thumb}">
+									<div class="title">
+										${sortedArray[book].title}
+									</div>
+									<div class="author">
+										${sortedArray[book].author}
+									</div>
+									<div class="author">
+										${sortedArray[book].myRating}/10
+									</div>
+									<div class="author">
+										Rank: ${orderRanking}
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="back">
+							<div class="back-items-container">
+								<div class="back-items">
+									<div class="author">
+										Year: ${sortedArray[book].pubDate}
+									</div>
+									<div class="author">
+										Pages: ${sortedArray[book].pages}
+									</div>
+									<div class="author">
+										Words: ${sortedArray[book].wordCount}
+									</div>
+									<div class="author">
+										Read Time: ${convertTime(Math.floor(sortedArray[book].wordCount/averageReadingSpeed))}
+									</div>
+									<div class="author">
+										Read Count: ${sortedArray[book].yearRead.length}
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>`;
+			pagesForAll += sortedArray[book].pages * sortedArray[book].yearRead.length;
+			booksForAll += sortedArray[book].yearRead.length;
+			wordsForAll += sortedArray[book].wordCount * sortedArray[book].yearRead.length;
+			pagesForAllUnique += sortedArray[book].pages;
+			booksForAllUnique++;
+			wordsForAllUnique += sortedArray[book].wordCount;
+			sortedArray[book].id = book;
 		}
 	}
 	
-	pubDates.sort((a, b) => b - a);
-	printpubDates(pubDates);
-}
+	timeForAll = Math.floor(wordsForAll/averageReadingSpeed);
+	timeForAllUnique = Math.floor(wordsForAllUnique/averageReadingSpeed);
 
-function printpubDates(pubDates) {
-	let pubDateStr = ``;
-	for(let pubDate in pubDates) {
-		pubDateStr += `<option value="${pubDates[pubDate]}">${pubDates[pubDate]}</option>`
-	}
+	let bookCountRereadString = yearChoice == 'all' ? `<div>(${booksForAll} with re-reads)</div>`: ``;
+	let pageCountRereadString = yearChoice == 'all' ? `<div>(${pagesForAll.toLocaleString("en-US")} with re-reads)</div>`: ``;
+	let wordCountRereadString = yearChoice == 'all' ? `<div>(${wordsForAll.toLocaleString("en-US")} with re-reads)</div>`: ``;
+	let timeCountRereadString = yearChoice == 'all' ? `<div>(${convertTime(timeForAll)} with re-reads)</div>`: ``;
 
-	$('.pubBox').html(`
-			<label for="pubDateSelection" id="pubDateLabel">Select a release year</label>
-			<select name="pubDateSelection" id="pubDateSelection" class="dataDrop">
-				<option disabled selected>Year</option>
-				<option value="all">All Years</option>        
-				${pubDateStr}
-			</select>
-			<div class="pubDateBooks"></div>
+	$('.allReads').html(`     
+		<h2>Summary</h2>
+		<div class="bookList">
+			<div class="mostReadAuthors">
+				<div class="title">Books Read:</div>
+				<div>${booksForAllUnique}</div>
+				${bookCountRereadString}
+			</div>
+			<div class="mostReadAuthors">
+				<div class="title">Pages Read:</div>
+				<div>${pagesForAllUnique.toLocaleString("en-US")}</div>
+				<div>Average: ${Math.floor(pagesForAllUnique/booksForAllUnique).toLocaleString("en-US")}</div>
+				${pageCountRereadString}
+			</div>
+			<div class="mostReadAuthors">
+				<div class="title">Words Read:</div>
+				<div>${wordsForAllUnique.toLocaleString("en-US")}</div>
+				<div>Average: ${Math.floor(wordsForAllUnique/booksForAllUnique).toLocaleString("en-US")}</div>
+				${wordCountRereadString}
+			</div>
+			<div class="mostReadAuthors">
+				<div class="title">Time Reading (at 250WPM):</div>
+				<div>${convertTime(timeForAllUnique)}</div>
+				<div>Average: ${convertTime(Math.floor(timeForAllUnique/booksForAllUnique))}</div>
+				${timeCountRereadString}
+			</div>
+		</div>
+		<h2>Books</h2>
+		
+		<div class="bookList">${allReads}</div>
     `);
 }
 
-function displayPubDates() {
-	let pubDatesChoice = $('#pubDateSelection').val();
-	let pubDatesBookList = ``;
-	let bookCount = 0;
-	let bookWord = 'books';
-
-	let yearArr = JSON.parse(JSON.stringify(bookData));
-	yearArr.sort(function(a, b) {
-		return b.pubDate - a.pubDate;
-	});	
-
-	for (let book in bookData) {
-		if (bookData[book].pubDate == undefined) {
-		} else if(pubDatesChoice == "all"){
-			
-
-			pubDatesBookList += `<div class="book"> <img src="${yearArr[book].thumb}"><div class="title">${yearArr[book].title}</div><div class="author">${yearArr[book]
-				.author}</div></div>`;
-			bookCount++;
-		} else {
-				if (bookData[book].pubDate == pubDatesChoice) {	
-					pubDatesBookList += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
-						.author}</div></div>`;
-					bookCount++;
-				}
-			}
-	}
-
-	if(bookCount==1){
-		bookWord = 'book';
-	}
-
-	$('.pubDateBooks').html(`     
-		<h3>${bookCount} ${bookWord}</h3>	
-		<div class="bookList">${pubDatesBookList}</div>
-    `);
-}
-//#endregion
-
-/*===========================
-	BOOKS BY YEAR I READ
-===========================*/
-//#region Year Diary
 function yearSetup() {
 	let bookArr = JSON.parse(JSON.stringify(bookData));
 	let years = [];
@@ -465,591 +227,15 @@ function printYears(years) {
 	$('.yearBox').html(`
 			<label for="yearSelection" id="yearLabel">Select a year</label>
 			<select name="yearSelection" id="yearSelection" class="dataDrop">
-				<option disabled selected>Year</option>          
+				<option disabled>Year</option>
+				<option value="all">All Years</option>        
 				${yearStr}
 			</select>
 			<div class="yearBooks"></div>
     `);
+
+	$('#yearSelection').val('all');
 }
-
-function displayYears() {
-	let yearChoice = $('#yearSelection').val();
-	let yearBookList = ``;
-	let pagesForYear = 0;
-	let booksForYear = 0;
-	let wordsForYear = 0;
-	let ficCount = 0;
-	let nonficCount = 0;
-	let totalRating = 0;
-	let authors = {};
-	
-	let shortestBook = {title: 'Nothing', author: 'Nobody', pages: 9999, words: 9999999999, img: 'nice'};
-	let longestBook = {title: 'Nothing', author: 'Nobody', pages: 0, words: -1, img: 'nice'};
-	let oldestBook = {title: 'Nothing', author: 'Nobody', year: 9999, img: 'nice'};
-	let booksThisYear = [];
-	let categories = {};
-	
-
-	for (let book in bookData) {
-		if (bookData[book].yearRead == undefined) { 
-		} else { 
-			if (bookData[book].yearRead.includes(parseInt(yearChoice)) == true) {
-				for (let i=0; i<bookData[book].yearRead.length; i++){
-					if (yearChoice == bookData[book].yearRead[i]){
-
-						yearBookList += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
-							.author}</div><div class="pages">Pages: ${bookData[book].pages.toLocaleString("en-US")}</div>
-							<div class="words">Words: ${bookData[book].wordCount.toLocaleString("en-US")}</div><div class="rating">Rating: ${bookData[book].myRating}/10</div></div>`;
-
-						pagesForYear += bookData[book].pages;
-						booksForYear++;
-						wordsForYear += bookData[book].wordCount;
-						totalRating += bookData[book].myRating;
-
-						if(bookData[book].keywords.includes('fiction')){
-							ficCount++;
-						} else if(bookData[book].keywords.includes('nonfiction')){
-							nonficCount++;
-						}
-						
-						getMostAuthors(authors, book);
-						getOldestBook(oldestBook, book);
-						getShortestBook(shortestBook, book);
-						getLongestBook(longestBook, book);
-						getCategories(categories, book);
-						
-
-						if(bookData[book].pubDate == yearChoice){
-							booksThisYear.push({title: bookData[book].title, author: bookData[book].author});
-						}
-					}
-				}
-			}
-		}
-	}
-
-	let mostCategories = [];
-	alterCategories(categories, mostCategories);
-	let topCategories = printTopCategories(mostCategories);
-
-	let mostAuthors = [];
-	findMostAuthors(authors, mostAuthors);
-	let topAuthors = printTopAuthors(mostAuthors);
-
-	let newBooks = ``;
-	for(let book in booksThisYear){
-		newBooks += `<div>- ${booksThisYear[book].title}</div>`
-	}
-
-	let avgPages = pagesForYear / booksForYear;
-	let avgWords = wordsForYear / booksForYear;
-	let ficPercentage = ficCount / (ficCount + nonficCount) * 100;
-	let nonficPercentage = nonficCount / (ficCount + nonficCount) * 100;
-	let avgRating = totalRating / booksForYear;
-	let readTime = wordsForYear/250;
-
-	$('.yearBooks').html(`
-		<h2>Stats for ${yearChoice}</h2>
-		<div class="bookList">
-			<div class="mostReadAuthors"><div class="title">Quick Stats</div><div>${booksForYear} books</div><div>${pagesForYear
-				.toLocaleString("en-US")} pages</div><div>${wordsForYear.toLocaleString("en-US")} words</div><div>${convertTime(readTime)}</div>
-				<div>Average Pages: ${avgPages.toFixed(2)}</div><div>Average Words: ${avgWords.toFixed(2)}</div><div>Average Rating: ${avgRating.toFixed(2)}/10</div></div>
-			<div class="mostReadAuthors"><div class="title">Fiction vs Nonfiction</div><div>Fiction: ${ficCount} (${ficPercentage
-				.toFixed(0)}%)</div><div>Nonfiction: ${nonficCount} (${nonficPercentage.toFixed(0)}%)</div></div>
-			<div class="mostReadAuthors"><div class="title">Most Read Authors</div><div>${topAuthors}</div></div>
-			<div class="mostReadAuthors"><div class="title">Most Common Keywords</div><div>${topCategories}</div></div>
-			<div class="mostReadAuthors"><div class="title">Oldest Book</div><img src="${oldestBook.img}"><div>${oldestBook
-				.title}</div><div>${oldestBook.author}</div><div>${oldestBook.year}</div></div>
-			<div class="mostReadAuthors"><div class="title">Books Released This Year</div><div>${newBooks}</div></div>	
-			<div class="mostReadAuthors"><div class="title">Shortest Book</div><img src="${shortestBook.img}"><div>${shortestBook
-				.title}</div><div>${shortestBook.author}</div><div>${shortestBook.pages} pages</div><div>${shortestBook.words.toLocaleString("en-US")} words</div></div>
-			<div class="mostReadAuthors"><div class="title">Longest Book</div><img src="${longestBook.img}"><div>${longestBook
-				.title}</div><div>${longestBook.author}</div><div>${longestBook.pages} pages</div><div>${longestBook.words.toLocaleString("en-US")} words</div></div>
-		</div>		
-		<h2>Books</h2>
-		<div class="bookList">${yearBookList}</div>
-    `);
-}
-
-function getShortestBook(shortestBook, book){
-	if(bookData[book].wordCount < shortestBook.words){
-		shortestBook.img = bookData[book].thumb;
-		shortestBook.title = bookData[book].title;
-		shortestBook.author = bookData[book].author;
-		shortestBook.pages = bookData[book].pages;
-		shortestBook.words = bookData[book].wordCount;
-	}
-}
-
-function getLongestBook(longestBook, book){
-	if(bookData[book].wordCount > longestBook.words){
-		longestBook.img = bookData[book].thumb;
-		longestBook.title = bookData[book].title;
-		longestBook.author = bookData[book].author;
-		longestBook.pages = bookData[book].pages;
-		longestBook.words = bookData[book].wordCount;
-	}
-}
-
-function getOldestBook(oldestBook, book){
-	if(bookData[book].pubDate < oldestBook.year){
-		oldestBook.img = bookData[book].thumb;
-		oldestBook.title = bookData[book].title;
-		oldestBook.author = bookData[book].author;
-		oldestBook.year = bookData[book].pubDate;
-	}
-}
-
-function getCategories(categories, book){
-	for(let category in bookData[book].keywords){
-		if(categories[bookData[book].keywords[category]]==undefined){
-			categories[bookData[book].keywords[category]] = {count: 1};
-		} else {
-			categories[bookData[book].keywords[category]].count ++;
-		}
-	}
-}
-
-function getMostAuthors(authors, book){
-	if(authors[bookData[book].author]==undefined){
-		authors[bookData[book].author] = {count: 1};
-	} else {
-		authors[bookData[book].author].count ++;
-	}
-}
-
-function alterCategories(categories, mostCategories){
-	delete categories.nonfiction;
-	delete categories.fiction;
-	delete categories.series;
-	delete categories.tv;
-	delete categories.movies;
-	delete categories['female author'];
-
-	findMostCategories(categories, mostCategories);
-}
-
-function findMostCategories(categories, mostCategories){
-	for(let category in categories){ 
-		mostCategories.push([category, categories[category].count]);
-	}
-
-	mostCategories.sort((a, b) => b[1] - a[1]);
-}
-
-function printTopCategories(mostCategories){
-	let tempTop = ``;
-	let numOfCategories = 5;
-	if(mostCategories.length < 5){
-		numOfCategories = mostCategories.length;
-	}
-	for(let i=0; i<numOfCategories; i++){
-		if(mostCategories[i][1]>1){
-			tempTop += `<div>${mostCategories[i][0]} - ${mostCategories[i][1]}</div>`
-		}
-	}
-
-	if(tempTop == ''){
-		tempTop = 'No most read categories.'
-	} 
-
-	return tempTop;
-}
-
-function findMostAuthors(authors, mostAuthors){
-	for(let author in authors){ 
-		mostAuthors.push([author, authors[author].count, authors[author].combinedRating]);
-	}
-
-	mostAuthors.sort((a, b) => b[1] - a[1]);
-}
-
-function printTopAuthors(mostAuthors){
-	let tempTop = ``;
-
-	let numOfAuthors = 3;
-	if(mostAuthors.length < 3){
-		numOfAuthors = mostAuthors.length;
-	}
-
-	for(let i=0; i<numOfAuthors; i++){
-		if(mostAuthors[i][1]>1){
-			tempTop += `<div>${mostAuthors[i][0]} - ${mostAuthors[i][1]}</div>`
-		}
-	}
-
-	if(tempTop == ''){
-		tempTop = 'No most read authors.'
-	} 
-
-	return tempTop;
-}
-
-//#endregion
-
-/*===========================
-	BOOKS I'VE RE-READ
-===========================*/
-//#region Re-Read
-// Pulls all books read more than once and displays them
-function reReadSetup() {
-	let reReads = ``;
-	let totalBooksReRead = 0;
-	let readCountArr = JSON.parse(JSON.stringify(bookData));
-
-	// Sorts the array from highest to lowest read count
-	readCountArr.sort(function(a, b) {
-		return b.yearRead.length - a.yearRead.length;
-	});	
-
-	// Appends the next book (in HTML) and adds to the count of the variables
-	for (let book in readCountArr) {
-		if(readCountArr[book].yearRead.length > 1){
-			reReads += `<div class="book"> <img src="${readCountArr[book].thumb}"><div class="title">${readCountArr[book].title}</div><div class="author">${readCountArr[book]
-				.author}</div><div class="pages">Read Count: ${readCountArr[book].yearRead.length}</div></div>`;
-			totalBooksReRead++;
-		}
-		
-	}
-
-	$('.reReadBox').html(`
-			<h3>${totalBooksReRead} Books Re-Read</h3>
-			<div class="bookList">${reReads}</div>
-    `);
-}
-//#endregion
-
-/*===========================
-	BOOKS BY CATEGORY KEYWORD
-===========================*/
-//#region Keyword
-function categorySetup() {
-	let bookArr = JSON.parse(JSON.stringify(bookData));
-	let keywords = [];
-	for(let book in bookArr){
-		if(bookArr[book].keywords != undefined){
-			for(let i=0; i<bookArr[book].keywords.length; i++){
-				if(!keywords.includes(bookArr[book].keywords[i])){
-					keywords.push(bookArr[book].keywords[i]);
-				}
-			}
-		}
-	}
-	
-	keywords.sort(); 
-	printCategories(keywords);
-}
-
-function printCategories(keywords) {
-	let keywordStr = ``;
-	for(let category in keywords) {
-		keywordStr += `<option value="${keywords[category]}">${keywords[category]}</option>`
-	}
-
-	$('.categoryBox').html(`
-			<label for="categorySelection" id="categoryLabel">Select a keyword</label>
-			<select name="categorySelection" id="categorySelection" class="dataDrop">
-				<option disabled selected>Keyword</option>          
-				${keywordStr}
-			</select>
-			<div class="categoryBooks"></div>
-    `);
-}
-
-function displayCategory() {
-	let categoryChoice = $('#categorySelection').val();
-	let categoryBookList = ``;
-	let bookCount = 0;
-	let bookWord = 'books';
-
-
-	for (let book in bookData) {
-		if (bookData[book].keywords == undefined) {
-		} else {
-				if (bookData[book].keywords.includes(categoryChoice) == true) {	
-					categoryBookList += `<div class="book"> <img src="${bookData[book].thumb}"><div class="title">${bookData[book].title}</div><div class="author">${bookData[book]
-						.author}</div></div>`;
-					bookCount++;
-				}
-			}
-	}
-
-	if(bookCount==1){
-		bookWord = 'book';
-	}
-
-	$('.categoryBooks').html(`     
-		<h3>${bookCount} ${bookWord}</h3>	
-		<div class="bookList">${categoryBookList}</div>
-    `);
-}
-//#endregion
-
-/*===========================
-	BOOKS BY MY RATING
-===========================*/
-//#region Rating
-// Sorts all of the read books by rating
-
-function rankSetup() {
-	let bookArr = JSON.parse(JSON.stringify(bookData));
-	let ranks = [];
-	for(let book in bookArr){
-		if(bookArr[book].myRating != undefined){
-			if(!ranks.includes(bookArr[book].myRating)){
-				ranks.push(bookArr[book].myRating);
-			}
-		}
-	}
-	
-	ranks.sort((a, b) => b - a);
-	printRanks(ranks);
-}
-
-function printRanks(ranks) {
-	let rankStr = ``;
-	for(let rank in ranks) {
-		rankStr += `<option value="${ranks[rank]}">${ranks[rank]}</option>`
-	}
-
-	$('.rankBox').html(`
-			<label for="rankSelection" id="rankLabel">Select a rating</label>
-			<select name="rankSelection" id="rankSelection" class="dataDrop">
-				<option disabled selected>Rating</option>          
-				${rankStr}
-			</select>
-			<div class="rankBooks"></div>
-    `);
-}
-
-function displayRanks() {
-	let rankChoice = $('#rankSelection').val();
-	let rankBookList = ``;
-	let bookCount = 0;
-	let ficCount = 0;
-	let nonficCount = 0;
-	let totalReadCount = 0;
-	let pagesForRating = 0;
-	let wordsForRating = 0;
-	let categories = {};
-
-	 
-
-	let bookArr = JSON.parse(JSON.stringify(bookData));
-	
-	for(let book in bookArr){
-		if(bookArr[book].myRating != undefined){
-			bookArr[book].orderRanking = allBooksOrderedRankings.indexOf(bookArr[book].title) + 1;
-		}
-	}
-	
-	bookArr.sort(function(a, b) {
-		return a.orderRanking - b.orderRanking;
-	});	
-
-
-	for (let book in bookArr) {
-		if (bookArr[book].myRating == undefined) {
-		} else {
-				if (bookArr[book].myRating == rankChoice) {	
-					rankBookList += `<div class="book"> <img src="${bookArr[book].thumb}"><div class="title">${bookArr[book].title}</div><div class="author">${bookArr[book]
-						.author}</div><div class="author">${bookArr[book].orderRanking}</div></div>`;
-					bookCount++;
-					totalReadCount += bookArr[book].yearRead.length;
-					pagesForRating += bookArr[book].pages;
-					wordsForRating += bookArr[book].wordCount;
-
-					getCategories(categories, book);
-
-					if(bookArr[book].keywords.includes('fiction')){
-						ficCount++;
-					} else if(bookArr[book].keywords.includes('nonfiction')){
-						nonficCount++;
-					}
-				}
-			}
-	}
-
-	let ficPercentage = ficCount / (ficCount + nonficCount) * 100;
-	let nonficPercentage = nonficCount / (ficCount + nonficCount) * 100;
-	let avgPages = pagesForRating / bookCount;
-	let avgWords = wordsForRating / bookCount;
-
-	let mostCategories = [];
-	alterCategories(categories, mostCategories);
-	let topCategories = printTopCategories(mostCategories);
-
-	$('.rankBooks').html(`  
-		<div class="bookList">
-			<div class="mostReadAuthors"><div class="title">Quick Stats</div><div>Books: ${bookCount}</div>
-				<div>Total Read Count: ${totalReadCount}</div><div>Average Pages: ${avgPages.toFixed(2)}</div>
-				<div>Average Words: ${avgWords.toFixed(2)}</div></div>
-			<div class="mostReadAuthors"><div class="title">Fiction vs Nonfiction</div><div>Fiction: ${ficCount} (${ficPercentage
-				.toFixed(0)}%)</div><div>Nonfiction: ${nonficCount} (${nonficPercentage.toFixed(0)}%)</div></div>
-			<div class="mostReadAuthors"><div class="title">Top Keywords</div><div>${topCategories}</div></div>
-		</div>
-		<hr />
-		<div class="bookList">${rankBookList}</div>
-    `);
-}
-//#endregion
-
-/*===========================
-	AUTHORS I'VE RE-READ
-===========================*/
-//#region Authors
-// Pulls all books read more than once and displays them
-function authorSetup() {
-	let authors = {};
-	let mostAuthors = [];
-	let printedAuthors = ``;
-
-	let bookCopy = JSON.parse(JSON.stringify(bookData));
-
-	for(let book in bookCopy){
-		if(bookCopy[book].author == 'Newt Scamander' || bookCopy[book].author == 'Kennilworthy Whisp'){
-			bookCopy[book].author = 'J.K. Rowling';
-		}
-	}
-
-	for (let book in bookCopy) {
-		
-		if(authors[bookCopy[book].author]==undefined){
-			authors[bookCopy[book].author] = {
-				count: 1, 
-				combinedRating: bookCopy[book].myRating,
-				totalReads: bookCopy[book].yearRead.length,
-				pages: bookCopy[book].pages,
-				words: bookCopy[book].wordCount
-			}; 
-		} else {
-			authors[bookCopy[book].author].count ++;
-			authors[bookCopy[book].author].combinedRating += bookCopy[book].myRating;
-			authors[bookCopy[book].author].totalReads += bookCopy[book].yearRead.length;
-			authors[bookCopy[book].author].pages += bookCopy[book].pages;
-			authors[bookCopy[book].author].words += bookCopy[book].wordCount;
-		}
-	}
-
-	for(let author in authors){ 
-		if(authors[author].totalReads > 4){
-			mostAuthors.push([author, authors[author].count, authors[author].combinedRating, authors[author].totalReads, authors[author].pages, authors[author].words]);
-		}
-	}
-
-	mostAuthors.sort((a, b) => b[3] - a[3]);
-	for (let author in mostAuthors) {
-		let avgRating = mostAuthors[author][2] / mostAuthors[author][1];
-		let avgPages = mostAuthors[author][4] / mostAuthors[author][1];
-		let avgWords = mostAuthors[author][5] / mostAuthors[author][1];
-
-		printedAuthors += `<div class="mostReadAuthors">
-								<div class="title">${mostAuthors[author][0]}</div>
-								<div>${mostAuthors[author][3]} total reads</div>
-								<div>${mostAuthors[author][1]} books</div>
-								<div>${avgRating.toFixed(2)} average rating</div>
-								<div>${avgPages.toFixed(2)} average pages</div>
-								<div>${avgWords.toFixed(2)} average words</div>
-							</div>`;
-	}
-
-
-	$('.authorBox').html(`
-			<div class="bookList">${printedAuthors}</div>
-    `);
-}
-//#endregion
-
-/*===========================
-	MODAL POPUP
-===========================*/
-//#region Modal/
-function getModalPopup(bookTitle){
-	let selectedBook = {};
-
-	for (var i=0; i < bookData.length; i++) {
-        if (bookData[i].title === bookTitle) {
-            selectedBook.title = bookData[i].title;
-        	selectedBook.author = bookData[i].author;
-        	selectedBook.myRating = bookData[i].myRating;
-        	selectedBook.pages = bookData[i].pages;
-			selectedBook.wordCount = bookData[i].wordCount;
-        	selectedBook.pubDate = bookData[i].pubDate;
-        	selectedBook.yearRead = bookData[i].yearRead;
-			selectedBook.readCount = bookData[i].yearRead.length;
-        	selectedBook.thumb = bookData[i].thumb;
-        	selectedBook.keywords = bookData[i].keywords;
-			selectedBook.similar = bookData[i].similar;
-			selectedBook.description = bookData[i].description;
-			break;
-        }
-    }
-	setupBookDetails(selectedBook);
-}
-
-function setupBookDetails(selectedBook){
-	let bookYears = selectedBook.yearRead.join(', ');
-	let bookKeywords = selectedBook.keywords.join(', ');
-	let similarArr = [];
-	let similarPrinted = ``;
-
-	if(selectedBook.similar != undefined){
-		for(var i=0; i < selectedBook.similar.length; i++) {
-			for (var j=0; j < bookData.length; j++) {
-				if (bookData[j].title === selectedBook.similar[i]) {
-					similarArr.push([bookData[j].title, bookData[j].thumb]);
-					break;
-				}
-			}
-		}
-	}
-	
-	if(selectedBook.similar != undefined){
-		for(let book in similarArr){
-			similarPrinted +=  `<div class="book"> <img src="${similarArr[book][1]}"><div class="title">${similarArr[book][0]}</div></div>`;
-		}
-	}
-
-	showModalPopup(selectedBook, bookYears, bookKeywords, similarPrinted);
-}
-
-function showModalPopup(selectedBook, bookYears, bookKeywords, similarPrinted){
-	$('.modal').show();
-	$('.overlay').show();
-	let orderRanking = allBooksOrderedRankings.indexOf(selectedBook.title) + 1;
-	let readTime = selectedBook.wordCount / 250;
-	$('.modal').html(`
-		<div class="modalContent">
-			<img src="${selectedBook.thumb}" />
-			<div><span class="bookDetail">Title:</span> ${selectedBook.title}</div>
-			<div><span class="bookDetail">Author:</span> ${selectedBook.author}</div>
-			<div><span class="bookDetail">Ranking:</span> ${orderRanking}</div>
-			<div><span class="bookDetail">Rating:</span> ${selectedBook.myRating}/10</div>
-			<div><span class="bookDetail">Pages:</span> ${selectedBook.pages}</div>
-			<div><span class="bookDetail">Words:</span> ${selectedBook.wordCount}</div>
-			<div><span class="bookDetail">Read Time (250wpm):</span> ${convertTime(readTime)}</div>
-			<div><span class="bookDetail">Released:</span> ${selectedBook.pubDate}</div>
-			<div><span class="bookDetail">Read Count:</span> ${selectedBook.readCount}</div>
-			<div><span class="bookDetail">Years Read:</span> ${bookYears}</div>
-			<div><span class="bookDetail">Keywords:</span> ${bookKeywords}</div>
-			<div><span class="bookDetail">Description:</span> ${selectedBook.description}</div>
-			<div>
-				<span class="bookDetail">You may like:</span> 
-				<div class="similarBooks">${similarPrinted}</div>
-			</div>
-		<div>
-		<button onclick="hideModalPopup()" class="modalButton">Close</button>
-	`);
-
-	setRandomColor();
-}
-
-function hideModalPopup(){
-	$('.modal').hide();
-	$('.overlay').hide();
-}
-
-//#endregion
 
 function convertTime(timeInMinutes){
 	let num = timeInMinutes;
@@ -1062,6 +248,14 @@ function convertTime(timeInMinutes){
 	let dayWord = 'days';
 	let hourWord = 'hours';
 	let minuteWord = 'minutes';
+	if(rminutes == 60){
+		rminutes = 0;
+		rhours++;
+	}
+	if(rhours == 24){
+		rhours = 0;
+		rdays++;
+	}
 	if(rdays == 1){dayWord = 'day';}
 	if(rhours == 1){hourWord = 'hour';}
 	if(rminutes == 1){minuteWord = 'minute';}
