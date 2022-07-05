@@ -10,38 +10,25 @@ h3 {
 }
 
 header {
-	background-color: rgb(5, 22, 48);
+	background-color: rgb(0, 0, 0);
 	color: white;
 	font-size: 24px;
 	padding: 10px;
 	text-align: center;	
 }
 
-svg {
-	display: block;
-	margin: 0 auto;	
+.bold {
+	font-weight: bold;
 }
 
-.barData,
-.container {
-	margin: 20px;
-}
-
-.bookList,
-.highGRBox,
-.ranked {
-	/* display: grid;	
-	grid-gap: 10px;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+.bookList {
 	display: flex;
 	gap: 16px;
 	flex-wrap: wrap;
-  
 	justify-content: center;
 }
 
-.book,
-.mostReadAuthors {
+.summaryStats {
 	width: 250px;
 	align-items: center;
 	display: flex;
@@ -49,128 +36,11 @@ svg {
 	justify-content: center;
 	padding: 10px;
 	background: #dfedee;
-	
 	border: 1px solid #ccc;
 	box-shadow: 1px 1px 2px #fff inset,
 				-1px -1px 2px #fff inset;
 	border-radius: 3px/6px;   
 	text-align: center;
-}
-
-.book {
-	cursor: pointer;
-}
-
-.bookDetail {
-	font-weight: 700;
-}
-
-.buttonList {
-	display: flex;
-	justify-content: space-evenly;
-	flex-wrap: wrap;
-}
-
-.categoryBooks,
-.yearBooks,
-.rankBooks,
-.pubDateBooks,
-.pageBooks,
-.wordBooks {
-	margin-top: 20px;
-	width: 100%;
-}
-
-.modal {
-	z-index: 9001;
-	background-color: white;
-	border: 2px solid black;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-.modalButton {
-	box-shadow: 0px 10px 14px -7px #276873;
-	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
-	background-color:#599bb3;
-	border-radius:8px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:16px;
-	font-weight:bold;
-	padding:5px 16px;
-	text-decoration:none;
-	margin-top: 5px;
-	text-shadow:0px 1px 0px #3d768a;
-}
-.modalButton:hover {
-	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
-	background-color:#408c99;
-}
-.modalButton:active {
-	position:relative;
-	top:1px;
-}
-
-.modalContent {
-	padding: 10px;
-}
-
-.overlay {
-	height: 100%;
-	width: 100%;
-	position: fixed;
-	z-index: 8000;
-	left: 0;
-	top: 0;
-	background-color: rgb(0, 0, 0);
-	background-color: rgb(0, 0, 0, 0.9);
-	overflow-x: hidden;
-	transition: 0.5s;
-}
-
-.pagesBox p,
-.rankBox p,
-.wordBox p {
-	font-size: 30px;
-	font-weight: bold;
-	text-align: center;
-}
-
-.ranked {
-	margin-bottom: 60px;
-}
-
-.similarBook {
-	display: flex;
-	flex-direction: column;	
-	align-items: center;
-	border: 1px;
-	border-color: rgb(202, 199, 197);
-	border-style: dashed;
-	padding: 5px;
-}
-
-.similarBooks {
-	display: grid;	
-	grid-gap: 10px;
-	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-}
-
-.svgContainer {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-}
-
-
-.tick line {
-	stroke: #ccc;
-	stroke-dasharray: 10, 5;
 }
 
 .title {	
@@ -181,12 +51,7 @@ svg {
 }
 
 #buttons,
-.categoryBox,
-.yearBox,
-.rankBox,
-.pubBox,
-.pagesBox,
-.wordBox {	
+.yearBox {	
 	align-items: center;
 	display: flex;
 	flex-direction: column;
@@ -194,68 +59,24 @@ svg {
 	margin-top: 20px;
 }
 
-#dataSelection,
-#categorySelection,
-#yearSelection,
-#rankSelection,
-#pubDateSelection,
-#pageSelection,
-#wordSelection {
+#yearLabel {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#yearSelection {
+	border-radius: .375rem;
+	border-style: solid;
+	border-width: .125rem;
 	font-size: 16px;
 	padding: 5px 10px;
 }
 
-#mainLabel {
-	font-size: 20px;
-}
+/*////////////////////////////
+	CARDS
+////////////////////////////*/
 
-@media only screen and (max-width: 768px) {
-	.modal {
-		width: 100%;
-		height: 100%;
-	}
-}
-
-
-
-
-/* .scene {
-  width: 200px;
-  height: 260px;
-  border: 1px solid #CCC;
-  margin: 40px 0;
-  perspective: 600px;
-}
-
-.card {
-  position: relative;
-  width: 200px;
-  height: 250px;
-  cursor: pointer;
-  transform-style: preserve-3d;
-  transform-origin: center right;
-  transition: transform 1s;
-}
-
-.is-flipped {
-  transform: translateX(-100%) rotateY(-180deg);
-}
-
-.card__face {
-}
-
-.card__face--front {
-  background: red;
-  height: 100px;
-}
-
-.card__face--back {
-  background: blue;
-  transform: rotateY(180deg);
-}
-   */
-
-   .flip-container:hover .flipper, .flip-container.hover .flipper {
+   .flip-container:hover .flipper, .flip-container:active .flipper, .flip-container.hover .flipper {
 	transform: rotateY(180deg);
   }
   
@@ -294,7 +115,6 @@ svg {
 	padding: 20px;
   }
 
-  
   /* front pane, placed above back */
   .front {
 	z-index: 2;
@@ -308,5 +128,98 @@ svg {
 	background-color: rgb(79, 75, 167);
   }
 
+/*////////////////////////////
+	BUTTONS
+////////////////////////////*/
 
-  
+.button-80 {
+  background: #fff;
+  backface-visibility: hidden;
+  border-radius: .375rem;
+  border-style: solid;
+  border-width: .125rem;
+  box-sizing: border-box;
+  color: #212121;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,Helvetica,sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: -.01em;
+  line-height: 1.1;
+  margin: 3px;
+  padding: .6rem 1rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translateZ(0) scale(1);
+  transition: transform .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: 160px;
+  touch-action: manipulation;
+}
+
+.button-80:not(:disabled):hover {
+  transform: scale(1.05);
+}
+
+.button-80:not(:disabled):hover:active {
+  transform: scale(1.05) translateY(.125rem);
+}
+
+.button-80:focus {
+  outline: 0 solid transparent;
+}
+
+.button-80:focus:before {
+  content: "";
+  left: calc(-1*.375rem);
+  pointer-events: none;
+  position: absolute;
+  top: calc(-1*.375rem);
+  transition: border-radius;
+  user-select: none;
+}
+
+.button-80:focus:not(:focus-visible) {
+  outline: 0 solid transparent;
+}
+
+.button-80:focus:not(:focus-visible):before {
+  border-width: 0;
+}
+
+.button-80:not(:disabled):active {
+  transform: translateY(.125rem);
+}
+
+.button-80.selected {
+	background: #212121;
+	color: #fff;
+
+}
+
+.button-title {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.multi-button {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+/*////////////////////////////
+	MEDIA QUERIES
+////////////////////////////*/
+
+@media only screen and (max-width: 768px) {
+	.flip-container, .front, .back {
+		width: 170px;
+		height: 250px;
+	  }
+}

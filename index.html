@@ -12,16 +12,16 @@
   <div id="buttons">
     <div class="yearBox"></div>
     <div class="sortBox">
-      <div>Sort by:</div>
+      <div class="button-title">Sort by:</div>
       <div class="multi-button">
-        <button type="button" onclick="displayData('authorsFirst')">Author First Name</button>
-        <button type="button" onclick="displayData('authorsLast')">Author Last Name</button>
-        <button type="button" onclick="displayData('pages')">Pages</button>
-        <button type="button" onclick="displayData('pubDate')">Publication Year</button>
-        <button type="button" onclick="displayData('ranking')">Ratings</button>
-        <button type="button" onclick="displayData('readCount')">Read Count</button>
-        <button type="button" onclick="displayData('title')">Title</button>
-        <button type="button" onclick="displayData('words')">Words</button>
+        <button type="button" id="authorFirst" class="button-80 selected" onclick="displayData('authorFirst')">Author (First)</button>
+        <button type="button" id="authorLast" class="button-80" onclick="displayData('authorLast')">Author (Last)</button>
+        <button type="button" id="pages" class="button-80" onclick="displayData('pages')">Pages</button>
+        <button type="button" id="pubDate" class="button-80" onclick="displayData('pubDate')">Publication Year</button>
+        <button type="button" id="ranking" class="button-80" onclick="displayData('ranking')">Rating</button>
+        <button type="button" id="readCount" class="button-80" onclick="displayData('readCount')">Read Count</button>
+        <button type="button" id="title" class="button-80" onclick="displayData('title')">Title</button>
+        <button type="button" id="words" class="button-80" onclick="displayData('words')">Words</button>
       </div>
     </div>
   </div>

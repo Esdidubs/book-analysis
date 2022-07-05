@@ -1,24 +1,17 @@
 /*
 	Things to add:
 	- May need to fix the ranking logic if 2 books have the same title
-	- Have author with penname look like JK Rowling (Newt Scamander). Include penname key?
-	- Have secondary authors
-	- Add re-reads to quick stats?
+	- Have author with penname look like JK Rowling (Newt Scamander).
 	- Rename variables and classes to be more accurate
-	- Default year is current year
 */
 
 $(document).ready(function() {
 	yearSetup();
 	displayData('all');
-	setRandomColor();
 });
 
 function setRandomColor(){
-	$('.book').each(function () {
-		$(this).css("background-color", random_color());
-	}) 
-	$('.mostReadAuthors').each(function () {
+	$('.summaryStats').each(function () {
 		$(this).css("background-color", random_color());
 	})
 
@@ -43,7 +36,8 @@ function random_color() {
 
 $(document).on('change', '#yearSelection', function(){
     event.preventDefault();
-	displayData('all');
+	var id = $("button.selected").prop("id");
+	displayData(id);
 	setRandomColor();
 });
 
@@ -54,38 +48,52 @@ function displayData(sortType) {
 	
 	switch(sortType){
 		case 'ranking':
+			buttonSelect('ranking');
 			for(let book in orderArray){
 				orderArray[book].orderRanking = allBooksOrderedRankings.indexOf(orderArray[book].title) + 1;
 			}
 			orderArray.sort((a,b) => a.orderRanking - b.orderRanking);
 			break;
 		case 'pages':
+			buttonSelect('pages');
 			orderArray.sort((a,b) => b.pages - a.pages);
 			break;
 		case 'words':
+			buttonSelect('words');
 			orderArray.sort((a,b) => b.wordCount - a.wordCount);
 			break;
 		case 'pubDate':
+			buttonSelect('pubDate');
 			orderArray.sort((a,b) => b.pubDate - a.pubDate);
 			break;
 		case 'readCount':
+			buttonSelect('readCount');
 			orderArray.sort((a,b) => b.yearRead.length - a.yearRead.length);
 			break;
-		case 'authorsFirst':
+		case 'authorFirst':
+			buttonSelect('authorFirst');
 			orderArray.sort((a,b) => (a.author > b.author) ? 1 : ((b.author > a.author) ? -1 : 0));
 			break;
-		case 'authorsLast':
+		case 'authorLast':
+			buttonSelect('authorLast');
 			orderArray.sort((a,b) => (a.authorLast > b.authorLast) ? 1 : ((b.authorLast > a.authorLast) ? -1 : 0));
 			break;
 		case 'title':
+			buttonSelect('title');
 			orderArray.sort((a,b) => (a.title > b.title) ? 1 : ((b.title > a.title) ? -1 : 0));
 			break;
 		default:
+			buttonSelect('authorFirst');
 			break;
 	}
 	allBooks(orderArray);
 	$('.allReads').show();
 	setRandomColor();
+}
+
+function buttonSelect(idOfButton){
+	$(".button-80").removeClass("selected");
+	$(`#${idOfButton}`).addClass("selected");
 }
 
 function allBooks(sortedArray) {
@@ -131,19 +139,19 @@ function allBooks(sortedArray) {
 							<div class="back-items-container">
 								<div class="back-items">
 									<div class="author">
-										Year: ${sortedArray[book].pubDate}
+										<span class="bold">Year:</span> ${sortedArray[book].pubDate}
 									</div>
 									<div class="author">
-										Pages: ${sortedArray[book].pages}
+										<span class="bold">Pages:</span> ${sortedArray[book].pages}
 									</div>
 									<div class="author">
-										Words: ${sortedArray[book].wordCount}
+										<span class="bold">Words:</span> ${sortedArray[book].wordCount}
 									</div>
 									<div class="author">
-										Read Time: ${convertTime(Math.floor(sortedArray[book].wordCount/averageReadingSpeed))}
+										<span class="bold">Read Time:</span> ${convertTime(Math.floor(sortedArray[book].wordCount/averageReadingSpeed))}
 									</div>
 									<div class="author">
-										Read Count: ${sortedArray[book].yearRead.length}
+										<span class="bold">Read Count:</span> ${sortedArray[book].yearRead.length}
 									</div>
 								</div>
 							</div>
@@ -171,24 +179,24 @@ function allBooks(sortedArray) {
 	$('.allReads').html(`     
 		<h2>Summary</h2>
 		<div class="bookList">
-			<div class="mostReadAuthors">
+			<div class="summaryStats">
 				<div class="title">Books Read:</div>
 				<div>${booksForAllUnique}</div>
 				${bookCountRereadString}
 			</div>
-			<div class="mostReadAuthors">
+			<div class="summaryStats">
 				<div class="title">Pages Read:</div>
 				<div>${pagesForAllUnique.toLocaleString("en-US")}</div>
 				<div>Average: ${Math.floor(pagesForAllUnique/booksForAllUnique).toLocaleString("en-US")}</div>
 				${pageCountRereadString}
 			</div>
-			<div class="mostReadAuthors">
+			<div class="summaryStats">
 				<div class="title">Words Read:</div>
 				<div>${wordsForAllUnique.toLocaleString("en-US")}</div>
 				<div>Average: ${Math.floor(wordsForAllUnique/booksForAllUnique).toLocaleString("en-US")}</div>
 				${wordCountRereadString}
 			</div>
-			<div class="mostReadAuthors">
+			<div class="summaryStats">
 				<div class="title">Time Reading (at 250WPM):</div>
 				<div>${convertTime(timeForAllUnique)}</div>
 				<div>Average: ${convertTime(Math.floor(timeForAllUnique/booksForAllUnique))}</div>
@@ -225,7 +233,7 @@ function printYears(years) {
 	}
 
 	$('.yearBox').html(`
-			<label for="yearSelection" id="yearLabel">Select a year</label>
+			<label for="yearSelection" id="yearLabel">Select a year:</label>
 			<select name="yearSelection" id="yearSelection" class="dataDrop">
 				<option disabled>Year</option>
 				<option value="all">All Years</option>        
