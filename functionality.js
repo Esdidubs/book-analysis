@@ -1,27 +1,16 @@
-/*
-	Things to add:
-	- May need to fix the ranking logic if 2 books have the same title
-	- Have author with penname look like JK Rowling (Newt Scamander).
-	- Rename variables and classes to be more accurate
-*/
-
 $(document).ready(function() {
 	yearSetup();
-	displayData('all');
+	listSetup('all');
 });
 
 function setRandomColor(){
-	$('.summaryStats').each(function () {
-		$(this).css("background-color", random_color());
-	})
-
-	$('.front').each(function () {
-		$(this).css("background-color", random_color());
-	}) 
-
-	$('.back').each(function () {
-		$(this).css("background-color", random_color());
-	}) 
+	let colorArray = ['.summaryStats', '.front', '.back'];
+	
+	for (let colorElement in colorArray) {
+		$(colorArray[colorElement]).each(function () {
+			$(this).css("background-color", random_color());
+		}) 
+	}
 }
 
 function random_color() {
@@ -30,20 +19,18 @@ function random_color() {
 	for (var i = 0; i < 6; i++ ) {
 		color += letters[Math.round(Math.random() * 15)];
 	}
-	color+='40';
+	color += '40';
 	return color;
 };
 
 $(document).on('change', '#yearSelection', function(){
     event.preventDefault();
 	var id = $("button.selected").prop("id");
-	displayData(id);
+	listSetup(id);
 	setRandomColor();
 });
 
-
-// Shows the selected section and runs its function
-function displayData(sortType) { 
+function listSetup(sortType) { 
 	let orderArray = JSON.parse(JSON.stringify(bookData));
 	
 	switch(sortType){
@@ -86,8 +73,8 @@ function displayData(sortType) {
 			buttonSelect('authorFirst');
 			break;
 	}
-	allBooks(orderArray);
-	$('.allReads').show();
+	displayBooks(orderArray);
+	$('.bookContainer').show();
 	setRandomColor();
 }
 
@@ -96,24 +83,17 @@ function buttonSelect(idOfButton){
 	$(`#${idOfButton}`).addClass("selected");
 }
 
-function allBooks(sortedArray) {
-	let allReads = ``;
-	let pagesForAll = 0;
-	let booksForAll = 0;
-	let wordsForAll = 0;
-	let timeForAll = 0;
-	let pagesForAllUnique = 0;
-	let booksForAllUnique = 0;
-	let wordsForAllUnique = 0;
-	let timeForAllUnique = 0;
+function displayBooks(sortedArray) {
+	let bookContainer = ``;
+	let pagesForAll, booksForAll, wordsForAll, timeForAll, pagesForAllUnique, booksForAllUnique, wordsForAllUnique, timeForAllUnique;
+	pagesForAll = booksForAll = wordsForAll = timeForAll = pagesForAllUnique = booksForAllUnique = wordsForAllUnique = timeForAllUnique = 0;
 	let averageReadingSpeed = 250;
 	let yearChoice = $('#yearSelection').val();
 
-	// Appends the next book (in HTML) and adds to the count and pages of the variables
 	for (let book in sortedArray) {
 		if (yearChoice == 'all' || sortedArray[book].yearRead.includes(parseInt(yearChoice)) == true) {
 			let orderRanking = allBooksOrderedRankings.indexOf(sortedArray[book].title) + 1;
-			allReads += 
+			bookContainer += 
 				`<div class="flip-container">
 					<div class="flipper">
 						<div class="front">
@@ -176,7 +156,7 @@ function allBooks(sortedArray) {
 	let wordCountRereadString = yearChoice == 'all' ? `<div>(${wordsForAll.toLocaleString("en-US")} with re-reads)</div>`: ``;
 	let timeCountRereadString = yearChoice == 'all' ? `<div>(${convertTime(timeForAll)} with re-reads)</div>`: ``;
 
-	$('.allReads').html(`     
+	$('.bookContainer').html(`     
 		<h2>Summary</h2>
 		<div class="bookList">
 			<div class="summaryStats">
@@ -205,7 +185,7 @@ function allBooks(sortedArray) {
 		</div>
 		<h2>Books</h2>
 		
-		<div class="bookList">${allReads}</div>
+		<div class="bookList">${bookContainer}</div>
     `);
 }
 
@@ -253,20 +233,20 @@ function convertTime(timeInMinutes){
 	let rhours = Math.floor(hours);
 	let minutes = (hours - rhours) * 60;
 	let rminutes = Math.round(minutes);
-	let dayWord = 'days';
-	let hourWord = 'hours';
-	let minuteWord = 'minutes';
+	
 	if(rminutes == 60){
 		rminutes = 0;
 		rhours++;
 	}
+	
 	if(rhours == 24){
 		rhours = 0;
 		rdays++;
 	}
-	if(rdays == 1){dayWord = 'day';}
-	if(rhours == 1){hourWord = 'hour';}
-	if(rminutes == 1){minuteWord = 'minute';}
+
+	let dayWord = rdays == 1 ? 'day' : 'days';
+	let hourWord = rhours == 1 ? 'hour' : 'hours';
+	let minuteWord = rminutes == 1 ? 'minute' : 'minutes';
 
 	if(rdays > 0){
 		if(rhours > 0 && rminutes > 0) {return `${rdays} ${dayWord}, ${rhours} ${hourWord}, ${rminutes} ${minuteWord}`;}
