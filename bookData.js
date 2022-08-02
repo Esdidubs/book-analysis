@@ -2702,7 +2702,7 @@ let bookData = [
         pages: 435,
         wordCount: 107253,
         pubDate: 1999,
-        yearRead: [2000, 2002, 2010, 2017, 2018, 2019, 2020, 2021],
+        yearRead: [2000, 2002, 2010, 2017, 2018, 2019, 2020, 2021, 2022],
         thumb: './images/hp3.jpg',
     },
     {
