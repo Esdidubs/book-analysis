@@ -37,7 +37,7 @@ function listSetup(sortType) {
 		case 'ranking':
 			buttonSelect('ranking');
 			for(let book in orderArray){
-				orderArray[book].orderRanking = allBooksOrderedRankings.indexOf(orderArray[book].title) + 1;
+				orderArray[book].orderRanking = allBooksOrderedRankings.indexOf(orderArray[book].bookID) + 1;
 			}
 			orderArray.sort((a,b) => a.orderRanking - b.orderRanking);
 			break;
@@ -92,7 +92,7 @@ function displayBooks(sortedArray) {
 
 	for (let book in sortedArray) {
 		if (yearChoice == 'all' || sortedArray[book].yearRead.includes(parseInt(yearChoice)) == true) {
-			let orderRanking = allBooksOrderedRankings.indexOf(sortedArray[book].title) + 1;
+			let orderRanking = allBooksOrderedRankings.indexOf(sortedArray[book].bookID) + 1;
 			bookContainer += 
 				`<div class="flip-container">
 					<div class="flipper">

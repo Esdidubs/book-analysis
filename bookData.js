@@ -1,8 +1,9 @@
 let bookData = [
     /*===========================
-    	Author First Name - A's
+    Author First Name - A's
     ===========================*/
     {
+        bookID: '0051766056',
         title: 'Hocus Pocus & The All New Sequel',
         series: '',
         author: 'A.W. Jantha',
@@ -15,6 +16,7 @@ let bookData = [
         thumb: './images/hocus-pocus.jpg'
     },
     {
+        bookID: '007C2C3BB0',
         title: 'Irresistible',
         series: '',
         author: 'Adam Alter',
@@ -27,6 +29,7 @@ let bookData = [
         thumb: './images/irresistible.jpg'
     },
     {
+        bookID: '00B4C5BF83',
         title: 'The Complete Guide to Absolutely Everything',
         series: '',
         author: 'Adam Rutherford',
@@ -39,6 +42,7 @@ let bookData = [
         thumb: './images/guide-to-everything.jpg'
     },
     {
+        bookID: '005AAC1D6A',
         title: 'How to Talk So Kids Will Listen & Listen So Kids Will Talk',
         series: '',
         author: 'Adele Faber',
@@ -51,6 +55,7 @@ let bookData = [
         thumb: './images/talk-listen.jpg'
     },
     {
+        bookID: '0042113670',
         title: 'Multiple Choice',
         series: '',
         author: 'Alejandro Zambra',
@@ -63,6 +68,7 @@ let bookData = [
         thumb: './images/multiple-choice.jpg'
     },
     {
+        bookID: '0064EE4B9E',
         title: 'One Day in the Life of Ivan Denisovich',
         series: '',
         author: 'Aleksandr Solzhenitsyn',
@@ -75,6 +81,7 @@ let bookData = [
         thumb: './images/one-day.jpg'
     },
     {
+        bookID: '00AD44ED88',
         title: 'Unprotected Lexicon',
         series: '',
         author: 'Alexa Chrisbacher',
@@ -87,6 +94,7 @@ let bookData = [
         thumb: './images/lexicon.jpg'
     },
     {
+        bookID: '0079DEB442',
         title: 'Bad Choices',
         series: '',
         author: 'Ali Almossawi',
@@ -99,6 +107,7 @@ let bookData = [
         thumb: './images/bad-choices.jpg'
     },
     {
+        bookID: '004FD44CD2',
         title: 'Learning Chinese Characters',
         series: '',
         author: 'Alison Matthews',
@@ -111,6 +120,7 @@ let bookData = [
         thumb: './images/chinese-characters.jpg'
     },
     {
+        bookID: '0019089970',
         title: 'Matched',
         series: '',
         author: 'Ally Condie',
@@ -123,6 +133,7 @@ let bookData = [
         thumb: './images/matched.jpg'
     },
     {
+        bookID: '0044494F3A',
         title: 'Crossed',
         series: '',
         author: 'Ally Condie',
@@ -135,6 +146,7 @@ let bookData = [
         thumb: './images/crossed.jpg'
     },
     {
+        bookID: '00CD348B28',
         title: 'Reached',
         series: '',
         author: 'Ally Condie',
@@ -147,6 +159,7 @@ let bookData = [
         thumb: './images/reached.jpg'
     },
     {
+        bookID: '003C57771A',
         title: 'Scary Stories to Tell in the Dark',
         series: '',
         author: 'Alvin Schwartz',
@@ -159,6 +172,7 @@ let bookData = [
         thumb: './images/scary-stories1.jpg'
     },
     {
+        bookID: '00F33B3310',
         title: 'More Scary Stories to Tell in the Dark',
         series: '',
         author: 'Alvin Schwartz',
@@ -171,6 +185,7 @@ let bookData = [
         thumb: './images/scary-stories2.jpg'
     },
     {
+        bookID: '00B0C51705',
         title: 'More Tales to Chill Your Bones',
         series: '',
         author: 'Alvin Schwartz',
@@ -183,6 +198,7 @@ let bookData = [
         thumb: './images/scary-stories3.jpg'
     },
     {
+        bookID: '00F100C582',
         title: 'Humility',
         series: '',
         author: 'Andrew Murray',
@@ -195,6 +211,7 @@ let bookData = [
         thumb: './images/humility.jpg'
     },
     {
+        bookID: '00A074E09D',
         title: 'The Office',
         series: '',
         author: 'Andy Greene',
@@ -207,6 +224,7 @@ let bookData = [
         thumb: './images/office.jpg'
     },
     {
+        bookID: '001B762B91',
         title: 'The Martian',
         series: '',
         author: 'Andy Weir',
@@ -219,6 +237,7 @@ let bookData = [
         thumb: './images/martian.jpg'
     },
     {
+        bookID: '00CA04ED49',
         title: 'Artemis',
         series: '',
         author: 'Andy Weir',
@@ -231,6 +250,7 @@ let bookData = [
         thumb: './images/artemis.jpg'
     },
     {
+        bookID: '00F2BA391D',
         title: 'Project Hail Mary',
         series: '',
         author: 'Andy Weir',
@@ -243,6 +263,7 @@ let bookData = [
         thumb: './images/hail-mary.jpg'
     },
     {
+        bookID: '007117B941',
         title: 'Grit',
         series: '',
         author: 'Angela Duckworth',
@@ -255,6 +276,7 @@ let bookData = [
         thumb: './images/grit.jpg'
     },
     {
+        bookID: '0002468740',
         title: 'The History and Uncertain Future of Handwriting',
         series: '',
         author: 'Anne Trubek',
@@ -267,6 +289,7 @@ let bookData = [
         thumb: './images/handwriting.jpg'
     },
     {
+        bookID: '0058AEBFB1',
         title: 'How to Build Strong & Lean Bodyweight Muscle',
         series: '',
         author: 'Anthony Arvanitakis',
@@ -279,6 +302,7 @@ let bookData = [
         thumb: './images/bodyweight-muscle.jpg'
     },
     {
+        bookID: '006DB8C1EB',
         title: 'Unshakeable',
         series: '',
         author: 'Anthony Robbins',
@@ -291,6 +315,7 @@ let bookData = [
         thumb: './images/unshakeable.jpg'
     },
     {
+        bookID: '009E45AE46',
         title: 'How Much is Enough?',
         series: '',
         author: 'Arthur Simon',
@@ -303,6 +328,7 @@ let bookData = [
         thumb: './images/how-much.jpg'
     },
     {
+        bookID: '00EA827D20',
         title: 'Nothing But the Truth',
         series: '',
         author: 'Avi',
@@ -315,9 +341,10 @@ let bookData = [
         thumb: './images/nothing-but-truth.jpg'
     },
     /*===========================
-    	Author First Name - B's
+    Author First Name - B's
     ===========================*/
     {
+        bookID: '00B8D86585',
         title: 'One More Thing',
         series: '',
         author: 'B.J. Novak',
@@ -330,6 +357,7 @@ let bookData = [
         thumb: './images/one-more-thing.jpg'
     },
     {
+        bookID: '00D8D6EBBD',
         title: 'Go Ask Alice',
         series: '',
         author: 'Beatrice Sparks',
@@ -342,6 +370,7 @@ let bookData = [
         thumb: './images/alice.jpg'
     },
     {
+        bookID: '00AAED35B3',
         title: 'Beyond Awkward',
         series: '',
         author: 'Beau Crosetto',
@@ -354,6 +383,7 @@ let bookData = [
         thumb: './images/awkward.jpg'
     },
     {
+        bookID: '002BCF0259',
         title: "What If It's Us",
         series: '',
         author: 'Becky Albertalli',
@@ -366,6 +396,7 @@ let bookData = [
         thumb: './images/what-if-its-us.jpg'
     },
     {
+        bookID: '00CA6011FC',
         title: 'The Upside of Unrequited',
         series: '',
         author: 'Becky Albertalli',
@@ -378,6 +409,7 @@ let bookData = [
         thumb: './images/upside.jpg'
     },
     {
+        bookID: '007F31E5A5',
         title: 'Simon vs. the Homo Sapiens Agenda',
         series: '',
         author: 'Becky Albertalli',
@@ -390,6 +422,7 @@ let bookData = [
         thumb: './images/simon.jpg'
     },
     {
+        bookID: '00A342A811',
         title: 'Leah on the Offbeat',
         series: '',
         author: 'Becky Albertalli',
@@ -402,6 +435,7 @@ let bookData = [
         thumb: './images/leah.jpg'
     },
     {
+        bookID: '00D1D8AB39',
         title: 'Love, Creekwood',
         series: '',
         author: 'Becky Albertalli',
@@ -414,6 +448,7 @@ let bookData = [
         thumb: './images/love-creekwood.jpg'
     },
     {
+        bookID: '00E7F095D1',
         title: '101 Video Games to Play Before You Grow Up',
         series: '',
         author: 'Ben Bertoli',
@@ -426,6 +461,7 @@ let bookData = [
         thumb: './images/games-before-grow.jpg'
     },
     {
+        bookID: '00EB81CBF8',
         title: 'Math with Bad Drawings',
         series: '',
         author: 'Ben Orlin',
@@ -438,6 +474,7 @@ let bookData = [
         thumb: './images/math-bad-drawings.jpg'
     },
     {
+        bookID: '0006B62BDC',
         title: 'Aristotle and Dante Discover the Secrets of the Universe',
         series: '',
         author: 'Benjamin Alire Sáenz',
@@ -450,6 +487,7 @@ let bookData = [
         thumb: './images/aristotle-dante.jpg'
     },
     {
+        bookID: '001D59D747',
         title: 'Fluent in 3 Months',
         series: '',
         author: 'Benny Lewis',
@@ -462,6 +500,7 @@ let bookData = [
         thumb: './images/fluent-in-3.jpg'
     },
     {
+        bookID: '00805B73D4',
         title: 'The Mouse and the Motorcycle',
         series: '',
         author: 'Beverly Cleary',
@@ -474,6 +513,7 @@ let bookData = [
         thumb: './images/mouse-motorcycle.jpg'
     },
     {
+        bookID: '0042C43B38',
         title: 'Courageous Leadership',
         series: '',
         author: 'Bill Hybels',
@@ -486,6 +526,7 @@ let bookData = [
         thumb: './images/courageous-leadership.jpg'
     },
     {
+        bookID: '0011CC6F07',
         title: 'When Heaven Invades Earth',
         series: '',
         author: 'Bill Johnson',
@@ -498,6 +539,7 @@ let bookData = [
         thumb: './images/heaven-invades.jpg'
     },
     {
+        bookID: '0035483303',
         title: 'Openly Straight',
         series: '',
         author: 'Bill Konigsberg',
@@ -510,6 +552,7 @@ let bookData = [
         thumb: './images/openly-straight.jpg'
     },
     {
+        bookID: '00F932C04E',
         title: 'Who Is the Greatest: Elvis or the Beatles?',
         series: '',
         author: 'Bill Slater',
@@ -522,6 +565,7 @@ let bookData = [
         thumb: './images/elvis-beatles.jpg'
     },
     {
+        bookID: '00283338E6',
         title: 'We Need to Hang Out',
         series: '',
         author: 'Billy Baker',
@@ -534,6 +578,7 @@ let bookData = [
         thumb: './images/hang-out.jpg'
     },
     {
+        bookID: '00536432ED',
         title: 'Console Wars',
         series: '',
         author: 'Blake Harris',
@@ -546,6 +591,7 @@ let bookData = [
         thumb: './images/console-wars.jpg',
     },
     {
+        bookID: '0007C382CE',
         title: "Fail Until You Don't",
         series: '',
         author: 'Bobby Bones',
@@ -558,6 +604,7 @@ let bookData = [
         thumb: './images/fail-until.jpg',
     },
     {
+        bookID: '00B4CCD69A',
         title: "Tetris: The Games People Play",
         series: '',
         author: 'Box Brown',
@@ -570,6 +617,7 @@ let bookData = [
         thumb: './images/tetris-games.jpg',
     },
     {
+        bookID: '0049C2696C',
         title: 'Elantris',
         series: '',
         author: 'Brandon Sanderson',
@@ -582,6 +630,7 @@ let bookData = [
         thumb: './images/elantris.jpg'
     },
     {
+        bookID: '00A032A442',
         title: 'The Hope of Elantris',
         series: '',
         author: 'Brandon Sanderson',
@@ -594,6 +643,7 @@ let bookData = [
         thumb: './images/hope-elantris.jpg',
     },
     {
+        bookID: '00F39FC407',
         title: "The Emperor's Soul",
         series: '',
         author: 'Brandon Sanderson',
@@ -606,6 +656,7 @@ let bookData = [
         thumb: './images/emperors-soul.jpg'
     },
     {
+        bookID: '00711BD9BC',
         title: 'Warbreaker',
         series: '',
         author: 'Brandon Sanderson',
@@ -618,6 +669,7 @@ let bookData = [
         thumb: './images/warbreaker.jpg'
     },
     {
+        bookID: '00A19C9644',
         title: 'The Final Empire',
         series: '',
         author: 'Brandon Sanderson',
@@ -630,6 +682,7 @@ let bookData = [
         thumb: './images/final-empire.jpg'
     },
     {
+        bookID: '00468088A0',
         title: 'The Well of Ascension',
         series: '',
         author: 'Brandon Sanderson',
@@ -642,6 +695,7 @@ let bookData = [
         thumb: './images/well-ascension.jpg',
     },
     {
+        bookID: '0054A49A6D',
         title: 'The Hero of Ages',
         series: '',
         author: 'Brandon Sanderson',
@@ -654,6 +708,7 @@ let bookData = [
         thumb: './images/hero-ages.jpg',
     },
     {
+        bookID: '00B8030703',
         title: 'The Eleventh Metal',
         series: '',
         author: 'Brandon Sanderson',
@@ -666,6 +721,7 @@ let bookData = [
         thumb: './images/eleventh-metal.jpg',
     },
     {
+        bookID: '00CE5B8516',
         title: 'Mistborn Secret History',
         series: '',
         author: 'Brandon Sanderson',
@@ -678,6 +734,7 @@ let bookData = [
         thumb: './images/mistborn-secret-history.jpg',
     },
     {
+        bookID: '00DB723708',
         title: 'Allomancer Jak and the Pits of Elantia',
         series: '',
         author: 'Brandon Sanderson',
@@ -690,6 +747,7 @@ let bookData = [
         thumb: './images/allomancer-jak.jpg',
     },
     {
+        bookID: '0075DC0EC3',
         title: 'The Alloy of Law',
         series: '',
         author: 'Brandon Sanderson',
@@ -702,6 +760,7 @@ let bookData = [
         thumb: './images/mistborn4.jpg',
     },
     {
+        bookID: '00C513D9EC',
         title: 'Shadows of Self',
         series: '',
         author: 'Brandon Sanderson',
@@ -714,6 +773,7 @@ let bookData = [
         thumb: './images/mistborn5.jpg',
     },
     {
+        bookID: '00A0F41D7B',
         title: 'Bands of Mourning',
         series: '',
         author: 'Brandon Sanderson',
@@ -726,6 +786,7 @@ let bookData = [
         thumb: './images/mistborn6.jpg',
     },
     {
+        bookID: '001A6462E6',
         title: 'The Way of Kings',
         series: '',
         author: 'Brandon Sanderson',
@@ -738,6 +799,7 @@ let bookData = [
         thumb: './images/stormlight1.jpg',
     },
     {
+        bookID: '00BE8A9D66',
         title: 'Words of Radiance',
         series: '',
         author: 'Brandon Sanderson',
@@ -750,6 +812,7 @@ let bookData = [
         thumb: './images/stormlight2.jpg',
     },
     {
+        bookID: '0017DCFCD0',
         title: 'Edgedancer',
         series: '',
         author: 'Brandon Sanderson',
@@ -762,6 +825,7 @@ let bookData = [
         thumb: './images/edgedancer.jpg',
     },
     {
+        bookID: '002490DFFC',
         title: 'White Sand, Volume 1',
         series: '',
         author: 'Brandon Sanderson',
@@ -774,6 +838,7 @@ let bookData = [
         thumb: './images/white-sand1.jpg',
     },
     {
+        bookID: '001627B6D4',
         title: 'White Sand, Volume 2',
         series: '',
         author: 'Brandon Sanderson',
@@ -786,6 +851,7 @@ let bookData = [
         thumb: './images/white-sand2.jpg',
     },
     {
+        bookID: '0027AA948E',
         title: 'Shadows for Silence in the Forests of Hell',
         series: '',
         author: 'Brandon Sanderson',
@@ -798,6 +864,7 @@ let bookData = [
         thumb: './images/shadows-for-silence.jpg',
     },
     {
+        bookID: '00E5350C99',
         title: 'Sixth of the Dusk',
         series: '',
         author: 'Brandon Sanderson',
@@ -810,6 +877,7 @@ let bookData = [
         thumb: './images/sixth-dusk.jpg',
     },
     {
+        bookID: '00F1D4ACA5',
         title: 'Steelheart',
         series: '',
         author: 'Brandon Sanderson',
@@ -822,6 +890,7 @@ let bookData = [
         thumb: './images/steelheart.jpg',
     },
     {
+        bookID: '006B253E68',
         title: 'The Rithmatist',
         series: '',
         author: 'Brandon Sanderson',
@@ -834,6 +903,7 @@ let bookData = [
         thumb: './images/rithmatist.jpg',
     },
     {
+        bookID: '002904C38C',
         title: 'Legion',
         series: '',
         author: 'Brandon Sanderson',
@@ -846,6 +916,7 @@ let bookData = [
         thumb: './images/legion1.jpg',
     },
     {
+        bookID: '00BD2B2AF2',
         title: 'Skin Deep',
         series: '',
         author: 'Brandon Sanderson',
@@ -858,6 +929,7 @@ let bookData = [
         thumb: './images/legion3.jpg',
     },
     {
+        bookID: '00943FD939',
         title: 'Lies of the Beholder',
         series: '',
         author: 'Brandon Sanderson',
@@ -870,6 +942,7 @@ let bookData = [
         thumb: './images/legion3.jpg',
     },
     {
+        bookID: '0038B5A18F',
         title: 'High Performance Habits',
         series: '',
         author: 'Brendon Burchard',
@@ -882,6 +955,7 @@ let bookData = [
         thumb: './images/high-performance.jpg',
     },
     {
+        bookID: '0056407841',
         title: 'The Rising',
         series: '',
         author: 'Brian Keene',
@@ -894,6 +968,7 @@ let bookData = [
         thumb: './images/rising.jpg',
     },
     {
+        bookID: '0006876077',
         title: 'Guardians of the Galaxy, Volume 1',
         series: '',
         author: 'Brian Michael Bendis',
@@ -906,6 +981,7 @@ let bookData = [
         thumb: './images/guardians1.jpg',
     },
     {
+        bookID: '0025B197AE',
         title: 'Guardians of the Galaxy, Volume 2',
         series: '',
         author: 'Brian Michael Bendis',
@@ -918,6 +994,7 @@ let bookData = [
         thumb: './images/guardians2.jpg',
     },
     {
+        bookID: '0067352EF0',
         title: 'Guardians of the Galaxy/All-New X-Men',
         series: '',
         author: 'Brian Michael Bendis',
@@ -930,6 +1007,7 @@ let bookData = [
         thumb: './images/guardians-xmen.jpg',
     },
     {
+        bookID: '00D584CE94',
         title: 'Eat That Frog!',
         series: '',
         author: 'Brian Tracy',
@@ -942,6 +1020,7 @@ let bookData = [
         thumb: './images/eat-frog.jpg',
     },
     {
+        bookID: '006404CF76',
         title: 'Slow',
         series: '',
         author: 'Brooke McAlary',
@@ -954,6 +1033,7 @@ let bookData = [
         thumb: './images/slow.jpg',
     },
     {
+        bookID: '00093FAD15',
         title: 'God Is in the Small Stuff',
         series: '',
         author: 'Bruce Bickel',
@@ -966,6 +1046,7 @@ let bookData = [
         thumb: './images/god-in-small-stuff.jpg',
     },
     {
+        bookID: '00279EB567',
         title: 'My Teacher is an Alien',
         series: '',
         author: 'Bruce Coville',
@@ -978,6 +1059,7 @@ let bookData = [
         thumb: './images/teacher-is-alien.jpg',
     },
     {
+        bookID: '00B2854E22',
         title: 'My Teacher Glows in the Dark',
         series: '',
         author: 'Bruce Coville',
@@ -990,6 +1072,7 @@ let bookData = [
         thumb: './images/teacher-is-alien3.jpg',
     },
     {
+        bookID: '00B2AFB6EB',
         title: 'Scott Pilgrim, Volume 1',
         series: '',
         author: "Bryan Lee O'Malley",
@@ -1002,6 +1085,7 @@ let bookData = [
         thumb: './images/scott-pilgrim1.jpg',
     },
     {
+        bookID: '00DBDE77B3',
         title: 'Scott Pilgrim, Volume 2',
         series: '',
         author: "Bryan Lee O'Malley",
@@ -1014,6 +1098,7 @@ let bookData = [
         thumb: './images/scott-pilgrim2.jpg',
     },
     {
+        bookID: '00A8B72FA4',
         title: 'Scott Pilgrim, Volume 3',
         series: '',
         author: "Bryan Lee O'Malley",
@@ -1026,6 +1111,7 @@ let bookData = [
         thumb: './images/scott-pilgrim3.jpg',
     },
     {
+        bookID: '00D213D96D',
         title: 'Scott Pilgrim, Volume 4',
         series: '',
         author: "Bryan Lee O'Malley",
@@ -1038,6 +1124,7 @@ let bookData = [
         thumb: './images/scott-pilgrim4.jpg',
     },
     {
+        bookID: '001411443A',
         title: 'Scott Pilgrim, Vol. 5',
         series: '',
         author: "Bryan Lee O'Malley",
@@ -1050,6 +1137,7 @@ let bookData = [
         thumb: './images/scott-pilgrim5.jpg',
     },
     {
+        bookID: '0046934520',
         title: 'Scott Pilgrim, Vol. 6',
         series: '',
         author: "Bryan Lee O'Malley",
@@ -1062,9 +1150,10 @@ let bookData = [
         thumb: './images/scott-pilgrim6.jpg',
     },
     /*===========================
-    	Author First Name - C's
+    Author First Name - C's
     ===========================*/
     {
+        bookID: '00B5143EB2',
         title: "The Magician's Nephew",
         series: '',
         author: 'C.S. Lewis',
@@ -1077,6 +1166,7 @@ let bookData = [
         thumb: './images/magician-nephew.jpg',
     },
     {
+        bookID: '00F391EB98',
         title: 'The Lion, the Witch and the Wardrobe',
         series: '',
         author: 'C.S. Lewis',
@@ -1089,6 +1179,7 @@ let bookData = [
         thumb: './images/lion-witch-wardrobe.jpg',
     },
     {
+        bookID: '0062133592',
         title: 'The Screwtape Letters',
         series: '',
         author: 'C.S. Lewis',
@@ -1101,6 +1192,7 @@ let bookData = [
         thumb: './images/screwtape-letters.jpg',
     },
     {
+        bookID: '005B2AFA0A',
         title: 'The Great Divorce',
         series: '',
         author: 'C.S. Lewis',
@@ -1113,6 +1205,7 @@ let bookData = [
         thumb: './images/great-divorce.jpg',
     },
     {
+        bookID: '004C87730B',
         title: 'The Year of Less',
         series: '',
         author: 'Cait Flanders',
@@ -1125,6 +1218,7 @@ let bookData = [
         thumb: './images/year-of-less.jpg',
     },
     {
+        bookID: '00BEDB27EB',
         title: 'Deep Work',
         series: '',
         author: 'Cal Newport',
@@ -1137,6 +1231,7 @@ let bookData = [
         thumb: './images/deep-work.jpg',
     },
     {
+        bookID: '007DC54D90',
         title: 'Digital Minimalism',
         series: '',
         author: 'Cal Newport',
@@ -1149,6 +1244,7 @@ let bookData = [
         thumb: './images/digital-minimalism.jpg',
     },
     {
+        bookID: '0089AF082C',
         title: "So Good They Can't Ignore You",
         series: '',
         author: 'Cal Newport',
@@ -1161,6 +1257,7 @@ let bookData = [
         thumb: './images/cant-ignore-you.jpg',
     },
     {
+        bookID: '0052B8696B',
         title: "A World Without Email",
         series: '',
         author: 'Cal Newport',
@@ -1173,6 +1270,7 @@ let bookData = [
         thumb: './images/without-email.jpg',
     },
     {
+        bookID: '0056833710',
         title: 'Seven Brief Lessons on Physics',
         series: '',
         author: 'Carlo Rovelli',
@@ -1185,6 +1283,7 @@ let bookData = [
         thumb: './images/seven-lessons.jpg',
     },
     {
+        bookID: '00256E94BC',
         title: 'How to Break Up with Your Phone',
         series: '',
         author: 'Catherine Price',
@@ -1197,6 +1296,7 @@ let bookData = [
         thumb: './images/break-up-phone.jpg',
     },
     {
+        bookID: '000A12B338',
         title: 'Dead Until Dark',
         series: '',
         author: 'Charlaine Harris',
@@ -1209,6 +1309,7 @@ let bookData = [
         thumb: './images/dead-until-dark.jpg',
     },
     {
+        bookID: '001BF7B337',
         title: 'The Power of Habit',
         series: '',
         author: 'Charles Duhigg',
@@ -1221,6 +1322,7 @@ let bookData = [
         thumb: './images/power-of-habit.jpg',
     },
     {
+        bookID: '004780F702',
         title: 'Python for Everybody',
         series: '',
         author: 'Charles Severance',
@@ -1233,6 +1335,7 @@ let bookData = [
         thumb: './images/py4e.jpg',
     },
     {
+        bookID: '0061946C3C',
         title: 'Naked Statistics',
         series: '',
         author: 'Charles Wheelan',
@@ -1245,6 +1348,7 @@ let bookData = [
         thumb: './images/naked-statistics.jpg',
     },
     {
+        bookID: '00CAD2AA05',
         title: 'The Yellow Wallpaper',
         series: '',
         author: 'Charlotte Perkins Gilman',
@@ -1257,6 +1361,7 @@ let bookData = [
         thumb: './images/yellow-wallpaper.jpg',
     },
     {
+        bookID: '00F894914D',
         title: 'We Should All Be Feminists',
         series: '',
         author: 'Chimamanda Ngozi Adichie',
@@ -1269,6 +1374,7 @@ let bookData = [
         thumb: './images/should-be-feminist.jpg',
     },
     {
+        bookID: '00F8A0F883',
         title: 'Dear Ijeawele',
         series: '',
         author: 'Chimamanda Ngozi Adichie',
@@ -1281,6 +1387,7 @@ let bookData = [
         thumb: './images/ijeawele.jpg',
     },
     {
+        bookID: '0023E17012',
         title: 'Things Fall Apart',
         series: '',
         author: 'Chinua Achebe',
@@ -1293,6 +1400,7 @@ let bookData = [
         thumb: './images/things-fall-apart.jpg',
     },
     {
+        bookID: '009280EB2D',
         title: 'Struck By Lightning',
         series: '',
         author: 'Chris Colfer',
@@ -1305,6 +1413,7 @@ let bookData = [
         thumb: './images/struck-by-lightning.jpg',
     },
     {
+        bookID: '00DE3F805E',
         title: 'The Nerdist Way',
         series: '',
         author: 'Chris Hardwick',
@@ -1317,6 +1426,7 @@ let bookData = [
         thumb: './images/nerdist-way.jpg',
     },
     {
+        bookID: '00ED594DAD',
         title: 'Retire Inspired',
         series: '',
         author: 'Chris Hogan',
@@ -1329,6 +1439,7 @@ let bookData = [
         thumb: './images/retire-inspired.jpg',
     },
     {
+        bookID: '0066162A93',
         title: "The Gamer's Bucket List",
         series: '',
         author: 'Chris Watters',
@@ -1341,6 +1452,7 @@ let bookData = [
         thumb: './images/gamer-bucket.jpg',
     },
     {
+        bookID: '000776FC77',
         title: 'Maze',
         series: '',
         author: 'Christopher Manson',
@@ -1353,6 +1465,7 @@ let bookData = [
         thumb: './images/maze.jpg',
     },
     {
+        bookID: '00F64390C8',
         title: 'A Dirty Job',
         series: '',
         author: 'Christopher Moore',
@@ -1365,6 +1478,7 @@ let bookData = [
         thumb: './images/dirty-job.jpg',
     },
     {
+        bookID: '0048D8A909',
         title: 'Fight Club',
         series: '',
         author: 'Chuck Palahniuk',
@@ -1377,6 +1491,7 @@ let bookData = [
         thumb: './images/fight-club.jpg',
     },
     {
+        bookID: '00F26D966B',
         title: 'Fight Club 2',
         series: '',
         author: 'Chuck Palahniuk',
@@ -1389,6 +1504,7 @@ let bookData = [
         thumb: './images/fight-club2.jpg',
     },
     {
+        bookID: '00BE287023',
         title: 'Choke',
         series: '',
         author: 'Chuck Palahniuk',
@@ -1401,6 +1517,7 @@ let bookData = [
         thumb: './images/choke.jpg',
     },
     {
+        bookID: '0026A09362',
         title: 'Science Hacks',
         series: '',
         author: 'Colin Barras',
@@ -1413,6 +1530,7 @@ let bookData = [
         thumb: './images/science-hacks.jpg',
     },
     {
+        bookID: '00FF6ACB5D',
         title: 'Verity',
         series: '',
         author: 'Colleen Harris',
@@ -1425,6 +1543,7 @@ let bookData = [
         thumb: './images/verity.jpg',
     },
     {
+        bookID: '00021F6FC1',
         title: 'Project 333',
         series: '',
         author: 'Courtney Carver',
@@ -1437,6 +1556,7 @@ let bookData = [
         thumb: './images/project333.jpg',
     },
     {
+        bookID: '0043CFBD51',
         title: 'Night of the Living Deadpool',
         series: '',
         author: 'Cullen Bunn',
@@ -1449,6 +1569,7 @@ let bookData = [
         thumb: './images/night-of-deadpool.jpg',
     },
     {
+        bookID: '00A35011E4',
         title: 'Return of the Living Deadpool',
         series: '',
         author: 'Cullen Bunn',
@@ -1461,9 +1582,10 @@ let bookData = [
         thumb: './images/return-of-deadpool.jpg',
     },
     /*===========================
-    	Author First Name - D's
+    Author First Name - D's
     ===========================*/
     {
+        bookID: '000D8C431E',
         title: 'The God Who Is There',
         series: '',
         author: 'D.A. Carson',
@@ -1476,6 +1598,7 @@ let bookData = [
         thumb: './images/god-who-is-there.jpg',
     },
     {
+        bookID: '0009EA59B7',
         title: 'Angels & Demons',
         series: '',
         author: 'Dan Brown',
@@ -1488,6 +1611,7 @@ let bookData = [
         thumb: './images/angels-and-demons.jpg',
     },
     {
+        bookID: '00586F650E',
         title: 'The Da Vinci Code',
         series: '',
         author: 'Dan Brown',
@@ -1500,6 +1624,7 @@ let bookData = [
         thumb: './images/da-vinci-code.jpg',
     },
     {
+        bookID: '00343F1B69',
         title: 'The Lost Symbol',
         series: '',
         author: 'Dan Brown',
@@ -1512,6 +1637,7 @@ let bookData = [
         thumb: './images/lost-symbol.jpg',
     },
     {
+        bookID: '00DD477977',
         title: 'Inferno',
         series: '',
         author: 'Dan Brown',
@@ -1524,6 +1650,7 @@ let bookData = [
         thumb: './images/inferno.jpg',
     },
     {
+        bookID: '005FCFCDA9',
         title: 'The Kid Who Ran for President',
         series: '',
         author: 'Dan Gutman',
@@ -1536,6 +1663,7 @@ let bookData = [
         thumb: './images/kid-president.jpg',
     },
     {
+        bookID: '0030616918',
         title: 'The Little Book of Talent',
         series: '',
         author: 'Daniel Coyle',
@@ -1548,6 +1676,7 @@ let bookData = [
         thumb: './images/little-book-talent.jpg',
     },
     {
+        bookID: '0023C6DD7C',
         title: 'Minecraft',
         series: '',
         author: 'Daniel Goldberg',
@@ -1560,6 +1689,7 @@ let bookData = [
         thumb: './images/minecraft.jpg',
     },
     {
+        bookID: '00BBB5122B',
         title: 'Drive',
         series: '',
         author: 'Daniel H. Pink',
@@ -1572,6 +1702,7 @@ let bookData = [
         thumb: './images/drive.jpg',
     },
     {
+        bookID: '00E06BDF91',
         title: 'Flowers for Algernon',
         series: '',
         author: 'Daniel Keyes',
@@ -1584,6 +1715,7 @@ let bookData = [
         thumb: './images/algernon.jpg',
     },
     {
+        bookID: '00A2EF12AA',
         title: 'World of Warcraft',
         series: '',
         author: 'Daniel Lisi',
@@ -1596,6 +1728,7 @@ let bookData = [
         thumb: './images/wow.jpg',
     },
     {
+        bookID: '00B8AE0F36',
         title: 'The Inferno',
         series: '',
         author: 'Dante Alighieri',
@@ -1608,6 +1741,7 @@ let bookData = [
         thumb: './images/the-inferno.jpg',
     },
     {
+        bookID: '00E1B99951',
         title: 'The Adventures of Captain Underpants',
         series: '',
         author: 'Dav Pilkey',
@@ -1620,6 +1754,7 @@ let bookData = [
         thumb: './images/captain-underpants.jpg',
     },
     {
+        bookID: '005D92D0B4',
         title: 'The Circle',
         series: '',
         author: 'Dave Eggers',
@@ -1632,6 +1767,7 @@ let bookData = [
         thumb: './images/circle.jpg',
     },
     {
+        bookID: '00A0AB08BF',
         title: 'The Money Answer Book',
         series: '',
         author: 'Dave Ramsey',
@@ -1644,6 +1780,7 @@ let bookData = [
         thumb: './images/money-answer.jpg',
     },
     {
+        bookID: '00B5FD2BFF',
         title: 'The Total Money Makeover',
         series: '',
         author: 'Dave Ramsey',
@@ -1656,6 +1793,7 @@ let bookData = [
         thumb: './images/tmm.jpg',
     },
     {
+        bookID: '001C5A82C2',
         title: "Dave Ramsey's Complete Guide to Money",
         series: '',
         author: 'Dave Ramsey',
@@ -1668,6 +1806,7 @@ let bookData = [
         thumb: './images/guide-to-money.jpg',
     },
     {
+        bookID: '006B1E70C7',
         title: 'The Caretaker of Lorne Field',
         series: '',
         author: 'Dave Zeltserman',
@@ -1680,6 +1819,7 @@ let bookData = [
         thumb: './images/lorne.jpg',
     },
     {
+        bookID: '002987B670',
         title: 'The Soccer Book',
         series: '',
         author: 'David Goldblatt',
@@ -1692,6 +1832,7 @@ let bookData = [
         thumb: './images/soccer.jpg',
     },
     {
+        bookID: '009A2F7CB6',
         title: 'Jacked',
         series: '',
         author: 'David Kushner',
@@ -1704,6 +1845,7 @@ let bookData = [
         thumb: './images/jacked.jpg',
     },
     {
+        bookID: '009244775D',
         title: 'Rise of the Dungeon Master',
         series: '',
         author: 'David Kushner',
@@ -1716,6 +1858,7 @@ let bookData = [
         thumb: './images/rise-of-dm.jpg',
     },
     {
+        bookID: '00121551AD',
         title: 'Every Day',
         series: '',
         author: 'David Levithan',
@@ -1728,6 +1871,7 @@ let bookData = [
         thumb: './images/every-day.jpg',
     },
     {
+        bookID: '003FE40237',
         title: 'Another Day',
         series: '',
         author: 'David Levithan',
@@ -1740,6 +1884,7 @@ let bookData = [
         thumb: './images/another-day.jpg',
     },
     {
+        bookID: '003E8AF481',
         title: 'Slade House',
         series: '',
         author: 'David Mitchell',
@@ -1752,6 +1897,7 @@ let bookData = [
         thumb: './images/slade-house.jpg',
     },
     {
+        bookID: '007D5CF3CB',
         title: 'Drink?',
         series: '',
         author: 'David Nutt',
@@ -1764,6 +1910,7 @@ let bookData = [
         thumb: './images/drink.jpg',
     },
     {
+        bookID: '000D95C8D6',
         title: 'Radical',
         series: '',
         author: 'David Platt',
@@ -1776,6 +1923,7 @@ let bookData = [
         thumb: './images/radical.jpg',
     },
     {
+        bookID: '000308531B',
         title: 'Follow Me',
         series: '',
         author: 'David Platt',
@@ -1788,6 +1936,7 @@ let bookData = [
         thumb: './images/follow-me.jpg',
     },
     {
+        bookID: '0006A8D917',
         title: 'The Revenge of Analog',
         series: '',
         author: 'David Sax',
@@ -1800,6 +1949,7 @@ let bookData = [
         thumb: './images/analog.jpg',
     },
     {
+        bookID: '00F07937D2',
         title: 'Whispers',
         series: '',
         author: 'Dean Koontz',
@@ -1812,6 +1962,7 @@ let bookData = [
         thumb: './images/whispers.jpg',
     },
     {
+        bookID: '00782EC3A1',
         title: "Santa Claus Doesn't Mop Floors",
         series: '',
         author: 'Debbie Dadey',
@@ -1824,6 +1975,7 @@ let bookData = [
         thumb: './images/santa.jpg',
     },
     {
+        bookID: '0030CDE900',
         title: "Werewolves Don't Go to Summer Camp",
         series: '',
         author: 'Debbie Dadey',
@@ -1836,6 +1988,7 @@ let bookData = [
         thumb: './images/werewolves.jpg',
     },
     {
+        bookID: '0007793EAC',
         title: 'A Discovery of Witches',
         series: '',
         author: 'Deborah Harkness',
@@ -1848,6 +2001,7 @@ let bookData = [
         thumb: './images/discovery-witches.jpg',
     },
     {
+        bookID: '00EA948439',
         title: 'Spelunky',
         series: '',
         author: 'Derek Yu',
@@ -1860,6 +2014,7 @@ let bookData = [
         thumb: './images/spelunky.jpg',
     },
     {
+        bookID: '003B90676B',
         title: 'Virtual Vandals',
         series: '',
         author: 'Diane Duane',
@@ -1872,6 +2027,7 @@ let bookData = [
         thumb: './images/virtual-vandals.jpg',
     },
     {
+        bookID: '00CB6A816A',
         title: 'Eat This And Live',
         series: '',
         author: 'Don Colbert',
@@ -1884,6 +2040,7 @@ let bookData = [
         thumb: './images/eat-this.jpg',
     },
     {
+        bookID: '006C4B513C',
         title: 'Because the Internet',
         series: '',
         author: 'Donald Glover',
@@ -1896,6 +2053,7 @@ let bookData = [
         thumb: './images/because-the-internet.jpg',
     },
     {
+        bookID: '000A1FA8D9',
         title: 'A Million Miles in a Thousand Years',
         series: '',
         author: 'Donald Miller',
@@ -1908,6 +2066,7 @@ let bookData = [
         thumb: './images/million-miles.jpg',
     },
     {
+        bookID: '0027BE85F3',
         title: 'Encyclopedia Brown Takes the Cake!',
         series: '',
         author: 'Donald Sobol',
@@ -1920,6 +2079,7 @@ let bookData = [
         thumb: './images/encyclopedia-brown.jpg',
     },
     {
+        bookID: '00859A4EBD',
         title: 'Encyclopedia Brown and the Case of the Disgusting Sneakers',
         series: '',
         author: 'Donald Sobol',
@@ -1932,6 +2092,7 @@ let bookData = [
         thumb: './images/encyclopedia-brown-sneakers.jpg',
     },
     {
+        bookID: '00E7A46FF5',
         title: "The Hitchhiker's Guide to the Galaxy",
         series: '',
         author: 'Douglas Adams',
@@ -1944,6 +2105,7 @@ let bookData = [
         thumb: './images/hitchhiker.jpg',
     },
     {
+        bookID: '002C43E496',
         title: 'The Restaurant at the End of the Universe',
         series: '',
         author: 'Douglas Adams',
@@ -1956,6 +2118,7 @@ let bookData = [
         thumb: './images/restaurant-end-universe.jpg',
     },
     {
+        bookID: '00522EDE64',
         title: 'The 30-Minute Runner',
         series: '',
         author: 'Duncan Larkin',
@@ -1968,6 +2131,7 @@ let bookData = [
         thumb: './images/thirty-minute-runner.jpg',
     },
     {
+        bookID: '00E4A23E60',
         title: 'Game On!',
         series: '',
         author: 'Dustin Hansen',
@@ -1980,9 +2144,10 @@ let bookData = [
         thumb: './images/game-on.jpg',
     },
     /*===========================
-    	Author First Name - E's
+    Author First Name - E's
     ===========================*/
     {
+        bookID: '002CF0183F',
         title: 'We Were Liars',
         series: '',
         author: 'E. Lockhart',
@@ -1995,6 +2160,7 @@ let bookData = [
         thumb: './images/we-were-liars.jpg',
     },
     {
+        bookID: '00253311FB',
         title: "Charlotte's Web",
         series: '',
         author: 'E.B. White',
@@ -2007,6 +2173,7 @@ let bookData = [
         thumb: './images/charlottes-web.jpg',
     },
     {
+        bookID: '00407D31CF',
         title: 'Creativity, Inc.',
         series: '',
         author: 'Ed Catmull',
@@ -2019,6 +2186,7 @@ let bookData = [
         thumb: './images/creativity.jpg',
     },
     {
+        bookID: '00BCE4904C',
         title: 'iPoe Vol. 1',
         series: '',
         author: 'Edgar Allen Poe',
@@ -2031,6 +2199,7 @@ let bookData = [
         thumb: './images/ipoe1.jpg',
     },
     {
+        bookID: '0047529E09',
         title: 'Meddling Kids',
         series: '',
         author: 'Edgar Cantaro',
@@ -2043,6 +2212,7 @@ let bookData = [
         thumb: './images/meddling.jpg',
     },
     {
+        bookID: '0087DF26DE',
         title: 'Tarzan of the Apes',
         series: '',
         author: 'Edgar Rice Burroughs',
@@ -2055,6 +2225,7 @@ let bookData = [
         thumb: './images/tarzan.jpg',
     },
     {
+        bookID: '006D9F23F7',
         title: 'Night',
         series: '',
         author: 'Elie Wiesel',
@@ -2067,6 +2238,7 @@ let bookData = [
         thumb: './images/night.jpg',
     },
     {
+        bookID: '00CB01BC9F',
         title: 'The Happiness Hack',
         series: '',
         author: 'Ellen Petry Leanse',
@@ -2079,6 +2251,7 @@ let bookData = [
         thumb: './images/happiness-hack.jpg',
     },
     {
+        bookID: '002128B904',
         title: '10,000 Things You Need to Know',
         series: '',
         author: 'Elspeth Beidas',
@@ -2091,6 +2264,7 @@ let bookData = [
         thumb: './images/ten-thousand-things.jpg',
     },
     {
+        bookID: '0024B302F0',
         title: 'Wuthering Heights',
         series: '',
         author: 'Emily Brontë',
@@ -2103,6 +2277,7 @@ let bookData = [
         thumb: './images/wuthering.jpg',
     },
     {
+        bookID: '00EBC1ED7A',
         title: 'The Forests of Silence',
         series: '',
         author: 'Emily Rodda',
@@ -2115,6 +2290,7 @@ let bookData = [
         thumb: './images/forests-of-silence.jpg',
     },
     {
+        bookID: '00B0BFA9C4',
         title: 'Artemis Fowl',
         series: '',
         author: 'Eoin Colfer',
@@ -2127,6 +2303,7 @@ let bookData = [
         thumb: './images/artemis-fowl1.jpg',
     },
     {
+        bookID: '00B6FDDD42',
         title: 'The Arctic Incident',
         series: '',
         author: 'Eoin Colfer',
@@ -2139,6 +2316,7 @@ let bookData = [
         thumb: './images/artemis-fowl2.jpg',
     },
     {
+        bookID: '0080268DEE',
         title: 'The Eternity Code',
         series: '',
         author: 'Eoin Colfer',
@@ -2151,6 +2329,7 @@ let bookData = [
         thumb: './images/artemis-fowl3.jpg',
     },
     {
+        bookID: '00403BE04E',
         title: 'The Opal Deception',
         series: '',
         author: 'Eoin Colfer',
@@ -2163,6 +2342,7 @@ let bookData = [
         thumb: './images/artemis-fowl4.jpg',
     },
     {
+        bookID: '008A313433',
         title: 'The Lost Colony',
         series: '',
         author: 'Eoin Colfer',
@@ -2175,6 +2355,7 @@ let bookData = [
         thumb: './images/artemis-fowl5.jpg',
     },
     {
+        bookID: '0040036656',
         title: 'The Time Paradox',
         series: '',
         author: 'Eoin Colfer',
@@ -2187,6 +2368,7 @@ let bookData = [
         thumb: './images/artemis-fowl6.jpg',
     },
     {
+        bookID: '000348261F',
         title: 'The Atlantis Complex',
         series: '',
         author: 'Eoin Colfer',
@@ -2199,6 +2381,7 @@ let bookData = [
         thumb: './images/artemis-fowl7.jpg',
     },
     {
+        bookID: '001A3BB896',
         title: 'The Last Guardian',
         series: '',
         author: 'Eoin Colfer',
@@ -2211,6 +2394,7 @@ let bookData = [
         thumb: './images/artemis-fowl8.jpg',
     },
     {
+        bookID: '00A4D803BB',
         title: 'Ready Player One',
         series: '',
         author: 'Ernest Cline',
@@ -2223,6 +2407,7 @@ let bookData = [
         thumb: './images/rp1.jpg',
     },
     {
+        bookID: '000D5291A2',
         title: 'Ready Player Two',
         series: '',
         author: 'Ernest Cline',
@@ -2235,9 +2420,10 @@ let bookData = [
         thumb: './images/rp2.jpg',
     },
     /*===========================
-    	Author First Name - F's
+    Author First Name - F's
     ===========================*/
     {
+        bookID: '0011955E40',
         title: 'The Great Gatsby',
         series: '',
         author: 'F. Scott Fitzgerald',
@@ -2250,6 +2436,7 @@ let bookData = [
         thumb: './images/great-gatsby.jpg',
     },
     {
+        bookID: '00301FC038',
         title: 'The Ultimate Guide to Video Game Writing and Design',
         series: '',
         author: 'Flint Dille',
@@ -2262,6 +2449,7 @@ let bookData = [
         thumb: './images/ultimate-guide-vgs.jpg',
     },
     {
+        bookID: '009FBAB244',
         title: 'The Father Heart of God',
         series: '',
         author: 'Floyd McClung',
@@ -2274,6 +2462,7 @@ let bookData = [
         thumb: './images/father-heart.jpg',
     },
     {
+        bookID: '0000834942',
         title: 'Living the Martial Way',
         series: '',
         author: 'Forrest E. Morgan',
@@ -2286,6 +2475,7 @@ let bookData = [
         thumb: './images/living-martial-way.jpg',
     },
     {
+        bookID: '0080BD0E2E',
         title: 'Letters to the Church',
         series: '',
         author: 'Francis Chan',
@@ -2298,6 +2488,20 @@ let bookData = [
         thumb: './images/letters-church.jpg',
     },
     {
+        bookID: '00629EBFB1',
+        title: 'Crazy Love',
+        series: '',
+        author: 'Francis Chan',
+        authorLast: 'Chan, Francis',
+        myRating: 9,
+        pages: 187,
+        wordCount: 45373,
+        pubDate: 2008,
+        yearRead: [2022],
+        thumb: './images/crazy-love.jpg',
+    },
+    {
+        bookID: '0060A9435B',
         title: 'Erasing Hell',
         series: '',
         author: 'Francis Chan',
@@ -2310,6 +2514,7 @@ let bookData = [
         thumb: './images/erasing-hell.jpg',
     },
     {
+        bookID: '004161BE4B',
         title: 'Goodbye, Things',
         series: '',
         author: 'Fumio Sasaki',
@@ -2322,9 +2527,10 @@ let bookData = [
         thumb: './images/goodbye-things.jpg',
     },
     /*===========================
-    	Author First Name - G's
+    Author First Name - G's
     ===========================*/
     {
+        bookID: '002824ADEA',
         title: 'The Best American Infographics 2013',
         series: '',
         author: 'Gareth Cook',
@@ -2337,6 +2543,7 @@ let bookData = [
         thumb: './images/infographics-2013.jpg',
     },
     {
+        bookID: '00402CC287',
         title: 'Be Prepared',
         series: '',
         author: 'Gary Greenberg',
@@ -2349,6 +2556,7 @@ let bookData = [
         thumb: './images/be-prepared.jpg',
     },
     {
+        bookID: '00D829E97B',
         title: 'The One Thing',
         series: '',
         author: 'Gary Keller',
@@ -2361,6 +2569,7 @@ let bookData = [
         thumb: './images/one-thing.jpg',
     },
     {
+        bookID: '0049CCD2CA',
         title: 'Hatchet',
         series: '',
         author: 'Gary Paulsen',
@@ -2373,6 +2582,7 @@ let bookData = [
         thumb: './images/hatchet.jpg',
     },
     {
+        bookID: '005F4B0772',
         title: 'The River',
         series: '',
         author: 'Gary Paulsen',
@@ -2385,6 +2595,7 @@ let bookData = [
         thumb: './images/river.jpg',
     },
     {
+        bookID: '002645A918',
         title: "Brian's Winter",
         series: '',
         author: 'Gary Paulsen',
@@ -2397,6 +2608,7 @@ let bookData = [
         thumb: './images/brians-winter.jpg',
     },
     {
+        bookID: '0082C81C42',
         title: 'The Case Against Sugar',
         series: '',
         author: 'Gary Taubes',
@@ -2409,6 +2621,7 @@ let bookData = [
         thumb: './images/case-against-sugar.jpg',
     },
     {
+        bookID: '0076075560',
         title: 'Forks Over Knives',
         series: '',
         author: 'Gene Stone',
@@ -2421,6 +2634,7 @@ let bookData = [
         thumb: './images/forks-over-knives.jpg',
     },
     {
+        bookID: '004B62337C',
         title: 'Animal Farm',
         series: '',
         author: 'George Orwell',
@@ -2433,6 +2647,7 @@ let bookData = [
         thumb: './images/animal-farm.jpg',
     },
     {
+        bookID: '0089878A66',
         title: 'Horrorstör',
         series: '',
         author: 'Grady Hendrix',
@@ -2445,6 +2660,7 @@ let bookData = [
         thumb: './images/horrorstor.jpg',
     },
     {
+        bookID: '00F3C00117',
         title: "My Best Friend's Exorcism",
         series: '',
         author: 'Grady Hendrix',
@@ -2457,6 +2673,7 @@ let bookData = [
         thumb: './images/bfs-exorcism.jpg',
     },
     {
+        bookID: '0007060AB1',
         title: "The Southern Book Club's Guide to Slaying Vampires",
         series: '',
         author: 'Grady Hendrix',
@@ -2469,6 +2686,7 @@ let bookData = [
         thumb: './images/southern-book-club.jpg',
     },
     {
+        bookID: '00CDBAE78F',
         title: 'Essentialism',
         series: '',
         author: 'Greg McKeown',
@@ -2481,6 +2699,7 @@ let bookData = [
         thumb: './images/essentialism.jpg',
     },
     {
+        bookID: '0060C6E7AA',
         title: 'Effortless',
         series: '',
         author: 'Greg McKeown',
@@ -2493,9 +2712,10 @@ let bookData = [
         thumb: './images/effortless.jpg',
     },
     /*===========================
-    	Author First Name - H's
+    Author First Name - H's
     ===========================*/
     {
+        bookID: '007A401E8E',
         title: 'The Miracle Morning',
         series: '',
         author: 'Hal Elrod',
@@ -2508,6 +2728,7 @@ let bookData = [
         thumb: './images/miracle-morning.jpg',
     },
     {
+        bookID: '00EB848898',
         title: 'An Absolutely Remarkable Thing',
         series: '',
         author: 'Hank Green',
@@ -2520,6 +2741,7 @@ let bookData = [
         thumb: './images/remarkable1.jpg',
     },
     {
+        bookID: '00BDDB1689',
         title: 'A Beautifully Foolish Endeavor',
         series: '',
         author: 'Hank Green',
@@ -2532,6 +2754,20 @@ let bookData = [
         thumb: './images/remarkable2.jpg',
     },
     {
+        bookID: '004A86AD9A',
+        title: 'The Little Mermaid',
+        series: '',
+        author: 'Hans Christian Andersen',
+        authorLast: 'Andersen, Hans Christian',
+        myRating: 7,
+        pages: 48,
+        wordCount: 29491,
+        pubDate: 1836,
+        yearRead: [2022],
+        thumb: './images/little-mermaid.jpg',
+    },
+    {
+        bookID: '001FBB662A',
         title: 'To Kill a Mockingbird',
         series: '',
         author: 'Harper Lee',
@@ -2544,6 +2780,7 @@ let bookData = [
         thumb: './images/mockingbird.jpg',
     },
     {
+        bookID: '00B3EAE03A',
         title: 'The Index Card',
         series: '',
         author: 'Helaine Olen',
@@ -2556,6 +2793,7 @@ let bookData = [
         thumb: './images/index-card.jpg',
     },
     {
+        bookID: '00DB59DD3D',
         title: 'Anguish Languish',
         series: '',
         author: 'Howard Chase',
@@ -2568,6 +2806,7 @@ let bookData = [
         thumb: './images/anguish-languish.jpg',
     },
     {
+        bookID: '00C77E0877',
         title: 'Navigating Genesis',
         series: '',
         author: 'Hugh Ross',
@@ -2580,9 +2819,10 @@ let bookData = [
         thumb: './images/nav-genesis.jpg',
     },
     /*===========================
-    	Author First Name - I's
+    Author First Name - I's
     ===========================*/
     {
+        bookID: '00D3058800',
         title: 'Laws of the Game 21/22',
         series: '',
         author: 'I.F.A.B.',
@@ -2595,6 +2835,7 @@ let bookData = [
         thumb: './images/laws-game-22.jpg',
     },
     {
+        bookID: '00CC4E1890',
         title: 'The Road Back to You',
         series: '',
         author: 'Ian Morgan Cron',
@@ -2607,6 +2848,7 @@ let bookData = [
         thumb: './images/road-back.jpg',
     },
     {
+        bookID: '008CDAC11D',
         title: 'Insight Guides: China',
         series: '',
         author: 'Insight Guides',
@@ -2619,6 +2861,7 @@ let bookData = [
         thumb: './images/insight-china.jpg',
     },
     {
+        bookID: '00D01604DF',
         title: 'Warm Bodies',
         series: '',
         author: 'Isaac Marion',
@@ -2631,6 +2874,7 @@ let bookData = [
         thumb: './images/warm-bodies.jpg',
     },
     {
+        bookID: '0091339B25',
         title: 'The New Hunger',
         series: '',
         author: 'Isaac Marion',
@@ -2643,6 +2887,7 @@ let bookData = [
         thumb: './images/new-hunger.jpg',
     },
     {
+        bookID: '007715799B',
         title: 'The Burning World',
         series: '',
         author: 'Isaac Marion',
@@ -2655,9 +2900,10 @@ let bookData = [
         thumb: './images/burning-world.jpg',
     },
     /*===========================
-    	Author First Name - J's
+    Author First Name - J's
     ===========================*/
     {
+        bookID: '0012C24007',
         title: 'Very Good Lives',
         series: '',
         author: 'J.K. Rowling',
@@ -2670,6 +2916,7 @@ let bookData = [
         thumb: './images/very-good-lives.jpg',
     },
     {
+        bookID: '001E090458',
         title: "Harry Potter and the Sorcerer's Stone",
         series: '',
         author: 'J.K. Rowling',
@@ -2682,6 +2929,7 @@ let bookData = [
         thumb: './images/hp1.jpg',
     },
     {
+        bookID: '00C27B1334',
         title: 'Harry Potter and the Chamber of Secrets',
         series: '',
         author: 'J.K. Rowling',
@@ -2694,6 +2942,7 @@ let bookData = [
         thumb: './images/hp2.jpg',
     },
     {
+        bookID: '000A0EA587',
         title: 'Harry Potter and the Prisoner of Azkaban',
         series: '',
         author: 'J.K. Rowling',
@@ -2706,6 +2955,7 @@ let bookData = [
         thumb: './images/hp3.jpg',
     },
     {
+        bookID: '004D7DAD49',
         title: 'Harry Potter and the Goblet of Fire',
         series: '',
         author: 'J.K. Rowling',
@@ -2718,6 +2968,7 @@ let bookData = [
         thumb: './images/hp4.jpg',
     },
     {
+        bookID: '00BE8DFD2F',
         title: 'Harry Potter and the Order of the Phoenix',
         series: '',
         author: 'J.K. Rowling',
@@ -2730,6 +2981,7 @@ let bookData = [
         thumb: './images/hp5.jpg',
     },
     {
+        bookID: '00CE890734',
         title: 'Harry Potter and the Half-Blood Prince',
         series: '',
         author: 'J.K. Rowling',
@@ -2742,6 +2994,7 @@ let bookData = [
         thumb: './images/hp6.jpg',
     },
     {
+        bookID: '009EFA84E7',
         title: 'Harry Potter and the Deathly Hallows',
         series: '',
         author: 'J.K. Rowling',
@@ -2754,6 +3007,7 @@ let bookData = [
         thumb: './images/hp7.jpg',
     },
     {
+        bookID: '00987861BB',
         title: 'Short Stories from Hogwarts of Heroism, Hardship and Dangerous Hobbies',
         series: '',
         author: 'J.K. Rowling',
@@ -2766,6 +3020,7 @@ let bookData = [
         thumb: './images/hogwarts-hero.jpg',
     },
     {
+        bookID: '00E4B98F64',
         title: 'Short Stories from Hogwarts of Power, Politics and Pesky Poltergeists',
         series: '',
         author: 'J.K. Rowling',
@@ -2778,6 +3033,7 @@ let bookData = [
         thumb: './images/hogwarts-power.jpg',
     },
     {
+        bookID: '00210BC82A',
         title: 'Hogwarts: An Incomplete and Unreliable Guide',
         series: '',
         author: 'J.K. Rowling',
@@ -2790,6 +3046,7 @@ let bookData = [
         thumb: './images/hogwarts.jpg',
     },
     {
+        bookID: '00BFDCFF34',
         title: 'The Tales of Beedle the Bard',
         series: '',
         author: 'J.K. Rowling',
@@ -2802,6 +3059,7 @@ let bookData = [
         thumb: './images/beedle.jpg',
     },
     {
+        bookID: '00841837AA',
         title: 'Fantastic Beasts and Where to Find Them: The Original Screenplay',
         series: '',
         author: 'J.K. Rowling',
@@ -2814,6 +3072,7 @@ let bookData = [
         thumb: './images/fantastic-beasts-screenplay.jpg',
     },
     {
+        bookID: '007EFEE5C4',
         title: 'Fantastic Beasts and Where to Find Them',
         series: '',
         author: 'J.K. Rowling (Newt Scamander)',
@@ -2826,6 +3085,7 @@ let bookData = [
         thumb: './images/fantastic-beasts.jpg',
     },
     {
+        bookID: '007468C6C5',
         title: 'Quidditch Through the Ages',
         series: '',
         author: 'J.K. Rowling (Kennilworthy Whisp)',
@@ -2838,6 +3098,7 @@ let bookData = [
         thumb: './images/quidditch.jpg',
     },
     {
+        bookID: '00969986EA',
         title: 'The Christmas Pig',
         series: '',
         author: 'J.K. Rowling',
@@ -2850,6 +3111,7 @@ let bookData = [
         thumb: './images/christmas-pig.jpg',
     },
     {
+        bookID: '006A5B5C70',
         title: "The Cuckoo's Calling",
         series: '',
         author: 'J.K. Rowling (Robert Galbraith)',
@@ -2862,6 +3124,7 @@ let bookData = [
         thumb: './images/cb-strike.jpg',
     },
     {
+        bookID: '00C5FA6901',
         title: 'The Hobbit',
         series: '',
         author: 'J.R.R. Tolkien',
@@ -2874,6 +3137,7 @@ let bookData = [
         thumb: './images/hobbit.jpg',
     },
     {
+        bookID: '003DD8CC09',
         title: 'The Fellowship of the Ring',
         series: '',
         author: 'J.R.R. Tolkien',
@@ -2886,6 +3150,7 @@ let bookData = [
         thumb: './images/lotr1.jpg',
     },
     {
+        bookID: '00CEA6737F',
         title: 'Surprised by the Power of the Spirit',
         series: '',
         author: 'Jack Deere',
@@ -2898,6 +3163,7 @@ let bookData = [
         thumb: './images/surprised-by-power.jpg',
     },
     {
+        bookID: '00F2F16CF3',
         title: 'Vegan for Life',
         series: '',
         author: 'Jack Norris',
@@ -2910,6 +3176,7 @@ let bookData = [
         thumb: './images/vegan-for-life.jpg',
     },
     {
+        bookID: '00D5F041C9',
         title: 'Chasing the Dragon',
         series: '',
         author: 'Jackie Pullinger',
@@ -2922,6 +3189,7 @@ let bookData = [
         thumb: './images/chasing-the-dragon.jpg',
     },
     {
+        bookID: '0083647C8F',
         title: 'Atomic Habits',
         series: '',
         author: 'James Clear',
@@ -2934,6 +3202,7 @@ let bookData = [
         thumb: './images/atomic-habits.jpg',
     },
     {
+        bookID: '00A6E12BB1',
         title: 'The Maze Runner',
         series: '',
         author: 'James Dashner',
@@ -2946,6 +3215,7 @@ let bookData = [
         thumb: './images/maze-runner.jpg',
     },
     {
+        bookID: '009CE9E430',
         title: "America's History, For the AP Course",
         series: '',
         author: 'James Henretta',
@@ -2958,6 +3228,7 @@ let bookData = [
         thumb: './images/ap-history.jpg',
     },
     {
+        bookID: '0067A8ABB3',
         title: 'Return to Howliday Inn',
         series: '',
         author: 'James Howe',
@@ -2970,6 +3241,7 @@ let bookData = [
         thumb: './images/bunnicula5.jpg',
     },
     {
+        bookID: '00397B3185',
         title: 'Bunnicula Strikes Again!',
         series: '',
         author: 'James Howe',
@@ -2982,6 +3254,7 @@ let bookData = [
         thumb: './images/bunnicula6.jpg',
     },
     {
+        bookID: '00A8CD206E',
         title: "Player's Handbook",
         series: '',
         author: 'James Wyatt',
@@ -2994,6 +3267,7 @@ let bookData = [
         thumb: './images/phb.jpg',
     },
     {
+        bookID: '004D51DB3F',
         title: 'Super Better',
         series: '',
         author: 'Jane McGonigal',
@@ -3006,6 +3280,7 @@ let bookData = [
         thumb: './images/super-better.jpg',
     },
     {
+        bookID: '00E8941762',
         title: 'Ten Arguments For Deleting Your Social Media Accounts Right Now',
         series: '',
         author: 'Jaron Lanier',
@@ -3018,6 +3293,7 @@ let bookData = [
         thumb: './images/delete-social-media.jpg',
     },
     {
+        bookID: '00831E1F1C',
         title: 'The Living and the Dead',
         series: '',
         author: 'Jason',
@@ -3030,6 +3306,7 @@ let bookData = [
         thumb: './images/living-and-dead.jpg',
     },
     {
+        bookID: '0019C796EC',
         title: 'Blood, Sweat, and Pixels',
         series: '',
         author: 'Jason Schreier',
@@ -3042,6 +3319,7 @@ let bookData = [
         thumb: './images/blood-sweat-pixels.jpg',
     },
     {
+        bookID: '00B35B15DC',
         title: 'Press Reset',
         series: '',
         author: 'Jason Schreier',
@@ -3054,6 +3332,7 @@ let bookData = [
         thumb: './images/press-reset.jpg',
     },
     {
+        bookID: '0085611D34',
         title: 'Thirteen Reasons Why',
         series: '',
         author: 'Jay Asher',
@@ -3066,6 +3345,7 @@ let bookData = [
         thumb: './images/thirteen-reasons.jpg',
     },
     {
+        bookID: '00D4D9C8D3',
         title: 'Nerve',
         series: '',
         author: 'Jeanne Ryan',
@@ -3078,6 +3358,7 @@ let bookData = [
         thumb: './images/nerve.jpg',
     },
     {
+        bookID: '0081FA4363',
         title: 'Diary of a Wimpy Kid',
         series: '',
         author: 'Jeff Kinney',
@@ -3090,6 +3371,7 @@ let bookData = [
         thumb: './images/diary-of-wimpy.jpg',
     },
     {
+        bookID: '000BE6624E',
         title: 'Super Mario',
         series: '',
         author: 'Jeff Ryan',
@@ -3102,6 +3384,7 @@ let bookData = [
         thumb: './images/super-mario.jpg',
     },
     {
+        bookID: '00356E3FA1',
         title: 'Annihilation',
         series: '',
         author: 'Jeff VanderMeer',
@@ -3114,6 +3397,7 @@ let bookData = [
         thumb: './images/annihilation.jpg',
     },
     {
+        bookID: '000807CACA',
         title: 'To Hell with the Hustle',
         series: '',
         author: 'Jefferson Bethke',
@@ -3126,6 +3410,7 @@ let bookData = [
         thumb: './images/hell-hustle.jpg',
     },
     {
+        bookID: '009416B357',
         title: "Who's Afraid of the Multiverse",
         series: '',
         author: 'Jeffrey Zweerink',
@@ -3138,6 +3423,7 @@ let bookData = [
         thumb: './images/whos-afraid.jpg',
     },
     {
+        bookID: '006F8B47AC',
         title: 'The No-Spend Challenge Guide',
         series: '',
         author: 'Jen Smith',
@@ -3150,6 +3436,7 @@ let bookData = [
         thumb: './images/no-spend.jpg',
     },
     {
+        bookID: '0078C17E0D',
         title: '200+ Ways to Protect Your Privacy',
         series: '',
         author: 'Jeni Rogers',
@@ -3162,6 +3449,7 @@ let bookData = [
         thumb: './images/protect-privacy.jpg',
     },
     {
+        bookID: '00E112EE8B',
         title: 'The Office BFFs',
         series: '',
         author: 'Jenna Fischer',
@@ -3174,6 +3462,7 @@ let bookData = [
         thumb: './images/office-bffs.jpg',
     },
     {
+        bookID: '0058248876',
         title: 'All the Bright Places',
         series: '',
         author: 'Jennifer Niven',
@@ -3186,6 +3475,7 @@ let bookData = [
         thumb: './images/all-bright-places.jpg',
     },
     {
+        bookID: '005F770358',
         title: 'The Summer I Turned Pretty',
         series: '',
         author: 'Jenny Han',
@@ -3198,6 +3488,7 @@ let bookData = [
         thumb: './images/summer-pretty1.jpg',
     },
     {
+        bookID: '00456FB77C',
         title: "It's Not Summer Without You",
         series: '',
         author: 'Jenny Han',
@@ -3210,6 +3501,7 @@ let bookData = [
         thumb: './images/summer-pretty2.jpg',
     },
     {
+        bookID: '0068B7919A',
         title: "We'll Always Have Summer",
         series: '',
         author: 'Jenny Han',
@@ -3222,6 +3514,7 @@ let bookData = [
         thumb: './images/summer-pretty3.jpg',
     },
     {
+        bookID: '00BAEC8293',
         title: 'Remnant of Victory',
         series: '',
         author: 'Jeri Odell',
@@ -3234,6 +3527,7 @@ let bookData = [
         thumb: './images/remnant-victory.jpg',
     },
     {
+        bookID: '00B6BCD8CC',
         title: "50 Things They Don't Want You to Know",
         series: '',
         author: 'Jerome Hudson',
@@ -3246,6 +3540,7 @@ let bookData = [
         thumb: './images/50-things.jpg',
     },
     {
+        bookID: '00949DDB7A',
         title: 'Three Men in a Boat',
         series: '',
         author: 'Jerome K. Jerome',
@@ -3258,6 +3553,7 @@ let bookData = [
         thumb: './images/three-men-boat.jpg',
     },
     {
+        bookID: '00BD7A5D01',
         title: 'The Vanishings',
         series: '',
         author: 'Jerry B. Jenkins',
@@ -3270,6 +3566,7 @@ let bookData = [
         thumb: './images/left-behind-kids1.jpg',
     },
     {
+        bookID: '008ACA5B0D',
         title: 'Second Chance',
         series: '',
         author: 'Jerry B. Jenkins',
@@ -3282,6 +3579,7 @@ let bookData = [
         thumb: './images/left-behind-kids2.jpg',
     },
     {
+        bookID: '007EF1B03E',
         title: 'Through the Flames',
         series: '',
         author: 'Jerry B. Jenkins',
@@ -3294,6 +3592,7 @@ let bookData = [
         thumb: './images/left-behind-kids3.jpg',
     },
     {
+        bookID: '001A85EEAA',
         title: 'Facing the Future',
         series: '',
         author: 'Jerry B. Jenkins',
@@ -3306,6 +3605,7 @@ let bookData = [
         thumb: './images/left-behind-kids4.jpg',
     },
     {
+        bookID: '00AFCF4A70',
         title: 'Nicolae High',
         series: '',
         author: 'Jerry B. Jenkins',
@@ -3318,6 +3618,7 @@ let bookData = [
         thumb: './images/left-behind-kids5.jpg',
     },
     {
+        bookID: '0079EF6E52',
         title: 'The Underground',
         series: '',
         author: 'Jerry B. Jenkins',
@@ -3330,6 +3631,7 @@ let bookData = [
         thumb: './images/left-behind-kids6.jpg',
     },
     {
+        bookID: '00682D028D',
         title: 'Busted!',
         series: '',
         author: 'Jerry B. Jenkins',
@@ -3342,6 +3644,7 @@ let bookData = [
         thumb: './images/left-behind-kids7.jpg',
     },
     {
+        bookID: '00F829DC19',
         title: 'Death Strike',
         series: '',
         author: 'Jerry B. Jenkins',
@@ -3354,6 +3657,7 @@ let bookData = [
         thumb: './images/left-behind-kids8.jpg',
     },
     {
+        bookID: '0090AAFBCD',
         title: 'The Search',
         series: '',
         author: 'Jerry B. Jenkins',
@@ -3366,6 +3670,7 @@ let bookData = [
         thumb: './images/left-behind-kids9.jpg',
     },
     {
+        bookID: '00F560366B',
         title: 'On the Run',
         series: '',
         author: 'Jerry B. Jenkins',
@@ -3378,6 +3683,7 @@ let bookData = [
         thumb: './images/left-behind-kids10.jpg',
     },
     {
+        bookID: '00CDC91C1B',
         title: 'Into the Storm',
         series: '',
         author: 'Jerry B. Jenkins',
@@ -3390,6 +3696,7 @@ let bookData = [
         thumb: './images/left-behind-kids11.jpg',
     },
     {
+        bookID: '00A09E185F',
         title: 'Earthquake!',
         series: '',
         author: 'Jerry B. Jenkins',
@@ -3402,6 +3709,7 @@ let bookData = [
         thumb: './images/left-behind-kids12.jpg',
     },
     {
+        bookID: '001778617D',
         title: 'The Showdown',
         series: '',
         author: 'Jerry B. Jenkins',
@@ -3414,6 +3722,7 @@ let bookData = [
         thumb: './images/left-behind-kids13.jpg',
     },
     {
+        bookID: '007F3696A7',
         title: 'Judgment Day',
         series: '',
         author: 'Jerry B. Jenkins',
@@ -3426,6 +3735,7 @@ let bookData = [
         thumb: './images/left-behind-kids14.jpg',
     },
     {
+        bookID: '00427CA6CB',
         title: 'Battling the Commander',
         series: '',
         author: 'Jerry B. Jenkins',
@@ -3438,6 +3748,7 @@ let bookData = [
         thumb: './images/left-behind-kids15.jpg',
     },
     {
+        bookID: '00BF16130D',
         title: 'Fire from Heaven',
         series: '',
         author: 'Jerry B. Jenkins',
@@ -3450,6 +3761,7 @@ let bookData = [
         thumb: './images/left-behind-kids16.jpg',
     },
     {
+        bookID: '0029ACAFEB',
         title: 'Terror in the Stadium',
         series: '',
         author: 'Jerry B. Jenkins',
@@ -3462,6 +3774,7 @@ let bookData = [
         thumb: './images/left-behind-kids17.jpg',
     },
     {
+        bookID: '00C1F2F4BD',
         title: 'Darkening Skies',
         series: '',
         author: 'Jerry B. Jenkins',
@@ -3474,6 +3787,7 @@ let bookData = [
         thumb: './images/left-behind-kids18.jpg',
     },
     {
+        bookID: '0097A78BD4',
         title: 'Attack of Apollyon',
         series: '',
         author: 'Jerry B. Jenkins',
@@ -3486,6 +3800,7 @@ let bookData = [
         thumb: './images/left-behind-kids19.jpg',
     },
     {
+        bookID: '00A61C7AF7',
         title: 'A Dangerous Plan',
         series: '',
         author: 'Jerry B. Jenkins',
@@ -3498,6 +3813,7 @@ let bookData = [
         thumb: './images/left-behind-kids20.jpg',
     },
     {
+        bookID: '009B73A7C0',
         title: 'Secrets of New Babylon',
         series: '',
         author: 'Jerry B. Jenkins',
@@ -3510,6 +3826,7 @@ let bookData = [
         thumb: './images/left-behind-kids21.jpg',
     },
     {
+        bookID: '00C1E62364',
         title: 'Escape from New Babylon',
         series: '',
         author: 'Jerry B. Jenkins',
@@ -3522,6 +3839,7 @@ let bookData = [
         thumb: './images/left-behind-kids22.jpg',
     },
     {
+        bookID: '0034ED20AC',
         title: 'Horsemen of Terror',
         series: '',
         author: 'Jerry B. Jenkins',
@@ -3534,6 +3852,7 @@ let bookData = [
         thumb: './images/left-behind-kids23.jpg',
     },
     {
+        bookID: '00B3A14E8A',
         title: 'Uplink from the Underground',
         series: '',
         author: 'Jerry B. Jenkins',
@@ -3546,6 +3865,7 @@ let bookData = [
         thumb: './images/left-behind-kids24.jpg',
     },
     {
+        bookID: '00B62E2B0E',
         title: 'Upside Down',
         series: '',
         author: 'Jess Smart Smiley',
@@ -3558,6 +3878,7 @@ let bookData = [
         thumb: './images/vamp-tale.jpg',
     },
     {
+        bookID: '0068FE1EAA',
         title: 'Me and Earl and the Dying Girl',
         series: '',
         author: 'Jesse Andrews',
@@ -3570,6 +3891,7 @@ let bookData = [
         thumb: './images/me-earl.jpg',
     },
     {
+        bookID: '005E75A561',
         title: 'The Danish Way of Parenting',
         series: '',
         author: 'Jessica Joelle Alexander',
@@ -3582,6 +3904,7 @@ let bookData = [
         thumb: './images/danish-way.jpg',
     },
     {
+        bookID: '0020C7C01A',
         title: 'Full Frontal Feminism',
         series: '',
         author: 'Jessica Valenti',
@@ -3594,6 +3917,7 @@ let bookData = [
         thumb: './images/full-frontal.jpg',
     },
     {
+        bookID: '006EBD244D',
         title: 'Storm Front',
         series: '',
         author: 'Jim Butcher',
@@ -3606,6 +3930,7 @@ let bookData = [
         thumb: './images/dresden1.jpg',
     },
     {
+        bookID: '00287F9388',
         title: 'Fool Moon',
         series: '',
         author: 'Jim Butcher',
@@ -3618,6 +3943,7 @@ let bookData = [
         thumb: './images/dresden2.jpg',
     },
     {
+        bookID: '00B971146D',
         title: 'Grave Peril',
         series: '',
         author: 'Jim Butcher',
@@ -3630,6 +3956,7 @@ let bookData = [
         thumb: './images/dresden3.jpg',
     },
     {
+        bookID: '00E79DE7BE',
         title: 'Rick and Morty vs. Dungeons & Dragons II',
         series: '',
         author: 'Jim Zub',
@@ -3642,6 +3969,7 @@ let bookData = [
         thumb: './images/rick-morty-vs-dnd2.jpg',
     },
     {
+        bookID: '00BAD2BCFC',
         title: 'Passion & Purpose',
         series: '',
         author: 'Jimmy Seibert',
@@ -3654,6 +3982,7 @@ let bookData = [
         thumb: './images/passion-purpose.jpg',
     },
     {
+        bookID: '0093763D23',
         title: 'Discipline Equals Freedom',
         series: '',
         author: 'Jocko Willink',
@@ -3666,6 +3995,7 @@ let bookData = [
         thumb: './images/discipline.jpg',
     },
     {
+        bookID: '00F7B53F84',
         title: 'Stolen Focus',
         series: '',
         author: 'Johann Hari',
@@ -3678,6 +4008,7 @@ let bookData = [
         thumb: './images/stolen-focus.jpg',
     },
     {
+        bookID: '00C42844D3',
         title: 'Creativity',
         series: '',
         author: 'John Cleese',
@@ -3690,6 +4021,7 @@ let bookData = [
         thumb: './images/creativity-cleese.jpg',
     },
     {
+        bookID: '0061C3E328',
         title: 'Wild at Heart',
         series: '',
         author: 'John Eldredge',
@@ -3702,6 +4034,7 @@ let bookData = [
         thumb: './images/wild-at-heart.jpg',
     },
     {
+        bookID: '00A3E60D07',
         title: 'Looking for God in Harry Potter',
         series: '',
         author: 'John Granger',
@@ -3714,6 +4047,7 @@ let bookData = [
         thumb: './images/god-in-hp.jpg',
     },
     {
+        bookID: '0014913FC5',
         title: 'The Anthropocene Reviewed',
         series: '',
         author: 'John Green',
@@ -3726,6 +4060,7 @@ let bookData = [
         thumb: './images/anthropocene.jpg',
     },
     {
+        bookID: '00D96B12AD',
         title: 'Looking for Alaska',
         series: '',
         author: 'John Green',
@@ -3738,6 +4073,7 @@ let bookData = [
         thumb: './images/alaska.jpg',
     },
     {
+        bookID: '00FA942193',
         title: 'An Abundance of Katherines',
         series: '',
         author: 'John Green',
@@ -3750,6 +4086,7 @@ let bookData = [
         thumb: './images/katherines.jpg',
     },
     {
+        bookID: '00D4072808',
         title: 'Turtles All the Way Down',
         series: '',
         author: 'John Green',
@@ -3762,6 +4099,7 @@ let bookData = [
         thumb: './images/turtles.jpg',
     },
     {
+        bookID: '00F630333A',
         title: 'Will Grayson, Will Grayson',
         series: '',
         author: 'John Green',
@@ -3774,6 +4112,7 @@ let bookData = [
         thumb: './images/will-grayson.jpg',
     },
     {
+        bookID: '002E5B693D',
         title: 'The Fault in Our Stars',
         series: '',
         author: 'John Green',
@@ -3786,6 +4125,7 @@ let bookData = [
         thumb: './images/fault-stars.jpg',
     },
     {
+        bookID: '008635C566',
         title: 'Paper Towns',
         series: '',
         author: 'John Green',
@@ -3798,6 +4138,7 @@ let bookData = [
         thumb: './images/paper-towns.jpg',
     },
     {
+        bookID: '005416ADCC',
         title: 'Let It Snow',
         series: '',
         author: 'John Green',
@@ -3810,6 +4151,7 @@ let bookData = [
         thumb: './images/let-it-snow.jpg',
     },
     {
+        bookID: '0098254A6F',
         title: 'Mind Hacking',
         series: '',
         author: 'John Hargrave',
@@ -3822,6 +4164,7 @@ let bookData = [
         thumb: './images/mind-hacking.jpg',
     },
     {
+        bookID: '0009E22FEA',
         title: 'Chew, Vol. 1',
         series: '',
         author: 'John Layman',
@@ -3834,6 +4177,7 @@ let bookData = [
         thumb: './images/chew.jpg',
     },
     {
+        bookID: '003A385342',
         title: 'BiblioTech',
         series: '',
         author: 'John Palfrey',
@@ -3846,6 +4190,7 @@ let bookData = [
         thumb: './images/bibliotech.jpg',
     },
     {
+        bookID: '006C86568E',
         title: 'Harry Potter and the Cursed Child',
         series: '',
         author: 'John Tiffany',
@@ -3858,6 +4203,7 @@ let bookData = [
         thumb: './images/hp-cursed.jpg',
     },
     {
+        bookID: '001CFB290B',
         title: 'Into the Wild',
         series: '',
         author: 'Jon Krakauer',
@@ -3870,6 +4216,7 @@ let bookData = [
         thumb: './images/into-wild.jpg',
     },
     {
+        bookID: '00305AE0AB',
         title: 'Nights of the Living Dead',
         series: '',
         author: 'Jonathan Maberry',
@@ -3882,6 +4229,7 @@ let bookData = [
         thumb: './images/nights-living-dead.jpg',
     },
     {
+        bookID: '009D5F5128',
         title: 'A Modest Proposal',
         series: '',
         author: 'Jonathan Swift',
@@ -3894,6 +4242,7 @@ let bookData = [
         thumb: './images/modest-proposal.jpg',
     },
     {
+        bookID: '008B94DA55',
         title: 'How Not to Be Wrong',
         series: '',
         author: 'Jordan Ellenberg',
@@ -3906,6 +4255,7 @@ let bookData = [
         thumb: './images/how-not-to-be-wrong.jpg',
     },
     {
+        bookID: '0045E093CC',
         title: 'Bird Box',
         series: '',
         author: 'Josh Malerman',
@@ -3918,6 +4268,7 @@ let bookData = [
         thumb: './images/bird-box.jpg',
     },
     {
+        bookID: '00283819CB',
         title: 'Living With Less',
         series: '',
         author: 'Joshua Becker',
@@ -3930,6 +4281,7 @@ let bookData = [
         thumb: './images/living-with-less.jpg',
     },
     {
+        bookID: '000CDB592D',
         title: 'The More of Less',
         series: '',
         author: 'Joshua Becker',
@@ -3942,6 +4294,7 @@ let bookData = [
         thumb: './images/more-of-less.jpg',
     },
     {
+        bookID: '0094992ECA',
         title: 'The Minimalist Home',
         series: '',
         author: 'Joshua Becker',
@@ -3954,6 +4307,7 @@ let bookData = [
         thumb: './images/minimalist-home.jpg',
     },
     {
+        bookID: '00D8CC6D27',
         title: 'Things That Matter',
         series: '',
         author: 'Joshua Becker',
@@ -3966,6 +4320,7 @@ let bookData = [
         thumb: './images/things-that-matter.jpg',
     },
     {
+        bookID: '00F6B801BD',
         title: 'Simplify Magazine 001',
         series: '',
         author: 'Joshua Becker',
@@ -3978,6 +4333,7 @@ let bookData = [
         thumb: './images/simplify-magazine.jpg',
     },
     {
+        bookID: '001E1F826D',
         title: 'Simplify Magazine 002',
         series: '',
         author: 'Joshua Becker',
@@ -3990,6 +4346,7 @@ let bookData = [
         thumb: './images/simplify-magazine.jpg',
     },
     {
+        bookID: '00C68A8EB6',
         title: 'Simplify Magazine 003',
         series: '',
         author: 'Joshua Becker',
@@ -4002,6 +4359,7 @@ let bookData = [
         thumb: './images/simplify-magazine.jpg',
     },
     {
+        bookID: '006EB305C6',
         title: 'The Club',
         series: '',
         author: 'Joshua Robinson',
@@ -4014,6 +4372,7 @@ let bookData = [
         thumb: './images/club.jpg',
     },
     {
+        bookID: '0038D27723',
         title: 'Haunted Mansion',
         series: '',
         author: 'Joshua Williamson',
@@ -4026,6 +4385,7 @@ let bookData = [
         thumb: './images/haunted-mansion.jpg',
     },
     {
+        bookID: '00168D16ED',
         title: 'Buffy the Vampire Slayer: The Long Way Home',
         series: '',
         author: 'Joss Whedon',
@@ -4038,9 +4398,10 @@ let bookData = [
         thumb: './images/buffy-s8.jpg',
     },
     /*===========================
-    	Author First Name - K's
+    Author First Name - K's
     ===========================*/
     {
+        bookID: '00F68F5677',
         title: 'Beautiful Creatures',
         series: '',
         author: 'Kami Garcia',
@@ -4053,6 +4414,7 @@ let bookData = [
         thumb: './images/beautiful-creatures.jpg',
     },
     {
+        bookID: '00FCA6BA84',
         title: 'One of Us Is Lying',
         series: '',
         author: 'Karen M. McManus',
@@ -4065,6 +4427,7 @@ let bookData = [
         thumb: './images/one-of-us-is-lying.jpg',
     },
     {
+        bookID: '0017CB1637',
         title: 'Bridge to Terabithia',
         series: '',
         author: 'Katherine Paterson',
@@ -4077,6 +4440,7 @@ let bookData = [
         thumb: './images/terabithia.jpg',
     },
     {
+        bookID: '00DF6F99EB',
         title: 'Finding Sisu',
         series: '',
         author: 'Katja Pantzar',
@@ -4089,6 +4453,7 @@ let bookData = [
         thumb: './images/sisu.jpg',
     },
     {
+        bookID: '00EA9CADC6',
         title: 'Independent Me',
         series: '',
         author: 'Kely Braswell',
@@ -4101,6 +4466,7 @@ let bookData = [
         thumb: './images/independent-me.jpg',
     },
     {
+        bookID: '002BFDE303',
         title: "The Geek Dad's Guide to Weekend Fun",
         series: '',
         author: 'Ken Denmead',
@@ -4113,6 +4479,7 @@ let bookData = [
         thumb: './images/geek-dad.jpg',
     },
     {
+        bookID: '005C1108D7',
         title: "The New Answers Book 1",
         series: '',
         author: 'Ken Ham',
@@ -4125,6 +4492,7 @@ let bookData = [
         thumb: './images/new-answers.jpg',
     },
     {
+        bookID: '0072031EBE',
         title: "Planet Funny",
         series: '',
         author: 'Ken Jennings',
@@ -4137,6 +4505,7 @@ let bookData = [
         thumb: './images/planet-funny.jpg',
     },
     {
+        bookID: '0057710242',
         title: "One Flew Over the Cuckoo's Nest",
         series: '',
         author: 'Ken Kesey',
@@ -4149,6 +4518,7 @@ let bookData = [
         thumb: './images/one-flew-over.jpg',
     },
     {
+        bookID: '003ED80F5C',
         title: "Insanely Simple",
         series: '',
         author: 'Ken Segall',
@@ -4161,6 +4531,7 @@ let bookData = [
         thumb: './images/insanely-simple.jpg',
     },
     {
+        bookID: '00CC56AB63',
         title: "The New One Minute Manager",
         series: '',
         author: 'Kenneth Blanchard',
@@ -4173,6 +4544,7 @@ let bookData = [
         thumb: './images/new-manager.jpg',
     },
     {
+        bookID: '00B47EEE1D',
         title: 'Crucial Conversations',
         series: '',
         author: 'Kerry Patterson',
@@ -4185,6 +4557,7 @@ let bookData = [
         thumb: './images/crucial-conversations.jpg',
     },
     {
+        bookID: '006473520D',
         title: 'Unlimited Memory',
         series: '',
         author: 'Kevin Horsley',
@@ -4197,6 +4570,7 @@ let bookData = [
         thumb: './images/unlimited-memory.jpg',
     },
     {
+        bookID: '00CF9C9780',
         title: 'Crazy Rich Asians',
         series: '',
         author: 'Kevin Kwan',
@@ -4209,6 +4583,7 @@ let bookData = [
         thumb: './images/crazy-rich-asians.jpg',
     },
     {
+        bookID: '001A0AFC5C',
         title: 'For the Win',
         series: '',
         author: 'Kevin Werbach',
@@ -4221,6 +4596,7 @@ let bookData = [
         thumb: './images/ftw.jpg',
     },
     {
+        bookID: '00265E7EEB',
         title: 'The A-Z of Atari 8-bit Games',
         series: '',
         author: 'Kieren Hawken',
@@ -4233,6 +4609,7 @@ let bookData = [
         thumb: './images/az-atari-8bit.jpg',
     },
     {
+        bookID: '009F4146BC',
         title: 'The DUFF',
         series: '',
         author: 'Kody Keplinger',
@@ -4245,6 +4622,7 @@ let bookData = [
         thumb: './images/duff.jpg',
     },
     {
+        bookID: '00334C799C',
         title: 'Ring',
         series: '',
         author: 'Kōji Suzuki',
@@ -4257,6 +4635,7 @@ let bookData = [
         thumb: './images/ring.jpg',
     },
     {
+        bookID: '00D79EE1B4',
         title: 'Jesus and John Wayne',
         series: '',
         author: 'Kristin Kobes Du Mez',
@@ -4269,6 +4648,7 @@ let bookData = [
         thumb: './images/jesus-john-wayne.jpg',
     },
     {
+        bookID: '008762BA06',
         title: "Don't Get Caught",
         series: '',
         author: 'Kurt Dinan',
@@ -4281,9 +4661,10 @@ let bookData = [
         thumb: './images/dont-get-caught.jpg',
     },
     /*===========================
-    	Author First Name - L's
+    Author First Name - L's
     ===========================*/
     {
+        bookID: '00F7F61DEE',
         title: 'The Awakening',
         series: '',
         author: 'L.J. Smith',
@@ -4296,6 +4677,7 @@ let bookData = [
         thumb: './images/awakening.jpg',
     },
     {
+        bookID: '00A7C188B0',
         title: 'The Struggle',
         series: '',
         author: 'L.J. Smith',
@@ -4308,6 +4690,7 @@ let bookData = [
         thumb: './images/struggle.jpg',
     },
     {
+        bookID: '005840396C',
         title: 'The Fury',
         series: '',
         author: 'L.J. Smith',
@@ -4320,6 +4703,7 @@ let bookData = [
         thumb: './images/fury.jpg',
     },
     {
+        bookID: '00DA0593B0',
         title: 'Dark Reunion',
         series: '',
         author: 'L.J. Smith',
@@ -4332,6 +4716,7 @@ let bookData = [
         thumb: './images/dark-reunion.jpg',
     },
     {
+        bookID: '00B6746673',
         title: 'I Love You, Beth Cooper',
         series: '',
         author: 'Larry Doyle',
@@ -4344,6 +4729,7 @@ let bookData = [
         thumb: './images/beth-cooper.jpg',
     },
     {
+        bookID: '00C034E9B4',
         title: 'A Secret Life',
         series: '',
         author: 'Laura Peyton Roberts',
@@ -4356,6 +4742,7 @@ let bookData = [
         thumb: './images/secret-life.jpg',
     },
     {
+        bookID: '00E3F4BC9A',
         title: 'What the Most Successful People Do Before Breakfast',
         series: '',
         author: 'Laura Vanderkam',
@@ -4368,6 +4755,7 @@ let bookData = [
         thumb: './images/successful-breakfast.jpg',
     },
     {
+        bookID: '00BF59EEFF',
         title: 'Guilty Pleasures',
         series: '',
         author: 'Laurell K. Hamilton',
@@ -4380,6 +4768,7 @@ let bookData = [
         thumb: './images/guilty-pleasures.jpg',
     },
     {
+        bookID: '00583C897F',
         title: 'Six of Crows',
         series: '',
         author: 'Leigh Bardugo',
@@ -4392,6 +4781,7 @@ let bookData = [
         thumb: './images/six-of-crows.jpg',
     },
     {
+        bookID: '00B3A6E49F',
         title: 'Crooked Kingdom',
         series: '',
         author: 'Leigh Bardugo',
@@ -4404,6 +4794,7 @@ let bookData = [
         thumb: './images/six-of-crows2.jpg',
     },
     {
+        bookID: '005E3EB2CB',
         title: 'The Bad Beginning',
         series: '',
         author: 'Lemony Snicket',
@@ -4416,6 +4807,7 @@ let bookData = [
         thumb: './images/unfortunate1.jpg',
     },
     {
+        bookID: '002F91D67A',
         title: 'The Reptile Room',
         series: '',
         author: 'Lemony Snicket',
@@ -4428,6 +4820,7 @@ let bookData = [
         thumb: './images/unfortunate2.jpg',
     },
     {
+        bookID: '00ED9A2469',
         title: 'The Wide Window',
         series: '',
         author: 'Lemony Snicket',
@@ -4440,6 +4833,7 @@ let bookData = [
         thumb: './images/unfortunate3.jpg',
     },
     {
+        bookID: '004A02004C',
         title: 'The Miserable Mill',
         series: '',
         author: 'Lemony Snicket',
@@ -4452,6 +4846,7 @@ let bookData = [
         thumb: './images/unfortunate4.jpg',
     },
     {
+        bookID: '0058B57351',
         title: 'The Austere Academy',
         series: '',
         author: 'Lemony Snicket',
@@ -4464,6 +4859,7 @@ let bookData = [
         thumb: './images/unfortunate5.jpg',
     },
     {
+        bookID: '00FFA50234',
         title: 'The Ersatz Elevator',
         series: '',
         author: 'Lemony Snicket',
@@ -4476,6 +4872,7 @@ let bookData = [
         thumb: './images/unfortunate6.jpg',
     },
     {
+        bookID: '00DC323515',
         title: 'The Vile Village',
         series: '',
         author: 'Lemony Snicket',
@@ -4488,6 +4885,7 @@ let bookData = [
         thumb: './images/unfortunate7.jpg',
     },
     {
+        bookID: '002613735E',
         title: 'The Hostile Hospital',
         series: '',
         author: 'Lemony Snicket',
@@ -4500,6 +4898,7 @@ let bookData = [
         thumb: './images/unfortunate8.jpg',
     },
     {
+        bookID: '008E3BB7D7',
         title: 'The Carnivorous Carnival',
         series: '',
         author: 'Lemony Snicket',
@@ -4512,6 +4911,7 @@ let bookData = [
         thumb: './images/unfortunate9.jpg',
     },
     {
+        bookID: '0079D1ADAB',
         title: 'The Slippery Slope',
         series: '',
         author: 'Lemony Snicket',
@@ -4524,6 +4924,7 @@ let bookData = [
         thumb: './images/unfortunate10.jpg',
     },
     {
+        bookID: '00E43C128B',
         title: 'The Grim Grotto',
         series: '',
         author: 'Lemony Snicket',
@@ -4536,6 +4937,7 @@ let bookData = [
         thumb: './images/unfortunate11.jpg',
     },
     {
+        bookID: '0013B2E029',
         title: 'The Penultimate Peril',
         series: '',
         author: 'Lemony Snicket',
@@ -4548,6 +4950,7 @@ let bookData = [
         thumb: './images/unfortunate12.jpg',
     },
     {
+        bookID: '00EEBDBFC8',
         title: 'The End',
         series: '',
         author: 'Lemony Snicket',
@@ -4560,6 +4963,7 @@ let bookData = [
         thumb: './images/unfortunate13.jpg',
     },
     {
+        bookID: '008BF1BF36',
         title: 'Read Japanese Today',
         series: '',
         author: 'Len Welsh',
@@ -4572,6 +4976,7 @@ let bookData = [
         thumb: './images/read-japanese.jpg',
     },
     {
+        bookID: '00E4EF38B5',
         title: 'The Magicians',
         series: '',
         author: 'Lev Grossman',
@@ -4584,6 +4989,7 @@ let bookData = [
         thumb: './images/magicians.jpg',
     },
     {
+        bookID: '00D2B36585',
         title: 'Big Little Lies',
         series: '',
         author: 'Liane Moriarty',
@@ -4596,6 +5002,7 @@ let bookData = [
         thumb: './images/big-little-lies.jpg',
     },
     {
+        bookID: '00B6A141DA',
         title: 'Going Bovine',
         series: '',
         author: 'Libba Bray',
@@ -4608,6 +5015,7 @@ let bookData = [
         thumb: './images/bovine.jpg',
     },
     {
+        bookID: '00B3DE3D14',
         title: 'The Giver',
         series: '',
         author: 'Lois Lowry',
@@ -4620,6 +5028,7 @@ let bookData = [
         thumb: './images/giver.jpg',
     },
     {
+        bookID: '0023EFE1F9',
         title: 'Gathering Blue',
         series: '',
         author: 'Lois Lowry',
@@ -4632,6 +5041,7 @@ let bookData = [
         thumb: './images/gathering-blue.jpg',
     },
     {
+        bookID: '009077FC9E',
         title: 'Messenger',
         series: '',
         author: 'Lois Lowry',
@@ -4644,6 +5054,7 @@ let bookData = [
         thumb: './images/messenger.jpg',
     },
     {
+        bookID: '0088512F7B',
         title: 'Number the Stars',
         series: '',
         author: 'Lois Lowry',
@@ -4656,6 +5067,7 @@ let bookData = [
         thumb: './images/number-stars.jpg',
     },
     {
+        bookID: '00DF5B1637',
         title: 'Nazirite DNA',
         series: '',
         author: 'Lou Engle',
@@ -4668,6 +5080,7 @@ let bookData = [
         thumb: './images/nazirite-dna.jpg',
     },
     {
+        bookID: '00CAC47280',
         title: 'Theodore Roosevelt',
         series: '',
         author: 'Louis Auchincloss',
@@ -4680,6 +5093,7 @@ let bookData = [
         thumb: './images/teddy.jpg',
     },
     {
+        bookID: '00E3452600',
         title: 'Holes',
         series: '',
         author: 'Louis Sachar',
@@ -4692,6 +5106,7 @@ let bookData = [
         thumb: './images/holes.jpg',
     },
     {
+        bookID: '00218F4635',
         title: 'Sideways Stories from Wayside School',
         series: '',
         author: 'Louis Sachar',
@@ -4704,6 +5119,7 @@ let bookData = [
         thumb: './images/wayside1.jpg',
     },
     {
+        bookID: '00EA45363E',
         title: 'Wayside School Is Falling Down',
         series: '',
         author: 'Louis Sachar',
@@ -4716,6 +5132,7 @@ let bookData = [
         thumb: './images/wayside2.jpg',
     },
     {
+        bookID: '00E49DB2AC',
         title: 'Wayside School Gets a Little Stranger',
         series: '',
         author: 'Louis Sachar',
@@ -4728,6 +5145,7 @@ let bookData = [
         thumb: './images/wayside3.jpg',
     },
     {
+        bookID: '00A3A9EABC',
         title: 'Wayside School Beneath the Cloud of Doom',
         series: '',
         author: 'Louis Sachar',
@@ -4740,6 +5158,7 @@ let bookData = [
         thumb: './images/wayside4.jpg',
     },
     {
+        bookID: '00117572CE',
         title: 'Recruited',
         series: '',
         author: 'Lynn Mason',
@@ -4752,9 +5171,10 @@ let bookData = [
         thumb: './images/recruited.jpg',
     },
     /*===========================
-    	Author First Name - M's
+    Author First Name - M's
     ===========================*/
     {
+        bookID: '0042FCED35',
         title: 'A Wrinkle in Time',
         series: '',
         author: "Madeleine L'Engle",
@@ -4767,6 +5187,7 @@ let bookData = [
         thumb: './images/wrinkle-in-time.jpg',
     },
     {
+        bookID: '0065FBD8E8',
         title: 'Outliers',
         series: '',
         author: 'Malcolm Gladwell',
@@ -4779,6 +5200,7 @@ let bookData = [
         thumb: './images/outliers.jpg',
     },
     {
+        bookID: '00719A27D1',
         title: 'Tipping Point',
         series: '',
         author: 'Malcolm Gladwell',
@@ -4791,6 +5213,7 @@ let bookData = [
         thumb: './images/tipping-point.jpg',
     },
     {
+        bookID: '00C7510480',
         title: 'David and Goliath',
         series: '',
         author: 'Malcolm Gladwell',
@@ -4803,6 +5226,7 @@ let bookData = [
         thumb: './images/david-goliath.jpg',
     },
     {
+        bookID: '008246A690',
         title: 'Bored and Brilliant',
         series: '',
         author: 'Manoush Zomorodi',
@@ -4815,6 +5239,7 @@ let bookData = [
         thumb: './images/bored.jpg',
     },
     {
+        bookID: '00AEFA6467',
         title: 'The 125 Best Brain Teasers of All Time',
         series: '',
         author: 'Marcel Danesi',
@@ -4827,6 +5252,7 @@ let bookData = [
         thumb: './images/brain-teasers.jpg',
     },
     {
+        bookID: '000C14303C',
         title: 'Vampire Baby',
         series: '',
         author: 'Marcia Thornton Jones',
@@ -4839,6 +5265,7 @@ let bookData = [
         thumb: './images/vamp-baby.jpg',
     },
     {
+        bookID: '006DC1AE17',
         title: 'First, Break All the Rules',
         series: '',
         author: 'Marcus Buckingham',
@@ -4851,6 +5278,7 @@ let bookData = [
         thumb: './images/first-break-rules.jpg',
     },
     {
+        bookID: '00711BEEF5',
         title: 'The Official Pokémon Handbook',
         series: '',
         author: 'Maria Barbo',
@@ -4863,6 +5291,7 @@ let bookData = [
         thumb: './images/pokemon.jpg',
     },
     {
+        bookID: '00884CC8A5',
         title: "Where'd You Go, Bernadette",
         series: '',
         author: 'Maria Semple',
@@ -4875,6 +5304,7 @@ let bookData = [
         thumb: './images/bernadette.jpg',
     },
     {
+        bookID: '00E36BB7D4',
         title: 'Beautiful',
         series: '',
         author: "Marie D'Abreo",
@@ -4887,6 +5317,7 @@ let bookData = [
         thumb: './images/beautiful.jpg',
     },
     {
+        bookID: '0048C658D2',
         title: 'The Life-Changing Magic of Tidying Up',
         series: '',
         author: "Marie Kondō",
@@ -4899,6 +5330,7 @@ let bookData = [
         thumb: './images/magic-tidying-up.jpg',
     },
     {
+        bookID: '000C26CA04',
         title: 'Spark Joy',
         series: '',
         author: "Marie Kondō",
@@ -4911,6 +5343,7 @@ let bookData = [
         thumb: './images/spark-joy.jpg',
     },
     {
+        bookID: '00D235E613',
         title: 'Legend',
         series: '',
         author: 'Marie Lu',
@@ -4923,6 +5356,7 @@ let bookData = [
         thumb: './images/legend.jpg',
     },
     {
+        bookID: '00779414EE',
         title: 'Doctrine',
         series: '',
         author: 'Mark Driscoll',
@@ -4935,6 +5369,7 @@ let bookData = [
         thumb: './images/doctrine.jpg',
     },
     {
+        bookID: '00B8A1C809',
         title: 'The Radical Reformission',
         series: '',
         author: 'Mark Driscoll',
@@ -4947,6 +5382,7 @@ let bookData = [
         thumb: './images/radical-ref.jpg',
     },
     {
+        bookID: '0091E15B4E',
         title: 'The Subtle Art of Not Giving a F*ck',
         series: '',
         author: 'Mark Manson',
@@ -4959,6 +5395,7 @@ let bookData = [
         thumb: './images/subtle-art.jpg',
     },
     {
+        bookID: '00FC045666',
         title: 'Archie, Vol. 1',
         series: '',
         author: 'Mark Waid',
@@ -4971,6 +5408,7 @@ let bookData = [
         thumb: './images/archie.jpg',
     },
     {
+        bookID: '002503CC18',
         title: 'House of Leaves',
         series: '',
         author: 'Mark Z. Danielewski',
@@ -4983,6 +5421,7 @@ let bookData = [
         thumb: './images/house-of-leaves.jpg',
     },
     {
+        bookID: '0096C109F0',
         title: 'Manna',
         series: '',
         author: 'Marshall Brain',
@@ -4995,6 +5434,7 @@ let bookData = [
         thumb: './images/manna.jpg',
     },
     {
+        bookID: '008D93D9DF',
         title: 'Frankenstein',
         series: '',
         author: 'Mary Shelley',
@@ -5007,6 +5447,7 @@ let bookData = [
         thumb: './images/frankenstein.jpg',
     },
     {
+        bookID: '00E1DD85EF',
         title: 'The Midnight Library',
         series: '',
         author: 'Matt Haig',
@@ -5019,6 +5460,7 @@ let bookData = [
         thumb: './images/midnight-library.jpg',
     },
     {
+        bookID: '00FC0B7117',
         title: '30 Days To Understanding the Bible',
         series: '',
         author: 'Max Anders',
@@ -5031,6 +5473,7 @@ let bookData = [
         thumb: './images/thirty-days-bible.jpg',
     },
     {
+        bookID: '005D0DBB55',
         title: 'World War Z',
         series: '',
         author: 'Max Brooks',
@@ -5043,6 +5486,7 @@ let bookData = [
         thumb: './images/wwz.jpg',
     },
     {
+        bookID: '001EAAD875',
         title: 'How Not to Die',
         series: '',
         author: 'Michael Greger',
@@ -5055,6 +5499,7 @@ let bookData = [
         thumb: './images/how-not-to-die.jpg',
     },
     {
+        bookID: '00DDE19DC7',
         title: 'Stupid White Men',
         series: '',
         author: 'Michael Moore',
@@ -5067,6 +5512,7 @@ let bookData = [
         thumb: './images/stupid-white-men.jpg',
     },
     {
+        bookID: '001FB9D3B3',
         title: 'Food Rules',
         series: '',
         author: 'Michael Pollan',
@@ -5079,6 +5525,7 @@ let bookData = [
         thumb: './images/food-rules.jpg',
     },
     {
+        bookID: '006B5619AC',
         title: 'Mean Girls',
         series: '',
         author: 'Micol Ostow',
@@ -5091,6 +5538,7 @@ let bookData = [
         thumb: './images/mean-girls.jpg',
     },
     {
+        bookID: '00711FDBBD',
         title: "Dungeon Master's Guide",
         series: '',
         author: 'Mike Mearls',
@@ -5103,6 +5551,7 @@ let bookData = [
         thumb: './images/dmg.jpg',
     },
     {
+        bookID: '00B0F240BA',
         title: 'The Kobold Guide to Board Game Design',
         series: '',
         author: 'Mike Selinker',
@@ -5115,6 +5564,7 @@ let bookData = [
         thumb: './images/kobold-bgs.jpg',
     },
     {
+        bookID: '00F2A77EDD',
         title: "Shirley Jackson's The Lottery: The Authorized Graphic Adaptation",
         series: '',
         author: 'Miles Hyman',
@@ -5127,6 +5577,7 @@ let bookData = [
         thumb: './images/lottery-graphic.jpg',
     },
     {
+        bookID: '00C9B4E542',
         title: "AsapSCIENCE",
         series: '',
         author: 'Mitchell Moffit',
@@ -5139,9 +5590,10 @@ let bookData = [
         thumb: './images/asapscience.jpg',
     },
     /*===========================
-    	Author First Name - N's
+    Author First Name - N's
     ===========================*/
     {
+        bookID: '0078EE406A',
         title: 'Scythe',
         series: '',
         author: 'Neal Shusterman',
@@ -5154,6 +5606,7 @@ let bookData = [
         thumb: './images/scythe1.jpg',
     },
     {
+        bookID: '0066A61222',
         title: 'Thunderhead',
         series: '',
         author: 'Neal Shusterman',
@@ -5166,6 +5619,7 @@ let bookData = [
         thumb: './images/scythe2.jpg',
     },
     {
+        bookID: '000943870C',
         title: 'The Toll',
         series: '',
         author: 'Neal Shusterman',
@@ -5178,6 +5632,7 @@ let bookData = [
         thumb: './images/scythe3.jpg',
     },
     {
+        bookID: '00FA23152E',
         title: 'Neverwhere',
         series: '',
         author: 'Neil Gaiman',
@@ -5190,6 +5645,7 @@ let bookData = [
         thumb: './images/neverwhere.jpg',
     },
     {
+        bookID: '0087CE7282',
         title: 'Good Omens',
         series: '',
         author: 'Neil Gaiman',
@@ -5202,6 +5658,7 @@ let bookData = [
         thumb: './images/good-omens.jpg',
     },
     {
+        bookID: '007F3313A6',
         title: 'Coraline',
         series: '',
         author: 'Neil Gaiman',
@@ -5214,6 +5671,7 @@ let bookData = [
         thumb: './images/coraline.jpg',
     },
     {
+        bookID: '00727BA90A',
         title: 'The Graveyard Book',
         series: '',
         author: 'Neil Gaiman',
@@ -5226,6 +5684,7 @@ let bookData = [
         thumb: './images/graveyard-book.jpg',
     },
     {
+        bookID: '00C69D5740',
         title: 'Victory Over the Darkness',
         series: '',
         author: 'Neil T. Anderson',
@@ -5238,6 +5697,7 @@ let bookData = [
         thumb: './images/victory-over-darkness.jpg',
     },
     {
+        bookID: '0041B17360',
         title: 'Everything, Everything',
         series: '',
         author: 'Nicola Yoon',
@@ -5250,6 +5710,7 @@ let bookData = [
         thumb: './images/everything.jpg',
     },
     {
+        bookID: '007959CD7B',
         title: 'The Shallows',
         series: '',
         author: 'Nicolas Carr',
@@ -5262,9 +5723,10 @@ let bookData = [
         thumb: './images/shallows.jpg',
     },
     /*===========================
-    	Author First Name - O's
+    Author First Name - O's
     ===========================*/
     {
+        bookID: '0068D9B81B',
         title: 'Cold Sassy Tree',
         series: '',
         author: 'Olive Ann Burns',
@@ -5277,6 +5739,7 @@ let bookData = [
         thumb: './images/sassy-tree.jpg',
     },
     {
+        bookID: '007C87652A',
         title: "Ender's Game",
         series: '',
         author: 'Orson Scott Card',
@@ -5289,6 +5752,7 @@ let bookData = [
         thumb: './images/enders-game.jpg',
     },
     {
+        bookID: '00C9B6AF67',
         title: 'The Canterville Ghost',
         series: '',
         author: 'Oscar Wilde',
@@ -5301,9 +5765,10 @@ let bookData = [
         thumb: './images/canterville.jpg',
     },
     /*===========================
-    	Author First Name - P's
+    Author First Name - P's
     ===========================*/
     {
+        bookID: '004D9B4A27',
         title: "100 Things We've Lost to the Internet",
         series: '',
         author: 'Pamela Paul',
@@ -5316,6 +5781,7 @@ let bookData = [
         thumb: './images/lost-internet.jpg',
     },
     {
+        bookID: '00E7705C72',
         title: 'The Windup Girl',
         series: '',
         author: 'Paolo Bacigalupi',
@@ -5328,6 +5794,7 @@ let bookData = [
         thumb: './images/windup-girl.jpg',
     },
     {
+        bookID: '00B1372519',
         title: 'The Five Dysfunctions of a Team',
         series: '',
         author: 'Patrick Lencioni',
@@ -5340,6 +5807,7 @@ let bookData = [
         thumb: './images/five-dysfunctions.jpg',
     },
     {
+        bookID: '00BE962655',
         title: 'The Name of the Wind',
         series: '1',
         author: 'Patrick Rothfuss',
@@ -5352,6 +5820,7 @@ let bookData = [
         thumb: './images/name-of-wind.jpg',
     },
     {
+        bookID: '008B43E0E8',
         title: "The Wise Man's Fear",
         series: '2',
         author: 'Patrick Rothfuss',
@@ -5364,6 +5833,7 @@ let bookData = [
         thumb: './images/name-of-wind2.jpg',
     },
     {
+        bookID: '00EF3121F9',
         title: 'Rick and Morty vs. Dungeons & Dragons',
         series: '',
         author: 'Patrick Rothfuss',
@@ -5376,6 +5846,7 @@ let bookData = [
         thumb: './images/rick-morty-vs-dnd.jpg',
     },
     {
+        bookID: '007ED19D7A',
         title: 'The Heavenly Man',
         series: '',
         author: 'Paul Hattaway',
@@ -5388,6 +5859,7 @@ let bookData = [
         thumb: './images/heavenly-man.jpg',
     },
     {
+        bookID: '00C2B8E011',
         title: 'The Girl on the Train',
         series: '',
         author: 'Paula Hawkins',
@@ -5400,6 +5872,7 @@ let bookData = [
         thumb: './images/girl-on-train.jpg',
     },
     {
+        bookID: '008F14CF7E',
         title: 'Liverpool FC',
         series: '',
         author: 'Paula Wilson',
@@ -5412,6 +5885,7 @@ let bookData = [
         thumb: './images/liverpool.jpg',
     },
     {
+        bookID: '008285D657',
         title: 'The Alchemist',
         series: '',
         author: 'Paulo Coelho',
@@ -5424,6 +5898,7 @@ let bookData = [
         thumb: './images/alchemist.jpg',
     },
     {
+        bookID: '0023E3B655',
         title: 'The Good Earth',
         series: '',
         author: 'Pearl S. Buck',
@@ -5436,6 +5911,7 @@ let bookData = [
         thumb: './images/good-earth.jpg',
     },
     {
+        bookID: '00D979B3DF',
         title: 'Shortest Way Home',
         series: '',
         author: 'Pete Buttigieg',
@@ -5448,6 +5924,7 @@ let bookData = [
         thumb: './images/shortest-way-home.jpg',
     },
     {
+        bookID: '00BA96A55D',
         title: '30 Years of Adventure: A Celebration of Dungeons & Dragons',
         series: '',
         author: 'Peter Archer',
@@ -5460,6 +5937,7 @@ let bookData = [
         thumb: './images/thirty-years.jpg',
     },
     {
+        bookID: '007E473865',
         title: '1001 Books You Must Read Before You Die',
         series: '',
         author: 'Peter Boxall',
@@ -5472,6 +5950,7 @@ let bookData = [
         thumb: './images/thousand-one-books.jpg',
     },
     {
+        bookID: '001360CCF8',
         title: 'Adjustment Team',
         series: '',
         author: 'Philip K Dick',
@@ -5484,6 +5963,7 @@ let bookData = [
         thumb: './images/adjustment-team.jpg',
     },
     {
+        bookID: '00D8485F42',
         title: 'Resident Evil',
         series: '',
         author: 'Philip Reed',
@@ -5496,6 +5976,7 @@ let bookData = [
         thumb: './images/resident-evil.jpg',
     },
     {
+        bookID: '00AA5E7DF9',
         title: 'Red Rising',
         series: '',
         author: 'Pierce Brown',
@@ -5508,6 +5989,7 @@ let bookData = [
         thumb: './images/red-rising.jpg',
     },
     {
+        bookID: '00806AF5BB',
         title: 'Hidden Codes & Grand Designs',
         series: '',
         author: 'Pierre Berloquin',
@@ -5520,12 +6002,13 @@ let bookData = [
         thumb: './images/hidden-codes.jpg',
     },
     /*===========================
-    	Author First Name - Q's
+    Author First Name - Q's
     ===========================*/
     /*===========================
-    	Author First Name - R's
+    Author First Name - R's
     ===========================*/
     {
+        bookID: '00CDF115A0',
         title: "Can I Be Sure I'm Saved?",
         series: '',
         author: 'R.C. Sproul',
@@ -5538,6 +6021,7 @@ let bookData = [
         thumb: './images/sure-im-saved.jpg',
     },
     {
+        bookID: '0087A8EBF9',
         title: 'What Is the Relationship between Church and State?',
         series: '',
         author: 'R.C. Sproul',
@@ -5550,6 +6034,7 @@ let bookData = [
         thumb: './images/relationship-church-state.jpg',
     },
     {
+        bookID: '0028D00AE0',
         title: 'How Should I Think About Money?',
         series: '',
         author: 'R.C. Sproul',
@@ -5562,6 +6047,7 @@ let bookData = [
         thumb: './images/how-think-money.jpg',
     },
     {
+        bookID: '00FE02F976',
         title: 'What is Predestination?',
         series: '',
         author: 'R.C. Sproul',
@@ -5574,6 +6060,7 @@ let bookData = [
         thumb: './images/predestination.jpg',
     },
     {
+        bookID: '0050B9CE24',
         title: 'Welcome to Dead House',
         series: '1',
         author: 'R.L. Stine',
@@ -5586,6 +6073,7 @@ let bookData = [
         thumb: './images/dead-house.jpg',
     },
     {
+        bookID: '00D5496582',
         title: 'Stay Out of the Basement',
         series: '2',
         author: 'R.L. Stine',
@@ -5598,6 +6086,7 @@ let bookData = [
         thumb: './images/stay-out-basement.jpg',
     },
     {
+        bookID: '0002266F26',
         title: 'Say Cheese and Die!',
         series: '4',
         author: 'R.L. Stine',
@@ -5610,6 +6099,7 @@ let bookData = [
         thumb: './images/say-cheese-die.jpg',
     },
     {
+        bookID: '0083680AA5',
         title: "The Curse of the Mummy's Tomb",
         series: '5',
         author: 'R.L. Stine',
@@ -5622,6 +6112,7 @@ let bookData = [
         thumb: './images/curse-of-mummy.jpg',
     },
     {
+        bookID: '00810940A1',
         title: 'Night of the Living Dummy',
         series: '7',
         author: 'R.L. Stine',
@@ -5634,6 +6125,7 @@ let bookData = [
         thumb: './images/night-living-dummy.jpg',
     },
     {
+        bookID: '00A5A7E2FA',
         title: 'One Day at Horrorland',
         series: '16',
         author: 'R.L. Stine',
@@ -5646,6 +6138,7 @@ let bookData = [
         thumb: './images/horrorland.jpg',
     },
     {
+        bookID: '00EDCDE8A6',
         title: 'It Came from Beneath the Sink!',
         series: '30',
         author: 'R.L. Stine',
@@ -5658,6 +6151,7 @@ let bookData = [
         thumb: './images/it-came-from-beneath.jpg',
     },
     {
+        bookID: '00DAA9BB7D',
         title: 'Werewolf Skin',
         series: '60',
         author: 'R.L. Stine',
@@ -5670,6 +6164,7 @@ let bookData = [
         thumb: './images/werewolf-skin.jpg',
     },
     {
+        bookID: '00BF909623',
         title: 'Beware of the Purple Peanut Butter',
         series: '6',
         author: 'R.L. Stine',
@@ -5682,6 +6177,7 @@ let bookData = [
         thumb: './images/purple-pb.jpg',
     },
     {
+        bookID: '006902D89E',
         title: 'Dr. Maniac vs. Robby Schwartz',
         series: '5',
         author: 'R.L. Stine',
@@ -5694,6 +6190,7 @@ let bookData = [
         thumb: './images/dr-maniac-vs.jpg',
     },
     {
+        bookID: '0078584BD5',
         title: "Who's Your Mummy?",
         series: '6',
         author: 'R.L. Stine',
@@ -5706,6 +6203,7 @@ let bookData = [
         thumb: './images/whos-your-mummy.jpg',
     },
     {
+        bookID: '007D9DA653',
         title: 'My Friends Call Me Monster',
         series: '7',
         author: 'R.L. Stine',
@@ -5718,6 +6216,7 @@ let bookData = [
         thumb: './images/friends-call-me-monster.jpg',
     },
     {
+        bookID: '00B91578B8',
         title: 'Say Cheese - And Die Screaming',
         series: '8',
         author: 'R.L. Stine',
@@ -5730,6 +6229,7 @@ let bookData = [
         thumb: './images/say-cheese-die-screaming.jpg',
     },
     {
+        bookID: '00948DC327',
         title: 'Welcome To Camp Slither',
         series: '9',
         author: 'R.L. Stine',
@@ -5742,6 +6242,7 @@ let bookData = [
         thumb: './images/camp-slither.jpg',
     },
     {
+        bookID: '0038964D3F',
         title: 'Escape From Horrorland',
         series: '11',
         author: 'R.L. Stine',
@@ -5754,6 +6255,7 @@ let bookData = [
         thumb: './images/escape-horrorland.jpg',
     },
     {
+        bookID: '004A27FE6E',
         title: 'When The Ghost Dog Howls',
         series: '13',
         author: 'R.L. Stine',
@@ -5766,6 +6268,7 @@ let bookData = [
         thumb: './images/ghost-dog-howls.jpg',
     },
     {
+        bookID: '009DC585F3',
         title: 'Little Shop of Hamsters',
         series: '14',
         author: 'R.L. Stine',
@@ -5778,6 +6281,7 @@ let bookData = [
         thumb: './images/little-shop-hamsters.jpg',
     },
     {
+        bookID: '0086241B07',
         title: 'Weirdo Halloween',
         series: '16',
         author: 'R.L. Stine',
@@ -5790,6 +6294,7 @@ let bookData = [
         thumb: './images/weirdo-halloween.jpg',
     },
     {
+        bookID: '00A19F9C0D',
         title: 'Slappy New Year!',
         series: '18',
         author: 'R.L. Stine',
@@ -5802,6 +6307,7 @@ let bookData = [
         thumb: './images/slappy-new-year.jpg',
     },
     {
+        bookID: '00E8976BD6',
         title: 'The Horror At Chiller House',
         series: '19',
         author: 'R.L. Stine',
@@ -5814,6 +6320,7 @@ let bookData = [
         thumb: './images/chiller-house.jpg',
     },
     {
+        bookID: '00239591E9',
         title: 'Dr. Maniac Will See You Now',
         series: '5',
         author: 'R.L. Stine',
@@ -5826,6 +6333,7 @@ let bookData = [
         thumb: './images/dr-maniac.jpg',
     },
     {
+        bookID: '0025F49C59',
         title: 'Creature Teacher: The Final Exam',
         series: '6',
         author: 'R.L. Stine',
@@ -5838,6 +6346,7 @@ let bookData = [
         thumb: './images/creature-teacher.jpg',
     },
     {
+        bookID: '0072D3CDF8',
         title: 'Zombie Halloween',
         series: '1',
         author: 'R.L. Stine',
@@ -5850,6 +6359,7 @@ let bookData = [
         thumb: './images/zombie-halloween.jpg',
     },
     {
+        bookID: '00B52E3BFB',
         title: 'The 12 Screams of Christmas',
         series: '2',
         author: 'R.L. Stine',
@@ -5862,6 +6372,7 @@ let bookData = [
         thumb: './images/twelve-screams.jpg',
     },
     {
+        bookID: '001B56B98D',
         title: 'Slappy Birthday to You',
         series: '1',
         author: 'R.L. Stine',
@@ -5874,6 +6385,7 @@ let bookData = [
         thumb: './images/slappy-birthday.jpg',
     },
     {
+        bookID: '00CEDEDCCF',
         title: 'Creepy Creatures',
         series: '1',
         author: 'R.L. Stine',
@@ -5886,6 +6398,7 @@ let bookData = [
         thumb: './images/creepy-creatures.jpg',
     },
     {
+        bookID: '001E1E1759',
         title: 'Terror Trips',
         series: '2',
         author: 'R.L. Stine',
@@ -5898,6 +6411,7 @@ let bookData = [
         thumb: './images/terror-trips.jpg',
     },
     {
+        bookID: '004732DEAD',
         title: '2,000 to 10,000',
         series: '',
         author: 'Rachel Aaron',
@@ -5910,6 +6424,7 @@ let bookData = [
         thumb: './images/two-thousand.jpg',
     },
     {
+        bookID: '00EB6B4453',
         title: 'Less: A Visual Guide to Minimalism',
         series: '',
         author: 'Rachel Aust',
@@ -5922,6 +6437,7 @@ let bookData = [
         thumb: './images/less.jpg',
     },
     {
+        bookID: '00A37D32D8',
         title: "Nick & Norah's Infinite Playlist",
         series: '',
         author: 'Rachel Cohn',
@@ -5934,6 +6450,7 @@ let bookData = [
         thumb: './images/nick-norah.jpg',
     },
     {
+        bookID: '007C05D836',
         title: "Dot Journaling",
         series: '',
         author: 'Rachel Miller',
@@ -5946,6 +6463,7 @@ let bookData = [
         thumb: './images/dot-journaling.jpg',
     },
     {
+        bookID: '00E121B5D4',
         title: 'Ghosts',
         series: '',
         author: 'Raina Telgemeier',
@@ -5958,6 +6476,7 @@ let bookData = [
         thumb: './images/ghosts.jpg',
     },
     {
+        bookID: '00F6455871',
         title: 'Landline',
         series: '',
         author: 'Rainbow Rowell',
@@ -5970,6 +6489,7 @@ let bookData = [
         thumb: './images/landline.jpg',
     },
     {
+        bookID: '007B14EB61',
         title: 'Attachments',
         series: '',
         author: 'Rainbow Rowell',
@@ -5982,6 +6502,7 @@ let bookData = [
         thumb: './images/attachments.jpg',
     },
     {
+        bookID: '00CC55F449',
         title: 'Eleanor & Park',
         series: '',
         author: 'Rainbow Rowell',
@@ -5994,6 +6515,7 @@ let bookData = [
         thumb: './images/eleanor-park.jpg',
     },
     {
+        bookID: '002EDA33DF',
         title: 'Fangirl',
         series: '',
         author: 'Rainbow Rowell',
@@ -6006,6 +6528,7 @@ let bookData = [
         thumb: './images/fangirl.jpg',
     },
     {
+        bookID: '00CE197ACF',
         title: 'Carry On',
         series: '',
         author: 'Rainbow Rowell',
@@ -6018,6 +6541,7 @@ let bookData = [
         thumb: './images/carry-on1.jpg',
     },
     {
+        bookID: '00FEE6D083',
         title: 'Wayward Son',
         series: '',
         author: 'Rainbow Rowell',
@@ -6030,6 +6554,7 @@ let bookData = [
         thumb: './images/carry-on2.jpg',
     },
     {
+        bookID: '005164FFC7',
         title: 'Any Way the Wind Blows',
         series: '',
         author: 'Rainbow Rowell',
@@ -6042,6 +6567,7 @@ let bookData = [
         thumb: './images/carry-on3.jpg',
     },
     {
+        bookID: '00B7E14889',
         title: 'Kindred Spirits',
         series: '',
         author: 'Rainbow Rowell',
@@ -6054,6 +6580,7 @@ let bookData = [
         thumb: './images/kindred-spirits.jpg',
     },
     {
+        bookID: '001A6EE4A4',
         title: 'I Will Teach You to Be Rich',
         series: '',
         author: 'Ramit Sethi',
@@ -6066,6 +6593,7 @@ let bookData = [
         thumb: './images/teach-to-be-rich.jpg',
     },
     {
+        bookID: '00659A0128',
         title: 'Thing Explainer',
         series: '',
         author: 'Randall Munroe',
@@ -6078,6 +6606,7 @@ let bookData = [
         thumb: './images/thing-explainer.jpg',
     },
     {
+        bookID: '00CB48386B',
         title: 'What If?',
         series: '',
         author: 'Randall Munroe',
@@ -6090,6 +6619,7 @@ let bookData = [
         thumb: './images/what-if.jpg',
     },
     {
+        bookID: '00551321F9',
         title: 'Money, Possessions and Eternity',
         series: '',
         author: 'Randy Alcorn',
@@ -6102,6 +6632,7 @@ let bookData = [
         thumb: './images/money-eternity.jpg',
     },
     {
+        bookID: '003F77A340',
         title: 'The Treasure Principle',
         series: '',
         author: 'Randy Alcorn',
@@ -6114,6 +6645,7 @@ let bookData = [
         thumb: './images/treasure-principle.jpg',
     },
     {
+        bookID: '0077BB1535',
         title: 'Safely Home',
         series: '',
         author: 'Randy Alcorn',
@@ -6126,6 +6658,7 @@ let bookData = [
         thumb: './images/safely-home.jpg',
     },
     {
+        bookID: '00B77B509B',
         title: 'How to be Miserable',
         series: '',
         author: 'Randy Paterson',
@@ -6138,6 +6671,7 @@ let bookData = [
         thumb: './images/miserable.jpg',
     },
     {
+        bookID: '00CA5E38F8',
         title: "Miss Peregrine's Home for Peculiar Children",
         series: '',
         author: 'Ransom Riggs',
@@ -6150,6 +6684,7 @@ let bookData = [
         thumb: './images/peregrine.jpg',
     },
     {
+        bookID: '002A5A8C51',
         title: 'Welcome to the Club',
         series: '',
         author: "Raquel D'Apice",
@@ -6162,6 +6697,7 @@ let bookData = [
         thumb: './images/welcome-to-club.jpg',
     },
     {
+        bookID: '002D89960B',
         title: 'Fahrenheit 451',
         series: '',
         author: 'Ray Bradbury',
@@ -6174,6 +6710,7 @@ let bookData = [
         thumb: './images/f451.jpg',
     },
     {
+        bookID: '0080C70923',
         title: 'The Gospel',
         series: '',
         author: 'Raymond Ortlund',
@@ -6186,6 +6723,7 @@ let bookData = [
         thumb: './images/the-gospel.jpg',
     },
     {
+        bookID: '005E61B0B0',
         title: 'The Science of Nutrition',
         series: '',
         author: 'Rhiannon Lambert',
@@ -6198,6 +6736,7 @@ let bookData = [
         thumb: './images/science-nutrition.jpg',
     },
     {
+        bookID: '0020D8FF4B',
         title: 'Cemetery Dance: Issue 74-75',
         series: '',
         author: 'Richard Chizmar',
@@ -6210,6 +6749,7 @@ let bookData = [
         thumb: './images/cemetary-dance.jpg',
     },
     {
+        bookID: '00438DC4BB',
         title: 'The Most Dangerous Game',
         series: '',
         author: 'Richard Connell',
@@ -6222,6 +6762,7 @@ let bookData = [
         thumb: './images/most-dangerous.jpg',
     },
     {
+        bookID: '00BA709CFB',
         title: 'Celebration of Discipline',
         series: '',
         author: 'Richard J. Foster',
@@ -6234,6 +6775,7 @@ let bookData = [
         thumb: './images/celebration-of-disc.jpg',
     },
     {
+        bookID: '00EB0904DE',
         title: 'I Am Legend',
         series: '',
         author: 'Richard Matheson',
@@ -6246,6 +6788,7 @@ let bookData = [
         thumb: './images/i-am-legend.jpg',
     },
     {
+        bookID: '0015FA7872',
         title: 'Vampire Academy',
         series: '',
         author: 'Richelle Mead',
@@ -6258,6 +6801,7 @@ let bookData = [
         thumb: './images/vamp-academy1.jpg',
     },
     {
+        bookID: '0098B0AF23',
         title: 'Frostbite',
         series: '',
         author: 'Richelle Mead',
@@ -6270,6 +6814,7 @@ let bookData = [
         thumb: './images/vamp-academy2.jpg',
     },
     {
+        bookID: '0018FBFA97',
         title: 'Shadow Kiss',
         series: '',
         author: 'Richelle Mead',
@@ -6282,6 +6827,7 @@ let bookData = [
         thumb: './images/vamp-academy3.jpg',
     },
     {
+        bookID: '006B7F08AC',
         title: 'Blood Promise',
         series: '',
         author: 'Richelle Mead',
@@ -6294,6 +6840,7 @@ let bookData = [
         thumb: './images/vamp-academy4.jpg',
     },
     {
+        bookID: '00D0A7F35A',
         title: 'Spirit Bound',
         series: '',
         author: 'Richelle Mead',
@@ -6306,6 +6853,7 @@ let bookData = [
         thumb: './images/vamp-academy5.jpg',
     },
     {
+        bookID: '0005D09893',
         title: 'Last Sacrifice',
         series: '',
         author: 'Richelle Mead',
@@ -6318,6 +6866,7 @@ let bookData = [
         thumb: './images/vamp-academy6.jpg',
     },
     {
+        bookID: '001A0ACF0E',
         title: 'The Final Quest',
         series: '',
         author: 'Rick Joyner',
@@ -6330,6 +6879,7 @@ let bookData = [
         thumb: './images/final-quest.jpg',
     },
     {
+        bookID: '007D123404',
         title: 'The Lightning Thief',
         series: '',
         author: 'Rick Riordan',
@@ -6342,6 +6892,7 @@ let bookData = [
         thumb: './images/percy-jackson1.jpg',
     },
     {
+        bookID: '0024611D7E',
         title: 'The 5th Wave',
         series: '',
         author: 'Rick Yancey',
@@ -6354,6 +6905,7 @@ let bookData = [
         thumb: './images/the-5th-wave.jpg',
     },
     {
+        bookID: '00A40BAEA4',
         title: 'Slay the Dragon',
         series: '',
         author: 'Robert Denton Bryant',
@@ -6366,6 +6918,7 @@ let bookData = [
         thumb: './images/slay-dragon.jpg',
     },
     {
+        bookID: '003422607A',
         title: 'Changing the World Through Discipleship',
         series: '',
         author: 'Robert Herber',
@@ -6378,6 +6931,7 @@ let bookData = [
         thumb: './images/discipleship.jpg',
     },
     {
+        bookID: '00A1E4442A',
         title: 'The Eye of the World',
         series: '',
         author: 'Robert Jordan',
@@ -6390,6 +6944,7 @@ let bookData = [
         thumb: './images/wot1.jpg',
     },
     {
+        bookID: '0097755798',
         title: 'Outcast by Kirkman & Azaceta Book 1',
         series: '',
         author: 'Robert Kirkman',
@@ -6402,6 +6957,7 @@ let bookData = [
         thumb: './images/outcast.jpg',
     },
     {
+        bookID: '00243B1028',
         title: 'The Walking Dead, Vol. 1',
         series: '',
         author: 'Robert Kirkman',
@@ -6414,6 +6970,7 @@ let bookData = [
         thumb: './images/walking-dead1.jpg',
     },
     {
+        bookID: '00F662382A',
         title: 'Rich Dad, Poor Dad',
         series: '',
         author: 'Robert Kiyosaki',
@@ -6426,6 +6983,7 @@ let bookData = [
         thumb: './images/rich-dad-poor-dad.jpg',
     },
     {
+        bookID: '00557F2751',
         title: 'Good Luck Have Fun',
         series: '',
         author: 'Roland Li',
@@ -6438,6 +6996,7 @@ let bookData = [
         thumb: './images/good-luck-have-fun.jpg',
     },
     {
+        bookID: '00156A8A77',
         title: 'The Deadly Dungeon',
         series: '',
         author: 'Ron Roy',
@@ -6450,6 +7009,7 @@ let bookData = [
         thumb: './images/deadly-dungeon.jpg',
     },
     {
+        bookID: '00EF58240C',
         title: 'The Invisible Island',
         series: '',
         author: 'Ron Roy',
@@ -6462,6 +7022,7 @@ let bookData = [
         thumb: './images/invisible-island.jpg',
     },
     {
+        bookID: '00B7759D7E',
         title: 'The Missing Mummy',
         series: '',
         author: 'Ron Roy',
@@ -6474,6 +7035,7 @@ let bookData = [
         thumb: './images/missing-mummy.jpg',
     },
     {
+        bookID: '002CA93E55',
         title: 'The Big Book of 30-Day Challenges',
         series: '',
         author: 'Rosanna Casper',
@@ -6486,6 +7048,7 @@ let bookData = [
         thumb: './images/book-of-30-day.jpg',
     },
     {
+        bookID: '00B77BC6C0',
         title: 'Arrested Development',
         series: '',
         author: 'Running Press',
@@ -6498,6 +7061,7 @@ let bookData = [
         thumb: './images/arrested-development.jpg',
     },
     {
+        bookID: '0044C63F40',
         title: 'Milk and Honey',
         series: '',
         author: 'Rupi Kaur',
@@ -6510,6 +7074,7 @@ let bookData = [
         thumb: './images/milk-and-honey.jpg',
     },
     {
+        bookID: '005249E053',
         title: 'Play Dead',
         series: '',
         author: 'Ryan Brown',
@@ -6522,9 +7087,10 @@ let bookData = [
         thumb: './images/play-dead.jpg',
     },
     /*===========================
-    	Author First Name - S's
+    Author First Name - S's
     ===========================*/
     {
+        bookID: '004B12E896',
         title: 'The Umbrella Conspiracy',
         series: '',
         author: 'S.D. Perry',
@@ -6537,6 +7103,7 @@ let bookData = [
         thumb: './images/resident-evil1.jpg',
     },
     {
+        bookID: '004059BA34',
         title: 'Caliban Cove',
         series: '',
         author: 'S.D. Perry',
@@ -6549,6 +7116,7 @@ let bookData = [
         thumb: './images/resident-evil2.jpg',
     },
     {
+        bookID: '0070BA9C68',
         title: 'City of the Dead',
         series: '',
         author: 'S.D. Perry',
@@ -6561,6 +7129,7 @@ let bookData = [
         thumb: './images/resident-evil3.jpg',
     },
     {
+        bookID: '00F6537399',
         title: 'Underworld',
         series: '',
         author: 'S.D. Perry',
@@ -6573,6 +7142,7 @@ let bookData = [
         thumb: './images/resident-evil4.jpg',
     },
     {
+        bookID: '0072B763E1',
         title: 'Nemesis',
         series: '',
         author: 'S.D. Perry',
@@ -6585,6 +7155,7 @@ let bookData = [
         thumb: './images/resident-evil5.jpg',
     },
     {
+        bookID: '00A396EFBD',
         title: 'Rumble Fish',
         series: '',
         author: 'S.E. Hinton',
@@ -6597,6 +7168,7 @@ let bookData = [
         thumb: './images/rumble-fish.jpg',
     },
     {
+        bookID: '00823C9FCD',
         title: 'Scene but Not Heard',
         series: '',
         author: 'Sam Henderson',
@@ -6609,6 +7181,7 @@ let bookData = [
         thumb: './images/scene-not-heard.jpg',
     },
     {
+        bookID: '00406BD795',
         title: 'Pretty Little Liars',
         series: '',
         author: 'Sara Shepard',
@@ -6621,6 +7194,7 @@ let bookData = [
         thumb: './images/pretty-little-liars1.jpg',
     },
     {
+        bookID: '00D20AFAFD',
         title: 'Flawless',
         series: '',
         author: 'Sara Shepard',
@@ -6633,6 +7207,7 @@ let bookData = [
         thumb: './images/pretty-little-liars2.jpg',
     },
     {
+        bookID: '00D469E310',
         title: 'Perfect',
         series: '',
         author: 'Sara Shepard',
@@ -6645,6 +7220,7 @@ let bookData = [
         thumb: './images/pretty-little-liars3.jpg',
     },
     {
+        bookID: '009D78715A',
         title: 'Unbelievable',
         series: '',
         author: 'Sara Shepard',
@@ -6657,6 +7233,7 @@ let bookData = [
         thumb: './images/pretty-little-liars4.jpg',
     },
     {
+        bookID: '00A8925495',
         title: 'Wicked',
         series: '',
         author: 'Sara Shepard',
@@ -6669,6 +7246,7 @@ let bookData = [
         thumb: './images/pretty-little-liars5.jpg',
     },
     {
+        bookID: '007F508324',
         title: 'Killer',
         series: '',
         author: 'Sara Shepard',
@@ -6681,6 +7259,7 @@ let bookData = [
         thumb: './images/pretty-little-liars6.jpg',
     },
     {
+        bookID: '0022AEE3B0',
         title: 'Heartless',
         series: '',
         author: 'Sara Shepard',
@@ -6693,6 +7272,7 @@ let bookData = [
         thumb: './images/pretty-little-liars7.jpg',
     },
     {
+        bookID: '00245DE042',
         title: 'Wanted',
         series: '',
         author: 'Sara Shepard',
@@ -6705,6 +7285,7 @@ let bookData = [
         thumb: './images/pretty-little-liars8.jpg',
     },
     {
+        bookID: '00D0198530',
         title: "Rick and Morty: Lil' Poopy Superstar",
         series: '',
         author: 'Sarah Graley',
@@ -6717,6 +7298,7 @@ let bookData = [
         thumb: './images/rick-morty-poopy.jpg',
     },
     {
+        bookID: '0040B02B09',
         title: 'Level Up!: The Guide to Great Video Game Design',
         series: '',
         author: 'Scott Rogers',
@@ -6729,6 +7311,7 @@ let bookData = [
         thumb: './images/level-up.jpg',
     },
     {
+        bookID: '00A053C64D',
         title: 'Uglies',
         series: '',
         author: 'Scott Westerfeld',
@@ -6741,6 +7324,7 @@ let bookData = [
         thumb: './images/uglies1.jpg',
     },
     {
+        bookID: '0074C59AE8',
         title: 'Pretties',
         series: '',
         author: 'Scott Westerfeld',
@@ -6753,6 +7337,7 @@ let bookData = [
         thumb: './images/uglies2.jpg',
     },
     {
+        bookID: '00630BB0A0',
         title: 'Specials',
         series: '',
         author: 'Scott Westerfeld',
@@ -6765,6 +7350,7 @@ let bookData = [
         thumb: './images/uglies3.jpg',
     },
     {
+        bookID: '00D9E99A65',
         title: 'Extras',
         series: '',
         author: 'Scott Westerfeld',
@@ -6777,6 +7363,7 @@ let bookData = [
         thumb: './images/uglies4.jpg',
     },
     {
+        bookID: '00649767C8',
         title: 'Uglies: Cutters',
         series: '',
         author: 'Scott Westerfeld',
@@ -6789,6 +7376,7 @@ let bookData = [
         thumb: './images/uglies-graphic2.jpg',
     },
     {
+        bookID: '00E896B44E',
         title: 'Abraham Lincoln: Vampire Hunter',
         series: '',
         author: 'Seth Grahame-Smith',
@@ -6801,6 +7389,7 @@ let bookData = [
         thumb: './images/abe-lincoln-vamp.jpg',
     },
     {
+        bookID: '000ECFF6AF',
         title: 'Smartcuts',
         series: '',
         author: 'Shane Snow',
@@ -6813,6 +7402,7 @@ let bookData = [
         thumb: './images/smartcuts.jpg',
     },
     {
+        bookID: '0099BB5EB7',
         title: 'Kicking It',
         series: '',
         author: 'Shanna Germain',
@@ -6825,6 +7415,7 @@ let bookData = [
         thumb: './images/kicking-it.jpg',
     },
     {
+        bookID: '0005C7002B',
         title: 'Where the Sidewalk Ends',
         series: '',
         author: 'Shel Silverstein',
@@ -6837,6 +7428,7 @@ let bookData = [
         thumb: './images/where-sidewalk-ends.jpg',
     },
     {
+        bookID: '0019A67C87',
         title: 'Falling Up',
         series: '',
         author: 'Shel Silverstein',
@@ -6849,6 +7441,7 @@ let bookData = [
         thumb: './images/falling-up.jpg',
     },
     {
+        bookID: '00875A47C3',
         title: 'A Light in the Attic',
         series: '',
         author: 'Shel Silverstein',
@@ -6861,6 +7454,7 @@ let bookData = [
         thumb: './images/light-in-attic.jpg',
     },
     {
+        bookID: '004A59AAB3',
         title: 'The Absolutely True Diary of a Part-Time Indian',
         series: '',
         author: 'Sherman Alexie',
@@ -6873,6 +7467,7 @@ let bookData = [
         thumb: './images/part-time-indian.jpg',
     },
     {
+        bookID: '004D634429',
         title: 'Lean In',
         series: '',
         author: 'Sheryl Sandberg',
@@ -6885,6 +7480,7 @@ let bookData = [
         thumb: './images/lean-in.jpg',
     },
     {
+        bookID: '00284CA561',
         title: 'The Montessori Toddler',
         series: '',
         author: 'Simone Davies',
@@ -6897,6 +7493,7 @@ let bookData = [
         thumb: './images/montessori.jpg',
     },
     {
+        bookID: '00B37031F4',
         title: 'Who Moved My Cheese?',
         series: '',
         author: 'Spencer Johnson',
@@ -6909,6 +7506,7 @@ let bookData = [
         thumb: './images/who-moved-cheese.jpg',
     },
     {
+        bookID: '00F98E6494',
         title: 'My True Love Gave to Me',
         series: '',
         author: 'Stephanie Perkins',
@@ -6921,6 +7519,7 @@ let bookData = [
         thumb: './images/my-true-love.jpg',
     },
     {
+        bookID: '00FDD7589E',
         title: "There's Someone Inside Your House",
         series: '',
         author: 'Stephanie Perkins',
@@ -6933,6 +7532,7 @@ let bookData = [
         thumb: './images/someone-inside-house.jpg',
     },
     {
+        bookID: '00E8E5B917',
         title: 'The Perks of Being a Wallflower',
         series: '',
         author: 'Stephen Chbosky',
@@ -6945,6 +7545,7 @@ let bookData = [
         thumb: './images/perks-wallflower.jpg',
     },
     {
+        bookID: '00DFCC7919',
         title: 'I Am America (And So Can You!)',
         series: '',
         author: 'Stephen Colbert',
@@ -6957,6 +7558,7 @@ let bookData = [
         thumb: './images/i-am-america.jpg',
     },
     {
+        bookID: '00465C8560',
         title: 'America Again',
         series: '',
         author: 'Stephen Colbert',
@@ -6969,6 +7571,7 @@ let bookData = [
         thumb: './images/america-again.jpg',
     },
     {
+        bookID: '007C2B941D',
         title: 'The 7 Habits of Highly Effective People',
         series: '',
         author: 'Stephen Covey',
@@ -6981,6 +7584,7 @@ let bookData = [
         thumb: './images/7-habits.jpg',
     },
     {
+        bookID: '0069BDE1D2',
         title: 'The 7 Habits of Highly Effective People Personal Workbook',
         series: '',
         author: 'Stephen Covey',
@@ -6993,6 +7597,7 @@ let bookData = [
         thumb: './images/7-habits-workbook.jpg',
     },
     {
+        bookID: '00482B8373',
         title: 'The Red Badge of Courage',
         series: '',
         author: 'Stephen Crane',
@@ -7005,6 +7610,7 @@ let bookData = [
         thumb: './images/red-badge.jpg',
     },
     {
+        bookID: '000340C565',
         title: 'The Green Mile, Part 1',
         series: '',
         author: 'Stephen King',
@@ -7017,6 +7623,7 @@ let bookData = [
         thumb: './images/green-mile1.jpg',
     },
     {
+        bookID: '00535E1292',
         title: 'The Gunslinger',
         series: '',
         author: 'Stephen King',
@@ -7029,6 +7636,7 @@ let bookData = [
         thumb: './images/gunslinger.jpg',
     },
     {
+        bookID: '00381DFF1D',
         title: 'Carrie',
         series: '',
         author: 'Stephen King',
@@ -7041,6 +7649,7 @@ let bookData = [
         thumb: './images/carrie.jpg',
     },
     {
+        bookID: '005C8A92BB',
         title: 'The Shining',
         series: '',
         author: 'Stephen King',
@@ -7053,6 +7662,7 @@ let bookData = [
         thumb: './images/shining.jpg',
     },
     {
+        bookID: '0005699D08',
         title: 'Doctor Sleep',
         series: '',
         author: 'Stephen King',
@@ -7065,6 +7675,7 @@ let bookData = [
         thumb: './images/dr-sleep.jpg',
     },
     {
+        bookID: '00D24B16B8',
         title: 'Pet Sematary',
         series: '',
         author: 'Stephen King',
@@ -7077,6 +7688,7 @@ let bookData = [
         thumb: './images/pet-sem.jpg',
     },
     {
+        bookID: '0028750D65',
         title: 'The Stand',
         series: '',
         author: 'Stephen King',
@@ -7089,6 +7701,7 @@ let bookData = [
         thumb: './images/the-stand.jpg',
     },
     {
+        bookID: '00E823CF51',
         title: 'Misery',
         series: '',
         author: 'Stephen King',
@@ -7101,6 +7714,7 @@ let bookData = [
         thumb: './images/misery.jpg',
     },
     {
+        bookID: '00EA809222',
         title: 'On Writing',
         series: '',
         author: 'Stephen King',
@@ -7113,6 +7727,7 @@ let bookData = [
         thumb: './images/on-writing.jpg',
     },
     {
+        bookID: '00784F3C79',
         title: 'It',
         series: '',
         author: 'Stephen King',
@@ -7125,6 +7740,7 @@ let bookData = [
         thumb: './images/it.jpg',
     },
     {
+        bookID: '002AD7DB13',
         title: 'Building Your Band of Brothers',
         series: '',
         author: 'Stephen Mansfield',
@@ -7137,6 +7753,7 @@ let bookData = [
         thumb: './images/band-brothers.jpg',
     },
     {
+        bookID: '00A6F12268',
         title: 'Twilight',
         series: '',
         author: 'Stephenie Meyer',
@@ -7149,6 +7766,7 @@ let bookData = [
         thumb: './images/twilight1.jpg',
     },
     {
+        bookID: '0077DED676',
         title: 'New Moon',
         series: '',
         author: 'Stephenie Meyer',
@@ -7161,6 +7779,7 @@ let bookData = [
         thumb: './images/twilight2.jpg',
     },
     {
+        bookID: '00800D7D03',
         title: 'Eclipse',
         series: '',
         author: 'Stephenie Meyer',
@@ -7173,6 +7792,7 @@ let bookData = [
         thumb: './images/twilight3.jpg',
     },
     {
+        bookID: '00E25110E2',
         title: 'Breaking Dawn',
         series: '',
         author: 'Stephenie Meyer',
@@ -7185,6 +7805,7 @@ let bookData = [
         thumb: './images/twilight4.jpg',
     },
     {
+        bookID: '00E5BFE0BF',
         title: 'Midnight Sun',
         series: '',
         author: 'Stephenie Meyer',
@@ -7197,6 +7818,7 @@ let bookData = [
         thumb: './images/twilight5.jpg',
     },
     {
+        bookID: '00F74735D0',
         title: 'Twilight / Life and Death',
         series: '',
         author: 'Stephenie Meyer',
@@ -7209,6 +7831,7 @@ let bookData = [
         thumb: './images/twilight-life-death.jpg',
     },
     {
+        bookID: '009B02FFB6',
         title: 'Level Up Your Life',
         series: '',
         author: 'Steve Kamb',
@@ -7221,6 +7844,7 @@ let bookData = [
         thumb: './images/level-up-life.jpg',
     },
     {
+        bookID: '004ABB867E',
         title: '30 Days of Night, Vol. 1',
         series: '',
         author: 'Steve Niles',
@@ -7233,6 +7857,7 @@ let bookData = [
         thumb: './images/thirty-days-night1.jpg',
     },
     {
+        bookID: '00801F44FF',
         title: '30 Days of Night, Vol. 2',
         series: '',
         author: 'Steve Niles',
@@ -7245,6 +7870,7 @@ let bookData = [
         thumb: './images/thirty-days-night2.jpg',
     },
     {
+        bookID: '009E7F5659',
         title: '30 Days of Night, Vol. 4',
         series: '',
         author: 'Steve Niles',
@@ -7257,6 +7883,7 @@ let bookData = [
         thumb: './images/thirty-days-night4.jpg',
     },
     {
+        bookID: '00DBD2BCC3',
         title: 'The Ultimate History of Video Games',
         series: '',
         author: 'Steven L. Kent',
@@ -7269,6 +7896,7 @@ let bookData = [
         thumb: './images/ultimate-history-vgs.jpg',
     },
     {
+        bookID: '00B620EA64',
         title: 'Think Like a Freak',
         series: '',
         author: 'Steven Levitt',
@@ -7281,6 +7909,7 @@ let bookData = [
         thumb: './images/think-like-freak.jpg',
     },
     {
+        bookID: '00EEB3BA17',
         title: 'The War of Art',
         series: '',
         author: 'Steven Pressfield',
@@ -7293,6 +7922,7 @@ let bookData = [
         thumb: './images/war-of-art.jpg',
     },
     {
+        bookID: '00A06244B3',
         title: 'The 7½ Deaths of Evelyn Hardcastle',
         series: '',
         author: 'Stuart Turton',
@@ -7305,6 +7935,7 @@ let bookData = [
         thumb: './images/seven-half-deaths.jpg',
     },
     {
+        bookID: '00E072F0C6',
         title: 'The Art of War',
         series: '',
         author: 'Sun Tzu',
@@ -7317,6 +7948,7 @@ let bookData = [
         thumb: './images/art-of-war.jpg',
     },
     {
+        bookID: '00CFD6B7FE',
         title: 'The Hunger Games',
         series: '',
         author: 'Suzanne Collins',
@@ -7329,6 +7961,7 @@ let bookData = [
         thumb: './images/hunger-games1.jpg',
     },
     {
+        bookID: '001FB8F667',
         title: 'Catching Fire',
         series: '',
         author: 'Suzanne Collins',
@@ -7341,6 +7974,7 @@ let bookData = [
         thumb: './images/hunger-games2.jpg',
     },
     {
+        bookID: '00FF465380',
         title: 'Mockingjay',
         series: '',
         author: 'Suzanne Collins',
@@ -7353,6 +7987,7 @@ let bookData = [
         thumb: './images/hunger-games3.jpg',
     },
     {
+        bookID: '0088A65E7F',
         title: 'Sleeping Giants',
         series: '',
         author: 'Sylvain Neuvel',
@@ -7365,6 +8000,7 @@ let bookData = [
         thumb: './images/sleeping-giants1.jpg',
     },
     {
+        bookID: '0020D37D6B',
         title: 'Waking Gods',
         series: '',
         author: 'Sylvain Neuvel',
@@ -7377,9 +8013,10 @@ let bookData = [
         thumb: './images/sleeping-giants2.jpg',
     },
     /*===========================
-    	Author First Name - T's
+    Author First Name - T's
     ===========================*/
     {
+        bookID: '0082BCE57E',
         title: 'Between the World and Me',
         series: '',
         author: 'Ta-Nehisi Coates',
@@ -7392,6 +8029,7 @@ let bookData = [
         thumb: './images/between-the-world.jpg',
     },
     {
+        bookID: '0099D04B69',
         title: 'Thr3e',
         series: '',
         author: 'Ted Dekker',
@@ -7404,6 +8042,7 @@ let bookData = [
         thumb: './images/thr3e.jpg',
     },
     {
+        bookID: '00E86B6057',
         title: 'The Slumber of Christianity',
         series: '',
         author: 'Ted Dekker',
@@ -7416,6 +8055,7 @@ let bookData = [
         thumb: './images/slumber-christianity.jpg',
     },
     {
+        bookID: '00C5F673A1',
         title: "Martyr's Song",
         series: '',
         author: 'Ted Dekker',
@@ -7428,6 +8068,7 @@ let bookData = [
         thumb: './images/martyrs-song.jpg',
     },
     {
+        bookID: '0007DD6224',
         title: 'Danger in the Desert',
         series: '',
         author: 'Terri Fields',
@@ -7440,6 +8081,7 @@ let bookData = [
         thumb: './images/danger-in-desert.jpg',
     },
     {
+        bookID: '00348DE63F',
         title: 'Missing in the Mountains',
         series: '',
         author: 'Terri Fields',
@@ -7452,6 +8094,7 @@ let bookData = [
         thumb: './images/missing-in-mountains.jpg',
     },
     {
+        bookID: '00B14ACD04',
         title: 'Citizenship in a Republilc',
         series: '',
         author: 'Theodore Roosevelt',
@@ -7464,6 +8107,7 @@ let bookData = [
         thumb: './images/citizenship.jpg',
     },
     {
+        bookID: '00A63B62FE',
         title: 'Getting Started with SQL',
         series: '',
         author: 'Thomas Nield',
@@ -7476,6 +8120,7 @@ let bookData = [
         thumb: './images/getting-started-sql.jpg',
     },
     {
+        bookID: '00D212C33C',
         title: 'How to Eat Fried Worms',
         series: '',
         author: 'Thomas Rockfield',
@@ -7488,6 +8133,7 @@ let bookData = [
         thumb: './images/eat-fried-worms.jpg',
     },
     {
+        bookID: '0073F1A0BC',
         title: 'Left Behind',
         series: '',
         author: 'Tim LaHaye',
@@ -7500,6 +8146,7 @@ let bookData = [
         thumb: './images/left-behind1.jpg',
     },
     {
+        bookID: '0000B0A909',
         title: 'Tribulation Force',
         series: '',
         author: 'Tim LaHaye',
@@ -7512,6 +8159,7 @@ let bookData = [
         thumb: './images/left-behind2.jpg',
     },
     {
+        bookID: '007C14DADB',
         title: 'The 4-Hour Body',
         series: '',
         author: 'Timothy Ferriss',
@@ -7524,6 +8172,7 @@ let bookData = [
         thumb: './images/four-hour-body.jpg',
     },
     {
+        bookID: '00035132D7',
         title: 'The 4-Hour Workweek',
         series: '',
         author: 'Timothy Ferriss',
@@ -7536,6 +8185,7 @@ let bookData = [
         thumb: './images/four-hour-work.jpg',
     },
     {
+        bookID: '00D389D73C',
         title: 'The Prodigal God',
         series: '',
         author: 'Timothy J. Keller',
@@ -7548,6 +8198,7 @@ let bookData = [
         thumb: './images/prodigal-god.jpg',
     },
     {
+        bookID: '005CB8A86B',
         title: 'Bossypants',
         series: '',
         author: 'Tina Fey',
@@ -7560,6 +8211,7 @@ let bookData = [
         thumb: './images/bossypants.jpg',
     },
     {
+        bookID: '007266B841',
         title: 'Heaven is for Real',
         series: '',
         author: 'Todd Burpo',
@@ -7572,6 +8224,7 @@ let bookData = [
         thumb: './images/heaven-real.jpg',
     },
     {
+        bookID: '00588ADB98',
         title: 'Fun Inc.',
         series: '',
         author: 'Tom Chatfield',
@@ -7584,6 +8237,7 @@ let bookData = [
         thumb: './images/fun.jpg',
     },
     {
+        bookID: '00A88D344A',
         title: 'Strengths Finder 2.0',
         series: '',
         author: 'Tom Rath',
@@ -7596,6 +8250,7 @@ let bookData = [
         thumb: './images/strengths-finder.jpg',
     },
     {
+        bookID: '00AC1881F0',
         title: 'Death Note Vol. 1',
         series: '',
         author: 'Tsugumi Ohba',
@@ -7608,12 +8263,13 @@ let bookData = [
         thumb: './images/deathnote1.jpg',
     },
     /*===========================
-    	Author First Name - U's
+    Author First Name - U's
     ===========================*/
     /*===========================
-    	Author First Name - V's
+    Author First Name - V's
     ===========================*/
     {
+        bookID: '00EADAFC09',
         title: "Anya's Ghost",
         series: '',
         author: 'Vera Brosgol',
@@ -7626,6 +8282,7 @@ let bookData = [
         thumb: './images/anyas-ghost.jpg',
     },
     {
+        bookID: '0042DCE239',
         title: 'Divergent',
         series: '',
         author: 'Veronica Roth',
@@ -7638,6 +8295,7 @@ let bookData = [
         thumb: './images/divergent1.jpg',
     },
     {
+        bookID: '00271670B8',
         title: 'Insurgent',
         series: '',
         author: 'Veronica Roth',
@@ -7650,6 +8308,7 @@ let bookData = [
         thumb: './images/divergent2.jpg',
     },
     {
+        bookID: '00211211FF',
         title: 'Allegiant',
         series: '',
         author: 'Veronica Roth',
@@ -7662,6 +8321,7 @@ let bookData = [
         thumb: './images/divergent3.jpg',
     },
     {
+        bookID: '00408AF16F',
         title: 'Ark',
         series: '',
         author: 'Veronica Roth',
@@ -7674,6 +8334,7 @@ let bookData = [
         thumb: './images/ark.jpg',
     },
     {
+        bookID: '00CA712E92',
         title: 'Slumdog Millionaire',
         series: '',
         author: 'Vikas Swarup',
@@ -7686,6 +8347,7 @@ let bookData = [
         thumb: './images/slumdog.jpg',
     },
     {
+        bookID: '0032A95F55',
         title: "The Smart Girl's Guide to Privacy",
         series: '',
         author: 'Violet Blue',
@@ -7698,9 +8360,10 @@ let bookData = [
         thumb: './images/smart-girl-privacy.jpg',
     },
     /*===========================
-    	Author First Name - W's
+    Author First Name - W's
     ===========================*/
     {
+        bookID: '0062974C32',
         title: 'Warner Bros. Studio Tour London',
         series: '',
         author: 'Warner Bros',
@@ -7713,6 +8376,7 @@ let bookData = [
         thumb: './images/warner-bros-studio.jpg',
     },
     {
+        bookID: '00FF36A3B8',
         title: 'Systematic Theology',
         series: '',
         author: 'Wayne Grudem',
@@ -7725,6 +8389,7 @@ let bookData = [
         thumb: './images/systematic-theology.jpg',
     },
     {
+        bookID: '00CEDF0903',
         title: 'Things We Think About Games',
         series: '',
         author: 'Will Hindmarch',
@@ -7737,6 +8402,7 @@ let bookData = [
         thumb: './images/things-we-think-about-games.jpg',
     },
     {
+        bookID: '007BDB4E67',
         title: 'Lord of the Flies',
         series: '',
         author: 'William Golding',
@@ -7749,6 +8415,7 @@ let bookData = [
         thumb: './images/lord-of-flies.jpg',
     },
     {
+        bookID: '00BA09FF20',
         title: 'Make Your Bed',
         series: '',
         author: 'William McRaven',
@@ -7761,6 +8428,7 @@ let bookData = [
         thumb: './images/make-your-bed.jpg',
     },
     {
+        bookID: '001484A5C1',
         title: 'Romeo and Juliet',
         series: '',
         author: 'William Shakespeare',
@@ -7773,6 +8441,7 @@ let bookData = [
         thumb: './images/romeo-juliet.jpg',
     },
     {
+        bookID: '00281482AD',
         title: 'Hamlet',
         series: '',
         author: 'William Shakespeare',
@@ -7785,6 +8454,7 @@ let bookData = [
         thumb: './images/hamlet.jpg',
     },
     {
+        bookID: '000E38B3D9',
         title: 'Macbeth',
         series: '',
         author: 'William Shakespeare',
@@ -7797,6 +8467,7 @@ let bookData = [
         thumb: './images/macbeth.jpg',
     },
     {
+        bookID: '00AF416576',
         title: "A Midsummer Night's Dream",
         series: '',
         author: 'William Shakespeare',
@@ -7809,6 +8480,7 @@ let bookData = [
         thumb: './images/midsummer-nights-dream.jpg',
     },
     {
+        bookID: '00F60429F5',
         title: 'Ghosts of Saltmarsh',
         series: '',
         author: 'Wizards RPG Team',
@@ -7821,6 +8493,7 @@ let bookData = [
         thumb: './images/ghosts-saltmarsh.jpg',
     },
     {
+        bookID: '00C212B069',
         title: 'Tales from the Yawning Portal',
         series: '',
         author: 'Wizards RPG Team',
@@ -7833,12 +8506,13 @@ let bookData = [
         thumb: './images/tales-yawning.jpg',
     },
     /*===========================
-    	Author First Name - X's
+    Author First Name - X's
     ===========================*/
     /*===========================
-    	Author First Name - Y's
+    Author First Name - Y's
     ===========================*/
     {
+        bookID: '00FAC22D55',
         title: 'Sapiens',
         series: '',
         author: 'Yuval Noah Harari',
@@ -7851,6 +8525,7 @@ let bookData = [
         thumb: './images/sapiens.jpg',
     },
     {
+        bookID: '0047BF88E9',
         title: 'The Willow Files, Vol. 2',
         series: '',
         author: 'Yvonne Navarro',
@@ -7863,9 +8538,10 @@ let bookData = [
         thumb: './images/willow-files2.jpg',
     },
     /*===========================
-    	Author First Name - Z's
+    Author First Name - Z's
     ===========================*/
     {
+        bookID: '0093EB6408',
         title: 'Rick and Morty, Vol. 1',
         series: '',
         author: 'Zac Gorman',
@@ -7878,6 +8554,7 @@ let bookData = [
         thumb: './images/rick-morty.jpg',
     },
     {
+        bookID: '000D06B581',
         title: 'The Other Black Girl',
         series: '',
         author: 'Zakiya Dalila Harris',
@@ -7892,655 +8569,657 @@ let bookData = [
 ];
 
 let allBooksOrderedRankings = [
-    "Harry Potter and the Deathly Hallows",
-    "Harry Potter and the Sorcerer's Stone",
-    "Harry Potter and the Half-Blood Prince",
-    "Harry Potter and the Goblet of Fire",
-    "Harry Potter and the Chamber of Secrets",
-    "Harry Potter and the Prisoner of Azkaban",
-    "Harry Potter and the Order of the Phoenix",
-    "The Name of the Wind",
-    "The Emperor's Soul",
-    "Words of Radiance",
-    "The Wise Man's Fear",
-    "Thunderhead",
-    "Project Hail Mary",
-    "Warm Bodies",
-    "Warbreaker",
-    "The Way of Kings",
-    "The Final Empire",
-    "Blood, Sweat, and Pixels",
-    "Ready Player One",
-    "An Absolutely Remarkable Thing",
-    "Level Up Your Life",
-    "The Ultimate History of Video Games",
-    "The 7½ Deaths of Evelyn Hardcastle",
-    "Big Little Lies",
-    "Scythe",
-    "The Gospel",
-    "The Hero of Ages",
-    'The Complete Guide to Absolutely Everything',
-    "I Will Teach You to Be Rich",
-    "Looking for Alaska",
-    "Fight Club",
-    "Let It Snow",
-    "Vampire Academy",
-    "Goodbye, Things",
-    "Red Rising",
-    "The Toll",
-    "Level Up!: The Guide to Great Video Game Design",
-    "Elantris",
-    "The Well of Ascension",
-    "Player's Handbook",
-    'To Hell with the Hustle',
-    "Shadows for Silence in the Forests of Hell",
-    "The Eye of the World",
-    "Fangirl",
-    "The Alloy of Law",
-    "The Kobold Guide to Board Game Design",
-    "Bands of Mourning",
-    "Shadows of Self",
-    "The Burning World",
-    "Radical",
-    "Math with Bad Drawings",
-    "The Anthropocene Reviewed",
-    "Steelheart",
-    "One More Thing",
-    "Atomic Habits",
-    "On Writing",
-    "Insanely Simple",
-    "America Again",
-    "Rick and Morty vs. Dungeons & Dragons",
-    "Press Reset",
-    "The Stand",
-    "Rich Dad, Poor Dad",
-    "Going Bovine",
-    "Where'd You Go, Bernadette",
-    "Discipline Equals Freedom",
-    "Simplify Magazine 001",
-    "Simplify Magazine 003",
-    "Simplify Magazine 002",
-    'Between the World and Me',
-    "The Shining",
-    "Six of Crows",
-    "Crooked Kingdom",
-    "The Martian",
-    "Verity",
-    "Every Day",
-    "The Hitchhiker's Guide to the Galaxy",
-    "Number the Stars",
-    "Paper Towns",
-    "An Abundance of Katherines",
-    "The Hunger Games",
-    "Slumdog Millionaire",
-    "The Cuckoo's Calling",
-    "Twilight / Life and Death",
-    "Twilight",
-    "Stolen Focus",
-    "Frostbite",
-    "Shadow Kiss",
-    "Blood Promise",
-    "Spirit Bound",
-    "Last Sacrifice",
-    "Divergent",
-    "Misery",
-    "The Caretaker of Lorne Field",
-    "Manna",
-    "Whispers",
-    "Pretty Little Liars",
-    "Storm Front",
-    "Nick & Norah's Infinite Playlist",
-    "One of Us Is Lying",
-    "Meddling Kids",
-    "The Hobbit",
-    "Safely Home",
-    "Bird Box",
-    "The Giver",
-    "The Da Vinci Code",
-    "Angels & Demons",
-    "A Beautifully Foolish Endeavor",
-    "Ready Player Two",
-    "Edgedancer",
-    "Essentialism",
-    "The Ultimate Guide to Video Game Writing and Design",
-    "Game On!",
-    "The Screwtape Letters",
-    "The Slumber of Christianity",
-    "The Lion, the Witch and the Wardrobe",
-    "The Christmas Pig",
-    "The Office",
-    "Sixth of the Dusk",
-    "Very Good Lives",
-    "The Revenge of Analog",
-    "Console Wars",
-    "Short Stories from Hogwarts of Heroism, Hardship and Dangerous Hobbies",
-    "Short Stories from Hogwarts of Power, Politics and Pesky Poltergeists",
-    "Hogwarts: An Incomplete and Unreliable Guide",
-    "Mistborn Secret History",
-    "White Sand, Volume 2",
-    "White Sand, Volume 1",
-    "The Eleventh Metal",
-    "The Hope of Elantris",
-    "Dungeon Master's Guide",
-    "The Treasure Principle",
-    "Celebration of Discipline",
-    "Letters to the Church",
-    "Thing Explainer",
-    "What If?",
-    "Things That Matter",
-    "David and Goliath",
-    "The Midnight Library",
-    "Erasing Hell",
-    "Can I Be Sure I'm Saved?",
-    "The Rithmatist",
-    "Follow Me",
-    "Living With Less",
-    "Outliers",
-    "How Should I Think About Money?",
-    "Spelunky",
-    "Effortless",
-    'The Power of Habit',
-    "Legion",
-    "Bored and Brilliant",
-    'How to Break Up with Your Phone',
-    "Wayward Son",
-    "What is Predestination?",
-    "The Montessori Toddler",
-    "Building Your Band of Brothers",
-    "Tales from the Yawning Portal",
-    "Ghosts of Saltmarsh",
-    "The One Thing",
-    "Bad Choices",
-    "What Is the Relationship between Church and State?",
-    "Food Rules",
-    "The New Hunger",
-    "The Five Dysfunctions of a Team",
-    "Nerve",
-    "Ten Arguments For Deleting Your Social Media Accounts Right Now",
-    "Wild at Heart",
-    "Doctrine",
-    "The Radical Reformission",
-    "A Discovery of Witches",
-    "The Restaurant at the End of the Universe",
-    "Eat This And Live",
-    "Catching Fire",
-    "Mockingjay",
-    "The Girl on the Train",
-    "Everything, Everything",
-    "The Perks of Being a Wallflower",
-    "Holes",
-    "Will Grayson, Will Grayson",
-    "Turtles All the Way Down",
-    "Sideways Stories from Wayside School",
-    "Wayside School Is Falling Down",
-    "Wayside School Gets a Little Stranger",
-    "The Summer I Turned Pretty",
-    "Fool Moon",
-    "Thr3e",
-    "It",
-    "The DUFF",
-    "The Lost Symbol",
-    "Inferno",
-    "Eclipse",
-    "Midnight Sun",
-    "New Moon",
-    "Breaking Dawn",
-    "Insurgent",
-    "Allegiant",
-    "Grave Peril",
-    "Artemis",
-    "Landline",
-    "Attachments",
-    "It's Not Summer Without You",
-    "We'll Always Have Summer",
-    "Martyr's Song",
-    "Kindred Spirits",
-    "Another Day",
-    "Eleanor & Park",
-    "The Lightning Thief",
-    "I Love You, Beth Cooper",
-    "Legend",
-    "Artemis Fowl",
-    "Slade House",
-    "Simon vs. the Homo Sapiens Agenda",
-    "Aristotle and Dante Discover the Secrets of the Universe",
-    "The Fellowship of the Ring",
-    "The Fault in Our Stars",
-    "Where the Sidewalk Ends",
-    "Falling Up",
-    "A Light in the Attic",
-    "The Club",
-    "My Best Friend's Exorcism",
-    "Horrorstör",
-    "Uglies",
-    "Welcome to the Club",
-    "The Umbrella Conspiracy",
-    "City of the Dead",
-    "Nemesis",
-    "The Absolutely True Diary of a Part-Time Indian",
-    "Unshakeable",
-    "How Much is Enough?",
-    "Beyond Awkward",
-    "Irresistible",
-    "Slow",
-    "Digital Minimalism",
-    "Deep Work",
-    "The Nerdist Way",
-    "Jacked",
-    "The More of Less",
-    "The Minimalist Home",
-    "Guilty Pleasures",
-    "There's Someone Inside Your House",
-    "I Am America (And So Can You!)",
-    "Pet Sematary",
-    "30 Days To Understanding the Bible",
-    "The Yellow Wallpaper",
-    "Welcome to Dead House",
-    "One Day at Horrorland",
-    "Night of the Living Dummy",
-    "Say Cheese and Die!",
-    "A Wrinkle in Time",
-    "Systematic Theology",
-    "Mind Hacking",
-    "The Soccer Book",
-    "100 Things We've Lost to the Internet",
-    "How to Build Strong & Lean Bodyweight Muscle",
-    "Dead Until Dark",
-    "Flawless",
-    "Perfect",
-    "Unbelievable",
-    "Skin Deep",
-    "Lies of the Beholder",
-    "Minecraft",
-    "Lean In",
-    "Sleeping Giants",
-    "How Not to Be Wrong",
-    "The Upside of Unrequited",
-    "Carry On",
-    "Fahrenheit 451",
-    "Tarzan of the Apes",
-    "Mean Girls",
-    "Werewolf Skin",
-    "Super Mario",
-    "Looking for God in Harry Potter",
-    "Hatchet",
-    "I Am Legend",
-    "The Most Dangerous Game",
-    "Things Fall Apart",
-    "Night",
-    "The Great Gatsby",
-    "Animal Farm",
-    "The Canterville Ghost",
-    "The Tales of Beedle the Bard",
-    "The Magician's Nephew",
-    "Learning Chinese Characters",
-    "Think Like a Freak",
-    "Tipping Point",
-    "Death Note Vol. 1",
-    "Creativity, Inc.",
-    "We Should All Be Feminists",
-    "The Office BFFs",
-    "Navigating Genesis",
-    "The Official Pokémon Handbook",
-    "The Southern Book Club's Guide to Slaying Vampires",
-    "Fantastic Beasts and Where to Find Them",
-    "High Performance Habits",
-    "The Money Answer Book",
-    "The Total Money Makeover",
-    "Dave Ramsey's Complete Guide to Money",
-    "Sapiens",
-    "The Science of Nutrition",
-    "Anguish Languish",
-    "Wicked",
-    "Killer",
-    "Heartless",
-    "Wanted",
-    "The Graveyard Book",
-    "Scott Pilgrim, Volume 1",
-    "Scott Pilgrim, Volume 2",
-    "Scott Pilgrim, Volume 3",
-    "Scott Pilgrim, Volume 4",
-    "Scott Pilgrim, Vol. 5",
-    "Scott Pilgrim, Vol. 6",
-    "Lord of the Flies",
-    "AsapSCIENCE",
-    "The Best American Infographics 2013",
-    "Laws of the Game 21/22",
-    "America's History, For the AP Course",
-    "How Not to Die",
-    "Because the Internet",
-    "Fluent in 3 Months",
-    "Drink?",
-    "Creativity",
-    "Retire Inspired",
-    "Fantastic Beasts and Where to Find Them: The Original Screenplay",
-    "Be Prepared",
-    "Naked Statistics",
-    "God Is in the Small Stuff",
-    "World of Warcraft",
-    "Super Better",
-    "Drive",
-    "The Little Book of Talent",
-    "Changing the World Through Discipleship",
-    "The Life-Changing Magic of Tidying Up",
-    "The Subtle Art of Not Giving a F*ck",
-    "Spark Joy",
-    "Allomancer Jak and the Pits of Elantia",
-    "First, Break All the Rules",
-    "Planet Funny",
-    "Wayside School Beneath the Cloud of Doom",
-    "The Inferno",
-    "House of Leaves",
-    "Jesus and John Wayne",
-    "Theodore Roosevelt",
-    "Rick and Morty, Vol. 1",
-    "Rick and Morty: Lil' Poopy Superstar",
-    "A Modest Proposal",
-    "Read Japanese Today",
-    "Resident Evil",
-    "Who Moved My Cheese?",
-    "The New One Minute Manager",
-    "The War of Art",
-    "What the Most Successful People Do Before Breakfast",
-    "The 7 Habits of Highly Effective People",
-    "The 7 Habits of Highly Effective People Personal Workbook",
-    "Citizenship in a Republilc",
-    "Remnant of Victory",
-    "Slay the Dragon",
-    "Ghosts",
-    "Ark",
-    "Three Men in a Boat",
-    "Who's Afraid of the Multiverse",
-    "Ender's Game",
-    "Harry Potter and the Cursed Child",
-    "Don't Get Caught",
-    "The Maze Runner",
-    "Cold Sassy Tree",
-    "Me and Earl and the Dying Girl",
-    "Maze",
-    "The Green Mile, Part 1",
-    "Flowers for Algernon",
-    "Hocus Pocus & The All New Sequel",
-    "The Great Divorce",
-    "Doctor Sleep",
-    "Carrie",
-    "Pretties",
-    "The Rising",
-    "So Good They Can't Ignore You",
-    "Diary of a Wimpy Kid",
-    "The Circle",
-    "Quidditch Through the Ages",
-    "Encyclopedia Brown Takes the Cake!",
-    "Encyclopedia Brown and the Case of the Disgusting Sneakers",
-    "Coraline",
-    "Frankenstein",
-    "Bossypants",
-    "The 5th Wave",
-    "Play Dead",
-    "Underworld",
-    "Caliban Cove",
-    "A Secret Life",
-    "Recruited",
-    "Specials",
-    "The Arctic Incident",
-    "The Eternity Code",
-    "The Opal Deception",
-    "The Lost Colony",
-    "The Time Paradox",
-    "Charlotte's Web",
-    "Extras",
-    "The Gamer's Bucket List",
-    "Project 333",
-    "101 Video Games to Play Before You Grow Up",
-    "Leah on the Offbeat",
-    "What If It's Us",
-    "Scary Stories to Tell in the Dark",
-    "More Scary Stories to Tell in the Dark",
-    "More Tales to Chill Your Bones",
-    "Wuthering Heights",
-    "Waking Gods",
-    "Make Your Bed",
-    "One Day in the Life of Ivan Denisovich",
-    "The History and Uncertain Future of Handwriting",
-    "We Need to Hang Out",
-    "Seven Brief Lessons on Physics",
-    "Python for Everybody",
-    "Struck By Lightning",
-    "Abraham Lincoln: Vampire Hunter",
-    "One Flew Over the Cuckoo's Nest",
-    "We Were Liars",
-    "For the Win",
-    "The River",
-    "Brian's Winter",
-    "To Kill a Mockingbird",
-    "All the Bright Places",
-    "The Bad Beginning",
-    "The Reptile Room",
-    "Any Way the Wind Blows",
-    "Miss Peregrine's Home for Peculiar Children",
-    "Warner Bros. Studio Tour London",
-    "The Prodigal God",
-    "Neverwhere",
-    "The Geek Dad's Guide to Weekend Fun",
-    "Smartcuts",
-    "Strengths Finder 2.0",
-    "Shortest Way Home",
-    "Thirteen Reasons Why",
-    "The Road Back to You",
-    "The Shallows",
-    "A Midsummer Night's Dream",
-    "Romeo and Juliet",
-    "Adjustment Team",
-    "Eat That Frog!",
-    "Money, Possessions and Eternity",
-    "Crucial Conversations",
-    "Macbeth",
-    "Hamlet",
-    "Grit",
-    "A Dirty Job",
-    "Dear Ijeawele",
-    "The Walking Dead, Vol. 1",
-    "Stay Out of the Basement",
-    "The Curse of the Mummy's Tomb",
-    "It Came from Beneath the Sink!",
-    "30 Days of Night, Vol. 1",
-    "30 Days of Night, Vol. 2",
-    "30 Days of Night, Vol. 4",
-    "Guardians of the Galaxy, Volume 1",
-    "Guardians of the Galaxy, Volume 2",
-    "Guardians of the Galaxy/All-New X-Men",
-    "Zombie Halloween",
-    "The 12 Screams of Christmas",
-    "How to Eat Fried Worms",
-    "Rumble Fish",
-    "The Mouse and the Motorcycle",
-    "The Kid Who Ran for President",
-    "My Teacher is an Alien",
-    "My Teacher Glows in the Dark",
-    "Santa Claus Doesn't Mop Floors",
-    "Werewolves Don't Go to Summer Camp",
-    "Virtual Vandals",
-    "Return to Howliday Inn",
-    "Bunnicula Strikes Again!",
-    "Danger in the Desert",
-    "Missing in the Mountains",
-    "Bridge to Terabithia",
-    "Buffy the Vampire Slayer: The Long Way Home",
-    "Night of the Living Deadpool",
-    "Return of the Living Deadpool",
-    "Haunted Mansion",
-    "Tetris: The Games People Play",
-    "The Adventures of Captain Underpants",
-    "Rise of the Dungeon Master",
-    "Vampire Baby",
-    "Archie, Vol. 1",
-    "Rick and Morty vs. Dungeons & Dragons II",
-    "Insight Guides: China",
-    "The Big Book of 30-Day Challenges",
-    "Unlimited Memory",
-    "Dot Journaling",
-    "2,000 to 10,000",
-    "Things We Think About Games",
-    "The 4-Hour Workweek",
-    "Getting Started with SQL",
-    "The Miracle Morning",
-    "The Index Card",
-    "The 30-Minute Runner",
-    "Forks Over Knives",
-    "Fun Inc.",
-    "Stupid White Men",
-    "The Case Against Sugar",
-    "BiblioTech",
-    "World War Z",
-    "The Heavenly Man",
-    "Less: A Visual Guide to Minimalism",
-    "The Smart Girl's Guide to Privacy",
-    "Good Luck Have Fun",
-    "Hidden Codes & Grand Designs",
-    "Liverpool FC",
-    "Unprotected Lexicon",
-    "Humility",
-    "The Vanishings",
-    "Second Chance",
-    "Through the Flames",
-    "Facing the Future",
-    "Left Behind",
-    "Kicking It",
-    "My True Love Gave to Me",
-    "The Father Heart of God",
-    "The Windup Girl",
-    "Crazy Rich Asians",
-    "Who Is the Greatest: Elvis or the Beatles?",
-    "A Million Miles in a Thousand Years",
-    "10,000 Things You Need to Know",
-    "The Gunslinger",
-    "How to Talk So Kids Will Listen & Listen So Kids Will Talk",
-    "The Atlantis Complex",
-    "The Last Guardian",
-    "Annihilation",
-    "Ring",
-    "The Awakening",
-    "The Struggle",
-    "The Fury",
-    "Dark Reunion",
-    "The Alchemist",
-    "The Wide Window",
-    "The Miserable Mill",
-    "The Austere Academy",
-    "Gathering Blue",
-    "Messenger",
-    "30 Years of Adventure: A Celebration of Dungeons & Dragons",
-    "Beautiful Creatures",
-    "Good Omens",
-    "The Good Earth",
-    "Matched",
-    "Crossed",
-    "Reached",
-    "Love, Creekwood",
-    "Choke",
-    "Science Hacks",
-    "The Happiness Hack",
-    "The Forests of Silence",
-    "The Danish Way of Parenting",
-    "Full Frontal Feminism",
-    "50 Things They Don't Want You to Know",
-    "Into the Wild",
-    "Finding Sisu",
-    "Milk and Honey",
-    "Anya's Ghost",
-    "The Willow Files, Vol. 2",
-    "The Other Black Girl",
-    "Nicolae High",
-    "The Underground",
-    "Busted!",
-    "Death Strike",
-    "The Search",
-    "On the Run",
-    "Into the Storm",
-    "Earthquake!",
-    "The Showdown",
-    "Judgment Day",
-    "Battling the Commander",
-    "Fire from Heaven",
-    "Terror in the Stadium",
-    "Darkening Skies",
-    "Attack of Apollyon",
-    "A Dangerous Plan",
-    "Secrets of New Babylon",
-    "Escape from New Babylon",
-    "Horsemen of Terror",
-    "Uplink from the Underground",
-    "The 125 Best Brain Teasers of All Time",
-    "1001 Books You Must Read Before You Die",
-    "Who's Your Mummy?",
-    "Say Cheese - And Die Screaming",
-    "Escape From Horrorland",
-    "The Horror At Chiller House",
-    "Nights of the Living Dead",
-    "The Deadly Dungeon",
-    "The Invisible Island",
-    "The Missing Mummy",
-    "Chasing the Dragon",
-    "Tribulation Force",
-    "Fail Until You Don't",
-    "Arrested Development",
-    "Creepy Creatures",
-    "Terror Trips",
-    "Chew, Vol. 1",
-    "Upside Down",
-    "Go Ask Alice",
-    "Shirley Jackson's The Lottery: The Authorized Graphic Adaptation",
-    "200+ Ways to Protect Your Privacy",
-    "The 4-Hour Body",
-    "The God Who Is There",
-    "Courageous Leadership",
-    "How to be Miserable",
-    "When Heaven Invades Earth",
-    "The No-Spend Challenge Guide",
-    "Passion & Purpose",
-    "The Final Quest",
-    "Surprised by the Power of the Spirit",
-    "Nazirite DNA",
-    "Heaven is for Real",
-    "The Ersatz Elevator",
-    "The Vile Village",
-    "The Hostile Hospital",
-    "The Carnivorous Carnival",
-    "The Slippery Slope",
-    "The Grim Grotto",
-    "The Penultimate Peril",
-    "The End",
-    "iPoe Vol. 1",
-    "The Magicians",
-    "Beware of the Purple Peanut Butter",
-    "My Friends Call Me Monster",
-    "Welcome To Camp Slither",
-    "When The Ghost Dog Howls",
-    "Little Shop of Hamsters",
-    "Weirdo Halloween",
-    "Slappy New Year!",
-    "Dr. Maniac Will See You Now",
-    "Creature Teacher: The Final Exam",
-    "Slappy Birthday to You",
-    "Cemetery Dance: Issue 74-75",
-    "The Art of War",
-    "A World Without Email",
-    "Nothing But the Truth",
-    "Openly Straight",
-    "Multiple Choice",
-    "Victory Over the Darkness",
-    "Living the Martial Way",
-    "The A-Z of Atari 8-bit Games",
-    "Vegan for Life",
-    "Fight Club 2",
-    "Independent Me",
-    "Scene but Not Heard",
-    "Outcast by Kirkman & Azaceta Book 1",
-    "Beautiful",
-    "Uglies: Cutters",
-    "The Living and the Dead",
-    "The Red Badge of Courage",
-    "Dr. Maniac vs. Robby Schwartz",
-    "The Year of Less",
-    "The New Answers Book 1",
+    "009EFA84E7",
+    "001E090458",
+    "00CE890734",
+    "004D7DAD49",
+    "00C27B1334",
+    "000A0EA587",
+    "00BE8DFD2F",
+    "00BE962655",
+    "00F39FC407",
+    "00BE8A9D66",
+    "008B43E0E8",
+    "0066A61222",
+    "00F2BA391D",
+    "00D01604DF",
+    "00711BD9BC",
+    "001A6462E6",
+    "00A19C9644",
+    "0019C796EC",
+    "00A4D803BB",
+    "00EB848898",
+    "009B02FFB6",
+    "00DBD2BCC3",
+    "00A06244B3",
+    "00D2B36585",
+    "0078EE406A",
+    "0080C70923",
+    "00629EBFB1",
+    "0054A49A6D",
+    "00B4C5BF83",
+    "001A6EE4A4",
+    "00D96B12AD",
+    "0048D8A909",
+    "005416ADCC",
+    "0015FA7872",
+    "004161BE4B",
+    "00AA5E7DF9",
+    "000943870C",
+    "0040B02B09",
+    "0049C2696C",
+    "00468088A0",
+    "00A8CD206E",
+    "000807CACA",
+    "0027AA948E",
+    "00A1E4442A",
+    "002EDA33DF",
+    "0075DC0EC3",
+    "00B0F240BA",
+    "00A0F41D7B",
+    "00C513D9EC",
+    "007715799B",
+    "000D95C8D6",
+    "00EB81CBF8",
+    "0014913FC5",
+    "00F1D4ACA5",
+    "00B8D86585",
+    "0083647C8F",
+    "00EA809222",
+    "003ED80F5C",
+    "00465C8560",
+    "00EF3121F9",
+    "00B35B15DC",
+    "0028750D65",
+    "00F662382A",
+    "00B6A141DA",
+    "00884CC8A5",
+    "0093763D23",
+    "00F6B801BD",
+    "00C68A8EB6",
+    "001E1F826D",
+    "0082BCE57E",
+    "005C8A92BB",
+    "00583C897F",
+    "00B3A6E49F",
+    "001B762B91",
+    "00FF6ACB5D",
+    "00121551AD",
+    "00E7A46FF5",
+    "0088512F7B",
+    "008635C566",
+    "00FA942193",
+    "00CFD6B7FE",
+    "00CA712E92",
+    "006A5B5C70",
+    "00F74735D0",
+    "00A6F12268",
+    "00F7B53F84",
+    "0098B0AF23",
+    "0018FBFA97",
+    "006B7F08AC",
+    "00D0A7F35A",
+    "0005D09893",
+    "0042DCE239",
+    "00E823CF51",
+    "006B1E70C7",
+    "0096C109F0",
+    "00F07937D2",
+    "00406BD795",
+    "006EBD244D",
+    "00A37D32D8",
+    "00FCA6BA84",
+    "0047529E09",
+    "00C5FA6901",
+    "0077BB1535",
+    "0045E093CC",
+    "00B3DE3D14",
+    "00586F650E",
+    "0009EA59B7",
+    "00BDDB1689",
+    "000D5291A2",
+    "0017DCFCD0",
+    "00CDBAE78F",
+    "00301FC038",
+    "00E4A23E60",
+    "0062133592",
+    "00E86B6057",
+    "00F391EB98",
+    "00969986EA",
+    "00A074E09D",
+    "00E5350C99",
+    "0012C24007",
+    "0006A8D917",
+    "00536432ED",
+    "00987861BB",
+    "00E4B98F64",
+    "00210BC82A",
+    "00CE5B8516",
+    "001627B6D4",
+    "002490DFFC",
+    "00B8030703",
+    "00A032A442",
+    "00711FDBBD",
+    "003F77A340",
+    "00BA709CFB",
+    "0080BD0E2E",
+    "00659A0128",
+    "00CB48386B",
+    "00D8CC6D27",
+    "00C7510480",
+    "00E1DD85EF",
+    "0060A9435B",
+    "00CDF115A0",
+    "006B253E68",
+    "000308531B",
+    "00283819CB",
+    "0065FBD8E8",
+    "0028D00AE0",
+    "00EA948439",
+    "0060C6E7AA",
+    "001BF7B337",
+    "002904C38C",
+    "008246A690",
+    "00256E94BC",
+    "00FEE6D083",
+    "00FE02F976",
+    "00284CA561",
+    "002AD7DB13",
+    "00C212B069",
+    "00F60429F5",
+    "00D829E97B",
+    "0079DEB442",
+    "0087A8EBF9",
+    "001FB9D3B3",
+    "0091339B25",
+    "00B1372519",
+    "00D4D9C8D3",
+    "00E8941762",
+    "0061C3E328",
+    "00779414EE",
+    "00B8A1C809",
+    "0007793EAC",
+    "002C43E496",
+    "00CB6A816A",
+    "001FB8F667",
+    "00FF465380",
+    "00C2B8E011",
+    "0041B17360",
+    "00E8E5B917",
+    "00E3452600",
+    "00F630333A",
+    "00D4072808",
+    "00218F4635",
+    "00EA45363E",
+    "00E49DB2AC",
+    "005F770358",
+    "00287F9388",
+    "0099D04B69",
+    "00784F3C79",
+    "009F4146BC",
+    "00343F1B69",
+    "00DD477977",
+    "00800D7D03",
+    "00E5BFE0BF",
+    "0077DED676",
+    "00E25110E2",
+    "00271670B8",
+    "00211211FF",
+    "00B971146D",
+    "00CA04ED49",
+    "00F6455871",
+    "007B14EB61",
+    "00456FB77C",
+    "0068B7919A",
+    "00C5F673A1",
+    "00B7E14889",
+    "003FE40237",
+    "00CC55F449",
+    "007D123404",
+    "00B6746673",
+    "00D235E613",
+    "00B0BFA9C4",
+    "003E8AF481",
+    "007F31E5A5",
+    "0006B62BDC",
+    "003DD8CC09",
+    "002E5B693D",
+    "0005C7002B",
+    "0019A67C87",
+    "00875A47C3",
+    "006EB305C6",
+    "00F3C00117",
+    "0089878A66",
+    "00A053C64D",
+    "002A5A8C51",
+    "004B12E896",
+    "0070BA9C68",
+    "0072B763E1",
+    "004A59AAB3",
+    "006DB8C1EB",
+    "009E45AE46",
+    "00AAED35B3",
+    "007C2C3BB0",
+    "006404CF76",
+    "007DC54D90",
+    "00BEDB27EB",
+    "00DE3F805E",
+    "009A2F7CB6",
+    "000CDB592D",
+    "0094992ECA",
+    "00BF59EEFF",
+    "00FDD7589E",
+    "00DFCC7919",
+    "00D24B16B8",
+    "00FC0B7117",
+    "00CAD2AA05",
+    "0050B9CE24",
+    "00A5A7E2FA",
+    "00810940A1",
+    "0002266F26",
+    "0042FCED35",
+    "00FF36A3B8",
+    "0098254A6F",
+    "002987B670",
+    "004D9B4A27",
+    "0058AEBFB1",
+    "000A12B338",
+    "00D20AFAFD",
+    "00D469E310",
+    "009D78715A",
+    "00BD2B2AF2",
+    "00943FD939",
+    "0023C6DD7C",
+    "004D634429",
+    "0088A65E7F",
+    "008B94DA55",
+    "00CA6011FC",
+    "00CE197ACF",
+    "002D89960B",
+    "0087DF26DE",
+    "006B5619AC",
+    "00DAA9BB7D",
+    "000BE6624E",
+    "00A3E60D07",
+    "0049CCD2CA",
+    "00EB0904DE",
+    "00438DC4BB",
+    "0023E17012",
+    "006D9F23F7",
+    "0011955E40",
+    "004B62337C",
+    "00C9B6AF67",
+    "00BFDCFF34",
+    "00B5143EB2",
+    "004FD44CD2",
+    "00B620EA64",
+    "00719A27D1",
+    "00AC1881F0",
+    "00407D31CF",
+    "00F894914D",
+    "00E112EE8B",
+    "00C77E0877",
+    "00711BEEF5",
+    "0007060AB1",
+    "007EFEE5C4",
+    "0038B5A18F",
+    "00A0AB08BF",
+    "00B5FD2BFF",
+    "001C5A82C2",
+    "00FAC22D55",
+    "005E61B0B0",
+    "00DB59DD3D",
+    "00A8925495",
+    "007F508324",
+    "0022AEE3B0",
+    "00245DE042",
+    "00727BA90A",
+    "00B2AFB6EB",
+    "00DBDE77B3",
+    "00A8B72FA4",
+    "00D213D96D",
+    "001411443A",
+    "0046934520",
+    "007BDB4E67",
+    "00C9B4E542",
+    "002824ADEA",
+    "00D3058800",
+    "009CE9E430",
+    "001EAAD875",
+    "006C4B513C",
+    "001D59D747",
+    "007D5CF3CB",
+    "00C42844D3",
+    "00ED594DAD",
+    "00841837AA",
+    "00402CC287",
+    "0061946C3C",
+    "00093FAD15",
+    "00A2EF12AA",
+    "004D51DB3F",
+    "00BBB5122B",
+    "0030616918",
+    "003422607A",
+    "0048C658D2",
+    "0091E15B4E",
+    "000C26CA04",
+    "00DB723708",
+    "006DC1AE17",
+    "0072031EBE",
+    "00A3A9EABC",
+    "004A86AD9A",
+    "00B8AE0F36",
+    "002503CC18",
+    "00D79EE1B4",
+    "00CAC47280",
+    "0093EB6408",
+    "00D0198530",
+    "009D5F5128",
+    "008BF1BF36",
+    "00D8485F42",
+    "00B37031F4",
+    "00CC56AB63",
+    "00EEB3BA17",
+    "00E3F4BC9A",
+    "007C2B941D",
+    "0069BDE1D2",
+    "00B14ACD04",
+    "00BAEC8293",
+    "00A40BAEA4",
+    "00E121B5D4",
+    "00408AF16F",
+    "00949DDB7A",
+    "009416B357",
+    "007C87652A",
+    "006C86568E",
+    "008762BA06",
+    "00A6E12BB1",
+    "0068D9B81B",
+    "0068FE1EAA",
+    "000776FC77",
+    "000340C565",
+    "00E06BDF91",
+    "0051766056",
+    "005B2AFA0A",
+    "0005699D08",
+    "00381DFF1D",
+    "0074C59AE8",
+    "0056407841",
+    "0089AF082C",
+    "0081FA4363",
+    "005D92D0B4",
+    "007468C6C5",
+    "0027BE85F3",
+    "00859A4EBD",
+    "007F3313A6",
+    "008D93D9DF",
+    "005CB8A86B",
+    "0024611D7E",
+    "005249E053",
+    "00F6537399",
+    "004059BA34",
+    "00C034E9B4",
+    "00117572CE",
+    "00630BB0A0",
+    "00B6FDDD42",
+    "0080268DEE",
+    "00403BE04E",
+    "008A313433",
+    "0040036656",
+    "00253311FB",
+    "00D9E99A65",
+    "0066162A93",
+    "00021F6FC1",
+    "00E7F095D1",
+    "00A342A811",
+    "002BCF0259",
+    "003C57771A",
+    "00F33B3310",
+    "00B0C51705",
+    "0024B302F0",
+    "0020D37D6B",
+    "00BA09FF20",
+    "0064EE4B9E",
+    "0002468740",
+    "00283338E6",
+    "0056833710",
+    "004780F702",
+    "009280EB2D",
+    "00E896B44E",
+    "0057710242",
+    "002CF0183F",
+    "001A0AFC5C",
+    "005F4B0772",
+    "002645A918",
+    "001FBB662A",
+    "0058248876",
+    "005E3EB2CB",
+    "002F91D67A",
+    "005164FFC7",
+    "00CA5E38F8",
+    "0062974C32",
+    "00D389D73C",
+    "00FA23152E",
+    "002BFDE303",
+    "000ECFF6AF",
+    "00A88D344A",
+    "00D979B3DF",
+    "0085611D34",
+    "00CC4E1890",
+    "007959CD7B",
+    "00AF416576",
+    "001484A5C1",
+    "001360CCF8",
+    "00D584CE94",
+    "00551321F9",
+    "00B47EEE1D",
+    "000E38B3D9",
+    "00281482AD",
+    "007117B941",
+    "00F64390C8",
+    "00F8A0F883",
+    "00243B1028",
+    "00D5496582",
+    "0083680AA5",
+    "00EDCDE8A6",
+    "004ABB867E",
+    "00801F44FF",
+    "009E7F5659",
+    "0006876077",
+    "0025B197AE",
+    "0067352EF0",
+    "0072D3CDF8",
+    "00B52E3BFB",
+    "00D212C33C",
+    "00A396EFBD",
+    "00805B73D4",
+    "005FCFCDA9",
+    "00279EB567",
+    "00B2854E22",
+    "00782EC3A1",
+    "0030CDE900",
+    "003B90676B",
+    "0067A8ABB3",
+    "00397B3185",
+    "0007DD6224",
+    "00348DE63F",
+    "0017CB1637",
+    "00168D16ED",
+    "0043CFBD51",
+    "00A35011E4",
+    "0038D27723",
+    "00B4CCD69A",
+    "00E1B99951",
+    "009244775D",
+    "000C14303C",
+    "00FC045666",
+    "00E79DE7BE",
+    "008CDAC11D",
+    "002CA93E55",
+    "006473520D",
+    "007C05D836",
+    "004732DEAD",
+    "00CEDF0903",
+    "00035132D7",
+    "00A63B62FE",
+    "007A401E8E",
+    "00B3EAE03A",
+    "00522EDE64",
+    "0076075560",
+    "00588ADB98",
+    "00DDE19DC7",
+    "0082C81C42",
+    "003A385342",
+    "005D0DBB55",
+    "007ED19D7A",
+    "00EB6B4453",
+    "0032A95F55",
+    "00557F2751",
+    "00806AF5BB",
+    "008F14CF7E",
+    "00AD44ED88",
+    "00F100C582",
+    "00BD7A5D01",
+    "008ACA5B0D",
+    "007EF1B03E",
+    "001A85EEAA",
+    "0073F1A0BC",
+    "0099BB5EB7",
+    "00F98E6494",
+    "009FBAB244",
+    "00E7705C72",
+    "00CF9C9780",
+    "00F932C04E",
+    "000A1FA8D9",
+    "002128B904",
+    "00535E1292",
+    "005AAC1D6A",
+    "000348261F",
+    "001A3BB896",
+    "00356E3FA1",
+    "00334C799C",
+    "00F7F61DEE",
+    "00A7C188B0",
+    "005840396C",
+    "00DA0593B0",
+    "008285D657",
+    "00ED9A2469",
+    "004A02004C",
+    "0058B57351",
+    "0023EFE1F9",
+    "009077FC9E",
+    "00BA96A55D",
+    "00F68F5677",
+    "0087CE7282",
+    "0023E3B655",
+    "0019089970",
+    "0044494F3A",
+    "00CD348B28",
+    "00D1D8AB39",
+    "00BE287023",
+    "0026A09362",
+    "00CB01BC9F",
+    "00EBC1ED7A",
+    "005E75A561",
+    "0020C7C01A",
+    "00B6BCD8CC",
+    "001CFB290B",
+    "00DF6F99EB",
+    "0044C63F40",
+    "00EADAFC09",
+    "0047BF88E9",
+    "000D06B581",
+    "00AFCF4A70",
+    "0079EF6E52",
+    "00682D028D",
+    "00F829DC19",
+    "0090AAFBCD",
+    "00F560366B",
+    "00CDC91C1B",
+    "00A09E185F",
+    "001778617D",
+    "007F3696A7",
+    "00427CA6CB",
+    "00BF16130D",
+    "0029ACAFEB",
+    "00C1F2F4BD",
+    "0097A78BD4",
+    "00A61C7AF7",
+    "009B73A7C0",
+    "00C1E62364",
+    "0034ED20AC",
+    "00B3A14E8A",
+    "00AEFA6467",
+    "007E473865",
+    "0078584BD5",
+    "00B91578B8",
+    "0038964D3F",
+    "00E8976BD6",
+    "00305AE0AB",
+    "00156A8A77",
+    "00EF58240C",
+    "00B7759D7E",
+    "00D5F041C9",
+    "0000B0A909",
+    "0007C382CE",
+    "00B77BC6C0",
+    "00CEDEDCCF",
+    "001E1E1759",
+    "0009E22FEA",
+    "00B62E2B0E",
+    "00D8D6EBBD",
+    "00F2A77EDD",
+    "0078C17E0D",
+    "007C14DADB",
+    "000D8C431E",
+    "0042C43B38",
+    "00B77B509B",
+    "0011CC6F07",
+    "006F8B47AC",
+    "00BAD2BCFC",
+    "001A0ACF0E",
+    "00CEA6737F",
+    "00DF5B1637",
+    "007266B841",
+    "00FFA50234",
+    "00DC323515",
+    "002613735E",
+    "008E3BB7D7",
+    "0079D1ADAB",
+    "00E43C128B",
+    "0013B2E029",
+    "00EEBDBFC8",
+    "00BCE4904C",
+    "00E4EF38B5",
+    "00BF909623",
+    "007D9DA653",
+    "00948DC327",
+    "004A27FE6E",
+    "009DC585F3",
+    "0086241B07",
+    "00A19F9C0D",
+    "00239591E9",
+    "0025F49C59",
+    "001B56B98D",
+    "0020D8FF4B",
+    "00E072F0C6",
+    "0052B8696B",
+    "00EA827D20",
+    "0035483303",
+    "0042113670",
+    "00C69D5740",
+    "0000834942",
+    "00265E7EEB",
+    "00F2F16CF3",
+    "00F26D966B",
+    "00EA9CADC6",
+    "00823C9FCD",
+    "0097755798",
+    "00E36BB7D4",
+    "00649767C8",
+    "00831E1F1C",
+    "00482B8373",
+    "006902D89E",
+    "004C87730B",
+    "005C1108D7",
 ];
