@@ -42,6 +42,19 @@ let bookData = [
         thumb: './images/guide-to-everything.jpg'
     },
     {
+        bookID: '',
+        title: 'Spiritual Disciplines Handbook',
+        series: '',
+        author: 'Adele Calhoun',
+        authorLast: 'Calhoun, Adele',
+        myRating: 8,
+        pages: 292,
+        wordCount: 95600,
+        pubDate: 2005,
+        yearRead: [2022],
+        thumb: './images/spiritual-discipline-handbook.jpg'
+    },
+    {
         bookID: '005AAC1D6A',
         title: 'How to Talk So Kids Will Listen & Listen So Kids Will Talk',
         series: '',
@@ -8646,7 +8659,7 @@ let bookData = [
     }
 ];
 
-let allBooksOrderedRankings = [
+/* let allBooksOrderedRankings = [
     "009EFA84E7",
     "001E090458",
     "00CE890734",
@@ -9306,4 +9319,4 @@ let allBooksOrderedRankings = [
     "006902D89E",
     "004C87730B",
     "005C1108D7",
-];
+]; */
