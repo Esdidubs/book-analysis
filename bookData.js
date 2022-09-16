@@ -3016,7 +3016,7 @@ let bookData = [
         pages: 870,
         wordCount: 257045,
         pubDate: 2003,
-        yearRead: [2003, 2010, 2017, 2018, 2019, 2020, 2021],
+        yearRead: [2003, 2010, 2017, 2018, 2019, 2020, 2021, 2022],
         thumb: './images/hp5.jpg',
     },
     {
@@ -3029,7 +3029,7 @@ let bookData = [
         pages: 652,
         wordCount: 168923,
         pubDate: 2005,
-        yearRead: [2005, 2010, 2017, 2018, 2019, 2020, 2021],
+        yearRead: [2005, 2010, 2017, 2018, 2019, 2020, 2021, 2022],
         thumb: './images/hp6.jpg',
     },
     {
