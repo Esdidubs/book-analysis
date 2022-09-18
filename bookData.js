@@ -3055,7 +3055,7 @@ let bookData = [
         pages: 759,
         wordCount: 198227,
         pubDate: 2007,
-        yearRead: [2007, 2010, 2017, 2018, 2019, 2020, 2021],
+        yearRead: [2007, 2010, 2017, 2018, 2019, 2020, 2021, 2022],
         thumb: './images/hp7.jpg',
     },
     {
