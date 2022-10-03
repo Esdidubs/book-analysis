@@ -2442,7 +2442,7 @@ let bookData = [
         pages: 374,
         wordCount: 147580,
         pubDate: 2011,
-        yearRead: [2013, 2017, 2018],
+        yearRead: [2013, 2017, 2018, 2022],
         thumb: './images/rp1.jpg',
     },
     {
@@ -2451,11 +2451,11 @@ let bookData = [
         series: '',
         author: 'Ernest Cline',
         authorLast: 'Cline, Ernest',
-        myRating: 8,
+        myRating: 7,
         pages: 384,
         wordCount: 129682,
         pubDate: 2020,
-        yearRead: [2020],
+        yearRead: [2020, 2022],
         thumb: './images/rp2.jpg',
     },
     /*===========================
