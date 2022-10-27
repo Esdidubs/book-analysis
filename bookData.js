@@ -5706,7 +5706,7 @@ let bookData = [
         pages: 504,
         wordCount: 122774,
         pubDate: 2018,
-        yearRead: [2018],
+        yearRead: [2018, 2022],
         thumb: './images/scythe2.jpg',
     },
     {
