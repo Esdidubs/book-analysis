@@ -5715,11 +5715,11 @@ let bookData = [
         series: '',
         author: 'Neal Shusterman',
         authorLast: 'Shusterman, Neal',
-        myRating: 9,
+        myRating: 10,
         pages: 625,
         wordCount: 144754,
         pubDate: 2019,
-        yearRead: [2019],
+        yearRead: [2019, 2022],
         thumb: './images/scythe3.jpg',
     },
     {
