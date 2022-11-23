@@ -3133,7 +3133,7 @@ let bookData = [
         pages: 128,
         wordCount: 13051,
         pubDate: 2001,
-        yearRead: [2001, 2016, 2021],
+        yearRead: [2001, 2016, 2021, 2022],
         thumb: './images/fantastic-beasts.jpg',
     },
     {
