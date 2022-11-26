@@ -3146,7 +3146,7 @@ let bookData = [
         pages: 56,
         wordCount: 10475,
         pubDate: 2001,
-        yearRead: [2001, 2007, 2021],
+        yearRead: [2001, 2007, 2021, 2022],
         thumb: './images/quidditch.jpg',
     },
     {
@@ -8369,6 +8369,19 @@ let bookData = [
     /*===========================
     Author First Name - U's
     ===========================*/
+    {
+        bookID: '',
+        title: 'Aladdin and the Magic Lamp',
+        series: '',
+        author: 'Unknown',
+        authorLast: 'Unknown',
+        myRating: 5,
+        pages: 49,
+        wordCount: 5500,
+        pubDate: 1704,
+        yearRead: [2022],
+        thumb: './images/aladdin.jpg',
+    },
     /*===========================
     Author First Name - V's
     ===========================*/
