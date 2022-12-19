@@ -1,7 +1,8 @@
 let bookData = [
   /*===========================
-    Author First Name - A's
+    //! Author First Name - A's
     ===========================*/
+
   {
     bookID: "0051766056",
     title: "Hocus Pocus & The All New Sequel",
@@ -1593,6 +1594,19 @@ let bookData = [
     pubDate: 2020,
     yearRead: [2020],
     thumb: "./images/project333.jpg",
+  },
+  {
+    bookID: "cefcc2dd6b",
+    title: "The Bible - ESV 2016",
+    series: "",
+    author: "Crossway",
+    authorLast: "Crossway",
+    myRating: 10,
+    pages: 1312,
+    wordCount: 757439,
+    pubDate: 2016,
+    yearRead: [2022],
+    thumb: "./images/esv-bible.jpg",
   },
   {
     bookID: "0043CFBD51",
@@ -5497,6 +5511,19 @@ let bookData = [
     pubDate: 2004,
     yearRead: [2012],
     thumb: "./images/radical-ref.jpg",
+  },
+  {
+    bookID: "1f10807993",
+    title: "Never Say No",
+    series: "",
+    author: "Mark Foreman",
+    authorLast: "Foreman, Mark",
+    myRating: 9,
+    pages: 306,
+    wordCount: 66000,
+    pubDate: 2015,
+    yearRead: [2022],
+    thumb: "./images/never-say-no.jpg",
   },
   {
     bookID: "0091E15B4E",
