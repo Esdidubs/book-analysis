@@ -2,7 +2,19 @@ let bookData = [
   /*===========================
     //! Author First Name - A's
     ===========================*/
-
+  {
+    bookID: "FF81859AA7",
+    title: "The Puzzler",
+    series: "",
+    author: "A.J. Jacobs",
+    authorLast: "Jacobs, A.J.",
+    myRating: 8,
+    pages: 368,
+    wordCount: 87606,
+    pubDate: 2022,
+    yearRead: [2023],
+    thumb: "./images/puzzler.jpg",
+  },
   {
     bookID: "0051766056",
     title: "Hocus Pocus & The All New Sequel",
@@ -2397,11 +2409,11 @@ let bookData = [
     series: "",
     author: "Douglas Adams",
     authorLast: "Adams, Douglas",
-    myRating: 8,
+    myRating: 10,
     pages: 215,
     wordCount: 55107,
     pubDate: 1979,
-    yearRead: [2015, 2019],
+    yearRead: [2015, 2019, 2023],
     thumb: "./images/hitchhiker.jpg",
   },
   {
@@ -2838,6 +2850,19 @@ let bookData = [
     pubDate: 2015,
     yearRead: [2019, 2020, 2022],
     thumb: "./images/goodbye-things.jpg",
+  },
+  {
+    bookID: "FF2E2C8742",
+    title: "Hello, Habits",
+    series: "",
+    author: "Fumio Sasaki",
+    authorLast: "Sasaki, Fumio",
+    myRating: 6,
+    pages: 304,
+    wordCount: 68452,
+    pubDate: 2018,
+    yearRead: [2023],
+    thumb: "./images/hello-habits.jpg",
   },
   /*===========================
     Author First Name - G's
@@ -5523,6 +5548,19 @@ let bookData = [
     thumb: "./images/read-japanese.jpg",
   },
   {
+    bookID: "251A63ABDD",
+    title: "The Power of Less",
+    series: "",
+    author: "Leo Babauta",
+    authorLast: "Babauta, Leo",
+    myRating: 7,
+    pages: 170,
+    wordCount: 36738,
+    pubDate: 2008,
+    yearRead: [2023],
+    thumb: "./images/power-of-less.jpg",
+  },
+  {
     bookID: "00E4EF38B5",
     title: "The Magicians",
     series: "",
@@ -6031,6 +6069,19 @@ let bookData = [
     pubDate: 2020,
     yearRead: [2021],
     thumb: "./images/midnight-library.jpg",
+  },
+  {
+    bookID: "ECBA16B19A",
+    title: "The Terrible and Wonderful Reasons Why I Run Long Distances",
+    series: "",
+    author: "Matthew Inman",
+    authorLast: "Inman, Matthew",
+    myRating: 9,
+    pages: 148,
+    wordCount: 7123,
+    pubDate: 2014,
+    yearRead: [2023],
+    thumb: "./images/why-i-run-long.jpg",
   },
   {
     bookID: "00FC0B7117",
