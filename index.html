@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Steven's Reading Library</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="icon" type="image/x-icon" href="favicon.png"> <!--Icon by https://icons8.com/-->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-  <header>Steven's Reading Library  <i class="fa fa-book"></i></header>
-  <div id="buttons">
-    <div class="yearBox"></div>
-    <div class="sortBox">
-      <div class="button-title">Sort by:</div>
-      <div class="multi-button">
-        <button type="button" id="authorFirst" class="button-80 selected" onclick="listSetup('authorFirst')">Author (First)</button>
-        <button type="button" id="authorLast" class="button-80" onclick="listSetup('authorLast')">Author (Last)</button>
-        <button type="button" id="pages" class="button-80" onclick="listSetup('pages')">Pages</button>
-        <button type="button" id="pubDate" class="button-80" onclick="listSetup('pubDate')">Publication Year</button>
-        <button type="button" id="ranking" class="button-80" onclick="listSetup('ranking')">Rating</button>
-        <button type="button" id="readCount" class="button-80" onclick="listSetup('readCount')">Read Count</button>
-        <button type="button" id="title" class="button-80" onclick="listSetup('title')">Title</button>
-        <button type="button" id="words" class="button-80" onclick="listSetup('words')">Words</button>
-      </div>
-    </div>
-  </div>
-  <hr />
-  <div class="bookContainer"></div>
-  
-  <script
-  src="https://code.jquery.com/jquery-3.5.1.js"
-  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-  crossorigin="anonymous"></script>
-  <script src="bookData.js"></script>
-  <script src="functionality.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Steven's Reading Library</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="icon" type="image/x-icon" href="favicon.png" />
+        <!--Icon by https://icons8.com/-->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+        <header>Steven's Reading Library <i class="fa fa-book"></i></header>
+        <div id="buttons">
+            <div class="yearBox"></div>
+            <div class="sortBox">
+                <div class="button-title">Sort by:</div>
+                <div class="multi-button">
+                    <button type="button" id="authorFirst" class="button-80 selected" onclick="listSetup('authorFirst')">Author (First)</button>
+                    <button type="button" id="authorLast" class="button-80" onclick="listSetup('authorLast')">Author (Last)</button>
+                    <!-- <button type="button" id="pages" class="button-80" onclick="listSetup('pages')">Pages</button> -->
+                    <button type="button" id="pubDate" class="button-80" onclick="listSetup('pubDate')">Publication Year</button>
+                    <!-- <button type="button" id="ranking" class="button-80" onclick="listSetup('ranking')">Rating</button> -->
+                    <button type="button" id="readCount" class="button-80" onclick="listSetup('readCount')">Read Count</button>
+                    <button type="button" id="title" class="button-80" onclick="listSetup('title')">Title</button>
+                    <!-- <button type="button" id="words" class="button-80" onclick="listSetup('words')">Words</button> -->
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="bookContainer"></div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="bookData.js"></script>
+        <script src="functionality.js"></script>
+    </body>
 </html>
