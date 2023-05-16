@@ -4305,6 +4305,15 @@ let bookData = [
         thumb: "./images/wwz.jpg",
     },
     {
+        title: "More Numbers Every Day",
+        author: "Micael Dahlén",
+        authorLast: "Dahlén, Micael",
+        myRating: "Liked",
+        pubDate: 2023,
+        yearRead: [2023],
+        thumb: "./images/more-numbers-day.jpg",
+    },
+    {
         title: "How Not to Die",
         author: "Michael Greger",
         authorLast: "Greger, Michael",
@@ -4366,6 +4375,15 @@ let bookData = [
         pubDate: 2017,
         yearRead: [2017],
         thumb: "./images/lottery-graphic.jpg",
+    },
+    {
+        title: "Math Without Numbers",
+        author: "Milo Beckman",
+        authorLast: "Beckman, Milo",
+        myRating: "Liked",
+        pubDate: 2021,
+        yearRead: [2023],
+        thumb: "./images/math-without-numbers.jpg",
     },
     {
         title: "AsapSCIENCE",
