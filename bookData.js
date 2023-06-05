@@ -2339,7 +2339,7 @@ let bookData = [
         authorLast: "Rowling, J.K.",
         myRating: "Loved",
         pubDate: 1997,
-        yearRead: [1999, 2000, 2001, 2002, 2010, 2011, 2012, 2017, 2018, 2019, 2020, 2021, 2021, 2022],
+        yearRead: [1999, 2000, 2001, 2002, 2010, 2011, 2012, 2017, 2018, 2019, 2020, 2021, 2021, 2022, 2023],
         thumb: "./images/hp1.jpg",
     },
     {
@@ -6493,6 +6493,15 @@ let bookData = [
         pubDate: 2017,
         yearRead: [2019],
         thumb: "./images/tales-yawning.jpg",
+    },
+    {
+        title: "A History of Video Games in 64 Objects",
+        author: "World Video Game Hall of Fame",
+        authorLast: "World Video Game Hall of Fame",
+        myRating: "Liked",
+        pubDate: 2018,
+        yearRead: [2023],
+        thumb: "./images/history-vgs-64.jpg",
     },
     /*===========================
     Author First Name - X's
