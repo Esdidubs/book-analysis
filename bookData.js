@@ -1080,6 +1080,15 @@ let bookData = [
         thumb: "./images/without-email.jpg",
     },
     {
+        title: "Customers For Life",
+        author: "Carl Sewell",
+        authorLast: "Sewell, Carl",
+        myRating: "Liked",
+        pubDate: 1990,
+        yearRead: [2023],
+        thumb: "./images/customers-for-life.jpg",
+    },
+    {
         title: "Republocrat, Confessions of a Liberal Conservative",
         author: "Carl Trueman",
         authorLast: "Trueman, Carl",
@@ -2348,7 +2357,7 @@ let bookData = [
         authorLast: "Rowling, J.K.",
         myRating: "Loved",
         pubDate: 1998,
-        yearRead: [2000, 2002, 2010, 2017, 2018, 2019, 2020, 2021, 2022],
+        yearRead: [2000, 2002, 2010, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
         thumb: "./images/hp2.jpg",
     },
     {
@@ -2357,7 +2366,7 @@ let bookData = [
         authorLast: "Rowling, J.K.",
         myRating: "Loved",
         pubDate: 1999,
-        yearRead: [2000, 2002, 2010, 2017, 2018, 2019, 2020, 2021, 2022],
+        yearRead: [2000, 2002, 2010, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
         thumb: "./images/hp3.jpg",
     },
     {
@@ -6002,7 +6011,7 @@ let bookData = [
         authorLast: "Kamb, Steve",
         myRating: "Loved",
         pubDate: 2016,
-        yearRead: [2021],
+        yearRead: [2021, 2023],
         thumb: "./images/level-up-life.jpg",
     },
     {
