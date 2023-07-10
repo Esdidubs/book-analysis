@@ -1932,6 +1932,15 @@ let bookData = [
         thumb: "./images/artemis-fowl8.jpg",
     },
     {
+        title: "Barking Up The Wrong Tree",
+        author: "Eric Barker",
+        authorLast: "Barker, Eric",
+        myRating: "Loved",
+        pubDate: 2017,
+        yearRead: [2023],
+        thumb: "./images/barking-tree.jpg",
+    },
+    {
         title: "Ready Player One",
         author: "Ernest Cline",
         authorLast: "Cline, Ernest",
@@ -2375,7 +2384,7 @@ let bookData = [
         authorLast: "Rowling, J.K.",
         myRating: "Loved",
         pubDate: 2000,
-        yearRead: [2000, 2002, 2010, 2017, 2018, 2019, 2020, 2021, 2022],
+        yearRead: [2000, 2002, 2010, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
         thumb: "./images/hp4.jpg",
     },
     {
@@ -2384,7 +2393,7 @@ let bookData = [
         authorLast: "Rowling, J.K.",
         myRating: "Loved",
         pubDate: 2003,
-        yearRead: [2003, 2010, 2017, 2018, 2019, 2020, 2021, 2022],
+        yearRead: [2003, 2010, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
         thumb: "./images/hp5.jpg",
     },
     {
@@ -2393,7 +2402,7 @@ let bookData = [
         authorLast: "Rowling, J.K.",
         myRating: "Loved",
         pubDate: 2005,
-        yearRead: [2005, 2010, 2017, 2018, 2019, 2020, 2021, 2022],
+        yearRead: [2005, 2010, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
         thumb: "./images/hp6.jpg",
     },
     {
@@ -2402,7 +2411,7 @@ let bookData = [
         authorLast: "Rowling, J.K.",
         myRating: "Loved",
         pubDate: 2007,
-        yearRead: [2007, 2010, 2017, 2018, 2019, 2020, 2021, 2022],
+        yearRead: [2007, 2010, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
         thumb: "./images/hp7.jpg",
     },
     {
@@ -3268,6 +3277,15 @@ let bookData = [
         pubDate: 2009,
         yearRead: [2017],
         thumb: "./images/chew.jpg",
+    },
+    {
+        title: "Live No Lies",
+        author: "John Mark Comer",
+        authorLast: "Comer, John Mark",
+        myRating: "Love",
+        pubDate: 2021,
+        yearRead: [2023],
+        thumb: "./images/live-no-lies.jpg",
     },
     {
         title: "BiblioTech",
