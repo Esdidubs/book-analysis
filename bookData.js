@@ -3282,7 +3282,7 @@ let bookData = [
         title: "Live No Lies",
         author: "John Mark Comer",
         authorLast: "Comer, John Mark",
-        myRating: "Love",
+        myRating: "Loved",
         pubDate: 2021,
         yearRead: [2023],
         thumb: "./images/live-no-lies.jpg",
