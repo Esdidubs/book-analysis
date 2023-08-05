@@ -2807,7 +2807,7 @@ let bookData = [
         authorLast: "Han, Jenny",
         myRating: "Liked",
         pubDate: 2009,
-        yearRead: [2018, 2022],
+        yearRead: [2018, 2022, 2023],
         thumb: "./images/summer-pretty1.jpg",
     },
     {
@@ -4634,7 +4634,7 @@ let bookData = [
         authorLast: "Rothfuss, Patrick",
         myRating: "Loved",
         pubDate: 2011,
-        yearRead: [2020],
+        yearRead: [2020, 2023],
         thumb: "./images/name-of-wind2.jpg",
     },
     {
