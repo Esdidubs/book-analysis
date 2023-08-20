@@ -2816,7 +2816,7 @@ let bookData = [
         authorLast: "Han, Jenny",
         myRating: "Liked",
         pubDate: 2010,
-        yearRead: [2018],
+        yearRead: [2018, 2023],
         thumb: "./images/summer-pretty2.jpg",
     },
     {
@@ -2825,7 +2825,7 @@ let bookData = [
         authorLast: "Han, Jenny",
         myRating: "Liked",
         pubDate: 2011,
-        yearRead: [2018],
+        yearRead: [2018, 2023],
         thumb: "./images/summer-pretty3.jpg",
     },
     {
@@ -3142,6 +3142,24 @@ let bookData = [
         pubDate: 2002,
         yearRead: [2023],
         thumb: "./images/dresden4.jpg",
+    },
+    {
+        title: "Death Masks",
+        author: "Jim Butcher",
+        authorLast: "Butcher, Jim",
+        myRating: "Liked",
+        pubDate: 2003,
+        yearRead: [2023],
+        thumb: "./images/dresden5.jpg",
+    },
+    {
+        title: "Blood Rites",
+        author: "Jim Butcher",
+        authorLast: "Butcher, Jim",
+        myRating: "Liked",
+        pubDate: 2004,
+        yearRead: [2023],
+        thumb: "./images/dresden6.jpg",
     },
     {
         title: "Rick and Morty vs. Dungeons & Dragons II",
