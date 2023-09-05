@@ -3162,6 +3162,15 @@ let bookData = [
         thumb: "./images/dresden6.jpg",
     },
     {
+        title: "Dead Beat",
+        author: "Jim Butcher",
+        authorLast: "Butcher, Jim",
+        myRating: "Liked",
+        pubDate: 2005,
+        yearRead: [2023],
+        thumb: "./images/dresden7.jpg",
+    },
+    {
         title: "Rick and Morty vs. Dungeons & Dragons II",
         author: "Jim Zub",
         authorLast: "Zub, Jim",
@@ -4513,6 +4522,15 @@ let bookData = [
         pubDate: 2022,
         yearRead: [2022],
         thumb: "./images/scythe4.jpg",
+    },
+    {
+        title: "Snow Crash",
+        author: "Neal Stephenson",
+        authorLast: "Stephenson, Neal",
+        myRating: "Meh",
+        pubDate: 1992,
+        yearRead: [2023],
+        thumb: "./images/snow-crash.jpg",
     },
     {
         title: "Neverwhere",
