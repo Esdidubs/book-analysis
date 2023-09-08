@@ -1279,8 +1279,8 @@ let bookData = [
     },
     {
         title: "Verity",
-        author: "Colleen Harris",
-        authorLast: "Harris, Colleen",
+        author: "Colleen Hoover",
+        authorLast: "Hoover, Colleen",
         myRating: "Liked",
         pubDate: 2018,
         yearRead: [2021],
