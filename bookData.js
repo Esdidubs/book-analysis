@@ -1323,6 +1323,15 @@ let bookData = [
         thumb: "./images/esv-bible.jpg",
     },
     {
+        title: "The Bible - NIV 2011",
+        author: "Biblica",
+        authorLast: "Biblica",
+        myRating: "Loved",
+        pubDate: 2011,
+        yearRead: [2023],
+        thumb: "./images/niv-bible.jpg",
+    },
+    {
         title: "Night of the Living Deadpool",
         author: "Cullen Bunn",
         authorLast: "Bunn, Cullen",
@@ -3169,6 +3178,15 @@ let bookData = [
         pubDate: 2005,
         yearRead: [2023],
         thumb: "./images/dresden7.jpg",
+    },
+    {
+        title: "Proven Guilty",
+        author: "Jim Butcher",
+        authorLast: "Butcher, Jim",
+        myRating: "Liked",
+        pubDate: 2007,
+        yearRead: [2023],
+        thumb: "./images/dresden8.jpg",
     },
     {
         title: "Rick and Morty vs. Dungeons & Dragons II",
