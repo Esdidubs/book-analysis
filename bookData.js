@@ -2795,7 +2795,7 @@ let bookData = [
     {
         title: "The Hawthorne Legacy",
         author: "Jennifer Lynn Barnes",
-        authorLast: "Lynn Barnes, Jennifer",
+        authorLast: "Barnes, Jennifer Lynn",
         myRating: "Liked",
         pubDate: 2021,
         yearRead: [2023],
@@ -2804,7 +2804,7 @@ let bookData = [
     {
         title: "The Final Gambit",
         author: "Jennifer Lynn Barnes",
-        authorLast: "Lynn Barnes, Jennifer",
+        authorLast: "Barnes, Jennifer Lynn",
         myRating: "Meh",
         pubDate: 2022,
         yearRead: [2023],
