@@ -2731,8 +2731,8 @@ let bookData = [
     },
     {
         title: "Annihilation",
-        author: "Jeff VanderMeer",
-        authorLast: "VanderMeer, Jeff",
+        author: "Jeff Vandermeer",
+        authorLast: "Vandermeer, Jeff",
         myRating: "Meh",
         pubDate: 2014,
         yearRead: [2018],
@@ -2786,7 +2786,7 @@ let bookData = [
     {
         title: "The Inheritance Games",
         author: "Jennifer Lynn Barnes",
-        authorLast: "Lynn Barnes, Jennifer",
+        authorLast: "Barnes, Jennifer Lynn",
         myRating: "Liked",
         pubDate: 2020,
         yearRead: [2023],
@@ -3788,7 +3788,7 @@ let bookData = [
     {
         title: "Jesus and John Wayne",
         author: "Kristin Kobes Du Mez",
-        authorLast: "Kobes Du Mez, Kristin",
+        authorLast: "Du Mez, Kristin Kobes",
         myRating: "Liked",
         pubDate: 2020,
         yearRead: [2021],
@@ -4607,7 +4607,7 @@ let bookData = [
     {
         title: "Victory Over the Darkness",
         author: "Neil T. Anderson",
-        authorLast: "T. Anderson, Neil",
+        authorLast: "Anderson, Neil T.",
         myRating: "Disliked",
         pubDate: 1990,
         yearRead: [2014],
@@ -4637,7 +4637,7 @@ let bookData = [
     {
         title: "Cold Sassy Tree",
         author: "Olive Ann Burns",
-        authorLast: "Ann Burns, Olive",
+        authorLast: "Burns, Olive Ann",
         myRating: "Meh",
         pubDate: 1984,
         yearRead: [2004],
@@ -6281,7 +6281,7 @@ let bookData = [
     {
         title: "The Seven Husbands of Evelyn Hugo",
         author: "Taylor Jenkins Reid",
-        authorLast: "Jenkins Reid, Taylor",
+        authorLast: "Reid, Taylor Jenkins",
         myRating: "Liked",
         pubDate: 2017,
         yearRead: [2023],
