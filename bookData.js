@@ -2061,6 +2061,15 @@ let bookData = [
         thumb: "./images/erasing-hell.jpg",
     },
     {
+        title: "Forgotten God",
+        author: "Francis Chan",
+        authorLast: "Chan, Francis",
+        myRating: "Loved",
+        pubDate: 2009,
+        yearRead: [2023],
+        thumb: "./images/forgotten-god.jpg",
+    },
+    {
         title: "The Housemaid",
         author: "Freida McFadden",
         authorLast: "McFadden, Freida",
@@ -2809,6 +2818,15 @@ let bookData = [
         pubDate: 2022,
         yearRead: [2023],
         thumb: "./images/inheritance-games3.jpg",
+    },
+    {
+        title: "The Brothers Hawthorne",
+        author: "Jennifer Lynn Barnes",
+        authorLast: "Barnes, Jennifer Lynn",
+        myRating: "Liked",
+        pubDate: 2023,
+        yearRead: [2023],
+        thumb: "./images/inheritance-games4.jpg",
     },
     {
         title: "All the Bright Places",
@@ -3568,6 +3586,15 @@ let bookData = [
         pubDate: 2017,
         yearRead: [2018],
         thumb: "./images/one-of-us-is-lying.jpg",
+    },
+    {
+        title: "One of Us Is Next",
+        author: "Karen M. McManus",
+        authorLast: "McManus, Karen M.",
+        myRating: "Liked",
+        pubDate: 2020,
+        yearRead: [2023],
+        thumb: "./images/one-of-us-is-next.jpg",
     },
     {
         title: "Bridge to Terabithia",
@@ -4418,7 +4445,7 @@ let bookData = [
         authorLast: "Anders, Max",
         myRating: "Liked",
         pubDate: 2004,
-        yearRead: [2013],
+        yearRead: [2013, 2023],
         thumb: "./images/thirty-days-bible.jpg",
     },
     {
