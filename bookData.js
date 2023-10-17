@@ -3270,6 +3270,15 @@ let bookData = [
         thumb: "./images/dresden10.jpg",
     },
     {
+        title: "Turn Coat",
+        author: "Jim Butcher",
+        authorLast: "Butcher, Jim",
+        myRating: "Loved",
+        pubDate: 2009,
+        yearRead: [2023],
+        thumb: "./images/dresden11.jpg",
+    },
+    {
         title: "Rick and Morty vs. Dungeons & Dragons II",
         author: "Jim Zub",
         authorLast: "Zub, Jim",
