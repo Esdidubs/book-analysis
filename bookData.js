@@ -3660,6 +3660,15 @@ let bookData = [
         thumb: "./images/one-of-us-is-next.jpg",
     },
     {
+        title: "One of Us Is Back",
+        author: "Karen M. McManus",
+        authorLast: "McManus, Karen M.",
+        myRating: "Liked",
+        pubDate: 2023,
+        yearRead: [2023],
+        thumb: "./images/one-of-us-is-back.jpg",
+    },
+    {
         title: "Bridge to Terabithia",
         author: "Katherine Paterson",
         authorLast: "Paterson, Katherine",
