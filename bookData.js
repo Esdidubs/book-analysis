@@ -3279,6 +3279,15 @@ let bookData = [
         thumb: "./images/dresden11.jpg",
     },
     {
+        title: "Changes",
+        author: "Jim Butcher",
+        authorLast: "Butcher, Jim",
+        myRating: "Loved",
+        pubDate: 2010,
+        yearRead: [2023],
+        thumb: "./images/dresden12.jpg",
+    },
+    {
         title: "Rick and Morty vs. Dungeons & Dragons II",
         author: "Jim Zub",
         authorLast: "Zub, Jim",
