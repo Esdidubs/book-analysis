@@ -3288,6 +3288,15 @@ let bookData = [
         thumb: "./images/dresden12.jpg",
     },
     {
+        title: "Ghost Story",
+        author: "Jim Butcher",
+        authorLast: "Butcher, Jim",
+        myRating: "Liked",
+        pubDate: 2011,
+        yearRead: [2023],
+        thumb: "./images/dresden13.jpg",
+    },
+    {
         title: "Rick and Morty vs. Dungeons & Dragons II",
         author: "Jim Zub",
         authorLast: "Zub, Jim",
@@ -5461,6 +5470,15 @@ let bookData = [
         pubDate: 2014,
         yearRead: [2022],
         thumb: "./images/the-gospel.jpg",
+    },
+    {
+        title: "NBA Jam",
+        author: "Reyan Ali",
+        authorLast: "Ali, Reyan",
+        myRating: "Loved",
+        pubDate: 2019,
+        yearRead: [2023],
+        thumb: "./images/nba-jam.jpg",
     },
     {
         title: "The Science of Nutrition",
