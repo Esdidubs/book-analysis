@@ -555,6 +555,15 @@ let bookData = [
         thumb: "./images/tetris-games.jpg",
     },
     {
+        title: "Great Illustrated Classics: Dracula",
+        author: "Bram Stoker",
+        authorLast: "Stoker, Bram",
+        myRating: "Liked",
+        pubDate: 1996,
+        yearRead: [2000],
+        thumb: "./images/gic-dracula.jpg",
+    },
+    {
         title: "Elantris",
         author: "Brandon Sanderson",
         authorLast: "Sanderson, Brandon",
@@ -2328,6 +2337,15 @@ let bookData = [
         thumb: "./images/mockingbird.jpg",
     },
     {
+        title: "Ikigai",
+        author: "Hector Garcia Puigcerver",
+        authorLast: "Garcia Puigcerver, Hector",
+        myRating: "Liked",
+        pubDate: 2016,
+        yearRead: [2023],
+        thumb: "./images/ikigai.jpg",
+    },
+    {
         title: "The Index Card",
         author: "Helaine Olen",
         authorLast: "Olen, Helaine",
@@ -3637,6 +3655,15 @@ let bookData = [
         pubDate: 2007,
         yearRead: [2016],
         thumb: "./images/buffy-s8.jpg",
+    },
+    {
+        title: "Great Illustrated Classics: A Journey to the Center of the Earth",
+        author: "Jules Verne",
+        authorLast: "Verne, Jules",
+        myRating: "Liked",
+        pubDate: 1990,
+        yearRead: [1999],
+        thumb: "./images/gic-journey-center.jpg",
     },
     /*===========================
     Author First Name - K's
