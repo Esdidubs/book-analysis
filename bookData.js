@@ -2757,6 +2757,15 @@ let bookData = [
         thumb: "./images/thirteen-reasons.jpg",
     },
     {
+        title: "Game Theory",
+        author: "Jean Baise Minbang",
+        authorLast: "Minbang, Jean Baise",
+        myRating: "Meh",
+        pubDate: 2015,
+        yearRead: [2023],
+        thumb: "./images/game-theory.jpg",
+    },
+    {
         title: "Nerve",
         author: "Jeanne Ryan",
         authorLast: "Ryan, Jeanne",
@@ -3313,6 +3322,15 @@ let bookData = [
         pubDate: 2011,
         yearRead: [2023],
         thumb: "./images/dresden13.jpg",
+    },
+    {
+        title: "Cold Days",
+        author: "Jim Butcher",
+        authorLast: "Butcher, Jim",
+        myRating: "Liked",
+        pubDate: 2012,
+        yearRead: [2023],
+        thumb: "./images/dresden14.jpg",
     },
     {
         title: "Rick and Morty vs. Dungeons & Dragons II",
@@ -5632,6 +5650,15 @@ let bookData = [
         pubDate: 2013,
         yearRead: [2015],
         thumb: "./images/the-5th-wave.jpg",
+    },
+    {
+        title: "100 Maddening Mindbending Puzzles",
+        author: "Rob Eastaway",
+        authorLast: "Eastaway, Rob",
+        myRating: "Disliked",
+        pubDate: 2019,
+        yearRead: [2023],
+        thumb: "./images/100-maddening.jpg",
     },
     {
         title: "Slay the Dragon",
