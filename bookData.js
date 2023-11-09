@@ -2328,6 +2328,15 @@ let bookData = [
         thumb: "./images/little-mermaid.jpg",
     },
     {
+        title: "Into The Dungeon",
+        author: "Hari Conner",
+        authorLast: "Conner, Hari",
+        myRating: "Liked",
+        pubDate: 2020,
+        yearRead: [2023],
+        thumb: "./images/into-the-dungeon.jpg",
+    },
+    {
         title: "To Kill a Mockingbird",
         author: "Harper Lee",
         authorLast: "Lee, Harper",
@@ -3331,6 +3340,15 @@ let bookData = [
         pubDate: 2012,
         yearRead: [2023],
         thumb: "./images/dresden14.jpg",
+    },
+    {
+        title: "Skin Game",
+        author: "Jim Butcher",
+        authorLast: "Butcher, Jim",
+        myRating: "Liked",
+        pubDate: 2014,
+        yearRead: [2023],
+        thumb: "./images/dresden15.jpg",
     },
     {
         title: "Rick and Morty vs. Dungeons & Dragons II",
@@ -4546,6 +4564,15 @@ let bookData = [
         pubDate: 2003,
         yearRead: [2017],
         thumb: "./images/manna.jpg",
+    },
+    {
+        title: "All Systems Red",
+        author: "Martha Wells",
+        authorLast: "Wells, Martha",
+        myRating: "Liked",
+        pubDate: 2017,
+        yearRead: [2023],
+        thumb: "./images/murderbot1.jpg",
     },
     {
         title: "Frankenstein",
@@ -6265,6 +6292,15 @@ let bookData = [
         pubDate: 1986,
         yearRead: [2018],
         thumb: "./images/it.jpg",
+    },
+    {
+        title: "UR",
+        author: "Stephen King",
+        authorLast: "King, Stephen",
+        myRating: "Liked",
+        pubDate: 2009,
+        yearRead: [2023],
+        thumb: "./images/ur.jpg",
     },
     {
         title: "Building Your Band of Brothers",
