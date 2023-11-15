@@ -726,6 +726,15 @@ let bookData = [
         thumb: "./images/white-sand2.jpg",
     },
     {
+        title: "White Sand, Volume 3",
+        author: "Brandon Sanderson",
+        authorLast: "Sanderson, Brandon",
+        myRating: "Meh",
+        pubDate: 2019,
+        yearRead: [2023],
+        thumb: "./images/white-sand3.jpg",
+    },
+    {
         title: "Shadows for Silence in the Forests of Hell",
         author: "Brandon Sanderson",
         authorLast: "Sanderson, Brandon",
@@ -3351,6 +3360,15 @@ let bookData = [
         thumb: "./images/dresden15.jpg",
     },
     {
+        title: "Peace Talks",
+        author: "Jim Butcher",
+        authorLast: "Butcher, Jim",
+        myRating: "Liked",
+        pubDate: 2020,
+        yearRead: [2023],
+        thumb: "./images/dresden16.jpg",
+    },
+    {
         title: "Rick and Morty vs. Dungeons & Dragons II",
         author: "Jim Zub",
         authorLast: "Zub, Jim",
@@ -4820,6 +4838,15 @@ let bookData = [
         yearRead: [2022],
         thumb: "./images/shallows.jpg",
     },
+    {
+        title: "Super Mario Bros. Encyclopedia",
+        author: "Nintendo",
+        authorLast: "Nintendo",
+        myRating: "Meh",
+        pubDate: 2017,
+        yearRead: [2023],
+        thumb: "./images/super-mario-encyclopedia.jpg",
+    },
     /*===========================
     Author First Name - O's
     ===========================*/
@@ -5767,6 +5794,15 @@ let bookData = [
         pubDate: 2016,
         yearRead: [2018],
         thumb: "./images/good-luck-have-fun.jpg",
+    },
+    {
+        title: "The 10 Most Important Things You Can Say to a Mormon",
+        author: "Ron Rhodes",
+        authorLast: "Rhodes, Ron",
+        myRating: "Meh",
+        pubDate: 2001,
+        yearRead: [2023],
+        thumb: "./images/10-things-mormon.jpg",
     },
     {
         title: "The Deadly Dungeon",
