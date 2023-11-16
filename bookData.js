@@ -3540,6 +3540,15 @@ let bookData = [
         thumb: "./images/live-no-lies.jpg",
     },
     {
+        title: "The Ruthless Elimination of Hurry",
+        author: "John Mark Comer",
+        authorLast: "Comer, John Mark",
+        myRating: "Loved",
+        pubDate: 2019,
+        yearRead: [2023],
+        thumb: "./images/elimination-of-hurry.jpg",
+    },
+    {
         title: "BiblioTech",
         author: "John Palfrey",
         authorLast: "Palfrey, John",
