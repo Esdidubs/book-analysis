@@ -69,7 +69,7 @@ function displayBooks(sortedArray) {
 										${sortedArray[book].author}
 									</div>
 									<div class="author">
-										<span class="bold">Year:</span> ${sortedArray[book].pubDate}
+										${sortedArray[book].pubDate}
 									</div>
 									<div class="author">
 										${sortedArray[book].myRating}
