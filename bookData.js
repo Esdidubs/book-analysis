@@ -1053,6 +1053,15 @@ let bookData = [
         thumb: "./images/last-battle.jpg",
     },
     {
+        title: "Mere Christianity",
+        author: "C.S. Lewis",
+        authorLast: "Lewis, C.S.",
+        myRating: "Loved",
+        pubDate: 1942,
+        yearRead: [2023],
+        thumb: "./images/mere-christianity.jpg",
+    },
+    {
         title: "The Screwtape Letters",
         author: "C.S. Lewis",
         authorLast: "Lewis, C.S.",
@@ -3207,6 +3216,15 @@ let bookData = [
         thumb: "./images/me-earl.jpg",
     },
     {
+        title: "Make Your Own Board Game",
+        author: "Jesse Terrance Daniels",
+        authorLast: "Terrance Daniels, Jesse",
+        myRating: "Meh",
+        pubDate: 2022,
+        yearRead: [2023],
+        thumb: "./images/make-board-game.jpg",
+    },
+    {
         title: "The Danish Way of Parenting",
         author: "Jessica Joelle Alexander",
         authorLast: "Alexander, Jessica Joelle",
@@ -3367,6 +3385,15 @@ let bookData = [
         pubDate: 2020,
         yearRead: [2023],
         thumb: "./images/dresden16.jpg",
+    },
+    {
+        title: "Battle Ground",
+        author: "Jim Butcher",
+        authorLast: "Butcher, Jim",
+        myRating: "Liked",
+        pubDate: 2020,
+        yearRead: [2023],
+        thumb: "./images/dresden17.jpg",
     },
     {
         title: "Rick and Morty vs. Dungeons & Dragons II",
