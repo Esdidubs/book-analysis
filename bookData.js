@@ -8,8 +8,6 @@ let bookData = [
         authorLast: "Jacobs, A.J.",
         myRating: "Liked",
         pubDate: 2022,
-        yearRead: [2023],
-        thumb: "./images/puzzler.jpg",
     },
     {
         title: "Hocus Pocus & The All New Sequel",
@@ -17,8 +15,6 @@ let bookData = [
         authorLast: "Jantha, A.W.",
         myRating: "Meh",
         pubDate: 2018,
-        yearRead: [2018],
-        thumb: "./images/hocus-pocus.jpg",
     },
     {
         title: "Irresistible",
@@ -26,8 +22,6 @@ let bookData = [
         authorLast: "Alter, Adam",
         myRating: "Liked",
         pubDate: 2017,
-        yearRead: [2021],
-        thumb: "./images/irresistible.jpg",
     },
     {
         title: "The Complete Guide to Absolutely Everything",
@@ -35,8 +29,6 @@ let bookData = [
         authorLast: "Rutherford, Adam",
         myRating: "Loved",
         pubDate: 2022,
-        yearRead: [2022],
-        thumb: "./images/guide-to-everything.jpg",
     },
     {
         title: "Spiritual Disciplines Handbook",
@@ -44,8 +36,6 @@ let bookData = [
         authorLast: "Calhoun, Adele",
         myRating: "Liked",
         pubDate: 2005,
-        yearRead: [2022],
-        thumb: "./images/spiritual-discipline-handbook.jpg",
     },
     {
         title: "How to Talk So Kids Will Listen & Listen So Kids Will Talk",
@@ -53,8 +43,6 @@ let bookData = [
         authorLast: "Faber, Adele",
         myRating: "Meh",
         pubDate: 1996,
-        yearRead: [2022],
-        thumb: "./images/talk-listen.jpg",
     },
     {
         title: "And Then There Were None",
@@ -62,8 +50,6 @@ let bookData = [
         authorLast: "Christie, Agatha",
         myRating: "Meh",
         pubDate: 1939,
-        yearRead: [2023],
-        thumb: "./images/and-then-none.jpg",
     },
     {
         title: "The Affair at the Victory Ball",
@@ -71,8 +57,6 @@ let bookData = [
         authorLast: "Christie, Agatha",
         myRating: "Meh",
         pubDate: 1923,
-        yearRead: [2023],
-        thumb: "./images/hercule-short1.jpg",
     },
     {
         title: "The Jewel Robbery at the Grand Metropolitan",
@@ -80,8 +64,6 @@ let bookData = [
         authorLast: "Christie, Agatha",
         myRating: "Liked",
         pubDate: 1923,
-        yearRead: [2023],
-        thumb: "./images/hercule-short2.jpg",
     },
     {
         title: "The King of Clubs",
@@ -89,8 +71,6 @@ let bookData = [
         authorLast: "Christie, Agatha",
         myRating: "Liked",
         pubDate: 1923,
-        yearRead: [2023],
-        thumb: "./images/hercule-short3.jpg",
     },
     {
         title: "The Disappearance of Mr. Davenheim",
@@ -98,8 +78,6 @@ let bookData = [
         authorLast: "Christie, Agatha",
         myRating: "Liked",
         pubDate: 1923,
-        yearRead: [2023],
-        thumb: "./images/hercule-short4.jpg",
     },
     {
         title: "The Plymouth Express",
@@ -107,8 +85,6 @@ let bookData = [
         authorLast: "Christie, Agatha",
         myRating: "Liked",
         pubDate: 1923,
-        yearRead: [2023],
-        thumb: "./images/hercule-short5.jpg",
     },
     {
         title: 'The Adventure of "The Western Star"',
@@ -116,8 +92,6 @@ let bookData = [
         authorLast: "Christie, Agatha",
         myRating: "Meh",
         pubDate: 1923,
-        yearRead: [2023],
-        thumb: "./images/hercule-short6.jpg",
     },
     {
         title: "The Tragedy of Marsdon Manor",
@@ -125,8 +99,6 @@ let bookData = [
         authorLast: "Christie, Agatha",
         myRating: "Meh",
         pubDate: 1923,
-        yearRead: [2023],
-        thumb: "./images/hercule-short7.jpg",
     },
     {
         title: "The Kidnapped Prime Minister",
@@ -134,8 +106,6 @@ let bookData = [
         authorLast: "Christie, Agatha",
         myRating: "Meh",
         pubDate: 1923,
-        yearRead: [2023],
-        thumb: "./images/hercule-short8.jpg",
     },
     {
         title: "Multiple Choice",
@@ -143,8 +113,6 @@ let bookData = [
         authorLast: "Zambra, Alejandro",
         myRating: "Disliked",
         pubDate: 2016,
-        yearRead: [2021],
-        thumb: "./images/multiple-choice.jpg",
     },
     {
         title: "One Day in the Life of Ivan Denisovich",
@@ -152,8 +120,6 @@ let bookData = [
         authorLast: "Solzhenitsyn, Aleksandr",
         myRating: "Meh",
         pubDate: 1962,
-        yearRead: [2006],
-        thumb: "./images/one-day.jpg",
     },
     {
         title: "Unprotected Lexicon",
@@ -161,8 +127,6 @@ let bookData = [
         authorLast: "Chrisbacher, Alexa",
         myRating: "Meh",
         pubDate: 2019,
-        yearRead: [2019],
-        thumb: "./images/lexicon.jpg",
     },
     {
         title: "Bad Choices",
@@ -170,8 +134,6 @@ let bookData = [
         authorLast: "Almossawi, Ali",
         myRating: "Liked",
         pubDate: 2017,
-        yearRead: [2022],
-        thumb: "./images/bad-choices.jpg",
     },
     {
         title: "Learning Chinese Characters",
@@ -179,8 +141,6 @@ let bookData = [
         authorLast: "Matthews, Alison",
         myRating: "Liked",
         pubDate: 2007,
-        yearRead: [2013],
-        thumb: "./images/chinese-characters.jpg",
     },
     {
         title: "Matched",
@@ -188,8 +148,6 @@ let bookData = [
         authorLast: "Condie, Ally",
         myRating: "Meh",
         pubDate: 2010,
-        yearRead: [2016],
-        thumb: "./images/matched.jpg",
     },
     {
         title: "Crossed",
@@ -197,8 +155,6 @@ let bookData = [
         authorLast: "Condie, Ally",
         myRating: "Meh",
         pubDate: 2011,
-        yearRead: [2016],
-        thumb: "./images/crossed.jpg",
     },
     {
         title: "Reached",
@@ -206,8 +162,6 @@ let bookData = [
         authorLast: "Condie, Ally",
         myRating: "Meh",
         pubDate: 2012,
-        yearRead: [2016],
-        thumb: "./images/reached.jpg",
     },
     {
         title: "Scary Stories to Tell in the Dark",
@@ -215,8 +169,6 @@ let bookData = [
         authorLast: "Schwartz, Alvin",
         myRating: "Meh",
         pubDate: 1981,
-        yearRead: [1999],
-        thumb: "./images/scary-stories1.jpg",
     },
     {
         title: "More Scary Stories to Tell in the Dark",
@@ -224,8 +176,6 @@ let bookData = [
         authorLast: "Schwartz, Alvin",
         myRating: "Meh",
         pubDate: 1984,
-        yearRead: [1999],
-        thumb: "./images/scary-stories2.jpg",
     },
     {
         title: "More Tales to Chill Your Bones",
@@ -233,8 +183,6 @@ let bookData = [
         authorLast: "Schwartz, Alvin",
         myRating: "Meh",
         pubDate: 1991,
-        yearRead: [2000],
-        thumb: "./images/scary-stories3.jpg",
     },
     {
         title: "Humility",
@@ -242,8 +190,6 @@ let bookData = [
         authorLast: "Murray, Andrew",
         myRating: "Meh",
         pubDate: 1895,
-        yearRead: [2014],
-        thumb: "./images/humility.jpg",
     },
     {
         title: "The Office",
@@ -251,8 +197,6 @@ let bookData = [
         authorLast: "Greene, Andy",
         myRating: "Liked",
         pubDate: 2020,
-        yearRead: [2021],
-        thumb: "./images/office.jpg",
     },
     {
         title: "The Martian",
@@ -260,8 +204,6 @@ let bookData = [
         authorLast: "Weir, Andy",
         myRating: "Liked",
         pubDate: 2012,
-        yearRead: [2015],
-        thumb: "./images/martian.jpg",
     },
     {
         title: "Artemis",
@@ -269,8 +211,6 @@ let bookData = [
         authorLast: "Weir, Andy",
         myRating: "Liked",
         pubDate: 2017,
-        yearRead: [2018],
-        thumb: "./images/artemis.jpg",
     },
     {
         title: "Project Hail Mary",
@@ -278,8 +218,6 @@ let bookData = [
         authorLast: "Weir, Andy",
         myRating: "Loved",
         pubDate: 2021,
-        yearRead: [2021],
-        thumb: "./images/hail-mary.jpg",
     },
     {
         title: "Grit",
@@ -287,8 +225,6 @@ let bookData = [
         authorLast: "Duckworth, Angela",
         myRating: "Meh",
         pubDate: 2016,
-        yearRead: [2019],
-        thumb: "./images/grit.jpg",
     },
     {
         title: "The History and Uncertain Future of Handwriting",
@@ -296,8 +232,6 @@ let bookData = [
         authorLast: "Trubek, Anne",
         myRating: "Meh",
         pubDate: 2014,
-        yearRead: [2019],
-        thumb: "./images/handwriting.jpg",
     },
     {
         title: "How to Build Strong & Lean Bodyweight Muscle",
@@ -305,8 +239,6 @@ let bookData = [
         authorLast: "Arvanitakis, Anthony",
         myRating: "Liked",
         pubDate: 2018,
-        yearRead: [2022],
-        thumb: "./images/bodyweight-muscle.jpg",
     },
     {
         title: "Unshakeable",
@@ -314,8 +246,6 @@ let bookData = [
         authorLast: "Robbins, Anthony",
         myRating: "Liked",
         pubDate: 2017,
-        yearRead: [2019],
-        thumb: "./images/unshakeable.jpg",
     },
     {
         title: "Maus I",
@@ -323,8 +253,6 @@ let bookData = [
         authorLast: "Spiegelman, Art",
         myRating: "Loved",
         pubDate: 1986,
-        yearRead: [2023],
-        thumb: "./images/maus.jpg",
     },
     {
         title: "How Much is Enough?",
@@ -332,8 +260,6 @@ let bookData = [
         authorLast: "Simon, Arthur",
         myRating: "Liked",
         pubDate: 2003,
-        yearRead: [2015],
-        thumb: "./images/how-much.jpg",
     },
     {
         title: "Nothing But the Truth",
@@ -341,8 +267,6 @@ let bookData = [
         authorLast: "Avi",
         myRating: "Disliked",
         pubDate: 1991,
-        yearRead: [2003],
-        thumb: "./images/nothing-but-truth.jpg",
     },
     /*===========================
     Author First Name - B's
@@ -353,8 +277,6 @@ let bookData = [
         authorLast: "Novak, B.J.",
         myRating: "Loved",
         pubDate: 2014,
-        yearRead: [2021],
-        thumb: "./images/one-more-thing.jpg",
     },
     {
         title: "Go Ask Alice",
@@ -362,8 +284,6 @@ let bookData = [
         authorLast: "Sparks, Beatrice",
         myRating: "Meh",
         pubDate: 1971,
-        yearRead: [2015],
-        thumb: "./images/alice.jpg",
     },
     {
         title: "Beyond Awkward",
@@ -371,8 +291,6 @@ let bookData = [
         authorLast: "Crosetto, Beau",
         myRating: "Liked",
         pubDate: 2014,
-        yearRead: [2015],
-        thumb: "./images/awkward.jpg",
     },
     {
         title: "What If It's Us",
@@ -380,8 +298,6 @@ let bookData = [
         authorLast: "Albertalli, Becky",
         myRating: "Meh",
         pubDate: 2018,
-        yearRead: [2018],
-        thumb: "./images/what-if-its-us.jpg",
     },
     {
         title: "The Upside of Unrequited",
@@ -389,8 +305,6 @@ let bookData = [
         authorLast: "Albertalli, Becky",
         myRating: "Liked",
         pubDate: 2017,
-        yearRead: [2017],
-        thumb: "./images/upside.jpg",
     },
     {
         title: "Simon vs. the Homo Sapiens Agenda",
@@ -398,8 +312,6 @@ let bookData = [
         authorLast: "Albertalli, Becky",
         myRating: "Liked",
         pubDate: 2015,
-        yearRead: [2017, 2018],
-        thumb: "./images/simon.jpg",
     },
     {
         title: "Leah on the Offbeat",
@@ -407,8 +319,6 @@ let bookData = [
         authorLast: "Albertalli, Becky",
         myRating: "Meh",
         pubDate: 2018,
-        yearRead: [2018],
-        thumb: "./images/leah.jpg",
     },
     {
         title: "Love, Creekwood",
@@ -416,8 +326,6 @@ let bookData = [
         authorLast: "Albertalli, Becky",
         myRating: "Meh",
         pubDate: 2020,
-        yearRead: [2021],
-        thumb: "./images/love-creekwood.jpg",
     },
     {
         title: "101 Video Games to Play Before You Grow Up",
@@ -425,8 +333,6 @@ let bookData = [
         authorLast: "Bertoli, Ben",
         myRating: "Meh",
         pubDate: 2017,
-        yearRead: [2019],
-        thumb: "./images/games-before-grow.jpg",
     },
     {
         title: "Math with Bad Drawings",
@@ -434,8 +340,6 @@ let bookData = [
         authorLast: "Orlin, Ben",
         myRating: "Loved",
         pubDate: 2018,
-        yearRead: [2019],
-        thumb: "./images/math-bad-drawings.jpg",
     },
     {
         title: "Aristotle and Dante Discover the Secrets of the Universe",
@@ -443,8 +347,6 @@ let bookData = [
         authorLast: "Sáenz, Benjamin Alire",
         myRating: "Liked",
         pubDate: 2012,
-        yearRead: [2017],
-        thumb: "./images/aristotle-dante.jpg",
     },
     {
         title: "Fluent in 3 Months",
@@ -452,8 +354,6 @@ let bookData = [
         authorLast: "Lewis, Benny",
         myRating: "Liked",
         pubDate: 2014,
-        yearRead: [2015],
-        thumb: "./images/fluent-in-3.jpg",
     },
     {
         title: "The Mouse and the Motorcycle",
@@ -461,8 +361,6 @@ let bookData = [
         authorLast: "Cleary, Beverly",
         myRating: "Meh",
         pubDate: 1965,
-        yearRead: [2000],
-        thumb: "./images/mouse-motorcycle.jpg",
     },
     {
         title: "The Joy of Supernatural Thinking",
@@ -470,8 +368,6 @@ let bookData = [
         authorLast: "Bright, Bill",
         myRating: "Liked",
         pubDate: 2002,
-        yearRead: [2022],
-        thumb: "./images/joy-supernatural-thinking.jpg",
     },
     {
         title: "Courageous Leadership",
@@ -479,8 +375,6 @@ let bookData = [
         authorLast: "Hybels, Bill",
         myRating: "Meh",
         pubDate: 2002,
-        yearRead: [2014],
-        thumb: "./images/courageous-leadership.jpg",
     },
     {
         title: "When Heaven Invades Earth",
@@ -488,8 +382,6 @@ let bookData = [
         authorLast: "Johnson, Bill",
         myRating: "Meh",
         pubDate: 2005,
-        yearRead: [2012, 2014],
-        thumb: "./images/heaven-invades.jpg",
     },
     {
         title: "Openly Straight",
@@ -497,8 +389,6 @@ let bookData = [
         authorLast: "Konigsberg, Bill",
         myRating: "Disliked",
         pubDate: 2013,
-        yearRead: [2017],
-        thumb: "./images/openly-straight.jpg",
     },
     {
         title: "Run Less, Run Faster",
@@ -506,8 +396,6 @@ let bookData = [
         authorLast: "Pierce, Bill",
         myRating: "Liked",
         pubDate: 2007,
-        yearRead: [2023],
-        thumb: "./images/runless.jpg",
     },
     {
         title: "Who Is the Greatest: Elvis or the Beatles?",
@@ -515,8 +403,6 @@ let bookData = [
         authorLast: "Slater, Bill",
         myRating: "Meh",
         pubDate: 2007,
-        yearRead: [2009],
-        thumb: "./images/elvis-beatles.jpg",
     },
     {
         title: "We Need to Hang Out",
@@ -524,8 +410,6 @@ let bookData = [
         authorLast: "Baker, Billy",
         myRating: "Meh",
         pubDate: 2021,
-        yearRead: [2021],
-        thumb: "./images/hang-out.jpg",
     },
     {
         title: "Console Wars",
@@ -533,8 +417,6 @@ let bookData = [
         authorLast: "Harris, Blake",
         myRating: "Liked",
         pubDate: 2014,
-        yearRead: [2021],
-        thumb: "./images/console-wars.jpg",
     },
     {
         title: "Fail Until You Don't",
@@ -542,8 +424,6 @@ let bookData = [
         authorLast: "Bones, Bobby",
         myRating: "Meh",
         pubDate: 2018,
-        yearRead: [2018],
-        thumb: "./images/fail-until.jpg",
     },
     {
         title: "Tetris: The Games People Play",
@@ -551,8 +431,6 @@ let bookData = [
         authorLast: "Brown, Box",
         myRating: "Meh",
         pubDate: 2016,
-        yearRead: [2021],
-        thumb: "./images/tetris-games.jpg",
     },
     {
         title: "Great Illustrated Classics: Dracula",
@@ -560,8 +438,6 @@ let bookData = [
         authorLast: "Stoker, Bram",
         myRating: "Liked",
         pubDate: 1996,
-        yearRead: [2000],
-        thumb: "./images/gic-dracula.jpg",
     },
     {
         title: "Elantris",
@@ -569,8 +445,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Loved",
         pubDate: 2006,
-        yearRead: [2020],
-        thumb: "./images/elantris.jpg",
     },
     {
         title: "The Hope of Elantris",
@@ -578,8 +452,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Liked",
         pubDate: 2006,
-        yearRead: [2020, 2022],
-        thumb: "./images/hope-elantris.jpg",
     },
     {
         title: "The Emperor's Soul",
@@ -587,8 +459,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Loved",
         pubDate: 2012,
-        yearRead: [2020, 2021, 2022],
-        thumb: "./images/emperors-soul.jpg",
     },
     {
         title: "Warbreaker",
@@ -596,8 +466,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Loved",
         pubDate: 2009,
-        yearRead: [2020],
-        thumb: "./images/warbreaker.jpg",
     },
     {
         title: "The Final Empire",
@@ -605,8 +473,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Loved",
         pubDate: 2006,
-        yearRead: [2019],
-        thumb: "./images/final-empire.jpg",
     },
     {
         title: "The Well of Ascension",
@@ -614,8 +480,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Loved",
         pubDate: 2007,
-        yearRead: [2020],
-        thumb: "./images/well-ascension.jpg",
     },
     {
         title: "The Hero of Ages",
@@ -623,8 +487,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Loved",
         pubDate: 2008,
-        yearRead: [2020],
-        thumb: "./images/hero-ages.jpg",
     },
     {
         title: "The Eleventh Metal",
@@ -632,8 +494,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Liked",
         pubDate: 2012,
-        yearRead: [2020, 2022],
-        thumb: "./images/eleventh-metal.jpg",
     },
     {
         title: "Mistborn Secret History",
@@ -641,8 +501,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2022],
-        thumb: "./images/mistborn-secret-history.jpg",
     },
     {
         title: "Allomancer Jak and the Pits of Elantia",
@@ -650,8 +508,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2022],
-        thumb: "./images/allomancer-jak.jpg",
     },
     {
         title: "The Alloy of Law",
@@ -659,8 +515,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Loved",
         pubDate: 2011,
-        yearRead: [2022],
-        thumb: "./images/mistborn4.jpg",
     },
     {
         title: "Shadows of Self",
@@ -668,8 +522,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Loved",
         pubDate: 2015,
-        yearRead: [2022],
-        thumb: "./images/mistborn5.jpg",
     },
     {
         title: "Bands of Mourning",
@@ -677,8 +529,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Loved",
         pubDate: 2016,
-        yearRead: [2022],
-        thumb: "./images/mistborn6.jpg",
     },
     {
         title: "The Way of Kings",
@@ -686,8 +536,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Loved",
         pubDate: 2010,
-        yearRead: [2022],
-        thumb: "./images/stormlight1.jpg",
     },
     {
         title: "Words of Radiance",
@@ -695,8 +543,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Loved",
         pubDate: 2014,
-        yearRead: [2022],
-        thumb: "./images/stormlight2.jpg",
     },
     {
         title: "Edgedancer",
@@ -704,8 +550,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Liked",
         pubDate: 2017,
-        yearRead: [2022],
-        thumb: "./images/edgedancer.jpg",
     },
     {
         title: "White Sand, Volume 1",
@@ -713,8 +557,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2022],
-        thumb: "./images/white-sand1.jpg",
     },
     {
         title: "White Sand, Volume 2",
@@ -722,8 +564,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Liked",
         pubDate: 2018,
-        yearRead: [2022],
-        thumb: "./images/white-sand2.jpg",
     },
     {
         title: "White Sand, Volume 3",
@@ -731,8 +571,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Meh",
         pubDate: 2019,
-        yearRead: [2023],
-        thumb: "./images/white-sand3.jpg",
     },
     {
         title: "Shadows for Silence in the Forests of Hell",
@@ -740,8 +578,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Loved",
         pubDate: 2013,
-        yearRead: [2022],
-        thumb: "./images/shadows-for-silence.jpg",
     },
     {
         title: "Sixth of the Dusk",
@@ -749,8 +585,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Liked",
         pubDate: 2014,
-        yearRead: [2022],
-        thumb: "./images/sixth-dusk.jpg",
     },
     {
         title: "Steelheart",
@@ -758,8 +592,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Loved",
         pubDate: 2013,
-        yearRead: [2020],
-        thumb: "./images/steelheart.jpg",
     },
     {
         title: "Firefight",
@@ -767,8 +599,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Liked",
         pubDate: 2015,
-        yearRead: [2023],
-        thumb: "./images/firefight.jpg",
     },
     {
         title: "Calamity",
@@ -776,8 +606,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2023],
-        thumb: "./images/calamity.jpg",
     },
     {
         title: "The Rithmatist",
@@ -785,8 +613,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Liked",
         pubDate: 2013,
-        yearRead: [2022],
-        thumb: "./images/rithmatist.jpg",
     },
     {
         title: "Legion",
@@ -794,8 +620,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Liked",
         pubDate: 2012,
-        yearRead: [2022],
-        thumb: "./images/legion1.jpg",
     },
     {
         title: "Skin Deep",
@@ -803,8 +627,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Liked",
         pubDate: 2018,
-        yearRead: [2022],
-        thumb: "./images/legion3.jpg",
     },
     {
         title: "Lies of the Beholder",
@@ -812,8 +634,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Liked",
         pubDate: 2012,
-        yearRead: [2022],
-        thumb: "./images/legion3.jpg",
     },
     {
         title: "The Original",
@@ -821,8 +641,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Liked",
         pubDate: 2020,
-        yearRead: [2023],
-        thumb: "./images/the-original.jpg",
     },
     {
         title: "Perfect State",
@@ -830,8 +648,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Liked",
         pubDate: 2015,
-        yearRead: [2023],
-        thumb: "./images/perfect-state.jpg",
     },
     {
         title: "Snapshot",
@@ -839,8 +655,6 @@ let bookData = [
         authorLast: "Sanderson, Brandon",
         myRating: "Loved",
         pubDate: 2017,
-        yearRead: [2023],
-        thumb: "./images/snapshot.jpg",
     },
     {
         title: "High Performance Habits",
@@ -848,8 +662,6 @@ let bookData = [
         authorLast: "Burchard, Brendon",
         myRating: "Liked",
         pubDate: 2017,
-        yearRead: [2017],
-        thumb: "./images/high-performance.jpg",
     },
     {
         title: "The Rising",
@@ -857,8 +669,6 @@ let bookData = [
         authorLast: "Keene, Brian",
         myRating: "Meh",
         pubDate: 2003,
-        yearRead: [2018],
-        thumb: "./images/rising.jpg",
     },
     {
         title: "Guardians of the Galaxy, Volume 1",
@@ -866,8 +676,6 @@ let bookData = [
         authorLast: "Bendis, Brian Michael",
         myRating: "Meh",
         pubDate: 2013,
-        yearRead: [2016],
-        thumb: "./images/guardians1.jpg",
     },
     {
         title: "Guardians of the Galaxy, Volume 2",
@@ -875,8 +683,6 @@ let bookData = [
         authorLast: "Bendis, Brian Michael",
         myRating: "Meh",
         pubDate: 2014,
-        yearRead: [2016],
-        thumb: "./images/guardians2.jpg",
     },
     {
         title: "Guardians of the Galaxy/All-New X-Men",
@@ -884,8 +690,6 @@ let bookData = [
         authorLast: "Bendis, Brian Michael",
         myRating: "Meh",
         pubDate: 2014,
-        yearRead: [2016],
-        thumb: "./images/guardians-xmen.jpg",
     },
     {
         title: "Eat That Frog!",
@@ -893,8 +697,6 @@ let bookData = [
         authorLast: "Tracy, Brian",
         myRating: "Meh",
         pubDate: 2001,
-        yearRead: [2018],
-        thumb: "./images/eat-frog.jpg",
     },
     {
         title: "Slow",
@@ -902,8 +704,6 @@ let bookData = [
         authorLast: "McAlary, Brooke",
         myRating: "Liked",
         pubDate: 2018,
-        yearRead: [2021],
-        thumb: "./images/slow.jpg",
     },
     {
         title: "God Is in the Small Stuff",
@@ -911,8 +711,6 @@ let bookData = [
         authorLast: "Bickel, Bruce",
         myRating: "Liked",
         pubDate: 1998,
-        yearRead: [2017],
-        thumb: "./images/god-in-small-stuff.jpg",
     },
     {
         title: "My Teacher is an Alien",
@@ -920,8 +718,6 @@ let bookData = [
         authorLast: "Coville, Bruce",
         myRating: "Meh",
         pubDate: 1989,
-        yearRead: [2001],
-        thumb: "./images/teacher-is-alien.jpg",
     },
     {
         title: "My Teacher Glows in the Dark",
@@ -929,8 +725,6 @@ let bookData = [
         authorLast: "Coville, Bruce",
         myRating: "Meh",
         pubDate: 1991,
-        yearRead: [2001],
-        thumb: "./images/teacher-is-alien3.jpg",
     },
     {
         title: "Scott Pilgrim, Volume 1",
@@ -938,8 +732,6 @@ let bookData = [
         authorLast: "O'Malley, Bryan Lee",
         myRating: "Liked",
         pubDate: 2004,
-        yearRead: [2016],
-        thumb: "./images/scott-pilgrim1.jpg",
     },
     {
         title: "Scott Pilgrim, Volume 2",
@@ -947,8 +739,6 @@ let bookData = [
         authorLast: "O'Malley, Bryan Lee",
         myRating: "Liked",
         pubDate: 2005,
-        yearRead: [2016],
-        thumb: "./images/scott-pilgrim2.jpg",
     },
     {
         title: "Scott Pilgrim, Volume 3",
@@ -956,8 +746,6 @@ let bookData = [
         authorLast: "O'Malley, Bryan Lee",
         myRating: "Liked",
         pubDate: 2006,
-        yearRead: [2016],
-        thumb: "./images/scott-pilgrim3.jpg",
     },
     {
         title: "Scott Pilgrim, Volume 4",
@@ -965,8 +753,6 @@ let bookData = [
         authorLast: "O'Malley, Bryan Lee",
         myRating: "Liked",
         pubDate: 2007,
-        yearRead: [2016],
-        thumb: "./images/scott-pilgrim4.jpg",
     },
     {
         title: "Scott Pilgrim, Vol. 5",
@@ -974,8 +760,6 @@ let bookData = [
         authorLast: "O'Malley, Bryan Lee",
         myRating: "Liked",
         pubDate: 2009,
-        yearRead: [2016],
-        thumb: "./images/scott-pilgrim5.jpg",
     },
     {
         title: "Scott Pilgrim, Vol. 6",
@@ -983,8 +767,6 @@ let bookData = [
         authorLast: "O'Malley, Bryan Lee",
         myRating: "Liked",
         pubDate: 2010,
-        yearRead: [2016],
-        thumb: "./images/scott-pilgrim6.jpg",
     },
     /*===========================
     Author First Name - C's
@@ -995,8 +777,6 @@ let bookData = [
         authorLast: "Lewis, C.S.",
         myRating: "Liked",
         pubDate: 1955,
-        yearRead: [2010, 2014, 2022],
-        thumb: "./images/magician-nephew.jpg",
     },
     {
         title: "The Lion, the Witch and the Wardrobe",
@@ -1004,8 +784,6 @@ let bookData = [
         authorLast: "Lewis, C.S.",
         myRating: "Liked",
         pubDate: 1950,
-        yearRead: [2012, 2017, 2022],
-        thumb: "./images/lion-witch-wardrobe.jpg",
     },
     {
         title: "The Horse and His Boy",
@@ -1013,8 +791,6 @@ let bookData = [
         authorLast: "Lewis, C.S.",
         myRating: "Meh",
         pubDate: 1954,
-        yearRead: [2022],
-        thumb: "./images/horse-and-boy.jpg",
     },
     {
         title: "Prince Caspian",
@@ -1022,8 +798,6 @@ let bookData = [
         authorLast: "Lewis, C.S.",
         myRating: "Liked",
         pubDate: 1951,
-        yearRead: [2023],
-        thumb: "./images/prince-caspian.jpg",
     },
     {
         title: "The Voyage of the Dawn Treader",
@@ -1031,8 +805,6 @@ let bookData = [
         authorLast: "Lewis, C.S.",
         myRating: "Liked",
         pubDate: 1952,
-        yearRead: [2023],
-        thumb: "./images/dawn-treader.jpg",
     },
     {
         title: "The Silver Chair",
@@ -1040,8 +812,6 @@ let bookData = [
         authorLast: "Lewis, C.S.",
         myRating: "Liked",
         pubDate: 1953,
-        yearRead: [2023],
-        thumb: "./images/silver-chair.jpg",
     },
     {
         title: "The Last Battle",
@@ -1049,8 +819,6 @@ let bookData = [
         authorLast: "Lewis, C.S.",
         myRating: "Liked",
         pubDate: 1956,
-        yearRead: [2023],
-        thumb: "./images/last-battle.jpg",
     },
     {
         title: "Mere Christianity",
@@ -1058,8 +826,6 @@ let bookData = [
         authorLast: "Lewis, C.S.",
         myRating: "Loved",
         pubDate: 1942,
-        yearRead: [2023],
-        thumb: "./images/mere-christianity.jpg",
     },
     {
         title: "The Screwtape Letters",
@@ -1067,8 +833,6 @@ let bookData = [
         authorLast: "Lewis, C.S.",
         myRating: "Liked",
         pubDate: 1942,
-        yearRead: [2013],
-        thumb: "./images/screwtape-letters.jpg",
     },
     {
         title: "The Great Divorce",
@@ -1076,8 +840,6 @@ let bookData = [
         authorLast: "Lewis, C.S.",
         myRating: "Meh",
         pubDate: 1945,
-        yearRead: [2022],
-        thumb: "./images/great-divorce.jpg",
     },
     {
         title: "The Year of Less",
@@ -1085,8 +847,6 @@ let bookData = [
         authorLast: "Flanders, Cait",
         myRating: "Disliked",
         pubDate: 2018,
-        yearRead: [2019],
-        thumb: "./images/year-of-less.jpg",
     },
     {
         title: "Deep Work",
@@ -1094,8 +854,6 @@ let bookData = [
         authorLast: "Newport, Cal",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2017],
-        thumb: "./images/deep-work.jpg",
     },
     {
         title: "Digital Minimalism",
@@ -1103,8 +861,6 @@ let bookData = [
         authorLast: "Newport, Cal",
         myRating: "Liked",
         pubDate: 2019,
-        yearRead: [2019, 2021],
-        thumb: "./images/digital-minimalism.jpg",
     },
     {
         title: "So Good They Can't Ignore You",
@@ -1112,8 +868,6 @@ let bookData = [
         authorLast: "Newport, Cal",
         myRating: "Meh",
         pubDate: 2012,
-        yearRead: [2019],
-        thumb: "./images/cant-ignore-you.jpg",
     },
     {
         title: "A World Without Email",
@@ -1121,8 +875,6 @@ let bookData = [
         authorLast: "Newport, Cal",
         myRating: "Disliked",
         pubDate: 2021,
-        yearRead: [2021],
-        thumb: "./images/without-email.jpg",
     },
     {
         title: "Customers For Life",
@@ -1130,8 +882,6 @@ let bookData = [
         authorLast: "Sewell, Carl",
         myRating: "Liked",
         pubDate: 1990,
-        yearRead: [2023],
-        thumb: "./images/customers-for-life.jpg",
     },
     {
         title: "Republocrat, Confessions of a Liberal Conservative",
@@ -1139,8 +889,6 @@ let bookData = [
         authorLast: "Trueman, Carl",
         myRating: "Liked",
         pubDate: 2012,
-        yearRead: [2022],
-        thumb: "./images/republocrat.jpg",
     },
     {
         title: "Seven Brief Lessons on Physics",
@@ -1148,8 +896,6 @@ let bookData = [
         authorLast: "Rovelli, Carlo",
         myRating: "Meh",
         pubDate: 2014,
-        yearRead: [2019],
-        thumb: "./images/seven-lessons.jpg",
     },
     {
         title: "How to Break Up with Your Phone",
@@ -1157,8 +903,6 @@ let bookData = [
         authorLast: "Price, Catherine",
         myRating: "Liked",
         pubDate: 2018,
-        yearRead: [2022],
-        thumb: "./images/break-up-phone.jpg",
     },
     {
         title: "Dead Until Dark",
@@ -1166,8 +910,6 @@ let bookData = [
         authorLast: "Harris, Charlaine",
         myRating: "Liked",
         pubDate: 2001,
-        yearRead: [2015],
-        thumb: "./images/dead-until-dark.jpg",
     },
     {
         title: "The Power of Habit",
@@ -1175,8 +917,6 @@ let bookData = [
         authorLast: "Duhigg, Charles",
         myRating: "Liked",
         pubDate: 2012,
-        yearRead: [2022],
-        thumb: "./images/power-of-habit.jpg",
     },
     {
         title: "Python for Everybody",
@@ -1184,8 +924,6 @@ let bookData = [
         authorLast: "Severance, Charles",
         myRating: "Meh",
         pubDate: 2016,
-        yearRead: [2020],
-        thumb: "./images/py4e.jpg",
     },
     {
         title: "Naked Statistics",
@@ -1193,8 +931,6 @@ let bookData = [
         authorLast: "Wheelan, Charles",
         myRating: "Liked",
         pubDate: 2012,
-        yearRead: [2020],
-        thumb: "./images/naked-statistics.jpg",
     },
     {
         title: "The Yellow Wallpaper",
@@ -1202,8 +938,6 @@ let bookData = [
         authorLast: "Gilman, Charlotte Perkins",
         myRating: "Liked",
         pubDate: 1892,
-        yearRead: [2007, 2018],
-        thumb: "./images/yellow-wallpaper.jpg",
     },
     {
         title: "We Should All Be Feminists",
@@ -1211,8 +945,6 @@ let bookData = [
         authorLast: "Adichie, Chimamanda Ngozi",
         myRating: "Liked",
         pubDate: 2014,
-        yearRead: [2017],
-        thumb: "./images/should-be-feminist.jpg",
     },
     {
         title: "Dear Ijeawele",
@@ -1220,8 +952,6 @@ let bookData = [
         authorLast: "Adichie, Chimamanda Ngozi",
         myRating: "Meh",
         pubDate: 2017,
-        yearRead: [2018],
-        thumb: "./images/ijeawele.jpg",
     },
     {
         title: "Things Fall Apart",
@@ -1229,8 +959,6 @@ let bookData = [
         authorLast: "Achebe, Chinua",
         myRating: "Liked",
         pubDate: 1958,
-        yearRead: [2007],
-        thumb: "./images/things-fall-apart.jpg",
     },
     {
         title: "Struck By Lightning",
@@ -1238,8 +966,6 @@ let bookData = [
         authorLast: "Colfer, Chris",
         myRating: "Meh",
         pubDate: 2012,
-        yearRead: [2016],
-        thumb: "./images/struck-by-lightning.jpg",
     },
     {
         title: "The Nerdist Way",
@@ -1247,8 +973,6 @@ let bookData = [
         authorLast: "Hardwick, Chris",
         myRating: "Liked",
         pubDate: 2011,
-        yearRead: [2019],
-        thumb: "./images/nerdist-way.jpg",
     },
     {
         title: "Retire Inspired",
@@ -1256,8 +980,6 @@ let bookData = [
         authorLast: "Hogan, Chris",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2019],
-        thumb: "./images/retire-inspired.jpg",
     },
     {
         title: "The Gamer's Bucket List",
@@ -1265,8 +987,6 @@ let bookData = [
         authorLast: "Watters, Chris",
         myRating: "Meh",
         pubDate: 2015,
-        yearRead: [2017],
-        thumb: "./images/gamer-bucket.jpg",
     },
     {
         title: "Maze",
@@ -1274,8 +994,6 @@ let bookData = [
         authorLast: "Manson, Christopher",
         myRating: "Meh",
         pubDate: 1985,
-        yearRead: [2021],
-        thumb: "./images/maze.jpg",
     },
     {
         title: "A Dirty Job",
@@ -1283,8 +1001,6 @@ let bookData = [
         authorLast: "Moore, Christopher",
         myRating: "Meh",
         pubDate: 2006,
-        yearRead: [2018],
-        thumb: "./images/dirty-job.jpg",
     },
     {
         title: "Fight Club",
@@ -1292,8 +1008,6 @@ let bookData = [
         authorLast: "Palahniuk, Chuck",
         myRating: "Loved",
         pubDate: 1996,
-        yearRead: [2015],
-        thumb: "./images/fight-club.jpg",
     },
     {
         title: "Fight Club 2",
@@ -1301,8 +1015,6 @@ let bookData = [
         authorLast: "Palahniuk, Chuck",
         myRating: "Disliked",
         pubDate: 2015,
-        yearRead: [2018],
-        thumb: "./images/fight-club2.jpg",
     },
     {
         title: "Choke",
@@ -1310,8 +1022,6 @@ let bookData = [
         authorLast: "Palahniuk, Chuck",
         myRating: "Meh",
         pubDate: 2001,
-        yearRead: [2015],
-        thumb: "./images/choke.jpg",
     },
     {
         title: "Science Hacks",
@@ -1319,8 +1029,6 @@ let bookData = [
         authorLast: "Barras, Colin",
         myRating: "Meh",
         pubDate: 2018,
-        yearRead: [2019],
-        thumb: "./images/science-hacks.jpg",
     },
     {
         title: "Verity",
@@ -1328,8 +1036,6 @@ let bookData = [
         authorLast: "Hoover, Colleen",
         myRating: "Liked",
         pubDate: 2018,
-        yearRead: [2021],
-        thumb: "./images/verity.jpg",
     },
     {
         title: "The Self-Taught Computer Scientist",
@@ -1337,8 +1043,6 @@ let bookData = [
         authorLast: "Althoff, Cory",
         myRating: "Meh",
         pubDate: 2021,
-        yearRead: [2023],
-        thumb: "./images/self-taught-cse.jpg",
     },
     {
         title: "Information Doesn't Want to Be Free",
@@ -1346,8 +1050,6 @@ let bookData = [
         authorLast: "Doctorow, Cory",
         myRating: "Meh",
         pubDate: 2014,
-        yearRead: [2023],
-        thumb: "./images/information-not-free.jpg",
     },
     {
         title: "Project 333",
@@ -1355,8 +1057,6 @@ let bookData = [
         authorLast: "Carver, Courtney",
         myRating: "Meh",
         pubDate: 2020,
-        yearRead: [2020],
-        thumb: "./images/project333.jpg",
     },
     {
         title: "The Bible - ESV 2016",
@@ -1364,8 +1064,6 @@ let bookData = [
         authorLast: "Crossway",
         myRating: "Loved",
         pubDate: 2016,
-        yearRead: [2022],
-        thumb: "./images/esv-bible.jpg",
     },
     {
         title: "The Bible - NIV 2011",
@@ -1373,8 +1071,6 @@ let bookData = [
         authorLast: "Biblica",
         myRating: "Loved",
         pubDate: 2011,
-        yearRead: [2023],
-        thumb: "./images/niv-bible.jpg",
     },
     {
         title: "Night of the Living Deadpool",
@@ -1382,8 +1078,6 @@ let bookData = [
         authorLast: "Bunn, Cullen",
         myRating: "Meh",
         pubDate: 2014,
-        yearRead: [2019],
-        thumb: "./images/night-of-deadpool.jpg",
     },
     {
         title: "Return of the Living Deadpool",
@@ -1391,8 +1085,6 @@ let bookData = [
         authorLast: "Bunn, Cullen",
         myRating: "Meh",
         pubDate: 2015,
-        yearRead: [2019],
-        thumb: "./images/return-of-deadpool.jpg",
     },
     /*===========================
     Author First Name - D's
@@ -1403,8 +1095,6 @@ let bookData = [
         authorLast: "Carson, D.A.",
         myRating: "Meh",
         pubDate: 2010,
-        yearRead: [2015],
-        thumb: "./images/god-who-is-there.jpg",
     },
     {
         title: "Angels & Demons",
@@ -1412,8 +1102,6 @@ let bookData = [
         authorLast: "Brown, Dan",
         myRating: "Liked",
         pubDate: 2000,
-        yearRead: [2015],
-        thumb: "./images/angels-and-demons.jpg",
     },
     {
         title: "The Da Vinci Code",
@@ -1421,8 +1109,6 @@ let bookData = [
         authorLast: "Brown, Dan",
         myRating: "Liked",
         pubDate: 2003,
-        yearRead: [2015],
-        thumb: "./images/da-vinci-code.jpg",
     },
     {
         title: "The Lost Symbol",
@@ -1430,8 +1116,6 @@ let bookData = [
         authorLast: "Brown, Dan",
         myRating: "Liked",
         pubDate: 2009,
-        yearRead: [2015],
-        thumb: "./images/lost-symbol.jpg",
     },
     {
         title: "Inferno",
@@ -1439,8 +1123,6 @@ let bookData = [
         authorLast: "Brown, Dan",
         myRating: "Liked",
         pubDate: 2013,
-        yearRead: [2016],
-        thumb: "./images/inferno.jpg",
     },
     {
         title: "The Kid Who Ran for President",
@@ -1448,8 +1130,6 @@ let bookData = [
         authorLast: "Gutman, Dan",
         myRating: "Meh",
         pubDate: 1996,
-        yearRead: [1999],
-        thumb: "./images/kid-president.jpg",
     },
     {
         title: "The Little Book of Talent",
@@ -1457,8 +1137,6 @@ let bookData = [
         authorLast: "Coyle, Daniel",
         myRating: "Liked",
         pubDate: 2012,
-        yearRead: [2019],
-        thumb: "./images/little-book-talent.jpg",
     },
     {
         title: "Minecraft",
@@ -1466,8 +1144,6 @@ let bookData = [
         authorLast: "Goldberg, Daniel",
         myRating: "Liked",
         pubDate: 2012,
-        yearRead: [2019],
-        thumb: "./images/minecraft.jpg",
     },
     {
         title: "Drive",
@@ -1475,8 +1151,6 @@ let bookData = [
         authorLast: "Pink, Daniel H.",
         myRating: "Liked",
         pubDate: 2009,
-        yearRead: [2019],
-        thumb: "./images/drive.jpg",
     },
     {
         title: "Flowers for Algernon",
@@ -1484,8 +1158,6 @@ let bookData = [
         authorLast: "Keyes, Daniel",
         myRating: "Meh",
         pubDate: 1966,
-        yearRead: [2002],
-        thumb: "./images/algernon.jpg",
     },
     {
         title: "World of Warcraft",
@@ -1493,8 +1165,6 @@ let bookData = [
         authorLast: "Lisi, Daniel",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2019],
-        thumb: "./images/wow.jpg",
     },
     {
         title: "The Inferno",
@@ -1502,8 +1172,6 @@ let bookData = [
         authorLast: "Alighieri, Dante",
         myRating: "Liked",
         pubDate: 1320,
-        yearRead: [2008],
-        thumb: "./images/the-inferno.jpg",
     },
     {
         title: "The Adventures of Captain Underpants",
@@ -1511,8 +1179,6 @@ let bookData = [
         authorLast: "Pilkey, Dav",
         myRating: "Meh",
         pubDate: 2000,
-        yearRead: [2000],
-        thumb: "./images/captain-underpants.jpg",
     },
     {
         title: "The Circle",
@@ -1520,8 +1186,6 @@ let bookData = [
         authorLast: "Eggers, Dave",
         myRating: "Meh",
         pubDate: 2013,
-        yearRead: [2019],
-        thumb: "./images/circle.jpg",
     },
     {
         title: "The Every",
@@ -1529,8 +1193,6 @@ let bookData = [
         authorLast: "Eggers, Dave",
         myRating: "Liked",
         pubDate: 2021,
-        yearRead: [2023],
-        thumb: "./images/circle2.jpg",
     },
     {
         title: "The Money Answer Book",
@@ -1538,8 +1200,6 @@ let bookData = [
         authorLast: "Ramsey, Dave",
         myRating: "Liked",
         pubDate: 2005,
-        yearRead: [2012, 2018, 2020],
-        thumb: "./images/money-answer.jpg",
     },
     {
         title: "The Total Money Makeover",
@@ -1547,8 +1207,6 @@ let bookData = [
         authorLast: "Ramsey, Dave",
         myRating: "Liked",
         pubDate: 2003,
-        yearRead: [2018],
-        thumb: "./images/tmm.jpg",
     },
     {
         title: "Dave Ramsey's Complete Guide to Money",
@@ -1556,8 +1214,6 @@ let bookData = [
         authorLast: "Ramsey, Dave",
         myRating: "Liked",
         pubDate: 2011,
-        yearRead: [2018],
-        thumb: "./images/guide-to-money.jpg",
     },
     {
         title: "The Caretaker of Lorne Field",
@@ -1565,8 +1221,6 @@ let bookData = [
         authorLast: "Zeltserman, Dave",
         myRating: "Liked",
         pubDate: 2010,
-        yearRead: [2018],
-        thumb: "./images/lorne.jpg",
     },
     {
         title: "The Soccer Book",
@@ -1574,8 +1228,6 @@ let bookData = [
         authorLast: "Goldblatt, David",
         myRating: "Liked",
         pubDate: 2009,
-        yearRead: [2018],
-        thumb: "./images/soccer.jpg",
     },
     {
         title: "Expositional Preaching",
@@ -1583,8 +1235,6 @@ let bookData = [
         authorLast: "Helm, David",
         myRating: "Liked",
         pubDate: 2014,
-        yearRead: [2022],
-        thumb: "./images/expositional-preaching.jpg",
     },
     {
         title: "Jacked",
@@ -1592,8 +1242,6 @@ let bookData = [
         authorLast: "Kushner, David",
         myRating: "Liked",
         pubDate: 2012,
-        yearRead: [2021],
-        thumb: "./images/jacked.jpg",
     },
     {
         title: "Rise of the Dungeon Master",
@@ -1601,8 +1249,6 @@ let bookData = [
         authorLast: "Kushner, David",
         myRating: "Meh",
         pubDate: 2017,
-        yearRead: [2018],
-        thumb: "./images/rise-of-dm.jpg",
     },
     {
         title: "Every Day",
@@ -1610,8 +1256,6 @@ let bookData = [
         authorLast: "Levithan, David",
         myRating: "Liked",
         pubDate: 2012,
-        yearRead: [2016],
-        thumb: "./images/every-day.jpg",
     },
     {
         title: "Another Day",
@@ -1619,8 +1263,6 @@ let bookData = [
         authorLast: "Levithan, David",
         myRating: "Liked",
         pubDate: 2015,
-        yearRead: [2016],
-        thumb: "./images/another-day.jpg",
     },
     {
         title: "Slade House",
@@ -1628,8 +1270,6 @@ let bookData = [
         authorLast: "Mitchell, David",
         myRating: "Liked",
         pubDate: 2015,
-        yearRead: [2018],
-        thumb: "./images/slade-house.jpg",
     },
     {
         title: "Drink?",
@@ -1637,8 +1277,6 @@ let bookData = [
         authorLast: "Nutt, David",
         myRating: "Liked",
         pubDate: 2020,
-        yearRead: [2022],
-        thumb: "./images/drink.jpg",
     },
     {
         title: "Radical",
@@ -1646,8 +1284,6 @@ let bookData = [
         authorLast: "Platt, David",
         myRating: "Loved",
         pubDate: 2010,
-        yearRead: [2013, 2022],
-        thumb: "./images/radical.jpg",
     },
     {
         title: "Follow Me",
@@ -1655,8 +1291,6 @@ let bookData = [
         authorLast: "Platt, David",
         myRating: "Liked",
         pubDate: 2013,
-        yearRead: [2013],
-        thumb: "./images/follow-me.jpg",
     },
     {
         title: "The Revenge of Analog",
@@ -1664,8 +1298,6 @@ let bookData = [
         authorLast: "Sax, David",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2019, 2021],
-        thumb: "./images/analog.jpg",
     },
     {
         title: "Zero Sugar Diet",
@@ -1673,8 +1305,6 @@ let bookData = [
         authorLast: "Zinczenko, David",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2023],
-        thumb: "./images/zero-sugar-diet.jpg",
     },
     {
         title: "Whispers",
@@ -1682,8 +1312,6 @@ let bookData = [
         authorLast: "Koontz, Dean",
         myRating: "Liked",
         pubDate: 2006,
-        yearRead: [2006],
-        thumb: "./images/whispers.jpg",
     },
     {
         title: "Santa Claus Doesn't Mop Floors",
@@ -1691,8 +1319,6 @@ let bookData = [
         authorLast: "Dadey, Debbie",
         myRating: "Meh",
         pubDate: 1991,
-        yearRead: [2018],
-        thumb: "./images/santa.jpg",
     },
     {
         title: "Werewolves Don't Go to Summer Camp",
@@ -1700,8 +1326,6 @@ let bookData = [
         authorLast: "Dadey, Debbie",
         myRating: "Meh",
         pubDate: 1991,
-        yearRead: [2018],
-        thumb: "./images/werewolves.jpg",
     },
     {
         title: "A Discovery of Witches",
@@ -1709,8 +1333,6 @@ let bookData = [
         authorLast: "Harkness, Deborah",
         myRating: "Liked",
         pubDate: 2011,
-        yearRead: [2019],
-        thumb: "./images/discovery-witches.jpg",
     },
     {
         title: "Spelunky",
@@ -1718,8 +1340,6 @@ let bookData = [
         authorLast: "Yu, Derek",
         myRating: "Liked",
         pubDate: 2015,
-        yearRead: [2019],
-        thumb: "./images/spelunky.jpg",
     },
     {
         title: "Virtual Vandals",
@@ -1727,8 +1347,6 @@ let bookData = [
         authorLast: "Duane, Diane",
         myRating: "Meh",
         pubDate: 1998,
-        yearRead: [2002],
-        thumb: "./images/virtual-vandals.jpg",
     },
     {
         title: "Eat This And Live",
@@ -1736,8 +1354,6 @@ let bookData = [
         authorLast: "Colbert, Don",
         myRating: "Liked",
         pubDate: 2008,
-        yearRead: [2013, 2014, 2017, 2020],
-        thumb: "./images/eat-this.jpg",
     },
     {
         title: "Because the Internet",
@@ -1745,8 +1361,6 @@ let bookData = [
         authorLast: "Glover, Donald",
         myRating: "Liked",
         pubDate: 2013,
-        yearRead: [2019],
-        thumb: "./images/because-the-internet.jpg",
     },
     {
         title: "A Million Miles in a Thousand Years",
@@ -1754,8 +1368,6 @@ let bookData = [
         authorLast: "Miller, Donald",
         myRating: "Meh",
         pubDate: 2009,
-        yearRead: [2016],
-        thumb: "./images/million-miles.jpg",
     },
     {
         title: "Encyclopedia Brown Takes the Cake!",
@@ -1763,8 +1375,6 @@ let bookData = [
         authorLast: "Sobol, Donald",
         myRating: "Meh",
         pubDate: 1982,
-        yearRead: [1999],
-        thumb: "./images/encyclopedia-brown.jpg",
     },
     {
         title: "Encyclopedia Brown and the Case of the Disgusting Sneakers",
@@ -1772,8 +1382,6 @@ let bookData = [
         authorLast: "Sobol, Donald",
         myRating: "Meh",
         pubDate: 1990,
-        yearRead: [1999],
-        thumb: "./images/encyclopedia-brown-sneakers.jpg",
     },
     {
         title: "The Hitchhiker's Guide to the Galaxy",
@@ -1781,8 +1389,6 @@ let bookData = [
         authorLast: "Adams, Douglas",
         myRating: "Loved",
         pubDate: 1979,
-        yearRead: [2015, 2019, 2023],
-        thumb: "./images/hitchhiker.jpg",
     },
     {
         title: "The Restaurant at the End of the Universe",
@@ -1790,8 +1396,6 @@ let bookData = [
         authorLast: "Adams, Douglas",
         myRating: "Liked",
         pubDate: 1980,
-        yearRead: [2016],
-        thumb: "./images/restaurant-end-universe.jpg",
     },
     {
         title: "The 30-Minute Runner",
@@ -1799,8 +1403,6 @@ let bookData = [
         authorLast: "Larkin, Duncan",
         myRating: "Meh",
         pubDate: 2018,
-        yearRead: [2021],
-        thumb: "./images/thirty-minute-runner.jpg",
     },
     {
         title: "Game On!",
@@ -1808,8 +1410,6 @@ let bookData = [
         authorLast: "Hansen, Dustin",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2017],
-        thumb: "./images/game-on.jpg",
     },
     /*===========================
     Author First Name - E's
@@ -1820,8 +1420,6 @@ let bookData = [
         authorLast: "Lockhart, E.",
         myRating: "Meh",
         pubDate: 2014,
-        yearRead: [2018],
-        thumb: "./images/we-were-liars.jpg",
     },
     {
         title: "Charlotte's Web",
@@ -1829,8 +1427,6 @@ let bookData = [
         authorLast: "White, E.B.",
         myRating: "Meh",
         pubDate: 1952,
-        yearRead: [2002],
-        thumb: "./images/charlottes-web.jpg",
     },
     {
         title: "Creativity, Inc.",
@@ -1838,8 +1434,6 @@ let bookData = [
         authorLast: "Catmull, Ed",
         myRating: "Liked",
         pubDate: 2009,
-        yearRead: [2019],
-        thumb: "./images/creativity.jpg",
     },
     {
         title: "iPoe Vol. 1",
@@ -1847,8 +1441,6 @@ let bookData = [
         authorLast: "Allen Poe, Edgar",
         myRating: "Disliked",
         pubDate: 1894,
-        yearRead: [2021],
-        thumb: "./images/ipoe1.jpg",
     },
     {
         title: "Meddling Kids",
@@ -1856,8 +1448,6 @@ let bookData = [
         authorLast: "Cantaro, Edgar",
         myRating: "Liked",
         pubDate: 2017,
-        yearRead: [2021],
-        thumb: "./images/meddling.jpg",
     },
     {
         title: "Tarzan of the Apes",
@@ -1865,8 +1455,6 @@ let bookData = [
         authorLast: "Burroughs, Edgar Rice",
         myRating: "Liked",
         pubDate: 1912,
-        yearRead: [2021],
-        thumb: "./images/tarzan.jpg",
     },
     {
         title: "Night",
@@ -1874,8 +1462,6 @@ let bookData = [
         authorLast: "Wiesel, Elie",
         myRating: "Liked",
         pubDate: 1956,
-        yearRead: [2009],
-        thumb: "./images/night.jpg",
     },
     {
         title: "The Happiness Hack",
@@ -1883,8 +1469,6 @@ let bookData = [
         authorLast: "Leanse, Ellen Petry",
         myRating: "Meh",
         pubDate: 2017,
-        yearRead: [2019],
-        thumb: "./images/happiness-hack.jpg",
     },
     {
         title: "10,000 Things You Need to Know",
@@ -1892,8 +1476,6 @@ let bookData = [
         authorLast: "Beidas, Elspeth",
         myRating: "Meh",
         pubDate: 2016,
-        yearRead: [2019],
-        thumb: "./images/ten-thousand-things.jpg",
     },
     {
         title: "Wuthering Heights",
@@ -1901,8 +1483,6 @@ let bookData = [
         authorLast: "Brontë, Emily",
         myRating: "Meh",
         pubDate: 1847,
-        yearRead: [2006],
-        thumb: "./images/wuthering.jpg",
     },
     {
         title: "The Forests of Silence",
@@ -1910,8 +1490,6 @@ let bookData = [
         authorLast: "Rodda, Emily",
         myRating: "Meh",
         pubDate: 2000,
-        yearRead: [2016],
-        thumb: "./images/forests-of-silence.jpg",
     },
     {
         title: "Artemis Fowl",
@@ -1919,8 +1497,6 @@ let bookData = [
         authorLast: "Colfer, Eoin",
         myRating: "Liked",
         pubDate: 2001,
-        yearRead: [2004, 2018],
-        thumb: "./images/artemis-fowl1.jpg",
     },
     {
         title: "The Arctic Incident",
@@ -1928,8 +1504,6 @@ let bookData = [
         authorLast: "Colfer, Eoin",
         myRating: "Meh",
         pubDate: 2002,
-        yearRead: [2004, 2018],
-        thumb: "./images/artemis-fowl2.jpg",
     },
     {
         title: "The Eternity Code",
@@ -1937,8 +1511,6 @@ let bookData = [
         authorLast: "Colfer, Eoin",
         myRating: "Meh",
         pubDate: 2003,
-        yearRead: [2018],
-        thumb: "./images/artemis-fowl3.jpg",
     },
     {
         title: "The Opal Deception",
@@ -1946,8 +1518,6 @@ let bookData = [
         authorLast: "Colfer, Eoin",
         myRating: "Meh",
         pubDate: 2005,
-        yearRead: [2018],
-        thumb: "./images/artemis-fowl4.jpg",
     },
     {
         title: "The Lost Colony",
@@ -1955,8 +1525,6 @@ let bookData = [
         authorLast: "Colfer, Eoin",
         myRating: "Meh",
         pubDate: 2006,
-        yearRead: [2018],
-        thumb: "./images/artemis-fowl5.jpg",
     },
     {
         title: "The Time Paradox",
@@ -1964,8 +1532,6 @@ let bookData = [
         authorLast: "Colfer, Eoin",
         myRating: "Meh",
         pubDate: 2008,
-        yearRead: [2018],
-        thumb: "./images/artemis-fowl6.jpg",
     },
     {
         title: "The Atlantis Complex",
@@ -1973,8 +1539,6 @@ let bookData = [
         authorLast: "Colfer, Eoin",
         myRating: "Meh",
         pubDate: 2010,
-        yearRead: [],
-        thumb: "./images/artemis-fowl7.jpg",
     },
     {
         title: "The Last Guardian",
@@ -1982,8 +1546,6 @@ let bookData = [
         authorLast: "Colfer, Eoin",
         myRating: "Meh",
         pubDate: 2012,
-        yearRead: [2020],
-        thumb: "./images/artemis-fowl8.jpg",
     },
     {
         title: "Barking Up The Wrong Tree",
@@ -1991,8 +1553,6 @@ let bookData = [
         authorLast: "Barker, Eric",
         myRating: "Loved",
         pubDate: 2017,
-        yearRead: [2023],
-        thumb: "./images/barking-tree.jpg",
     },
     {
         title: "Ready Player One",
@@ -2000,8 +1560,6 @@ let bookData = [
         authorLast: "Cline, Ernest",
         myRating: "Loved",
         pubDate: 2011,
-        yearRead: [2013, 2017, 2018, 2022],
-        thumb: "./images/rp1.jpg",
     },
     {
         title: "Ready Player Two",
@@ -2009,8 +1567,6 @@ let bookData = [
         authorLast: "Cline, Ernest",
         myRating: "Liked",
         pubDate: 2020,
-        yearRead: [2020, 2022],
-        thumb: "./images/rp2.jpg",
     },
     /*===========================
     Author First Name - F's
@@ -2021,8 +1577,6 @@ let bookData = [
         authorLast: "Fitzgerald, F. Scott",
         myRating: "Liked",
         pubDate: 1925,
-        yearRead: [2006],
-        thumb: "./images/great-gatsby.jpg",
     },
     {
         title: "The Curious Case of Benjamin Button",
@@ -2030,8 +1584,6 @@ let bookData = [
         authorLast: "Fitzgerald, F. Scott",
         myRating: "Disliked",
         pubDate: 1922,
-        yearRead: [2022],
-        thumb: "./images/benjamin-button.jpg",
     },
     {
         title: "The Ultimate Guide to Video Game Writing and Design",
@@ -2039,8 +1591,6 @@ let bookData = [
         authorLast: "Dille, Flint",
         myRating: "Liked",
         pubDate: 2006,
-        yearRead: [2013],
-        thumb: "./images/ultimate-guide-vgs.jpg",
     },
     {
         title: "The Father Heart of God",
@@ -2048,8 +1598,6 @@ let bookData = [
         authorLast: "McClung, Floyd",
         myRating: "Meh",
         pubDate: 1984,
-        yearRead: [2014],
-        thumb: "./images/father-heart.jpg",
     },
     {
         title: "Living the Martial Way",
@@ -2057,8 +1605,6 @@ let bookData = [
         authorLast: "Morgan, Forrest E.",
         myRating: "Disliked",
         pubDate: 1992,
-        yearRead: [2013],
-        thumb: "./images/living-martial-way.jpg",
     },
     {
         title: "Letters to the Church",
@@ -2066,8 +1612,6 @@ let bookData = [
         authorLast: "Chan, Francis",
         myRating: "Liked",
         pubDate: 2018,
-        yearRead: [2022],
-        thumb: "./images/letters-church.jpg",
     },
     {
         title: "Crazy Love",
@@ -2075,8 +1619,6 @@ let bookData = [
         authorLast: "Chan, Francis",
         myRating: "Loved",
         pubDate: 2008,
-        yearRead: [2022],
-        thumb: "./images/crazy-love.jpg",
     },
     {
         title: "Erasing Hell",
@@ -2084,8 +1626,6 @@ let bookData = [
         authorLast: "Chan, Francis",
         myRating: "Liked",
         pubDate: 2011,
-        yearRead: [2019],
-        thumb: "./images/erasing-hell.jpg",
     },
     {
         title: "Forgotten God",
@@ -2093,8 +1633,6 @@ let bookData = [
         authorLast: "Chan, Francis",
         myRating: "Loved",
         pubDate: 2009,
-        yearRead: [2023],
-        thumb: "./images/forgotten-god.jpg",
     },
     {
         title: "The Housemaid",
@@ -2102,8 +1640,6 @@ let bookData = [
         authorLast: "McFadden, Freida",
         myRating: "Liked",
         pubDate: 2022,
-        yearRead: [2023],
-        thumb: "./images/housemaid.jpg",
     },
     {
         title: "The Housemaid's Secret",
@@ -2111,8 +1647,6 @@ let bookData = [
         authorLast: "McFadden, Freida",
         myRating: "Meh",
         pubDate: 2023,
-        yearRead: [2023],
-        thumb: "./images/housemaid2.jpg",
     },
     {
         title: "Goodbye, Things",
@@ -2120,8 +1654,6 @@ let bookData = [
         authorLast: "Sasaki, Fumio",
         myRating: "Loved",
         pubDate: 2015,
-        yearRead: [2019, 2020, 2022],
-        thumb: "./images/goodbye-things.jpg",
     },
     {
         title: "Hello, Habits",
@@ -2129,8 +1661,6 @@ let bookData = [
         authorLast: "Sasaki, Fumio",
         myRating: "Meh",
         pubDate: 2018,
-        yearRead: [2023],
-        thumb: "./images/hello-habits.jpg",
     },
     /*===========================
     Author First Name - G's
@@ -2141,8 +1671,6 @@ let bookData = [
         authorLast: "Cook, Gareth",
         myRating: "Liked",
         pubDate: 2013,
-        yearRead: [2021],
-        thumb: "./images/infographics-2013.jpg",
     },
     {
         title: "Be Prepared",
@@ -2150,8 +1678,6 @@ let bookData = [
         authorLast: "Greenberg, Gary",
         myRating: "Liked",
         pubDate: 2004,
-        yearRead: [2018],
-        thumb: "./images/be-prepared.jpg",
     },
     {
         title: "The One Thing",
@@ -2159,8 +1685,6 @@ let bookData = [
         authorLast: "Keller, Gary",
         myRating: "Liked",
         pubDate: 2013,
-        yearRead: [2017, 2020],
-        thumb: "./images/one-thing.jpg",
     },
     {
         title: "Hatchet",
@@ -2168,8 +1692,6 @@ let bookData = [
         authorLast: "Paulsen, Gary",
         myRating: "Liked",
         pubDate: 1986,
-        yearRead: [2001],
-        thumb: "./images/hatchet.jpg",
     },
     {
         title: "The River",
@@ -2177,8 +1699,6 @@ let bookData = [
         authorLast: "Paulsen, Gary",
         myRating: "Meh",
         pubDate: 1991,
-        yearRead: [2001],
-        thumb: "./images/river.jpg",
     },
     {
         title: "Brian's Winter",
@@ -2186,8 +1706,6 @@ let bookData = [
         authorLast: "Paulsen, Gary",
         myRating: "Meh",
         pubDate: 1996,
-        yearRead: [2001],
-        thumb: "./images/brians-winter.jpg",
     },
     {
         title: "The Case Against Sugar",
@@ -2195,8 +1713,6 @@ let bookData = [
         authorLast: "Taubes, Gary",
         myRating: "Meh",
         pubDate: 2016,
-        yearRead: [2021],
-        thumb: "./images/case-against-sugar.jpg",
     },
     {
         title: "Forks Over Knives",
@@ -2204,8 +1720,6 @@ let bookData = [
         authorLast: "Stone, Gene",
         myRating: "Meh",
         pubDate: 2011,
-        yearRead: [2017],
-        thumb: "./images/forks-over-knives.jpg",
     },
     {
         title: "The Richest Man in Babylon",
@@ -2213,8 +1727,6 @@ let bookData = [
         authorLast: "Clason, George",
         myRating: "Meh",
         pubDate: 1926,
-        yearRead: [2023],
-        thumb: "./images/richest-babylon.jpg",
     },
     {
         title: "Animal Farm",
@@ -2222,8 +1734,6 @@ let bookData = [
         authorLast: "Orwell, George",
         myRating: "Liked",
         pubDate: 1945,
-        yearRead: [2001],
-        thumb: "./images/animal-farm.jpg",
     },
     {
         title: "Horrorstör",
@@ -2231,8 +1741,6 @@ let bookData = [
         authorLast: "Hendrix, Grady",
         myRating: "Liked",
         pubDate: 2014,
-        yearRead: [2018],
-        thumb: "./images/horrorstor.jpg",
     },
     {
         title: "My Best Friend's Exorcism",
@@ -2240,8 +1748,6 @@ let bookData = [
         authorLast: "Hendrix, Grady",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2018],
-        thumb: "./images/bfs-exorcism.jpg",
     },
     {
         title: "The Southern Book Club's Guide to Slaying Vampires",
@@ -2249,8 +1755,6 @@ let bookData = [
         authorLast: "Hendrix, Grady",
         myRating: "Liked",
         pubDate: 2020,
-        yearRead: [2020],
-        thumb: "./images/southern-book-club.jpg",
     },
     {
         title: "How to Sell a Haunted House",
@@ -2258,8 +1762,6 @@ let bookData = [
         authorLast: "Hendrix, Grady",
         myRating: "Liked",
         pubDate: 2023,
-        yearRead: [2023],
-        thumb: "./images/sell-haunted-house.jpg",
     },
     {
         title: "Ankle Snatcher",
@@ -2267,8 +1769,6 @@ let bookData = [
         authorLast: "Hendrix, Grady",
         myRating: "Liked",
         pubDate: 2023,
-        yearRead: [2023],
-        thumb: "./images/ankle-snatcher.jpg",
     },
     {
         title: "What is the Gospel",
@@ -2276,8 +1776,6 @@ let bookData = [
         authorLast: "Gilbert, Greg",
         myRating: "Liked",
         pubDate: 2010,
-        yearRead: [2022],
-        thumb: "./images/what-is-gospel.jpg",
     },
     {
         title: "Essentialism",
@@ -2285,8 +1783,6 @@ let bookData = [
         authorLast: "McKeown, Greg",
         myRating: "Liked",
         pubDate: 2011,
-        yearRead: [2019],
-        thumb: "./images/essentialism.jpg",
     },
     {
         title: "Effortless",
@@ -2294,8 +1790,6 @@ let bookData = [
         authorLast: "McKeown, Greg",
         myRating: "Liked",
         pubDate: 2021,
-        yearRead: [2021],
-        thumb: "./images/effortless.jpg",
     },
     /*===========================
     Author First Name - H's
@@ -2306,8 +1800,6 @@ let bookData = [
         authorLast: "Elrod, Hal",
         myRating: "Meh",
         pubDate: 2012,
-        yearRead: [2017],
-        thumb: "./images/miracle-morning.jpg",
     },
     {
         title: "An Absolutely Remarkable Thing",
@@ -2315,8 +1807,6 @@ let bookData = [
         authorLast: "Green, Hank",
         myRating: "Loved",
         pubDate: 2018,
-        yearRead: [2018, 2019],
-        thumb: "./images/remarkable1.jpg",
     },
     {
         title: "A Beautifully Foolish Endeavor",
@@ -2324,8 +1814,6 @@ let bookData = [
         authorLast: "Green, Hank",
         myRating: "Liked",
         pubDate: 2020,
-        yearRead: [2020],
-        thumb: "./images/remarkable2.jpg",
     },
     {
         title: "Hello World",
@@ -2333,8 +1821,6 @@ let bookData = [
         authorLast: "Fry, Hannah",
         myRating: "Liked",
         pubDate: 2018,
-        yearRead: [2023],
-        thumb: "./images/hello-world.jpg",
     },
     {
         title: "The Little Mermaid",
@@ -2342,8 +1828,6 @@ let bookData = [
         authorLast: "Andersen, Hans Christian",
         myRating: "Liked",
         pubDate: 1836,
-        yearRead: [2022],
-        thumb: "./images/little-mermaid.jpg",
     },
     {
         title: "Into The Dungeon",
@@ -2351,8 +1835,6 @@ let bookData = [
         authorLast: "Conner, Hari",
         myRating: "Liked",
         pubDate: 2020,
-        yearRead: [2023],
-        thumb: "./images/into-the-dungeon.jpg",
     },
     {
         title: "To Kill a Mockingbird",
@@ -2360,8 +1842,6 @@ let bookData = [
         authorLast: "Lee, Harper",
         myRating: "Meh",
         pubDate: 1960,
-        yearRead: [2003],
-        thumb: "./images/mockingbird.jpg",
     },
     {
         title: "Ikigai",
@@ -2369,8 +1849,6 @@ let bookData = [
         authorLast: "Garcia Puigcerver, Hector",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2023],
-        thumb: "./images/ikigai.jpg",
     },
     {
         title: "The Index Card",
@@ -2378,8 +1856,6 @@ let bookData = [
         authorLast: "Olen, Helaine",
         myRating: "Meh",
         pubDate: 2016,
-        yearRead: [2019],
-        thumb: "./images/index-card.jpg",
     },
     {
         title: "Anguish Languish",
@@ -2387,8 +1863,6 @@ let bookData = [
         authorLast: "Chase, Howard",
         myRating: "Liked",
         pubDate: 1956,
-        yearRead: [2021],
-        thumb: "./images/anguish-languish.jpg",
     },
     {
         title: "Navigating Genesis",
@@ -2396,8 +1870,6 @@ let bookData = [
         authorLast: "Ross, Hugh",
         myRating: "Liked",
         pubDate: 2014,
-        yearRead: [2015],
-        thumb: "./images/nav-genesis.jpg",
     },
     /*===========================
     Author First Name - I's
@@ -2408,8 +1880,6 @@ let bookData = [
         authorLast: "I.F.A.B.",
         myRating: "Liked",
         pubDate: 2021,
-        yearRead: [2021],
-        thumb: "./images/laws-game-22.jpg",
     },
     {
         title: "The Road Back to You",
@@ -2417,8 +1887,6 @@ let bookData = [
         authorLast: "Cron, Ian Morgan",
         myRating: "Meh",
         pubDate: 2016,
-        yearRead: [2020],
-        thumb: "./images/road-back.jpg",
     },
     {
         title: "Insight Guides: China",
@@ -2426,8 +1894,6 @@ let bookData = [
         authorLast: "Insight Guides",
         myRating: "Meh",
         pubDate: 1990,
-        yearRead: [2013],
-        thumb: "./images/insight-china.jpg",
     },
     {
         title: "Warm Bodies",
@@ -2435,8 +1901,6 @@ let bookData = [
         authorLast: "Marion, Isaac",
         myRating: "Loved",
         pubDate: 2010,
-        yearRead: [2016, 2019],
-        thumb: "./images/warm-bodies.jpg",
     },
     {
         title: "The New Hunger",
@@ -2444,8 +1908,6 @@ let bookData = [
         authorLast: "Marion, Isaac",
         myRating: "Liked",
         pubDate: 2013,
-        yearRead: [2018],
-        thumb: "./images/new-hunger.jpg",
     },
     {
         title: "The Burning World",
@@ -2453,8 +1915,6 @@ let bookData = [
         authorLast: "Marion, Isaac",
         myRating: "Loved",
         pubDate: 2017,
-        yearRead: [2017],
-        thumb: "./images/burning-world.jpg",
     },
     /*===========================
     Author First Name - J's
@@ -2465,8 +1925,6 @@ let bookData = [
         authorLast: "Rowling, J.K.",
         myRating: "Liked",
         pubDate: 2015,
-        yearRead: [2018, 2021],
-        thumb: "./images/very-good-lives.jpg",
     },
     {
         title: "Harry Potter and the Sorcerer's Stone",
@@ -2474,8 +1932,6 @@ let bookData = [
         authorLast: "Rowling, J.K.",
         myRating: "Loved",
         pubDate: 1997,
-        yearRead: [1999, 2000, 2001, 2002, 2010, 2011, 2012, 2017, 2018, 2019, 2020, 2021, 2021, 2022, 2023],
-        thumb: "./images/hp1.jpg",
     },
     {
         title: "Harry Potter and the Chamber of Secrets",
@@ -2483,8 +1939,6 @@ let bookData = [
         authorLast: "Rowling, J.K.",
         myRating: "Loved",
         pubDate: 1998,
-        yearRead: [2000, 2002, 2010, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
-        thumb: "./images/hp2.jpg",
     },
     {
         title: "Harry Potter and the Prisoner of Azkaban",
@@ -2492,8 +1946,6 @@ let bookData = [
         authorLast: "Rowling, J.K.",
         myRating: "Loved",
         pubDate: 1999,
-        yearRead: [2000, 2002, 2010, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
-        thumb: "./images/hp3.jpg",
     },
     {
         title: "Harry Potter and the Goblet of Fire",
@@ -2501,8 +1953,6 @@ let bookData = [
         authorLast: "Rowling, J.K.",
         myRating: "Loved",
         pubDate: 2000,
-        yearRead: [2000, 2002, 2010, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
-        thumb: "./images/hp4.jpg",
     },
     {
         title: "Harry Potter and the Order of the Phoenix",
@@ -2510,8 +1960,6 @@ let bookData = [
         authorLast: "Rowling, J.K.",
         myRating: "Loved",
         pubDate: 2003,
-        yearRead: [2003, 2010, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
-        thumb: "./images/hp5.jpg",
     },
     {
         title: "Harry Potter and the Half-Blood Prince",
@@ -2519,8 +1967,6 @@ let bookData = [
         authorLast: "Rowling, J.K.",
         myRating: "Loved",
         pubDate: 2005,
-        yearRead: [2005, 2010, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
-        thumb: "./images/hp6.jpg",
     },
     {
         title: "Harry Potter and the Deathly Hallows",
@@ -2528,8 +1974,6 @@ let bookData = [
         authorLast: "Rowling, J.K.",
         myRating: "Loved",
         pubDate: 2007,
-        yearRead: [2007, 2010, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
-        thumb: "./images/hp7.jpg",
     },
     {
         title: "Short Stories from Hogwarts of Heroism, Hardship and Dangerous Hobbies",
@@ -2537,8 +1981,6 @@ let bookData = [
         authorLast: "Rowling, J.K.",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2016, 2019],
-        thumb: "./images/hogwarts-hero.jpg",
     },
     {
         title: "Short Stories from Hogwarts of Power, Politics and Pesky Poltergeists",
@@ -2546,8 +1988,6 @@ let bookData = [
         authorLast: "Rowling, J.K.",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2016],
-        thumb: "./images/hogwarts-power.jpg",
     },
     {
         title: "Hogwarts: An Incomplete and Unreliable Guide",
@@ -2555,8 +1995,6 @@ let bookData = [
         authorLast: "Rowling, J.K.",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2016, 2019],
-        thumb: "./images/hogwarts.jpg",
     },
     {
         title: "The Tales of Beedle the Bard",
@@ -2564,8 +2002,6 @@ let bookData = [
         authorLast: "Rowling, J.K.",
         myRating: "Liked",
         pubDate: 2008,
-        yearRead: [2015, 2017, 2020, 2021],
-        thumb: "./images/beedle.jpg",
     },
     {
         title: "Fantastic Beasts and Where to Find Them: The Original Screenplay",
@@ -2573,8 +2009,6 @@ let bookData = [
         authorLast: "Rowling, J.K.",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2016],
-        thumb: "./images/fantastic-beasts-screenplay.jpg",
     },
     {
         title: "Fantastic Beasts and Where to Find Them",
@@ -2582,8 +2016,6 @@ let bookData = [
         authorLast: "Rowling, J.K.",
         myRating: "Liked",
         pubDate: 2001,
-        yearRead: [2001, 2016, 2021, 2022],
-        thumb: "./images/fantastic-beasts.jpg",
     },
     {
         title: "Quidditch Through the Ages",
@@ -2591,8 +2023,6 @@ let bookData = [
         authorLast: "Rowling, J.K.",
         myRating: "Meh",
         pubDate: 2001,
-        yearRead: [2001, 2007, 2021, 2022],
-        thumb: "./images/quidditch.jpg",
     },
     {
         title: "The Christmas Pig",
@@ -2600,8 +2030,6 @@ let bookData = [
         authorLast: "Rowling, J.K.",
         myRating: "Liked",
         pubDate: 2021,
-        yearRead: [2022],
-        thumb: "./images/christmas-pig.jpg",
     },
     {
         title: "The Cuckoo's Calling",
@@ -2609,8 +2037,6 @@ let bookData = [
         authorLast: "Rowling, J.K.",
         myRating: "Liked",
         pubDate: 2013,
-        yearRead: [2022],
-        thumb: "./images/cb-strike.jpg",
     },
     {
         title: "The Hobbit",
@@ -2618,8 +2044,6 @@ let bookData = [
         authorLast: "Tolkien, J.R.R.",
         myRating: "Liked",
         pubDate: 1937,
-        yearRead: [2013],
-        thumb: "./images/hobbit.jpg",
     },
     {
         title: "The Fellowship of the Ring",
@@ -2627,8 +2051,6 @@ let bookData = [
         authorLast: "Tolkien, J.R.R.",
         myRating: "Liked",
         pubDate: 1954,
-        yearRead: [2021],
-        thumb: "./images/lotr1.jpg",
     },
     {
         title: "Stop Prediabetes Now",
@@ -2636,8 +2058,6 @@ let bookData = [
         authorLast: "Challem, Jack",
         myRating: "Liked",
         pubDate: 2007,
-        yearRead: [2023],
-        thumb: "./images/stop-prediabetes.jpg",
     },
     {
         title: "Surprised by the Power of the Spirit",
@@ -2645,8 +2065,6 @@ let bookData = [
         authorLast: "Deere, Jack",
         myRating: "Meh",
         pubDate: 1993,
-        yearRead: [2015],
-        thumb: "./images/surprised-by-power.jpg",
     },
     {
         title: "Vegan for Life",
@@ -2654,8 +2072,6 @@ let bookData = [
         authorLast: "Norris, Jack",
         myRating: "Disliked",
         pubDate: 2011,
-        yearRead: [2018],
-        thumb: "./images/vegan-for-life.jpg",
     },
     {
         title: "Chasing the Dragon",
@@ -2663,8 +2079,6 @@ let bookData = [
         authorLast: "Pullinger, Jackie",
         myRating: "Meh",
         pubDate: 1980,
-        yearRead: [2014],
-        thumb: "./images/chasing-the-dragon.jpg",
     },
     {
         title: "Atomic Habits",
@@ -2672,8 +2086,6 @@ let bookData = [
         authorLast: "Clear, James",
         myRating: "Loved",
         pubDate: 2018,
-        yearRead: [2021],
-        thumb: "./images/atomic-habits.jpg",
     },
     {
         title: "The Maze Runner",
@@ -2681,8 +2093,6 @@ let bookData = [
         authorLast: "Dashner, James",
         myRating: "Meh",
         pubDate: 2009,
-        yearRead: [2018],
-        thumb: "./images/maze-runner.jpg",
     },
     {
         title: "America's History, For the AP Course",
@@ -2690,8 +2100,6 @@ let bookData = [
         authorLast: "Henretta, James",
         myRating: "Liked",
         pubDate: 2006,
-        yearRead: [2007],
-        thumb: "./images/ap-history.jpg",
     },
     {
         title: "Return to Howliday Inn",
@@ -2699,8 +2107,6 @@ let bookData = [
         authorLast: "Howe, James",
         myRating: "Meh",
         pubDate: 1992,
-        yearRead: [1999],
-        thumb: "./images/bunnicula5.jpg",
     },
     {
         title: "Bunnicula Strikes Again!",
@@ -2708,8 +2114,6 @@ let bookData = [
         authorLast: "Howe, James",
         myRating: "Meh",
         pubDate: 1995,
-        yearRead: [1999],
-        thumb: "./images/bunnicula6.jpg",
     },
     {
         title: "Player's Handbook",
@@ -2717,8 +2121,6 @@ let bookData = [
         authorLast: "Wyatt, James",
         myRating: "Loved",
         pubDate: 2014,
-        yearRead: [2016],
-        thumb: "./images/phb.jpg",
     },
     {
         title: "Super Better",
@@ -2726,8 +2128,6 @@ let bookData = [
         authorLast: "McGonigal, Jane",
         myRating: "Liked",
         pubDate: 2015,
-        yearRead: [2017],
-        thumb: "./images/super-better.jpg",
     },
     {
         title: "Ten Arguments For Deleting Your Social Media Accounts Right Now",
@@ -2735,8 +2135,6 @@ let bookData = [
         authorLast: "Lanier, Jaron",
         myRating: "Liked",
         pubDate: 2018,
-        yearRead: [2019, 2021],
-        thumb: "./images/delete-social-media.jpg",
     },
     {
         title: "The Living and the Dead",
@@ -2744,8 +2142,6 @@ let bookData = [
         authorLast: "Jason",
         myRating: "Disliked",
         pubDate: 2006,
-        yearRead: [2018],
-        thumb: "./images/living-and-dead.jpg",
     },
     {
         title: "Best of Luck",
@@ -2753,8 +2149,6 @@ let bookData = [
         authorLast: "Mott, Jason",
         myRating: "Liked",
         pubDate: 2023,
-        yearRead: [2023],
-        thumb: "./images/best-of-luck.jpg",
     },
     {
         title: "Blood, Sweat, and Pixels",
@@ -2762,8 +2156,6 @@ let bookData = [
         authorLast: "Schreier, Jason",
         myRating: "Loved",
         pubDate: 2017,
-        yearRead: [2017, 2021],
-        thumb: "./images/blood-sweat-pixels.jpg",
     },
     {
         title: "Press Reset",
@@ -2771,8 +2163,6 @@ let bookData = [
         authorLast: "Schreier, Jason",
         myRating: "Loved",
         pubDate: 2021,
-        yearRead: [2022],
-        thumb: "./images/press-reset.jpg",
     },
     {
         title: "Thirteen Reasons Why",
@@ -2780,8 +2170,6 @@ let bookData = [
         authorLast: "Asher, Jay",
         myRating: "Meh",
         pubDate: 2007,
-        yearRead: [2016],
-        thumb: "./images/thirteen-reasons.jpg",
     },
     {
         title: "Game Theory",
@@ -2789,8 +2177,6 @@ let bookData = [
         authorLast: "Minbang, Jean Baise",
         myRating: "Meh",
         pubDate: 2015,
-        yearRead: [2023],
-        thumb: "./images/game-theory.jpg",
     },
     {
         title: "Nerve",
@@ -2798,8 +2184,6 @@ let bookData = [
         authorLast: "Ryan, Jeanne",
         myRating: "Liked",
         pubDate: 2012,
-        yearRead: [2018],
-        thumb: "./images/nerve.jpg",
     },
     {
         title: "Diary of a Wimpy Kid",
@@ -2807,8 +2191,6 @@ let bookData = [
         authorLast: "Kinney, Jeff",
         myRating: "Meh",
         pubDate: 2004,
-        yearRead: [2015],
-        thumb: "./images/diary-of-wimpy.jpg",
     },
     {
         title: "Super Mario",
@@ -2816,8 +2198,6 @@ let bookData = [
         authorLast: "Ryan, Jeff",
         myRating: "Liked",
         pubDate: 2011,
-        yearRead: [2021],
-        thumb: "./images/super-mario.jpg",
     },
     {
         title: "Annihilation",
@@ -2825,8 +2205,6 @@ let bookData = [
         authorLast: "Vandermeer, Jeff",
         myRating: "Meh",
         pubDate: 2014,
-        yearRead: [2018],
-        thumb: "./images/annihilation.jpg",
     },
     {
         title: "To Hell with the Hustle",
@@ -2834,8 +2212,6 @@ let bookData = [
         authorLast: "Bethke, Jefferson",
         myRating: "Loved",
         pubDate: 2019,
-        yearRead: [2022],
-        thumb: "./images/hell-hustle.jpg",
     },
     {
         title: "Who's Afraid of the Multiverse",
@@ -2843,8 +2219,6 @@ let bookData = [
         authorLast: "Zweerink, Jeffrey",
         myRating: "Liked",
         pubDate: 2008,
-        yearRead: [2020],
-        thumb: "./images/whos-afraid.jpg",
     },
     {
         title: "The No-Spend Challenge Guide",
@@ -2852,8 +2226,6 @@ let bookData = [
         authorLast: "Smith, Jen",
         myRating: "Meh",
         pubDate: 2017,
-        yearRead: [2019],
-        thumb: "./images/no-spend.jpg",
     },
     {
         title: "200+ Ways to Protect Your Privacy",
@@ -2861,8 +2233,6 @@ let bookData = [
         authorLast: "Rogers, Jeni",
         myRating: "Meh",
         pubDate: 2019,
-        yearRead: [2019],
-        thumb: "./images/protect-privacy.jpg",
     },
     {
         title: "The Office BFFs",
@@ -2870,8 +2240,6 @@ let bookData = [
         authorLast: "Fischer, Jenna",
         myRating: "Liked",
         pubDate: 2022,
-        yearRead: [2022],
-        thumb: "./images/office-bffs.jpg",
     },
     {
         title: "The Inheritance Games",
@@ -2879,8 +2247,6 @@ let bookData = [
         authorLast: "Barnes, Jennifer Lynn",
         myRating: "Liked",
         pubDate: 2020,
-        yearRead: [2023],
-        thumb: "./images/inheritance-games1.jpg",
     },
     {
         title: "The Hawthorne Legacy",
@@ -2888,8 +2254,6 @@ let bookData = [
         authorLast: "Barnes, Jennifer Lynn",
         myRating: "Liked",
         pubDate: 2021,
-        yearRead: [2023],
-        thumb: "./images/inheritance-games2.jpg",
     },
     {
         title: "The Final Gambit",
@@ -2897,8 +2261,6 @@ let bookData = [
         authorLast: "Barnes, Jennifer Lynn",
         myRating: "Meh",
         pubDate: 2022,
-        yearRead: [2023],
-        thumb: "./images/inheritance-games3.jpg",
     },
     {
         title: "The Brothers Hawthorne",
@@ -2906,8 +2268,6 @@ let bookData = [
         authorLast: "Barnes, Jennifer Lynn",
         myRating: "Liked",
         pubDate: 2023,
-        yearRead: [2023],
-        thumb: "./images/inheritance-games4.jpg",
     },
     {
         title: "All the Bright Places",
@@ -2915,8 +2275,6 @@ let bookData = [
         authorLast: "Niven, Jennifer",
         myRating: "Meh",
         pubDate: 2015,
-        yearRead: [2018],
-        thumb: "./images/all-bright-places.jpg",
     },
     {
         title: "I Love Dirt!",
@@ -2924,8 +2282,6 @@ let bookData = [
         authorLast: "Ward, Jennifer",
         myRating: "Meh",
         pubDate: 2008,
-        yearRead: [2023],
-        thumb: "./images/i-love-dirt.jpg",
     },
     {
         title: "The Summer I Turned Pretty",
@@ -2933,8 +2289,6 @@ let bookData = [
         authorLast: "Han, Jenny",
         myRating: "Liked",
         pubDate: 2009,
-        yearRead: [2018, 2022, 2023],
-        thumb: "./images/summer-pretty1.jpg",
     },
     {
         title: "It's Not Summer Without You",
@@ -2942,8 +2296,6 @@ let bookData = [
         authorLast: "Han, Jenny",
         myRating: "Liked",
         pubDate: 2010,
-        yearRead: [2018, 2023],
-        thumb: "./images/summer-pretty2.jpg",
     },
     {
         title: "We'll Always Have Summer",
@@ -2951,8 +2303,6 @@ let bookData = [
         authorLast: "Han, Jenny",
         myRating: "Liked",
         pubDate: 2011,
-        yearRead: [2018, 2023],
-        thumb: "./images/summer-pretty3.jpg",
     },
     {
         title: "Remnant of Victory",
@@ -2960,8 +2310,6 @@ let bookData = [
         authorLast: "Odell, Jeri",
         myRating: "Liked",
         pubDate: 2000,
-        yearRead: [2000],
-        thumb: "./images/remnant-victory.jpg",
     },
     {
         title: "50 Things They Don't Want You to Know",
@@ -2969,8 +2317,6 @@ let bookData = [
         authorLast: "Hudson, Jerome",
         myRating: "Meh",
         pubDate: 2019,
-        yearRead: [2022],
-        thumb: "./images/50-things.jpg",
     },
     {
         title: "Three Men in a Boat",
@@ -2978,8 +2324,6 @@ let bookData = [
         authorLast: "Jerome, Jerome K.",
         myRating: "Liked",
         pubDate: 1889,
-        yearRead: [2021],
-        thumb: "./images/three-men-boat.jpg",
     },
     {
         title: "The Vanishings",
@@ -2987,8 +2331,6 @@ let bookData = [
         authorLast: "Jenkins, Jerry B.",
         myRating: "Meh",
         pubDate: 1998,
-        yearRead: [2002, 2009],
-        thumb: "./images/left-behind-kids1.jpg",
     },
     {
         title: "Second Chance",
@@ -2996,8 +2338,6 @@ let bookData = [
         authorLast: "Jenkins, Jerry B.",
         myRating: "Meh",
         pubDate: 1998,
-        yearRead: [2002, 2009],
-        thumb: "./images/left-behind-kids2.jpg",
     },
     {
         title: "Through the Flames",
@@ -3005,8 +2345,6 @@ let bookData = [
         authorLast: "Jenkins, Jerry B.",
         myRating: "Meh",
         pubDate: 1998,
-        yearRead: [2002, 2009],
-        thumb: "./images/left-behind-kids3.jpg",
     },
     {
         title: "Facing the Future",
@@ -3014,8 +2352,6 @@ let bookData = [
         authorLast: "Jenkins, Jerry B.",
         myRating: "Meh",
         pubDate: 1998,
-        yearRead: [2002, 2009],
-        thumb: "./images/left-behind-kids4.jpg",
     },
     {
         title: "Nicolae High",
@@ -3023,8 +2359,6 @@ let bookData = [
         authorLast: "Jenkins, Jerry B.",
         myRating: "Meh",
         pubDate: 1999,
-        yearRead: [2002, 2009],
-        thumb: "./images/left-behind-kids5.jpg",
     },
     {
         title: "The Underground",
@@ -3032,8 +2366,6 @@ let bookData = [
         authorLast: "Jenkins, Jerry B.",
         myRating: "Meh",
         pubDate: 1999,
-        yearRead: [2002, 2009],
-        thumb: "./images/left-behind-kids6.jpg",
     },
     {
         title: "Busted!",
@@ -3041,8 +2373,6 @@ let bookData = [
         authorLast: "Jenkins, Jerry B.",
         myRating: "Meh",
         pubDate: 2000,
-        yearRead: [2002, 2009],
-        thumb: "./images/left-behind-kids7.jpg",
     },
     {
         title: "Death Strike",
@@ -3050,8 +2380,6 @@ let bookData = [
         authorLast: "Jenkins, Jerry B.",
         myRating: "Meh",
         pubDate: 2000,
-        yearRead: [2002, 2009],
-        thumb: "./images/left-behind-kids8.jpg",
     },
     {
         title: "The Search",
@@ -3059,8 +2387,6 @@ let bookData = [
         authorLast: "Jenkins, Jerry B.",
         myRating: "Meh",
         pubDate: 2000,
-        yearRead: [2002, 2009],
-        thumb: "./images/left-behind-kids9.jpg",
     },
     {
         title: "On the Run",
@@ -3068,8 +2394,6 @@ let bookData = [
         authorLast: "Jenkins, Jerry B.",
         myRating: "Meh",
         pubDate: 2000,
-        yearRead: [2002, 2009],
-        thumb: "./images/left-behind-kids10.jpg",
     },
     {
         title: "Into the Storm",
@@ -3077,8 +2401,6 @@ let bookData = [
         authorLast: "Jenkins, Jerry B.",
         myRating: "Meh",
         pubDate: 2000,
-        yearRead: [2002, 2009],
-        thumb: "./images/left-behind-kids11.jpg",
     },
     {
         title: "Earthquake!",
@@ -3086,8 +2408,6 @@ let bookData = [
         authorLast: "Jenkins, Jerry B.",
         myRating: "Meh",
         pubDate: 2000,
-        yearRead: [2002, 2009],
-        thumb: "./images/left-behind-kids12.jpg",
     },
     {
         title: "The Showdown",
@@ -3095,8 +2415,6 @@ let bookData = [
         authorLast: "Jenkins, Jerry B.",
         myRating: "Meh",
         pubDate: 2001,
-        yearRead: [2003, 2009],
-        thumb: "./images/left-behind-kids13.jpg",
     },
     {
         title: "Judgment Day",
@@ -3104,8 +2422,6 @@ let bookData = [
         authorLast: "Jenkins, Jerry B.",
         myRating: "Meh",
         pubDate: 2001,
-        yearRead: [2003, 2009],
-        thumb: "./images/left-behind-kids14.jpg",
     },
     {
         title: "Battling the Commander",
@@ -3113,8 +2429,6 @@ let bookData = [
         authorLast: "Jenkins, Jerry B.",
         myRating: "Meh",
         pubDate: 2001,
-        yearRead: [2003, 2009],
-        thumb: "./images/left-behind-kids15.jpg",
     },
     {
         title: "Fire from Heaven",
@@ -3122,8 +2436,6 @@ let bookData = [
         authorLast: "Jenkins, Jerry B.",
         myRating: "Meh",
         pubDate: 2001,
-        yearRead: [2003, 2009],
-        thumb: "./images/left-behind-kids16.jpg",
     },
     {
         title: "Terror in the Stadium",
@@ -3131,8 +2443,6 @@ let bookData = [
         authorLast: "Jenkins, Jerry B.",
         myRating: "Meh",
         pubDate: 2001,
-        yearRead: [2003, 2009],
-        thumb: "./images/left-behind-kids17.jpg",
     },
     {
         title: "Darkening Skies",
@@ -3140,8 +2450,6 @@ let bookData = [
         authorLast: "Jenkins, Jerry B.",
         myRating: "Meh",
         pubDate: 2001,
-        yearRead: [2003, 2009],
-        thumb: "./images/left-behind-kids18.jpg",
     },
     {
         title: "Attack of Apollyon",
@@ -3149,8 +2457,6 @@ let bookData = [
         authorLast: "Jenkins, Jerry B.",
         myRating: "Meh",
         pubDate: 2002,
-        yearRead: [2003, 2009],
-        thumb: "./images/left-behind-kids19.jpg",
     },
     {
         title: "A Dangerous Plan",
@@ -3158,8 +2464,6 @@ let bookData = [
         authorLast: "Jenkins, Jerry B.",
         myRating: "Meh",
         pubDate: 2002,
-        yearRead: [2003, 2009],
-        thumb: "./images/left-behind-kids20.jpg",
     },
     {
         title: "Secrets of New Babylon",
@@ -3167,8 +2471,6 @@ let bookData = [
         authorLast: "Jenkins, Jerry B.",
         myRating: "Meh",
         pubDate: 2002,
-        yearRead: [2009],
-        thumb: "./images/left-behind-kids21.jpg",
     },
     {
         title: "Escape from New Babylon",
@@ -3176,8 +2478,6 @@ let bookData = [
         authorLast: "Jenkins, Jerry B.",
         myRating: "Meh",
         pubDate: 2002,
-        yearRead: [2009],
-        thumb: "./images/left-behind-kids22.jpg",
     },
     {
         title: "Horsemen of Terror",
@@ -3185,8 +2485,6 @@ let bookData = [
         authorLast: "Jenkins, Jerry B.",
         myRating: "Meh",
         pubDate: 2002,
-        yearRead: [2009],
-        thumb: "./images/left-behind-kids23.jpg",
     },
     {
         title: "Uplink from the Underground",
@@ -3194,8 +2492,6 @@ let bookData = [
         authorLast: "Jenkins, Jerry B.",
         myRating: "Meh",
         pubDate: 2002,
-        yearRead: [2009],
-        thumb: "./images/left-behind-kids24.jpg",
     },
     {
         title: "Upside Down",
@@ -3203,8 +2499,6 @@ let bookData = [
         authorLast: "Smiley, Jess Smart",
         myRating: "Meh",
         pubDate: 2012,
-        yearRead: [2018],
-        thumb: "./images/vamp-tale.jpg",
     },
     {
         title: "Me and Earl and the Dying Girl",
@@ -3212,17 +2506,13 @@ let bookData = [
         authorLast: "Andrews, Jesse",
         myRating: "Meh",
         pubDate: 2012,
-        yearRead: [2015],
-        thumb: "./images/me-earl.jpg",
-    },
+    }, 
     {
         title: "Make Your Own Board Game",
         author: "Jesse Terrance Daniels",
         authorLast: "Terrance Daniels, Jesse",
         myRating: "Meh",
         pubDate: 2022,
-        yearRead: [2023],
-        thumb: "./images/make-board-game.jpg",
     },
     {
         title: "The Danish Way of Parenting",
@@ -3230,8 +2520,6 @@ let bookData = [
         authorLast: "Alexander, Jessica Joelle",
         myRating: "Meh",
         pubDate: 2014,
-        yearRead: [2019],
-        thumb: "./images/danish-way.jpg",
     },
     {
         title: "Full Frontal Feminism",
@@ -3239,8 +2527,6 @@ let bookData = [
         authorLast: "Valenti, Jessica",
         myRating: "Meh",
         pubDate: 2007,
-        yearRead: [2018],
-        thumb: "./images/full-frontal.jpg",
     },
     {
         title: "Storm Front",
@@ -3248,8 +2534,6 @@ let bookData = [
         authorLast: "Butcher, Jim",
         myRating: "Liked",
         pubDate: 2000,
-        yearRead: [2018],
-        thumb: "./images/dresden1.jpg",
     },
     {
         title: "Fool Moon",
@@ -3257,8 +2541,6 @@ let bookData = [
         authorLast: "Butcher, Jim",
         myRating: "Liked",
         pubDate: 2001,
-        yearRead: [2020],
-        thumb: "./images/dresden2.jpg",
     },
     {
         title: "Grave Peril",
@@ -3266,8 +2548,6 @@ let bookData = [
         authorLast: "Butcher, Jim",
         myRating: "Liked",
         pubDate: 2001,
-        yearRead: [2020],
-        thumb: "./images/dresden3.jpg",
     },
     {
         title: "Summer Knight",
@@ -3275,8 +2555,6 @@ let bookData = [
         authorLast: "Butcher, Jim",
         myRating: "Liked",
         pubDate: 2002,
-        yearRead: [2023],
-        thumb: "./images/dresden4.jpg",
     },
     {
         title: "Death Masks",
@@ -3284,8 +2562,6 @@ let bookData = [
         authorLast: "Butcher, Jim",
         myRating: "Liked",
         pubDate: 2003,
-        yearRead: [2023],
-        thumb: "./images/dresden5.jpg",
     },
     {
         title: "Blood Rites",
@@ -3293,8 +2569,6 @@ let bookData = [
         authorLast: "Butcher, Jim",
         myRating: "Liked",
         pubDate: 2004,
-        yearRead: [2023],
-        thumb: "./images/dresden6.jpg",
     },
     {
         title: "Dead Beat",
@@ -3302,8 +2576,6 @@ let bookData = [
         authorLast: "Butcher, Jim",
         myRating: "Liked",
         pubDate: 2005,
-        yearRead: [2023],
-        thumb: "./images/dresden7.jpg",
     },
     {
         title: "Proven Guilty",
@@ -3311,8 +2583,6 @@ let bookData = [
         authorLast: "Butcher, Jim",
         myRating: "Liked",
         pubDate: 2006,
-        yearRead: [2023],
-        thumb: "./images/dresden8.jpg",
     },
     {
         title: "White Night",
@@ -3320,8 +2590,6 @@ let bookData = [
         authorLast: "Butcher, Jim",
         myRating: "Liked",
         pubDate: 2007,
-        yearRead: [2023],
-        thumb: "./images/dresden9.jpg",
     },
     {
         title: "Small Favors",
@@ -3329,8 +2597,6 @@ let bookData = [
         authorLast: "Butcher, Jim",
         myRating: "Loved",
         pubDate: 2008,
-        yearRead: [2023],
-        thumb: "./images/dresden10.jpg",
     },
     {
         title: "Turn Coat",
@@ -3338,8 +2604,6 @@ let bookData = [
         authorLast: "Butcher, Jim",
         myRating: "Loved",
         pubDate: 2009,
-        yearRead: [2023],
-        thumb: "./images/dresden11.jpg",
     },
     {
         title: "Changes",
@@ -3347,8 +2611,6 @@ let bookData = [
         authorLast: "Butcher, Jim",
         myRating: "Loved",
         pubDate: 2010,
-        yearRead: [2023],
-        thumb: "./images/dresden12.jpg",
     },
     {
         title: "Ghost Story",
@@ -3356,8 +2618,6 @@ let bookData = [
         authorLast: "Butcher, Jim",
         myRating: "Liked",
         pubDate: 2011,
-        yearRead: [2023],
-        thumb: "./images/dresden13.jpg",
     },
     {
         title: "Cold Days",
@@ -3365,8 +2625,6 @@ let bookData = [
         authorLast: "Butcher, Jim",
         myRating: "Liked",
         pubDate: 2012,
-        yearRead: [2023],
-        thumb: "./images/dresden14.jpg",
     },
     {
         title: "Skin Game",
@@ -3374,8 +2632,6 @@ let bookData = [
         authorLast: "Butcher, Jim",
         myRating: "Liked",
         pubDate: 2014,
-        yearRead: [2023],
-        thumb: "./images/dresden15.jpg",
     },
     {
         title: "Peace Talks",
@@ -3383,8 +2639,6 @@ let bookData = [
         authorLast: "Butcher, Jim",
         myRating: "Liked",
         pubDate: 2020,
-        yearRead: [2023],
-        thumb: "./images/dresden16.jpg",
     },
     {
         title: "Battle Ground",
@@ -3392,8 +2646,6 @@ let bookData = [
         authorLast: "Butcher, Jim",
         myRating: "Liked",
         pubDate: 2020,
-        yearRead: [2023],
-        thumb: "./images/dresden17.jpg",
     },
     {
         title: "Rick and Morty vs. Dungeons & Dragons II",
@@ -3401,8 +2653,6 @@ let bookData = [
         authorLast: "Zub, Jim",
         myRating: "Meh",
         pubDate: 2020,
-        yearRead: [2020],
-        thumb: "./images/rick-morty-vs-dnd2.jpg",
     },
     {
         title: "Passion & Purpose",
@@ -3410,8 +2660,6 @@ let bookData = [
         authorLast: "Seibert, Jimmy",
         myRating: "Meh",
         pubDate: 2014,
-        yearRead: [2014],
-        thumb: "./images/passion-purpose.jpg",
     },
     {
         title: "Discipline Equals Freedom",
@@ -3419,8 +2667,6 @@ let bookData = [
         authorLast: "Willink, Jocko",
         myRating: "Loved",
         pubDate: 2017,
-        yearRead: [2020],
-        thumb: "./images/discipline.jpg",
     },
     {
         title: "The Pram",
@@ -3428,8 +2674,6 @@ let bookData = [
         authorLast: "Hill, Joe",
         myRating: "Liked",
         pubDate: 2023,
-        yearRead: [2023],
-        thumb: "./images/pram.jpg",
     },
     {
         title: "Stolen Focus",
@@ -3437,8 +2681,6 @@ let bookData = [
         authorLast: "Hari, Johann",
         myRating: "Liked",
         pubDate: 2022,
-        yearRead: [2022],
-        thumb: "./images/stolen-focus.jpg",
     },
     {
         title: "Creativity",
@@ -3446,8 +2688,6 @@ let bookData = [
         authorLast: "Cleese, John",
         myRating: "Liked",
         pubDate: 2020,
-        yearRead: [2022],
-        thumb: "./images/creativity-cleese.jpg",
     },
     {
         title: "Wild at Heart",
@@ -3455,8 +2695,6 @@ let bookData = [
         authorLast: "Eldredge, John",
         myRating: "Liked",
         pubDate: 2001,
-        yearRead: [2009, 2011],
-        thumb: "./images/wild-at-heart.jpg",
     },
     {
         title: "Looking for God in Harry Potter",
@@ -3464,8 +2702,6 @@ let bookData = [
         authorLast: "Granger, John",
         myRating: "Liked",
         pubDate: 2004,
-        yearRead: [2010],
-        thumb: "./images/god-in-hp.jpg",
     },
     {
         title: "The Anthropocene Reviewed",
@@ -3473,8 +2709,6 @@ let bookData = [
         authorLast: "Green, John",
         myRating: "Loved",
         pubDate: 2021,
-        yearRead: [2021],
-        thumb: "./images/anthropocene.jpg",
     },
     {
         title: "Looking for Alaska",
@@ -3482,8 +2716,6 @@ let bookData = [
         authorLast: "Green, John",
         myRating: "Loved",
         pubDate: 2005,
-        yearRead: [2015, 2017, 2019],
-        thumb: "./images/alaska.jpg",
     },
     {
         title: "An Abundance of Katherines",
@@ -3491,8 +2723,6 @@ let bookData = [
         authorLast: "Green, John",
         myRating: "Liked",
         pubDate: 2006,
-        yearRead: [2015, 2017],
-        thumb: "./images/katherines.jpg",
     },
     {
         title: "Turtles All the Way Down",
@@ -3500,8 +2730,6 @@ let bookData = [
         authorLast: "Green, John",
         myRating: "Liked",
         pubDate: 2017,
-        yearRead: [2017, 2019],
-        thumb: "./images/turtles.jpg",
     },
     {
         title: "Will Grayson, Will Grayson",
@@ -3509,8 +2737,6 @@ let bookData = [
         authorLast: "Green, John",
         myRating: "Liked",
         pubDate: 2010,
-        yearRead: [2015, 2017],
-        thumb: "./images/will-grayson.jpg",
     },
     {
         title: "The Fault in Our Stars",
@@ -3518,8 +2744,6 @@ let bookData = [
         authorLast: "Green, John",
         myRating: "Liked",
         pubDate: 2012,
-        yearRead: [2015],
-        thumb: "./images/fault-stars.jpg",
     },
     {
         title: "Paper Towns",
@@ -3527,8 +2751,6 @@ let bookData = [
         authorLast: "Green, John",
         myRating: "Liked",
         pubDate: 2008,
-        yearRead: [2015],
-        thumb: "./images/paper-towns.jpg",
     },
     {
         title: "Let It Snow",
@@ -3536,8 +2758,6 @@ let bookData = [
         authorLast: "Green, John",
         myRating: "Loved",
         pubDate: 2008,
-        yearRead: [2015, 2017],
-        thumb: "./images/let-it-snow.jpg",
     },
     {
         title: "Mind Hacking",
@@ -3545,8 +2765,6 @@ let bookData = [
         authorLast: "Hargrave, John",
         myRating: "Liked",
         pubDate: 2015,
-        yearRead: [2019],
-        thumb: "./images/mind-hacking.jpg",
     },
     {
         title: "Chew, Vol. 1",
@@ -3554,8 +2772,6 @@ let bookData = [
         authorLast: "Layman, John",
         myRating: "Meh",
         pubDate: 2009,
-        yearRead: [2017],
-        thumb: "./images/chew.jpg",
     },
     {
         title: "Live No Lies",
@@ -3563,8 +2779,6 @@ let bookData = [
         authorLast: "Comer, John Mark",
         myRating: "Loved",
         pubDate: 2021,
-        yearRead: [2023],
-        thumb: "./images/live-no-lies.jpg",
     },
     {
         title: "The Ruthless Elimination of Hurry",
@@ -3572,8 +2786,6 @@ let bookData = [
         authorLast: "Comer, John Mark",
         myRating: "Loved",
         pubDate: 2019,
-        yearRead: [2023],
-        thumb: "./images/elimination-of-hurry.jpg",
     },
     {
         title: "BiblioTech",
@@ -3581,8 +2793,6 @@ let bookData = [
         authorLast: "Palfrey, John",
         myRating: "Meh",
         pubDate: 2015,
-        yearRead: [2022],
-        thumb: "./images/bibliotech.jpg",
     },
     {
         title: "The Supremacy of God in Preaching",
@@ -3590,8 +2800,6 @@ let bookData = [
         authorLast: "Piper, John",
         myRating: "Liked",
         pubDate: 1990,
-        yearRead: [2022],
-        thumb: "./images/supremacy-god-teaching.jpg",
     },
     {
         title: "Harry Potter and the Cursed Child",
@@ -3599,8 +2807,6 @@ let bookData = [
         authorLast: "Tiffany, John",
         myRating: "Meh",
         pubDate: 2016,
-        yearRead: [2016, 2017],
-        thumb: "./images/hp-cursed.jpg",
     },
     {
         title: "Into the Wild",
@@ -3608,8 +2814,6 @@ let bookData = [
         authorLast: "Krakauer, Jon",
         myRating: "Meh",
         pubDate: 1996,
-        yearRead: [2013],
-        thumb: "./images/into-wild.jpg",
     },
     {
         title: "Nights of the Living Dead",
@@ -3617,8 +2821,6 @@ let bookData = [
         authorLast: "Maberry, Jonathan",
         myRating: "Meh",
         pubDate: 2017,
-        yearRead: [2018],
-        thumb: "./images/nights-living-dead.jpg",
     },
     {
         title: "A Modest Proposal",
@@ -3626,8 +2828,6 @@ let bookData = [
         authorLast: "Swift, Jonathan",
         myRating: "Liked",
         pubDate: 1729,
-        yearRead: [2008, 2020],
-        thumb: "./images/modest-proposal.jpg",
     },
     {
         title: "Move Fast and Break Things",
@@ -3635,8 +2835,6 @@ let bookData = [
         authorLast: "Taplin, Jonathan",
         myRating: "Liked",
         pubDate: 2017,
-        yearRead: [2023],
-        thumb: "./images/move-fast-break-things.jpg",
     },
     {
         title: "How Not to Be Wrong",
@@ -3644,8 +2842,6 @@ let bookData = [
         authorLast: "Ellenberg, Jordan",
         myRating: "Liked",
         pubDate: 2014,
-        yearRead: [2019],
-        thumb: "./images/how-not-to-be-wrong.jpg",
     },
     {
         title: "Bird Box",
@@ -3653,8 +2849,6 @@ let bookData = [
         authorLast: "Malerman, Josh",
         myRating: "Liked",
         pubDate: 2014,
-        yearRead: [2018],
-        thumb: "./images/bird-box.jpg",
     },
     {
         title: "Living With Less",
@@ -3662,8 +2856,6 @@ let bookData = [
         authorLast: "Becker, Joshua",
         myRating: "Liked",
         pubDate: 2012,
-        yearRead: [2016],
-        thumb: "./images/living-with-less.jpg",
     },
     {
         title: "The More of Less",
@@ -3671,8 +2863,6 @@ let bookData = [
         authorLast: "Becker, Joshua",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2018, 2021],
-        thumb: "./images/more-of-less.jpg",
     },
     {
         title: "The Minimalist Home",
@@ -3680,8 +2870,6 @@ let bookData = [
         authorLast: "Becker, Joshua",
         myRating: "Liked",
         pubDate: 2018,
-        yearRead: [2019],
-        thumb: "./images/minimalist-home.jpg",
     },
     {
         title: "Things That Matter",
@@ -3689,8 +2877,6 @@ let bookData = [
         authorLast: "Becker, Joshua",
         myRating: "Liked",
         pubDate: 2022,
-        yearRead: [2022],
-        thumb: "./images/things-that-matter.jpg",
     },
     {
         title: "Simplify Magazine 001",
@@ -3698,8 +2884,6 @@ let bookData = [
         authorLast: "Becker, Joshua",
         myRating: "Loved",
         pubDate: 2017,
-        yearRead: [2021],
-        thumb: "./images/simplify-magazine.jpg",
     },
     {
         title: "Simplify Magazine 002",
@@ -3707,8 +2891,6 @@ let bookData = [
         authorLast: "Becker, Joshua",
         myRating: "Loved",
         pubDate: 2017,
-        yearRead: [2021],
-        thumb: "./images/simplify-magazine.jpg",
     },
     {
         title: "Simplify Magazine 003",
@@ -3716,8 +2898,6 @@ let bookData = [
         authorLast: "Becker, Joshua",
         myRating: "Loved",
         pubDate: 2017,
-        yearRead: [2021],
-        thumb: "./images/simplify-magazine.jpg",
     },
     {
         title: "The Club",
@@ -3725,8 +2905,6 @@ let bookData = [
         authorLast: "Robinson, Joshua",
         myRating: "Liked",
         pubDate: 2018,
-        yearRead: [2020],
-        thumb: "./images/club.jpg",
     },
     {
         title: "Haunted Mansion",
@@ -3734,8 +2912,6 @@ let bookData = [
         authorLast: "Williamson, Joshua",
         myRating: "Meh",
         pubDate: 2016,
-        yearRead: [2019],
-        thumb: "./images/haunted-mansion.jpg",
     },
     {
         title: "Buffy the Vampire Slayer: The Long Way Home",
@@ -3743,8 +2919,6 @@ let bookData = [
         authorLast: "Whedon, Joss",
         myRating: "Meh",
         pubDate: 2007,
-        yearRead: [2016],
-        thumb: "./images/buffy-s8.jpg",
     },
     {
         title: "Great Illustrated Classics: A Journey to the Center of the Earth",
@@ -3752,8 +2926,6 @@ let bookData = [
         authorLast: "Verne, Jules",
         myRating: "Liked",
         pubDate: 1990,
-        yearRead: [1999],
-        thumb: "./images/gic-journey-center.jpg",
     },
     /*===========================
     Author First Name - K's
@@ -3764,8 +2936,6 @@ let bookData = [
         authorLast: "Garcia, Kami",
         myRating: "Meh",
         pubDate: 2009,
-        yearRead: [2018],
-        thumb: "./images/beautiful-creatures.jpg",
     },
     {
         title: "Financial Intelligence",
@@ -3773,8 +2943,6 @@ let bookData = [
         authorLast: "Berman, Karen",
         myRating: "Meh",
         pubDate: 2006,
-        yearRead: [2023],
-        thumb: "./images/financial-intelligence.jpg",
     },
     {
         title: "One of Us Is Lying",
@@ -3782,8 +2950,6 @@ let bookData = [
         authorLast: "McManus, Karen M.",
         myRating: "Liked",
         pubDate: 2017,
-        yearRead: [2018],
-        thumb: "./images/one-of-us-is-lying.jpg",
     },
     {
         title: "One of Us Is Next",
@@ -3791,8 +2957,6 @@ let bookData = [
         authorLast: "McManus, Karen M.",
         myRating: "Liked",
         pubDate: 2020,
-        yearRead: [2023],
-        thumb: "./images/one-of-us-is-next.jpg",
     },
     {
         title: "One of Us Is Back",
@@ -3800,8 +2964,6 @@ let bookData = [
         authorLast: "McManus, Karen M.",
         myRating: "Liked",
         pubDate: 2023,
-        yearRead: [2023],
-        thumb: "./images/one-of-us-is-back.jpg",
     },
     {
         title: "Bridge to Terabithia",
@@ -3809,8 +2971,6 @@ let bookData = [
         authorLast: "Paterson, Katherine",
         myRating: "Meh",
         pubDate: 1977,
-        yearRead: [1999],
-        thumb: "./images/terabithia.jpg",
     },
     {
         title: "Finding Sisu",
@@ -3818,8 +2978,6 @@ let bookData = [
         authorLast: "Pantzar, Katja",
         myRating: "Meh",
         pubDate: 2018,
-        yearRead: [2019],
-        thumb: "./images/sisu.jpg",
     },
     {
         title: "Yu-Gi-Oh!, Vol. 1",
@@ -3827,8 +2985,6 @@ let bookData = [
         authorLast: "Takahashi, Kazuki",
         myRating: "Meh",
         pubDate: 1997,
-        yearRead: [2023],
-        thumb: "./images/yugioh1.jpg",
     },
     {
         title: "Yu-Gi-Oh!, Vol. 2",
@@ -3836,8 +2992,6 @@ let bookData = [
         authorLast: "Takahashi, Kazuki",
         myRating: "Meh",
         pubDate: 1997,
-        yearRead: [2023],
-        thumb: "./images/yugioh2.jpg",
     },
     {
         title: "Yu-Gi-Oh!, Vol. 3",
@@ -3845,8 +2999,6 @@ let bookData = [
         authorLast: "Takahashi, Kazuki",
         myRating: "Meh",
         pubDate: 1997,
-        yearRead: [2023],
-        thumb: "./images/yugioh3.jpg",
     },
     {
         title: "Yu-Gi-Oh!, Vol. 4",
@@ -3854,8 +3006,6 @@ let bookData = [
         authorLast: "Takahashi, Kazuki",
         myRating: "Meh",
         pubDate: 1997,
-        yearRead: [2023],
-        thumb: "./images/yugioh4.jpg",
     },
     {
         title: "Yu-Gi-Oh!, Vol. 5",
@@ -3863,8 +3013,6 @@ let bookData = [
         authorLast: "Takahashi, Kazuki",
         myRating: "Meh",
         pubDate: 1997,
-        yearRead: [2023],
-        thumb: "./images/yugioh5.jpg",
     },
     {
         title: "Yu-Gi-Oh!, Vol. 6",
@@ -3872,8 +3020,6 @@ let bookData = [
         authorLast: "Takahashi, Kazuki",
         myRating: "Meh",
         pubDate: 1997,
-        yearRead: [2023],
-        thumb: "./images/yugioh6.jpg",
     },
     {
         title: "Yu-Gi-Oh!, Vol. 7",
@@ -3881,8 +3027,6 @@ let bookData = [
         authorLast: "Takahashi, Kazuki",
         myRating: "Meh",
         pubDate: 1997,
-        yearRead: [2023],
-        thumb: "./images/yugioh7.jpg",
     },
     {
         title: "Independent Me",
@@ -3890,8 +3034,6 @@ let bookData = [
         authorLast: "Braswell, Kely",
         myRating: "Disliked",
         pubDate: 2014,
-        yearRead: [2014],
-        thumb: "./images/independent-me.jpg",
     },
     {
         title: "The Geek Dad's Guide to Weekend Fun",
@@ -3899,8 +3041,6 @@ let bookData = [
         authorLast: "Denmead, Ken",
         myRating: "Meh",
         pubDate: 2011,
-        yearRead: [2019],
-        thumb: "./images/geek-dad.jpg",
     },
     {
         title: "The New Answers Book 1",
@@ -3908,8 +3048,6 @@ let bookData = [
         authorLast: "Ham, Ken",
         myRating: "Disliked",
         pubDate: 2007,
-        yearRead: [2009],
-        thumb: "./images/new-answers.jpg",
     },
     {
         title: "Planet Funny",
@@ -3917,8 +3055,6 @@ let bookData = [
         authorLast: "Jennings, Ken",
         myRating: "Liked",
         pubDate: 2018,
-        yearRead: [2022],
-        thumb: "./images/planet-funny.jpg",
     },
     {
         title: "One Flew Over the Cuckoo's Nest",
@@ -3926,8 +3062,6 @@ let bookData = [
         authorLast: "Kesey, Ken",
         myRating: "Meh",
         pubDate: 1962,
-        yearRead: [2007, 2007],
-        thumb: "./images/one-flew-over.jpg",
     },
     {
         title: "Insanely Simple",
@@ -3935,8 +3069,6 @@ let bookData = [
         authorLast: "Segall, Ken",
         myRating: "Loved",
         pubDate: 2012,
-        yearRead: [2022],
-        thumb: "./images/insanely-simple.jpg",
     },
     {
         title: "The New One Minute Manager",
@@ -3944,8 +3076,6 @@ let bookData = [
         authorLast: "Blanchard, Kenneth",
         myRating: "Liked",
         pubDate: 2015,
-        yearRead: [2022],
-        thumb: "./images/new-manager.jpg",
     },
     {
         title: "Raving Fans",
@@ -3953,8 +3083,6 @@ let bookData = [
         authorLast: "Blanchard, Kenneth",
         myRating: "Liked",
         pubDate: 1992,
-        yearRead: [2022],
-        thumb: "./images/raving-fans.jpg",
     },
     {
         title: "Crucial Conversations",
@@ -3962,8 +3090,6 @@ let bookData = [
         authorLast: "Patterson, Kerry",
         myRating: "Meh",
         pubDate: 2001,
-        yearRead: [2022],
-        thumb: "./images/crucial-conversations.jpg",
     },
     {
         title: "Unlimited Memory",
@@ -3971,8 +3097,6 @@ let bookData = [
         authorLast: "Horsley, Kevin",
         myRating: "Meh",
         pubDate: 2014,
-        yearRead: [2019, 2021],
-        thumb: "./images/unlimited-memory.jpg",
     },
     {
         title: "Crazy Rich Asians",
@@ -3980,8 +3104,6 @@ let bookData = [
         authorLast: "Kwan, Kevin",
         myRating: "Meh",
         pubDate: 2013,
-        yearRead: [2022],
-        thumb: "./images/crazy-rich-asians.jpg",
     },
     {
         title: "For the Win",
@@ -3989,8 +3111,6 @@ let bookData = [
         authorLast: "Werbach, Kevin",
         myRating: "Meh",
         pubDate: 2012,
-        yearRead: [2013],
-        thumb: "./images/ftw.jpg",
     },
     {
         title: "The A-Z of Atari 8-bit Games",
@@ -3998,8 +3118,6 @@ let bookData = [
         authorLast: "Hawken, Kieren",
         myRating: "Disliked",
         pubDate: 2017,
-        yearRead: [2017],
-        thumb: "./images/az-atari-8bit.jpg",
     },
     {
         title: "The DUFF",
@@ -4007,8 +3125,6 @@ let bookData = [
         authorLast: "Keplinger, Kody",
         myRating: "Liked",
         pubDate: 2010,
-        yearRead: [2016],
-        thumb: "./images/duff.jpg",
     },
     {
         title: "Ring",
@@ -4016,8 +3132,6 @@ let bookData = [
         authorLast: "Suzuki, Kōji",
         myRating: "Meh",
         pubDate: 1991,
-        yearRead: [2018],
-        thumb: "./images/ring.jpg",
     },
     {
         title: "Jesus and John Wayne",
@@ -4025,8 +3139,6 @@ let bookData = [
         authorLast: "Du Mez, Kristin Kobes",
         myRating: "Liked",
         pubDate: 2020,
-        yearRead: [2021],
-        thumb: "./images/jesus-john-wayne.jpg",
     },
     {
         title: "Don't Get Caught",
@@ -4034,8 +3146,6 @@ let bookData = [
         authorLast: "Dinan, Kurt",
         myRating: "Meh",
         pubDate: 2016,
-        yearRead: [2017],
-        thumb: "./images/dont-get-caught.jpg",
     },
     /*===========================
     Author First Name - L's
@@ -4046,8 +3156,6 @@ let bookData = [
         authorLast: "Smith, L.J.",
         myRating: "Meh",
         pubDate: 1991,
-        yearRead: [2015],
-        thumb: "./images/awakening.jpg",
     },
     {
         title: "The Struggle",
@@ -4055,8 +3163,6 @@ let bookData = [
         authorLast: "Smith, L.J.",
         myRating: "Meh",
         pubDate: 1991,
-        yearRead: [2015],
-        thumb: "./images/struggle.jpg",
     },
     {
         title: "The Fury",
@@ -4064,8 +3170,6 @@ let bookData = [
         authorLast: "Smith, L.J.",
         myRating: "Meh",
         pubDate: 1991,
-        yearRead: [2016],
-        thumb: "./images/fury.jpg",
     },
     {
         title: "Dark Reunion",
@@ -4073,8 +3177,6 @@ let bookData = [
         authorLast: "Smith, L.J.",
         myRating: "Meh",
         pubDate: 1991,
-        yearRead: [2016],
-        thumb: "./images/dark-reunion.jpg",
     },
     {
         title: "I Love You, Beth Cooper",
@@ -4082,8 +3184,6 @@ let bookData = [
         authorLast: "Doyle, Larry",
         myRating: "Liked",
         pubDate: 2007,
-        yearRead: [2015],
-        thumb: "./images/beth-cooper.jpg",
     },
     {
         title: "A Secret Life",
@@ -4091,8 +3191,6 @@ let bookData = [
         authorLast: "Roberts, Laura Peyton",
         myRating: "Meh",
         pubDate: 2003,
-        yearRead: [2019],
-        thumb: "./images/secret-life.jpg",
     },
     {
         title: "What the Most Successful People Do Before Breakfast",
@@ -4100,8 +3198,6 @@ let bookData = [
         authorLast: "Vanderkam, Laura",
         myRating: "Liked",
         pubDate: 2012,
-        yearRead: [2018],
-        thumb: "./images/successful-breakfast.jpg",
     },
     {
         title: "Guilty Pleasures",
@@ -4109,8 +3205,6 @@ let bookData = [
         authorLast: "Hamilton, Laurell K.",
         myRating: "Liked",
         pubDate: 1993,
-        yearRead: [2017],
-        thumb: "./images/guilty-pleasures.jpg",
     },
     {
         title: "Six of Crows",
@@ -4118,8 +3212,6 @@ let bookData = [
         authorLast: "Bardugo, Leigh",
         myRating: "Liked",
         pubDate: 2015,
-        yearRead: [2017],
-        thumb: "./images/six-of-crows.jpg",
     },
     {
         title: "Crooked Kingdom",
@@ -4127,8 +3219,6 @@ let bookData = [
         authorLast: "Bardugo, Leigh",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2017],
-        thumb: "./images/six-of-crows2.jpg",
     },
     {
         title: "Ninth House",
@@ -4136,8 +3226,6 @@ let bookData = [
         authorLast: "Bardugo, Leigh",
         myRating: "Liked",
         pubDate: 2019,
-        yearRead: [2023],
-        thumb: "./images/ninth-house.jpg",
     },
     {
         title: "The Bad Beginning",
@@ -4145,8 +3233,6 @@ let bookData = [
         authorLast: "Snicket, Lemony",
         myRating: "Meh",
         pubDate: 1999,
-        yearRead: [2016],
-        thumb: "./images/unfortunate1.jpg",
     },
     {
         title: "The Reptile Room",
@@ -4154,8 +3240,6 @@ let bookData = [
         authorLast: "Snicket, Lemony",
         myRating: "Meh",
         pubDate: 1999,
-        yearRead: [2016],
-        thumb: "./images/unfortunate2.jpg",
     },
     {
         title: "The Wide Window",
@@ -4163,8 +3247,6 @@ let bookData = [
         authorLast: "Snicket, Lemony",
         myRating: "Meh",
         pubDate: 2000,
-        yearRead: [2016],
-        thumb: "./images/unfortunate3.jpg",
     },
     {
         title: "The Miserable Mill",
@@ -4172,8 +3254,6 @@ let bookData = [
         authorLast: "Snicket, Lemony",
         myRating: "Meh",
         pubDate: 2000,
-        yearRead: [2016],
-        thumb: "./images/unfortunate4.jpg",
     },
     {
         title: "The Austere Academy",
@@ -4181,8 +3261,6 @@ let bookData = [
         authorLast: "Snicket, Lemony",
         myRating: "Meh",
         pubDate: 2000,
-        yearRead: [2016],
-        thumb: "./images/unfortunate5.jpg",
     },
     {
         title: "The Ersatz Elevator",
@@ -4190,8 +3268,6 @@ let bookData = [
         authorLast: "Snicket, Lemony",
         myRating: "Disliked",
         pubDate: 2001,
-        yearRead: [2016],
-        thumb: "./images/unfortunate6.jpg",
     },
     {
         title: "The Vile Village",
@@ -4199,8 +3275,6 @@ let bookData = [
         authorLast: "Snicket, Lemony",
         myRating: "Disliked",
         pubDate: 2001,
-        yearRead: [2016],
-        thumb: "./images/unfortunate7.jpg",
     },
     {
         title: "The Hostile Hospital",
@@ -4208,8 +3282,6 @@ let bookData = [
         authorLast: "Snicket, Lemony",
         myRating: "Disliked",
         pubDate: 2001,
-        yearRead: [2016],
-        thumb: "./images/unfortunate8.jpg",
     },
     {
         title: "The Carnivorous Carnival",
@@ -4217,8 +3289,6 @@ let bookData = [
         authorLast: "Snicket, Lemony",
         myRating: "Disliked",
         pubDate: 2002,
-        yearRead: [2016],
-        thumb: "./images/unfortunate9.jpg",
     },
     {
         title: "The Slippery Slope",
@@ -4226,8 +3296,6 @@ let bookData = [
         authorLast: "Snicket, Lemony",
         myRating: "Disliked",
         pubDate: 2003,
-        yearRead: [2016],
-        thumb: "./images/unfortunate10.jpg",
     },
     {
         title: "The Grim Grotto",
@@ -4235,8 +3303,6 @@ let bookData = [
         authorLast: "Snicket, Lemony",
         myRating: "Disliked",
         pubDate: 2004,
-        yearRead: [2016],
-        thumb: "./images/unfortunate11.jpg",
     },
     {
         title: "The Penultimate Peril",
@@ -4244,8 +3310,6 @@ let bookData = [
         authorLast: "Snicket, Lemony",
         myRating: "Disliked",
         pubDate: 2005,
-        yearRead: [2016],
-        thumb: "./images/unfortunate12.jpg",
     },
     {
         title: "The End",
@@ -4253,8 +3317,6 @@ let bookData = [
         authorLast: "Snicket, Lemony",
         myRating: "Disliked",
         pubDate: 2006,
-        yearRead: [2016],
-        thumb: "./images/unfortunate13.jpg",
     },
     {
         title: "Read Japanese Today",
@@ -4262,8 +3324,6 @@ let bookData = [
         authorLast: "Welsh, Len",
         myRating: "Liked",
         pubDate: 1969,
-        yearRead: [2017],
-        thumb: "./images/read-japanese.jpg",
     },
     {
         title: "The Power of Less",
@@ -4271,8 +3331,6 @@ let bookData = [
         authorLast: "Babauta, Leo",
         myRating: "Liked",
         pubDate: 2008,
-        yearRead: [2023],
-        thumb: "./images/power-of-less.jpg",
     },
     {
         title: "The Magicians",
@@ -4280,8 +3338,6 @@ let bookData = [
         authorLast: "Grossman, Lev",
         myRating: "Disliked",
         pubDate: 2009,
-        yearRead: [2018],
-        thumb: "./images/magicians.jpg",
     },
     {
         title: "Big Little Lies",
@@ -4289,8 +3345,6 @@ let bookData = [
         authorLast: "Moriarty, Liane",
         myRating: "Loved",
         pubDate: 2014,
-        yearRead: [2019],
-        thumb: "./images/big-little-lies.jpg",
     },
     {
         title: "Going Bovine",
@@ -4298,8 +3352,6 @@ let bookData = [
         authorLast: "Bray, Libba",
         myRating: "Loved",
         pubDate: 2009,
-        yearRead: [2021],
-        thumb: "./images/bovine.jpg",
     },
     {
         title: "The Giver",
@@ -4307,8 +3359,6 @@ let bookData = [
         authorLast: "Lowry, Lois",
         myRating: "Liked",
         pubDate: 1993,
-        yearRead: [2015],
-        thumb: "./images/giver.jpg",
     },
     {
         title: "Gathering Blue",
@@ -4316,8 +3366,6 @@ let bookData = [
         authorLast: "Lowry, Lois",
         myRating: "Meh",
         pubDate: 2000,
-        yearRead: [2016],
-        thumb: "./images/gathering-blue.jpg",
     },
     {
         title: "Messenger",
@@ -4325,8 +3373,6 @@ let bookData = [
         authorLast: "Lowry, Lois",
         myRating: "Meh",
         pubDate: 2004,
-        yearRead: [2016],
-        thumb: "./images/messenger.jpg",
     },
     {
         title: "Number the Stars",
@@ -4334,8 +3380,6 @@ let bookData = [
         authorLast: "Lowry, Lois",
         myRating: "Liked",
         pubDate: 1989,
-        yearRead: [2000, 2019],
-        thumb: "./images/number-stars.jpg",
     },
     {
         title: "The Simple Living Handbook",
@@ -4343,8 +3387,6 @@ let bookData = [
         authorLast: "Lippincott, Lorilee",
         myRating: "Liked",
         pubDate: 2012,
-        yearRead: [2023],
-        thumb: "./images/simple-living-handbook.jpg",
     },
     {
         title: "Nazirite DNA",
@@ -4352,8 +3394,6 @@ let bookData = [
         authorLast: "Engle, Lou",
         myRating: "Meh",
         pubDate: 2009,
-        yearRead: [2015],
-        thumb: "./images/nazirite-dna.jpg",
     },
     {
         title: "Theodore Roosevelt",
@@ -4361,8 +3401,6 @@ let bookData = [
         authorLast: "Auchincloss, Louis",
         myRating: "Liked",
         pubDate: 2002,
-        yearRead: [2021],
-        thumb: "./images/teddy.jpg",
     },
     {
         title: "Holes",
@@ -4370,8 +3408,6 @@ let bookData = [
         authorLast: "Sachar, Louis",
         myRating: "Liked",
         pubDate: 1998,
-        yearRead: [2001],
-        thumb: "./images/holes.jpg",
     },
     {
         title: "Sideways Stories from Wayside School",
@@ -4379,8 +3415,6 @@ let bookData = [
         authorLast: "Sachar, Louis",
         myRating: "Liked",
         pubDate: 1978,
-        yearRead: [2003, 2015],
-        thumb: "./images/wayside1.jpg",
     },
     {
         title: "Wayside School Is Falling Down",
@@ -4388,8 +3422,6 @@ let bookData = [
         authorLast: "Sachar, Louis",
         myRating: "Liked",
         pubDate: 1989,
-        yearRead: [2003],
-        thumb: "./images/wayside2.jpg",
     },
     {
         title: "Wayside School Gets a Little Stranger",
@@ -4397,8 +3429,6 @@ let bookData = [
         authorLast: "Sachar, Louis",
         myRating: "Liked",
         pubDate: 1995,
-        yearRead: [2003],
-        thumb: "./images/wayside3.jpg",
     },
     {
         title: "Wayside School Beneath the Cloud of Doom",
@@ -4406,8 +3436,6 @@ let bookData = [
         authorLast: "Sachar, Louis",
         myRating: "Liked",
         pubDate: 2020,
-        yearRead: [2022],
-        thumb: "./images/wayside4.jpg",
     },
     {
         title: "Recruited",
@@ -4415,8 +3443,6 @@ let bookData = [
         authorLast: "Mason, Lynn",
         myRating: "Meh",
         pubDate: 2002,
-        yearRead: [2019],
-        thumb: "./images/recruited.jpg",
     },
     /*===========================
     Author First Name - M's
@@ -4427,8 +3453,6 @@ let bookData = [
         authorLast: "L'Engle, Madeleine",
         myRating: "Liked",
         pubDate: 1962,
-        yearRead: [2015, 2018],
-        thumb: "./images/wrinkle-in-time.jpg",
     },
     {
         title: "Outliers",
@@ -4436,8 +3460,6 @@ let bookData = [
         authorLast: "Gladwell, Malcolm",
         myRating: "Liked",
         pubDate: 2008,
-        yearRead: [2020],
-        thumb: "./images/outliers.jpg",
     },
     {
         title: "Tipping Point",
@@ -4445,8 +3467,6 @@ let bookData = [
         authorLast: "Gladwell, Malcolm",
         myRating: "Liked",
         pubDate: 2002,
-        yearRead: [2020],
-        thumb: "./images/tipping-point.jpg",
     },
     {
         title: "David and Goliath",
@@ -4454,8 +3474,6 @@ let bookData = [
         authorLast: "Gladwell, Malcolm",
         myRating: "Liked",
         pubDate: 2013,
-        yearRead: [2022],
-        thumb: "./images/david-goliath.jpg",
     },
     {
         title: "Bored and Brilliant",
@@ -4463,8 +3481,6 @@ let bookData = [
         authorLast: "Zomorodi, Manoush",
         myRating: "Liked",
         pubDate: 2017,
-        yearRead: [2019, 2021],
-        thumb: "./images/bored.jpg",
     },
     {
         title: "The 125 Best Brain Teasers of All Time",
@@ -4472,8 +3488,6 @@ let bookData = [
         authorLast: "Danesi, Marcel",
         myRating: "Meh",
         pubDate: 2018,
-        yearRead: [2019],
-        thumb: "./images/brain-teasers.jpg",
     },
     {
         title: "Vampire Baby",
@@ -4481,8 +3495,6 @@ let bookData = [
         authorLast: "Jones, Marcia Thornton",
         myRating: "Meh",
         pubDate: 1999,
-        yearRead: [2001],
-        thumb: "./images/vamp-baby.jpg",
     },
     {
         title: "First, Break All the Rules",
@@ -4490,8 +3502,6 @@ let bookData = [
         authorLast: "Buckingham, Marcus",
         myRating: "Liked",
         pubDate: 1999,
-        yearRead: [2022],
-        thumb: "./images/first-break-rules.jpg",
     },
     {
         title: "The Official Pokémon Handbook",
@@ -4499,8 +3509,6 @@ let bookData = [
         authorLast: "Barbo, Maria",
         myRating: "Liked",
         pubDate: 1999,
-        yearRead: [2000],
-        thumb: "./images/pokemon.jpg",
     },
     {
         title: "Where'd You Go, Bernadette",
@@ -4508,8 +3516,6 @@ let bookData = [
         authorLast: "Semple, Maria",
         myRating: "Loved",
         pubDate: 2012,
-        yearRead: [2018],
-        thumb: "./images/bernadette.jpg",
     },
     {
         title: "Beautiful",
@@ -4517,8 +3523,6 @@ let bookData = [
         authorLast: "D'Abreo, Marie",
         myRating: "Disliked",
         pubDate: 2014,
-        yearRead: [2018],
-        thumb: "./images/beautiful.jpg",
     },
     {
         title: "The Life-Changing Magic of Tidying Up",
@@ -4526,8 +3530,6 @@ let bookData = [
         authorLast: "Kondō, Marie",
         myRating: "Liked",
         pubDate: 2014,
-        yearRead: [2017],
-        thumb: "./images/magic-tidying-up.jpg",
     },
     {
         title: "Spark Joy",
@@ -4535,8 +3537,6 @@ let bookData = [
         authorLast: "Kondō, Marie",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2017],
-        thumb: "./images/spark-joy.jpg",
     },
     {
         title: "Legend",
@@ -4544,8 +3544,6 @@ let bookData = [
         authorLast: "Lu, Marie",
         myRating: "Liked",
         pubDate: 2011,
-        yearRead: [2019],
-        thumb: "./images/legend.jpg",
     },
     {
         title: "What is a Healthy Church?",
@@ -4553,8 +3551,6 @@ let bookData = [
         authorLast: "Dever, Mark",
         myRating: "Liked",
         pubDate: 2007,
-        yearRead: [2022],
-        thumb: "./images/what-healthy-church.jpg",
     },
     {
         title: "Doctrine",
@@ -4562,8 +3558,6 @@ let bookData = [
         authorLast: "Driscoll, Mark",
         myRating: "Liked",
         pubDate: 2010,
-        yearRead: [2012],
-        thumb: "./images/doctrine.jpg",
     },
     {
         title: "The Radical Reformission",
@@ -4571,8 +3565,6 @@ let bookData = [
         authorLast: "Driscoll, Mark",
         myRating: "Liked",
         pubDate: 2004,
-        yearRead: [2012],
-        thumb: "./images/radical-ref.jpg",
     },
     {
         title: "Never Say No",
@@ -4580,8 +3572,6 @@ let bookData = [
         authorLast: "Foreman, Mark",
         myRating: "Loved",
         pubDate: 2015,
-        yearRead: [2022],
-        thumb: "./images/never-say-no.jpg",
     },
     {
         title: "The Subtle Art of Not Giving a F*ck",
@@ -4589,8 +3579,6 @@ let bookData = [
         authorLast: "Manson, Mark",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2019],
-        thumb: "./images/subtle-art.jpg",
     },
     {
         title: "Archie, Vol. 1",
@@ -4598,8 +3586,6 @@ let bookData = [
         authorLast: "Waid, Mark",
         myRating: "Meh",
         pubDate: 2016,
-        yearRead: [2018],
-        thumb: "./images/archie.jpg",
     },
     {
         title: "House of Leaves",
@@ -4607,8 +3593,6 @@ let bookData = [
         authorLast: "Danielewski, Mark Z.",
         myRating: "Liked",
         pubDate: 2000,
-        yearRead: [2019],
-        thumb: "./images/house-of-leaves.jpg",
     },
     {
         title: "Manna",
@@ -4616,8 +3600,6 @@ let bookData = [
         authorLast: "Brain, Marshall",
         myRating: "Liked",
         pubDate: 2003,
-        yearRead: [2017],
-        thumb: "./images/manna.jpg",
     },
     {
         title: "All Systems Red",
@@ -4625,8 +3607,6 @@ let bookData = [
         authorLast: "Wells, Martha",
         myRating: "Liked",
         pubDate: 2017,
-        yearRead: [2023],
-        thumb: "./images/murderbot1.jpg",
     },
     {
         title: "Frankenstein",
@@ -4634,8 +3614,6 @@ let bookData = [
         authorLast: "Shelley, Mary",
         myRating: "Meh",
         pubDate: 1818,
-        yearRead: [2008],
-        thumb: "./images/frankenstein.jpg",
     },
     {
         title: "The Midnight Library",
@@ -4643,8 +3621,6 @@ let bookData = [
         authorLast: "Haig, Matt",
         myRating: "Liked",
         pubDate: 2020,
-        yearRead: [2021],
-        thumb: "./images/midnight-library.jpg",
     },
     {
         title: "The Terrible and Wonderful Reasons Why I Run Long Distances",
@@ -4652,8 +3628,6 @@ let bookData = [
         authorLast: "Inman, Matthew",
         myRating: "Loved",
         pubDate: 2014,
-        yearRead: [2023],
-        thumb: "./images/why-i-run-long.jpg",
     },
     {
         title: "30 Days To Understanding the Bible",
@@ -4661,8 +3635,6 @@ let bookData = [
         authorLast: "Anders, Max",
         myRating: "Liked",
         pubDate: 2004,
-        yearRead: [2013, 2023],
-        thumb: "./images/thirty-days-bible.jpg",
     },
     {
         title: "World War Z",
@@ -4670,8 +3642,6 @@ let bookData = [
         authorLast: "Brooks, Max",
         myRating: "Meh",
         pubDate: 2006,
-        yearRead: [2018],
-        thumb: "./images/wwz.jpg",
     },
     {
         title: "More Numbers Every Day",
@@ -4679,8 +3649,6 @@ let bookData = [
         authorLast: "Dahlén, Micael",
         myRating: "Liked",
         pubDate: 2023,
-        yearRead: [2023],
-        thumb: "./images/more-numbers-day.jpg",
     },
     {
         title: "How Not to Die",
@@ -4688,8 +3656,6 @@ let bookData = [
         authorLast: "Greger, Michael",
         myRating: "Liked",
         pubDate: 2015,
-        yearRead: [2018, 2023],
-        thumb: "./images/how-not-to-die.jpg",
     },
     {
         title: "Stupid White Men",
@@ -4697,8 +3663,6 @@ let bookData = [
         authorLast: "Moore, Michael",
         myRating: "Meh",
         pubDate: 2001,
-        yearRead: [2008],
-        thumb: "./images/stupid-white-men.jpg",
     },
     {
         title: "Food Rules",
@@ -4706,8 +3670,6 @@ let bookData = [
         authorLast: "Pollan, Michael",
         myRating: "Liked",
         pubDate: 2009,
-        yearRead: [2020],
-        thumb: "./images/food-rules.jpg",
     },
     {
         title: "Mean Girls",
@@ -4715,8 +3677,6 @@ let bookData = [
         authorLast: "Ostow, Micol",
         myRating: "Liked",
         pubDate: 2017,
-        yearRead: [2017],
-        thumb: "./images/mean-girls.jpg",
     },
     {
         title: "Dungeon Master's Guide",
@@ -4724,8 +3684,6 @@ let bookData = [
         authorLast: "Mearls, Mike",
         myRating: "Liked",
         pubDate: 2014,
-        yearRead: [2017],
-        thumb: "./images/dmg.jpg",
     },
     {
         title: "The Kobold Guide to Board Game Design",
@@ -4733,8 +3691,6 @@ let bookData = [
         authorLast: "Selinker, Mike",
         myRating: "Loved",
         pubDate: 2011,
-        yearRead: [2015],
-        thumb: "./images/kobold-bgs.jpg",
     },
     {
         title: "Shirley Jackson's The Lottery: The Authorized Graphic Adaptation",
@@ -4742,8 +3698,6 @@ let bookData = [
         authorLast: "Hyman, Miles",
         myRating: "Meh",
         pubDate: 2017,
-        yearRead: [2017],
-        thumb: "./images/lottery-graphic.jpg",
     },
     {
         title: "Math Without Numbers",
@@ -4751,8 +3705,6 @@ let bookData = [
         authorLast: "Beckman, Milo",
         myRating: "Liked",
         pubDate: 2021,
-        yearRead: [2023],
-        thumb: "./images/math-without-numbers.jpg",
     },
     {
         title: "AsapSCIENCE",
@@ -4760,8 +3712,6 @@ let bookData = [
         authorLast: "Moffit, Mitchell",
         myRating: "Liked",
         pubDate: 2015,
-        yearRead: [2021],
-        thumb: "./images/asapscience.jpg",
     },
     /*===========================
     Author First Name - N's
@@ -4772,8 +3722,6 @@ let bookData = [
         authorLast: "Shusterman, Neal",
         myRating: "Loved",
         pubDate: 2016,
-        yearRead: [2017, 2022],
-        thumb: "./images/scythe1.jpg",
     },
     {
         title: "Thunderhead",
@@ -4781,8 +3729,6 @@ let bookData = [
         authorLast: "Shusterman, Neal",
         myRating: "Loved",
         pubDate: 2018,
-        yearRead: [2018, 2022],
-        thumb: "./images/scythe2.jpg",
     },
     {
         title: "The Toll",
@@ -4790,8 +3736,6 @@ let bookData = [
         authorLast: "Shusterman, Neal",
         myRating: "Loved",
         pubDate: 2019,
-        yearRead: [2019, 2022],
-        thumb: "./images/scythe3.jpg",
     },
     {
         title: "Gleanings",
@@ -4799,8 +3743,6 @@ let bookData = [
         authorLast: "Shusterman, Neal",
         myRating: "Loved",
         pubDate: 2022,
-        yearRead: [2022],
-        thumb: "./images/scythe4.jpg",
     },
     {
         title: "Snow Crash",
@@ -4808,8 +3750,6 @@ let bookData = [
         authorLast: "Stephenson, Neal",
         myRating: "Meh",
         pubDate: 1992,
-        yearRead: [2023],
-        thumb: "./images/snow-crash.jpg",
     },
     {
         title: "Neverwhere",
@@ -4817,8 +3757,6 @@ let bookData = [
         authorLast: "Gaiman, Neil",
         myRating: "Meh",
         pubDate: 1996,
-        yearRead: [2018],
-        thumb: "./images/neverwhere.jpg",
     },
     {
         title: "Good Omens",
@@ -4826,8 +3764,6 @@ let bookData = [
         authorLast: "Gaiman, Neil",
         myRating: "Meh",
         pubDate: 2006,
-        yearRead: [2020],
-        thumb: "./images/good-omens.jpg",
     },
     {
         title: "Coraline",
@@ -4835,8 +3771,6 @@ let bookData = [
         authorLast: "Gaiman, Neil",
         myRating: "Meh",
         pubDate: 2002,
-        yearRead: [2018],
-        thumb: "./images/coraline.jpg",
     },
     {
         title: "The Graveyard Book",
@@ -4844,8 +3778,6 @@ let bookData = [
         authorLast: "Gaiman, Neil",
         myRating: "Liked",
         pubDate: 2008,
-        yearRead: [2018],
-        thumb: "./images/graveyard-book.jpg",
     },
     {
         title: "Victory Over the Darkness",
@@ -4853,8 +3785,6 @@ let bookData = [
         authorLast: "Anderson, Neil T.",
         myRating: "Disliked",
         pubDate: 1990,
-        yearRead: [2014],
-        thumb: "./images/victory-over-darkness.jpg",
     },
     {
         title: "Everything, Everything",
@@ -4862,8 +3792,6 @@ let bookData = [
         authorLast: "Yoon, Nicola",
         myRating: "Liked",
         pubDate: 2015,
-        yearRead: [2018],
-        thumb: "./images/everything.jpg",
     },
     {
         title: "The Shallows",
@@ -4871,8 +3799,6 @@ let bookData = [
         authorLast: "Carr, Nicolas",
         myRating: "Meh",
         pubDate: 2011,
-        yearRead: [2022],
-        thumb: "./images/shallows.jpg",
     },
     {
         title: "Super Mario Bros. Encyclopedia",
@@ -4880,8 +3806,6 @@ let bookData = [
         authorLast: "Nintendo",
         myRating: "Meh",
         pubDate: 2017,
-        yearRead: [2023],
-        thumb: "./images/super-mario-encyclopedia.jpg",
     },
     /*===========================
     Author First Name - O's
@@ -4892,8 +3816,6 @@ let bookData = [
         authorLast: "Burns, Olive Ann",
         myRating: "Meh",
         pubDate: 1984,
-        yearRead: [2004],
-        thumb: "./images/sassy-tree.jpg",
     },
     {
         title: "Ender's Game",
@@ -4901,8 +3823,6 @@ let bookData = [
         authorLast: "Card, Orson Scott",
         myRating: "Meh",
         pubDate: 1985,
-        yearRead: [2004],
-        thumb: "./images/enders-game.jpg",
     },
     {
         title: "The Canterville Ghost",
@@ -4910,8 +3830,6 @@ let bookData = [
         authorLast: "Wilde, Oscar",
         myRating: "Liked",
         pubDate: 1887,
-        yearRead: [2021],
-        thumb: "./images/canterville.jpg",
     },
     /*===========================
     Author First Name - P's
@@ -4922,8 +3840,6 @@ let bookData = [
         authorLast: "Paul, Pamela",
         myRating: "Liked",
         pubDate: 2021,
-        yearRead: [2021],
-        thumb: "./images/lost-internet.jpg",
     },
     {
         title: "The Windup Girl",
@@ -4931,8 +3847,6 @@ let bookData = [
         authorLast: "Bacigalupi, Paolo",
         myRating: "Meh",
         pubDate: 2009,
-        yearRead: [2015],
-        thumb: "./images/windup-girl.jpg",
     },
     {
         title: "The Five Dysfunctions of a Team",
@@ -4940,8 +3854,6 @@ let bookData = [
         authorLast: "Lencioni, Patrick",
         myRating: "Liked",
         pubDate: 2002,
-        yearRead: [2022],
-        thumb: "./images/five-dysfunctions.jpg",
     },
     {
         title: "The Name of the Wind",
@@ -4949,8 +3861,6 @@ let bookData = [
         authorLast: "Rothfuss, Patrick",
         myRating: "Loved",
         pubDate: 2007,
-        yearRead: [2020, 2021],
-        thumb: "./images/name-of-wind.jpg",
     },
     {
         title: "The Wise Man's Fear",
@@ -4958,8 +3868,6 @@ let bookData = [
         authorLast: "Rothfuss, Patrick",
         myRating: "Loved",
         pubDate: 2011,
-        yearRead: [2020, 2023],
-        thumb: "./images/name-of-wind2.jpg",
     },
     {
         title: "Rick and Morty vs. Dungeons & Dragons",
@@ -4967,8 +3875,6 @@ let bookData = [
         authorLast: "Rothfuss, Patrick",
         myRating: "Loved",
         pubDate: 2019,
-        yearRead: [2020],
-        thumb: "./images/rick-morty-vs-dnd.jpg",
     },
     {
         title: "The Heavenly Man",
@@ -4976,8 +3882,6 @@ let bookData = [
         authorLast: "Hattaway, Paul",
         myRating: "Meh",
         pubDate: 2000,
-        yearRead: [2015],
-        thumb: "./images/heavenly-man.jpg",
     },
     {
         title: "In Bloom",
@@ -4985,8 +3889,6 @@ let bookData = [
         authorLast: "Tremblay, Paul",
         myRating: "Meh",
         pubDate: 2023,
-        yearRead: [2023],
-        thumb: "./images/in-bloom.jpg",
     },
     {
         title: "The Girl on the Train",
@@ -4994,8 +3896,6 @@ let bookData = [
         authorLast: "Hawkins, Paula",
         myRating: "Liked",
         pubDate: 2015,
-        yearRead: [2016],
-        thumb: "./images/girl-on-train.jpg",
     },
     {
         title: "Liverpool FC",
@@ -5003,8 +3903,6 @@ let bookData = [
         authorLast: "Wilson, Paula",
         myRating: "Meh",
         pubDate: 2018,
-        yearRead: [2020],
-        thumb: "./images/liverpool.jpg",
     },
     {
         title: "The Alchemist",
@@ -5012,8 +3910,6 @@ let bookData = [
         authorLast: "Coelho, Paulo",
         myRating: "Meh",
         pubDate: 1988,
-        yearRead: [2018],
-        thumb: "./images/alchemist.jpg",
     },
     {
         title: "The Good Earth",
@@ -5021,8 +3917,6 @@ let bookData = [
         authorLast: "Buck, Pearl S.",
         myRating: "Meh",
         pubDate: 1931,
-        yearRead: [2006],
-        thumb: "./images/good-earth.jpg",
     },
     {
         title: "Shortest Way Home",
@@ -5030,8 +3924,6 @@ let bookData = [
         authorLast: "Buttigieg, Pete",
         myRating: "Meh",
         pubDate: 2019,
-        yearRead: [2019],
-        thumb: "./images/shortest-way-home.jpg",
     },
     {
         title: "30 Years of Adventure: A Celebration of Dungeons & Dragons",
@@ -5039,8 +3931,6 @@ let bookData = [
         authorLast: "Archer, Peter",
         myRating: "Meh",
         pubDate: 2004,
-        yearRead: [2016],
-        thumb: "./images/thirty-years.jpg",
     },
     {
         title: "1001 Books You Must Read Before You Die",
@@ -5048,8 +3938,6 @@ let bookData = [
         authorLast: "Boxall, Peter",
         myRating: "Meh",
         pubDate: 2006,
-        yearRead: [2017],
-        thumb: "./images/thousand-one-books.jpg",
     },
     {
         title: "Adjustment Team",
@@ -5057,8 +3945,6 @@ let bookData = [
         authorLast: "Dick, Philip K.",
         myRating: "Meh",
         pubDate: 1954,
-        yearRead: [2021],
-        thumb: "./images/adjustment-team.jpg",
     },
     {
         title: "Resident Evil",
@@ -5066,8 +3952,6 @@ let bookData = [
         authorLast: "Reed, Philip",
         myRating: "Liked",
         pubDate: 2020,
-        yearRead: [2020],
-        thumb: "./images/resident-evil.jpg",
     },
     {
         title: "Red Rising",
@@ -5075,8 +3959,6 @@ let bookData = [
         authorLast: "Brown, Pierce",
         myRating: "Loved",
         pubDate: 2014,
-        yearRead: [2022],
-        thumb: "./images/red-rising.jpg",
     },
     {
         title: "Hidden Codes & Grand Designs",
@@ -5084,8 +3966,6 @@ let bookData = [
         authorLast: "Berloquin, Pierre",
         myRating: "Meh",
         pubDate: 2007,
-        yearRead: [2014],
-        thumb: "./images/hidden-codes.jpg",
     },
     /*===========================
     Author First Name - Q's
@@ -5099,8 +3979,6 @@ let bookData = [
         authorLast: "Sproul, R.C.",
         myRating: "Liked",
         pubDate: 2010,
-        yearRead: [2022],
-        thumb: "./images/sure-im-saved.jpg",
     },
     {
         title: "What Is the Relationship between Church and State?",
@@ -5108,8 +3986,6 @@ let bookData = [
         authorLast: "Sproul, R.C.",
         myRating: "Liked",
         pubDate: 2014,
-        yearRead: [2022],
-        thumb: "./images/relationship-church-state.jpg",
     },
     {
         title: "How Should I Think About Money?",
@@ -5117,8 +3993,6 @@ let bookData = [
         authorLast: "Sproul, R.C.",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2022],
-        thumb: "./images/how-think-money.jpg",
     },
     {
         title: "What is Predestination?",
@@ -5126,8 +4000,6 @@ let bookData = [
         authorLast: "Sproul, R.C.",
         myRating: "Liked",
         pubDate: 2019,
-        yearRead: [2021],
-        thumb: "./images/predestination.jpg",
     },
     {
         title: "Welcome to Dead House",
@@ -5135,8 +4007,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Liked",
         pubDate: 1992,
-        yearRead: [2017],
-        thumb: "./images/dead-house.jpg",
     },
     {
         title: "Stay Out of the Basement",
@@ -5144,8 +4014,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Meh",
         pubDate: 1992,
-        yearRead: [2017],
-        thumb: "./images/stay-out-basement.jpg",
     },
     {
         title: "Say Cheese and Die!",
@@ -5153,8 +4021,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Liked",
         pubDate: 1992,
-        yearRead: [1999],
-        thumb: "./images/say-cheese-die.jpg",
     },
     {
         title: "The Curse of the Mummy's Tomb",
@@ -5162,8 +4028,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Meh",
         pubDate: 1993,
-        yearRead: [2017],
-        thumb: "./images/curse-of-mummy.jpg",
     },
     {
         title: "Night of the Living Dummy",
@@ -5171,8 +4035,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Liked",
         pubDate: 1993,
-        yearRead: [2017],
-        thumb: "./images/night-living-dummy.jpg",
     },
     {
         title: "One Day at Horrorland",
@@ -5180,8 +4042,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Liked",
         pubDate: 1994,
-        yearRead: [2006],
-        thumb: "./images/horrorland.jpg",
     },
     {
         title: "It Came from Beneath the Sink!",
@@ -5189,8 +4049,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Meh",
         pubDate: 1995,
-        yearRead: [2016],
-        thumb: "./images/it-came-from-beneath.jpg",
     },
     {
         title: "Werewolf Skin",
@@ -5198,8 +4056,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Liked",
         pubDate: 1997,
-        yearRead: [2015],
-        thumb: "./images/werewolf-skin.jpg",
     },
     {
         title: "Trapped in Batwing Hall",
@@ -5207,8 +4063,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Meh",
         pubDate: 1995,
-        yearRead: [2023],
-        thumb: "./images/batwing-hall.jpg",
     },
     {
         title: "Beware of the Purple Peanut Butter",
@@ -5216,8 +4070,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Disliked",
         pubDate: 1996,
-        yearRead: [2021],
-        thumb: "./images/purple-pb.jpg",
     },
     {
         title: "Dr. Maniac vs. Robby Schwartz",
@@ -5225,8 +4077,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Disliked",
         pubDate: 2008,
-        yearRead: [2017],
-        thumb: "./images/dr-maniac-vs.jpg",
     },
     {
         title: "Who's Your Mummy?",
@@ -5234,8 +4084,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Meh",
         pubDate: 2009,
-        yearRead: [2017],
-        thumb: "./images/whos-your-mummy.jpg",
     },
     {
         title: "My Friends Call Me Monster",
@@ -5243,8 +4091,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Disliked",
         pubDate: 2015,
-        yearRead: [2017],
-        thumb: "./images/friends-call-me-monster.jpg",
     },
     {
         title: "Say Cheese - And Die Screaming",
@@ -5252,8 +4098,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Meh",
         pubDate: 2009,
-        yearRead: [2017],
-        thumb: "./images/say-cheese-die-screaming.jpg",
     },
     {
         title: "Welcome To Camp Slither",
@@ -5261,8 +4105,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Disliked",
         pubDate: 2009,
-        yearRead: [2017],
-        thumb: "./images/camp-slither.jpg",
     },
     {
         title: "Escape From Horrorland",
@@ -5270,8 +4112,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Meh",
         pubDate: 2009,
-        yearRead: [2017],
-        thumb: "./images/escape-horrorland.jpg",
     },
     {
         title: "When The Ghost Dog Howls",
@@ -5279,8 +4119,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Disliked",
         pubDate: 2010,
-        yearRead: [2017],
-        thumb: "./images/ghost-dog-howls.jpg",
     },
     {
         title: "Little Shop of Hamsters",
@@ -5288,8 +4126,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Disliked",
         pubDate: 2010,
-        yearRead: [2017],
-        thumb: "./images/little-shop-hamsters.jpg",
     },
     {
         title: "Weirdo Halloween",
@@ -5297,8 +4133,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Disliked",
         pubDate: 2010,
-        yearRead: [2017],
-        thumb: "./images/weirdo-halloween.jpg",
     },
     {
         title: "Slappy New Year!",
@@ -5306,8 +4140,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Disliked",
         pubDate: 2010,
-        yearRead: [2017],
-        thumb: "./images/slappy-new-year.jpg",
     },
     {
         title: "The Horror At Chiller House",
@@ -5315,8 +4147,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Meh",
         pubDate: 2011,
-        yearRead: [2017],
-        thumb: "./images/chiller-house.jpg",
     },
     {
         title: "Dr. Maniac Will See You Now",
@@ -5324,8 +4154,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Disliked",
         pubDate: 2013,
-        yearRead: [2017],
-        thumb: "./images/dr-maniac.jpg",
     },
     {
         title: "Creature Teacher: The Final Exam",
@@ -5333,8 +4161,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Disliked",
         pubDate: 2014,
-        yearRead: [2017],
-        thumb: "./images/creature-teacher.jpg",
     },
     {
         title: "Zombie Halloween",
@@ -5342,8 +4168,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Meh",
         pubDate: 2014,
-        yearRead: [2017],
-        thumb: "./images/zombie-halloween.jpg",
     },
     {
         title: "The 12 Screams of Christmas",
@@ -5351,8 +4175,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Meh",
         pubDate: 2014,
-        yearRead: [2017],
-        thumb: "./images/twelve-screams.jpg",
     },
     {
         title: "Slappy Birthday to You",
@@ -5360,8 +4182,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Disliked",
         pubDate: 2017,
-        yearRead: [2017],
-        thumb: "./images/slappy-birthday.jpg",
     },
     {
         title: "Creepy Creatures",
@@ -5369,8 +4189,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Meh",
         pubDate: 2006,
-        yearRead: [2017],
-        thumb: "./images/creepy-creatures.jpg",
     },
     {
         title: "Terror Trips",
@@ -5378,8 +4196,6 @@ let bookData = [
         authorLast: "Stine, R.L.",
         myRating: "Meh",
         pubDate: 2007,
-        yearRead: [2017],
-        thumb: "./images/terror-trips.jpg",
     },
     {
         title: "2,000 to 10,000",
@@ -5387,8 +4203,6 @@ let bookData = [
         authorLast: "Aaron, Rachel",
         myRating: "Meh",
         pubDate: 2012,
-        yearRead: [2018],
-        thumb: "./images/two-thousand.jpg",
     },
     {
         title: "Less: A Visual Guide to Minimalism",
@@ -5396,8 +4210,6 @@ let bookData = [
         authorLast: "Aust, Rachel",
         myRating: "Meh",
         pubDate: 2018,
-        yearRead: [2018],
-        thumb: "./images/less.jpg",
     },
     {
         title: "Nick & Norah's Infinite Playlist",
@@ -5405,8 +4217,6 @@ let bookData = [
         authorLast: "Cohn, Rachel",
         myRating: "Liked",
         pubDate: 2006,
-        yearRead: [2015, 2018],
-        thumb: "./images/nick-norah.jpg",
     },
     {
         title: "Dot Journaling",
@@ -5414,8 +4224,6 @@ let bookData = [
         authorLast: "Miller, Rachel",
         myRating: "Meh",
         pubDate: 2020,
-        yearRead: [2020],
-        thumb: "./images/dot-journaling.jpg",
     },
     {
         title: "Ghosts",
@@ -5423,8 +4231,6 @@ let bookData = [
         authorLast: "Telgemeier, Raina",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2017],
-        thumb: "./images/ghosts.jpg",
     },
     {
         title: "Landline",
@@ -5432,8 +4238,6 @@ let bookData = [
         authorLast: "Rowell, Rainbow",
         myRating: "Liked",
         pubDate: 2014,
-        yearRead: [2018],
-        thumb: "./images/landline.jpg",
     },
     {
         title: "Attachments",
@@ -5441,8 +4245,6 @@ let bookData = [
         authorLast: "Rowell, Rainbow",
         myRating: "Liked",
         pubDate: 2011,
-        yearRead: [2018],
-        thumb: "./images/attachments.jpg",
     },
     {
         title: "Eleanor & Park",
@@ -5450,8 +4252,6 @@ let bookData = [
         authorLast: "Rowell, Rainbow",
         myRating: "Liked",
         pubDate: 2012,
-        yearRead: [2016],
-        thumb: "./images/eleanor-park.jpg",
     },
     {
         title: "Fangirl",
@@ -5459,8 +4259,6 @@ let bookData = [
         authorLast: "Rowell, Rainbow",
         myRating: "Loved",
         pubDate: 2013,
-        yearRead: [2016],
-        thumb: "./images/fangirl.jpg",
     },
     {
         title: "Carry On",
@@ -5468,8 +4266,6 @@ let bookData = [
         authorLast: "Rowell, Rainbow",
         myRating: "Liked",
         pubDate: 2015,
-        yearRead: [2016, 2018],
-        thumb: "./images/carry-on1.jpg",
     },
     {
         title: "Wayward Son",
@@ -5477,8 +4273,6 @@ let bookData = [
         authorLast: "Rowell, Rainbow",
         myRating: "Liked",
         pubDate: 2019,
-        yearRead: [2019],
-        thumb: "./images/carry-on2.jpg",
     },
     {
         title: "Any Way the Wind Blows",
@@ -5486,8 +4280,6 @@ let bookData = [
         authorLast: "Rowell, Rainbow",
         myRating: "Meh",
         pubDate: 2021,
-        yearRead: [2021],
-        thumb: "./images/carry-on3.jpg",
     },
     {
         title: "Kindred Spirits",
@@ -5495,8 +4287,6 @@ let bookData = [
         authorLast: "Rowell, Rainbow",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2021],
-        thumb: "./images/kindred-spirits.jpg",
     },
     {
         title: "I Will Teach You to Be Rich",
@@ -5504,8 +4294,6 @@ let bookData = [
         authorLast: "Sethi, Ramit",
         myRating: "Loved",
         pubDate: 2009,
-        yearRead: [2022],
-        thumb: "./images/teach-to-be-rich.jpg",
     },
     {
         title: "Thing Explainer",
@@ -5513,8 +4301,6 @@ let bookData = [
         authorLast: "Munroe, Randall",
         myRating: "Liked",
         pubDate: 2015,
-        yearRead: [2017],
-        thumb: "./images/thing-explainer.jpg",
     },
     {
         title: "What If?",
@@ -5522,8 +4308,6 @@ let bookData = [
         authorLast: "Munroe, Randall",
         myRating: "Liked",
         pubDate: 2014,
-        yearRead: [2017],
-        thumb: "./images/what-if.jpg",
     },
     {
         title: "Heaven",
@@ -5531,8 +4315,6 @@ let bookData = [
         authorLast: "Alcorn, Randy",
         myRating: "Loved",
         pubDate: 2004,
-        yearRead: [2023],
-        thumb: "./images/heaven.jpg",
     },
     {
         title: "Money, Possessions and Eternity",
@@ -5540,8 +4322,6 @@ let bookData = [
         authorLast: "Alcorn, Randy",
         myRating: "Meh",
         pubDate: 1989,
-        yearRead: [2015],
-        thumb: "./images/money-eternity.jpg",
     },
     {
         title: "The Treasure Principle",
@@ -5549,8 +4329,6 @@ let bookData = [
         authorLast: "Alcorn, Randy",
         myRating: "Liked",
         pubDate: 2001,
-        yearRead: [2013],
-        thumb: "./images/treasure-principle.jpg",
     },
     {
         title: "Safely Home",
@@ -5558,8 +4336,6 @@ let bookData = [
         authorLast: "Alcorn, Randy",
         myRating: "Liked",
         pubDate: 2001,
-        yearRead: [2013],
-        thumb: "./images/safely-home.jpg",
     },
     {
         title: "How to be Miserable",
@@ -5567,8 +4343,6 @@ let bookData = [
         authorLast: "Paterson, Randy",
         myRating: "Meh",
         pubDate: 2016,
-        yearRead: [2020],
-        thumb: "./images/miserable.jpg",
     },
     {
         title: "Miss Peregrine's Home for Peculiar Children",
@@ -5576,8 +4350,6 @@ let bookData = [
         authorLast: "Riggs, Ransom",
         myRating: "Meh",
         pubDate: 2011,
-        yearRead: [2015],
-        thumb: "./images/peregrine.jpg",
     },
     {
         title: "Welcome to the Club",
@@ -5585,8 +4357,6 @@ let bookData = [
         authorLast: "D'Apice, Raquel",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2018],
-        thumb: "./images/welcome-to-club.jpg",
     },
     {
         title: "Fahrenheit 451",
@@ -5594,8 +4364,6 @@ let bookData = [
         authorLast: "Bradbury, Ray",
         myRating: "Liked",
         pubDate: 1953,
-        yearRead: [2015],
-        thumb: "./images/f451.jpg",
     },
     {
         title: "The Gospel",
@@ -5603,8 +4371,6 @@ let bookData = [
         authorLast: "Ortlund, Raymond",
         myRating: "Loved",
         pubDate: 2014,
-        yearRead: [2022],
-        thumb: "./images/the-gospel.jpg",
     },
     {
         title: "NBA Jam",
@@ -5612,8 +4378,6 @@ let bookData = [
         authorLast: "Ali, Reyan",
         myRating: "Loved",
         pubDate: 2019,
-        yearRead: [2023],
-        thumb: "./images/nba-jam.jpg",
     },
     {
         title: "The Science of Nutrition",
@@ -5621,8 +4385,6 @@ let bookData = [
         authorLast: "Lambert, Rhiannon",
         myRating: "Liked",
         pubDate: 2021,
-        yearRead: [2022],
-        thumb: "./images/science-nutrition.jpg",
     },
     {
         title: "Cemetery Dance: Issue 74-75",
@@ -5630,8 +4392,6 @@ let bookData = [
         authorLast: "Chizmar, Richard",
         myRating: "Disliked",
         pubDate: 2016,
-        yearRead: [2018],
-        thumb: "./images/cemetary-dance.jpg",
     },
     {
         title: "The Most Dangerous Game",
@@ -5639,8 +4399,6 @@ let bookData = [
         authorLast: "Connell, Richard",
         myRating: "Liked",
         pubDate: 1924,
-        yearRead: [2021],
-        thumb: "./images/most-dangerous.jpg",
     },
     {
         title: "Celebration of Discipline",
@@ -5648,8 +4406,6 @@ let bookData = [
         authorLast: "Foster, Richard J.",
         myRating: "Liked",
         pubDate: 1978,
-        yearRead: [2014],
-        thumb: "./images/celebration-of-disc.jpg",
     },
     {
         title: "I Am Legend",
@@ -5657,8 +4413,6 @@ let bookData = [
         authorLast: "Matheson, Richard",
         myRating: "Liked",
         pubDate: 1954,
-        yearRead: [2016],
-        thumb: "./images/i-am-legend.jpg",
     },
     {
         title: "Vampire Academy",
@@ -5666,8 +4420,6 @@ let bookData = [
         authorLast: "Mead, Richelle",
         myRating: "Loved",
         pubDate: 2007,
-        yearRead: [2016],
-        thumb: "./images/vamp-academy1.jpg",
     },
     {
         title: "Frostbite",
@@ -5675,8 +4427,6 @@ let bookData = [
         authorLast: "Mead, Richelle",
         myRating: "Liked",
         pubDate: 2008,
-        yearRead: [2016],
-        thumb: "./images/vamp-academy2.jpg",
     },
     {
         title: "Shadow Kiss",
@@ -5684,8 +4434,6 @@ let bookData = [
         authorLast: "Mead, Richelle",
         myRating: "Liked",
         pubDate: 2008,
-        yearRead: [2016],
-        thumb: "./images/vamp-academy3.jpg",
     },
     {
         title: "Blood Promise",
@@ -5693,8 +4441,6 @@ let bookData = [
         authorLast: "Mead, Richelle",
         myRating: "Liked",
         pubDate: 2009,
-        yearRead: [2016],
-        thumb: "./images/vamp-academy4.jpg",
     },
     {
         title: "Spirit Bound",
@@ -5702,8 +4448,6 @@ let bookData = [
         authorLast: "Mead, Richelle",
         myRating: "Liked",
         pubDate: 2010,
-        yearRead: [2016],
-        thumb: "./images/vamp-academy5.jpg",
     },
     {
         title: "Last Sacrifice",
@@ -5711,8 +4455,6 @@ let bookData = [
         authorLast: "Mead, Richelle",
         myRating: "Liked",
         pubDate: 2010,
-        yearRead: [2016],
-        thumb: "./images/vamp-academy6.jpg",
     },
     {
         title: "The Final Quest",
@@ -5720,8 +4462,6 @@ let bookData = [
         authorLast: "Joyner, Rick",
         myRating: "Meh",
         pubDate: 1996,
-        yearRead: [2014],
-        thumb: "./images/final-quest.jpg",
     },
     {
         title: "The Lightning Thief",
@@ -5729,8 +4469,6 @@ let bookData = [
         authorLast: "Riordan, Rick",
         myRating: "Liked",
         pubDate: 2005,
-        yearRead: [2016],
-        thumb: "./images/percy-jackson1.jpg",
     },
     {
         title: "The 5th Wave",
@@ -5738,8 +4476,6 @@ let bookData = [
         authorLast: "Yancey, Rick",
         myRating: "Meh",
         pubDate: 2013,
-        yearRead: [2015],
-        thumb: "./images/the-5th-wave.jpg",
     },
     {
         title: "100 Maddening Mindbending Puzzles",
@@ -5747,8 +4483,6 @@ let bookData = [
         authorLast: "Eastaway, Rob",
         myRating: "Disliked",
         pubDate: 2019,
-        yearRead: [2023],
-        thumb: "./images/100-maddening.jpg",
     },
     {
         title: "Slay the Dragon",
@@ -5756,8 +4490,6 @@ let bookData = [
         authorLast: "Bryant, Robert Denton",
         myRating: "Liked",
         pubDate: 2015,
-        yearRead: [2017],
-        thumb: "./images/slay-dragon.jpg",
     },
     {
         title: "Changing the World Through Discipleship",
@@ -5765,8 +4497,6 @@ let bookData = [
         authorLast: "Herber, Robert",
         myRating: "Liked",
         pubDate: 2011,
-        yearRead: [2013],
-        thumb: "./images/discipleship.jpg",
     },
     {
         title: "The Eye of the World",
@@ -5774,8 +4504,6 @@ let bookData = [
         authorLast: "Jordan, Robert",
         myRating: "Loved",
         pubDate: 1990,
-        yearRead: [2022],
-        thumb: "./images/wot1.jpg",
     },
     {
         title: "Outcast by Kirkman & Azaceta Book 1",
@@ -5783,8 +4511,6 @@ let bookData = [
         authorLast: "Kirkman, Robert",
         myRating: "Disliked",
         pubDate: 2016,
-        yearRead: [2017],
-        thumb: "./images/outcast.jpg",
     },
     {
         title: "The Walking Dead, Vol. 1",
@@ -5792,8 +4518,6 @@ let bookData = [
         authorLast: "Kirkman, Robert",
         myRating: "Liked",
         pubDate: 2004,
-        yearRead: [2016, 2023],
-        thumb: "./images/walking-dead1.jpg",
     },
     {
         title: "The Walking Dead, Vol. 2",
@@ -5801,8 +4525,6 @@ let bookData = [
         authorLast: "Kirkman, Robert",
         myRating: "Liked",
         pubDate: 2004,
-        yearRead: [2023],
-        thumb: "./images/walking-dead2.jpg",
     },
     {
         title: "The Walking Dead, Vol. 3",
@@ -5810,8 +4532,6 @@ let bookData = [
         authorLast: "Kirkman, Robert",
         myRating: "Liked",
         pubDate: 2005,
-        yearRead: [2023],
-        thumb: "./images/walking-dead3.jpg",
     },
     {
         title: "Rich Dad, Poor Dad",
@@ -5819,8 +4539,6 @@ let bookData = [
         authorLast: "Kiyosaki, Robert",
         myRating: "Loved",
         pubDate: 1997,
-        yearRead: [2020],
-        thumb: "./images/rich-dad-poor-dad.jpg",
     },
     {
         title: "Good Luck Have Fun",
@@ -5828,8 +4546,6 @@ let bookData = [
         authorLast: "Li, Roland",
         myRating: "Meh",
         pubDate: 2016,
-        yearRead: [2018],
-        thumb: "./images/good-luck-have-fun.jpg",
     },
     {
         title: "The 10 Most Important Things You Can Say to a Mormon",
@@ -5837,8 +4553,6 @@ let bookData = [
         authorLast: "Rhodes, Ron",
         myRating: "Meh",
         pubDate: 2001,
-        yearRead: [2023],
-        thumb: "./images/10-things-mormon.jpg",
     },
     {
         title: "The Deadly Dungeon",
@@ -5846,8 +4560,6 @@ let bookData = [
         authorLast: "Roy, Ron",
         myRating: "Meh",
         pubDate: 1998,
-        yearRead: [2000],
-        thumb: "./images/deadly-dungeon.jpg",
     },
     {
         title: "The Invisible Island",
@@ -5855,8 +4567,6 @@ let bookData = [
         authorLast: "Roy, Ron",
         myRating: "Meh",
         pubDate: 1999,
-        yearRead: [2000],
-        thumb: "./images/invisible-island.jpg",
     },
     {
         title: "The Missing Mummy",
@@ -5864,8 +4574,6 @@ let bookData = [
         authorLast: "Roy, Ron",
         myRating: "Meh",
         pubDate: 2001,
-        yearRead: [2001],
-        thumb: "./images/missing-mummy.jpg",
     },
     {
         title: "The Big Book of 30-Day Challenges",
@@ -5873,8 +4581,6 @@ let bookData = [
         authorLast: "Casper, Rosanna",
         myRating: "Meh",
         pubDate: 2017,
-        yearRead: [2018],
-        thumb: "./images/book-of-30-day.jpg",
     },
     {
         title: "Arrested Development",
@@ -5882,8 +4588,6 @@ let bookData = [
         authorLast: "Running Press",
         myRating: "Meh",
         pubDate: 2013,
-        yearRead: [2022],
-        thumb: "./images/arrested-development.jpg",
     },
     {
         title: "Milk and Honey",
@@ -5891,8 +4595,6 @@ let bookData = [
         authorLast: "Kaur, Rupi",
         myRating: "Meh",
         pubDate: 2014,
-        yearRead: [2018],
-        thumb: "./images/milk-and-honey.jpg",
     },
     {
         title: "Play Dead",
@@ -5900,8 +4602,6 @@ let bookData = [
         authorLast: "Brown, Ryan",
         myRating: "Meh",
         pubDate: 2010,
-        yearRead: [2010],
-        thumb: "./images/play-dead.jpg",
     },
     /*===========================
     Author First Name - S's
@@ -5912,8 +4612,6 @@ let bookData = [
         authorLast: "Perry, S.D.",
         myRating: "Liked",
         pubDate: 1998,
-        yearRead: [2003],
-        thumb: "./images/resident-evil1.jpg",
     },
     {
         title: "Caliban Cove",
@@ -5921,8 +4619,6 @@ let bookData = [
         authorLast: "Perry, S.D.",
         myRating: "Meh",
         pubDate: 1998,
-        yearRead: [2003],
-        thumb: "./images/resident-evil2.jpg",
     },
     {
         title: "City of the Dead",
@@ -5930,8 +4626,6 @@ let bookData = [
         authorLast: "Perry, S.D.",
         myRating: "Liked",
         pubDate: 1999,
-        yearRead: [2003],
-        thumb: "./images/resident-evil3.jpg",
     },
     {
         title: "Underworld",
@@ -5939,8 +4633,6 @@ let bookData = [
         authorLast: "Perry, S.D.",
         myRating: "Meh",
         pubDate: 1999,
-        yearRead: [2004],
-        thumb: "./images/resident-evil4.jpg",
     },
     {
         title: "Nemesis",
@@ -5948,8 +4640,6 @@ let bookData = [
         authorLast: "Perry, S.D.",
         myRating: "Liked",
         pubDate: 2000,
-        yearRead: [2004],
-        thumb: "./images/resident-evil5.jpg",
     },
     {
         title: "Rumble Fish",
@@ -5957,8 +4647,6 @@ let bookData = [
         authorLast: "Hinton, S.E.",
         myRating: "Meh",
         pubDate: 1975,
-        yearRead: [2002],
-        thumb: "./images/rumble-fish.jpg",
     },
     {
         title: "The Jesus Storybook Bible",
@@ -5966,8 +4654,6 @@ let bookData = [
         authorLast: "Lloyd-Jones, Sally",
         myRating: "Loved",
         pubDate: 2007,
-        yearRead: [2023],
-        thumb: "./images/jesus-storybook.jpg",
     },
     {
         title: "Scene but Not Heard",
@@ -5975,8 +4661,6 @@ let bookData = [
         authorLast: "Henderson, Sam",
         myRating: "Disliked",
         pubDate: 2013,
-        yearRead: [2018],
-        thumb: "./images/scene-not-heard.jpg",
     },
     {
         title: "Pretty Little Liars",
@@ -5984,8 +4668,6 @@ let bookData = [
         authorLast: "Shepard, Sara",
         myRating: "Liked",
         pubDate: 2006,
-        yearRead: [2018],
-        thumb: "./images/pretty-little-liars1.jpg",
     },
     {
         title: "Flawless",
@@ -5993,8 +4675,6 @@ let bookData = [
         authorLast: "Shepard, Sara",
         myRating: "Liked",
         pubDate: 2007,
-        yearRead: [2018],
-        thumb: "./images/pretty-little-liars2.jpg",
     },
     {
         title: "Perfect",
@@ -6002,8 +4682,6 @@ let bookData = [
         authorLast: "Shepard, Sara",
         myRating: "Liked",
         pubDate: 2007,
-        yearRead: [2020],
-        thumb: "./images/pretty-little-liars3.jpg",
     },
     {
         title: "Unbelievable",
@@ -6011,8 +4689,6 @@ let bookData = [
         authorLast: "Shepard, Sara",
         myRating: "Liked",
         pubDate: 2008,
-        yearRead: [2020],
-        thumb: "./images/pretty-little-liars4.jpg",
     },
     {
         title: "Wicked",
@@ -6020,8 +4696,6 @@ let bookData = [
         authorLast: "Shepard, Sara",
         myRating: "Liked",
         pubDate: 2008,
-        yearRead: [2020],
-        thumb: "./images/pretty-little-liars5.jpg",
     },
     {
         title: "Killer",
@@ -6029,8 +4703,6 @@ let bookData = [
         authorLast: "Shepard, Sara",
         myRating: "Liked",
         pubDate: 2009,
-        yearRead: [2020],
-        thumb: "./images/pretty-little-liars6.jpg",
     },
     {
         title: "Heartless",
@@ -6038,8 +4710,6 @@ let bookData = [
         authorLast: "Shepard, Sara",
         myRating: "Liked",
         pubDate: 2010,
-        yearRead: [2020],
-        thumb: "./images/pretty-little-liars7.jpg",
     },
     {
         title: "Wanted",
@@ -6047,8 +4717,6 @@ let bookData = [
         authorLast: "Shepard, Sara",
         myRating: "Liked",
         pubDate: 2010,
-        yearRead: [2020],
-        thumb: "./images/pretty-little-liars8.jpg",
     },
     {
         title: "Rick and Morty: Lil' Poopy Superstar",
@@ -6056,8 +4724,6 @@ let bookData = [
         authorLast: "Graley, Sarah",
         myRating: "Liked",
         pubDate: 2017,
-        yearRead: [2019],
-        thumb: "./images/rick-morty-poopy.jpg",
     },
     {
         title: "Level Up!: The Guide to Great Video Game Design",
@@ -6065,8 +4731,6 @@ let bookData = [
         authorLast: "Rogers, Scott",
         myRating: "Loved",
         pubDate: 2010,
-        yearRead: [2017],
-        thumb: "./images/level-up.jpg",
     },
     {
         title: "Uglies",
@@ -6074,8 +4738,6 @@ let bookData = [
         authorLast: "Westerfeld, Scott",
         myRating: "Liked",
         pubDate: 2005,
-        yearRead: [2015, 2018],
-        thumb: "./images/uglies1.jpg",
     },
     {
         title: "Pretties",
@@ -6083,8 +4745,6 @@ let bookData = [
         authorLast: "Westerfeld, Scott",
         myRating: "Meh",
         pubDate: 2005,
-        yearRead: [2015],
-        thumb: "./images/uglies2.jpg",
     },
     {
         title: "Specials",
@@ -6092,8 +4752,6 @@ let bookData = [
         authorLast: "Westerfeld, Scott",
         myRating: "Meh",
         pubDate: 2006,
-        yearRead: [2015],
-        thumb: "./images/uglies3.jpg",
     },
     {
         title: "Extras",
@@ -6101,8 +4759,6 @@ let bookData = [
         authorLast: "Westerfeld, Scott",
         myRating: "Meh",
         pubDate: 2006,
-        yearRead: [2015],
-        thumb: "./images/uglies4.jpg",
     },
     {
         title: "Uglies: Cutters",
@@ -6110,8 +4766,6 @@ let bookData = [
         authorLast: "Westerfeld, Scott",
         myRating: "Disliked",
         pubDate: 2012,
-        yearRead: [2017],
-        thumb: "./images/uglies-graphic2.jpg",
     },
     {
         title: "Abraham Lincoln: Vampire Hunter",
@@ -6119,8 +4773,6 @@ let bookData = [
         authorLast: "Grahame-Smith, Seth",
         myRating: "Meh",
         pubDate: 2010,
-        yearRead: [2013],
-        thumb: "./images/abe-lincoln-vamp.jpg",
     },
     {
         title: "Smartcuts",
@@ -6128,8 +4780,6 @@ let bookData = [
         authorLast: "Snow, Shane",
         myRating: "Meh",
         pubDate: 2014,
-        yearRead: [2018],
-        thumb: "./images/smartcuts.jpg",
     },
     {
         title: "Kicking It",
@@ -6137,8 +4787,6 @@ let bookData = [
         authorLast: "Germain, Shanna",
         myRating: "Meh",
         pubDate: 2012,
-        yearRead: [2019],
-        thumb: "./images/kicking-it.jpg",
     },
     {
         title: "Where the Sidewalk Ends",
@@ -6146,8 +4794,6 @@ let bookData = [
         authorLast: "Silverstein, Shel",
         myRating: "Liked",
         pubDate: 1974,
-        yearRead: [2000],
-        thumb: "./images/where-sidewalk-ends.jpg",
     },
     {
         title: "Falling Up",
@@ -6155,8 +4801,6 @@ let bookData = [
         authorLast: "Silverstein, Shel",
         myRating: "Liked",
         pubDate: 1996,
-        yearRead: [2000],
-        thumb: "./images/falling-up.jpg",
     },
     {
         title: "A Light in the Attic",
@@ -6164,8 +4808,6 @@ let bookData = [
         authorLast: "Silverstein, Shel",
         myRating: "Liked",
         pubDate: 1981,
-        yearRead: [2001],
-        thumb: "./images/light-in-attic.jpg",
     },
     {
         title: "The Absolutely True Diary of a Part-Time Indian",
@@ -6173,8 +4815,6 @@ let bookData = [
         authorLast: "Alexie, Sherman",
         myRating: "Liked",
         pubDate: 2007,
-        yearRead: [2016],
-        thumb: "./images/part-time-indian.jpg",
     },
     {
         title: "Lean In",
@@ -6182,8 +4822,6 @@ let bookData = [
         authorLast: "Sandberg, Sheryl",
         myRating: "Liked",
         pubDate: 2013,
-        yearRead: [2017],
-        thumb: "./images/lean-in.jpg",
     },
     {
         title: "The Montessori Toddler",
@@ -6191,8 +4829,6 @@ let bookData = [
         authorLast: "Davies, Simone",
         myRating: "Liked",
         pubDate: 2018,
-        yearRead: [2021],
-        thumb: "./images/montessori.jpg",
     },
     {
         title: "Who Moved My Cheese?",
@@ -6200,8 +4836,6 @@ let bookData = [
         authorLast: "Johnson, Spencer",
         myRating: "Liked",
         pubDate: 1998,
-        yearRead: [2020],
-        thumb: "./images/who-moved-cheese.jpg",
     },
     {
         title: "My True Love Gave to Me",
@@ -6209,8 +4843,6 @@ let bookData = [
         authorLast: "Perkins, Stephanie",
         myRating: "Meh",
         pubDate: 2014,
-        yearRead: [2017],
-        thumb: "./images/my-true-love.jpg",
     },
     {
         title: "There's Someone Inside Your House",
@@ -6218,8 +4850,6 @@ let bookData = [
         authorLast: "Perkins, Stephanie",
         myRating: "Liked",
         pubDate: 2017,
-        yearRead: [2018],
-        thumb: "./images/someone-inside-house.jpg",
     },
     {
         title: "The Perks of Being a Wallflower",
@@ -6227,8 +4857,6 @@ let bookData = [
         authorLast: "Chbosky, Stephen",
         myRating: "Liked",
         pubDate: 1999,
-        yearRead: [2017],
-        thumb: "./images/perks-wallflower.jpg",
     },
     {
         title: "I Am America (And So Can You!)",
@@ -6236,8 +4864,6 @@ let bookData = [
         authorLast: "Colbert, Stephen",
         myRating: "Liked",
         pubDate: 2007,
-        yearRead: [2016],
-        thumb: "./images/i-am-america.jpg",
     },
     {
         title: "America Again",
@@ -6245,8 +4871,6 @@ let bookData = [
         authorLast: "Colbert, Stephen",
         myRating: "Loved",
         pubDate: 2012,
-        yearRead: [2022],
-        thumb: "./images/america-again.jpg",
     },
     {
         title: "The 7 Habits of Highly Effective People",
@@ -6254,8 +4878,6 @@ let bookData = [
         authorLast: "Covey, Stephen",
         myRating: "Liked",
         pubDate: 1988,
-        yearRead: [2021],
-        thumb: "./images/7-habits.jpg",
     },
     {
         title: "The 7 Habits of Highly Effective People Personal Workbook",
@@ -6263,8 +4885,6 @@ let bookData = [
         authorLast: "Covey, Stephen",
         myRating: "Liked",
         pubDate: 2003,
-        yearRead: [2021],
-        thumb: "./images/7-habits-workbook.jpg",
     },
     {
         title: "The Red Badge of Courage",
@@ -6272,8 +4892,6 @@ let bookData = [
         authorLast: "Crane, Stephen",
         myRating: "Disliked",
         pubDate: 1895,
-        yearRead: [2005],
-        thumb: "./images/red-badge.jpg",
     },
     {
         title: "The Green Mile, Part 1",
@@ -6281,8 +4899,6 @@ let bookData = [
         authorLast: "King, Stephen",
         myRating: "Meh",
         pubDate: 1996,
-        yearRead: [2019],
-        thumb: "./images/green-mile1.jpg",
     },
     {
         title: "The Gunslinger",
@@ -6290,8 +4906,6 @@ let bookData = [
         authorLast: "King, Stephen",
         myRating: "Meh",
         pubDate: 1982,
-        yearRead: [2019],
-        thumb: "./images/gunslinger.jpg",
     },
     {
         title: "Carrie",
@@ -6299,8 +4913,6 @@ let bookData = [
         authorLast: "King, Stephen",
         myRating: "Meh",
         pubDate: 1974,
-        yearRead: [2018],
-        thumb: "./images/carrie.jpg",
     },
     {
         title: "The Shining",
@@ -6308,8 +4920,6 @@ let bookData = [
         authorLast: "King, Stephen",
         myRating: "Liked",
         pubDate: 1977,
-        yearRead: [2018],
-        thumb: "./images/shining.jpg",
     },
     {
         title: "Doctor Sleep",
@@ -6317,8 +4927,6 @@ let bookData = [
         authorLast: "King, Stephen",
         myRating: "Meh",
         pubDate: 2013,
-        yearRead: [2018],
-        thumb: "./images/dr-sleep.jpg",
     },
     {
         title: "Pet Sematary",
@@ -6326,8 +4934,6 @@ let bookData = [
         authorLast: "King, Stephen",
         myRating: "Liked",
         pubDate: 1983,
-        yearRead: [2018],
-        thumb: "./images/pet-sem.jpg",
     },
     {
         title: "The Stand",
@@ -6335,8 +4941,6 @@ let bookData = [
         authorLast: "King, Stephen",
         myRating: "Loved",
         pubDate: 1990,
-        yearRead: [2022],
-        thumb: "./images/the-stand.jpg",
     },
     {
         title: "Misery",
@@ -6344,8 +4948,6 @@ let bookData = [
         authorLast: "King, Stephen",
         myRating: "Liked",
         pubDate: 1987,
-        yearRead: [2016],
-        thumb: "./images/misery.jpg",
     },
     {
         title: "On Writing",
@@ -6353,8 +4955,6 @@ let bookData = [
         authorLast: "King, Stephen",
         myRating: "Loved",
         pubDate: 2000,
-        yearRead: [2015],
-        thumb: "./images/on-writing.jpg",
     },
     {
         title: "It",
@@ -6362,8 +4962,6 @@ let bookData = [
         authorLast: "King, Stephen",
         myRating: "Liked",
         pubDate: 1986,
-        yearRead: [2018],
-        thumb: "./images/it.jpg",
     },
     {
         title: "UR",
@@ -6371,8 +4969,6 @@ let bookData = [
         authorLast: "King, Stephen",
         myRating: "Liked",
         pubDate: 2009,
-        yearRead: [2023],
-        thumb: "./images/ur.jpg",
     },
     {
         title: "Building Your Band of Brothers",
@@ -6380,8 +4976,6 @@ let bookData = [
         authorLast: "Mansfield, Stephen",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2021],
-        thumb: "./images/band-brothers.jpg",
     },
     {
         title: "Twilight",
@@ -6389,8 +4983,6 @@ let bookData = [
         authorLast: "Meyer, Stephenie",
         myRating: "Liked",
         pubDate: 2005,
-        yearRead: [2009, 2012],
-        thumb: "./images/twilight1.jpg",
     },
     {
         title: "New Moon",
@@ -6398,8 +4990,6 @@ let bookData = [
         authorLast: "Meyer, Stephenie",
         myRating: "Liked",
         pubDate: 2006,
-        yearRead: [2009],
-        thumb: "./images/twilight2.jpg",
     },
     {
         title: "Eclipse",
@@ -6407,8 +4997,6 @@ let bookData = [
         authorLast: "Meyer, Stephenie",
         myRating: "Liked",
         pubDate: 2007,
-        yearRead: [2009],
-        thumb: "./images/twilight3.jpg",
     },
     {
         title: "Breaking Dawn",
@@ -6416,8 +5004,6 @@ let bookData = [
         authorLast: "Meyer, Stephenie",
         myRating: "Liked",
         pubDate: 2008,
-        yearRead: [2009],
-        thumb: "./images/twilight4.jpg",
     },
     {
         title: "Midnight Sun",
@@ -6425,8 +5011,6 @@ let bookData = [
         authorLast: "Meyer, Stephenie",
         myRating: "Liked",
         pubDate: 2020,
-        yearRead: [2020],
-        thumb: "./images/twilight5.jpg",
     },
     {
         title: "Twilight / Life and Death",
@@ -6434,8 +5018,6 @@ let bookData = [
         authorLast: "Meyer, Stephenie",
         myRating: "Liked",
         pubDate: 2015,
-        yearRead: [2015],
-        thumb: "./images/twilight-life-death.jpg",
     },
     {
         title: "Level Up Your Life",
@@ -6443,8 +5025,6 @@ let bookData = [
         authorLast: "Kamb, Steve",
         myRating: "Loved",
         pubDate: 2016,
-        yearRead: [2021, 2023],
-        thumb: "./images/level-up-life.jpg",
     },
     {
         title: "30 Days of Night, Vol. 1",
@@ -6452,8 +5032,6 @@ let bookData = [
         authorLast: "Niles, Steve",
         myRating: "Meh",
         pubDate: 2004,
-        yearRead: [2018],
-        thumb: "./images/thirty-days-night1.jpg",
     },
     {
         title: "30 Days of Night, Vol. 2",
@@ -6461,8 +5039,6 @@ let bookData = [
         authorLast: "Niles, Steve",
         myRating: "Meh",
         pubDate: 2004,
-        yearRead: [2018],
-        thumb: "./images/thirty-days-night2.jpg",
     },
     {
         title: "30 Days of Night, Vol. 4",
@@ -6470,8 +5046,6 @@ let bookData = [
         authorLast: "Niles, Steve",
         myRating: "Meh",
         pubDate: 2004,
-        yearRead: [2018],
-        thumb: "./images/thirty-days-night4.jpg",
     },
     {
         title: "The Ultimate History of Video Games",
@@ -6479,8 +5053,6 @@ let bookData = [
         authorLast: "Kent, Steven L.",
         myRating: "Loved",
         pubDate: 2001,
-        yearRead: [2009, 2011, 2013],
-        thumb: "./images/ultimate-history-vgs.jpg",
     },
     {
         title: "The Ultimate History of Video Games, Volume 2",
@@ -6488,8 +5060,6 @@ let bookData = [
         authorLast: "Kent, Steven L.",
         myRating: "Loved",
         pubDate: 2021,
-        yearRead: [2023],
-        thumb: "./images/ultimate-history-vgs2.jpg",
     },
     {
         title: "Think Like a Freak",
@@ -6497,8 +5067,6 @@ let bookData = [
         authorLast: "Levitt, Steven",
         myRating: "Liked",
         pubDate: 2014,
-        yearRead: [2018, 2020],
-        thumb: "./images/think-like-freak.jpg",
     },
     {
         title: "The War of Art",
@@ -6506,8 +5074,6 @@ let bookData = [
         authorLast: "Pressfield, Steven",
         myRating: "Liked",
         pubDate: 2011,
-        yearRead: [2021],
-        thumb: "./images/war-of-art.jpg",
     },
     {
         title: "The 7½ Deaths of Evelyn Hardcastle",
@@ -6515,8 +5081,6 @@ let bookData = [
         authorLast: "Turton, Stuart",
         myRating: "Loved",
         pubDate: 2018,
-        yearRead: [2022],
-        thumb: "./images/seven-half-deaths.jpg",
     },
     {
         title: "The Art of War",
@@ -6524,8 +5088,6 @@ let bookData = [
         authorLast: "Tzu, Sun",
         myRating: "Disliked",
         pubDate: -500,
-        yearRead: [2020],
-        thumb: "./images/art-of-war.jpg",
     },
     {
         title: "The Hunger Games",
@@ -6533,8 +5095,6 @@ let bookData = [
         authorLast: "Collins, Suzanne",
         myRating: "Liked",
         pubDate: 2008,
-        yearRead: [2015],
-        thumb: "./images/hunger-games1.jpg",
     },
     {
         title: "Catching Fire",
@@ -6542,8 +5102,6 @@ let bookData = [
         authorLast: "Collins, Suzanne",
         myRating: "Liked",
         pubDate: 2009,
-        yearRead: [2015],
-        thumb: "./images/hunger-games2.jpg",
     },
     {
         title: "Mockingjay",
@@ -6551,8 +5109,6 @@ let bookData = [
         authorLast: "Collins, Suzanne",
         myRating: "Liked",
         pubDate: 2010,
-        yearRead: [2015],
-        thumb: "./images/hunger-games3.jpg",
     },
     {
         title: "Sleeping Giants",
@@ -6560,8 +5116,6 @@ let bookData = [
         authorLast: "Neuvel, Sylvain",
         myRating: "Liked",
         pubDate: 2016,
-        yearRead: [2018],
-        thumb: "./images/sleeping-giants1.jpg",
     },
     {
         title: "Waking Gods",
@@ -6569,8 +5123,6 @@ let bookData = [
         authorLast: "Neuvel, Sylvain",
         myRating: "Meh",
         pubDate: 2017,
-        yearRead: [2018],
-        thumb: "./images/sleeping-giants2.jpg",
     },
     /*===========================
     Author First Name - T's
@@ -6581,8 +5133,6 @@ let bookData = [
         authorLast: "Coates, Ta-Nehisi",
         myRating: "Loved",
         pubDate: 2015,
-        yearRead: [2022],
-        thumb: "./images/between-the-world.jpg",
     },
     {
         title: "The Seven Husbands of Evelyn Hugo",
@@ -6590,8 +5140,6 @@ let bookData = [
         authorLast: "Reid, Taylor Jenkins",
         myRating: "Liked",
         pubDate: 2017,
-        yearRead: [2023],
-        thumb: "./images/evelyn-hugo.jpg",
     },
     {
         title: "Thr3e",
@@ -6599,8 +5147,6 @@ let bookData = [
         authorLast: "Dekker, Ted",
         myRating: "Liked",
         pubDate: 2003,
-        yearRead: [2013],
-        thumb: "./images/thr3e.jpg",
     },
     {
         title: "The Slumber of Christianity",
@@ -6608,8 +5154,6 @@ let bookData = [
         authorLast: "Dekker, Ted",
         myRating: "Liked",
         pubDate: 2005,
-        yearRead: [2022],
-        thumb: "./images/slumber-christianity.jpg",
     },
     {
         title: "Martyr's Song",
@@ -6617,8 +5161,6 @@ let bookData = [
         authorLast: "Dekker, Ted",
         myRating: "Liked",
         pubDate: 2005,
-        yearRead: [2022],
-        thumb: "./images/martyrs-song.jpg",
     },
     {
         title: "Danger in the Desert",
@@ -6626,8 +5168,6 @@ let bookData = [
         authorLast: "Fields, Terri",
         myRating: "Meh",
         pubDate: 1997,
-        yearRead: [1999],
-        thumb: "./images/danger-in-desert.jpg",
     },
     {
         title: "Missing in the Mountains",
@@ -6635,8 +5175,6 @@ let bookData = [
         authorLast: "Fields, Terri",
         myRating: "Meh",
         pubDate: 1999,
-        yearRead: [2000],
-        thumb: "./images/missing-in-mountains.jpg",
     },
     {
         title: "Citizenship in a Republilc",
@@ -6644,8 +5182,6 @@ let bookData = [
         authorLast: "Roosevelt, Theodore",
         myRating: "Liked",
         pubDate: 1910,
-        yearRead: [2021],
-        thumb: "./images/citizenship.jpg",
     },
     {
         title: "Getting Started with SQL",
@@ -6653,8 +5189,6 @@ let bookData = [
         authorLast: "Nield, Thomas",
         myRating: "Meh",
         pubDate: 2016,
-        yearRead: [2018],
-        thumb: "./images/getting-started-sql.jpg",
     },
     {
         title: "How to Eat Fried Worms",
@@ -6662,8 +5196,6 @@ let bookData = [
         authorLast: "Rockfield, Thomas",
         myRating: "Meh",
         pubDate: 1973,
-        yearRead: [1999],
-        thumb: "./images/eat-fried-worms.jpg",
     },
     {
         title: "Left Behind",
@@ -6671,8 +5203,6 @@ let bookData = [
         authorLast: "LaHaye, Tim",
         myRating: "Meh",
         pubDate: 1995,
-        yearRead: [2014],
-        thumb: "./images/left-behind1.jpg",
     },
     {
         title: "Tribulation Force",
@@ -6680,8 +5210,6 @@ let bookData = [
         authorLast: "LaHaye, Tim",
         myRating: "Meh",
         pubDate: 1996,
-        yearRead: [2014],
-        thumb: "./images/left-behind2.jpg",
     },
     {
         title: "The 4-Hour Body",
@@ -6689,8 +5217,6 @@ let bookData = [
         authorLast: "Ferriss, Timothy",
         myRating: "Meh",
         pubDate: 2000,
-        yearRead: [2020],
-        thumb: "./images/four-hour-body.jpg",
     },
     {
         title: "The 4-Hour Workweek",
@@ -6698,8 +5224,6 @@ let bookData = [
         authorLast: "Ferriss, Timothy",
         myRating: "Meh",
         pubDate: 2011,
-        yearRead: [2012],
-        thumb: "./images/four-hour-work.jpg",
     },
     {
         title: "The Prodigal God",
@@ -6707,8 +5231,6 @@ let bookData = [
         authorLast: "Keller, Timothy J.",
         myRating: "Meh",
         pubDate: 2008,
-        yearRead: [2015],
-        thumb: "./images/prodigal-god.jpg",
     },
     {
         title: "Bossypants",
@@ -6716,8 +5238,6 @@ let bookData = [
         authorLast: "Fey, Tina",
         myRating: "Meh",
         pubDate: 2011,
-        yearRead: [2018],
-        thumb: "./images/bossypants.jpg",
     },
     {
         title: "Heaven is for Real",
@@ -6725,8 +5245,6 @@ let bookData = [
         authorLast: "Burpo, Todd",
         myRating: "Meh",
         pubDate: 2010,
-        yearRead: [2013],
-        thumb: "./images/heaven-real.jpg",
     },
     {
         title: "Fun Inc.",
@@ -6734,8 +5252,6 @@ let bookData = [
         authorLast: "Chatfield, Tom",
         myRating: "Meh",
         pubDate: 2010,
-        yearRead: [2017],
-        thumb: "./images/fun.jpg",
     },
     {
         title: "Strengths Finder 2.0",
@@ -6743,8 +5259,6 @@ let bookData = [
         authorLast: "Rath, Tom",
         myRating: "Meh",
         pubDate: 2007,
-        yearRead: [2015],
-        thumb: "./images/strengths-finder.jpg",
     },
     {
         title: "Death Note Vol. 1",
@@ -6752,8 +5266,6 @@ let bookData = [
         authorLast: "Ohba, Tsugumi",
         myRating: "Liked",
         pubDate: 2007,
-        yearRead: [2022],
-        thumb: "./images/deathnote1.jpg",
     },
     /*===========================
     Author First Name - U's
@@ -6764,8 +5276,6 @@ let bookData = [
         authorLast: "Unknown",
         myRating: "Meh",
         pubDate: 1704,
-        yearRead: [2022],
-        thumb: "./images/aladdin.jpg",
     },
     /*===========================
     Author First Name - V's
@@ -6776,8 +5286,6 @@ let bookData = [
         authorLast: "Brosgol, Vera",
         myRating: "Meh",
         pubDate: 2011,
-        yearRead: [2017],
-        thumb: "./images/anyas-ghost.jpg",
     },
     {
         title: "Divergent",
@@ -6785,8 +5293,6 @@ let bookData = [
         authorLast: "Roth, Veronica",
         myRating: "Liked",
         pubDate: 2011,
-        yearRead: [2015],
-        thumb: "./images/divergent1.jpg",
     },
     {
         title: "Insurgent",
@@ -6794,8 +5300,6 @@ let bookData = [
         authorLast: "Roth, Veronica",
         myRating: "Liked",
         pubDate: 2012,
-        yearRead: [2015],
-        thumb: "./images/divergent2.jpg",
     },
     {
         title: "Allegiant",
@@ -6803,8 +5307,6 @@ let bookData = [
         authorLast: "Roth, Veronica",
         myRating: "Liked",
         pubDate: 2013,
-        yearRead: [2015],
-        thumb: "./images/divergent3.jpg",
     },
     {
         title: "Ark",
@@ -6812,8 +5314,6 @@ let bookData = [
         authorLast: "Roth, Veronica",
         myRating: "Liked",
         pubDate: 2019,
-        yearRead: [2021],
-        thumb: "./images/ark.jpg",
     },
     {
         title: "Slumdog Millionaire",
@@ -6821,8 +5321,6 @@ let bookData = [
         authorLast: "Swarup, Vikas",
         myRating: "Liked",
         pubDate: 2005,
-        yearRead: [2016],
-        thumb: "./images/slumdog.jpg",
     },
     {
         title: "The Smart Girl's Guide to Privacy",
@@ -6830,8 +5328,6 @@ let bookData = [
         authorLast: "Blue, Violet",
         myRating: "Meh",
         pubDate: 2014,
-        yearRead: [2019],
-        thumb: "./images/smart-girl-privacy.jpg",
     },
     /*===========================
     Author First Name - W's
@@ -6842,8 +5338,6 @@ let bookData = [
         authorLast: "Warner Bros",
         myRating: "Meh",
         pubDate: 2012,
-        yearRead: [2017],
-        thumb: "./images/warner-bros-studio.jpg",
     },
     {
         title: "Systematic Theology",
@@ -6851,8 +5345,6 @@ let bookData = [
         authorLast: "Grudem, Wayne",
         myRating: "Liked",
         pubDate: 1994,
-        yearRead: [2013],
-        thumb: "./images/systematic-theology.jpg",
     },
     {
         title: "Things We Think About Games",
@@ -6860,8 +5352,6 @@ let bookData = [
         authorLast: "Hindmarch, Will",
         myRating: "Meh",
         pubDate: 2008,
-        yearRead: [2019],
-        thumb: "./images/things-we-think-about-games.jpg",
     },
     {
         title: "Lord of the Flies",
@@ -6869,8 +5359,6 @@ let bookData = [
         authorLast: "Golding, William",
         myRating: "Liked",
         pubDate: 1954,
-        yearRead: [2003, 2005],
-        thumb: "./images/lord-of-flies.jpg",
     },
     {
         title: "Make Your Bed",
@@ -6878,8 +5366,6 @@ let bookData = [
         authorLast: "McRaven, William",
         myRating: "Meh",
         pubDate: 2017,
-        yearRead: [2020],
-        thumb: "./images/make-your-bed.jpg",
     },
     {
         title: "Romeo and Juliet",
@@ -6887,8 +5373,6 @@ let bookData = [
         authorLast: "Shakespeare, William",
         myRating: "Meh",
         pubDate: 1599,
-        yearRead: [2002, 2004],
-        thumb: "./images/romeo-juliet.jpg",
     },
     {
         title: "Hamlet",
@@ -6896,8 +5380,6 @@ let bookData = [
         authorLast: "Shakespeare, William",
         myRating: "Meh",
         pubDate: 1603,
-        yearRead: [2007],
-        thumb: "./images/hamlet.jpg",
     },
     {
         title: "Macbeth",
@@ -6905,8 +5387,6 @@ let bookData = [
         authorLast: "Shakespeare, William",
         myRating: "Meh",
         pubDate: 1623,
-        yearRead: [2007],
-        thumb: "./images/macbeth.jpg",
     },
     {
         title: "A Midsummer Night's Dream",
@@ -6914,8 +5394,6 @@ let bookData = [
         authorLast: "Shakespeare, William",
         myRating: "Meh",
         pubDate: 1595,
-        yearRead: [2000, 2002],
-        thumb: "./images/midsummer-nights-dream.jpg",
     },
     {
         title: "Ghosts of Saltmarsh",
@@ -6923,8 +5401,6 @@ let bookData = [
         authorLast: "Wizards RPG Team",
         myRating: "Liked",
         pubDate: 2019,
-        yearRead: [2019],
-        thumb: "./images/ghosts-saltmarsh.jpg",
     },
     {
         title: "Tales from the Yawning Portal",
@@ -6932,8 +5408,6 @@ let bookData = [
         authorLast: "Wizards RPG Team",
         myRating: "Liked",
         pubDate: 2017,
-        yearRead: [2019],
-        thumb: "./images/tales-yawning.jpg",
     },
     {
         title: "A History of Video Games in 64 Objects",
@@ -6941,8 +5415,6 @@ let bookData = [
         authorLast: "World Video Game Hall of Fame",
         myRating: "Liked",
         pubDate: 2018,
-        yearRead: [2023],
-        thumb: "./images/history-vgs-64.jpg",
     },
     /*===========================
     Author First Name - X's
@@ -6956,8 +5428,6 @@ let bookData = [
         authorLast: "Harari, Yuval Noah",
         myRating: "Liked",
         pubDate: 2011,
-        yearRead: [2019],
-        thumb: "./images/sapiens.jpg",
     },
     {
         title: "The Willow Files, Vol. 2",
@@ -6965,8 +5435,6 @@ let bookData = [
         authorLast: "Navarro, Yvonne",
         myRating: "Meh",
         pubDate: 2001,
-        yearRead: [2019],
-        thumb: "./images/willow-files2.jpg",
     },
     /*===========================
     Author First Name - Z's
@@ -6977,8 +5445,6 @@ let bookData = [
         authorLast: "Gorman, Zac",
         myRating: "Liked",
         pubDate: 2015,
-        yearRead: [2019],
-        thumb: "./images/rick-morty.jpg",
     },
     {
         title: "The Other Black Girl",
@@ -6986,7 +5452,5 @@ let bookData = [
         authorLast: "Harris, Zakiya Dalila",
         myRating: "Meh",
         pubDate: 2021,
-        yearRead: [2021],
-        thumb: "./images/other-black.jpg",
     },
 ];

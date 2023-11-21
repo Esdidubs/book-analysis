@@ -12,20 +12,13 @@
     <body>
         <header>Steven's Reading Library <i class="fa fa-book"></i></header>
         <div id="buttons">
-            <div class="yearBox"></div>
-            <div class="sortBox">
-                <div class="button-title">Sort by:</div>
-                <div class="multi-button">
-                    <button type="button" id="authorFirst" class="button-80 selected" onclick="listSetup('authorFirst')">Author (First)</button>
-                    <button type="button" id="authorLast" class="button-80" onclick="listSetup('authorLast')">Author (Last)</button>
-                    <!-- <button type="button" id="pages" class="button-80" onclick="listSetup('pages')">Pages</button> -->
-                    <button type="button" id="pubDate" class="button-80" onclick="listSetup('pubDate')">Publication Year</button>
-                    <!-- <button type="button" id="ranking" class="button-80" onclick="listSetup('ranking')">Rating</button> -->
-                    <button type="button" id="readCount" class="button-80" onclick="listSetup('readCount')">Read Count</button>
-                    <button type="button" id="title" class="button-80" onclick="listSetup('title')">Title</button>
-                    <!-- <button type="button" id="words" class="button-80" onclick="listSetup('words')">Words</button> -->
-                </div>
-            </div>
+            <label for="dataSelection" id="mainLabel">Select an option</label>
+            <select name="dataSelection" id="dataSelection" class="dataDrop">
+                <option value="authorFirst">Author (First)</option>
+                <option value="authorLast">Author (Last)</option>
+                <option value="title">By Title</option>
+                <option value="pubDate">By Year Originally Published</option>
+            </select>
         </div>
         <hr />
         <div class="bookContainer"></div>
