@@ -419,6 +419,13 @@ let bookData = [
         pubDate: 2014,
     },
     {
+        title: "Day of the Tentacle",
+        author: "Bob Mackey",
+        authorLast: "Mackey, Bobby",
+        myRating: "Liked",
+        pubDate: 2023,
+    },
+    {
         title: "Fail Until You Don't",
         author: "Bobby Bones",
         authorLast: "Bones, Bobby",
@@ -877,6 +884,20 @@ let bookData = [
         pubDate: 2021,
     },
     {
+        title: "Peekaboo: Sun",
+        author: "Camilla Reid",
+        authorLast: "Reid, Camilla",
+        myRating: "Meh",
+        pubDate: 2020,
+    },
+    {
+        title: "Peppa Pig and the Day of Giving Thanks",
+        author: "Candlewick Press",
+        authorLast: "Candlewick Press",
+        myRating: "Meh",
+        pubDate: 2020,
+    },
+    {
         title: "Customers For Life",
         author: "Carl Sewell",
         authorLast: "Sewell, Carl",
@@ -889,6 +910,13 @@ let bookData = [
         authorLast: "Trueman, Carl",
         myRating: "Liked",
         pubDate: 2012,
+    },
+    {
+        title: "The Wizard of Oz Board Book",
+        author: "Carly Gledhill",
+        authorLast: "Gledhill, Carly",
+        myRating: "Liked",
+        pubDate: 2020,
     },
     {
         title: "Seven Brief Lessons on Physics",
@@ -961,6 +989,13 @@ let bookData = [
         pubDate: 1958,
     },
     {
+        title: "Rapunzel",
+        author: "Chloe Perkins",
+        authorLast: "Perkins, Chloe",
+        myRating: "Liked",
+        pubDate: 2017,
+    },
+    {
         title: "Struck By Lightning",
         author: "Chris Colfer",
         authorLast: "Colfer, Chris",
@@ -1017,6 +1052,13 @@ let bookData = [
         pubDate: 2016,
     },
     {
+        title: "Big Truck, Little Island",
+        author: "Chris Van Dusen",
+        authorLast: "Van Dusen, Chris",
+        myRating: "Loved",
+        pubDate: 2022,
+    },
+    {
         title: "The Gamer's Bucket List",
         author: "Chris Watters",
         authorLast: "Watters, Chris",
@@ -1057,6 +1099,13 @@ let bookData = [
         authorLast: "Palahniuk, Chuck",
         myRating: "Meh",
         pubDate: 2001,
+    },
+    {
+        title: "The Night Before Christmas",
+        author: "Clement C. Moore",
+        authorLast: "Moore, Clement C.",
+        myRating: "Loved",
+        pubDate: 1823,
     },
     {
         title: "Science Hacks",
@@ -1342,6 +1391,20 @@ let bookData = [
         pubDate: 2016,
     },
     {
+        title: "Row, Row, Your Boat and Other Nursery Rhymes",
+        author: "Dawn Machell",
+        authorLast: "Machell, Dawn",
+        myRating: "Liked",
+        pubDate: 2016,
+    },
+    {
+        title: "Baby Touch and Feel: Animals",
+        author: "Dawn Sirett",
+        authorLast: "Sirett, Dawn",
+        myRating: "Meh",
+        pubDate: 2008,
+    },
+    {
         title: "Whispers",
         author: "Dean Koontz",
         authorLast: "Koontz, Dean",
@@ -1361,6 +1424,13 @@ let bookData = [
         authorLast: "Dadey, Debbie",
         myRating: "Meh",
         pubDate: 1991,
+    },
+    {
+        title: "The Pout-Pout Fish",
+        author: "Deborah Diesen",
+        authorLast: "Diesen, Deborah",
+        myRating: "Loved",
+        pubDate: 2008,
     },
     {
         title: "A Discovery of Witches",
@@ -2049,6 +2119,20 @@ let bookData = [
         myRating: "Loved",
         pubDate: 2017,
     },
+    {
+        title: "The 123s of D&D",
+        author: "Ivan Van Norman",
+        authorLast: "Van Norman, Ivan",
+        myRating: "Liked",
+        pubDate: 2018,
+    },
+    {
+        title: "The ABCs of D&D",
+        author: "Ivan Van Norman",
+        authorLast: "Van Norman, Ivan",
+        myRating: "Liked",
+        pubDate: 2018,
+    },
     /*===========================
     Author First Name - J's
     ===========================*/
@@ -2268,6 +2352,20 @@ let bookData = [
         authorLast: "McGonigal, Jane",
         myRating: "Liked",
         pubDate: 2015,
+    },
+    {
+        title: "The Puppy Who Wanted a Boy",
+        author: "Jane Thayer",
+        authorLast: "Thayer, Jane",
+        myRating: "Liked",
+        pubDate: 1958,
+    },
+    {
+        title: "The Poky Little Puppy",
+        author: "Janette Sebring Lowrey",
+        authorLast: "Lowrey, Janette Sebring",
+        myRating: "Disliked",
+        pubDate: 1942,
     },
     {
         title: "Ten Arguments For Deleting Your Social Media Accounts Right Now",
@@ -2669,6 +2767,34 @@ let bookData = [
         pubDate: 2007,
     },
     {
+        title: "Hello World! Solar System",
+        author: "Jill McDonald",
+        authorLast: "McDonald, Jill",
+        myRating: "Liked",
+        pubDate: 2016,
+    },
+    {
+        title: "Hello World! Birds",
+        author: "Jill McDonald",
+        authorLast: "McDonald, Jill",
+        myRating: "Liked",
+        pubDate: 2017,
+    },
+    {
+        title: "Hello World! Dinosaurs",
+        author: "Jill McDonald",
+        authorLast: "McDonald, Jill",
+        myRating: "Liked",
+        pubDate: 2018,
+    },
+    {
+        title: "Hello World! Camping",
+        author: "Jill McDonald",
+        authorLast: "McDonald, Jill",
+        myRating: "Liked",
+        pubDate: 2023,
+    },
+    {
         title: "Storm Front",
         author: "Jim Butcher",
         authorLast: "Butcher, Jim",
@@ -2893,6 +3019,69 @@ let bookData = [
         pubDate: 2012,
     },
     {
+        title: "Curses",
+        author: "Jim Butcher",
+        authorLast: "Butcher, Jim",
+        myRating: "Liked",
+        pubDate: 2018,
+    },
+    {
+        title: "Even Hand",
+        author: "Jim Butcher",
+        authorLast: "Butcher, Jim",
+        myRating: "Liked",
+        pubDate: 2018,
+    },
+    {
+        title: "Bigfoot On Campus",
+        author: "Jim Butcher",
+        authorLast: "Butcher, Jim",
+        myRating: "Liked",
+        pubDate: 2018,
+    },
+    {
+        title: "Jury Duty",
+        author: "Jim Butcher",
+        authorLast: "Butcher, Jim",
+        myRating: "Liked",
+        pubDate: 2018,
+    },
+    {
+        title: "Day One",
+        author: "Jim Butcher",
+        authorLast: "Butcher, Jim",
+        myRating: "Liked",
+        pubDate: 2018,
+    },
+    {
+        title: "Zoo Day",
+        author: "Jim Butcher",
+        authorLast: "Butcher, Jim",
+        myRating: "Loved",
+        pubDate: 2018,
+    },
+    {
+        title: "Bombshells",
+        author: "Jim Butcher",
+        authorLast: "Butcher, Jim",
+        myRating: "Liked",
+        pubDate: 2018,
+    },
+    {
+        title: "Cold Case",
+        author: "Jim Butcher",
+        authorLast: "Butcher, Jim",
+        myRating: "Liked",
+        pubDate: 2018,
+    },
+    {
+        title: "Monsters",
+        author: "Jim Butcher",
+        authorLast: "Butcher, Jim",
+        myRating: "Liked",
+        pubDate: 2019,
+    },
+    {
         title: "Rick and Morty vs. Dungeons & Dragons II",
         author: "Jim Zub",
         authorLast: "Zub, Jim",
@@ -3068,6 +3257,13 @@ let bookData = [
         pubDate: 1996,
     },
     {
+        title: "Touch-and-Feel Colors",
+        author: "Jonathan Litton",
+        authorLast: "Litton, Jonathan",
+        myRating: "Meh",
+        pubDate: 2017,
+    },
+    {
         title: "Nights of the Living Dead",
         author: "Jonathan Maberry",
         authorLast: "Maberry, Jonathan",
@@ -3094,6 +3290,13 @@ let bookData = [
         authorLast: "Ellenberg, Jordan",
         myRating: "Liked",
         pubDate: 2014,
+    },
+    {
+        title:"Adopting a Dinosaur",
+        author: "José Carlos Andrés",
+        authorLast: "Andrés, José Carlos",
+        myRating: "Meh",
+        pubDate: 2019,
     },
     {
         title: "Bird Box",
@@ -3452,6 +3655,13 @@ let bookData = [
         pubDate: 2007,
     },
     {
+        title: "I Love You More",
+        author: "Laura Duksta",
+        authorLast: "Duksta, Laura",
+        myRating: "Liked",
+        pubDate: 2001,
+    },
+    {
         title: "A Secret Life",
         author: "Laura Peyton Roberts",
         authorLast: "Roberts, Laura Peyton",
@@ -3784,6 +3994,20 @@ let bookData = [
         pubDate: 1999,
     },
     {
+        title: "The Rainbow Fish",
+        author: "Marcus Pfister",
+        authorLast: "Pfister, Marcus",
+        myRating: "Loved",
+        pubDate: 1992,
+    },
+    {
+        title: "Goodnight Moon",
+        author: "Margaret Wise Brown",
+        authorLast: "Brown, Margaret Wise",
+        myRating: "Meh",
+        pubDate: 1947,
+    },
+    {
         title: "The Official Pokémon Handbook",
         author: "Maria Barbo",
         authorLast: "Barbo, Maria",
@@ -3994,6 +4218,13 @@ let bookData = [
         pubDate: 2021,
     },
     {
+        title: "Everybody Potties",
+        author: "Minnie Birdsong",
+        authorLast: "Birdsong, Minnie",
+        myRating: "Liked",
+        pubDate: 2020,
+    },
+    {
         title: "AsapSCIENCE",
         author: "Mitchell Moffit",
         authorLast: "Moffit, Mitchell",
@@ -4074,6 +4305,13 @@ let bookData = [
         pubDate: 1990,
     },
     {
+        title: "You're My Little Honey Bunny",
+        author: "Nicola Edwards",
+        authorLast: "Edwards, Nicola",
+        myRating: "Meh",
+        pubDate: 2019,
+    },
+    {
         title: "Everything, Everything",
         author: "Nicola Yoon",
         authorLast: "Yoon, Nicola",
@@ -4129,6 +4367,13 @@ let bookData = [
     Author First Name - P's
     ===========================*/
     {
+        title: "Brothers Forever",
+        author: "P.K. Hallinan",
+        authorLast: "Hallinan, P.K.",
+        myRating: "Liked",
+        pubDate: 2010,
+    },
+    {
         title: "100 Things We've Lost to the Internet",
         author: "Pamela Paul",
         authorLast: "Paul, Pamela",
@@ -4162,6 +4407,13 @@ let bookData = [
         authorLast: "Rothfuss, Patrick",
         myRating: "Loved",
         pubDate: 2011,
+    },
+    {
+        title: "The Narrow Road Between Desiresr",
+        author: "Patrick Rothfuss",
+        authorLast: "Rothfuss, Patrick",
+        myRating: "Loved",
+        pubDate: 2023,
     },
     {
         title: "Rick and Morty vs. Dungeons & Dragons",
@@ -4287,6 +4539,13 @@ let bookData = [
         authorLast: "Sproul, R.C.",
         myRating: "Liked",
         pubDate: 2014,
+    },
+    {
+        title: "Can I Lose My Salvation?",
+        author: "R.C. Sproul",
+        authorLast: "Sproul, R.C.",
+        myRating: "Liked",
+        pubDate: 2015,
     },
     {
         title: "How Should I Think About Money?",
@@ -4884,6 +5143,13 @@ let bookData = [
         pubDate: 2017,
     },
     {
+        title: "All the Love in the World",
+        author: "Rose Bunting",
+        authorLast: "Bunting, Rose",
+        myRating: "Loved",
+        pubDate: 2016,
+    },
+    {
         title: "Arrested Development",
         author: "Running Press",
         authorLast: "Running Press",
@@ -5041,6 +5307,13 @@ let bookData = [
         pubDate: 2017,
     },
     {
+        title: "I Quit Sugar",
+        author: "Sarah Wilson",
+        authorLast: "Wilson, Sarah",
+        myRating: "Meh",
+        pubDate: 2013,
+    },
+    {
         title: "Level Up!: The Guide to Great Video Game Design",
         author: "Scott Rogers",
         authorLast: "Rogers, Scott",
@@ -5130,6 +5403,13 @@ let bookData = [
         authorLast: "Alexie, Sherman",
         myRating: "Liked",
         pubDate: 2007,
+    },
+    {
+        title: "Reclaiming Conversation",
+        author: "Sherry Turkle",
+        authorLast: "Turkle, Sherry",
+        myRating: "Liked",
+        pubDate: 2015,
     },
     {
         title: "Lean In",
