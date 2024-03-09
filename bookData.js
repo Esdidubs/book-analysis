@@ -954,6 +954,13 @@ let bookData = [
         pubDate: 2012,
     },
     {
+        title: "Supercommunicators",
+        author: "Charles Duhigg",
+        authorLast: "Duhigg, Charles",
+        myRating: "Liked",
+        pubDate: 2024,
+    },
+    {
         title: "Python for Everybody",
         author: "Charles Severance",
         authorLast: "Severance, Charles",
@@ -1765,6 +1772,13 @@ let bookData = [
         pubDate: 2017,
     },
     {
+        title: "What's Your Favorite Food?",
+        author: "Eric Carle",
+        authorLast: "Carle, Eric",
+        myRating: "Meh",
+        pubDate: 2019,
+    },
+    {
         title: "Ready Player One",
         author: "Ernest Cline",
         authorLast: "Cline, Ernest",
@@ -2351,6 +2365,13 @@ let bookData = [
         author: "James Wyatt",
         authorLast: "Wyatt, James",
         myRating: "Loved",
+        pubDate: 2014,
+    },
+    {
+        title: "Wolf and Quack in Winter",
+        author: "Jamie Swenson",
+        authorLast: "Swenson, Jamie",
+        myRating: "Meh",
         pubDate: 2014,
     },
     {
@@ -3138,6 +3159,13 @@ let bookData = [
         pubDate: 2001,
     },
     {
+        title: "Epic",
+        author: "John Eldredge",
+        authorLast: "Eldredge, John",
+        myRating: "Liked",
+        pubDate: 2004,
+    },
+    {
         title: "Looking for God in Harry Potter",
         author: "John Granger",
         authorLast: "Granger, John",
@@ -3229,6 +3257,13 @@ let bookData = [
         pubDate: 2019,
     },
     {
+        title: "Practicing The Way",
+        author: "John Mark Comer",
+        authorLast: "Comer, John Mark",
+        myRating: "Loved",
+        pubDate: 2024,
+    },
+    {
         title: "BiblioTech",
         author: "John Palfrey",
         authorLast: "Palfrey, John",
@@ -3241,6 +3276,13 @@ let bookData = [
         authorLast: "Piper, John",
         myRating: "Liked",
         pubDate: 1990,
+    },
+    {
+        title: "Rethinking Retirement",
+        author: "John Piper",
+        authorLast: "Piper, John",
+        myRating: "Liked",
+        pubDate: 2009,
     },
     {
         title: "Doom Guy",
@@ -3655,6 +3697,13 @@ let bookData = [
         pubDate: 1991,
     },
     {
+        title: "Little Boo's Halloween Party",
+        author: "Lala Watkins",
+        authorLast: "Watkins, Lala",
+        myRating: "Meh",
+        pubDate: 2023,
+    },
+    {
         title: "I Love You, Beth Cooper",
         author: "Larry Doyle",
         authorLast: "Doyle, Larry",
@@ -3709,6 +3758,13 @@ let bookData = [
         authorLast: "Bardugo, Leigh",
         myRating: "Liked",
         pubDate: 2019,
+    },
+    {
+        title: "Hell Bent",
+        author: "Leigh Bardugo",
+        authorLast: "Bardugo, Leigh",
+        myRating: "Meh",
+        pubDate: 2023,
     },
     {
         title: "The Bad Beginning",
@@ -3835,6 +3891,13 @@ let bookData = [
         authorLast: "Bray, Libba",
         myRating: "Loved",
         pubDate: 2009,
+    },
+    {
+        title: "My First Dino-Halloween",
+        author: "Lisa Wheeler",
+        authorLast: "Wheeler, Lisa",
+        myRating: "Meh",
+        pubDate: 2023,
     },
     {
         title: "The Giver",
@@ -4132,6 +4195,13 @@ let bookData = [
         authorLast: "Shelley, Mary",
         myRating: "Meh",
         pubDate: 1818,
+    },
+    {
+        title: "The Power of Yet",
+        author: "Maryann Cocca-Leffler",
+        authorLast: "Cocca-Leffler, Maryann",
+        myRating: "Liked",
+        pubDate: 2021,
     },
     {
         title: "The Midnight Library",
@@ -6053,6 +6123,12 @@ let bookData = [
         author: "Zac Gorman",
         authorLast: "Gorman, Zac",
         myRating: "Liked",
+        pubDate: 2015,
+    },{
+        title: "Bats of the Republic",
+        author: "Zachary Thomas Dodson",
+        authorLast: "Dodson, Zachary Thomas",
+        myRating: "Meh",
         pubDate: 2015,
     },
     {
