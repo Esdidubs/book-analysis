@@ -3267,6 +3267,13 @@ let bookData = [
     pubDate: 1817,
   },
   {
+    title: "Sense and Sensibility",
+    author: "Jane Austen",
+    authorLast: "Austen, Jane",
+    myRating: "Liked",
+    pubDate: 1811,
+  },
+  {
     title: "Cat's Colors",
     author: "Jane Cabrera",
     authorLast: "Cabrera, Jane",
