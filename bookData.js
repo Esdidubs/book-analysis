@@ -185,6 +185,13 @@ let bookData = [
     pubDate: 2024,
   },
   {
+    title: "The Three Musketeers",
+    author: "Alexandre Dumas",
+    authorLast: "Dumas, Alexandre",
+    myRating: "Meh",
+    pubDate: 1844,
+  },
+  {
     title: "Bad Choices",
     author: "Ali Almossawi",
     authorLast: "Almossawi, Ali",
@@ -1137,6 +1144,13 @@ let bookData = [
   },
   {
     title: "Endangered Species",
+    author: "Catherine Hapka",
+    authorLast: "Hapka, Catherine",
+    myRating: "Liked",
+    pubDate: 2005,
+  },
+  {
+    title: "Secret Identity",
     author: "Catherine Hapka",
     authorLast: "Hapka, Catherine",
     myRating: "Liked",
@@ -2385,6 +2399,20 @@ let bookData = [
     pubDate: 2009,
   },
   {
+    title: "The Wonderful Wizard of Oz",
+    author: "Frank L. Baum",
+    authorLast: "Baum, Frank L.",
+    myRating: "Liked",
+    pubDate: 1900,
+  },
+  {
+    title: "Signs of Life",
+    author: "Frank T. Thompson",
+    authorLast: "Thompson, Frank T.",
+    myRating: "Liked",
+    pubDate: 2004,
+  },
+  {
     title: "The Housemaid",
     author: "Freida McFadden",
     authorLast: "McFadden, Freida",
@@ -3237,6 +3265,13 @@ let bookData = [
     authorLast: "Howe, James",
     myRating: "Meh",
     pubDate: 1995,
+  },
+  {
+    title: "Scared Silly",
+    author: "James Howe",
+    authorLast: "Howe, James",
+    myRating: "Meh",
+    pubDate: 1989,
   },
   {
     title: "Player's Handbook",
@@ -4408,6 +4443,13 @@ let bookData = [
     pubDate: 1729,
   },
   {
+    title: "Gulliver's Travels",
+    author: "Jonathan Swift",
+    authorLast: "Swift, Jonathan",
+    myRating: "Meh",
+    pubDate: 1726,
+  },
+  {
     title: "Move Fast and Break Things",
     author: "Jonathan Taplin",
     authorLast: "Taplin, Jonathan",
@@ -4525,6 +4567,13 @@ let bookData = [
     authorLast: "Verne, Jules",
     myRating: "Liked",
     pubDate: 1990,
+  },
+  {
+    title: "Around the World in 80 Days",
+    author: "Jules Verne",
+    authorLast: "Verne, Jules",
+    myRating: "Liked",
+    pubDate: 1872,
   },
   {
     title: "Room on the Broom",
@@ -5360,6 +5409,13 @@ let bookData = [
     authorLast: "Gladwell, Malcolm",
     myRating: "Liked",
     pubDate: 2002,
+  },
+  {
+    title: "Revenge of the Tipping Point",
+    author: "Malcolm Gladwell",
+    authorLast: "Gladwell, Malcolm",
+    myRating: "Liked",
+    pubDate: 2024,
   },
   {
     title: "David and Goliath",
@@ -7445,6 +7501,13 @@ let bookData = [
     pubDate: 1983,
   },
   {
+    title: "Salem's Lot",
+    author: "Stephen King",
+    authorLast: "King, Stephen",
+    myRating: "Loved",
+    pubDate: 1975,
+  },
+  {
     title: "The Stand",
     author: "Stephen King",
     authorLast: "King, Stephen",
@@ -7478,6 +7541,13 @@ let bookData = [
     authorLast: "King, Stephen",
     myRating: "Liked",
     pubDate: 2009,
+  },
+  {
+    title: "Cycle of the Werewolf",
+    author: "Stephen King",
+    authorLast: "King, Stephen",
+    myRating: "Liked",
+    pubDate: 1983,
   },
   {
     title: "Building Your Band of Brothers",
