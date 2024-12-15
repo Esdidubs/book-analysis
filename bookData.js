@@ -4149,6 +4149,13 @@ let bookData = [
     pubDate: 2019,
   },
   {
+    title: "Side Jobs",
+    author: "Jim Butcher",
+    authorLast: "Butcher, Jim",
+    myRating: "Liked",
+    pubDate: 2010,
+  },
+  {
     title: "Rick and Morty vs. Dungeons & Dragons II",
     author: "Jim Zub",
     authorLast: "Zub, Jim",
