@@ -2632,6 +2632,13 @@ let bookData = [
     pubDate: 2023,
   },
   {
+    title: `Witchcraft for Wayward Girls`,
+    author: `Grady Hendrix`,
+    authorLast: `Hendrix, Grady`,
+    myRating: `Liked`,
+    pubDate: 2025,
+  },
+  {
     title: `What is the Gospel`,
     author: `Greg Gilbert`,
     authorLast: `Gilbert, Greg`,
